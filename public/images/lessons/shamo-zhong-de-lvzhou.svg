@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="沙漠中绿洲和椰枣树插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">沙漠中的绿洲</text>
+  <line x1="270" y1="56" x2="530" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——沙海中的生命之岛</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="90" width="800" height="180" fill="#a8d0e8" opacity="0.4"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="140" r="25" fill="#e07856" opacity="0.7"/>
+  <circle cx="680" cy="140" r="18" fill="#c8843a"/>
+
+  <!-- 远处沙丘 -->
+  <path d="M0 270 Q200 220 400 250 Q600 210 800 260 L800 300 L0 300 Z" fill="#c8843a" opacity="0.4"/>
+  <path d="M0 300 Q150 270 350 290 Q550 260 800 300 L800 340 L0 340 Z" fill="#c8843a" opacity="0.5"/>
+
+  <!-- 沙漠地面 -->
+  <rect x="0" y="340" width="800" height="260" fill="#e0c898"/>
+  <rect x="0" y="340" width="800" height="260" fill="#c8843a" opacity="0.15"/>
+  <!-- 沙纹 -->
+  <g stroke="#c8843a" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M0 380 Q100 375 200 380 Q300 385 400 380"/>
+    <path d="M400 390 Q500 385 600 390 Q700 395 800 390"/>
+    <path d="M0 430 Q150 425 300 430 Q450 435 600 430"/>
+    <path d="M200 470 Q350 465 500 470 Q650 475 800 470"/>
+    <path d="M0 520 Q200 515 400 520 Q600 525 800 520"/>
+  </g>
+
+  <!-- 绿洲（中间） -->
+  <!-- 绿洲地面 -->
+  <ellipse cx="400" cy="450" rx="200" ry="50" fill="#6a8d3f" opacity="0.4"/>
+  <ellipse cx="400" cy="450" rx="170" ry="40" fill="#4a6a2f" opacity="0.3"/>
+
+  <!-- 水池 -->
+  <ellipse cx="400" cy="460" rx="80" ry="25" fill="#7ab8d8" stroke="#4a6a8f" stroke-width="2"/>
+  <ellipse cx="400" cy="458" rx="65" ry="18" fill="#a8d0e8" opacity="0.6"/>
+  <!-- 水波纹 -->
+  <path d="M350 458 Q370 455 390 458 Q410 461 430 458 Q450 455 460 458" fill="none" stroke="#fef9ed" stroke-width="1" opacity="0.5"/>
+  <path d="M360 465 Q380 462 400 465 Q420 468 440 465" fill="none" stroke="#fef9ed" stroke-width="1" opacity="0.4"/>
+
+  <!-- 椰枣树（左） -->
+  <g transform="translate(280, 400)">
+    <!-- 树干 -->
+    <path d="M0 60 Q-3 30 0 0 Q2 -20 0 -40" fill="none" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+    <!-- 树干纹理 -->
+    <path d="M-3 30 L3 30 M-2 10 L2 10 M-3 -10 L3 -10" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <!-- 树叶（椰枣叶，羽状） -->
+    <g stroke="#4a6a2f" stroke-width="3" fill="none">
+      <path d="M0 -40 Q-20 -55 -35 -50"/>
+      <path d="M0 -40 Q-25 -50 -40 -40"/>
+      <path d="M0 -40 Q-20 -60 -30 -65"/>
+      <path d="M0 -40 Q0 -60 0 -70"/>
+      <path d="M0 -40 Q20 -60 30 -65"/>
+      <path d="M0 -40 Q25 -50 40 -40"/>
+      <path d="M0 -40 Q20 -55 35 -50"/>
+    </g>
+    <!-- 叶片细节 -->
+    <g fill="#6a8d3f" opacity="0.7">
+      <ellipse cx="-25" cy="-52" rx="8" ry="3" transform="rotate(-20 -25 -52)"/>
+      <ellipse cx="25" cy="-52" rx="8" ry="3" transform="rotate(20 25 -52)"/>
+      <ellipse cx="-30" cy="-42" rx="8" ry="3" transform="rotate(-10 -30 -42)"/>
+      <ellipse cx="30" cy="-42" rx="8" ry="3" transform="rotate(10 30 -42)"/>
+    </g>
+    <!-- 椰枣 -->
+    <g fill="#c84a3a">
+      <circle cx="-5" cy="-35" r="3"/>
+      <circle cx="3" cy="-33" r="3"/>
+      <circle cx="-2" cy="-30" r="3"/>
+      <circle cx="6" cy="-36" r="2.5"/>
+    </g>
+  </g>
+
+  <!-- 椰枣树（右） -->
+  <g transform="translate(520, 400)">
+    <path d="M0 60 Q3 30 0 0 Q-2 -20 0 -40" fill="none" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-3 30 L3 30 M-2 10 L2 10 M-3 -10 L3 -10" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <g stroke="#4a6a2f" stroke-width="3" fill="none">
+      <path d="M0 -40 Q-20 -55 -35 -50"/>
+      <path d="M0 -40 Q-25 -50 -40 -40"/>
+      <path d="M0 -40 Q-20 -60 -30 -65"/>
+      <path d="M0 -40 Q0 -60 0 -70"/>
+      <path d="M0 -40 Q20 -60 30 -65"/>
+      <path d="M0 -40 Q25 -50 40 -40"/>
+      <path d="M0 -40 Q20 -55 35 -50"/>
+    </g>
+    <g fill="#6a8d3f" opacity="0.7">
+      <ellipse cx="-25" cy="-52" rx="8" ry="3" transform="rotate(-20 -25 -52)"/>
+      <ellipse cx="25" cy="-52" rx="8" ry="3" transform="rotate(20 25 -52)"/>
+      <ellipse cx="-30" cy="-42" rx="8" ry="3" transform="rotate(-10 -30 -42)"/>
+      <ellipse cx="30" cy="-42" rx="8" ry="3" transform="rotate(10 30 -42)"/>
+    </g>
+    <g fill="#c84a3a">
+      <circle cx="-3" cy="-35" r="3"/>
+      <circle cx="5" cy="-33" r="3"/>
+      <circle cx="0" cy="-30" r="3"/>
+      <circle cx="-6" cy="-36" r="2.5"/>
+    </g>
+  </g>
+
+  <!-- 小灌木和草 -->
+  <g transform="translate(340, 450)">
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#6a8d3f" opacity="0.6"/>
+    <ellipse cx="-5" cy="-3" rx="8" ry="5" fill="#4a6a2f" opacity="0.5"/>
+  </g>
+  <g transform="translate(460, 455)">
+    <ellipse cx="0" cy="0" rx="12" ry="6" fill="#6a8d3f" opacity="0.6"/>
+  </g>
+
+  <!-- 地下水标注 -->
+  <g transform="translate(120, 500)">
+    <rect x="-80" y="0" width="160" height="55" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">水从哪里来？</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">远处山上雨雪渗入地下</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">在地下流到沙漠涌出</text>
+  </g>
+
+  <!-- 地下水流示意 -->
+  <g opacity="0.4">
+    <path d="M50 270 Q100 350 200 420 Q300 460 380 460" fill="none" stroke="#7ab8d8" stroke-width="3" stroke-dasharray="5 3"/>
+    <text x="100" y="340" font-family="serif" font-size="10" fill="#4a6a8f">地下水</text>
+  </g>
+
+  <!-- 骆驼（远处沙丘上） -->
+  <g transform="translate(650, 330)">
+    <ellipse cx="0" cy="0" rx="20" ry="8" fill="#8d5a36" opacity="0.6"/>
+    <path d="M-15 -5 Q-10 -15 -5 -5 M5 -5 Q10 -15 15 -5" fill="#8d5a36" opacity="0.6" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="-20" cy="-3" rx="6" ry="4" fill="#8d5a36" opacity="0.6"/>
+    <line x1="-10" y1="5" x2="-12" y2="12" stroke="#8d5a36" stroke-width="3" opacity="0.6"/>
+    <line x1="10" y1="5" x2="12" y2="12" stroke="#8d5a36" stroke-width="3" opacity="0.6"/>
+  </g>
+</svg>

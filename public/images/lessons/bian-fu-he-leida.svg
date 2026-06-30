@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="蝙蝠发出超声波避开障碍物与飞机雷达探测的对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">蝙蝠和雷达</text>
+  <line x1="330" y1="58" x2="470" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左半：蝙蝠（夜空） -->
+  <rect x="30" y="80" width="350" height="420" rx="10" fill="#3a4a6a" opacity="0.15"/>
+  <text x="205" y="108" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">蝙蝠：超声波探路</text>
+
+  <!-- 蝙蝠 -->
+  <g transform="translate(120,250)">
+    <ellipse cx="0" cy="0" rx="22" ry="16" fill="#5a3a4a"/>
+    <circle cx="0" cy="-8" r="14" fill="#6a4a5a"/>
+    <!-- 翅膀 -->
+    <path d="M-18 -2 Q-60 -30 -80 0 Q-60 10 -18 8 Z" fill="#5a3a4a"/>
+    <path d="M18 -2 Q60 -30 80 0 Q60 10 18 8 Z" fill="#5a3a4a"/>
+    <!-- 耳朵 -->
+    <path d="M-8 -20 L-12 -30 L-4 -22 Z" fill="#5a3a4a"/>
+    <path d="M8 -20 L12 -30 L4 -22 Z" fill="#5a3a4a"/>
+    <!-- 眼睛 -->
+    <circle cx="-5" cy="-10" r="2" fill="#fff6df"/>
+    <circle cx="5" cy="-10" r="2" fill="#fff6df"/>
+  </g>
+
+  <!-- 超声波（从嘴发出） -->
+  <g fill="none" stroke="#7ab8d8" stroke-width="2" opacity="0.7">
+    <path d="M120 268 Q160 280 200 290"/>
+    <path d="M120 272 Q170 290 220 300"/>
+    <path d="M120 276 Q180 300 240 310"/>
+  </g>
+  <!-- 回声（弹回） -->
+  <g fill="none" stroke="#e07856" stroke-width="2" stroke-dasharray="4,3" opacity="0.7">
+    <path d="M200 290 Q150 260 130 250"/>
+    <path d="M240 310 Q170 270 135 255"/>
+  </g>
+
+  <!-- 障碍物（树和细铁丝） -->
+  <rect x="300" y="200" width="6" height="240" fill="#8d5a36"/>
+  <path d="M303 200 Q290 180 280 195 Q285 210 303 210 Z" fill="#6a8d3f"/>
+  <path d="M303 240 Q315 225 325 238 Q320 250 303 248 Z" fill="#6a8d3f"/>
+  <!-- 细铁丝 -->
+  <line x1="60" y1="340" x2="290" y2="340" stroke="#c8c8c8" stroke-width="1.5"/>
+  <line x1="60" y1="380" x2="290" y2="380" stroke="#c8c8c8" stroke-width="1.5"/>
+
+  <!-- 标注：嘴发声 -->
+  <line x1="125" y1="270" x2="80" y2="320" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="40" y="326" width="90" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="85" y="345" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">嘴发声</text>
+
+  <!-- 标注：耳听回声 -->
+  <line x1="112" y1="228" x2="80" y2="180" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="40" y="160" width="90" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="85" y="179" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">耳听回声</text>
+
+  <!-- 右半：飞机雷达 -->
+  <rect x="420" y="80" width="350" height="420" rx="10" fill="#a8d0e8" opacity="0.2"/>
+  <text x="595" y="108" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">飞机：雷达探测</text>
+
+  <!-- 飞机 -->
+  <g transform="translate(560,250)">
+    <ellipse cx="0" cy="0" rx="40" ry="12" fill="#e8e8e8" stroke="#8d8d8d" stroke-width="1.5"/>
+    <path d="M-30 -2 L-50 -18 L-44 -2 Z" fill="#d8d8d8" stroke="#8d8d8d" stroke-width="1.5"/>
+    <path d="M-30 2 L-50 18 L-44 2 Z" fill="#d8d8d8" stroke="#8d8d8d" stroke-width="1.5"/>
+    <path d="M20 -2 L35 -14 L30 -2 Z" fill="#d8d8d8" stroke="#8d8d8d" stroke-width="1.5"/>
+    <circle cx="30" cy="0" r="3" fill="#7ab8d8"/>
+    <!-- 雷达天线 -->
+    <path d="M40 0 Q50 -8 56 0" fill="none" stroke="#8d8d8d" stroke-width="2"/>
+  </g>
+
+  <!-- 无线电波（从雷达发出） -->
+  <g fill="none" stroke="#7ab8d8" stroke-width="2" opacity="0.8">
+    <path d="M616 250 Q650 260 680 270"/>
+    <path d="M616 254 Q655 270 690 282"/>
+    <path d="M616 258 Q660 280 700 294"/>
+  </g>
+  <!-- 回波 -->
+  <g fill="none" stroke="#e07856" stroke-width="2" stroke-dasharray="4,3" opacity="0.7">
+    <path d="M680 270 Q640 250 620 248"/>
+    <path d="M700 294 Q650 260 624 252"/>
+  </g>
+
+  <!-- 远处山头（障碍物） -->
+  <path d="M640 420 Q680 360 720 420 Z" fill="#8d5a36" opacity="0.6"/>
+  <path d="M690 420 Q720 380 750 420 Z" fill="#a8703a" opacity="0.6"/>
+
+  <!-- 标注：天线发射 -->
+  <line x1="600" y1="252" x2="560" y2="300" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="500" y="306" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="550" y="325" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">天线发射</text>
+
+  <!-- 标注：接收回波 -->
+  <line x1="620" y1="248" x2="660" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="620" y="178" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="670" y="197" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">接收回波</text>
+
+  <!-- 中间等号 -->
+  <text x="400" y="270" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#c84a3a">≈</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">蝙蝠用嘴发超声波、用耳听回声；雷达用天线发电波、用接收器收回波，原理几乎一样。</text>
+</svg>

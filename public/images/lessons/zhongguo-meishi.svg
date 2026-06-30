@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各种中国美食和烹饪方式的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">中国美食</text>
+  <line x1="330" y1="62" x2="470" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 桌面 -->
+  <ellipse cx="400" cy="540" rx="380" ry="50" fill="#8d5a36" opacity="0.25"/>
+
+  <!-- 凉拌菠菜（左上） -->
+  <g transform="translate(80, 110)">
+    <ellipse cx="60" cy="50" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <rect x="8" y="35" width="104" height="18" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="60" cy="35" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <!-- 菠菜 -->
+    <ellipse cx="45" cy="30" rx="12" ry="8" fill="#6a8d3f"/>
+    <ellipse cx="65" cy="28" rx="12" ry="8" fill="#6a8d3f"/>
+    <ellipse cx="55" cy="33" rx="10" ry="7" fill="#4a6a2f"/>
+    <!-- 红椒丝 -->
+    <rect x="40" y="28" width="3" height="10" fill="#c84a3a" rx="1"/>
+    <rect x="62" y="26" width="3" height="10" fill="#c84a3a" rx="1"/>
+    <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">凉拌菠菜</text>
+  </g>
+
+  <!-- 香煎豆腐（中上） -->
+  <g transform="translate(320, 110)">
+    <ellipse cx="60" cy="50" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <rect x="8" y="35" width="104" height="18" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="60" cy="35" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <!-- 豆腐块 -->
+    <rect x="35" y="22" width="20" height="16" fill="#f0d8a0" stroke="#c8843a" stroke-width="1.5" rx="2"/>
+    <rect x="58" y="22" width="20" height="16" fill="#e0b868" stroke="#c8843a" stroke-width="1.5" rx="2"/>
+    <rect x="46" y="30" width="20" height="16" fill="#f0d8a0" stroke="#c8843a" stroke-width="1.5" rx="2"/>
+    <!-- 葱花 -->
+    <circle cx="40" cy="25" r="2" fill="#6a8d3f"/>
+    <circle cx="68" cy="27" r="2" fill="#6a8d3f"/>
+    <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">香煎豆腐</text>
+  </g>
+
+  <!-- 红烧茄子（右上） -->
+  <g transform="translate(560, 110)">
+    <ellipse cx="60" cy="50" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <rect x="8" y="35" width="104" height="18" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="60" cy="35" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <!-- 茄子 -->
+    <ellipse cx="45" cy="28" rx="14" ry="7" fill="#7a4a8a" transform="rotate(-15 45 28)"/>
+    <ellipse cx="70" cy="30" rx="14" ry="7" fill="#7a4a8a" transform="rotate(10 70 30)"/>
+    <ellipse cx="55" cy="33" rx="12" ry="6" fill="#9a6aaa"/>
+    <!-- 酱汁 -->
+    <ellipse cx="60" cy="38" rx="40" ry="4" fill="#8d5a36" opacity="0.4"/>
+    <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">红烧茄子</text>
+  </g>
+
+  <!-- 烤鸭（左下） -->
+  <g transform="translate(80, 310)">
+    <ellipse cx="60" cy="50" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <rect x="8" y="35" width="104" height="18" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="60" cy="35" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <!-- 鸭肉片 -->
+    <ellipse cx="45" cy="30" rx="12" ry="6" fill="#c8843a"/>
+    <ellipse cx="68" cy="28" rx="12" ry="6" fill="#c8843a"/>
+    <ellipse cx="55" cy="33" rx="11" ry="5" fill="#e07856"/>
+    <!-- 薄饼 -->
+    <ellipse cx="35" cy="35" rx="8" ry="4" fill="#f0e0c0" stroke="#c8843a" stroke-width="1"/>
+    <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">北京烤鸭</text>
+  </g>
+
+  <!-- 水煮鱼（中下） -->
+  <g transform="translate(320, 310)">
+    <ellipse cx="60" cy="50" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <rect x="8" y="35" width="104" height="18" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="60" cy="35" rx="55" ry="15" fill="#a8d0e8" opacity="0.5" stroke="#c8843a" stroke-width="2"/>
+    <!-- 鱼片 -->
+    <ellipse cx="50" cy="30" rx="14" ry="6" fill="#f0e0c0" stroke="#c8843a" stroke-width="1.5"/>
+    <ellipse cx="68" cy="32" rx="12" ry="5" fill="#f0e0c0" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 辣椒 -->
+    <ellipse cx="40" cy="28" rx="3" ry="6" fill="#c84a3a"/>
+    <ellipse cx="75" cy="29" rx="3" ry="6" fill="#c84a3a"/>
+    <ellipse cx="58" cy="34" rx="3" ry="5" fill="#c84a3a"/>
+    <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">水煮鱼</text>
+  </g>
+
+  <!-- 葱爆羊肉（右下） -->
+  <g transform="translate(560, 310)">
+    <ellipse cx="60" cy="50" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <rect x="8" y="35" width="104" height="18" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="60" cy="35" rx="55" ry="15" fill="#fff8e0" stroke="#c8843a" stroke-width="2"/>
+    <!-- 羊肉片 -->
+    <ellipse cx="45" cy="30" rx="10" ry="5" fill="#c8843a"/>
+    <ellipse cx="68" cy="28" rx="10" ry="5" fill="#c8843a"/>
+    <ellipse cx="55" cy="33" rx="9" ry="4" fill="#e07856"/>
+    <!-- 葱段 -->
+    <rect x="38" y="26" width="4" height="8" fill="#6a8d3f" rx="1"/>
+    <rect x="72" y="28" width="4" height="8" fill="#fff8e0" stroke="#6a8d3f" stroke-width="1" rx="1"/>
+    <rect x="50" y="31" width="4" height="7" fill="#6a8d3f" rx="1"/>
+    <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">葱爆羊肉</text>
+  </g>
+
+  <!-- 烹饪方法标注 -->
+  <g transform="translate(400, 470)">
+    <rect x="-180" y="0" width="360" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">拌 · 煎 · 烧 · 烤 · 煮 · 爆 · 炖</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">中国美食做法多样，同样的食材用不同方法，味道大不一样</text>
+</svg>

@@ -1,0 +1,271 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const lessons = await getCollection("lessons");
+const gradeOrder = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"];
+
+// Group by theme for suggestion
+const themeGroups: Record<string, typeof lessons> = {};
+for (const lesson of lessons) {
+  const theme = lesson.data.theme;
+  if (!themeGroups[theme]) themeGroups[theme] = [];
+  themeGroups[theme].push(lesson);
+}
+
+// Pre-build suggested pairs (same theme, different authors)
+const suggestedPairs = Object.entries(themeGroups)
+  .filter(([, ls]) => ls.length >= 2)
+  .map(([theme, ls]) => ({
+    theme,
+    pairs: ls.slice(0, 2).map((l) => ({
+      slug: l.slug,
+      title: l.data.title,
+      grade: l.data.grade,
+      author: l.data.author,
+    })),
+  }))
+  .slice(0, 8);
+
+const lessonsJson = lessons.map((l) => ({
+  slug: l.slug,
+  title: l.data.title,
+  grade: l.data.grade,
+  theme: l.data.theme,
+  author: l.data.author,
+  era: l.data.era,
+  summary: l.data.summary,
+  funFact: l.data.funFact,
+  glossary: l.data.glossary,
+  takeaways: l.data.takeaways,
+  questions: l.data.questions,
+  image: l.data.image,
+  imageAlt: l.data.imageAlt,
+}));
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+---
+
+<BaseLayout title="课文对比阅读 - 课文背后的故事" description="把两篇课文放在一起对比阅读，发现它们的异同">
+  <section class="page-hero compact">
+    <p class="eyebrow">深度阅读</p>
+    <h1>课文对比阅读</h1>
+    <p>选择两篇课文并排放在一起，从主题、作者、时代和思考问题中寻找异同，培养比较阅读的能力。</p>
+  </section>
+
+  <section class="compare-page" id="comparePage">
+    <!-- Selection panel -->
+    <div class="compare-selector">
+      <div class="compare-select-slot">
+        <label for="selectA">课文 A</label>
+        <select id="selectA" class="compare-select">
+          <option value="">— 选择课文 —</option>
+          {lessons.map((l) => (
+            <option value={l.slug}>{l.data.title}（{l.data.grade}·{l.data.author}）</option>
+          ))}
+        </select>
+      </div>
+      <div class="compare-vs">VS</div>
+      <div class="compare-select-slot">
+        <label for="selectB">课文 B</label>
+        <select id="selectB" class="compare-select">
+          <option value="">— 选择课文 —</option>
+          {lessons.map((l) => (
+            <option value={l.slug}>{l.data.title}（{l.data.grade}·{l.data.author}）</option>
+          ))}
+        </select>
+      </div>
+    </div>
+
+    <!-- Suggested pairs -->
+    <div class="compare-suggestions">
+      <p class="compare-suggest-label">推荐对比组合（同主题）：</p>
+      <div class="compare-suggest-chips" id="suggestChips">
+        {suggestedPairs.map((group) => (
+          <button class="suggest-chip" type="button"
+            data-slug-a={group.pairs[0].slug}
+            data-slug-b={group.pairs[1]?.slug || ""}
+          >
+            {group.theme}：{group.pairs[0].title} × {group.pairs[1]?.title || ""}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <!-- Comparison area -->
+    <div class="compare-area" id="compareArea">
+      <div class="compare-empty" id="compareEmpty">
+        <span class="compare-empty-icon">⚖️</span>
+        <p>请在上方选择两篇课文，或点击推荐组合开始对比阅读</p>
+      </div>
+      <div class="compare-content" id="compareContent" hidden>
+        <!-- Info comparison -->
+        <div class="compare-info-row">
+          <div class="compare-info-cell" id="infoA"></div>
+          <div class="compare-info-cell" id="infoB"></div>
+        </div>
+        <!-- Dimension comparison -->
+        <div class="compare-dimensions" id="compareDimensions"></div>
+        <!-- Individual lesson details -->
+        <div class="compare-lessons">
+          <div class="compare-lesson-col" id="lessonColA"></div>
+          <div class="compare-lesson-col" id="lessonColB"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/json" id="compareData" set:html={JSON.stringify(lessonsJson)} />
+</BaseLayout>
+
+<script>
+  const lessonsData = JSON.parse(document.getElementById("compareData")?.textContent || "[]");
+  const lessonMap = new Map(lessonsData.map((l: any) => [l.slug, l]));
+
+  const selectA = document.getElementById("selectA") as HTMLSelectElement;
+  const selectB = document.getElementById("selectB") as HTMLSelectElement;
+  const compareEmpty = document.getElementById("compareEmpty")!;
+  const compareContent = document.getElementById("compareContent")!;
+  const infoA = document.getElementById("infoA")!;
+  const infoB = document.getElementById("infoB")!;
+  const compareDimensions = document.getElementById("compareDimensions")!;
+  const lessonColA = document.getElementById("lessonColA")!;
+  const lessonColB = document.getElementById("lessonColB")!;
+  const suggestChips = [...document.querySelectorAll<HTMLButtonElement>(".suggest-chip")];
+
+  function renderLessonInfo(el: HTMLElement, lesson: any) {
+    el.innerHTML = `
+      <img src="${lesson.image}" alt="${lesson.imageAlt}" class="compare-info-img" />
+      <h3>《${lesson.title}》</h3>
+      <div class="compare-info-meta">
+        <span>📅 ${lesson.grade}</span>
+        <span>✍️ ${lesson.author}</span>
+        <span>🏛️ ${lesson.era}</span>
+        <span>🏷️ ${lesson.theme}</span>
+      </div>
+      <p class="compare-info-summary">${lesson.summary}</p>
+    `;
+  }
+
+  function renderDimensions(la: any, lb: any) {
+    const dimensions = [
+      {
+        label: "年级",
+        a: la.grade,
+        b: lb.grade,
+        same: la.grade === lb.grade,
+      },
+      {
+        label: "作者",
+        a: la.author,
+        b: lb.author,
+        same: la.author === lb.author,
+      },
+      {
+        label: "时代",
+        a: la.era,
+        b: lb.era,
+        same: la.era === lb.era,
+      },
+      {
+        label: "主题",
+        a: la.theme,
+        b: lb.theme,
+        same: la.theme === lb.theme,
+      },
+    ];
+
+    compareDimensions.innerHTML = dimensions.map((d) => `
+      <div class="dim-row ${d.same ? "same" : "diff"}">
+        <div class="dim-label">${d.label}</div>
+        <div class="dim-val-a">${d.a}</div>
+        <div class="dim-icon">${d.same ? "＝" : "≠"}</div>
+        <div class="dim-val-b">${d.b}</div>
+      </div>
+    `).join("");
+  }
+
+  function renderLessonColumn(el: HTMLElement, lesson: any, label: string) {
+    const glossaryHtml = lesson.glossary.slice(0, 4).map((g: any) => `
+      <div class="compare-glossary-item">
+        <ruby>${g.term}<rt>${g.pinyin}</rt></ruby>
+        <span>${g.meaning}</span>
+      </div>
+    `).join("");
+
+    const questionsHtml = lesson.questions.slice(0, 3).map((q: string) => `
+      <li>${q}</li>
+    `).join("");
+
+    const takeawaysHtml = lesson.takeaways.slice(0, 3).map((t: string) => `
+      <li>${t}</li>
+    `).join("");
+
+    el.innerHTML = `
+      <div class="compare-col-header">${label}</div>
+      <div class="compare-col-section">
+        <h4>💡 冷知识</h4>
+        <p>${lesson.funFact}</p>
+      </div>
+      <div class="compare-col-section">
+        <h4>🔤 生字词</h4>
+        <div class="compare-glossary">${glossaryHtml}</div>
+      </div>
+      <div class="compare-col-section">
+        <h4>💭 思考问题</h4>
+        <ul class="compare-questions">${questionsHtml}</ul>
+      </div>
+      <div class="compare-col-section">
+        <h4>📖 读后收获</h4>
+        <ul class="compare-takeaways">${takeawaysHtml}</ul>
+      </div>
+      <a href="/lessons/${lesson.slug}/" class="compare-read-link">阅读全文 →</a>
+    `;
+  }
+
+  function updateCompare() {
+    const slugA = selectA.value;
+    const slugB = selectB.value;
+
+    if (!slugA || !slugB) {
+      compareEmpty.hidden = false;
+      (compareContent as HTMLElement).hidden = true;
+      return;
+    }
+    if (slugA === slugB) {
+      compareEmpty.hidden = false;
+      (compareContent as HTMLElement).hidden = true;
+      compareEmpty.innerHTML = `
+        <span class="compare-empty-icon">🤔</span>
+        <p>请选择两篇不同的课文进行对比</p>
+      `;
+      return;
+    }
+
+    const la = lessonMap.get(slugA);
+    const lb = lessonMap.get(slugB);
+    if (!la || !lb) return;
+
+    compareEmpty.hidden = true;
+    (compareContent as HTMLElement).hidden = false;
+
+    renderLessonInfo(infoA, la);
+    renderLessonInfo(infoB, lb);
+    renderDimensions(la, lb);
+    renderLessonColumn(lessonColA, la, "课文 A");
+    renderLessonColumn(lessonColB, lb, "课文 B");
+  }
+
+  selectA.addEventListener("change", updateCompare);
+  selectB.addEventListener("change", updateCompare);
+
+  suggestChips.forEach((chip) => {
+    chip.addEventListener("click", () => {
+      selectA.value = chip.dataset.slugA || "";
+      selectB.value = chip.dataset.slugB || "";
+      updateCompare();
+      document.getElementById("compareArea")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+</script>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="牛郎织女二 - 鹊桥相会">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题栏 -->
+  <rect x="0" y="0" width="800" height="74" fill="#7a3b14" opacity="0.12"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">牛郎织女（二）· 鹊桥相会</text>
+  <line x1="300" y1="64" x2="500" y2="64" stroke="#c05a30" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="0" y="74" width="800" height="440" fill="#2d2a24" opacity="0.88"/>
+  <rect x="0" y="74" width="800" height="220" fill="#2d2a24" opacity="0.5"/>
+
+  <!-- 星星 -->
+  <g fill="#fef9ed">
+    <circle cx="80" cy="120" r="1.5"/><circle cx="140" cy="160" r="1"/><circle cx="200" cy="110" r="2"/>
+    <circle cx="260" cy="150" r="1.2"/><circle cx="340" cy="120" r="1"/><circle cx="420" cy="160" r="1.5"/>
+    <circle cx="500" cy="110" r="1.2"/><circle cx="580" cy="150" r="1"/><circle cx="660" cy="120" r="2"/>
+    <circle cx="720" cy="160" r="1.2"/><circle cx="100" cy="200" r="1"/><circle cx="180" cy="230" r="1.5"/>
+    <circle cx="300" cy="200" r="1"/><circle cx="380" cy="230" r="1.2"/><circle cx="460" cy="200" r="1"/>
+    <circle cx="540" cy="230" r="1.5"/><circle cx="620" cy="200" r="1"/><circle cx="700" cy="230" r="1.2"/>
+    <circle cx="60" cy="280" r="1"/><circle cx="740" cy="280" r="1.5"/>
+  </g>
+
+  <!-- 银河 -->
+  <g opacity="0.55">
+    <path d="M0 300 Q200 340 400 300 T800 320 L800 360 Q600 400 400 360 T0 340 Z" fill="#7a7468" opacity="0.4"/>
+    <path d="M0 310 Q200 350 400 310 T800 330 L800 345 Q600 385 400 345 T0 325 Z" fill="#fef9ed" opacity="0.25"/>
+    <circle cx="120" cy="330" r="2" fill="#fef9ed" opacity="0.8"/>
+    <circle cx="280" cy="340" r="1.5" fill="#fef9ed" opacity="0.7"/>
+    <circle cx="520" cy="335" r="2" fill="#fef9ed" opacity="0.8"/>
+    <circle cx="680" cy="345" r="1.5" fill="#fef9ed" opacity="0.7"/>
+  </g>
+
+  <!-- 银河两岸分隔线 -->
+  <path d="M0 335 Q200 375 400 335 T800 355" stroke="#3a7d5c" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- 鹊桥 - 喜鹊组成的桥 -->
+  <g>
+    <path d="M180 360 Q400 300 620 360" stroke="#7a7468" stroke-width="3" fill="none" stroke-dasharray="2 6" opacity="0.6"/>
+    <!-- 喜鹊1 -->
+    <g transform="translate(220,348)"><ellipse cx="0" cy="0" rx="14" ry="7" fill="#2d2a24"/><circle cx="-12" cy="-2" r="5" fill="#2d2a24"/><path d="M-16 -2 l-5 -1 l5 2 Z" fill="#c05a30"/><path d="M0 0 l8 -4 l-2 6 Z" fill="#2d2a24"/></g>
+    <g transform="translate(280,338)"><ellipse cx="0" cy="0" rx="14" ry="7" fill="#2d2a24"/><circle cx="-12" cy="-2" r="5" fill="#2d2a24"/><path d="M-16 -2 l-5 -1 l5 2 Z" fill="#c05a30"/><path d="M0 0 l8 -4 l-2 6 Z" fill="#2d2a24"/></g>
+    <g transform="translate(340,330)"><ellipse cx="0" cy="0" rx="14" ry="7" fill="#2d2a24"/><circle cx="-12" cy="-2" r="5" fill="#2d2a24"/><path d="M-16 -2 l-5 -1 l5 2 Z" fill="#c05a30"/><path d="M0 0 l8 -4 l-2 6 Z" fill="#2d2a24"/></g>
+    <g transform="translate(460,330)"><ellipse cx="0" cy="0" rx="14" ry="7" fill="#2d2a24"/><circle cx="-12" cy="-2" r="5" fill="#2d2a24"/><path d="M-16 -2 l-5 -1 l5 2 Z" fill="#c05a30"/><path d="M0 0 l8 -4 l-2 6 Z" fill="#2d2a24"/></g>
+    <g transform="translate(520,338)"><ellipse cx="0" cy="0" rx="14" ry="7" fill="#2d2a24"/><circle cx="-12" cy="-2" r="5" fill="#2d2a24"/><path d="M-16 -2 l-5 -1 l5 2 Z" fill="#c05a30"/><path d="M0 0 l8 -4 l-2 6 Z" fill="#2d2a24"/></g>
+    <g transform="translate(580,348)"><ellipse cx="0" cy="0" rx="14" ry="7" fill="#2d2a24"/><circle cx="-12" cy="-2" r="5" fill="#2d2a24"/><path d="M-16 -2 l-5 -1 l5 2 Z" fill="#c05a30"/><path d="M0 0 l8 -4 l-2 6 Z" fill="#2d2a24"/></g>
+  </g>
+
+  <!-- 牛郎（左）- 牵着孩子 -->
+  <g transform="translate(150,300)">
+    <!-- 身体 -->
+    <rect x="-16" y="-30" width="32" height="50" rx="6" fill="#3a7d5c"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-44" r="14" fill="#c05a30"/>
+    <!-- 头巾 -->
+    <path d="M-14 -50 Q0 -60 14 -50 L14 -44 L-14 -44 Z" fill="#7a3b14"/>
+    <!-- 手臂伸向桥 -->
+    <path d="M16 -20 Q40 -10 50 20" stroke="#3a7d5c" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- 腿 -->
+    <rect x="-12" y="18" width="10" height="26" fill="#2d2a24"/>
+    <rect x="2" y="18" width="10" height="26" fill="#2d2a24"/>
+    <!-- 孩子 -->
+    <circle cx="-36" cy="-10" r="9" fill="#c05a30"/>
+    <rect x="-42" y="-2" width="12" height="20" rx="3" fill="#c05a30" opacity="0.8"/>
+    <path d="M-30 -8 Q-20 0 -16 14" stroke="#c05a30" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 牛郎旁的牛角标记 -->
+  <g transform="translate(95,440)" opacity="0.7"><path d="M-10 0 Q-18 -20 -8 -24 M10 0 Q18 -20 8 -24" stroke="#7a3b14" stroke-width="4" fill="none"/><ellipse cx="0" cy="6" rx="14" ry="8" fill="#7a3b14" opacity="0.5"/></g>
+
+  <!-- 织女（右）- 拿着织锦 -->
+  <g transform="translate(650,300)">
+    <!-- 身体 -->
+    <path d="M-18 -30 L18 -30 L24 20 L-24 20 Z" fill="#c05a30"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-44" r="14" fill="#c05a30"/>
+    <!-- 发髻 -->
+    <circle cx="0" cy="-56" r="8" fill="#2d2a24"/>
+    <path d="M-14 -48 Q0 -42 14 -48" stroke="#7a3b14" stroke-width="2" fill="none"/>
+    <!-- 手臂伸向桥 -->
+    <path d="M-18 -20 Q-40 -10 -50 20" stroke="#c05a30" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- 腿/裙摆 -->
+    <path d="M-24 20 L-20 44 L0 44 L20 44 L24 20 Z" fill="#7a3b14"/>
+    <!-- 织锦飘带 -->
+    <path d="M24 -10 Q60 0 70 30 Q60 40 40 30" stroke="#3a7d5c" stroke-width="3" fill="none" opacity="0.7"/>
+  </g>
+  <!-- 织女旁的织机梭子标记 -->
+  <g transform="translate(710,420)" opacity="0.7"><ellipse cx="0" cy="0" rx="18" ry="6" fill="#3a7d5c"/><line x1="-14" y1="0" x2="14" y2="0" stroke="#fef9ed" stroke-width="2"/></g>
+
+  <!-- 桥中央相聚的爱心 -->
+  <g transform="translate(400,305)" opacity="0.85">
+    <path d="M0 6 C-8 -4 -16 -2 -16 -8 C-16 -14 -8 -16 0 -8 C8 -16 16 -14 16 -8 C16 -2 8 -4 0 6 Z" fill="#c05a30"/>
+  </g>
+
+  <!-- 地面/云 -->
+  <path d="M0 514 Q200 490 400 510 T800 500 L800 514 L0 514 Z" fill="#7a7468" opacity="0.25"/>
+  <rect x="0" y="514" width="800" height="86" fill="#fef9ed"/>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">银河迢迢，鹊桥相逢，一年一聚诉衷情</text>
+</svg>

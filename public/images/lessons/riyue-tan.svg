@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="日月潭湖光山色插画，北潭如日、南潭如月">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">日月潭</text>
+  <line x1="350" y1="56" x2="450" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="220" fill="#d6ecf7" opacity="0.4"/>
+  <!-- 远山 -->
+  <path d="M0 300 L80 200 L160 250 L260 180 L340 240 L420 190 L500 250 L600 200 L700 260 L800 230 L800 320 L0 320 Z" fill="#a8b8a8" opacity="0.4"/>
+  <path d="M0 320 L120 260 L240 290 L360 250 L480 290 L600 260 L720 290 L800 280 L800 340 L0 340 Z" fill="#8da890" opacity="0.4"/>
+
+  <!-- 日潭（北，圆形） -->
+  <ellipse cx="300" cy="420" rx="130" ry="80" fill="#7ab8d8" opacity="0.6"/>
+  <ellipse cx="300" cy="415" rx="124" ry="74" fill="#a8d0e8"/>
+
+  <!-- 月潭（南，弯月形） -->
+  <path d="M430 420 Q500 380 560 420 Q580 470 540 500 Q480 520 430 490 Q410 460 430 420 Z" fill="#7ab8d8" opacity="0.6"/>
+  <path d="M435 425 Q500 390 555 425 Q570 465 535 490 Q485 505 438 485 Q422 458 435 425 Z" fill="#a8d0e8"/>
+
+  <!-- 光华岛 -->
+  <ellipse cx="420" cy="410" rx="18" ry="10" fill="#6a8d3f"/>
+  <ellipse cx="420" cy="407" rx="14" ry="7" fill="#8da860"/>
+  <!-- 岛上小亭 -->
+  <rect x="415" y="398" width="10" height="8" fill="#8d5a36"/>
+  <path d="M412 398 L428 398 L420 392 Z" fill="#c84a3a"/>
+
+  <!-- 标注：日潭 -->
+  <text x="300" y="420" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#3a6a8a">日潭</text>
+  <text x="300" y="440" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">（北·像太阳）</text>
+
+  <!-- 标注：月潭 -->
+  <text x="495" y="455" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#3a6a8a">月潭</text>
+  <text x="495" y="475" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">（南·像月亮）</text>
+
+  <!-- 标注：光华岛 -->
+  <line x1="420" y1="395" x2="420" y2="365" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="385" y="348" width="70" height="20" fill="#fff6df" stroke="#c8843a" rx="3"/>
+  <text x="420" y="362" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">光华岛</text>
+
+  <!-- 太阳 -->
+  <circle cx="680" cy="130" r="24" fill="#f4b942"/>
+  <g stroke="#f4b942" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <line x1="680" y1="95" x2="680" y2="102"/>
+    <line x1="680" y1="158" x2="680" y2="165"/>
+    <line x1="645" y1="130" x2="652" y2="130"/>
+    <line x1="708" y1="130" x2="715" y2="130"/>
+  </g>
+
+  <!-- 薄雾 -->
+  <ellipse cx="200" cy="380" rx="80" ry="12" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="600" cy="390" rx="70" ry="10" fill="#ffffff" opacity="0.5"/>
+
+  <!-- 周围树木 -->
+  <g transform="translate(80,340)">
+    <path d="M0 0 L0 -20" stroke="#4a6a2f" stroke-width="2"/>
+    <ellipse cx="0" cy="-22" rx="10" ry="12" fill="#6a8d3f"/>
+  </g>
+  <g transform="translate(720,350)">
+    <path d="M0 0 L0 -20" stroke="#4a6a2f" stroke-width="2"/>
+    <ellipse cx="0" cy="-22" rx="10" ry="12" fill="#6a8d3f"/>
+  </g>
+  <g transform="translate(150,350)">
+    <path d="M0 0 L0 -15" stroke="#4a6a2f" stroke-width="2"/>
+    <ellipse cx="0" cy="-17" rx="8" ry="10" fill="#6a8d3f"/>
+  </g>
+
+  <!-- 倒影线 -->
+  <g stroke="#a8d0e8" stroke-width="1" opacity="0.4">
+    <line x1="250" y1="470" x2="350" y2="470"/>
+    <line x1="270" y1="485" x2="330" y2="485"/>
+    <line x1="460" y1="500" x2="530" y2="500"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="120" y="520" width="560" height="55" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+  <text x="400" y="543" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">北边像圆圆的太阳叫日潭，南边像弯弯的月亮叫月潭</text>
+  <text x="400" y="563" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">清晨薄雾朦胧如仙境，中午阳光高照景色清晰</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="牛顿三棱镜分解白光为七色光插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">彩虹为什么有七种颜色</text>
+  <text x="400" y="66" text-anchor="middle" font-family="serif" font-size="14" fill="#6b6557">牛顿用三棱镜发现：白光里藏着七色光</text>
+
+  <!-- 暗色背景表示暗室 -->
+  <rect x="0" y="90" width="800" height="420" fill="#2a2a3a" opacity="0.08"/>
+
+  <!-- 白光入射 -->
+  <text x="80" y="280" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">白光</text>
+  <line x1="60" y1="300" x2="280" y2="300" stroke="#ffffff" stroke-width="6" opacity="0.9"/>
+  <line x1="60" y1="300" x2="280" y2="300" stroke="#f4f4f4" stroke-width="3"/>
+
+  <!-- 百叶窗小洞 -->
+  <rect x="40" y="285" width="20" height="30" fill="#5a4a3a" stroke="#3a2a1a" stroke-width="2"/>
+  <text x="50" y="340" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">小洞</text>
+
+  <!-- 三棱镜（三角形） -->
+  <polygon points="300,250 300,350 390,300" fill="#a8d4e8" opacity="0.6" stroke="#5da8c8" stroke-width="2.5"/>
+  <polygon points="300,250 300,350 390,300" fill="#d6ecf7" opacity="0.4"/>
+  <text x="330" y="305" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">三棱镜</text>
+
+  <!-- 七色光折射出来 -->
+  <line x1="390" y1="300" x2="700" y2="240" stroke="#e84030" stroke-width="3"/>
+  <line x1="390" y1="300" x2="700" y2="252" stroke="#e88030" stroke-width="3"/>
+  <line x1="390" y1="300" x2="700" y2="264" stroke="#f4d830" stroke-width="3"/>
+  <line x1="390" y1="300" x2="700" y2="276" stroke="#5cb050" stroke-width="3"/>
+  <line x1="390" y1="300" x2="700" y2="288" stroke="#4ab8c8" stroke-width="3"/>
+  <line x1="390" y1="300" x2="700" y2="300" stroke="#4878c8" stroke-width="3"/>
+  <line x1="390" y1="300" x2="700" y2="312" stroke="#8848c8" stroke-width="3"/>
+
+  <!-- 七色光标签 -->
+  <text x="720" y="244" font-family="serif" font-size="11" fill="#e84030">红</text>
+  <text x="720" y="256" font-family="serif" font-size="11" fill="#e88030">橙</text>
+  <text x="720" y="268" font-family="serif" font-size="11" fill="#c8a820">黄</text>
+  <text x="720" y="280" font-family="serif" font-size="11" fill="#5cb050">绿</text>
+  <text x="720" y="292" font-family="serif" font-size="11" fill="#4ab8c8">青</text>
+  <text x="720" y="304" font-family="serif" font-size="11" fill="#4878c8">蓝</text>
+  <text x="720" y="316" font-family="serif" font-size="11" fill="#8848c8">紫</text>
+
+  <!-- 标注：白光 -->
+  <line x1="170" y1="300" x2="170" y2="220" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="110" y="200" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="170" y="218" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">一束白色阳光</text>
+
+  <!-- 标注：三棱镜 -->
+  <line x1="345" y1="260" x2="345" y2="180" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="285" y="160" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="345" y="178" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">三棱镜把光分开</text>
+
+  <!-- 标注：七色光带 -->
+  <line x1="600" y1="276" x2="600" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="530" y="385" width="140" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="600" y="403" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">七色光带（彩虹）</text>
+
+  <!-- 下方：水滴=天然三棱镜 -->
+  <line x1="60" y1="440" x2="740" y2="440" stroke="#c8843a" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">天上的彩虹 = 无数小水滴在当三棱镜</text>
+
+  <!-- 水滴折射示意 -->
+  <g transform="translate(200,520)">
+    <circle cx="0" cy="0" r="22" fill="#a8d4e8" opacity="0.5" stroke="#5da8c8" stroke-width="1.5"/>
+    <!-- 入射光 -->
+    <line x1="-50" y1="-15" x2="-15" y2="-5" stroke="#ffffff" stroke-width="2.5"/>
+    <!-- 折射光（进入水滴分色） -->
+    <line x1="-15" y1="-5" x2="15" y2="5" stroke="#e84030" stroke-width="1.5"/>
+    <line x1="-15" y1="-5" x2="15" y2="8" stroke="#5cb050" stroke-width="1.5"/>
+    <line x1="-15" y1="-5" x2="15" y2="11" stroke="#4878c8" stroke-width="1.5"/>
+    <!-- 反射 -->
+    <line x1="15" y1="8" x2="-10" y2="18" stroke="#5cb050" stroke-width="1.5"/>
+    <!-- 出射 -->
+    <line x1="-10" y1="18" x2="-45" y2="30" stroke="#5cb050" stroke-width="2"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">小水滴</text>
+  </g>
+
+  <g transform="translate(500,520)">
+    <circle cx="0" cy="0" r="22" fill="#a8d4e8" opacity="0.5" stroke="#5da8c8" stroke-width="1.5"/>
+    <line x1="-50" y1="-15" x2="-15" y2="-5" stroke="#ffffff" stroke-width="2.5"/>
+    <line x1="-15" y1="-5" x2="15" y2="5" stroke="#e84030" stroke-width="1.5"/>
+    <line x1="-15" y1="-5" x2="15" y2="8" stroke="#f4d830" stroke-width="1.5"/>
+    <line x1="-15" y1="-5" x2="15" y2="11" stroke="#8848c8" stroke-width="1.5"/>
+    <line x1="15" y1="8" x2="-10" y2="18" stroke="#f4d830" stroke-width="1.5"/>
+    <line x1="-10" y1="18" x2="-45" y2="30" stroke="#f4d830" stroke-width="2"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">小水滴</text>
+  </g>
+
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="12" fill="#6b6557">阳光→进入水滴折射→内壁反射→折射出来→七色光</text>
+</svg>

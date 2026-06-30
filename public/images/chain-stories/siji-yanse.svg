@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="四季颜色插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">四季的颜色</text>
+  <line x1="320" y1="58" x2="480" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 四个季节分区 -->
+  <!-- 春（绿） -->
+  <rect x="30" y="80" width="350" height="220" fill="#d8e8c8" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="205" y="110" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#5a8a3a">春 · 绿</text>
+  <!-- 春天柳树 -->
+  <rect x="120" y="180" width="6" height="80" fill="#8d5a36"/>
+  <path d="M123 185 Q100 195 95 220 M123 185 Q146 195 151 220 M123 185 Q110 200 105 235 M123 185 Q136 200 141 235" fill="none" stroke="#5a8a3a" stroke-width="2"/>
+  <!-- 嫩草 -->
+  <g stroke="#5a8a3a" stroke-width="2" fill="none">
+    <path d="M60 270 L62 255 M80 272 L82 257 M200 270 L202 255 M240 272 L242 257 M300 270 L302 255 M340 272 L342 257"/>
+  </g>
+  <!-- 春花 -->
+  <circle cx="250" cy="220" r="6" fill="#d4648a"/><circle cx="250" cy="220" r="3" fill="#e8a838"/>
+  <circle cx="300" cy="200" r="6" fill="#e8a838"/><circle cx="300" cy="200" r="3" fill="#fff6df"/>
+
+  <!-- 夏（蓝） -->
+  <rect x="420" y="80" width="350" height="220" fill="#c8dce8" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="595" y="110" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#3a6a9a">夏 · 蓝</text>
+  <!-- 夏天太阳 -->
+  <circle cx="680" cy="160" r="22" fill="#e8a838"/>
+  <g stroke="#e8a838" stroke-width="2.5" stroke-linecap="round">
+    <line x1="680" y1="125" x2="680" y2="115"/><line x1="680" y1="205" x2="680" y2="195"/>
+    <line x1="645" y1="160" x2="635" y2="160"/><line x1="725" y1="160" x2="715" y2="160"/>
+  </g>
+  <!-- 海浪 -->
+  <path d="M440 250 Q470 235 500 250 Q530 265 560 250 Q590 235 620 250 Q650 265 680 250 Q710 235 740 250 L740 290 L440 290 Z" fill="#3a8aba" opacity="0.7"/>
+  <path d="M440 265 Q470 250 500 265 Q530 280 560 265 Q590 250 620 265 Q650 280 680 265 Q710 250 740 265" fill="none" stroke="#3a6a9a" stroke-width="1.5"/>
+  <!-- 荷花 -->
+  <ellipse cx="490" cy="245" rx="14" ry="8" fill="#5a8a3a"/>
+  <path d="M490 240 Q486 228 490 222 Q494 228 490 240" fill="#d4648a"/>
+
+  <!-- 秋（金） -->
+  <rect x="30" y="320" width="350" height="220" fill="#f0e0b8" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="205" y="350" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#c8843a">秋 · 金</text>
+  <!-- 秋树 -->
+  <rect x="120" y="420" width="6" height="80" fill="#8d5a36"/>
+  <circle cx="123" cy="410" r="32" fill="#e8a838"/>
+  <circle cx="105" cy="420" r="18" fill="#d88838"/>
+  <circle cx="140" cy="415" r="18" fill="#e8a838"/>
+  <!-- 落叶 -->
+  <path d="M180 470 Q186 464 192 470 Q186 476 180 470 Z" fill="#c8483a"/>
+  <path d="M220 490 Q226 484 232 490 Q226 496 220 490 Z" fill="#e8a838"/>
+  <path d="M280 480 Q286 474 292 480 Q286 486 280 480 Z" fill="#d88838"/>
+  <!-- 麦穗 -->
+  <g transform="translate(300,440)">
+    <rect x="-1" y="0" width="2" height="40" fill="#8d5a36"/>
+    <ellipse cx="0" cy="5" rx="4" ry="6" fill="#e8c438"/>
+    <ellipse cx="0" cy="15" rx="4" ry="6" fill="#e8c438"/>
+    <ellipse cx="0" cy="25" rx="4" ry="6" fill="#e8c438"/>
+  </g>
+
+  <!-- 冬（白） -->
+  <rect x="420" y="320" width="350" height="220" fill="#e8e8f0" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="595" y="350" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#6a6a8a">冬 · 白</text>
+  <!-- 雪人 -->
+  <g transform="translate(520,470)">
+    <circle cx="0" cy="0" r="22" fill="#fff6df" stroke="#aaaab8" stroke-width="1.5"/>
+    <circle cx="0" cy="-30" r="16" fill="#fff6df" stroke="#aaaab8" stroke-width="1.5"/>
+    <circle cx="-5" cy="-33" r="2" fill="#3d2817"/><circle cx="5" cy="-33" r="2" fill="#3d2817"/>
+    <path d="M-3 -28 L3 -28" stroke="#3d2817" stroke-width="1.5"/>
+    <path d="M-2 -25 L2 -25" stroke="#3d2817" stroke-width="1.5"/>
+    <path d="M-2 -22 L2 -22" stroke="#3d2817" stroke-width="1.5"/>
+    <!-- 围巾 -->
+    <rect x="-16" y="-18" width="32" height="6" fill="#c8483a"/>
+    <!-- 帽子 -->
+    <rect x="-12" y="-48" width="24" height="8" fill="#3d2817"/>
+    <rect x="-10" y="-56" width="20" height="10" fill="#3d2817"/>
+  </g>
+  <!-- 雪花 -->
+  <g fill="#fff6df" stroke="#aaaab8" stroke-width="1">
+    <circle cx="470" cy="400" r="4"/><circle cx="620" cy="390" r="4"/>
+    <circle cx="680" cy="420" r="4"/><circle cx="450" cy="450" r="3"/>
+    <circle cx="650" cy="460" r="3"/><circle cx="720" cy="400" r="3"/>
+  </g>
+  <!-- 枯树 -->
+  <rect x="680" y="430" width="5" height="70" fill="#8d5a36"/>
+  <path d="M682 440 L665 420 M682 445 L700 425 M682 450 L660 445" stroke="#8d5a36" stroke-width="2" fill="none"/>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="558" width="720" height="34" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="580" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">春绿、夏蓝、秋金、冬白——四季各有主色，合在一起就是一年的风景。</text>
+</svg>

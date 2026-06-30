@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="地道战智慧插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">地道战的智慧</text>
+  <line x1="320" y1="60" x2="480" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 四个智慧设计卡片 -->
+
+  <!-- 卡片1：三层地道 -->
+  <g>
+    <rect x="40" y="90" width="170" height="200" fill="#fff6df" stroke="#2d6a4f" stroke-width="2.5" rx="8"/>
+    <text x="125" y="115" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">三层地道</text>
+    <!-- 三层示意 -->
+    <rect x="65" y="135" width="120" height="20" fill="#e07856" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+    <text x="125" y="149" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">作战层</text>
+    <rect x="65" y="165" width="120" height="20" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+    <text x="125" y="179" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">隐蔽层</text>
+    <rect x="65" y="195" width="120" height="20" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+    <text x="125" y="209" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">排水层</text>
+    <!-- 水流箭头 -->
+    <path d="M125 215 L125 235" stroke="#4a90b8" stroke-width="2" fill="none" marker-end="url(#ar2)"/>
+    <text x="125" y="255" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">水往低处流</text>
+    <text x="125" y="270" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">灌不进来</text>
+  </g>
+
+  <!-- 卡片2：消息铃 -->
+  <g>
+    <rect x="230" y="90" width="170" height="200" fill="#fff6df" stroke="#e8a838" stroke-width="2.5" rx="8"/>
+    <text x="315" y="115" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">消息铃</text>
+    <!-- 地面 -->
+    <rect x="260" y="180" width="110" height="8" fill="#8d6a4a"/>
+    <!-- 铃铛（埋在地下） -->
+    <path d="M305 200 L295 230 L315 230 L305 200 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="305" cy="233" r="3" fill="#7a3b14"/>
+    <!-- 铃声波 -->
+    <path d="M285 215 q-5 -3 -8 0 M325 215 q5 -3 8 0" stroke="#e07856" stroke-width="1.5" fill="none"/>
+    <!-- 敌人脚步 -->
+    <ellipse cx="340" cy="178" rx="6" ry="3" fill="#8d8d8d"/>
+    <text x="315" y="260" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">敌人一踩就响</text>
+    <text x="315" y="275" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">地道里就知道</text>
+  </g>
+
+  <!-- 卡片3：翻口 -->
+  <g>
+    <rect x="420" y="90" width="170" height="200" fill="#fff6df" stroke="#e07856" stroke-width="2.5" rx="8"/>
+    <text x="505" y="115" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856" font-weight="bold">翻口</text>
+    <!-- 地道剖面 -->
+    <path d="M450 150 L450 180 L470 180 L470 210 L490 210 L490 180 L510 180 L510 150 L490 150 L490 170 L470 170 L470 150 Z" fill="none" stroke="#5a3a1a" stroke-width="3"/>
+    <!-- 人能过 -->
+    <circle cx="480" cy="165" r="6" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 水过不去 -->
+    <path d="M455 195 q5 3 10 0" stroke="#4a90b8" stroke-width="2" fill="none"/>
+    <path d="M495 195 q5 3 10 0" stroke="#4a90b8" stroke-width="2" fill="none"/>
+    <text x="505" y="240" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">人能过</text>
+    <text x="505" y="255" text-anchor="middle" font-family="serif" font-size="10" fill="#4a90b8">水过不去</text>
+    <text x="505" y="270" text-anchor="middle" font-family="serif" font-size="10" fill="#e07856">毒气也过不去</text>
+  </g>
+
+  <!-- 卡片4：隐蔽入口 -->
+  <g>
+    <rect x="610" y="90" width="170" height="200" fill="#fff6df" stroke="#4a90b8" stroke-width="2.5" rx="8"/>
+    <text x="695" y="115" text-anchor="middle" font-family="serif" font-size="14" fill="#4a90b8" font-weight="bold">隐蔽入口</text>
+    <!-- 灶台 -->
+    <rect x="660" y="170" width="60" height="40" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="2" rx="3"/>
+    <ellipse cx="690" cy="175" rx="20" ry="6" fill="#3a2a1a"/>
+    <!-- 暗道 -->
+    <path d="M690 180 L690 230" stroke="#3a2a1a" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+    <path d="M690 180 L690 230" stroke="#2a1a0a" stroke-width="6" stroke-linecap="round"/>
+    <!-- 磨盘入口 -->
+    <ellipse cx="645" cy="250" rx="18" ry="7" fill="#8d8d8d" stroke="#5a5a5a" stroke-width="1.5"/>
+    <path d="M645 253 L645 270" stroke="#2a1a0a" stroke-width="6" stroke-linecap="round"/>
+    <text x="695" y="280" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">灶台、磨盘、坟地</text>
+  </g>
+
+  <!-- 底部总结 -->
+  <rect x="80" y="360" width="640" height="190" fill="#f5ecd8" stroke="#c8843a" stroke-width="2.5" rx="10"/>
+  <text x="400" y="395" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14" font-weight="bold">以弱胜强的智慧</text>
+
+  <!-- 三个要点 -->
+  <g>
+    <circle cx="180" cy="435" r="8" fill="#2d6a4f"/>
+    <text x="200" y="440" font-family="serif" font-size="14" fill="#7a3b14">动脑筋：用智慧弥补装备的不足</text>
+    <circle cx="180" cy="470" r="8" fill="#e07856"/>
+    <text x="200" y="475" font-family="serif" font-size="14" fill="#7a3b14">齐协力：千万人一锹一锹挖出"地下长城"</text>
+    <circle cx="180" cy="505" r="8" fill="#4a90b8"/>
+    <text x="200" y="510" font-family="serif" font-size="14" fill="#7a3b14">不屈服：在绝境中想办法，永不放弃</text>
+  </g>
+
+  <defs>
+    <marker id="ar2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#4a90b8"/>
+    </marker>
+  </defs>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">最朴素的工具，创造出让敌人束手无策的奇迹</text>
+</svg>

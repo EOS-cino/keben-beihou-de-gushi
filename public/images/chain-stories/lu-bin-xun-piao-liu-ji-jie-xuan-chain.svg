@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠故事 - 荒岛与探险故事">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 连珠标识徽章 -->
+  <g transform="translate(60,42)">
+    <rect x="-44" y="-22" width="88" height="44" rx="22" fill="#3a7d5c"/>
+    <circle cx="-26" cy="0" r="5" fill="#fef9ed"/><circle cx="-10" cy="0" r="5" fill="#fef9ed"/><circle cx="6" cy="0" r="5" fill="#fef9ed"/><circle cx="22" cy="0" r="5" fill="#fef9ed"/>
+    <text x="40" y="5" font-family="serif" font-size="16" font-weight="bold" fill="#fef9ed">连珠</text>
+  </g>
+  <text x="460" y="48" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#3a7d5c">荒岛与探险故事</text>
+  <line x1="360" y1="64" x2="560" y2="64" stroke="#3a7d5c" stroke-width="2"/>
+
+  <!-- 中央罗盘 -->
+  <g transform="translate(400,310)">
+    <circle cx="0" cy="0" r="62" fill="#7a3b14" opacity="0.06"/>
+    <circle cx="0" cy="0" r="48" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#7a7468" stroke-width="0.8"/>
+    <!-- 罗盘指针 -->
+    <path d="M0 -36 L6 0 L0 6 L-6 0 Z" fill="#c05a30"/>
+    <path d="M0 36 L6 0 L0 -6 L-6 0 Z" fill="#7a7468" opacity="0.6"/>
+    <!-- 方位 -->
+    <text x="0" y="-40" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">北</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">南</text>
+    <text x="-44" y="4" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">西</text>
+    <text x="44" y="4" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">东</text>
+    <circle cx="0" cy="0" r="4" fill="#7a3b14"/>
+  </g>
+
+  <!-- 海浪背景装饰 -->
+  <g stroke="#3a7d5c" stroke-width="1.5" fill="none" opacity="0.15">
+    <path d="M0 140 Q100 135 200 140 T400 140 T600 140 T800 140"/>
+    <path d="M0 480 Q100 475 200 480 T400 480 T600 480 T800 480"/>
+  </g>
+
+  <!-- 故事1：格列佛游记（左上） -->
+  <g transform="translate(150,180)">
+    <rect x="-90" y="-55" width="180" height="110" rx="8" fill="#fff" stroke="#c05a30" stroke-width="2"/>
+    <g transform="translate(-55,0)">
+      <!-- 小人国小人vs巨人 -->
+      <circle cx="0" cy="-10" r="4" fill="#c05a30" opacity="0.8"/>
+      <rect x="-3" y="-7" width="6" height="10" fill="#c05a30" opacity="0.8"/>
+      <!-- 小人们 -->
+      <circle cx="-12" cy="8" r="2" fill="#7a3b14"/>
+      <rect x="-13" y="9" width="2" height="5" fill="#7a3b14"/>
+      <circle cx="-6" cy="10" r="2" fill="#7a3b14"/>
+      <rect x="-7" y="11" width="2" height="5" fill="#7a3b14"/>
+      <circle cx="0" cy="8" r="2" fill="#7a3b14"/>
+      <rect x="-1" y="9" width="2" height="5" fill="#7a3b14"/>
+      <!-- 绳子绑 -->
+      <line x1="-15" y1="6" x2="3" y2="6" stroke="#7a3b14" stroke-width="0.8"/>
+    </g>
+    <text x="20" y="-25" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">格列佛游记</text>
+    <text x="20" y="-5" font-family="serif" font-size="12" fill="#7a7468">小人国历险</text>
+    <text x="20" y="13" font-family="serif" font-size="12" fill="#7a7468">大人国奇遇</text>
+    <text x="20" y="31" font-family="serif" font-size="12" fill="#7a7468">航海四游</text>
+    <path d="M90 0 Q150 30 240 90" stroke="#c05a30" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 故事2：金银岛（右上） -->
+  <g transform="translate(650,180)">
+    <rect x="-90" y="-55" width="180" height="110" rx="8" fill="#fff" stroke="#7a3b14" stroke-width="2"/>
+    <g transform="translate(-55,0)">
+      <!-- 宝箱 -->
+      <rect x="-14" y="-4" width="28" height="18" rx="2" fill="#7a3b14"/>
+      <path d="M-14 -4 Q0 -16 14 -4" fill="#c05a30" opacity="0.7"/>
+      <rect x="-3" y="2" width="6" height="5" fill="#c05a30"/>
+      <!-- 金币 -->
+      <circle cx="-8" cy="20" r="3" fill="#c05a30"/>
+      <circle cx="0" cy="22" r="3" fill="#c05a30"/>
+      <circle cx="8" cy="20" r="3" fill="#c05a30"/>
+      <!-- 骷髅标记 -->
+      <circle cx="0" cy="-8" r="4" fill="#fef9ed" stroke="#2d2a24" stroke-width="1"/>
+      <circle cx="-1.5" cy="-9" r="0.8" fill="#2d2a24"/><circle cx="1.5" cy="-9" r="0.8" fill="#2d2a24"/>
+    </g>
+    <text x="-20" y="-25" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">金银岛</text>
+    <text x="-20" y="-5" font-family="serif" font-size="12" fill="#7a7468">寻宝探险</text>
+    <text x="-20" y="13" font-family="serif" font-size="12" fill="#7a7468">藏宝地图</text>
+    <text x="-20" y="31" font-family="serif" font-size="12" fill="#7a7468">海盗与勇气</text>
+    <path d="M-90 0 Q-150 30 -240 90" stroke="#7a3b14" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 故事3：少年派的（左下） -->
+  <g transform="translate(150,440)">
+    <rect x="-90" y="-55" width="180" height="110" rx="8" fill="#fff" stroke="#c05a30" stroke-width="2"/>
+    <g transform="translate(-55,0)">
+      <!-- 小船 -->
+      <path d="M-18 8 Q0 16 18 8 L14 14 L-14 14 Z" fill="#7a3b14" opacity="0.7"/>
+      <!-- 老虎头 -->
+      <circle cx="-4" cy="0" r="8" fill="#c05a30" opacity="0.8"/>
+      <ellipse cx="-4" cy="0" rx="8" ry="6" fill="#c05a30" opacity="0.8"/>
+      <circle cx="-8" cy="-2" r="1.5" fill="#2d2a24"/><circle cx="-1" cy="-2" r="1.5" fill="#2d2a24"/>
+      <!-- 虎纹 -->
+      <path d="M-10 2 L-7 4 M-4 3 L-1 5 M2 1 L4 3" stroke="#2d2a24" stroke-width="1" fill="none"/>
+      <!-- 人 -->
+      <circle cx="8" cy="0" r="4" fill="#c05a30" opacity="0.7"/>
+      <rect x="6" y="3" width="4" height="6" fill="#c05a30" opacity="0.7"/>
+    </g>
+    <text x="20" y="-25" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">少年派的漂流</text>
+    <text x="20" y="-5" font-family="serif" font-size="12" fill="#7a7468">海上漂流</text>
+    <text x="20" y="13" font-family="serif" font-size="12" fill="#7a7468">少年与猛虎</text>
+    <text x="20" y="31" font-family="serif" font-size="12" fill="#7a7468">信念与生存</text>
+    <path d="M90 0 Q150 -30 240 -90" stroke="#c05a30" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 故事4：海底两万里（右下） -->
+  <g transform="translate(650,440)">
+    <rect x="-90" y="-55" width="180" height="110" rx="8" fill="#fff" stroke="#7a3b14" stroke-width="2"/>
+    <g transform="translate(-55,0)">
+      <!-- 潜艇（鹦鹉螺号） -->
+      <ellipse cx="0" cy="0" rx="22" ry="8" fill="#7a7468" opacity="0.7"/>
+      <circle cx="-12" cy="0" r="4" fill="#fef9ed" stroke="#2d2a24" stroke-width="1"/>
+      <circle cx="-4" cy="0" r="3" fill="#fef9ed" stroke="#2d2a24" stroke-width="1"/>
+      <circle cx="4" cy="0" r="3" fill="#fef9ed" stroke="#2d2a24" stroke-width="1"/>
+      <!-- 塔楼 -->
+      <rect x="-2" y="-12" width="8" height="6" fill="#7a7468" opacity="0.7"/>
+      <line x1="2" y1="-12" x2="2" y2="-18" stroke="#7a7468" stroke-width="1.5"/>
+      <!-- 气泡 -->
+      <circle cx="14" cy="-8" r="2" fill="#3a7d5c" opacity="0.4"/>
+      <circle cx="18" cy="-4" r="1.5" fill="#3a7d5c" opacity="0.3"/>
+      <circle cx="-16" cy="8" r="2" fill="#3a7d5c" opacity="0.4"/>
+    </g>
+    <text x="-20" y="-25" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">海底两万里</text>
+    <text x="-20" y="-5" font-family="serif" font-size="12" fill="#7a7468">深海探险</text>
+    <text x="-20" y="13" font-family="serif" font-size="12" fill="#7a7468">鹦鹉螺号</text>
+    <text x="-20" y="31" font-family="serif" font-size="12" fill="#7a7468">海底奇观</text>
+    <path d="M-90 0 Q-150 -30 -240 -90" stroke="#7a3b14" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="17" fill="#3a7d5c" opacity="0.9">连珠小故事：乘风破浪，探险文学中的勇气与智慧</text>
+</svg>

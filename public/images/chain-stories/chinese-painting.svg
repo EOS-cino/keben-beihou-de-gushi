@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国画留白与意境插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：中国画的意境</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左：寒江独钓图（留白） -->
+  <g transform="translate(60, 100)">
+    <text x="120" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">留白的力量</text>
+    <!-- 画框 -->
+    <rect x="0" y="10" width="240" height="320" fill="#fff6df" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 大片留白（只标注） -->
+    <text x="120" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a" opacity="0.4">（留白·水天一色）</text>
+    <!-- 远山一角 -->
+    <path d="M0 80 Q30 60 60 75 L60 90 L0 90 Z" fill="#8d5a36" opacity="0.2"/>
+    <!-- 小舟 -->
+    <g transform="translate(80, 230)">
+      <path d="M0 0 Q40 -5 80 0 L75 12 L5 12 Z" fill="#5a3a1a" stroke="#3a2a1a" stroke-width="1.5"/>
+      <!-- 钓鱼人 -->
+      <ellipse cx="40" cy="-8" rx="6" ry="4" fill="#7a3b14"/>
+      <rect x="37" y="-8" width="6" height="10" fill="#7a3b14"/>
+      <!-- 钓竿 -->
+      <line x1="43" y1="-12" x2="70" y2="-35" stroke="#5a3a1a" stroke-width="1.5"/>
+      <!-- 钓线 -->
+      <line x1="70" y1="-35" x2="70" y2="5" stroke="#7a3b14" stroke-width="0.8" opacity="0.6"/>
+    </g>
+    <!-- 水波纹（极少） -->
+    <path d="M30 260 Q60 255 90 260" fill="none" stroke="#7ab8d8" stroke-width="1" opacity="0.4"/>
+    <path d="M130 265 Q160 260 190 265" fill="none" stroke="#7ab8d8" stroke-width="1" opacity="0.4"/>
+    <!-- 题诗印章 -->
+    <g transform="translate(180, 40)">
+      <text x="0" y="0" font-family="serif" font-size="10" fill="#7a3b14" writing-mode="vertical-rl">千山鸟飞绝</text>
+      <rect x="-8" y="60" width="16" height="16" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+      <text x="0" y="72" text-anchor="middle" font-family="serif" font-size="8" fill="#fef9ed">印</text>
+    </g>
+    <text x="120" y="350" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">马远《寒江独钓图》（示意）</text>
+  </g>
+
+  <!-- 右：写意 vs 工笔 -->
+  <g transform="translate(380, 100)">
+    <!-- 写意虾 -->
+    <text x="100" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">写意 · 几笔画神</text>
+    <rect x="0" y="10" width="200" height="140" fill="#fff6df" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 虾（简笔水墨） -->
+    <g transform="translate(30, 60)" stroke="#7a3b14" fill="none" stroke-width="2.5" stroke-linecap="round">
+      <path d="M0 20 Q20 10 50 15 Q80 5 110 20"/>
+      <path d="M110 20 Q120 15 125 5"/>
+      <!-- 虾节 -->
+      <path d="M30 18 L32 25 M50 14 L52 22 M70 12 L72 20 M90 15 L92 23"/>
+      <!-- 触须 -->
+      <path d="M125 5 Q135 -5 145 0" stroke-width="1.5"/>
+      <path d="M125 5 Q130 -10 140 -8" stroke-width="1.5"/>
+      <!-- 眼 -->
+      <circle cx="122" cy="3" r="2" fill="#7a3b14"/>
+    </g>
+    <text x="100" y="170" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">齐白石画虾·不求形似</text>
+
+    <!-- 工笔花 -->
+    <text x="100" y="200" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">工笔 · 细致入微</text>
+    <rect x="0" y="210" width="200" height="140" fill="#fff6df" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 工笔牡丹 -->
+    <g transform="translate(100, 280)">
+      <!-- 花瓣（层层） -->
+      <g fill="#e07856" stroke="#c84a3a" stroke-width="1">
+        <ellipse cx="0" cy="-20" rx="12" ry="20" opacity="0.7"/>
+        <ellipse cx="18" cy="-10" rx="12" ry="20" opacity="0.7" transform="rotate(45 18 -10)"/>
+        <ellipse cx="18" cy="10" rx="12" ry="20" opacity="0.7" transform="rotate(135 18 10)"/>
+        <ellipse cx="0" cy="20" rx="12" ry="20" opacity="0.7"/>
+        <ellipse cx="-18" cy="10" rx="12" ry="20" opacity="0.7" transform="rotate(45 -18 10)"/>
+        <ellipse cx="-18" cy="-10" rx="12" ry="20" opacity="0.7" transform="rotate(135 -18 -10)"/>
+      </g>
+      <!-- 花心 -->
+      <circle cx="0" cy="0" r="8" fill="#c84a3a"/>
+      <g fill="#e07856">
+        <circle cx="-3" cy="-3" r="1.5"/>
+        <circle cx="3" cy="-3" r="1.5"/>
+        <circle cx="0" cy="3" r="1.5"/>
+        <circle cx="-4" cy="2" r="1.5"/>
+        <circle cx="4" cy="2" r="1.5"/>
+      </g>
+      <!-- 叶 -->
+      <path d="M-25 25 Q-40 35 -35 50 Q-20 45 -15 30" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+      <path d="M25 25 Q40 35 35 50 Q20 45 15 30" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+    </g>
+    <text x="100" y="370" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">工笔牡丹·一丝不苟</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="510" width="700" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.85"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">中国画不求"像"，而求"意"——</text>
+  <text x="400" y="558" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">画上画的是有限的景，画外藏着无限的情。</text>
+</svg>

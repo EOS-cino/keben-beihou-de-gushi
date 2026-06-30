@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="质量管理流程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">错误纠正与质量管理</text>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#6b6557" font-family="sans-serif">从"亡羊补牢"到现代质量管理——发现问题就立刻修</text>
+
+  <!-- PDCA循环（四个象限） -->
+  <g transform="translate(400,260)">
+    <!-- 大圆 -->
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#8d6a3d" stroke-width="3"/>
+    <!-- 旋转箭头 -->
+    <path d="M120 -30 A130 130 0 0 1 100 80" fill="none" stroke="#8d6a3d" stroke-width="2" stroke-dasharray="5,3"/>
+    <path d="M100 80 L95 70 L108 72 Z" fill="#8d6a3d"/>
+
+    <!-- P 计划 -->
+    <g transform="translate(-65,-65)">
+      <circle cx="0" cy="0" r="35" fill="#4a7ab8" opacity="0.15"/>
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#4a7ab8" stroke-width="2"/>
+      <text x="0" y="-5" text-anchor="middle" font-size="20" fill="#4a7ab8" font-family="sans-serif" font-weight="bold">P</text>
+      <text x="0" y="12" text-anchor="middle" font-size="10" fill="#2d5a8a" font-family="sans-serif">计划</text>
+    </g>
+    <text x="-65" y="-110" text-anchor="middle" font-size="11" fill="#2d5a8a" font-family="sans-serif">制定方案</text>
+
+    <!-- D 执行 -->
+    <g transform="translate(65,-65)">
+      <circle cx="0" cy="0" r="35" fill="#5a9d3e" opacity="0.15"/>
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#5a9d3e" stroke-width="2"/>
+      <text x="0" y="-5" text-anchor="middle" font-size="20" fill="#5a9d3e" font-family="sans-serif" font-weight="bold">D</text>
+      <text x="0" y="12" text-anchor="middle" font-size="10" fill="#3a6b28" font-family="sans-serif">执行</text>
+    </g>
+    <text x="65" y="-110" text-anchor="middle" font-size="11" fill="#3a6b28" font-family="sans-serif">按计划做</text>
+
+    <!-- C 检查 -->
+    <g transform="translate(65,65)">
+      <circle cx="0" cy="0" r="35" fill="#e8a040" opacity="0.15"/>
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#e8a040" stroke-width="2"/>
+      <text x="0" y="-5" text-anchor="middle" font-size="20" fill="#e8a040" font-family="sans-serif" font-weight="bold">C</text>
+      <text x="0" y="12" text-anchor="middle" font-size="10" fill="#8d6a3d" font-family="sans-serif">检查</text>
+    </g>
+    <text x="65" y="120" text-anchor="middle" font-size="11" fill="#8d6a3d" font-family="sans-serif">发现问题</text>
+
+    <!-- A 改进 -->
+    <g transform="translate(-65,65)">
+      <circle cx="0" cy="0" r="35" fill="#e36f5b" opacity="0.15"/>
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#e36f5b" stroke-width="2"/>
+      <text x="0" y="-5" text-anchor="middle" font-size="20" fill="#e36f5b" font-family="sans-serif" font-weight="bold">A</text>
+      <text x="0" y="12" text-anchor="middle" font-size="10" fill="#c84a3a" font-family="sans-serif">改进</text>
+    </g>
+    <text x="-65" y="120" text-anchor="middle" font-size="11" fill="#c84a3a" font-family="sans-serif">纠正错误</text>
+
+    <!-- 中心文字 -->
+    <text x="0" y="-5" text-anchor="middle" font-size="14" fill="#2d2a24" font-family="sans-serif" font-weight="bold">PDCA</text>
+    <text x="0" y="15" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">持续改善</text>
+  </g>
+
+  <!-- 左侧：亡羊补牢对应 -->
+  <g transform="translate(130,200)">
+    <rect x="-10" y="-15" width="160" height="200" rx="8" fill="#f0f7f4" stroke="#5a7a3a" stroke-width="1.5"/>
+    <text x="70" y="5" text-anchor="middle" font-size="13" fill="#3a5a1a" font-family="sans-serif" font-weight="bold">亡羊补牢</text>
+    <!-- 羊圈 -->
+    <g transform="translate(70,50)">
+      <rect x="-40" y="-15" width="80" height="40" fill="none" stroke="#8d6a3d" stroke-width="3"/>
+      <rect x="-40" y="-5" width="80" height="4" fill="#6b4a2d"/>
+      <rect x="-40" y="10" width="80" height="4" fill="#6b4a2d"/>
+      <!-- 破洞 -->
+      <rect x="-10" y="-15" width="20" height="20" fill="#fef9ed"/>
+      <!-- 补好的木板 -->
+      <rect x="-11" y="-16" width="22" height="22" fill="#c4a060" opacity="0.8" stroke="#8d6a3d" stroke-width="1.5"/>
+    </g>
+    <text x="70" y="100" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">发现洞 → 补洞</text>
+    <text x="70" y="118" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">→ 羊不再丢</text>
+    <!-- 对应PDCA -->
+    <text x="70" y="145" text-anchor="middle" font-size="10" fill="#5a7a3a" font-family="sans-serif">检查(C) + 改进(A)</text>
+    <text x="70" y="162" text-anchor="middle" font-size="10" fill="#5a7a3a" font-family="sans-serif">= 补牢</text>
+  </g>
+
+  <!-- 右侧：丰田生产线对应 -->
+  <g transform="translate(620,200)">
+    <rect x="-10" y="-15" width="160" height="200" rx="8" fill="#f0f7f4" stroke="#4a6a8a" stroke-width="1.5"/>
+    <text x="70" y="5" text-anchor="middle" font-size="13" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">丰田生产线</text>
+    <!-- 生产线 -->
+    <g transform="translate(70,50)">
+      <rect x="-50" y="0" width="100" height="8" fill="#8d8d8d"/>
+      <!-- 传送带上的零件 -->
+      <rect x="-40" y="-10" width="15" height="10" fill="#4a7ab8"/>
+      <rect x="-10" y="-10" width="15" height="10" fill="#4a7ab8"/>
+      <rect x="20" y="-10" width="15" height="10" fill="#e36f5b"/>
+      <!-- 拉绳 -->
+      <line x1="-50" y1="-25" x2="50" y2="-25" stroke="#e36f5b" stroke-width="2"/>
+      <circle cx="0" cy="-25" r="4" fill="#e36f5b"/>
+    </g>
+    <text x="70" y="100" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">发现问题 → 拉绳</text>
+    <text x="70" y="118" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">→ 停线改进</text>
+    <text x="70" y="145" text-anchor="middle" font-size="10" fill="#4a6a8a" font-family="sans-serif">检查(C) + 改进(A)</text>
+    <text x="70" y="162" text-anchor="middle" font-size="10" fill="#4a6a8a" font-family="sans-serif">= 持续改善</text>
+  </g>
+
+  <!-- 底部：四个步骤 -->
+  <g transform="translate(0,460)">
+    <text x="400" y="0" text-anchor="middle" font-size="16" fill="#2d2a24" font-family="sans-serif" font-weight="bold">出问题后的四个步骤</text>
+
+    <g transform="translate(120,40)">
+      <circle cx="0" cy="0" r="18" fill="#e36f5b" opacity="0.2"/>
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#e36f5b" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-size="14" fill="#e36f5b" font-family="sans-serif" font-weight="bold">1</text>
+      <text x="0" y="35" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">承认问题</text>
+    </g>
+    <path d="M145 40 L215 40" stroke="#8d6a3d" stroke-width="2" fill="none" marker-end="url(#arr4)"/>
+
+    <g transform="translate(250,40)">
+      <circle cx="0" cy="0" r="18" fill="#e8a040" opacity="0.2"/>
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#e8a040" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-size="14" fill="#e8a040" font-family="sans-serif" font-weight="bold">2</text>
+      <text x="0" y="35" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">找到原因</text>
+    </g>
+    <path d="M275 40 L345 40" stroke="#8d6a3d" stroke-width="2" fill="none" marker-end="url(#arr4)"/>
+
+    <g transform="translate(380,40)">
+      <circle cx="0" cy="0" r="18" fill="#5a9d3e" opacity="0.2"/>
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#5a9d3e" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-size="14" fill="#5a9d3e" font-family="sans-serif" font-weight="bold">3</text>
+      <text x="0" y="35" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">立刻补救</text>
+    </g>
+    <path d="M405 40 L475 40" stroke="#8d6a3d" stroke-width="2" fill="none" marker-end="url(#arr4)"/>
+
+    <g transform="translate(510,40)">
+      <circle cx="0" cy="0" r="18" fill="#4a7ab8" opacity="0.2"/>
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#4a7ab8" stroke-width="2"/>
+      <text x="0" y="5" text-anchor="middle" font-size="14" fill="#4a7ab8" font-family="sans-serif" font-weight="bold">4</text>
+      <text x="0" y="35" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">确保不再犯</text>
+    </g>
+  </g>
+
+  <text x="400" y="575" text-anchor="middle" font-size="13" fill="#6b6557" font-family="sans-serif">古人补羊圈的智慧 = 现代工厂的质量管理</text>
+
+  <defs>
+    <marker id="arr4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#8d6a3d"/>
+    </marker>
+  </defs>
+</svg>

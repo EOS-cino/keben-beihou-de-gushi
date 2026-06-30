@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="杜甫写诗被称为诗圣的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">连珠小故事：杜甫为什么被称为"诗圣"</text>
+  <line x1="150" y1="55" x2="650" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左侧：杜甫草堂 -->
+  <g transform="translate(170, 230)">
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">成都草堂</text>
+    <!-- 草堂 -->
+    <rect x="-50" y="0" width="100" height="60" fill="#e0c898" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-60 0 L0 -40 L60 0 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 茅草纹理 -->
+    <line x1="-40" y1="-10" x2="-30" y2="-25" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-20" y1="-20" x2="-10" y2="-35" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="0" y1="-25" x2="10" y2="-38" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="20" y1="-20" x2="30" y2="-35" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="40" y1="-10" x2="50" y2="-25" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 门 -->
+    <rect x="-15" y="20" width="30" height="40" fill="#7a3b14" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 窗 -->
+    <rect x="-40" y="15" width="18" height="18" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="22" y="15" width="18" height="18" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 杜甫 -->
+    <g transform="translate(0, -55)">
+      <circle cx="0" cy="0" r="14" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M-10 -8 Q0 -16 10 -8" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+      <path d="M-8 -5 Q0 -2 8 -5" fill="none" stroke="#c8c8c8" stroke-width="1.5"/>
+      <circle cx="-4" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <circle cx="4" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <path d="M-3 5 Q0 7 3 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 胡须 -->
+      <path d="M-4 8 Q0 14 4 8" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+      <!-- 头巾 -->
+      <path d="M-12 -8 Q0 -18 12 -8 L12 -12 Q0 -20 -12 -12 Z" fill="#3a4a6a" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- 中间：诗圣之心（心怀天下） -->
+  <g transform="translate(400, 230)">
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">心怀天下</text>
+    <!-- 心形 -->
+    <path d="M0 30 Q-30 0 -30 -15 Q-30 -35 -10 -35 Q0 -35 0 -20 Q0 -35 10 -35 Q30 -35 30 -15 Q30 0 0 30 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 心里的房子（广厦千万间） -->
+    <g transform="translate(0, -5)">
+      <rect x="-12" y="0" width="24" height="14" fill="#fff8e0" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-14 0 L0 -10 L14 0 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-4" y="5" width="8" height="9" fill="#7a3b14"/>
+    </g>
+    <!-- 名句 -->
+    <rect x="-90" y="50" width="180" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">安得广厦千万间</text>
+    <text x="0" y="88" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">大庇天下寒士俱欢颜</text>
+  </g>
+
+  <!-- 右侧：诗史 -->
+  <g transform="translate(630, 230)">
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">诗史</text>
+    <!-- 书卷 -->
+    <g transform="translate(0, 0)">
+      <rect x="-40" y="-25" width="80" height="60" fill="#fff8e0" stroke="#7a3b14" stroke-width="2" rx="2"/>
+      <rect x="-40" y="-25" width="80" height="8" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="-32" y1="-10" x2="32" y2="-10" stroke="#c8843a" stroke-width="0.5"/>
+      <line x1="-32" y1="-3" x2="32" y2="-3" stroke="#c8843a" stroke-width="0.5"/>
+      <line x1="-32" y1="4" x2="32" y2="4" stroke="#c8843a" stroke-width="0.5"/>
+      <line x1="-32" y1="11" x2="32" y2="11" stroke="#c8843a" stroke-width="0.5"/>
+      <line x1="-32" y1="18" x2="32" y2="18" stroke="#c8843a" stroke-width="0.5"/>
+      <line x1="-32" y1="25" x2="20" y2="25" stroke="#c8843a" stroke-width="0.5"/>
+      <!-- 印章 -->
+      <rect x="20" y="20" width="14" height="14" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+      <text x="27" y="31" text-anchor="middle" font-family="serif" font-size="9" fill="#fff8e0">史</text>
+    </g>
+    <!-- 名句 -->
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">朱门酒肉臭</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">路有冻死骨</text>
+  </g>
+
+  <!-- 下方：李白与杜甫对比 -->
+  <g transform="translate(400, 430)">
+    <rect x="-220" y="0" width="440" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+    <text x="-110" y="25" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">李白 = 诗仙（飘逸出尘）</text>
+    <line x1="0" y1="10" x2="0" y2="50" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="110" y="25" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">杜甫 = 诗圣（心怀天下）</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="12" fill="#c8843a">一千四百多首诗，记录百姓疾苦</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="510" width="700" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">杜甫自己淋着雨，却想着给天下穷苦人撑伞，他的诗像镜子照出时代真相，</text>
+  <text x="400" y="558" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">所以被称为"诗圣"——"圣"字的分量，在于心里装着天下人。</text>
+</svg>

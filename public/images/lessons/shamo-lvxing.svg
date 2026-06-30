@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="沙漠驼队与沙丘插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">沙漠旅行</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="250" fill="#f5d9a8" opacity="0.4"/>
+  <!-- 太阳 -->
+  <circle cx="650" cy="160" r="50" fill="#e07856" opacity="0.8"/>
+  <circle cx="650" cy="160" r="65" fill="#e07856" opacity="0.2"/>
+
+  <!-- 远处沙丘 -->
+  <path d="M0 280 Q200 220 400 270 Q600 310 800 250 L800 320 L0 320 Z" fill="#c8843a" opacity="0.3"/>
+  <!-- 中景沙丘 -->
+  <path d="M0 340 Q150 280 350 330 Q550 370 800 300 L800 420 L0 420 Z" fill="#c8843a" opacity="0.5"/>
+  <!-- 近景沙丘 -->
+  <path d="M0 400 Q200 350 450 390 Q650 420 800 380 L800 520 L0 520 Z" fill="#8d5a36" opacity="0.6"/>
+  <!-- 沙地 -->
+  <rect x="0" y="500" width="800" height="100" fill="#d8c9a8"/>
+
+  <!-- 沙丘纹理 -->
+  <path d="M100 380 Q200 370 300 385" fill="none" stroke="#c8843a" stroke-width="1.5" opacity="0.4"/>
+  <path d="M400 410 Q500 400 600 415" fill="none" stroke="#c8843a" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- 海市蜃楼（远处虚影） -->
+  <g opacity="0.25">
+    <rect x="100" y="290" width="20" height="30" fill="#a8d0e8"/>
+    <rect x="125" y="280" width="15" height="40" fill="#a8d0e8"/>
+    <path d="M90 320 Q130 300 170 320" fill="#a8d0e8" opacity="0.5"/>
+  </g>
+
+  <!-- 驼队（从远到近） -->
+  <!-- 远处小骆驼 -->
+  <g transform="translate(520, 360) scale(0.5)">
+    <path d="M0 40 Q-5 20 5 15 Q15 10 25 15 Q35 10 45 15 Q55 20 50 40 L50 60 L40 60 L40 45 L10 45 L10 60 L0 60 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <circle cx="48" cy="18" r="8" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <path d="M52 18 Q62 22 60 30" fill="none" stroke="#5a3a1a" stroke-width="2"/>
+  </g>
+
+  <!-- 中间骆驼 -->
+  <g transform="translate(380, 380) scale(0.7)">
+    <path d="M0 40 Q-5 18 8 12 Q18 6 28 12 Q38 6 48 12 Q61 18 56 40 L56 62 L46 62 L46 47 L10 47 L10 62 L0 62 Z" fill="#a06a3a" stroke="#5a3a1a" stroke-width="2"/>
+    <circle cx="54" cy="16" r="9" fill="#a06a3a" stroke="#5a3a1a" stroke-width="2"/>
+    <circle cx="56" cy="14" r="2" fill="#2a2a2a"/>
+    <path d="M60 16 Q72 20 70 30" fill="none" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 驮货 -->
+    <rect x="12" y="0" width="32" height="14" rx="2" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 近处大骆驼 -->
+  <g transform="translate(180, 410)">
+    <path d="M0 50 Q-8 22 10 14 Q22 6 34 14 Q46 6 58 14 Q76 22 68 50 L68 78 L56 78 L56 58 L12 58 L12 78 L0 78 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2.5"/>
+    <circle cx="66" cy="18" r="11" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2.5"/>
+    <circle cx="68" cy="16" r="2.5" fill="#2a2a2a"/>
+    <path d="M73 18 Q88 24 85 36" fill="none" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 驮货 -->
+    <rect x="14" y="-4" width="40" height="18" rx="3" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="34" y1="-4" x2="34" y2="14" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 铃铛 -->
+    <circle cx="34" cy="20" r="4" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 脚印 -->
+  <g fill="#7a3b14" opacity="0.3">
+    <ellipse cx="160" cy="510" rx="6" ry="3"/>
+    <ellipse cx="200" cy="520" rx="6" ry="3"/>
+    <ellipse cx="240" cy="510" rx="6" ry="3"/>
+    <ellipse cx="280" cy="520" rx="6" ry="3"/>
+  </g>
+
+  <!-- 标注：绿洲 -->
+  <line x1="100" y1="320" x2="80" y2="270" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="30" y="245" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="80" y="263" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">海市蜃楼</text>
+
+  <!-- 标注：驼队 -->
+  <line x1="220" y1="410" x2="220" y2="360" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="175" y="335" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="220" y="353" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">驼队</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">驼铃叮当，沙海无垠——沙漠旅行是一场与烈日和风沙的较量</text>
+</svg>

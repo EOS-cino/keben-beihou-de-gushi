@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古人修筑长城搬运砖石插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：长城是怎么修的</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 山体 -->
+  <path d="M0 300 L150 200 L300 280 L450 180 L600 260 L800 220 L800 600 L0 600 Z" fill="#4a6a2f" opacity="0.4"/>
+  <path d="M0 380 L120 300 L280 360 L420 280 L560 340 L700 300 L800 330 L800 600 L0 600 Z" fill="#4a6a2f" opacity="0.6"/>
+
+  <!-- 半成品城墙 -->
+  <g transform="translate(100, 340)">
+    <rect x="0" y="0" width="200" height="50" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 砖纹 -->
+    <g stroke="#5a3a1a" stroke-width="1" fill="none">
+      <line x1="0" y1="12" x2="200" y2="12"/>
+      <line x1="0" y1="25" x2="200" y2="25"/>
+      <line x1="0" y1="38" x2="200" y2="38"/>
+      <line x1="25" y1="0" x2="25" y2="12"/>
+      <line x1="50" y1="12" x2="50" y2="25"/>
+      <line x1="75" y1="0" x2="75" y2="12"/>
+      <line x1="100" y1="25" x2="100" y2="38"/>
+      <line x1="125" y1="0" x2="125" y2="12"/>
+      <line x1="150" y1="12" x2="150" y2="25"/>
+      <line x1="175" y1="0" x2="175" y2="12"/>
+    </g>
+    <!-- 垛口 -->
+    <rect x="10" y="-12" width="10" height="14" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <rect x="40" y="-12" width="10" height="14" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <rect x="70" y="-12" width="10" height="14" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 工人1：背砖上山 -->
+  <g transform="translate(380, 300)">
+    <!-- 背篓砖 -->
+    <rect x="-15" y="-25" width="30" height="30" rx="3" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-15" y1="-15" x2="15" y2="-15" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-15" y1="-5" x2="15" y2="-5" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 身体 -->
+    <path d="M-10 5 L-8 40 L8 40 L10 5 Z" fill="#c84a3a"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-2" r="10" fill="#f0d0a8"/>
+    <!-- 头巾 -->
+    <path d="M-10 -2 Q-10 -12 0 -12 Q10 -12 10 -2" fill="#c8843a"/>
+    <!-- 腿 -->
+    <rect x="-8" y="40" width="6" height="20" fill="#5a3a1a"/>
+    <rect x="2" y="40" width="6" height="20" fill="#5a3a1a"/>
+  </g>
+
+  <!-- 工人2：砌砖 -->
+  <g transform="translate(180, 360)">
+    <path d="M-8 5 L-6 35 L6 35 L8 5 Z" fill="#6a8d3f"/>
+    <circle cx="0" cy="-2" r="9" fill="#f0d0a8"/>
+    <path d="M-9 -2 Q-9 -11 0 -11 Q9 -11 9 -2" fill="#8d5a36"/>
+    <!-- 手举砖 -->
+    <path d="M8 8 L25 -5" fill="none" stroke="#6a8d3f" stroke-width="6" stroke-linecap="round"/>
+    <rect x="22" y="-12" width="16" height="10" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1"/>
+    <rect x="-8" y="35" width="6" height="16" fill="#5a3a1a"/>
+    <rect x="2" y="35" width="6" height="16" fill="#5a3a1a"/>
+  </g>
+
+  <!-- 工人3：独轮车运砖 -->
+  <g transform="translate(520, 380)">
+    <!-- 车斗砖 -->
+    <rect x="-25" y="-15" width="50" height="20" rx="2" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-25" y1="-5" x2="25" y2="-5" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 车把 -->
+    <line x1="-20" y1="5" x2="-35" y2="20" stroke="#5a3a1a" stroke-width="3"/>
+    <line x1="20" y1="5" x2="35" y2="20" stroke="#5a3a1a" stroke-width="3"/>
+    <!-- 轮子 -->
+    <circle cx="0" cy="10" r="12" fill="none" stroke="#5a3a1a" stroke-width="3"/>
+    <circle cx="0" cy="10" r="3" fill="#5a3a1a"/>
+    <!-- 推车人 -->
+    <g transform="translate(-45, 0)">
+      <path d="M-6 5 L-4 30 L4 30 L6 5 Z" fill="#c8843a"/>
+      <circle cx="0" cy="-2" r="8" fill="#f0d0a8"/>
+      <path d="M-8 -2 Q-8 -10 0 -10 Q8 -10 8 -2" fill="#5a3a1a"/>
+      <path d="M6 8 L20 15" fill="none" stroke="#c8843a" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- 冰道滑砖（右上小图） -->
+  <g transform="translate(580, 220)">
+    <path d="M0 40 L60 0" fill="none" stroke="#a8d0e8" stroke-width="6" stroke-linecap="round"/>
+    <rect x="20" y="10" width="14" height="8" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1" transform="rotate(-33 27 14)"/>
+    <text x="30" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">冰道运砖</text>
+  </g>
+
+  <!-- 砖上刻字特写 -->
+  <g transform="translate(60, 200)">
+    <rect x="0" y="0" width="50" height="24" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5" rx="2"/>
+    <text x="25" y="16" text-anchor="middle" font-family="serif" font-size="9" fill="#fef9ed">万历·德州</text>
+    <line x1="50" y1="12" x2="80" y2="30" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="95" y="35" font-family="serif" font-size="11" fill="#7a3b14">砖上刻名</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="42" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">没有起重机，只有手和肩——长城是无数普通人一块砖一块砖垒起来的。</text>
+</svg>

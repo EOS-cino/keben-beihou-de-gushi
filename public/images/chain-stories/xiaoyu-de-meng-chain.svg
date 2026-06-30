@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="人为什么会做梦的科学与趣闻故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">梦是从哪里来的</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——梦，是大脑在"整理房间"</text>
+
+  <!-- 古人说法 -->
+  <g transform="translate(180, 130)">
+    <rect x="-120" y="0" width="240" height="150" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">古人怎么说</text>
+    <g transform="translate(0, 70)">
+      <!-- 灵魂出窍 -->
+      <circle cx="0" cy="0" r="12" fill="#e07856" stroke="#7a3b14" stroke-width="1.2"/>
+      <ellipse cx="0" cy="24" rx="14" ry="18" fill="#4a90b8" opacity="0.6" stroke="#7a3b14" stroke-width="1.2"/>
+      <!-- 飘出的灵魂 -->
+      <ellipse cx="35" cy="-20" rx="10" ry="14" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5" stroke-dasharray="3 2"/>
+      <circle cx="35" cy="-26" r="5" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5"/>
+    </g>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">灵魂出窍 · 神仙托梦</text>
+    <text x="0" y="138" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">黄粱一梦，转眼一生</text>
+  </g>
+
+  <!-- 科学：大脑整理 -->
+  <g transform="translate(620, 130)">
+    <rect x="-120" y="0" width="240" height="150" rx="8" fill="#fef9ed" stroke="#2d6a4f" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#2d6a4f">科学怎么说</text>
+    <g transform="translate(0, 75)">
+      <!-- 大脑 -->
+      <path d="M-35 0 Q-40 -20 -20 -22 Q-10 -30 10 -28 Q35 -25 35 0 Q35 18 10 20 Q0 24 -10 20 Q-35 18 -35 0 Z" fill="#e07856" opacity="0.5" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 整理的记忆碎片 -->
+      <rect x="-22" y="-12" width="10" height="8" fill="#e8a838" stroke="#7a3b14" stroke-width="0.8"/>
+      <rect x="-8" y="-8" width="10" height="8" fill="#4a90b8" stroke="#7a3b14" stroke-width="0.8"/>
+      <rect x="6" y="-14" width="10" height="8" fill="#c84a3a" stroke="#7a3b14" stroke-width="0.8"/>
+      <rect x="-14" y="4" width="10" height="8" fill="#6a8d3f" stroke="#7a3b14" stroke-width="0.8"/>
+      <rect x="2" y="6" width="10" height="8" fill="#e8a838" stroke="#7a3b14" stroke-width="0.8"/>
+    </g>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">白天看听的，晚上分类归档</text>
+    <text x="0" y="138" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">拼在一起，就成了奇奇怪怪的梦</text>
+  </g>
+
+  <!-- 快动眼睡眠 -->
+  <g transform="translate(400, 320)">
+    <rect x="-280" y="0" width="560" height="120" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="2"/>
+    <text x="0" y="26" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">快动眼睡眠：梦最清楚的时候</text>
+    <g transform="translate(0, 70)">
+      <!-- 闭着的眼睛，眼珠在转 -->
+      <path d="M-50 0 Q0 -8 50 0" fill="none" stroke="#7a3b14" stroke-width="2"/>
+      <circle cx="-20" cy="-2" r="4" fill="#7a3b14"/>
+      <circle cx="20" cy="-2" r="4" fill="#7a3b14"/>
+      <!-- 转动箭头 -->
+      <path d="M-20 -8 Q0 -18 20 -8" fill="none" stroke="#c84a3a" stroke-width="1.5" stroke-dasharray="3 2"/>
+      <text x="0" y="-22" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">眼珠在眼皮下转来转去</text>
+    </g>
+    <text x="0" y="108" text-anchor="middle" font-family="serif" font-size="10" fill="#2d6a4f">这时叫醒人，多半记得梦见了什么</text>
+  </g>
+
+  <!-- 梦境日记 -->
+  <g transform="translate(160, 470)">
+    <rect x="-30" y="0" width="60" height="40" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+    <line x1="-22" y1="12" x2="22" y2="12" stroke="#7a3b14" stroke-width="0.6"/>
+    <line x1="-22" y1="22" x2="22" y2="22" stroke="#7a3b14" stroke-width="0.6"/>
+    <line x1="-22" y1="32" x2="10" y2="32" stroke="#7a3b14" stroke-width="0.6"/>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">醒来记几句</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 510)">
+    <rect x="-300" y="0" width="600" height="60" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">梦不是天上掉下来的，是大脑自己"编"的</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">很多好故事、好发明，都是从梦里来的</text>
+  </g>
+</svg>

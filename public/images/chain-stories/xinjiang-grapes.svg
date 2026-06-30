@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="阳光照在葡萄藤上，旁边画着温差和日照的示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="300" fill="#f4b942" opacity="0.08"/>
+  <!-- 烈日 -->
+  <circle cx="150" cy="120" r="40" fill="#e07856" opacity="0.6"/>
+  <g stroke="#e07856" stroke-width="2.5" opacity="0.4">
+    <line x1="150" y1="60" x2="150" y2="45"/>
+    <line x1="150" y1="180" x2="150" y2="195"/>
+    <line x1="90" y1="120" x2="75" y2="120"/>
+    <line x1="210" y1="120" x2="225" y2="120"/>
+    <line x1="108" y1="78" x2="97" y2="67"/>
+    <line x1="192" y1="78" x2="203" y2="67"/>
+    <line x1="108" y1="162" x2="97" y2="173"/>
+    <line x1="192" y1="162" x2="203" y2="173"/>
+  </g>
+  <text x="150" y="200" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">白天 45°C</text>
+  <!-- 月亮（夜晚） -->
+  <g transform="translate(650,120)">
+    <circle cx="0" cy="0" r="30" fill="#a8d0e8" opacity="0.5"/>
+    <circle cx="8" cy="-5" r="25" fill="#fef9ed" opacity="0.6"/>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#7ab8d8">夜晚 20°C</text>
+  </g>
+  <!-- 温差箭头 -->
+  <g transform="translate(400,120)">
+    <path d="M-80 0 L80 0" stroke="#8d5a36" stroke-width="2" stroke-dasharray="5,3" opacity="0.4"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">温差25°C</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36" opacity="0.7">糖分积累的关键</text>
+  </g>
+  <!-- 葡萄藤 -->
+  <g transform="translate(400,350)">
+    <!-- 藤架柱子 -->
+    <rect x="-200" y="-30" width="12" height="120" fill="#8d5a36"/>
+    <rect x="188" y="-30" width="12" height="120" fill="#8d5a36"/>
+    <!-- 横梁 -->
+    <rect x="-200" y="-30" width="400" height="10" fill="#8d5a36"/>
+    <!-- 葡萄叶 -->
+    <g fill="#6a8d3f" opacity="0.7">
+      <ellipse cx="-130" cy="-40" rx="30" ry="18"/>
+      <ellipse cx="-60" cy="-45" rx="35" ry="20"/>
+      <ellipse cx="20" cy="-42" rx="32" ry="18"/>
+      <ellipse cx="100" cy="-45" rx="35" ry="20"/>
+      <ellipse cx="160" cy="-40" rx="28" ry="16"/>
+    </g>
+    <g fill="#7ba84a" opacity="0.5">
+      <ellipse cx="-90" cy="-50" rx="22" ry="14"/>
+      <ellipse cx="60" cy="-52" rx="25" ry="15"/>
+    </g>
+    <!-- 葡萄串 -->
+    <g transform="translate(-100,-20)">
+      <g fill="#7a3b8a">
+        <circle cx="0" cy="0" r="7"/><circle cx="-8" cy="7" r="7"/><circle cx="8" cy="7" r="7"/>
+        <circle cx="-12" cy="15" r="6"/><circle cx="0" cy="15" r="6"/><circle cx="12" cy="15" r="6"/>
+        <circle cx="-6" cy="22" r="5"/><circle cx="6" cy="22" r="5"/>
+      </g>
+    </g>
+    <g transform="translate(50,-20)">
+      <g fill="#6a8d3f">
+        <circle cx="0" cy="0" r="7"/><circle cx="-8" cy="7" r="7"/><circle cx="8" cy="7" r="7"/>
+        <circle cx="-12" cy="15" r="6"/><circle cx="0" cy="15" r="6"/><circle cx="12" cy="15" r="6"/>
+      </g>
+    </g>
+    <g transform="translate(150,-20)">
+      <g fill="#c84a3a">
+        <circle cx="0" cy="0" r="7"/><circle cx="-8" cy="7" r="7"/><circle cx="8" cy="7" r="7"/>
+        <circle cx="-12" cy="15" r="6"/><circle cx="0" cy="15" r="6"/><circle cx="12" cy="15" r="6"/>
+        <circle cx="-6" cy="22" r="5"/><circle cx="6" cy="22" r="5"/>
+      </g>
+    </g>
+  </g>
+  <!-- 四个秘密标签 -->
+  <g transform="translate(120,440)">
+    <rect x="-50" y="-12" width="100" height="24" rx="5" fill="#f4b942" opacity="0.7"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">阳光足</text>
+  </g>
+  <g transform="translate(300,440)">
+    <rect x="-50" y="-12" width="100" height="24" rx="5" fill="#e07856" opacity="0.7"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#fef9ed">温差大</text>
+  </g>
+  <g transform="translate(500,440)">
+    <rect x="-50" y="-12" width="100" height="24" rx="5" fill="#7ab8d8" opacity="0.7"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#fef9ed">雪水凉</text>
+  </g>
+  <g transform="translate(680,440)">
+    <rect x="-50" y="-12" width="100" height="24" rx="5" fill="#6a8d3f" opacity="0.7"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#fef9ed">土壤好</text>
+  </g>
+  <!-- 地面 -->
+  <path d="M0 470 Q200 465 400 470 T800 468 L800 600 L0 600 Z" fill="#8d5a36" opacity="0.15"/>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">新疆葡萄为什么特别甜</text>
+</svg>

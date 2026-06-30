@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古人计时方法演变的连珠故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8a5a14">连珠小故事：古人是怎么计时的</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#7a7468">从看太阳，到日晷、漏壶、燃香，再到原子钟</text>
+
+  <!-- 时间轴底线 -->
+  <line x1="100" y1="320" x2="700" y2="320" stroke="#c8943a" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 第一格：看太阳 -->
+  <g transform="translate(170 240)">
+    <circle cx="0" cy="0" r="55" fill="#fff6df" stroke="#e8a838" stroke-width="1.5"/>
+    <!-- 太阳 -->
+    <circle cx="-15" cy="-15" r="14" fill="#e8a838"/>
+    <g stroke="#e8a838" stroke-width="1.5">
+      <line x1="-15" y1="-33" x2="-15" y2="-29"/>
+      <line x1="-29" y1="-22" x2="-26" y2="-20"/>
+      <line x1="-3" y1="-30" x2="-5" y2="-27"/>
+    </g>
+    <!-- 影子 -->
+    <line x1="-15" y1="-15" x2="15" y2="15" stroke="#5a4a2a" stroke-width="3" stroke-linecap="round"/>
+    <!-- 仰望的人 -->
+    <g transform="translate(15 25)">
+      <path d="M-7 12 Q-9 2 -4 -3 Q0 -6 4 -3 Q9 2 7 12 Z" fill="#2d6a4f"/>
+      <circle cx="0" cy="-8" r="6" fill="#f4d4a8"/>
+    </g>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">看太阳</text>
+    <text x="0" y="98" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">日升日落</text>
+  </g>
+
+  <!-- 第二格：日晷 -->
+  <g transform="translate(330 240)">
+    <circle cx="0" cy="0" r="55" fill="#fff6df" stroke="#e07856" stroke-width="1.5"/>
+    <!-- 日晷盘 -->
+    <ellipse cx="0" cy="8" rx="30" ry="10" fill="#c8b898" stroke="#8a6a3a" stroke-width="1.5"/>
+    <!-- 晷针 -->
+    <line x1="0" y1="8" x2="0" y2="-25" stroke="#5a4a2a" stroke-width="3"/>
+    <!-- 影子 -->
+    <line x1="0" y1="8" x2="-18" y2="2" stroke="#5a4a2a" stroke-width="2"/>
+    <!-- 刻度 -->
+    <g stroke="#8a6a3a" stroke-width="1">
+      <line x1="-25" y1="6" x2="-22" y2="4"/>
+      <line x1="25" y1="6" x2="22" y2="4"/>
+      <line x1="0" y1="-2" x2="0" y2="2"/>
+    </g>
+    <!-- 太阳 -->
+    <circle cx="20" cy="-25" r="8" fill="#e8a838" opacity="0.7"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">日晷</text>
+    <text x="0" y="98" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">看影子方向</text>
+  </g>
+
+  <!-- 第三格：漏壶 -->
+  <g transform="translate(490 240)">
+    <circle cx="0" cy="0" r="55" fill="#fff6df" stroke="#4a90b8" stroke-width="1.5"/>
+    <!-- 铜壶 -->
+    <path d="M-22 10 L-18 -10 L18 -10 L22 10 Z" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-10" rx="18" ry="5" fill="#4a90b8" opacity="0.5"/>
+    <!-- 水位线 -->
+    <line x1="-16" y1="-5" x2="16" y2="-5" stroke="#4a90b8" stroke-width="1.5"/>
+    <!-- 刻度 -->
+    <line x1="-18" y1="0" x2="-14" y2="0" stroke="#5a4a2a" stroke-width="1"/>
+    <line x1="-18" y1="5" x2="-14" y2="5" stroke="#5a4a2a" stroke-width="1"/>
+    <!-- 滴水 -->
+    <ellipse cx="0" cy="14" rx="2" ry="3" fill="#4a90b8" opacity="0.7"/>
+    <ellipse cx="0" cy="22" rx="1.5" ry="2" fill="#4a90b8" opacity="0.5"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">漏壶</text>
+    <text x="0" y="98" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">看水位高低</text>
+  </g>
+
+  <!-- 第四格：燃香 -->
+  <g transform="translate(630 240)">
+    <circle cx="0" cy="0" r="55" fill="#fff6df" stroke="#2d6a4f" stroke-width="1.5"/>
+    <!-- 香炉 -->
+    <path d="M-15 15 Q-18 5 -12 0 L12 0 Q18 5 15 15 Z" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+    <!-- 香 -->
+    <line x1="0" y1="0" x2="0" y2="-25" stroke="#8a5a3a" stroke-width="2"/>
+    <!-- 燃点 -->
+    <circle cx="0" cy="-25" r="2.5" fill="#e07856"/>
+    <!-- 烟 -->
+    <path d="M0 -27 Q-3 -33 0 -38 Q3 -43 0 -48" fill="none" stroke="#7a7468" stroke-width="1.2" opacity="0.5"/>
+    <!-- 香灰（已燃部分颜色浅） -->
+    <line x1="0" y1="-5" x2="0" y2="0" stroke="#c8b898" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">燃香</text>
+    <text x="0" y="98" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">一炷香功夫</text>
+  </g>
+
+  <!-- 现代原子钟 -->
+  <g transform="translate(400 450)">
+    <rect x="-80" y="-30" width="160" height="60" fill="#fff6df" stroke="#e07856" stroke-width="2" rx="8"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#e07856">现代·原子钟</text>
+    <!-- 时钟符号 -->
+    <circle cx="-45" cy="10" r="12" fill="none" stroke="#8a5a14" stroke-width="2"/>
+    <line x1="-45" y1="10" x2="-45" y2="2" stroke="#8a5a14" stroke-width="1.5"/>
+    <line x1="-45" y1="10" x2="-39" y2="10" stroke="#8a5a14" stroke-width="1.5"/>
+    <text x="10" y="14" font-family="serif" font-size="11" fill="#8a5a14">几千万年差一秒</text>
+  </g>
+  <line x1="400" y1="380" x2="400" y2="418" stroke="#c8943a" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="545" width="680" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">找稳定重复的东西来"量"时间——古今计时的道理其实相通</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="操场上五星红旗升起学生敬礼的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">升国旗</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="360" fill="#a8d0e8" opacity="0.2"/>
+
+  <!-- 旗杆 -->
+  <rect x="396" y="100" width="8" height="400" fill="#8d5a36"/>
+  <circle cx="400" cy="98" r="8" fill="#f4b942" stroke="#8d5a36" stroke-width="1.5"/>
+
+  <!-- 五星红旗 -->
+  <g transform="translate(404,120)">
+    <rect x="0" y="0" width="160" height="105" fill="#c84a3a"/>
+    <!-- 大星 -->
+    <g transform="translate(35,28)">
+      <polygon points="0,-16 4.7,-5 16,-5 7,2 10,13 0,7 -10,13 -7,2 -16,-5 -4.7,-5" fill="#f4b942"/>
+    </g>
+    <!-- 四颗小星 -->
+    <g fill="#f4b942">
+      <g transform="translate(70,10)"><polygon points="0,-6 1.8,-1.8 6,-1.8 2.6,1 4,5.5 0,2.8 -4,5.5 -2.6,1 -6,-1.8 -1.8,-1.8" transform="rotate(-20)"/></g>
+      <g transform="translate(82,25)"><polygon points="0,-6 1.8,-1.8 6,-1.8 2.6,1 4,5.5 0,2.8 -4,5.5 -2.6,1 -6,-1.8 -1.8,-1.8" transform="rotate(-45)"/></g>
+      <g transform="translate(82,45)"><polygon points="0,-6 1.8,-1.8 6,-1.8 2.6,1 4,5.5 0,2.8 -4,5.5 -2.6,1 -6,-1.8 -1.8,-1.8" transform="rotate(-70)"/></g>
+      <g transform="translate(70,60)"><polygon points="0,-6 1.8,-1.8 6,-1.8 2.6,1 4,5.5 0,2.8 -4,5.5 -2.6,1 -6,-1.8 -1.8,-1.8" transform="rotate(-90)"/></g>
+    </g>
+  </g>
+
+  <!-- 风线 -->
+  <g stroke="#7ab8d8" stroke-width="1.5" opacity="0.4" fill="none">
+    <path d="M580 140 Q620 135 660 142"/>
+    <path d="M590 170 Q630 165 670 172"/>
+  </g>
+
+  <!-- 地面 -->
+  <path d="M0 440 Q200 425 400 435 Q600 428 800 440 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.3"/>
+
+  <!-- 敬礼的学生们 -->
+  <!-- 学生1 -->
+  <g transform="translate(200,460)">
+    <circle cx="0" cy="-50" r="16" fill="#f4c8a0"/>
+    <rect x="-6" y="-34" width="12" height="8" fill="#c84a3a"/>
+    <!-- 红领巾 -->
+    <polygon points="-8,-26 8,-26 0,-12" fill="#c84a3a"/>
+    <rect x="-15" y="-26" width="30" height="40" rx="3" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+    <polygon points="-8,-26 8,-26 0,-12" fill="#c84a3a" opacity="0.9"/>
+    <!-- 敬礼的手 -->
+    <path d="M15 -20 Q30 -35 28 -50" fill="none" stroke="#f4c8a0" stroke-width="8" stroke-linecap="round"/>
+    <rect x="-8" y="14" width="6" height="30" fill="#4a6a2f"/>
+    <rect x="2" y="14" width="6" height="30" fill="#4a6a2f"/>
+  </g>
+  <!-- 学生2 -->
+  <g transform="translate(600,460)">
+    <circle cx="0" cy="-50" r="16" fill="#f4c8a0"/>
+    <rect x="-6" y="-34" width="12" height="8" fill="#c84a3a"/>
+    <polygon points="-8,-26 8,-26 0,-12" fill="#c84a3a"/>
+    <rect x="-15" y="-26" width="30" height="40" rx="3" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+    <polygon points="-8,-26 8,-26 0,-12" fill="#c84a3a" opacity="0.9"/>
+    <path d="M-15 -20 Q-30 -35 -28 -50" fill="none" stroke="#f4c8a0" stroke-width="8" stroke-linecap="round"/>
+    <rect x="-8" y="14" width="6" height="30" fill="#4a6a2f"/>
+    <rect x="2" y="14" width="6" height="30" fill="#4a6a2f"/>
+  </g>
+  <!-- 学生3（中间小一点） -->
+  <g transform="translate(400,470)">
+    <circle cx="0" cy="-45" r="14" fill="#f4c8a0"/>
+    <rect x="-5" y="-31" width="10" height="7" fill="#c84a3a"/>
+    <polygon points="-7,-24 7,-24 0,-10" fill="#c84a3a"/>
+    <rect x="-13" y="-24" width="26" height="36" rx="3" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+    <polygon points="-7,-24 7,-24 0,-10" fill="#c84a3a" opacity="0.9"/>
+    <path d="M13 -18 Q26 -32 24 -46" fill="none" stroke="#f4c8a0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="-7" y="12" width="5" height="28" fill="#4a6a2f"/>
+    <rect x="2" y="12" width="5" height="28" fill="#4a6a2f"/>
+  </g>
+
+  <!-- 底部文字 -->
+  <rect x="180" y="545" width="440" height="40" rx="8" fill="#fef0d8" opacity="0.7"/>
+  <text x="400" y="571" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">向着国旗，我们立正；望着国旗，我们敬礼</text>
+</svg>

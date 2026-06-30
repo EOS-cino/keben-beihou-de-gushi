@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从小人鱼到精卫填海的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：小人鱼 -->
+  <circle cx="170" cy="300" r="110" fill="#1e5f8e" opacity="0.25" stroke="#1e5f8e" stroke-width="3"/>
+  <circle cx="170" cy="280" r="12" fill="#f5d9a0"/>
+  <path d="M 326 372 q 30 60 70 80" transform="translate(-170 -90)" stroke="#3a7d44" stroke-width="0"/>
+  <ellipse cx="170" cy="305" rx="16" ry="18" fill="#9bb7c4" opacity="0.7"/>
+  <path d="M 158 320 q 12 18 24 0 q 8 14 16 4" fill="#3a7d44" opacity="0.7"/>
+  <text x="170" y="350" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">小人鱼</text>
+  <text x="170" y="373" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">为爱付出</text>
+  <!-- 右珠：精卫填海 -->
+  <circle cx="630" cy="300" r="110" fill="#e8a04e" opacity="0.25" stroke="#b5651d" stroke-width="3"/>
+  <ellipse cx="628" cy="290" rx="14" ry="10" fill="#c8553d"/>
+  <circle cx="620" cy="286" r="4" fill="#f5d9a0"/>
+  <path d="M 642 290 l 14 -4 l -2 8 z" fill="#3a7d44"/>
+  <path d="M 600 300 q 20 -4 30 0" stroke="#5d8aa8" stroke-width="2" fill="none"/>
+  <circle cx="615" cy="310" r="3" fill="#8a6d3b"/>
+  <circle cx="640" cy="314" r="3" fill="#8a6d3b"/>
+  <text x="630" y="350" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">精卫填海</text>
+  <text x="630" y="373" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">衔石不止</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">海的女儿，精卫的执着</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">有些坚持本身就是一种美</text>
+</svg>

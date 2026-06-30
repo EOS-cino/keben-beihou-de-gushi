@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="战场上的灯光与今天的华灯初上对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">灯光</text>
+  <line x1="370" y1="56" x2="430" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左侧：战场上的火光 -->
+  <g transform="translate(200, 300)">
+    <text x="0" y="-160" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#e07856">战场上的火光</text>
+    <!-- 夜空背景 -->
+    <rect x="-150" y="-140" width="300" height="280" fill="#1a1a2a" opacity="0.15" rx="8"/>
+    <!-- 战壕 -->
+    <path d="M -130 80 L -130 50 Q -100 40 -50 45 Q 0 50 50 45 Q 100 40 130 50 L 130 80 Z" fill="#5a4a2a" opacity="0.5"/>
+    <!-- 火光（书本燃烧） -->
+    <g transform="translate(0, 20)">
+      <!-- 火焰 -->
+      <path d="M 0 0 Q -8 -15 -5 -25 Q 0 -35 0 -40 Q 5 -35 5 -25 Q 8 -15 0 0" fill="#e07856" opacity="0.8"/>
+      <path d="M 0 -5 Q -5 -18 -3 -25 Q 0 -30 0 -33 Q 3 -30 3 -25 Q 5 -18 0 -5" fill="#e8a838" opacity="0.7"/>
+      <path d="M 0 -10 Q -3 -20 -1 -25 Q 0 -28 0 -28 Q 1 -28 1 -25 Q 3 -20 0 -10" fill="#f0e8a0" opacity="0.6"/>
+      <!-- 光晕 -->
+      <circle cx="0" cy="-20" r="40" fill="#e8a838" opacity="0.08"/>
+      <circle cx="0" cy="-20" r="25" fill="#e07856" opacity="0.12"/>
+      <!-- 书本 -->
+      <rect x="-12" y="0" width="24" height="16" fill="#fff8e0" stroke="#7a3b14" stroke-width="1.5" opacity="0.7"/>
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <!-- 光线（照亮前方） -->
+    <path d="M 0 -20 L -80 -60 L -80 40 L 0 -20" fill="#e8a838" opacity="0.06"/>
+    <path d="M 0 -20 L 80 -60 L 80 40 L 0 -20" fill="#e8a838" opacity="0.06"/>
+    <!-- 远处的战士剪影 -->
+    <g transform="translate(-90, 20)" opacity="0.5">
+      <circle cx="0" cy="-8" r="5" fill="#3a3a3a"/>
+      <rect x="-5" y="-3" width="10" height="18" fill="#3a3a3a" rx="2"/>
+    </g>
+    <g transform="translate(90, 25)" opacity="0.5">
+      <circle cx="0" cy="-8" r="5" fill="#3a3a3a"/>
+      <rect x="-5" y="-3" width="10" height="18" fill="#3a3a3a" rx="2"/>
+    </g>
+    <!-- 标注 -->
+    <rect x="-80" y="100" width="160" height="28" fill="#fff6df" stroke="#e07856" stroke-width="1.5" rx="4"/>
+    <text x="0" y="119" text-anchor="middle" font-family="serif" font-size="13" fill="#e07856">点燃书本·照亮战友</text>
+  </g>
+
+  <!-- 右侧：今天的华灯 -->
+  <g transform="translate(600, 300)">
+    <text x="0" y="-160" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#e8a838">今天的华灯</text>
+    <!-- 暖色背景 -->
+    <rect x="-150" y="-140" width="300" height="280" fill="#fff8e0" opacity="0.5" rx="8"/>
+    <!-- 路灯 -->
+    <g transform="translate(-80, 20)">
+      <line x1="0" y1="0" x2="0" y2="-80" stroke="#5a4a2a" stroke-width="3"/>
+      <path d="M 0 -80 Q -15 -85 -20 -75" fill="none" stroke="#5a4a2a" stroke-width="2.5"/>
+      <ellipse cx="-20" cy="-72" rx="8" ry="5" fill="#e8a838" opacity="0.8"/>
+      <circle cx="-20" cy="-72" r="18" fill="#e8a838" opacity="0.1"/>
+    </g>
+    <g transform="translate(80, 30)">
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#5a4a2a" stroke-width="3"/>
+      <path d="M 0 -90 Q 15 -95 20 -85" fill="none" stroke="#5a4a2a" stroke-width="2.5"/>
+      <ellipse cx="20" cy="-82" rx="8" ry="5" fill="#e8a838" opacity="0.8"/>
+      <circle cx="20" cy="-82" r="18" fill="#e8a838" opacity="0.1"/>
+    </g>
+    <!-- 楼房窗户灯光 -->
+    <g transform="translate(0, -40)">
+      <rect x="-30" y="-30" width="60" height="50" fill="#d8c8a8" stroke="#7a3b14" stroke-width="1.5" opacity="0.6"/>
+      <rect x="-25" y="-25" width="12" height="12" fill="#e8a838" opacity="0.7"/>
+      <rect x="-8" y="-25" width="12" height="12" fill="#e8a838" opacity="0.5"/>
+      <rect x="10" y="-25" width="12" height="12" fill="#4a90b8" opacity="0.4"/>
+      <rect x="-25" y="-8" width="12" height="12" fill="#e8a838" opacity="0.6"/>
+      <rect x="10" y="-8" width="12" height="12" fill="#e8a838" opacity="0.7"/>
+    </g>
+    <!-- 地面 -->
+    <rect x="-130" y="80" width="260" height="10" fill="#5a4a2a" opacity="0.3" rx="2"/>
+    <!-- 标注 -->
+    <rect x="-80" y="100" width="160" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+    <text x="0" y="119" text-anchor="middle" font-family="serif" font-size="13" fill="#e8a838">华灯初上·万家灯火</text>
+  </g>
+
+  <!-- 中间连接箭头 -->
+  <g transform="translate(400, 250)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a">他用生命</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a">换来了</text>
+    <path d="M -20 35 L 0 55 L 20 35" fill="none" stroke="#c8843a" stroke-width="2"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="100" y="510" width="600" height="55" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.8"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">"多好啊！"——郝副营长向往的电灯，</text>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">今天已照亮千家万户。每一盏灯，都连着他的牺牲。</text>
+</svg>

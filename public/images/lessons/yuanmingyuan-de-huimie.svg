@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="圆明园遗址柱石与晚霞插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">圆明园的毁灭</text>
+  <line x1="240" y1="62" x2="560" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 晚霞天空 -->
+  <rect x="0" y="80" width="800" height="240" fill="#f8d098"/>
+  <!-- 火烧云 -->
+  <ellipse cx="200" cy="150" rx="120" ry="40" fill="#e87838" opacity="0.4"/>
+  <ellipse cx="500" cy="130" rx="150" ry="35" fill="#d85828" opacity="0.3"/>
+  <ellipse cx="650" cy="170" rx="100" ry="30" fill="#e87838" opacity="0.4"/>
+
+  <!-- 落日 -->
+  <circle cx="650" cy="200" r="40" fill="#e85828" opacity="0.8"/>
+  <circle cx="650" cy="200" r="30" fill="#f47838"/>
+
+  <!-- 远处浓烟 -->
+  <g fill="#6a6a6a" opacity="0.4">
+    <ellipse cx="150" cy="180" rx="80" ry="35"/>
+    <ellipse cx="300" cy="160" rx="90" ry="30"/>
+    <ellipse cx="450" cy="175" rx="70" ry="28"/>
+  </g>
+
+  <!-- 地面废墟 -->
+  <rect x="0" y="320" width="800" height="280" fill="#c8b098"/>
+  <!-- 废墟碎石 -->
+  <path d="M0 340 Q200 330 400 340 T800 340" fill="none" stroke="#a89078" stroke-width="2"/>
+  <path d="M0 380 Q150 370 300 380 T600 380 T800 380" fill="none" stroke="#a89078" stroke-width="2"/>
+
+  <!-- 残柱1（左侧，较高） -->
+  <!-- 柱基 -->
+  <rect x="120" y="420" width="80" height="25" fill="#b89878" stroke="#8a6a4a" stroke-width="2"/>
+  <!-- 柱身 -->
+  <rect x="135" y="200" width="50" height="220" fill="#d4b898" stroke="#8a6a4a" stroke-width="2"/>
+  <!-- 柱身凹槽 -->
+  <line x1="148" y1="210" x2="148" y2="415" stroke="#a88868" stroke-width="1.5"/>
+  <line x1="160" y1="210" x2="160" y2="415" stroke="#a88868" stroke-width="1.5"/>
+  <line x1="172" y1="210" x2="172" y2="415" stroke="#a88868" stroke-width="1.5"/>
+  <!-- 柱顶（断裂不齐） -->
+  <path d="M135 200 L135 195 L145 190 L155 200 L165 185 L175 195 L185 200 Z" fill="#c8a888" stroke="#8a6a4a" stroke-width="2"/>
+  <!-- 裂缝 -->
+  <path d="M150 250 L155 280 L148 310 L153 340" fill="none" stroke="#8a6a4a" stroke-width="2"/>
+  <path d="M165 350 L160 380 L168 400" fill="none" stroke="#8a6a4a" stroke-width="2"/>
+
+  <!-- 残柱2（中间，较矮，断裂） -->
+  <rect x="340" y="440" width="70" height="20" fill="#b89878" stroke="#8a6a4a" stroke-width="2"/>
+  <rect x="352" y="300" width="46" height="140" fill="#d4b898" stroke="#8a6a4a" stroke-width="2"/>
+  <line x1="362" y1="310" x2="362" y2="435" stroke="#a88868" stroke-width="1.5"/>
+  <line x1="372" y1="310" x2="372" y2="435" stroke="#a88868" stroke-width="1.5"/>
+  <line x1="382" y1="310" x2="382" y2="435" stroke="#a88868" stroke-width="1.5"/>
+  <!-- 断裂面 -->
+  <path d="M352 300 L358 295 L365 305 L372 290 L380 300 L388 295 L398 300 Z" fill="#c8a888" stroke="#8a6a4a" stroke-width="2"/>
+  <!-- 倒下的柱段 -->
+  <rect x="420" y="445" width="100" height="25" fill="#d4b898" stroke="#8a6a4a" stroke-width="2" transform="rotate(-8 470 457)"/>
+  <line x1="430" y1="457" x2="520" y2="457" stroke="#a88868" stroke-width="1.5" transform="rotate(-8 470 457)"/>
+
+  <!-- 残柱3（右侧，半截） -->
+  <rect x="580" y="430" width="70" height="22" fill="#b89878" stroke="#8a6a4a" stroke-width="2"/>
+  <rect x="592" y="280" width="46" height="150" fill="#d4b898" stroke="#8a6a4a" stroke-width="2"/>
+  <line x1="602" y1="290" x2="602" y2="425" stroke="#a88868" stroke-width="1.5"/>
+  <line x1="612" y1="290" x2="612" y2="425" stroke="#a88868" stroke-width="1.5"/>
+  <line x1="622" y1="290" x2="622" y2="425" stroke="#a88868" stroke-width="1.5"/>
+  <path d="M592 280 L598 275 L605 285 L612 270 L620 280 L628 275 L638 280 Z" fill="#c8a888" stroke="#8a6a4a" stroke-width="2"/>
+
+  <!-- 散落的碎石 -->
+  <g fill="#b89878" stroke="#8a6a4a" stroke-width="1.5">
+    <ellipse cx="250" cy="460" rx="25" ry="12"/>
+    <ellipse cx="290" cy="475" rx="18" ry="8"/>
+    <ellipse cx="500" cy="490" rx="30" ry="14"/>
+    <ellipse cx="540" cy="500" rx="20" ry="10"/>
+    <ellipse cx="690" cy="480" rx="22" ry="11"/>
+    <ellipse cx="720" cy="495" rx="16" ry="8"/>
+    <ellipse cx="80" cy="470" rx="20" ry="10"/>
+  </g>
+
+  <!-- 火焰（从废墟中升起） -->
+  <g>
+    <!-- 火焰1 -->
+    <path d="M220 420 Q210 380 225 350 Q215 370 230 340 Q225 360 240 330 Q235 360 245 380 Q250 400 240 420 Z" fill="#e85828" opacity="0.8"/>
+    <path d="M225 415 Q220 390 230 365 Q225 380 235 360 Q232 380 240 395 Q242 408 235 415 Z" fill="#f4a838" opacity="0.8"/>
+    <!-- 火焰2 -->
+    <path d="M460 440 Q450 400 465 370 Q455 390 470 360 Q465 380 475 350 Q470 380 480 400 Q485 420 475 440 Z" fill="#e85828" opacity="0.8"/>
+    <path d="M465 435 Q460 410 470 385 Q465 400 475 380 Q472 400 480 415 Q482 428 475 435 Z" fill="#f4a838" opacity="0.8"/>
+    <!-- 火焰3 -->
+    <path d="M660 430 Q650 395 665 365 Q655 385 670 355 Q665 375 675 345 Q670 375 680 395 Q685 415 675 430 Z" fill="#e85828" opacity="0.8"/>
+    <path d="M665 425 Q660 400 670 375 Q665 390 675 370 Q672 390 680 405 Q682 418 675 425 Z" fill="#f4a838" opacity="0.8"/>
+  </g>
+
+  <!-- 烟雾上升 -->
+  <g fill="#8a8a8a" opacity="0.3">
+    <ellipse cx="230" cy="320" rx="30" ry="15"/>
+    <ellipse cx="250" cy="290" rx="35" ry="18"/>
+    <ellipse cx="470" cy="340" rx="28" ry="14"/>
+    <ellipse cx="485" cy="310" rx="32" ry="16"/>
+    <ellipse cx="670" cy="330" rx="30" ry="15"/>
+    <ellipse cx="685" cy="300" rx="35" ry="18"/>
+  </g>
+
+  <!-- 残柱标注 -->
+  <line x1="160" y1="195" x2="160" y2="155" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="100" y="130" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="160" y="148" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">断壁残柱</text>
+
+  <!-- 火焰标注 -->
+  <line x1="475" y1="360" x2="475" y2="320" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="430" y="295" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="475" y="313" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">烈火焚烧</text>
+
+  <!-- 废墟标注 -->
+  <line x1="500" y1="490" x2="500" y2="530" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="455" y="535" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="500" y="553" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">废墟碎石</text>
+
+  <!-- 浓烟标注 -->
+  <line x1="300" y1="160" x2="300" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="255" y="95" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="300" y="113" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">浓烟滚滚</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="580" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">1860年英法联军火烧圆明园，万园之园化为废墟，警钟长鸣</text>
+</svg>

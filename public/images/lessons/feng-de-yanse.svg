@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="无形的风吹动彩色花田与落叶柳枝的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">风的颜色</text>
+  <line x1="345" y1="56" x2="455" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——风没有颜色，却染出了万紫千红</text>
+
+  <!-- 风的虚线轨迹 -->
+  <g stroke="#4a90b8" stroke-width="2.5" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M80 200 Q250 160 400 200 Q560 240 720 190" stroke-dasharray="8 8"/>
+    <path d="M60 240 Q260 200 420 240 Q580 280 740 230" stroke-dasharray="6 8"/>
+  </g>
+  <text x="120" y="185" font-family="serif" font-size="11" fill="#4a90b8">风 →</text>
+
+  <!-- 麦田：金黄 -->
+  <g transform="translate(150, 360)">
+    <rect x="-70" y="0" width="140" height="50" fill="#e8a838" opacity="0.4"/>
+    <path d="M-60 0 Q-40 -30 -20 0" fill="none" stroke="#c8843a" stroke-width="2"/>
+    <path d="M-30 0 Q-10 -32 10 0" fill="none" stroke="#c8843a" stroke-width="2"/>
+    <path d="M0 0 Q20 -30 40 0" fill="none" stroke="#c8843a" stroke-width="2"/>
+    <path d="M30 0 Q50 -28 60 0" fill="none" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="12" fill="#c8843a">风过麦田 · 金黄</text>
+  </g>
+
+  <!-- 花海：彩色 -->
+  <g transform="translate(400, 360)">
+    <rect x="-70" y="0" width="140" height="50" fill="#e07856" opacity="0.3"/>
+    <g>
+      <circle cx="-50" cy="-8" r="7" fill="#e07856"/>
+      <circle cx="-30" cy="-12" r="7" fill="#e8a838"/>
+      <circle cx="-10" cy="-8" r="7" fill="#c84a3a"/>
+      <circle cx="10" cy="-12" r="7" fill="#e07856"/>
+      <circle cx="30" cy="-8" r="7" fill="#4a90b8"/>
+      <circle cx="50" cy="-10" r="7" fill="#e8a838"/>
+    </g>
+    <path d="M-50 0 L-50 -8" stroke="#2d6a4f" stroke-width="1.5"/>
+    <path d="M-30 0 L-30 -12" stroke="#2d6a4f" stroke-width="1.5"/>
+    <path d="M-10 0 L-10 -8" stroke="#2d6a4f" stroke-width="1.5"/>
+    <path d="M10 0 L10 -12" stroke="#2d6a4f" stroke-width="1.5"/>
+    <path d="M30 0 L30 -8" stroke="#2d6a4f" stroke-width="1.5"/>
+    <path d="M50 0 L50 -10" stroke="#2d6a4f" stroke-width="1.5"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">风过花海 · 彩色</text>
+  </g>
+
+  <!-- 湖水：蓝 -->
+  <g transform="translate(650, 360)">
+    <rect x="-70" y="0" width="140" height="50" fill="#4a90b8" opacity="0.35"/>
+    <path d="M-60 15 Q-40 8 -20 15 Q0 22 20 15 Q40 8 60 15" fill="none" stroke="#4a90b8" stroke-width="2"/>
+    <path d="M-60 28 Q-40 21 -20 28 Q0 35 20 28 Q40 21 60 28" fill="none" stroke="#4a90b8" stroke-width="2" opacity="0.6"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="12" fill="#4a90b8">风过湖水 · 蓝色</text>
+  </g>
+
+  <!-- 被风吹弯的柳树 -->
+  <g transform="translate(80, 250)">
+    <rect x="-6" y="0" width="12" height="110" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.2"/>
+    <path d="M0 10 Q40 20 70 50" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <path d="M0 20 Q50 35 80 70" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <path d="M0 30 Q45 50 75 90" fill="none" stroke="#2d6a4f" stroke-width="2"/>
+    <text x="40" y="120" text-anchor="middle" font-family="serif" font-size="10" fill="#2d6a4f">风把柳枝吹弯</text>
+  </g>
+
+  <!-- 飘飞的落叶 -->
+  <g transform="translate(500, 220)">
+    <path d="M0 0 Q8 -4 12 4 Q8 8 0 6 Z" fill="#e8a838" stroke="#c8843a" stroke-width="1"/>
+    <path d="M30 20 Q38 16 42 24 Q38 28 30 26 Z" fill="#e07856" stroke="#c84a3a" stroke-width="1"/>
+    <path d="M60 8 Q68 4 72 12 Q68 16 60 14 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 490)">
+    <rect x="-320" y="0" width="640" height="80" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">风自己是透明的，没有颜色</text>
+    <text x="0" y="52" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">它经过什么，就染上什么颜色</text>
+    <text x="0" y="72" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">换个角度，看不见的东西也能"看见"</text>
+  </g>
+</svg>

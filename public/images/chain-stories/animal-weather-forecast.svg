@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="蚂蚁搬家、燕子低飞和鱼儿浮出水面的画面拼在一起">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 三格分割 -->
+  <line x1="270" y1="90" x2="270" y2="540" stroke="#8d5a36" stroke-width="1.5" opacity="0.2"/>
+  <line x1="530" y1="90" x2="530" y2="540" stroke="#8d5a36" stroke-width="1.5" opacity="0.2"/>
+  <!-- 第一格：燕子低飞 -->
+  <g transform="translate(135,250)">
+    <!-- 乌云 -->
+    <ellipse cx="0" cy="-100" rx="80" ry="25" fill="#8d8680" opacity="0.4"/>
+    <!-- 燕子低飞 -->
+    <g transform="translate(0,0)">
+      <path d="M0 0 Q-15 -8 -30 -2 Q-15 3 0 0 Q15 3 30 -2 Q15 -8 0 0" fill="#2d2a24"/>
+      <path d="M-5 3 Q-12 10 -20 14" stroke="#2d2a24" stroke-width="2" fill="none"/>
+      <path d="M5 3 Q12 10 20 14" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    </g>
+    <g transform="translate(-40,30)">
+      <path d="M0 0 Q-10 -5 -20 -1 Q-10 2 0 0 Q10 2 20 -1 Q10 -5 0 0" fill="#2d2a24"/>
+    </g>
+    <!-- 小虫子 -->
+    <g transform="translate(20,20)">
+      <ellipse cx="0" cy="0" rx="4" ry="2" fill="#c8843a"/>
+      <circle cx="-3" cy="-1" r="1.5" fill="#2d2a24"/>
+    </g>
+    <!-- 地面 -->
+    <path d="M-100 80 Q0 75 100 80 L100 120 L-100 120 Z" fill="#6a8d3f" opacity="0.4"/>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">燕子低飞</text>
+  </g>
+  <!-- 第二格：蚂蚁搬家 -->
+  <g transform="translate(400,250)">
+    <!-- 地面 -->
+    <path d="M-100 60 Q0 55 100 60 L100 120 L-100 120 Z" fill="#8d5a36" opacity="0.3"/>
+    <!-- 蚂蚁窝（高处） -->
+    <g transform="translate(60,40)">
+      <ellipse cx="0" cy="20" rx="25" ry="15" fill="#7a3b14"/>
+      <circle cx="0" cy="15" r="5" fill="#5a2a0a"/>
+    </g>
+    <!-- 蚂蚁队伍 -->
+    <g fill="#2d2a24">
+      <g transform="translate(-50,55)">
+        <ellipse cx="0" cy="0" rx="5" ry="3"/>
+        <circle cx="-5" cy="0" r="2.5"/>
+        <line x1="-3" y1="0" x2="3" y2="0" stroke="#2d2a24" stroke-width="1"/>
+      </g>
+      <g transform="translate(-30,58)">
+        <ellipse cx="0" cy="0" rx="5" ry="3"/>
+        <circle cx="-5" cy="0" r="2.5"/>
+      </g>
+      <g transform="translate(-10,55)">
+        <ellipse cx="0" cy="0" rx="5" ry="3"/>
+        <circle cx="-5" cy="0" r="2.5"/>
+      </g>
+      <g transform="translate(10,58)">
+        <ellipse cx="0" cy="0" rx="5" ry="3"/>
+        <circle cx="-5" cy="0" r="2.5"/>
+      </g>
+      <g transform="translate(30,55)">
+        <ellipse cx="0" cy="0" rx="5" ry="3"/>
+        <circle cx="-5" cy="0" r="2.5"/>
+      </g>
+    </g>
+    <!-- 蚂蚁搬的食物 -->
+    <g transform="translate(-30,50)">
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="#c8843a"/>
+    </g>
+    <!-- 箭头表示往高处搬 -->
+    <path d="M-50 70 Q0 50 50 40" stroke="#c84a3a" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="4,3"/>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">蚂蚁搬家</text>
+  </g>
+  <!-- 第三格：鱼儿出水 -->
+  <g transform="translate(665,250)">
+    <!-- 水面 -->
+    <rect x="-100" y="30" width="200" height="90" fill="#a8d0e8" opacity="0.4"/>
+    <!-- 水波 -->
+    <g stroke="#7ab8d8" stroke-width="1.5" fill="none" opacity="0.5">
+      <path d="M-80 35 Q-60 32 -40 35 T0 35 T40 35 T80 35"/>
+      <path d="M-80 50 Q-60 47 -40 50 T0 50 T40 50 T80 50"/>
+    </g>
+    <!-- 鱼浮出水面 -->
+    <g transform="translate(0,25)">
+      <ellipse cx="0" cy="0" rx="20" ry="10" fill="#7ab8d8"/>
+      <path d="M20 0 L30 -5 L30 5 Z" fill="#7ab8d8"/>
+      <circle cx="-8" cy="-2" r="3" fill="#2d2a24"/>
+      <circle cx="-7" cy="-3" r="1" fill="#ffffff"/>
+      <!-- 嘴张开出气 -->
+      <ellipse cx="-18" cy="0" rx="3" ry="2" fill="#2d2a24"/>
+      <!-- 气泡 -->
+      <circle cx="-25" cy="-8" r="3" fill="#ffffff" opacity="0.6"/>
+      <circle cx="-30" cy="-15" r="2" fill="#ffffff" opacity="0.5"/>
+    </g>
+    <!-- 另一条鱼 -->
+    <g transform="translate(40,40)">
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#7ab8d8" opacity="0.8"/>
+      <path d="M15 0 L22 -4 L22 4 Z" fill="#7ab8d8" opacity="0.8"/>
+      <circle cx="-6" cy="-1" r="2" fill="#2d2a24"/>
+    </g>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">鱼儿出水</text>
+  </g>
+  <!-- 雨滴装饰 -->
+  <g fill="#7ab8d8" opacity="0.4">
+    <line x1="100" y1="140" x2="97" y2="155" stroke="#7ab8d8" stroke-width="2"/>
+    <line x1="350" y1="130" x2="347" y2="145" stroke="#7ab8d8" stroke-width="2"/>
+    <line x1="620" y1="135" x2="617" y2="150" stroke="#7ab8d8" stroke-width="2"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">动物怎么"预报"天气</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天五彩花朵蝴蝶燕子柳树组成的画报插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">春天的画报</text>
+  <line x1="330" y1="56" x2="470" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——翻一页，一种颜色</text>
+
+  <!-- 画报翻页效果 -->
+  <g transform="translate(80, 110)">
+    <rect x="0" y="0" width="640" height="340" rx="10" fill="#ffffff" stroke="#c8843a" stroke-width="2.5"/>
+    <!-- 翻起的页角 -->
+    <path d="M640 0 L600 0 L640 40 Z" fill="#e8a838" stroke="#c8843a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 第一页：粉桃花 -->
+  <g transform="translate(180, 230)">
+    <rect x="-55" y="150" width="110" height="30" rx="4" fill="#fef9ed" stroke="#c8843a" stroke-width="1"/>
+    <text x="0" y="170" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">第一页 · 粉</text>
+    <path d="M0 140 L0 60" stroke="#2d6a4f" stroke-width="2.5"/>
+    <circle cx="-14" cy="50" r="11" fill="#e07856" opacity="0.85"/>
+    <circle cx="14" cy="48" r="11" fill="#e07856" opacity="0.85"/>
+    <circle cx="0" cy="40" r="12" fill="#e07856" opacity="0.85"/>
+    <circle cx="0" cy="50" r="5" fill="#e8a838"/>
+    <circle cx="-22" cy="70" r="8" fill="#e07856" opacity="0.7"/>
+    <circle cx="22" cy="68" r="8" fill="#e07856" opacity="0.7"/>
+  </g>
+
+  <!-- 第二页：绿柳芽 -->
+  <g transform="translate(400, 230)">
+    <rect x="-55" y="150" width="110" height="30" rx="4" fill="#fef9ed" stroke="#c8843a" stroke-width="1"/>
+    <text x="0" y="170" text-anchor="middle" font-family="serif" font-size="12" fill="#2d6a4f">第二页 · 绿</text>
+    <path d="M0 150 L0 60" stroke="#8d5a36" stroke-width="3"/>
+    <path d="M0 70 Q-30 90 -36 130" fill="none" stroke="#2d6a4f" stroke-width="2"/>
+    <path d="M0 75 Q30 95 36 135" fill="none" stroke="#2d6a4f" stroke-width="2"/>
+    <path d="M0 80 Q-18 100 -22 140" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <circle cx="-34" cy="125" r="4" fill="#6a8d3f"/>
+    <circle cx="34" cy="130" r="4" fill="#6a8d3f"/>
+    <circle cx="-20" cy="135" r="3.5" fill="#2d6a4f"/>
+    <circle cx="20" cy="132" r="3.5" fill="#2d6a4f"/>
+  </g>
+
+  <!-- 第三页：黄菜花 -->
+  <g transform="translate(620, 230)">
+    <rect x="-55" y="150" width="110" height="30" rx="4" fill="#fef9ed" stroke="#c8843a" stroke-width="1"/>
+    <text x="0" y="170" text-anchor="middle" font-family="serif" font-size="12" fill="#e8a838">第三页 · 黄</text>
+    <path d="M-30 150 L-30 90" stroke="#2d6a4f" stroke-width="2"/>
+    <path d="M0 150 L0 80" stroke="#2d6a4f" stroke-width="2"/>
+    <path d="M28 150 L28 95" stroke="#2d6a4f" stroke-width="2"/>
+    <circle cx="-30" cy="84" r="7" fill="#e8a838"/>
+    <circle cx="0" cy="74" r="8" fill="#e8a838"/>
+    <circle cx="28" cy="89" r="7" fill="#e8a838"/>
+    <circle cx="-14" cy="78" r="5" fill="#e8a838" opacity="0.8"/>
+    <circle cx="16" cy="82" r="5" fill="#e8a838" opacity="0.8"/>
+  </g>
+
+  <!-- 燕子 -->
+  <g transform="translate(300, 150)">
+    <path d="M0 0 Q-15 -8 -25 -3 Q-15 2 0 5 Q15 2 25 -3 Q15 -8 0 0" fill="#7a3b14"/>
+    <text x="0" y="-12" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">燕子</text>
+  </g>
+
+  <!-- 蝴蝶 -->
+  <g transform="translate(540, 140)">
+    <ellipse cx="-8" cy="0" rx="9" ry="6" fill="#e07856" opacity="0.8" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="8" cy="0" rx="9" ry="6" fill="#e07856" opacity="0.8" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="-1" y="-5" width="2" height="12" fill="#7a3b14"/>
+    <text x="0" y="-14" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">蝴蝶</text>
+  </g>
+
+  <!-- 调色盘 -->
+  <g transform="translate(400, 440)">
+    <ellipse cx="0" cy="0" rx="40" ry="28" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+    <ellipse cx="20" cy="6" rx="8" ry="5" fill="#fef9ed" stroke="#8d5a36" stroke-width="1"/>
+    <circle cx="-18" cy="-8" r="5" fill="#e07856"/>
+    <circle cx="-2" cy="-12" r="5" fill="#2d6a4f"/>
+    <circle cx="14" cy="-6" r="5" fill="#e8a838"/>
+    <circle cx="-8" cy="8" r="5" fill="#4a90b8"/>
+    <circle cx="8" cy="10" r="5" fill="#c84a3a"/>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">大自然的调色盘</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 530)">
+    <rect x="-300" y="0" width="600" height="50" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">粉的桃花 · 绿的柳芽 · 黄的菜花 · 紫的二月兰</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">这本画报不用买，只要愿意出门，就翻给你看</text>
+  </g>
+</svg>

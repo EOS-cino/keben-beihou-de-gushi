@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="二十世纪的代表性发明：电灯、电话、汽车、飞机、电脑排列在一起">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景 -->
+  <rect x="0" y="0" width="800" height="480" fill="#f3ece0"/>
+  <rect x="0" y="480" width="800" height="120" fill="#e8d9c0"/>
+  <!-- 时间轴 -->
+  <line x1="60" y1="420" x2="740" y2="420" stroke="#7a3b14" stroke-width="4"/>
+  <!-- 电灯 1903区域 -->
+  <!-- 电灯 -->
+  <circle cx="130" cy="160" r="30" fill="#f4d97a" stroke="#7a3b14" stroke-width="3"/>
+  <path d="M120 188 q10 8 20 0" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <rect x="124" y="188" width="12" height="14" fill="#8d5a36"/>
+  <path d="M130 130 l0 -14 M150 145 l10 -8 M110 145 l-10 -8" stroke="#f4d97a" stroke-width="2.5"/>
+  <circle cx="130" cy="420" r="6" fill="#c84a3a"/>
+  <text x="130" y="450" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">电灯</text>
+  <!-- 电话 -->
+  <path d="M260 140 q30 -10 60 0 q10 20 -10 30 q-20 6 -40 0 q-20 -10 -10 -30 Z" fill="#4a6a2f" stroke="#7a3b14" stroke-width="2.5"/>
+  <circle cx="290" cy="155" r="10" fill="#7a3b14"/>
+  <path d="M270 170 q20 16 40 0" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <rect x="284" y="180" width="12" height="30" fill="#8d5a36"/>
+  <path d="M290 210 q0 14 -6 20" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <circle cx="290" cy="420" r="6" fill="#c84a3a"/>
+  <text x="290" y="450" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">电话</text>
+  <!-- 汽车 -->
+  <path d="M380 200 q40 -20 80 0 l10 20 l10 10 l-120 0 l10 -10 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="2.5"/>
+  <rect x="400" y="180" width="40" height="22" rx="4" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="400" cy="232" r="14" fill="#7a3b14"/>
+  <circle cx="460" cy="232" r="14" fill="#7a3b14"/>
+  <circle cx="400" cy="232" r="5" fill="#c8843a"/>
+  <circle cx="460" cy="232" r="5" fill="#c8843a"/>
+  <circle cx="430" cy="420" r="6" fill="#c84a3a"/>
+  <text x="430" y="450" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">汽车</text>
+  <!-- 飞机 -->
+  <path d="M560 200 q40 -14 80 0 q14 4 0 8 q-40 14 -80 0 q-14 -4 0 -8 Z" fill="#7ab8d8" stroke="#7a3b14" stroke-width="2.5"/>
+  <path d="M586 192 l14 -20 l6 0 l-6 22 Z" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M614 206 l14 22 l6 0 l-6 -24 Z" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="620" cy="200" r="3" fill="#ffffff"/>
+  <circle cx="600" cy="420" r="6" fill="#c84a3a"/>
+  <text x="600" y="450" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">飞机</text>
+  <!-- 电脑 -->
+  <rect x="680" y="150" width="70" height="50" rx="4" fill="#4a6a2f" stroke="#7a3b14" stroke-width="2.5"/>
+  <rect x="688" y="158" width="54" height="34" fill="#a8d0e8"/>
+  <rect x="690" y="200" width="50" height="6" fill="#8d5a36"/>
+  <rect x="675" y="206" width="80" height="8" rx="3" fill="#7a3b14"/>
+  <circle cx="715" cy="420" r="6" fill="#c84a3a"/>
+  <text x="715" y="450" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">电脑</text>
+  <!-- 年份标注 -->
+  <text x="130" y="475" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">1879</text>
+  <text x="290" y="475" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">1876</text>
+  <text x="430" y="475" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">1885</text>
+  <text x="600" y="475" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">1903</text>
+  <text x="715" y="475" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">1946</text>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">20世纪的科技发明</text>
+</svg>

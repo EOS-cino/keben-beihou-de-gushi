@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="孩子在村边小河里摸鱼玩耍的成长插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#2d6a4f">童年的河</text>
+  <line x1="352" y1="60" x2="448" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="280" fill="#4a90b8" opacity="0.08"/>
+  <!-- 夕阳 -->
+  <circle cx="160" cy="140" r="36" fill="#e8a838" opacity="0.7"/>
+  <circle cx="160" cy="140" r="28" fill="#f0c840"/>
+  <!-- 云 -->
+  <ellipse cx="500" cy="110" rx="50" ry="14" fill="#fff" opacity="0.6"/>
+  <ellipse cx="660" cy="150" rx="40" ry="12" fill="#fff" opacity="0.5"/>
+  <!-- 飞鸟 -->
+  <g fill="none" stroke="#3a3a3a" stroke-width="1.5">
+    <path d="M560 130 Q565 126 570 130 Q575 126 580 130"/>
+    <path d="M600 145 Q605 141 610 145 Q615 141 620 145"/>
+  </g>
+
+  <!-- 远岸树 -->
+  <g transform="translate(680 300)">
+    <rect x="-3" y="0" width="6" height="40" fill="#8a6a3a"/>
+    <circle cx="0" cy="-10" r="20" fill="#2d6a4f"/>
+    <circle cx="-14" cy="-2" r="13" fill="#3a7a5a"/>
+    <circle cx="14" cy="-2" r="13" fill="#3a7a5a"/>
+  </g>
+  <g transform="translate(80 310)">
+    <path d="M0 30 Q-2 -20 -6 -60 Q-10 -90 -8 -110" fill="none" stroke="#5a4a2a" stroke-width="3"/>
+    <path d="M-8 -80 Q-20 -75 -32 -68" fill="none" stroke="#5a4a2a" stroke-width="1.5"/>
+    <path d="M-8 -90 Q8 -85 20 -78" fill="none" stroke="#5a4a2a" stroke-width="1.5"/>
+    <g fill="#7aaa5a">
+      <ellipse cx="-26" cy="-70" rx="2" ry="6" transform="rotate(-30 -26 -70)"/>
+      <ellipse cx="16" cy="-80" rx="2" ry="6" transform="rotate(30 16 -80)"/>
+    </g>
+  </g>
+
+  <!-- 河岸（草地） -->
+  <path d="M0 320 Q200 300 400 320 Q600 340 800 320 L800 360 Q600 380 400 360 Q200 340 0 360 Z" fill="#9fc8b4"/>
+
+  <!-- 河水 -->
+  <rect x="0" y="350" width="800" height="170" fill="#7ab8d8" opacity="0.5"/>
+  <rect x="0" y="350" width="800" height="170" fill="#4a90b8" opacity="0.2"/>
+  <!-- 水波 -->
+  <g stroke="#4a90b8" stroke-width="1.2" fill="none" opacity="0.5">
+    <path d="M60 380 Q90 376 120 380"/>
+    <path d="M260 400 Q290 396 320 400"/>
+    <path d="M480 390 Q510 386 540 390"/>
+    <path d="M640 410 Q670 406 700 410"/>
+    <path d="M140 450 Q170 446 200 450"/>
+    <path d="M380 470 Q410 466 440 470"/>
+    <path d="M560 460 Q590 456 620 460"/>
+  </g>
+
+  <!-- 河底石头 -->
+  <g fill="#a89878" opacity="0.6">
+    <ellipse cx="180" cy="510" rx="20" ry="8"/>
+    <ellipse cx="350" cy="515" rx="16" ry="6"/>
+    <ellipse cx="540" cy="510" rx="22" ry="9"/>
+    <ellipse cx="660" cy="515" rx="14" ry="6"/>
+  </g>
+  <!-- 水中小鱼 -->
+  <g fill="#e07856" opacity="0.7">
+    <ellipse cx="240" cy="440" rx="8" ry="3"/>
+    <path d="M232 440 L226 437 L226 443 Z"/>
+    <ellipse cx="450" cy="470" rx="7" ry="3"/>
+    <path d="M443 470 L437 467 L437 473 Z"/>
+  </g>
+  <!-- 螺蛳 -->
+  <g fill="#8a6a3a" opacity="0.7">
+    <circle cx="300" cy="500" r="5"/>
+    <circle cx="500" cy="495" r="4"/>
+  </g>
+
+  <!-- 摸鱼的孩子1（弯腰） -->
+  <g transform="translate(220 400)">
+    <!-- 短裤 -->
+    <path d="M-14 30 Q-16 18 -10 10 Q0 6 10 10 Q16 18 14 30 Z" fill="#4a90b8"/>
+    <!-- 上身（弯腰前倾） -->
+    <path d="M-12 10 Q-16 -10 -8 -20 Q0 -24 8 -20 Q16 -10 12 10" fill="#e07856"/>
+    <!-- 头（低下看水） -->
+    <circle cx="0" cy="-30" r="11" fill="#f4d4a8"/>
+    <path d="M-10 -34 Q0 -44 10 -34 L10 -28 Q0 -24 -10 -28 Z" fill="#3a3a3a"/>
+    <!-- 手（伸进水里） -->
+    <path d="M-10 -18 Q-20 -8 -26 8" fill="none" stroke="#f4d4a8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10 -18 Q22 -8 28 8" fill="none" stroke="#f4d4a8" stroke-width="6" stroke-linecap="round"/>
+    <!-- 水花 -->
+    <g fill="#c8e8f8" opacity="0.8">
+      <circle cx="-28" cy="10" r="2"/>
+      <circle cx="28" cy="10" r="2"/>
+      <circle cx="-22" cy="14" r="1.5"/>
+    </g>
+  </g>
+
+  <!-- 摸鱼的孩子2（举着鱼高兴） -->
+  <g transform="translate(480 410)">
+    <path d="M-14 30 Q-16 18 -10 10 Q0 6 10 10 Q16 18 14 30 Z" fill="#e8a838"/>
+    <path d="M-12 10 Q-14 -10 -8 -18 Q0 -22 8 -18 Q14 -10 12 10" fill="#2d6a4f"/>
+    <circle cx="0" cy="-28" r="11" fill="#f4d4a8"/>
+    <path d="M-10 -32 Q0 -42 10 -32 L10 -26 Q0 -22 -10 -26 Z" fill="#3a3a3a"/>
+    <!-- 红脸蛋 -->
+    <circle cx="-6" cy="-25" r="2.5" fill="#e07856" opacity="0.5"/>
+    <circle cx="6" cy="-25" r="2.5" fill="#e07856" opacity="0.5"/>
+    <!-- 笑嘴 -->
+    <path d="M-3 -20 Q0 -17 3 -20" fill="none" stroke="#8a4a3a" stroke-width="1.3"/>
+    <!-- 手举鱼 -->
+    <path d="M12 -12 Q24 -20 28 -32" fill="none" stroke="#f4d4a8" stroke-width="6" stroke-linecap="round"/>
+    <!-- 鱼 -->
+    <ellipse cx="30" cy="-34" rx="10" ry="4" fill="#e07856"/>
+    <path d="M40 -34 L46 -38 L46 -30 Z" fill="#e07856"/>
+    <circle cx="26" cy="-35" r="1.2" fill="#2a2a2a"/>
+  </g>
+
+  <!-- 小桶 -->
+  <g transform="translate(600 470)">
+    <path d="M-14 0 L-12 24 L12 24 L14 0 Z" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="14" ry="4" fill="#a88a5a" stroke="#5a4a2a" stroke-width="1.5"/>
+    <!-- 桶里螺蛳 -->
+    <circle cx="-5" cy="2" r="2.5" fill="#5a4a2a"/>
+    <circle cx="4" cy="3" r="2" fill="#5a4a2a"/>
+    <!-- 提手 -->
+    <path d="M-14 0 Q0 -10 14 0" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+  </g>
+
+  <!-- 纸船（漂在水面） -->
+  <g transform="translate(360 385)">
+    <path d="M-12 0 L0 -8 L12 0 L8 4 L-8 4 Z" fill="#fef9ed" stroke="#8a5a14" stroke-width="1.2"/>
+    <path d="M0 -8 L0 -16 L-6 -8" fill="#e07856" stroke="#8a5a14" stroke-width="1"/>
+    <!-- 漂流轨迹 -->
+    <path d="M-50 6 Q-30 4 -12 0" fill="none" stroke="#e8a838" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+
+  <!-- 地面（远岸） -->
+  <rect x="0" y="520" width="800" height="80" fill="#9fc8b4"/>
+  <rect x="0" y="520" width="800" height="80" fill="#2d6a4f" opacity="0.15"/>
+
+  <!-- 标注 -->
+  <line x1="500" y1="378" x2="560" y2="340" stroke="#e07856" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="540" y="322" width="120" height="26" fill="#fff6df" stroke="#e07856" rx="4"/>
+  <text x="600" y="340" text-anchor="middle" font-family="serif" font-size="13" fill="#e07856">摸到鱼啦！</text>
+
+  <line x1="360" y1="385" x2="360" y2="340" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="300" y="312" width="120" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="360" y="330" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">顺水漂的纸船</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="572" text-anchor="middle" font-family="serif" font-size="15" fill="#2d6a4f">那条河里流的不是水，是抓不完的鱼和回不去的夏天</text>
+</svg>

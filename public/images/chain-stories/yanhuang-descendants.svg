@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="炎帝与黄帝两部落融合">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">炎黄子孙的由来</text>
+  <circle cx="200" cy="200" r="60" fill="#c84a3a" opacity="0.15"/>
+  <circle cx="200" cy="200" r="45" fill="#c84a3a" opacity="0.1"/>
+  <circle cx="200" cy="190" r="25" fill="#e07856" opacity="0.5"/>
+  <path d="M180 180 Q200 165 220 180" fill="#8d5a36" opacity="0.5"/>
+  <rect x="180" y="210" width="40" height="50" rx="5" fill="#c84a3a" opacity="0.4"/>
+  <circle cx="193" cy="188" r="2" fill="#7a3b14"/>
+  <circle cx="207" cy="188" r="2" fill="#7a3b14"/>
+  <text x="200" y="290" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">炎帝</text>
+  <text x="200" y="310" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">神农氏</text>
+  <text x="200" y="330" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">尝百草 教种庄稼</text>
+  <circle cx="600" cy="200" r="60" fill="#6a8d3f" opacity="0.15"/>
+  <circle cx="600" cy="200" r="45" fill="#6a8d3f" opacity="0.1"/>
+  <circle cx="600" cy="190" r="25" fill="#c8843a" opacity="0.5"/>
+  <path d="M580 180 Q600 165 620 180" fill="#8d5a36" opacity="0.5"/>
+  <rect x="580" y="210" width="40" height="50" rx="5" fill="#6a8d3f" opacity="0.4"/>
+  <circle cx="593" cy="188" r="2" fill="#7a3b14"/>
+  <circle cx="607" cy="188" r="2" fill="#7a3b14"/>
+  <text x="600" y="290" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">黄帝</text>
+  <text x="600" y="310" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">轩辕氏</text>
+  <text x="600" y="330" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">造车船 发明很多</text>
+  <path d="M260 200 Q300 180 340 200 Q380 220 400 200" stroke="#c84a3a" stroke-width="3" fill="none" opacity="0.4"/>
+  <path d="M540 200 Q500 180 460 200 Q420 220 400 200" stroke="#6a8d3f" stroke-width="3" fill="none" opacity="0.4"/>
+  <circle cx="400" cy="200" r="35" fill="#e07856" opacity="0.15"/>
+  <circle cx="400" cy="200" r="25" fill="#c8843a" opacity="0.1"/>
+  <text x="400" y="195" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">联合</text>
+  <text x="400" y="212" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">融合</text>
+  <path d="M300 380 Q400 360 500 380" stroke="#8d5a36" stroke-width="2" fill="none" stroke-dasharray="5 5" opacity="0.3"/>
+  <circle cx="350" cy="400" r="15" fill="#e07856" opacity="0.3"/>
+  <circle cx="400" cy="410" r="15" fill="#c8843a" opacity="0.3"/>
+  <circle cx="450" cy="400" r="15" fill="#6a8d3f" opacity="0.3"/>
+  <text x="400" y="450" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">华夏族</text>
+  <text x="400" y="475" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">炎黄部落的后代</text>
+  <path d="M300 500 Q400 485 500 500" stroke="#8d5a36" stroke-width="2" fill="none" stroke-dasharray="5 5" opacity="0.3"/>
+  <text x="400" y="530" text-anchor="middle" font-family="serif" font-size="18" fill="#c84a3a">炎黄子孙</text>
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">中华民族的共同记忆</text>
+</svg>

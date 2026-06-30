@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="蒲公英草地早晚变色插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">金色的草地</text>
+  <line x1="330" y1="58" x2="470" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左半：早上/傍晚（绿色草地，花合拢） -->
+  <rect x="0" y="64" width="400" height="480" fill="#d8e8c8"/>
+  <text x="200" y="90" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5a8a3a">早上 / 傍晚（绿色）</text>
+  <!-- 太阳（低） -->
+  <circle cx="80" cy="140" r="18" fill="#e8a838" opacity="0.5"/>
+  <!-- 草地 -->
+  <rect x="0" y="280" width="400" height="264" fill="#7aaa4a"/>
+  <g stroke="#5a8a3a" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M30 320 L32 305 M60 325 L62 310 M100 322 L102 307"/>
+    <path d="M150 330 L152 315 M200 325 L202 310 M260 330 L262 315"/>
+    <path d="M310 322 L312 307 M350 328 L352 313"/>
+  </g>
+  <!-- 合拢的蒲公英（绿色小拳头） -->
+  <g>
+    <g transform="translate(100,380)"><rect x="-1" y="0" width="2" height="25" fill="#5a8a3a"/><ellipse cx="0" cy="-3" rx="7" ry="9" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/></g>
+    <g transform="translate(160,400)"><rect x="-1" y="0" width="2" height="22" fill="#5a8a3a"/><ellipse cx="0" cy="-3" rx="6" ry="8" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/></g>
+    <g transform="translate(230,375)"><rect x="-1" y="0" width="2" height="28" fill="#5a8a3a"/><ellipse cx="0" cy="-3" rx="7" ry="9" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/></g>
+    <g transform="translate(300,395)"><rect x="-1" y="0" width="2" height="24" fill="#5a8a3a"/><ellipse cx="0" cy="-3" rx="6" ry="8" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/></g>
+    <g transform="translate(350,420)"><rect x="-1" y="0" width="2" height="20" fill="#5a8a3a"/><ellipse cx="0" cy="-3" rx="6" ry="8" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/></g>
+    <g transform="translate(70,440)"><rect x="-1" y="0" width="2" height="22" fill="#5a8a3a"/><ellipse cx="0" cy="-3" rx="6" ry="8" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/></g>
+    <g transform="translate(200,450)"><rect x="-1" y="0" width="2" height="20" fill="#5a8a3a"/><ellipse cx="0" cy="-3" rx="6" ry="8" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/></g>
+  </g>
+
+  <!-- 右半：中午（金色草地，花张开） -->
+  <rect x="400" y="64" width="400" height="480" fill="#f0e8b8"/>
+  <text x="600" y="90" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#c8883a">中午（金色）</text>
+  <!-- 太阳（高） -->
+  <circle cx="720" cy="130" r="26" fill="#e8a838"/>
+  <g stroke="#e8a838" stroke-width="2.5" stroke-linecap="round">
+    <line x1="720" y1="95" x2="720" y2="85"/><line x1="720" y1="175" x2="720" y2="165"/>
+    <line x1="685" y1="130" x2="675" y2="130"/><line x1="765" y1="130" x2="755" y2="130"/>
+  </g>
+  <!-- 草地（金色） -->
+  <rect x="400" y="280" width="400" height="264" fill="#e8c438"/>
+  <g stroke="#d8a828" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M430 320 L432 305 M460 325 L462 310 M500 322 L502 307"/>
+    <path d="M550 330 L552 315 M600 325 L602 310 M660 330 L662 315"/>
+    <path d="M710 322 L712 307 M750 328 L752 313"/>
+  </g>
+  <!-- 张开的蒲公英（金色花） -->
+  <g>
+    <g transform="translate(480,380)"><rect x="-1" y="0" width="2" height="25" fill="#5a8a3a"/><circle cx="0" cy="-3" r="9" fill="#e8a838" stroke="#c8883a" stroke-width="1"/><circle cx="0" cy="-3" r="4" fill="#d88828"/></g>
+    <g transform="translate(540,400)"><rect x="-1" y="0" width="2" height="22" fill="#5a8a3a"/><circle cx="0" cy="-3" r="8" fill="#e8a838" stroke="#c8883a" stroke-width="1"/><circle cx="0" cy="-3" r="3.5" fill="#d88828"/></g>
+    <g transform="translate(610,375)"><rect x="-1" y="0" width="2" height="28" fill="#5a8a3a"/><circle cx="0" cy="-3" r="9" fill="#e8a838" stroke="#c8883a" stroke-width="1"/><circle cx="0" cy="-3" r="4" fill="#d88828"/></g>
+    <g transform="translate(680,395)"><rect x="-1" y="0" width="2" height="24" fill="#5a8a3a"/><circle cx="0" cy="-3" r="8" fill="#e8a838" stroke="#c8883a" stroke-width="1"/><circle cx="0" cy="-3" r="3.5" fill="#d88828"/></g>
+    <g transform="translate(730,420)"><rect x="-1" y="0" width="2" height="20" fill="#5a8a3a"/><circle cx="0" cy="-3" r="8" fill="#e8a838" stroke="#c8883a" stroke-width="1"/><circle cx="0" cy="-3" r="3.5" fill="#d88828"/></g>
+    <g transform="translate(450,440)"><rect x="-1" y="0" width="2" height="22" fill="#5a8a3a"/><circle cx="0" cy="-3" r="8" fill="#e8a838" stroke="#c8883a" stroke-width="1"/><circle cx="0" cy="-3" r="3.5" fill="#d88828"/></g>
+    <g transform="translate(580,450)"><rect x="-1" y="0" width="2" height="20" fill="#5a8a3a"/><circle cx="0" cy="-3" r="8" fill="#e8a838" stroke="#c8883a" stroke-width="1"/><circle cx="0" cy="-3" r="3.5" fill="#d88828"/></g>
+  </g>
+
+  <!-- 中间分隔线 -->
+  <line x1="400" y1="64" x2="400" y2="544" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 蒲公英开合过程小图（底部中间） -->
+  <rect x="300" y="470" width="200" height="70" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" rx="5" opacity="0.9"/>
+  <text x="400" y="488" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14" font-weight="bold">蒲公英开合过程</text>
+  <!-- 阶段1：合拢 -->
+  <g transform="translate(340,520)">
+    <rect x="-1" y="0" width="2" height="14" fill="#5a8a3a"/>
+    <ellipse cx="0" cy="-2" rx="5" ry="7" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/>
+  </g>
+  <text x="340" y="538" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">合拢</text>
+  <!-- 箭头 -->
+  <path d="M358 518 L372 518" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <path d="M370 515 L375 518 L370 521" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 阶段2：半开 -->
+  <g transform="translate(400,520)">
+    <rect x="-1" y="0" width="2" height="14" fill="#5a8a3a"/>
+    <circle cx="0" cy="-3" r="5" fill="#e8c438" stroke="#c8883a" stroke-width="1"/>
+    <circle cx="0" cy="-3" r="2" fill="#d88828"/>
+  </g>
+  <text x="400" y="538" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">半开</text>
+  <!-- 箭头 -->
+  <path d="M418 518 L432 518" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <path d="M430 515 L435 518 L430 521" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 阶段3：全开 -->
+  <g transform="translate(460,520)">
+    <rect x="-1" y="0" width="2" height="14" fill="#5a8a3a"/>
+    <circle cx="0" cy="-3" r="7" fill="#e8a838" stroke="#c8883a" stroke-width="1"/>
+    <circle cx="0" cy="-3" r="3" fill="#d88828"/>
+  </g>
+  <text x="460" y="538" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">全开</text>
+
+  <!-- 标注：花瓣合拢 -->
+  <line x1="160" y1="397" x2="160" y2="340" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="95" y="315" width="130" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="160" y="334" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">花瓣合拢（绿）</text>
+
+  <!-- 标注：花瓣张开 -->
+  <line x1="610" y1="372" x2="610" y2="340" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="545" y="315" width="130" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="610" y="334" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">花瓣张开（金）</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="548" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="573" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">蒲公英中午张开金色花瓣，草地变金；早晚花瓣合拢，草地变绿——这就是变色的秘密。</text>
+</svg>

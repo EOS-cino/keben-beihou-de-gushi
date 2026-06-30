@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="白发老水手站在帆船甲板上望向大海的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">老水手 · 大海的老人</text>
+  <line x1="290" y1="62" x2="510" y2="62" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="250" fill="#fef9ed"/>
+  <!-- 云 -->
+  <g fill="#e8e0d0" opacity="0.5">
+    <ellipse cx="150" cy="130" rx="40" ry="15"/>
+    <ellipse cx="180" cy="125" rx="30" ry="12"/>
+    <ellipse cx="600" cy="110" rx="45" ry="16"/>
+    <ellipse cx="630" cy="118" rx="30" ry="12"/>
+  </g>
+  <!-- 海鸥 -->
+  <g fill="none" stroke="#8d5a36" stroke-width="2" opacity="0.5">
+    <path d="M100 160 Q110 155 120 160 Q115 163 110 161 Q105 163 100 160"/>
+    <path d="M250 140 Q260 135 270 140 Q265 143 260 141 Q255 143 250 140"/>
+    <path d="M680 150 Q690 145 700 150 Q695 153 690 151 Q685 153 680 150"/>
+  </g>
+
+  <!-- 大海 -->
+  <rect x="0" y="320" width="800" height="280" fill="#a8d0e8"/>
+  <!-- 海浪 -->
+  <g fill="#7ab8d8" opacity="0.6">
+    <path d="M0 340 Q100 330 200 340 Q300 350 400 340 Q500 330 600 340 Q700 350 800 340 L800 360 L0 360 Z"/>
+    <path d="M0 380 Q100 370 200 380 Q300 390 400 380 Q500 370 600 380 Q700 390 800 380 L800 400 L0 400 Z" opacity="0.5"/>
+  </g>
+  <g stroke="#7ab8d8" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M50 420 Q80 415 110 420"/>
+    <path d="M200 440 Q230 435 260 440"/>
+    <path d="M400 430 Q430 425 460 430"/>
+    <path d="M600 450 Q630 445 660 450"/>
+    <path d="M100 480 Q130 475 160 480"/>
+    <path d="M350 490 Q380 485 410 490"/>
+    <path d="M550 500 Q580 495 610 500"/>
+  </g>
+
+  <!-- 帆船 -->
+  <g>
+    <!-- 船身 -->
+    <path d="M250 460 Q260 510 380 515 Q500 515 530 500 Q535 485 520 470 L270 455 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 船板 -->
+    <g stroke="#5a3a1a" stroke-width="1" opacity="0.4">
+      <line x1="290" y1="465" x2="295" y2="500"/>
+      <line x1="340" y1="468" x2="345" y2="508"/>
+      <line x1="390" y1="470" x2="395" y2="512"/>
+      <line x1="440" y1="470" x2="445" y2="510"/>
+      <line x1="490" y1="468" x2="495" y2="505"/>
+    </g>
+    <!-- 桅杆 -->
+    <line x1="390" y1="460" x2="390" y2="180" stroke="#5a3a1a" stroke-width="5"/>
+    <!-- 帆 -->
+    <path d="M390 200 Q340 250 330 350 Q360 360 390 355 Z" fill="#fff6df" stroke="#c8a83a" stroke-width="1.5"/>
+    <path d="M390 200 Q440 250 450 350 Q420 360 390 355 Z" fill="#fff6df" stroke="#c8a83a" stroke-width="1.5"/>
+    <!-- 帆绳 -->
+    <g stroke="#5a3a1a" stroke-width="1" opacity="0.5">
+      <line x1="390" y1="200" x2="330" y2="350"/>
+      <line x1="390" y1="200" x2="450" y2="350"/>
+    </g>
+    <!-- 旗帜 -->
+    <path d="M390 180 L420 185 L390 195 Z" fill="#c84a3a"/>
+  </g>
+
+  <!-- 老水手 -->
+  <g>
+    <!-- 身体 -->
+    <path d="M440 460 L445 370 L485 370 L490 460 Z" fill="#4a6a2f"/>
+    <!-- 腰带 -->
+    <rect x="445" y="410" width="42" height="8" fill="#5a3a1a"/>
+    <!-- 头 -->
+    <circle cx="465" cy="345" r="22" fill="#f0d0a8"/>
+    <!-- 白发 -->
+    <path d="M444 340 Q465 315 486 340 L486 332 Q465 308 444 332 Z" fill="#e8e0d8"/>
+    <!-- 胡子 -->
+    <path d="M455 360 Q465 375 475 360 Q470 370 465 372 Q460 370 455 360" fill="#e8e0d8"/>
+    <!-- 皱纹 -->
+    <g stroke="#8d5a36" stroke-width="0.8">
+      <path d="M450 342 Q454 344 458 342"/>
+      <path d="M472 342 Q476 344 480 342"/>
+      <path d="M452 350 Q456 352 460 350"/>
+    </g>
+    <!-- 眼睛（望向远方） -->
+    <circle cx="457" cy="345" r="2" fill="#2a2a2a"/>
+    <circle cx="473" cy="345" r="2" fill="#2a2a2a"/>
+    <!-- 嘴（坚毅） -->
+    <line x1="460" y1="358" x2="470" y2="358" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手（扶栏杆） -->
+    <path d="M445 390 L420 420 L425 428 L450 400 Z" fill="#f0d0a8"/>
+    <!-- 伤疤 -->
+    <path d="M470 335 L475 342" stroke="#c84a3a" stroke-width="1.2" opacity="0.5"/>
+    <!-- 另一只手（握拳） -->
+    <ellipse cx="490" cy="395" rx="7" ry="10" fill="#f0d0a8"/>
+  </g>
+
+  <!-- 罗盘（腰间） -->
+  <g>
+    <circle cx="466" cy="414" r="10" fill="#c8843a" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="466" cy="414" r="7" fill="#fff6df"/>
+    <path d="M466 408 L466 420 M460 414 L472 414" stroke="#c84a3a" stroke-width="1"/>
+    <text x="466" y="406" text-anchor="middle" font-family="serif" font-size="6" fill="#c84a3a">N</text>
+  </g>
+
+  <!-- 远方陆地剪影 -->
+  <g fill="#6a8d3f" opacity="0.3">
+    <path d="M600 340 Q650 320 700 335 Q730 325 780 340 L780 360 L600 360 Z"/>
+  </g>
+
+  <!-- 标注 -->
+  <rect x="410" y="300" width="110" height="24" fill="#fff6df" stroke="#4a6a2f" rx="4"/>
+  <text x="465" y="316" text-anchor="middle" font-family="serif" font-size="13" fill="#4a6a2f">老水手（五十年）</text>
+  <line x1="465" y1="324" x2="465" y2="335" stroke="#4a6a2f" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <rect x="560" y="300" width="100" height="24" fill="#fff6df" stroke="#7ab8d8" rx="4"/>
+  <text x="610" y="316" text-anchor="middle" font-family="serif" font-size="13" fill="#4a6a2f">远方陆地</text>
+  <line x1="610" y1="324" x2="650" y2="340" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">海是他的命——既爱它，又怕它，谁也离不开谁</text>
+</svg>

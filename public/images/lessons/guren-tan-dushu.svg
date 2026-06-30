@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古人读书场景和竹简插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古人谈读书</text>
+  <line x1="320" y1="60" x2="480" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左半边：孔子 -->
+  <g>
+    <rect x="40" y="90" width="340" height="440" fill="#f5ecd8" stroke="#c8843a" stroke-width="2.5" rx="10"/>
+    <text x="210" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">孔子（春秋）</text>
+
+    <!-- 杏树 -->
+    <rect x="70" y="280" width="10" height="80" fill="#5a3a1a"/>
+    <circle cx="75" cy="270" r="30" fill="#2d6a4f"/>
+    <circle cx="60" cy="260" r="18" fill="#3a7a5f"/>
+    <circle cx="90" cy="265" r="16" fill="#3a7a5f"/>
+    <!-- 杏花 -->
+    <circle cx="65" cy="255" r="4" fill="#e07856"/>
+    <circle cx="85" cy="250" r="3" fill="#e07856"/>
+
+    <!-- 孔子（坐着的老人） -->
+    <g>
+      <!-- 身体（长袍） -->
+      <path d="M180 380 L170 460 L230 460 L220 380 Z" fill="#2d6a4f" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 头 -->
+      <ellipse cx="200" cy="350" r="22" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 头巾 -->
+      <path d="M180 343 q20 -15 40 0" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 胡子 -->
+      <path d="M192 365 q8 8 16 0" stroke="#5a3a1a" stroke-width="2" fill="none"/>
+      <path d="M196 368 L196 378 M204 368 L204 378" stroke="#5a3a1a" stroke-width="1.5"/>
+      <!-- 眼睛 -->
+      <path d="M190 348 q4 -2 7 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+      <path d="M203 348 q4 -2 7 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+      <!-- 嘴（微笑） -->
+      <path d="M195 360 q5 3 10 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+      <!-- 手持竹简 -->
+      <path d="M180 390 q-10 10 -15 25" stroke="#2d6a4f" stroke-width="8" fill="none" stroke-linecap="round"/>
+      <!-- 竹简 -->
+      <g transform="translate(155 410)">
+        <rect x="0" y="0" width="50" height="40" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+        <line x1="8" y1="0" x2="8" y2="40" stroke="#7a3b14" stroke-width="1"/>
+        <line x1="16" y1="0" x2="16" y2="40" stroke="#7a3b14" stroke-width="1"/>
+        <line x1="24" y1="0" x2="24" y2="40" stroke="#7a3b14" stroke-width="1"/>
+        <line x1="32" y1="0" x2="32" y2="40" stroke="#7a3b14" stroke-width="1"/>
+        <line x1="40" y1="0" x2="40" y2="40" stroke="#7a3b14" stroke-width="1"/>
+      </g>
+    </g>
+
+    <!-- 学生（小人） -->
+    <g>
+      <rect x="280" y="400" width="24" height="40" rx="4" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="292" cy="390" r="12" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M282 387 q10 -8 20 0" fill="#3a2a1a"/>
+      <!-- 举手提问 -->
+      <path d="M280 405 q-10 -10 -15 -20" stroke="#4a90b8" stroke-width="7" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- 名言 -->
+    <rect x="60" y="490" width="300" height="30" fill="#fff6df" stroke="#2d6a4f" stroke-width="1.5" rx="4"/>
+    <text x="210" y="510" text-anchor="middle" font-family="serif" font-size="13" fill="#2d6a4f">"知之为知之，不知为不知"</text>
+  </g>
+
+  <!-- 右半边：朱熹 -->
+  <g>
+    <rect x="420" y="90" width="340" height="440" fill="#f5ecd8" stroke="#c8843a" stroke-width="2.5" rx="10"/>
+    <text x="590" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">朱熹（南宋）</text>
+
+    <!-- 书房背景 -->
+    <rect x="460" y="260" width="260" height="180" fill="#e8d8b8" stroke="#8d6a4a" stroke-width="2" rx="4"/>
+    <!-- 书架 -->
+    <rect x="470" y="270" width="100" height="160" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="470" y1="310" x2="570" y2="310" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="470" y1="360" x2="570" y2="360" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 书 -->
+    <rect x="478" y="278" width="8" height="28" fill="#e07856"/>
+    <rect x="488" y="278" width="8" height="28" fill="#2d6a4f"/>
+    <rect x="498" y="278" width="8" height="28" fill="#4a90b8"/>
+    <rect x="478" y="318" width="8" height="38" fill="#e8a838"/>
+    <rect x="488" y="318" width="8" height="38" fill="#8d2a2a"/>
+    <rect x="498" y="318" width="8" height="38" fill="#2d6a4f"/>
+
+    <!-- 朱熹 -->
+    <g>
+      <path d="M620 380 L610 440 L660 440 L650 380 Z" fill="#8d2a2a" stroke="#7a3b14" stroke-width="2"/>
+      <ellipse cx="635" cy="355" r="20" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 帽子 -->
+      <path d="M618 348 q17 -13 34 0" fill="#3a2a1a" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="618" y="346" width="34" height="5" fill="#3a2a1a"/>
+      <!-- 胡子 -->
+      <path d="M628 370 q7 6 14 0" stroke="#5a3a1a" stroke-width="2" fill="none"/>
+      <!-- 眼睛（闭目静坐） -->
+      <path d="M625 354 q4 2 7 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+      <path d="M638 354 q4 2 7 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+      <!-- 桌上的书 -->
+      <rect x="595" y="410" width="60" height="35" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="610" y1="420" x2="645" y2="420" stroke="#7a3b14" stroke-width="1"/>
+      <line x1="610" y1="428" x2="645" y2="428" stroke="#7a3b14" stroke-width="1"/>
+      <line x1="610" y1="436" x2="645" y2="436" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+
+    <!-- 三到 -->
+    <g>
+      <rect x="600" y="270" width="30" height="24" fill="#e07856" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+      <text x="615" y="287" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed" font-weight="bold">心到</text>
+      <rect x="640" y="270" width="30" height="24" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+      <text x="655" y="287" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">眼到</text>
+      <rect x="680" y="270" width="30" height="24" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+      <text x="695" y="287" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed" font-weight="bold">口到</text>
+      <!-- 心到最重要标注 -->
+      <path d="M615 294 L615 310" stroke="#e07856" stroke-width="2"/>
+      <text x="615" y="325" text-anchor="middle" font-family="serif" font-size="11" fill="#e07856" font-weight="bold">最急</text>
+    </g>
+
+    <!-- 名言 -->
+    <rect x="440" y="490" width="300" height="30" fill="#fff6df" stroke="#e07856" stroke-width="1.5" rx="4"/>
+    <text x="590" y="510" text-anchor="middle" font-family="serif" font-size="13" fill="#e07856">"读书有三到：心到、眼到、口到"</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">两千年的读书智慧：诚实、用心、不装懂</text>
+</svg>

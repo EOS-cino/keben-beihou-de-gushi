@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="冰心的读书故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">冰心的读书故事</text>
+  <line x1="310" y1="60" x2="490" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 冰心（老年，坐在摇椅上） -->
+  <g>
+    <!-- 摇椅 -->
+    <path d="M320 380 L320 450 L420 450 L420 380" fill="none" stroke="#8d5a36" stroke-width="4"/>
+    <path d="M310 450 Q370 480 430 450" fill="none" stroke="#8d5a36" stroke-width="4"/>
+    <!-- 身体 -->
+    <path d="M335 380 L330 340 L410 340 L405 380 Z" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头 -->
+    <ellipse cx="370" cy="315" r="24" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 白发 -->
+    <path d="M348 308 q22 -18 44 0" fill="#e8e8e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 眼镜 -->
+    <circle cx="362" cy="316" r="6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="378" cy="316" r="6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="368" y1="316" x2="372" y2="316" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 笑容 -->
+    <path d="M363 326 q7 4 14 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 手持书 -->
+    <path d="M340 355 q-5 10 -5 20" stroke="#4a90b8" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <rect x="320" y="370" width="35" height="28" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="325" y1="378" x2="350" y2="378" stroke="#5a3a1a" stroke-width="0.8"/>
+    <line x1="325" y1="384" x2="350" y2="384" stroke="#5a3a1a" stroke-width="0.8"/>
+    <line x1="325" y1="390" x2="350" y2="390" stroke="#5a3a1a" stroke-width="0.8"/>
+  </g>
+
+  <!-- 三个读书阶段（围绕冰心） -->
+
+  <!-- 阶段1：七岁读三国 -->
+  <g>
+    <rect x="40" y="100" width="200" height="150" fill="#fff6df" stroke="#e07856" stroke-width="2.5" rx="8"/>
+    <text x="140" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856" font-weight="bold">七岁·初读</text>
+    <!-- 小书 -->
+    <rect x="90" y="145" width="60" height="45" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <text x="120" y="172" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">三国演义</text>
+    <!-- 问号 -->
+    <text x="170" y="165" font-family="serif" font-size="20" fill="#e07856">?</text>
+    <text x="170" y="185" font-family="serif" font-size="14" fill="#e07856">?</text>
+    <text x="140" y="215" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">字不认识，猜着读</text>
+    <text x="140" y="232" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"囫囵吞枣"</text>
+  </g>
+
+  <!-- 阶段2：反复读红楼梦 -->
+  <g>
+    <rect x="560" y="100" width="200" height="150" fill="#fff6df" stroke="#2d6a4f" stroke-width="2.5" rx="8"/>
+    <text x="660" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">反复·精读</text>
+    <!-- 三本书叠在一起 -->
+    <rect x="610" y="165" width="60" height="35" fill="#8d2a2a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="615" y="155" width="60" height="35" fill="#e07856" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="620" y="145" width="60" height="35" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <text x="650" y="167" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">红楼梦</text>
+    <!-- 三遍标注 -->
+    <circle cx="600" cy="160" r="10" fill="#2d6a4f"/>
+    <text x="600" y="164" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">1</text>
+    <circle cx="600" cy="180" r="10" fill="#2d6a4f"/>
+    <text x="600" y="184" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">2</text>
+    <circle cx="600" cy="200" r="10" fill="#2d6a4f"/>
+    <text x="600" y="204" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">3</text>
+    <text x="660" y="215" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">第一遍读故事</text>
+    <text x="660" y="232" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">每遍都有新收获</text>
+  </g>
+
+  <!-- 阶段3：给孩子推荐书 -->
+  <g>
+    <rect x="40" y="430" width="200" height="130" fill="#fff6df" stroke="#e8a838" stroke-width="2.5" rx="8"/>
+    <text x="140" y="455" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">晚年·荐书</text>
+    <!-- 信件 -->
+    <rect x="80" y="470" width="60" height="40" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M80 470 L110 490 L140 470" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 推荐书目 -->
+    <text x="155" y="482" font-family="serif" font-size="10" fill="#7a3b14">·四大名著</text>
+    <text x="155" y="497" font-family="serif" font-size="10" fill="#7a3b14">·安徒生</text>
+    <text x="155" y="512" font-family="serif" font-size="10" fill="#7a3b14">·伊索寓言</text>
+    <text x="140" y="540" text-anchor="middle" font-family="serif" font-size="11" fill="#e8a838">"先读经典，再读别的"</text>
+  </g>
+
+  <!-- 阶段4：九十九岁 -->
+  <g>
+    <rect x="560" y="430" width="200" height="130" fill="#fff6df" stroke="#4a90b8" stroke-width="2.5" rx="8"/>
+    <text x="660" y="455" text-anchor="middle" font-family="serif" font-size="14" fill="#4a90b8" font-weight="bold">九十九岁</text>
+    <!-- 床头书 -->
+    <rect x="610" y="490" width="80" height="8" fill="#8d5a36"/>
+    <rect x="620" y="470" width="50" height="20" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="625" y1="477" x2="665" y2="477" stroke="#5a3a1a" stroke-width="0.8"/>
+    <line x1="625" y1="483" x2="665" y2="483" stroke="#5a3a1a" stroke-width="0.8"/>
+    <text x="660" y="520" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">床头还放着书</text>
+    <text x="660" y="540" text-anchor="middle" font-family="serif" font-size="11" fill="#4a90b8">"最大的快乐就是读书"</text>
+  </g>
+
+  <!-- 连接线 -->
+  <path d="M240 175 Q280 250 330 320" stroke="#e07856" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <path d="M560 175 Q500 250 420 320" stroke="#2d6a4f" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <path d="M240 495 Q280 450 330 400" stroke="#e8a838" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <path d="M560 495 Q500 450 420 400" stroke="#4a90b8" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从七岁到九十九岁，冰心用九十二年证明了"读书好"</text>
+</svg>

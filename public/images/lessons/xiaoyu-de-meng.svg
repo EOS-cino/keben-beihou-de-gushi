@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小女孩在云朵梦境里把雨滴变成星星的想象插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小雨的梦</text>
+  <line x1="345" y1="56" x2="455" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——一场梦，把雨滴变成了星星</text>
+
+  <!-- 梦境云朵背景 -->
+  <g opacity="0.5">
+    <ellipse cx="150" cy="180" rx="60" ry="28" fill="#4a90b8" opacity="0.3"/>
+    <ellipse cx="650" cy="160" rx="70" ry="30" fill="#4a90b8" opacity="0.3"/>
+    <ellipse cx="400" cy="120" rx="90" ry="34" fill="#4a90b8" opacity="0.25"/>
+  </g>
+
+  <!-- 透明小伞 -->
+  <g transform="translate(400, 250)">
+    <path d="M-60 0 Q0 -70 60 0 Z" fill="#4a90b8" opacity="0.3" stroke="#4a90b8" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#7a3b14" stroke-width="2.5"/>
+    <path d="M0 60 Q-4 66 0 70" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <text x="0" y="-78" text-anchor="middle" font-family="serif" font-size="11" fill="#4a90b8">透明的小伞</text>
+  </g>
+
+  <!-- 雨滴变星星 -->
+  <g transform="translate(400, 320)">
+    <!-- 雨滴 -->
+    <path d="M-90 -30 Q-94 -18 -88 -14 Q-82 -18 -86 -30 Z" fill="#4a90b8" stroke="#4a90b8" stroke-width="1"/>
+    <path d="M90 -30 Q86 -18 92 -14 Q98 -18 94 -30 Z" fill="#4a90b8" stroke="#4a90b8" stroke-width="1"/>
+    <text x="-90" y="-38" text-anchor="middle" font-family="serif" font-size="10" fill="#4a90b8">雨滴</text>
+    <!-- 变成的星星 -->
+    <g transform="translate(-50, 0)">
+      <polygon points="0,-12 3,-3 12,-3 5,3 8,12 0,7 -8,12 -5,3 -12,-3 -3,-3" fill="#e8a838" stroke="#c8843a" stroke-width="1"/>
+    </g>
+    <g transform="translate(0, 20)">
+      <polygon points="0,-14 4,-4 14,-4 6,4 9,14 0,8 -9,14 -6,4 -14,-4 -4,-4" fill="#e8a838" stroke="#c8843a" stroke-width="1"/>
+    </g>
+    <g transform="translate(50, 0)">
+      <polygon points="0,-12 3,-3 12,-3 5,3 8,12 0,7 -8,12 -5,3 -12,-3 -3,-3" fill="#e07856" stroke="#c84a3a" stroke-width="1"/>
+    </g>
+    <!-- 转变箭头 -->
+    <path d="M-86 -10 Q-70 5 -55 -5" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <path d="M86 -10 Q70 5 55 -5" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">叮——雨滴变成了星星</text>
+  </g>
+
+  <!-- 小女孩捧星星 -->
+  <g transform="translate(400, 420)">
+    <circle cx="0" cy="0" r="16" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-16 2 Q-22 -10 -8 -16" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="42" rx="24" ry="30" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 捧星星的手 -->
+    <ellipse cx="-22" cy="34" rx="14" ry="9" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+    <ellipse cx="22" cy="34" rx="14" ry="9" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+    <polygon points="0,28 3,36 12,36 5,42 8,50 0,45 -8,50 -5,42 -12,36 -3,36" fill="#e8a838" stroke="#c8843a" stroke-width="1"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">小雨捧着一怀星星</text>
+  </g>
+
+  <!-- 天上的空位与挂回的星 -->
+  <g transform="translate(200, 150)">
+    <circle cx="0" cy="0" r="3" fill="#c8843a" opacity="0.4"/>
+    <circle cx="40" cy="20" r="3" fill="#e8a838"/>
+    <circle cx="80" cy="-10" r="3" fill="#e8a838"/>
+    <text x="40" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">挂回天上的星星</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 530)">
+    <rect x="-300" y="0" width="600" height="50" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">星星摘不回家，可它经过你，你就暖了</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">把美好的东西挂回天上，是一种善良的心愿</text>
+  </g>
+</svg>

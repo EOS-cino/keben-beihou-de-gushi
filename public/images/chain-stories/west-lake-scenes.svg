@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="西湖十景的风景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">连珠小故事：西湖十景的故事</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 西湖水面 -->
+  <rect x="0" y="300" width="800" height="240" fill="#a8d0e8" opacity="0.4"/>
+  <path d="M0 330 Q200 325 400 330 T800 330" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+  <path d="M0 360 Q200 355 400 360 T800 360" fill="none" stroke="#7ab8d8" stroke-width="2" opacity="0.7"/>
+
+  <!-- 远山 -->
+  <path d="M0 300 L100 250 L200 280 L320 230 L440 270 L560 240 L680 275 L800 255 L800 310 L0 310 Z" fill="#6a8d3f" opacity="0.35"/>
+
+  <!-- 十景小图标（五个在上排） -->
+  <!-- 1. 苏堤春晓 -->
+  <g transform="translate(100, 150)">
+    <rect x="-35" y="-25" width="70" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">苏堤春晓</text>
+    <!-- 堤和柳 -->
+    <ellipse cx="0" cy="15" rx="25" ry="4" fill="#6a8d3f" opacity="0.5"/>
+    <line x1="-10" y1="12" x2="-10" y2="-5" stroke="#4a6a2f" stroke-width="1.5"/>
+    <line x1="0" y1="12" x2="0" y2="-8" stroke="#4a6a2f" stroke-width="1.5"/>
+    <line x1="10" y1="12" x2="10" y2="-5" stroke="#4a6a2f" stroke-width="1.5"/>
+    <circle cx="-10" cy="-7" r="4" fill="#e07856"/>
+    <circle cx="0" cy="-10" r="4" fill="#f4c842"/>
+    <circle cx="10" cy="-7" r="4" fill="#e07856"/>
+  </g>
+
+  <!-- 2. 断桥残雪 -->
+  <g transform="translate(250, 150)">
+    <rect x="-35" y="-25" width="70" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">断桥残雪</text>
+    <!-- 桥 -->
+    <path d="M-25 15 Q0 -5 25 15" fill="none" stroke="#8d5a36" stroke-width="3"/>
+    <!-- 雪 -->
+    <path d="M-20 12 Q0 -2 20 12" fill="none" stroke="#ffffff" stroke-width="5"/>
+    <ellipse cx="0" cy="-3" rx="8" ry="2" fill="#ffffff"/>
+  </g>
+
+  <!-- 3. 三潭印月 -->
+  <g transform="translate(400, 150)">
+    <rect x="-35" y="-25" width="70" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">三潭印月</text>
+    <!-- 三个石塔 -->
+    <ellipse cx="-15" cy="15" rx="5" ry="3" fill="#8d5a36"/>
+    <circle cx="-15" cy="10" r="4" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1"/>
+    <ellipse cx="0" cy="15" rx="5" ry="3" fill="#8d5a36"/>
+    <circle cx="0" cy="8" r="4" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1"/>
+    <ellipse cx="15" cy="15" rx="5" ry="3" fill="#8d5a36"/>
+    <circle cx="15" cy="10" r="4" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 月亮倒影 -->
+    <circle cx="0" cy="0" r="3" fill="#f4c842" opacity="0.7"/>
+  </g>
+
+  <!-- 4. 曲院风荷 -->
+  <g transform="translate(550, 150)">
+    <rect x="-35" y="-25" width="70" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">曲院风荷</text>
+    <!-- 荷叶和花 -->
+    <ellipse cx="-10" cy="12" rx="10" ry="4" fill="#6a8d3f"/>
+    <ellipse cx="12" cy="14" rx="9" ry="3" fill="#6a8d3f"/>
+    <circle cx="5" cy="5" r="5" fill="#e07856"/>
+    <circle cx="5" cy="5" r="2" fill="#f4c842"/>
+  </g>
+
+  <!-- 5. 平湖秋月 -->
+  <g transform="translate(700, 150)">
+    <rect x="-35" y="-25" width="70" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">平湖秋月</text>
+    <!-- 月亮和湖 -->
+    <circle cx="0" cy="0" r="8" fill="#f8f0c8" stroke="#e8d898" stroke-width="1.5"/>
+    <ellipse cx="0" cy="15" rx="20" ry="3" fill="#a8d0e8" opacity="0.5"/>
+    <ellipse cx="0" cy="15" rx="8" ry="2" fill="#f8f0c8" opacity="0.5"/>
+  </g>
+
+  <!-- 下排五景 -->
+  <!-- 6. 双峰插云 -->
+  <g transform="translate(100, 250)">
+    <rect x="-35" y="-20" width="70" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">双峰插云</text>
+    <path d="M-20 15 L-10 -5 L0 15 Z" fill="#6a8d3f" opacity="0.6"/>
+    <path d="M0 15 L10 -8 L20 15 Z" fill="#6a8d3f" opacity="0.6"/>
+    <ellipse cx="-10" cy="-8" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="10" cy="-11" rx="6" ry="2" fill="#ffffff" opacity="0.7"/>
+  </g>
+
+  <!-- 7. 南屏晚钟 -->
+  <g transform="translate(250, 250)">
+    <rect x="-35" y="-20" width="70" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">南屏晚钟</text>
+    <!-- 钟 -->
+    <path d="M-8 10 L-10 -5 Q-10 -10 0 -10 Q10 -10 10 -5 L8 10 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="0" cy="-10" r="2" fill="#5a3a1a"/>
+    <text x="15" y="0" font-family="serif" font-size="10" fill="#c8843a">当</text>
+  </g>
+
+  <!-- 8. 雷峰夕照 -->
+  <g transform="translate(400, 250)">
+    <rect x="-35" y="-20" width="70" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">雷峰夕照</text>
+    <!-- 塔 -->
+    <rect x="-5" y="0" width="10" height="15" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M-8 0 L0 -10 L8 0 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 夕阳 -->
+    <circle cx="-15" cy="-5" r="5" fill="#f4a838" opacity="0.7"/>
+  </g>
+
+  <!-- 9. 柳浪闻莺 -->
+  <g transform="translate(550, 250)">
+    <rect x="-35" y="-20" width="70" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">柳浪闻莺</text>
+    <!-- 柳枝和小鸟 -->
+    <line x1="0" y1="15" x2="0" y2="-5" stroke="#8d5a36" stroke-width="2"/>
+    <path d="M0 0 Q-10 5 -12 15" fill="none" stroke="#6a8d3f" stroke-width="1.5"/>
+    <path d="M0 0 Q10 5 12 15" fill="none" stroke="#6a8d3f" stroke-width="1.5"/>
+    <ellipse cx="8" cy="-3" rx="5" ry="3" fill="#f4c842"/>
+    <circle cx="10" cy="-4" r="1.5" fill="#2a2a2a"/>
+  </g>
+
+  <!-- 10. 花港观鱼 -->
+  <g transform="translate(700, 250)">
+    <rect x="-35" y="-20" width="70" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+    <text x="0" y="-25" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7a3b14">花港观鱼</text>
+    <!-- 鱼 -->
+    <ellipse cx="-5" cy="5" rx="8" ry="4" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <polygon points="3,5 10,1 10,9" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="10" cy="10" rx="6" ry="3" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <polygon points="16,10 22,7 22,13" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 西湖标志性：三潭印月（大图，水中） -->
+  <g transform="translate(400, 430)">
+    <ellipse cx="-80" cy="0" rx="12" ry="4" fill="#8d5a36" opacity="0.4"/>
+    <ellipse cx="-80" cy="-5" rx="10" ry="8" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <circle cx="-80" cy="-5" r="3" fill="#3a2a1a"/>
+
+    <ellipse cx="0" cy="0" rx="12" ry="4" fill="#8d5a36" opacity="0.4"/>
+    <ellipse cx="0" cy="-8" rx="10" ry="8" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <circle cx="0" cy="-8" r="3" fill="#3a2a1a"/>
+
+    <ellipse cx="80" cy="0" rx="12" ry="4" fill="#8d5a36" opacity="0.4"/>
+    <ellipse cx="80" cy="-5" rx="10" ry="8" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <circle cx="80" cy="-5" r="3" fill="#3a2a1a"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="510" width="700" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">西湖十景：苏堤春晓、断桥残雪、三潭印月、曲院风荷、平湖秋月、</text>
+  <text x="400" y="558" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">双峰插云、南屏晚钟、雷峰夕照、柳浪闻莺、花港观鱼——四季皆美。</text>
+</svg>

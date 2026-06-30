@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="老渔夫驾小船在海上与巨大马林鱼搏斗">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="260" fill="#4a90b8" opacity="0.12"/>
+  <!-- 太阳 -->
+  <circle cx="650" cy="120" r="40" fill="#e8a838" opacity="0.7"/>
+  <circle cx="650" cy="120" r="28" fill="#e8a838" opacity="0.9"/>
+  <!-- 远海 -->
+  <path d="M0 250 Q200 240 400 250 Q600 240 800 250 L800 600 L0 600 Z" fill="#4a90b8" opacity="0.25"/>
+  <path d="M0 320 Q200 310 400 320 Q600 310 800 320 L800 600 L0 600 Z" fill="#4a90b8" opacity="0.3"/>
+  <!-- 海浪线 -->
+  <g stroke="#4a90b8" stroke-width="1.5" fill="none" opacity="0.45">
+    <path d="M60 300 Q120 294 180 300 Q240 306 300 300"/>
+    <path d="M420 340 Q480 334 540 340 Q600 346 660 340"/>
+    <path d="M100 380 Q160 374 220 380"/>
+    <path d="M520 410 Q580 404 640 410"/>
+  </g>
+  <!-- 大马林鱼 -->
+  <g transform="translate(430 360)">
+    <path d="M0 0 Q60 -36 150 -20 Q180 -18 200 -8 L240 -24 L210 6 L240 36 L200 18 Q180 28 150 30 Q60 36 0 0 Z" fill="#4a90b8" opacity="0.8"/>
+    <path d="M180 -4 Q200 0 180 8" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <circle cx="200" cy="0" r="3" fill="#2d6a4f"/>
+    <path d="M150 6 L210 4" stroke="#fff" stroke-width="1" opacity="0.6"/>
+  </g>
+  <!-- 小船 -->
+  <g transform="translate(280 380)">
+    <path d="M-90 0 Q-70 28 0 28 Q70 28 90 0 Z" fill="#8d5a36"/>
+    <path d="M-90 0 L90 0" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 桅杆 -->
+    <line x1="0" y1="0" x2="0" y2="-90" stroke="#5a3a1a" stroke-width="3"/>
+    <path d="M0 -88 L40 -70 L0 -52 Z" fill="#e8a838" opacity="0.8"/>
+    <!-- 老人 -->
+    <g transform="translate(-30 -8)">
+      <rect x="-4" y="-30" width="8" height="22" fill="#e07856"/>
+      <circle cx="0" cy="-36" r="7" fill="#f0d0a8"/>
+      <path d="M-6 -40 Q0 -46 6 -40" fill="none" stroke="#ccc" stroke-width="2"/>
+      <circle cx="-2" cy="-36" r="1" fill="#2a2a2a"/>
+      <circle cx="2" cy="-36" r="1" fill="#2a2a2a"/>
+      <path d="M-3 -32 Q0 -30 3 -32" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-3 -29 Q0 -26 3 -29" fill="none" stroke="#3a3a3a" stroke-width="1"/>
+      <!-- 手臂拉绳 -->
+      <path d="M4 -22 Q18 -16 28 -8" stroke="#f0d0a8" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- 钓绳 -->
+    <path d="M-2 -14 Q60 -10 120 -20" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  </g>
+  <!-- 鲨鱼背鳍 -->
+  <g transform="translate(600 430)">
+    <path d="M0 0 L16 -22 L32 0 Z" fill="#5a6a78" opacity="0.7"/>
+  </g>
+  <g transform="translate(660 450)">
+    <path d="M0 0 L12 -16 L24 0 Z" fill="#5a6a78" opacity="0.6"/>
+  </g>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#2d6a4f">老人与海</text>
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">一个人可以被毁灭，但不能被打败</text>
+  <text x="400" y="542" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a">—— 海明威</text>
+</svg>

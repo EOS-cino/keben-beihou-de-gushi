@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="团队合作插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#2e5a8a">连珠小故事：团队合作的力量</text>
+  <line x1="200" y1="62" x2="600" y2="62" stroke="#5a8ac4" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="490" width="800" height="110" fill="#e8d9b8"/>
+
+  <!-- 中心：一块大石头，多人合力搬动 -->
+  <!-- 大石头 -->
+  <ellipse cx="400" cy="430" rx="90" ry="55" fill="#9a8a78"/>
+  <ellipse cx="400" cy="420" rx="90" ry="55" fill="#b0a08c"/>
+  <path d="M340 410 Q400 380 460 410" fill="#c4b498" stroke="#7a6a58" stroke-width="2"/>
+  <text x="400" y="425" text-anchor="middle" font-family="serif" font-size="16" fill="#5a4a38">共同目标</text>
+
+  <!-- 人物1（左侧推） -->
+  <g>
+    <path d="M250 470 L255 390 L290 390 L295 470 Z" fill="#c45a3a"/>
+    <path d="M255 400 L200 430 L205 442 L260 418 Z" fill="#d46a4a"/>
+    <circle cx="272" cy="372" r="18" fill="#f0d0a8"/>
+    <path d="M256 364 Q272 350 288 364 L288 358 Q272 346 256 358 Z" fill="#3a2a1a"/>
+    <line x1="272" y1="390" x2="272" y2="470" stroke="#a04a2a" stroke-width="2"/>
+    <ellipse cx="270" cy="475" rx="22" ry="8" fill="#5a3a2a"/>
+  </g>
+
+  <!-- 人物2（右侧推） -->
+  <g>
+    <path d="M510 470 L515 390 L550 390 L555 470 Z" fill="#3a7a5a"/>
+    <path d="M550 400 L605 430 L600 442 L545 418 Z" fill="#4a8a6a"/>
+    <circle cx="532" cy="372" r="18" fill="#f0d0a8"/>
+    <path d="M516 364 Q532 350 548 364 L548 358 Q532 346 516 358 Z" fill="#3a2a1a"/>
+    <line x1="532" y1="390" x2="532" y2="470" stroke="#2a6a4a" stroke-width="2"/>
+    <ellipse cx="530" cy="475" rx="22" ry="8" fill="#3a5a3a"/>
+  </g>
+
+  <!-- 人物3（上方拉绳） -->
+  <g>
+    <path d="M385 360 L390 290 L420 290 L425 360 Z" fill="#5a5aa0"/>
+    <path d="M390 300 L350 270 L358 260 L398 290 Z" fill="#6a6ab0"/>
+    <circle cx="405" cy="272" r="16" fill="#f0d0a8"/>
+    <path d="M391 265 Q405 253 419 265 L419 260 Q405 250 391 260 Z" fill="#3a2a1a"/>
+    <!-- 绳子 -->
+    <path d="M398 290 Q380 350 360 410" fill="none" stroke="#8a6a3a" stroke-width="3"/>
+  </g>
+
+  <!-- 力的方向箭头 -->
+  <g stroke="#c45a3a" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M210 435 L240 435" marker-end="url(#arr)"/>
+  </g>
+  <g stroke="#3a7a5a" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M595 435 L565 435" marker-end="url(#arr2)"/>
+  </g>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#c45a3a"/>
+    </marker>
+    <marker id="arr2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#3a7a5a"/>
+    </marker>
+  </defs>
+
+  <!-- 三个故事节点（连珠） -->
+  <g>
+    <!-- 节点1：将相和 -->
+    <circle cx="130" cy="170" r="42" fill="#fff6df" stroke="#c8843a" stroke-width="3"/>
+    <text x="130" y="165" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">将相和</text>
+    <text x="130" y="183" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">文武同心</text>
+
+    <!-- 节点2：球队 -->
+    <circle cx="400" cy="130" r="42" fill="#fff6df" stroke="#5a8ac4" stroke-width="3"/>
+    <text x="400" y="125" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#2e5a8a">球队配合</text>
+    <text x="400" y="143" text-anchor="middle" font-family="serif" font-size="11" fill="#2e5a8a">攻守协作</text>
+
+    <!-- 节点3：蚁群 -->
+    <circle cx="670" cy="170" r="42" fill="#fff6df" stroke="#3a7a5a" stroke-width="3"/>
+    <text x="670" y="165" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#2a5a3a">蚁群搬食</text>
+    <text x="670" y="183" text-anchor="middle" font-family="serif" font-size="11" fill="#2a5a3a">众擎易举</text>
+
+    <!-- 连线 -->
+    <line x1="172" y1="170" x2="358" y2="135" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+    <line x1="442" y1="135" x2="628" y2="170" stroke="#5a8ac4" stroke-width="2" stroke-dasharray="6,4"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="15" fill="#5a4a38">从将相和到球队、蚁群——团结协作的力量跨越时代</text>
+</svg>

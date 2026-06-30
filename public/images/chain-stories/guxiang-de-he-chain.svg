@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="河流从源头到入海的生命旅程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：一条河要去哪里</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 源头(山上) -->
+  <g transform="translate(120 200)">
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#2d6a4f">源头</text>
+    <text x="0" y="-54" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">山泉/融雪</text>
+    <!-- 山 -->
+    <path d="M-50 20 L0 -50 L50 20 Z" fill="#9fc8b4" stroke="#2d6a4f" stroke-width="2"/>
+    <path d="M-50 20 L0 -50 L50 20 Z" fill="#fef9ed" opacity="0.4"/>
+    <!-- 雪顶 -->
+    <path d="M-14 -28 L0 -50 L14 -28 Z" fill="#fef9ed"/>
+    <!-- 泉水 -->
+    <ellipse cx="0" cy="22" rx="14" ry="5" fill="#4a90b8" opacity="0.6"/>
+    <circle cx="0" cy="20" r="3" fill="#4a90b8" opacity="0.8"/>
+  </g>
+
+  <!-- 河流(蜿蜒) -->
+  <path d="M120 222 Q200 260 180 310 Q160 360 280 380 Q400 400 420 440 Q440 470 560 460 Q640 455 680 470" stroke="#4a90b8" stroke-width="6" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <path d="M120 222 Q200 260 180 310 Q160 360 280 380 Q400 400 420 440 Q440 470 560 460 Q640 455 680 470" stroke="#7ab0d0" stroke-width="2" fill="none" opacity="0.8"/>
+
+  <!-- 支流汇入 -->
+  <g stroke="#4a90b8" stroke-width="3" fill="none" opacity="0.5">
+    <path d="M260 320 Q240 350 250 372"/>
+    <path d="M340 340 Q360 370 350 384"/>
+  </g>
+
+  <!-- 村庄(河边人家) -->
+  <g transform="translate(250 360)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">养一辈又一辈人</text>
+    <path d="M-20 0 L0 -16 L20 0 Z" fill="#e07856"/>
+    <rect x="-16" y="0" width="32" height="20" fill="#f4e4c4" stroke="#8d5a36" stroke-width="1.5"/>
+    <rect x="-4" y="8" width="8" height="12" fill="#8d5a36"/>
+  </g>
+  <!-- 冲刷磨石 -->
+  <g transform="translate(380 400)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#9aa0a6"/>
+    <ellipse cx="14" cy="2" rx="6" ry="3" fill="#b0b4b8"/>
+    <text x="7" y="20" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">磨成卵石</text>
+  </g>
+  <!-- 灌溉 -->
+  <g transform="translate(330 370)" stroke="#2d6a4f" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M0 0 Q-4 10 -10 18"/>
+    <ellipse cx="-10" cy="18" rx="3" ry="6" fill="#2d6a4f" opacity="0.6"/>
+  </g>
+
+  <!-- 大江 -->
+  <g transform="translate(560 460)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">汇入大江</text>
+  </g>
+
+  <!-- 大海 -->
+  <g transform="translate(680 470)">
+    <text x="0" y="-40" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">入海</text>
+    <path d="M-30 0 Q-15 -8 0 0 Q15 8 30 0" stroke="#4a90b8" stroke-width="3" fill="none"/>
+    <path d="M-30 10 Q-15 2 0 10 Q15 18 30 10" stroke="#4a90b8" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M-30 20 Q-15 12 0 20 Q15 28 30 20" stroke="#4a90b8" stroke-width="3" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- 水循环回箭头 -->
+  <g stroke="#c8843a" stroke-width="1.5" fill="none" opacity="0.5" stroke-dasharray="4 4">
+    <path d="M680 440 Q500 120 120 160" marker-end="url(#ar3)"/>
+  </g>
+  <defs>
+    <marker id="ar3" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+  <text x="430" y="120" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">蒸发→云→雨，又回到河里</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="510" width="700" height="65" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.85"/>
+  <text x="400" y="538" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">河从山泉出发，一路收支流、磨卵石、养人家，最后奔进大海。</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a">海水蒸发成云化雨，又流回河里——水转一大圈，又回了故乡。</text>
+</svg>

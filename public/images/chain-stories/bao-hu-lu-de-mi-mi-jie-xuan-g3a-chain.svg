@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：那些要什么有什么的宝贝">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：那些“要什么有什么”的宝贝</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">神物帮得了一时，帮不了一世</text>
+  <g transform="translate(160,290)">
+    <path d="M0,40 L40,0 L0,-40 L-40,0 Z" fill="#cfe8f0" stroke="#5a8fa3" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="18" fill="#5a8fa3">神灯</text>
+  </g>
+  <g transform="translate(400,290)">
+    <rect x="-4" y="-50" width="8" height="80" fill="#7a4a1a"/>
+    <path d="M-4,-50 Q-30,-60 -20,-30 Q-10,-40 -4,-30" fill="#3a2a1a"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">神笔</text>
+  </g>
+  <g transform="translate(640,290)">
+    <path d="M-60,-70 Q-60,-100 0,-100 Q60,-100 60,-70 Q60,-40 30,-30 Q60,-10 60,30 Q60,90 0,90 Q-60,90 -60,30 Q-60,-10 -30,-30 Q-60,-40 -60,-70 Z" fill="#e8b94a" stroke="#a85a2a" stroke-width="3"/>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">宝葫芦</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">真正的本事，得自己长在身上</text>
+</svg>

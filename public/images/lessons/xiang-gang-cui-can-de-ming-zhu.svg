@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="香港，璀璨的明珠">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">香港，璀璨的明珠</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">东方之珠，灯火辉煌</text>
+  <rect x="60" y="280" width="680" height="120" fill="#2a3a5a"/>
+  <g fill="#5a6b8a" stroke="#2a3a5a" stroke-width="2">
+    <rect x="120" y="180" width="40" height="100"/>
+    <rect x="170" y="140" width="50" height="140"/>
+    <rect x="230" y="200" width="36" height="80"/>
+    <rect x="280" y="120" width="60" height="160"/>
+    <rect x="350" y="170" width="44" height="110"/>
+    <rect x="500" y="190" width="40" height="90"/>
+    <rect x="550" y="130" width="56" height="150"/>
+    <rect x="616" y="180" width="40" height="100"/>
+    <rect x="664" y="160" width="44" height="120"/>
+  </g>
+  <g fill="#fbe9a8">
+    <circle cx="135" cy="200" r="2"/><circle cx="145" cy="220" r="2"/><circle cx="135" cy="240" r="2"/>
+    <circle cx="190" cy="160" r="2"/><circle cx="200" cy="190" r="2"/><circle cx="210" cy="220" r="2"/>
+    <circle cx="300" cy="140" r="2"/><circle cx="315" cy="180" r="2"/><circle cx="325" cy="220" r="2"/>
+    <circle cx="565" cy="150" r="2"/><circle cx="575" cy="190" r="2"/><circle cx="585" cy="230" r="2"/>
+    <circle cx="630" cy="200" r="2"/><circle cx="680" cy="180" r="2"/><circle cx="690" cy="220" r="2"/>
+  </g>
+  <circle cx="400" cy="330" r="30" fill="#fbe9c8" opacity="0.5"/>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">维多利亚港的夜，像镶满宝石</text>
+</svg>

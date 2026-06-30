@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从延安窑洞灯火到南泥湾开荒的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：延安窑洞灯火 -->
+  <circle cx="170" cy="300" r="110" fill="#b5651d" opacity="0.25" stroke="#b5651d" stroke-width="3"/>
+  <path d="M 140 290 q 30 -28 60 0" fill="#5d4037"/>
+  <rect x="140" y="290" width="60" height="30" fill="#8a6d3b"/>
+  <circle cx="170" cy="300" r="6" fill="#f0c419"/>
+  <text x="170" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">延安窑洞</text>
+  <text x="170" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">追寻火光</text>
+  <!-- 右珠：南泥湾开荒 -->
+  <circle cx="630" cy="300" r="110" fill="#8fb996" opacity="0.3" stroke="#3a7d44" stroke-width="3"/>
+  <path d="M 615 300 l 30 -30 l 0 60 z" fill="#5d4037"/>
+  <rect x="640" y="275" width="30" height="6" fill="#5d4037"/>
+  <text x="630" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">南泥湾开荒</text>
+  <text x="630" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">自力更生</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">追寻延安，遇见南泥湾的镢头</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">肯动手肯坚持，再荒的地方也能开出花</text>
+</svg>

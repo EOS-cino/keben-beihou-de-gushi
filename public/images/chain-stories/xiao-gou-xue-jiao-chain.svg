@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：故事的三种结尾">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：故事的三种结尾</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">一个故事，能有许多结尾</text>
+  <circle cx="400" cy="200" r="40" fill="#d8a868" stroke="#7a4a1a" stroke-width="3"/>
+  <text x="400" y="206" text-anchor="middle" font-family="serif" font-size="18" fill="#fff">小狗</text>
+  <path d="M370,230 L210,330" stroke="#a88a4a" stroke-width="3"/>
+  <path d="M400,240 L400,350" stroke="#a88a4a" stroke-width="3"/>
+  <path d="M430,230 L590,330" stroke="#a88a4a" stroke-width="3"/>
+  <rect x="120" y="340" width="180" height="90" rx="10" fill="#cfe6c0" stroke="#5a8a3a" stroke-width="2"/>
+  <text x="210" y="380" text-anchor="middle" font-family="serif" font-size="18" fill="#3a6b2a">结局一</text>
+  <text x="210" y="408" text-anchor="middle" font-family="serif" font-size="14" fill="#3a6b2a">遇到同类</text>
+  <rect x="310" y="350" width="180" height="90" rx="10" fill="#fbe9a8" stroke="#c98a3a" stroke-width="2"/>
+  <text x="400" y="390" text-anchor="middle" font-family="serif" font-size="18" fill="#a8742a">结局二</text>
+  <text x="400" y="418" text-anchor="middle" font-family="serif" font-size="14" fill="#a8742a">学会汪汪</text>
+  <rect x="500" y="340" width="180" height="90" rx="10" fill="#f0d0c0" stroke="#c06a3a" stroke-width="2"/>
+  <text x="590" y="380" text-anchor="middle" font-family="serif" font-size="18" fill="#c0392b">结局三</text>
+  <text x="590" y="408" text-anchor="middle" font-family="serif" font-size="14" fill="#c0392b">继续流浪</text>
+  <text x="400" y="500" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">你希望它怎么结束？</text>
+</svg>

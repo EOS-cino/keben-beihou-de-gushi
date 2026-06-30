@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="屠格涅夫坐在书桌前写作，窗外是俄罗斯原野">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 室内墙 -->
+  <rect x="0" y="0" width="800" height="440" fill="#f3ece0"/>
+  <rect x="0" y="440" width="800" height="160" fill="#e8d9c0"/>
+  <!-- 窗户（窗外俄罗斯原野） -->
+  <rect x="480" y="60" width="280" height="220" fill="#a8d0e8" stroke="#7a3b14" stroke-width="5"/>
+  <line x1="620" y1="60" x2="620" y2="280" stroke="#7a3b14" stroke-width="3"/>
+  <line x1="480" y1="170" x2="760" y2="170" stroke="#7a3b14" stroke-width="3"/>
+  <!-- 窗外原野 -->
+  <path d="M485 200 Q560 180 640 195 Q700 185 755 200 L755 275 L485 275 Z" fill="#6a8d3f"/>
+  <path d="M485 230 Q560 215 640 225 Q700 220 755 230 L755 275 L485 275 Z" fill="#4a6a2f" opacity="0.6"/>
+  <!-- 白桦树（窗外） -->
+  <rect x="540" y="150" width="6" height="60" fill="#f3ece0" stroke="#7a3b14" stroke-width="1"/>
+  <rect x="690" y="155" width="6" height="55" fill="#f3ece0" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 书桌 -->
+  <rect x="60" y="340" width="380" height="16" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="70" y="356" width="12" height="100" fill="#8d5a36"/>
+  <rect x="418" y="356" width="12" height="100" fill="#8d5a36"/>
+  <!-- 稿纸 -->
+  <rect x="100" y="305" width="120" height="35" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="110" y1="315" x2="210" y2="315" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="110" y1="323" x2="205" y2="323" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="110" y1="331" x2="200" y2="331" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 鹅毛笔 -->
+  <path d="M225 310 l40 -8 l5 6 l-40 8 Z" fill="#7a3b14"/>
+  <path d="M225 310 q-8 4 -12 10" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <!-- 墨水瓶 -->
+  <rect x="270" y="312" width="22" height="28" fill="#3a3a3a"/>
+  <rect x="274" y="306" width="14" height="8" fill="#7a3b14"/>
+  <!-- 屠格涅夫 -->
+  <ellipse cx="250" cy="270" rx="26" ry="30" fill="#e8c9a0"/>
+  <!-- 胡子 -->
+  <path d="M234 286 q16 14 32 0 q-16 6 -32 0 Z" fill="#7a3b14"/>
+  <path d="M228 278 q22 12 44 0" stroke="#7a3b14" stroke-width="2.5" fill="none"/>
+  <!-- 头发 -->
+  <path d="M226 252 q24 -18 48 0 q-24 -8 -48 0 Z" fill="#5a4a3a"/>
+  <!-- 眼镜 -->
+  <circle cx="240" cy="266" r="7" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="260" cy="266" r="7" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="247" y1="266" x2="253" y2="266" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="240" cy="266" r="1.5" fill="#7a3b14"/>
+  <circle cx="260" cy="266" r="1.5" fill="#7a3b14"/>
+  <!-- 西装 -->
+  <path d="M220 300 q30 -8 60 0 l18 46 l-96 0 Z" fill="#4a6a2f"/>
+  <path d="M250 300 l0 42" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 手（写字） -->
+  <ellipse cx="225" cy="320" rx="10" ry="7" fill="#e8c9a0"/>
+  <!-- 台灯 -->
+  <path d="M360 340 l-24 -40 l48 0 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="356" y="338" width="8" height="18" fill="#8d5a36"/>
+  <!-- 书堆 -->
+  <rect x="380" y="320" width="50" height="20" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  <rect x="385" y="304" width="45" height="16" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">屠格涅夫的文学世界</text>
+</svg>

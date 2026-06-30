@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：作家们的昆虫记">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：作家们的昆虫记</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">透过不同窗户，看同一个世界</text>
+  <g transform="translate(150,300)">
+    <rect x="-45" y="-40" width="90" height="90" rx="6" fill="#cfe6c0" stroke="#5a8a3a" stroke-width="2"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="serif" font-size="16" fill="#3a6b2a">法布尔</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="13" fill="#3a6b2a">昆虫记</text>
+  </g>
+  <g transform="translate(400,300)">
+    <rect x="-45" y="-40" width="90" height="90" rx="6" fill="#f0e6cf" stroke="#a88a4a" stroke-width="2"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="serif" font-size="16" fill="#7a4a1a">鲁迅</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="13" fill="#7a4a1a">百草园</text>
+  </g>
+  <g transform="translate(650,300)">
+    <rect x="-45" y="-40" width="90" height="90" rx="6" fill="#fbe9d0" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="serif" font-size="16" fill="#a85a2a">汪曾祺</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="13" fill="#a85a2a">备忘录</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">同样一只虫，不同一个故事</text>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一只白鹅昂首挺胸走路插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">白鹅</text>
+  <line x1="350" y1="62" x2="450" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 院子背景 -->
+  <rect x="0" y="70" width="800" height="300" fill="#e8f0e8" opacity="0.2"/>
+  <!-- 篱笆 -->
+  <g opacity="0.4">
+    <line x1="50" y1="200" x2="50" y2="350" stroke="#8d5a36" stroke-width="3"/>
+    <line x1="120" y1="200" x2="120" y2="350" stroke="#8d5a36" stroke-width="3"/>
+    <line x1="190" y1="200" x2="190" y2="350" stroke="#8d5a36" stroke-width="3"/>
+    <line x1="30" y1="240" x2="210" y2="240" stroke="#8d5a36" stroke-width="2"/>
+    <line x1="30" y1="290" x2="210" y2="290" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+  <g opacity="0.4">
+    <line x1="610" y1="200" x2="610" y2="350" stroke="#8d5a36" stroke-width="3"/>
+    <line x1="680" y1="200" x2="680" y2="350" stroke="#8d5a36" stroke-width="3"/>
+    <line x1="750" y1="200" x2="750" y2="350" stroke="#8d5a36" stroke-width="3"/>
+    <line x1="590" y1="240" x2="770" y2="240" stroke="#8d5a36" stroke-width="2"/>
+    <line x1="590" y1="290" x2="770" y2="290" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="420" width="800" height="180" fill="#d4c8a0" opacity="0.3"/>
+
+  <!-- 白鹅（昂首挺胸） -->
+  <g transform="translate(400, 330)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="40" rx="90" ry="55" fill="#ffffff" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 翅膀 -->
+    <path d="M-20 20 Q-50 30 -60 55 Q-40 60 -15 50" fill="#f0f0f0" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-30 35 Q-45 40 -50 50" fill="none" stroke="#c0c0c0" stroke-width="1.5"/>
+    <path d="M-25 45 Q-40 48 -45 55" fill="none" stroke="#c0c0c0" stroke-width="1.5"/>
+    <!-- 尾巴翘起 -->
+    <path d="M80 30 Q95 15 90 5" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 脖子（又长又直，S形） -->
+    <path d="M-30 0 Q-45 -30 -35 -60 Q-25 -85 -10 -90" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-25 0 Q-40 -30 -30 -60 Q-20 -85 -5 -90" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-30 0 Q-45 -30 -35 -60 Q-25 -85 -10 -90 L-5 -90 Q-20 -85 -30 -60 Q-40 -30 -25 0 Z" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头 -->
+    <ellipse cx="-5" cy="-95" rx="22" ry="20" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头顶突起 -->
+    <path d="M-5 -113 Q0 -118 5 -113" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 眼睛（高傲，半睁半闭） -->
+    <path d="M-12 -98 Q-8 -100 -4 -98" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+    <!-- 嘴（橙色，扁平） -->
+    <path d="M12 -95 L35 -92 L35 -87 L12 -90 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 嘴线 -->
+    <line x1="12" y1="-92" x2="35" y2="-89" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 腿（大踏步） -->
+    <path d="M-20 90 L-25 120" fill="none" stroke="#e8a838" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-25 120 L-35 125" fill="none" stroke="#e8a838" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-25 120 L-15 125" fill="none" stroke="#e8a838" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 90 L30 120" fill="none" stroke="#e8a838" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 120 L20 125" fill="none" stroke="#e8a838" stroke-width="4" stroke-linecap="round"/>
+    <path d="M30 120 L40 125" fill="none" stroke="#e8a838" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- 小狗（偷饭吃，缩在旁边） -->
+  <g transform="translate(620, 440)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="35" ry="20" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头 -->
+    <ellipse cx="-30" cy="-5" rx="18" ry="15" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 耳朵 -->
+    <path d="M-38 -15 L-42 -25 L-35 -18" fill="#5a3a1a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-25 -18 L-22 -28 L-20 -18" fill="#5a3a1a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 眼睛（偷看） -->
+    <circle cx="-35" cy="-5" r="2.5" fill="#2a2a2a"/>
+    <!-- 嘴 -->
+    <path d="M-45 0 Q-48 3 -45 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 尾巴（夹着） -->
+    <path d="M30 -5 Q40 -10 38 5" fill="none" stroke="#7a3b14" stroke-width="3" stroke-linecap="round"/>
+    <!-- 腿 -->
+    <rect x="-15" y="15" width="8" height="20" fill="#5a3a1a" rx="2"/>
+    <rect x="5" y="15" width="8" height="20" fill="#8d5a36" rx="2"/>
+    <rect x="18" y="15" width="8" height="20" fill="#5a3a1a" rx="2"/>
+  </g>
+
+  <!-- 饭盆 -->
+  <g transform="translate(550, 470)">
+    <ellipse cx="0" cy="5" rx="25" ry="8" fill="#5a3a1a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-25 5 L-20 15 L20 15 L25 5" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 饭粒 -->
+    <ellipse cx="0" cy="3" rx="15" ry="4" fill="#fff6df" opacity="0.7"/>
+  </g>
+
+  <!-- 标注：高傲的步态 -->
+  <line x1="400" y1="250" x2="400" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="320" y="175" width="160" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="193" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">昂首挺胸·大模大样</text>
+
+  <!-- 标注：偷饭的小狗 -->
+  <line x1="620" y1="425" x2="680" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="630" y="358" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="680" y="375" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">偷饭的小狗</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">丰子恺笔下的白鹅高傲又可爱——嘴上嫌弃，心里喜爱，这就是"明贬暗褒"</text>
+</svg>

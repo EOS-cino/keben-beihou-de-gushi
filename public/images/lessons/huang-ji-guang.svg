@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="战场上黄继光扑向暗堡的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">黄继光</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#a83232" stroke-width="2"/>
+  <!-- 夜战天空 -->
+  <rect x="0" y="100" width="800" height="200" fill="#2c3e50" opacity="0.25"/>
+  <!-- 暗堡 -->
+  <polygon points="500,360 560,300 620,360" fill="#5d4037"/>
+  <rect x="540" y="330" width="40" height="30" fill="#1a1a1a"/>
+  <!-- 枪口火光 -->
+  <path d="M 580 345 l 30 -6 l -4 12 z" fill="#f0c419"/>
+  <path d="M 580 345 l 40 0 l -6 8 z" fill="#e8853d"/>
+  <!-- 子弹线 -->
+  <line x1="580" y1="345" x2="380" y2="380" stroke="#f0c419" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="580" y1="340" x2="400" y2="320" stroke="#f0c419" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <!-- 黄继光扑向暗堡 -->
+  <ellipse cx="470" cy="350" rx="50" ry="20" fill="#3a7d44" opacity="0.7" transform="rotate(-15 470 350)"/>
+  <circle cx="510" cy="335" r="16" fill="#f5d9a0"/>
+  <path d="M 500 332 q 10 -8 20 0" stroke="#3a3a3a" stroke-width="2" fill="none"/>
+  <!-- 张开双臂 -->
+  <path d="M 460 345 q -30 -10 -50 -20" stroke="#3a7d44" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 500 340 q 30 -6 50 -10" stroke="#3a7d44" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- 地面/山头 -->
+  <path d="M 0 400 q 200 -30 400 0 q 200 30 400 0 l 0 200 l -800 0 z" fill="#8a6d3b" opacity="0.5"/>
+  <!-- 冲锋战友剪影 -->
+  <ellipse cx="180" cy="430" rx="14" ry="24" fill="#3a3a3a"/>
+  <circle cx="180" cy="404" r="8" fill="#3a3a3a"/>
+  <ellipse cx="240" cy="440" rx="14" ry="24" fill="#3a3a3a"/>
+  <circle cx="240" cy="414" r="8" fill="#3a3a3a"/>
+  <!-- 红旗 -->
+  <line x1="120" y1="380" x2="120" y2="460" stroke="#3a3a3a" stroke-width="2"/>
+  <polygon points="120,380 160,392 120,404" fill="#a83232"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">用胸膛堵住枪眼的英雄</text>
+</svg>

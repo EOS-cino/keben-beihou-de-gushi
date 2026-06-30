@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="孙悟空驾筋斗云腾空而起的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#8a5a14">筋斗云</text>
+  <line x1="360" y1="60" x2="440" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 天空渐层 -->
+  <rect x="0" y="72" width="800" height="380" fill="#4a90b8" opacity="0.08"/>
+  <!-- 远云 -->
+  <ellipse cx="120" cy="150" rx="45" ry="14" fill="#fff" opacity="0.5"/>
+  <ellipse cx="660" cy="120" rx="50" ry="15" fill="#fff" opacity="0.5"/>
+  <ellipse cx="500" cy="180" rx="38" ry="11" fill="#fff" opacity="0.4"/>
+
+  <!-- 远山 -->
+  <path d="M0 470 L120 380 L240 440 L380 360 L520 430 L660 370 L800 430 L800 600 L0 600 Z" fill="#c8b898" opacity="0.5"/>
+
+  <!-- 筋斗云（大朵云） -->
+  <g>
+    <ellipse cx="400" cy="400" rx="130" ry="40" fill="#fef9ed" stroke="#e8a838" stroke-width="2"/>
+    <circle cx="320" cy="392" r="34" fill="#fef9ed" stroke="#e8a838" stroke-width="2"/>
+    <circle cx="370" cy="378" r="42" fill="#fef9ed" stroke="#e8a838" stroke-width="2"/>
+    <circle cx="430" cy="376" r="44" fill="#fef9ed" stroke="#e8a838" stroke-width="2"/>
+    <circle cx="485" cy="388" r="36" fill="#fef9ed" stroke="#e8a838" stroke-width="2"/>
+    <!-- 云纹 -->
+    <g stroke="#e8a838" stroke-width="1.2" fill="none" opacity="0.6">
+      <path d="M340 395 Q360 388 380 395"/>
+      <path d="M400 388 Q420 380 440 388"/>
+      <path d="M450 398 Q470 391 490 398"/>
+    </g>
+  </g>
+
+  <!-- 孙悟空 -->
+  <g transform="translate(400 330)">
+    <!-- 身体（虎皮裙） -->
+    <path d="M -20 30 Q -24 5 -16 -8 Q 0 -14 16 -8 Q 24 5 20 30 Z" fill="#e07856"/>
+    <!-- 虎皮纹 -->
+    <path d="M -14 10 L 14 10 M -12 18 L 12 18 M -10 26 L 10 26" stroke="#8a5a14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-22" r="18" fill="#f0d0a8" stroke="#8a5a14" stroke-width="1.5"/>
+    <!-- 猴脸 -->
+    <path d="M0 -18 Q-10 -10 0 -2 Q10 -10 0 -18 Z" fill="#fae8d0"/>
+    <!-- 紧箍 -->
+    <rect x="-17" y="-34" width="34" height="5" fill="#e8a838" stroke="#8a5a14" stroke-width="1"/>
+    <!-- 眼睛 -->
+    <circle cx="-6" cy="-22" r="2.5" fill="#2a2a2a"/>
+    <circle cx="6" cy="-22" r="2.5" fill="#2a2a2a"/>
+    <!-- 嘴 -->
+    <path d="M-3 -12 Q0 -9 3 -12" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 耳朵 -->
+    <circle cx="-16" cy="-20" r="5" fill="#f0d0a8" stroke="#8a5a14" stroke-width="1"/>
+    <circle cx="16" cy="-20" r="5" fill="#f0d0a8" stroke="#8a5a14" stroke-width="1"/>
+    <!-- 手臂（举起） -->
+    <path d="M -16 -2 Q -34 -18 -38 -34" fill="none" stroke="#f0d0a8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 16 -2 Q 34 -18 38 -34" fill="none" stroke="#f0d0a8" stroke-width="7" stroke-linecap="round"/>
+    <!-- 金箍棒（斜扛） -->
+    <line x1="-30" y1="40" x2="30" y2="-50" stroke="#8a5a14" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-33" y="36" width="8" height="12" fill="#e8a838" stroke="#8a5a14" stroke-width="1"/>
+    <rect x="26" y="-54" width="8" height="12" fill="#e8a838" stroke="#8a5a14" stroke-width="1"/>
+  </g>
+
+  <!-- 金光速度线 -->
+  <g stroke="#e8a838" stroke-width="2" opacity="0.7">
+    <line x1="200" y1="330" x2="280" y2="330"/>
+    <line x1="180" y1="360" x2="270" y2="360"/>
+    <line x1="520" y1="330" x2="600" y2="330"/>
+    <line x1="530" y1="360" x2="620" y2="360"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 标注 -->
+  <line x1="438" y1="280" x2="560" y2="240" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="540" y="222" width="130" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="605" y="240" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">一个筋斗十万八千里</text>
+
+  <line x1="400" y1="420" x2="400" y2="460" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="345" y="462" width="110" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="400" y="480" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">筋斗云</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="16" fill="#8a5a14">孙悟空驾筋斗云腾空而起，一个筋斗翻出十万八千里</text>
+</svg>

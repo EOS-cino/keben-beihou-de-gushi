@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="江南水乡莲叶田田、鱼儿在莲叶间游动的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">江南</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="120" fill="#a8d0e8"/>
+  <!-- 远山 -->
+  <path d="M0 190 L160 140 L320 180 L480 130 L640 175 L800 150 L800 190 Z" fill="#6a8d3f" opacity="0.4"/>
+
+  <!-- 水面 -->
+  <rect x="0" y="190" width="800" height="410" fill="#7ab8d8" opacity="0.55"/>
+  <!-- 水波纹 -->
+  <path d="M0 230 Q100 222 200 230 T400 230 T600 230 T800 230" fill="none" stroke="#a8d0e8" stroke-width="2.5"/>
+  <path d="M0 380 Q120 372 240 380 T480 380 T720 380 T800 380" fill="none" stroke="#a8d0e8" stroke-width="2" opacity="0.6"/>
+
+  <!-- 采莲小船 -->
+  <g transform="translate(560,250)">
+    <!-- 船身 -->
+    <path d="M-60 15 Q-50 40 0 42 Q50 40 60 15 Z" fill="#7a3b14"/>
+    <path d="M-60 15 Q-50 38 0 40 Q50 38 60 15" fill="none" stroke="#5a2a10" stroke-width="2"/>
+    <!-- 采莲人 -->
+    <ellipse cx="-5" cy="-5" rx="12" ry="14" fill="#c84a3a"/>
+    <circle cx="-5" cy="-22" r="11" fill="#f0c8a0"/>
+    <!-- 草帽 -->
+    <ellipse cx="-5" cy="-32" rx="22" ry="6" fill="#c8843a"/>
+    <ellipse cx="-5" cy="-34" rx="14" ry="8" fill="#e0a050"/>
+    <!-- 手举莲蓬 -->
+    <line x1="8" y1="-8" x2="28" y2="-28" stroke="#f0c8a0" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="32" cy="-32" rx="10" ry="8" fill="#6a8d3f"/>
+    <circle cx="28" cy="-34" r="2" fill="#4a6a2f"/>
+    <circle cx="34" cy="-36" r="2" fill="#4a6a2f"/>
+    <circle cx="36" cy="-30" r="2" fill="#4a6a2f"/>
+  </g>
+
+  <!-- 莲叶（田田） -->
+  <g>
+    <ellipse cx="150" cy="320" rx="80" ry="28" fill="#4a6a2f"/>
+    <ellipse cx="150" cy="316" rx="76" ry="24" fill="#6a8d3f"/>
+    <path d="M150 316 L110 308 M150 316 L190 308 M150 316 L100 320 M150 316 L200 320" stroke="#4a6a2f" stroke-width="1.5"/>
+  </g>
+  <g>
+    <ellipse cx="340" cy="300" rx="90" ry="30" fill="#4a6a2f"/>
+    <ellipse cx="340" cy="296" rx="86" ry="26" fill="#6a8d3f"/>
+    <path d="M340 296 L290 286 M340 296 L390 286 M340 296 L285 300 M340 296 L395 300" stroke="#4a6a2f" stroke-width="1.5"/>
+  </g>
+  <g>
+    <ellipse cx="200" cy="430" rx="75" ry="26" fill="#4a6a2f"/>
+    <ellipse cx="200" cy="426" rx="71" ry="22" fill="#6a8d3f"/>
+  </g>
+  <g>
+    <ellipse cx="450" cy="440" rx="85" ry="28" fill="#4a6a2f"/>
+    <ellipse cx="450" cy="436" rx="81" ry="24" fill="#6a8d3f"/>
+  </g>
+  <g>
+    <ellipse cx="650" cy="400" rx="78" ry="26" fill="#4a6a2f"/>
+    <ellipse cx="650" cy="396" rx="74" ry="22" fill="#6a8d3f"/>
+  </g>
+
+  <!-- 莲花 -->
+  <g transform="translate(260,280)">
+    <ellipse cx="0" cy="0" rx="8" ry="22" fill="#f8c8d8" transform="rotate(-40)"/>
+    <ellipse cx="0" cy="0" rx="8" ry="22" fill="#f4a8c0" transform="rotate(-10)"/>
+    <ellipse cx="0" cy="0" rx="8" ry="22" fill="#f8c8d8" transform="rotate(20)"/>
+    <ellipse cx="0" cy="0" rx="8" ry="22" fill="#f4a8c0" transform="rotate(50)"/>
+    <circle cx="0" cy="0" r="7" fill="#f4b942"/>
+  </g>
+  <g transform="translate(520,420)">
+    <ellipse cx="0" cy="0" rx="7" ry="20" fill="#f8c8d8" transform="rotate(-35)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="20" fill="#f4a8c0" transform="rotate(0)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="20" fill="#f8c8d8" transform="rotate(35)"/>
+    <circle cx="0" cy="0" r="6" fill="#f4b942"/>
+  </g>
+
+  <!-- 莲蓬 -->
+  <g transform="translate(400,330)">
+    <ellipse cx="0" cy="0" rx="12" ry="10" fill="#6a8d3f"/>
+    <circle cx="-4" cy="-2" r="2.5" fill="#4a6a2f"/>
+    <circle cx="4" cy="-2" r="2.5" fill="#4a6a2f"/>
+    <circle cx="0" cy="3" r="2.5" fill="#4a6a2f"/>
+    <line x1="0" y1="10" x2="0" y2="30" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+
+  <!-- 鱼儿（东西南北） -->
+  <g transform="translate(120,370)">
+    <ellipse cx="0" cy="0" rx="20" ry="11" fill="#e07856"/>
+    <path d="M-20 0 L-32 -8 L-32 8 Z" fill="#e07856"/>
+    <circle cx="10" cy="-3" r="3" fill="#fef9ed"/>
+    <circle cx="11" cy="-3" r="1.5" fill="#1a1a1a"/>
+    <path d="M5 4 Q12 8 18 4" fill="none" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">东</text>
+  </g>
+  <g transform="translate(700,470)">
+    <ellipse cx="0" cy="0" rx="20" ry="11" fill="#c84a3a"/>
+    <path d="M20 0 L32 -8 L32 8 Z" fill="#c84a3a"/>
+    <circle cx="-10" cy="-3" r="3" fill="#fef9ed"/>
+    <circle cx="-11" cy="-3" r="1.5" fill="#1a1a1a"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">西</text>
+  </g>
+  <g transform="translate(380,510)">
+    <ellipse cx="0" cy="0" rx="18" ry="10" fill="#e07856"/>
+    <path d="M-18 0 L-28 -7 L-28 7 Z" fill="#e07856"/>
+    <circle cx="9" cy="-3" r="2.5" fill="#fef9ed"/>
+    <circle cx="10" cy="-3" r="1.2" fill="#1a1a1a"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">南</text>
+  </g>
+  <g transform="translate(580,330)">
+    <ellipse cx="0" cy="0" rx="18" ry="10" fill="#c84a3a"/>
+    <path d="M18 0 L28 -7 L28 7 Z" fill="#c84a3a"/>
+    <circle cx="-9" cy="-3" r="2.5" fill="#fef9ed"/>
+    <circle cx="-10" cy="-3" r="1.2" fill="#1a1a1a"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">北</text>
+  </g>
+
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">鱼戏莲叶间，鱼戏莲叶东·西·南·北</text>
+</svg>

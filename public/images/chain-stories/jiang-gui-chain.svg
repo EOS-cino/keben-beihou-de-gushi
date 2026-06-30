@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：慢慢走，也能到">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：慢慢走，也能到</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">慢，可从来没停过</text>
+  <g transform="translate(150,300)">
+    <ellipse cx="0" cy="30" rx="44" ry="24" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <circle cx="0" cy="6" r="14" fill="#cfe0a0" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#3a6b2a">龟兔赛跑</text>
+  </g>
+  <g transform="translate(400,290)">
+    <rect x="-30" y="0" width="60" height="40" rx="6" fill="#c98a3a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-12" y="-30" width="24" height="34" fill="#7a3b14"/>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">铁杵磨针</text>
+  </g>
+  <g transform="translate(650,300)">
+    <path d="M-40,30 L40,30 L30,70 L-30,70 Z" fill="#9aa8c0" stroke="#3a4a6a" stroke-width="2"/>
+    <path d="M-30,30 L0,-10 L30,30" fill="#b0bcd0" stroke="#3a4a6a" stroke-width="2"/>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#3a4a6a">愚公移山</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">走得都不快，可都没回头</text>
+</svg>

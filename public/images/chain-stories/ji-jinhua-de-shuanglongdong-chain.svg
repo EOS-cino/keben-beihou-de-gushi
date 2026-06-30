@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="叶圣陶游记写作插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">叶圣陶的游记</text>
+  <line x1="320" y1="60" x2="480" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 书桌 -->
+  <rect x="100" y="380" width="600" height="180" fill="#c8a878" stroke="#8d6a4a" stroke-width="3" rx="4"/>
+  <rect x="100" y="380" width="600" height="12" fill="#8d6a4a"/>
+
+  <!-- 叶圣陶（坐着写作） -->
+  <g>
+    <!-- 椅子 -->
+    <rect x="340" y="430" width="80" height="120" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <rect x="340" y="380" width="80" height="60" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 身体 -->
+    <rect x="350" y="320" width="60" height="80" rx="8" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="380" cy="295" r="24" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头发 -->
+    <path d="M358 290 q22 -18 44 0" fill="#3a2a1a"/>
+    <!-- 眼镜 -->
+    <circle cx="372" cy="296" r="6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="388" cy="296" r="6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="378" y1="296" x2="382" y2="296" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 嘴 -->
+    <path d="M374 308 q6 3 12 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 手臂（写字） -->
+    <path d="M360 350 q-10 20 -20 40" stroke="#4a90b8" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M400 350 q10 15 20 30" stroke="#4a90b8" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <ellipse cx="338" cy="392" rx="8" ry="6" fill="#e8c9a0"/>
+    <ellipse cx="422" cy="382" rx="8" ry="6" fill="#e8c9a0"/>
+  </g>
+
+  <!-- 稿纸 -->
+  <rect x="280" y="390" width="200" height="60" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5" transform="rotate(-3 380 420)"/>
+  <line x1="295" y1="405" x2="465" y2="400" stroke="#7a3b14" stroke-width="1" transform="rotate(-3 380 420)"/>
+  <line x1="295" y1="418" x2="465" y2="413" stroke="#7a3b14" stroke-width="1" transform="rotate(-3 380 420)"/>
+  <line x1="295" y1="431" x2="465" y2="426" stroke="#7a3b14" stroke-width="1" transform="rotate(-3 380 420)"/>
+  <!-- 笔 -->
+  <line x1="340" y1="395" x2="360" y2="375" stroke="#5a3a1a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 三个游记要素（气泡） -->
+  <!-- 气泡1：路线 -->
+  <g>
+    <rect x="120" y="120" width="180" height="90" fill="#fff6df" stroke="#2d6a4f" stroke-width="2" rx="8"/>
+    <text x="210" y="148" text-anchor="middle" font-family="serif" font-size="16" fill="#2d6a4f" font-weight="bold">第一步：记路线</text>
+    <text x="210" y="172" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">从哪儿进、从哪儿出</text>
+    <text x="210" y="190" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">走到哪、写到哪</text>
+    <path d="M210 210 L210 250 L300 290" stroke="#2d6a4f" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- 气泡2：细节 -->
+  <g>
+    <rect x="310" y="100" width="180" height="90" fill="#fff6df" stroke="#e8a838" stroke-width="2" rx="8"/>
+    <text x="400" y="128" text-anchor="middle" font-family="serif" font-size="16" fill="#c8843a" font-weight="bold">第二步：看细节</text>
+    <text x="400" y="152" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">石头什么形状</text>
+    <text x="400" y="170" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">水什么颜色</text>
+    <path d="M400 190 L400 250 L400 290" stroke="#e8a838" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- 气泡3：感受 -->
+  <g>
+    <rect x="500" y="120" width="180" height="90" fill="#fff6df" stroke="#e07856" stroke-width="2" rx="8"/>
+    <text x="590" y="148" text-anchor="middle" font-family="serif" font-size="16" fill="#e07856" font-weight="bold">第三步：写感受</text>
+    <text x="590" y="172" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">紧张、惊叹、舒服</text>
+    <text x="590" y="190" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">真实最重要</text>
+    <path d="M590 210 L590 250 L500 290" stroke="#e07856" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- 地图标记（小图标） -->
+  <g>
+    <!-- 路线点 -->
+    <circle cx="150" cy="270" r="6" fill="#2d6a4f"/>
+    <circle cx="250" cy="280" r="6" fill="#2d6a4f"/>
+    <circle cx="350" cy="275" r="6" fill="#2d6a4f"/>
+    <circle cx="450" cy="285" r="6" fill="#2d6a4f"/>
+    <circle cx="550" cy="278" r="6" fill="#2d6a4f"/>
+    <circle cx="650" cy="272" r="6" fill="#2d6a4f"/>
+    <path d="M150 270 L250 280 L350 275 L450 285 L550 278 L650 272" stroke="#2d6a4f" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">记路线、看细节、写感受——叶圣陶教你怎么写游记</text>
+</svg>

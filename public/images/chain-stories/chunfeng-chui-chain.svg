@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="竺可桢记录物候日记的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="300" fill="#4a90b8" opacity="0.06"/>
+  <!-- 远树（春天发芽） -->
+  <g transform="translate(100 300)">
+    <rect x="-3" y="0" width="6" height="40" fill="#8b6f47"/>
+    <circle cx="0" cy="-10" r="18" fill="#9fc8b4" opacity="0.5"/>
+    <g fill="#2d6a4f" opacity="0.6">
+      <circle cx="-8" cy="-15" r="3"/>
+      <circle cx="8" cy="-12" r="3"/>
+      <circle cx="0" cy="-22" r="3"/>
+    </g>
+  </g>
+  <g transform="translate(700 300)">
+    <rect x="-3" y="0" width="6" height="40" fill="#8b6f47"/>
+    <circle cx="0" cy="-10" r="20" fill="#9fc8b4" opacity="0.5"/>
+    <g fill="#2d6a4f" opacity="0.6">
+      <circle cx="-10" cy="-15" r="3"/>
+      <circle cx="10" cy="-12" r="3"/>
+      <circle cx="0" cy="-25" r="3"/>
+    </g>
+  </g>
+  <!-- 燕子飞来 -->
+  <g fill="#2d6a4f" opacity="0.6">
+    <g transform="translate(300 100)">
+      <path d="M0 0 Q-10 -4 -16 -1 Q-10 2 -6 4 Q-3 2 0 0 Z"/>
+      <path d="M0 0 Q10 -4 16 -1 Q10 2 6 4 Q3 2 0 0 Z"/>
+    </g>
+    <g transform="translate(500 80) scale(0.8)">
+      <path d="M0 0 Q-10 -4 -16 -1 Q-10 2 -6 4 Q-3 2 0 0 Z"/>
+      <path d="M0 0 Q10 -4 16 -1 Q10 2 6 4 Q3 2 0 0 Z"/>
+    </g>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="300" width="800" height="300" fill="#dceee3"/>
+  <rect x="0" y="350" width="800" height="250" fill="#9fc8b4" opacity="0.3"/>
+  <!-- 小草 -->
+  <g fill="#2d6a4f" opacity="0.5">
+    <path d="M50 400 Q55 380 50 370 Q60 380 65 400 Z"/>
+    <path d="M150 410 Q155 390 150 375 Q160 390 165 410 Z"/>
+    <path d="M600 400 Q605 380 600 370 Q610 380 615 400 Z"/>
+    <path d="M700 410 Q705 390 700 375 Q710 390 715 410 Z"/>
+  </g>
+  <!-- 桃花树 -->
+  <g transform="translate(550 350)">
+    <rect x="-3" y="0" width="6" height="50" fill="#8b6f47"/>
+    <path d="M0 -10 Q-20 -25 -35 -35" stroke="#8b6f47" stroke-width="2.5" fill="none"/>
+    <path d="M0 -10 Q20 -25 35 -35" stroke="#8b6f47" stroke-width="2.5" fill="none"/>
+    <circle cx="-30" cy="-35" r="15" fill="#e07856" opacity="0.3"/>
+    <circle cx="30" cy="-35" r="15" fill="#e07856" opacity="0.3"/>
+    <g fill="#e07856" opacity="0.6">
+      <circle cx="-25" cy="-38" r="3"/>
+      <circle cx="-35" cy="-32" r="3"/>
+      <circle cx="25" cy="-38" r="3"/>
+      <circle cx="35" cy="-32" r="3"/>
+      <circle cx="0" cy="-20" r="3"/>
+    </g>
+  </g>
+  <!-- 竺可桢 -->
+  <g transform="translate(300 400)">
+    <!-- 身体 -->
+    <path d="M-25 0 L-30 -75 L30 -75 L25 0 Z" fill="#2d6a4f"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-93" r="16" fill="#f4d4a8"/>
+    <!-- 头发 -->
+    <path d="M-16 -100 Q0 -113 16 -100 L16 -93 Q0 -88 -16 -93 Z" fill="#333"/>
+    <!-- 眼镜 -->
+    <circle cx="-6" cy="-93" r="5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <circle cx="6" cy="-93" r="5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <line x1="-1" y1="-93" x2="1" y2="-93" stroke="#333" stroke-width="1"/>
+    <!-- 嘴 -->
+    <path d="M-3 -83 Q0 -80 3 -83" stroke="#333" stroke-width="1.5" fill="none"/>
+    <!-- 手持笔记录 -->
+    <path d="M25 -45 L45 -30" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-25 -45 L-35 -25" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- 温度计 -->
+  <g transform="translate(150 350)">
+    <rect x="-5" y="0" width="10" height="50" rx="5" fill="#fef9ed" stroke="#8b6f47" stroke-width="1.5"/>
+    <rect x="-3" y="30" width="6" height="18" fill="#e07856" opacity="0.7"/>
+    <circle cx="0" cy="52" r="7" fill="#e07856" opacity="0.7"/>
+  </g>
+  <!-- 日记本 -->
+  <g transform="translate(380 380)">
+    <rect x="0" y="0" width="70" height="50" fill="#fef9ed" stroke="#8b6f47" stroke-width="2"/>
+    <line x1="5" y1="12" x2="65" y2="12" stroke="#8b6f47" stroke-width="0.8"/>
+    <line x1="5" y1="22" x2="65" y2="22" stroke="#8b6f47" stroke-width="0.8"/>
+    <line x1="5" y1="32" x2="60" y2="32" stroke="#8b6f47" stroke-width="0.8"/>
+    <line x1="5" y1="42" x2="55" y2="42" stroke="#8b6f47" stroke-width="0.8"/>
+    <!-- 笔 -->
+    <line x1="65" y1="-5" x2="75" y2="15" stroke="#e07856" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- 日期标注 -->
+  <text x="415" y="395" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="8" fill="#7a7468">3月15日 桃花初开</text>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#2d6a4f">连珠小故事：竺可桢和春天的日记</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7a7468">三十八年不间断，他记录了大自然的日历</text>
+</svg>

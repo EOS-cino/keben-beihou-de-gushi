@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天放风筝与小伙伴奔跑插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">风筝</text>
+  <line x1="360" y1="60" x2="440" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 春天天空 -->
+  <rect x="0" y="80" width="800" height="360" fill="#4a90b8" opacity="0.2"/>
+  <!-- 云朵 -->
+  <g fill="#f8f8f0" opacity="0.8">
+    <ellipse cx="130" cy="130" rx="42" ry="16"/>
+    <ellipse cx="165" cy="122" rx="28" ry="13"/>
+    <ellipse cx="640" cy="115" rx="44" ry="17"/>
+    <ellipse cx="670" cy="110" rx="28" ry="13"/>
+  </g>
+  <!-- 太阳 -->
+  <circle cx="700" cy="170" r="30" fill="#e8a838" stroke="#c88820" stroke-width="2"/>
+
+  <!-- 草地 -->
+  <rect x="0" y="440" width="800" height="160" fill="#2d6a4f" opacity="0.35"/>
+  <path d="M0 445 Q200 440 400 445 T800 445" fill="none" stroke="#2d6a4f" stroke-width="2" opacity="0.5"/>
+  <!-- 小草 -->
+  <g stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="100" y1="475" x2="98" y2="460"/>
+    <line x1="110" y1="478" x2="112" y2="463"/>
+    <line x1="350" y1="472" x2="348" y2="457"/>
+    <line x1="600" y1="475" x2="602" y2="460"/>
+    <line x1="610" y1="478" x2="608" y2="463"/>
+  </g>
+
+  <!-- 风筝1（蝴蝶风筝，高空中） -->
+  <g transform="translate(250, 160)">
+    <!-- 风筝线 -->
+    <path d="M0 0 Q20 80 60 180 Q80 240 120 300" fill="none" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+    <!-- 蝴蝶翅膀 -->
+    <ellipse cx="-22" cy="-8" rx="22" ry="16" fill="#e07856" stroke="#7a3b14" stroke-width="2" transform="rotate(-20 -22 -8)"/>
+    <ellipse cx="22" cy="-8" rx="22" ry="16" fill="#e07856" stroke="#7a3b14" stroke-width="2" transform="rotate(20 22 -8)"/>
+    <ellipse cx="-20" cy="12" rx="16" ry="12" fill="#e8a838" stroke="#7a3b14" stroke-width="2" transform="rotate(-30 -20 12)"/>
+    <ellipse cx="20" cy="12" rx="16" ry="12" fill="#e8a838" stroke="#7a3b14" stroke-width="2" transform="rotate(30 20 12)"/>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="5" ry="18" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 翅膀斑点 -->
+    <circle cx="-22" cy="-8" r="4" fill="#e8a838"/>
+    <circle cx="22" cy="-8" r="4" fill="#e8a838"/>
+    <!-- 尾飘带 -->
+    <path d="M0 18 Q-5 35 0 50 Q5 65 0 80" fill="none" stroke="#e07856" stroke-width="2"/>
+  </g>
+
+  <!-- 风筝2（菱形燕子风筝） -->
+  <g transform="translate(560, 130)">
+    <path d="M0 0 Q-30 100 -60 220 Q-70 270 -80 310" fill="none" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+    <path d="M0 -25 L25 0 L0 35 L-25 0 Z" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M0 -25 L0 35 M-25 0 L25 0" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="6" fill="#e8a838"/>
+    <!-- 燕尾 -->
+    <path d="M-15 30 L-25 55 M0 35 L0 60 M15 30 L25 55" fill="none" stroke="#4a90b8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- 风筝3（远处小风筝） -->
+  <g transform="translate(420, 110)">
+    <path d="M0 -15 L15 0 L0 25 L-15 0 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 25 L-8 45 M0 25 L0 50 M0 25 L8 45" fill="none" stroke="#e8a838" stroke-width="2"/>
+  </g>
+
+  <!-- 放风筝的孩子1 -->
+  <g transform="translate(370, 470)">
+    <!-- 头 -->
+    <circle cx="0" cy="-50" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="2"/>
+    <!-- 头发 -->
+    <path d="M-13 -58 Q-14 -68 0 -66 Q14 -68 13 -58 Q8 -62 0 -60 Q-8 -62 -13 -58" fill="#2a2a2a"/>
+    <!-- 眼睛 -->
+    <ellipse cx="-4" cy="-50" rx="2" ry="2" fill="#2a2a2a"/>
+    <ellipse cx="4" cy="-50" rx="2" ry="2" fill="#2a2a2a"/>
+    <!-- 嘴（笑） -->
+    <path d="M-4 -44 Q0 -40 4 -44" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 身体 -->
+    <path d="M-12 -36 L-14 10 L-8 10 L-4 -20 L4 -20 L8 10 L14 10 L12 -36 Z" fill="#e07856" stroke="#a04830" stroke-width="1.5"/>
+    <!-- 举线的手臂 -->
+    <path d="M-12 -32 L-30 -50 L-40 -60" fill="none" stroke="#f0d0a8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M12 -32 L30 -45 L40 -50" fill="none" stroke="#f0d0a8" stroke-width="7" stroke-linecap="round"/>
+    <!-- 腿（奔跑） -->
+    <path d="M-6 10 L-12 45 L-18 65" fill="none" stroke="#2d6a4f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M6 10 L14 40 L20 60" fill="none" stroke="#2d6a4f" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-20" cy="68" rx="9" ry="5" fill="#7a3b14"/>
+    <ellipse cx="22" cy="63" rx="9" ry="5" fill="#7a3b14"/>
+  </g>
+
+  <!-- 放风筝的孩子2（远处） -->
+  <g transform="translate(620, 490)">
+    <circle cx="0" cy="-35" r="10" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+    <path d="M-9 -41 Q-10 -49 0 -47 Q10 -49 9 -41" fill="#2a2a2a"/>
+    <path d="M-8 -25 L-10 10 L10 10 L8 -25 Z" fill="#4a90b8" stroke="#2d6a4f" stroke-width="1.5"/>
+    <path d="M-8 -22 L-25 -35" fill="none" stroke="#f0d0a8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M8 -22 L25 -30" fill="none" stroke="#f0d0a8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-5 10 L-10 35" fill="none" stroke="#2d6a4f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M5 10 L12 32" fill="none" stroke="#2d6a4f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 飞鸟 -->
+  <g fill="none" stroke="#7a3b14" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <path d="M150 220 Q158 215 166 220 Q174 215 182 220"/>
+    <path d="M680 250 Q688 245 696 250 Q704 245 712 250"/>
+  </g>
+
+  <!-- 标注 -->
+  <line x1="250" y1="160" x2="250" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="190" y="92" width="120" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="250" y="110" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">蝴蝶风筝</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">春天里，一只风筝牵起童年的欢乐与淡淡的遗憾</text>
+</svg>

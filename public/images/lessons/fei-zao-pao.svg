@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="肥皂泡">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">肥皂泡</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">吹起一串泡泡，吹出一个梦</text>
+  <g transform="translate(400,300)">
+    <rect x="-30" y="0" width="60" height="60" rx="6" fill="#cfe8f0" stroke="#5a8fa3" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#7a4a1a" stroke-width="3"/>
+  </g>
+  <g fill="none" stroke="#5a8fa3" stroke-width="2">
+    <circle cx="240" cy="220" r="26" fill="#fbe9c8" opacity="0.5"/>
+    <circle cx="560" cy="200" r="32" fill="#e8d8f0" opacity="0.5"/>
+    <circle cx="200" cy="330" r="18" fill="#fbe9c8" opacity="0.5"/>
+    <circle cx="600" cy="340" r="22" fill="#d8f0e0" opacity="0.5"/>
+    <circle cx="320" cy="150" r="14" fill="#fbe9c8" opacity="0.5"/>
+    <circle cx="500" cy="140" r="16" fill="#e8d8f0" opacity="0.5"/>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">把小事写细，就是好文章</text>
+</svg>

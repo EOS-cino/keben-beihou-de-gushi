@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="植物发芽的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">植物如何感知春天</text>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#6b6557" font-family="sans-serif">温度升高 + 光照变长 = 植物发芽开花</text>
+
+  <!-- 左侧：温度信号 -->
+  <g transform="translate(0,90)">
+    <rect x="40" y="0" width="340" height="240" rx="10" fill="#fff4e0" stroke="#e8a040" stroke-width="2"/>
+    <text x="210" y="28" text-anchor="middle" font-size="16" fill="#8d6a3d" font-family="sans-serif" font-weight="bold">信号一：温度升高</text>
+
+    <!-- 温度计 -->
+    <g transform="translate(100,60)">
+      <rect x="-8" y="0" width="16" height="100" rx="8" fill="#ffffff" stroke="#8d8d8d" stroke-width="2"/>
+      <rect x="-5" y="50" width="10" height="50" fill="#e36f5b"/>
+      <circle cx="0" cy="110" r="14" fill="#e36f5b"/>
+      <circle cx="0" cy="110" r="10" fill="#c84a3a"/>
+      <!-- 刻度 -->
+      <line x1="8" y1="20" x2="14" y2="20" stroke="#8d8d8d" stroke-width="1.5"/>
+      <line x1="8" y1="50" x2="14" y2="50" stroke="#8d8d8d" stroke-width="1.5"/>
+      <line x1="8" y1="80" x2="14" y2="80" stroke="#8d8d8d" stroke-width="1.5"/>
+      <text x="20" y="24" font-size="10" fill="#6b6557" font-family="sans-serif">高</text>
+      <text x="20" y="54" font-size="10" fill="#6b6557" font-family="sans-serif">中</text>
+      <text x="20" y="84" font-size="10" fill="#6b6557" font-family="sans-serif">低</text>
+    </g>
+    <text x="100" y="195" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">气温回升</text>
+
+    <!-- 冬天→春天 箭头 -->
+    <g transform="translate(200,90)">
+      <text x="0" y="-10" text-anchor="middle" font-size="12" fill="#4a7ab8" font-family="sans-serif">冬天</text>
+      <circle cx="0" cy="5" r="8" fill="#a8c8e8"/>
+      <path d="M-5 2 L5 2 M0 -3 L0 8 M-3 -1 L0 -3 L3 -1" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+      <!-- 箭头 -->
+      <path d="M15 5 L55 5" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr3)"/>
+      <text x="35" y="-5" text-anchor="middle" font-size="10" fill="#8d6a3d" font-family="sans-serif">升温</text>
+      <!-- 春天 -->
+      <text x="75" y="-10" text-anchor="middle" font-size="12" fill="#5a9d3e" font-family="sans-serif">春天</text>
+      <circle cx="75" cy="5" r="8" fill="#f4b942"/>
+    </g>
+
+    <!-- 说明 -->
+    <text x="210" y="155" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">气温升高 → 植物体内激素活跃</text>
+    <text x="210" y="172" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">→ 芽的细胞重新分裂 → 嫩叶冒出</text>
+
+    <!-- 柳树发芽小图 -->
+    <g transform="translate(300,130)">
+      <path d="M0 30 L0 -10" stroke="#6b4a2d" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="-8" cy="-5" rx="5" ry="8" fill="#7cc85a" transform="rotate(-30 -8 -5)"/>
+      <ellipse cx="8" cy="-8" rx="5" ry="8" fill="#7cc85a" transform="rotate(30 8 -8)"/>
+      <ellipse cx="0" cy="-15" rx="5" ry="8" fill="#5cb070"/>
+    </g>
+    <text x="300" y="175" text-anchor="middle" font-size="10" fill="#3d6b28" font-family="sans-serif">柳树发芽</text>
+  </g>
+
+  <!-- 右侧：光照信号 -->
+  <g transform="translate(420,90)">
+    <rect x="0" y="0" width="340" height="240" rx="10" fill="#e8f0ff" stroke="#4a7ab8" stroke-width="2"/>
+    <text x="170" y="28" text-anchor="middle" font-size="16" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">信号二：光照变长</text>
+
+    <!-- 冬天（短日照） -->
+    <g transform="translate(80,80)">
+      <text x="0" y="-15" text-anchor="middle" font-size="11" fill="#4a7ab8" font-family="sans-serif">冬天（白天短）</text>
+      <!-- 太阳轨迹（低且短） -->
+      <path d="M-30 30 Q0 0 30 30" fill="none" stroke="#e8a040" stroke-width="2" stroke-dasharray="3,2"/>
+      <circle cx="0" cy="5" r="10" fill="#f4b942" opacity="0.6"/>
+      <!-- 地平线 -->
+      <line x1="-40" y1="30" x2="40" y2="30" stroke="#6b8a4a" stroke-width="2"/>
+      <!-- 白天/黑夜比例 -->
+      <rect x="-35" y="45" width="20" height="10" fill="#f4b942"/>
+      <rect x="-15" y="45" width="50" height="10" fill="#2a2a4e"/>
+      <text x="0" y="70" text-anchor="middle" font-size="9" fill="#6b6557" font-family="sans-serif">白天少 黑夜多</text>
+    </g>
+
+    <!-- 箭头 -->
+    <path d="M140 90 L180 90" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr3)"/>
+
+    <!-- 春天（长日照） -->
+    <g transform="translate(250,80)">
+      <text x="0" y="-15" text-anchor="middle" font-size="11" fill="#5a9d3e" font-family="sans-serif">春天（白天长）</text>
+      <path d="M-35 30 Q0 -15 35 30" fill="none" stroke="#e8a040" stroke-width="2" stroke-dasharray="3,2"/>
+      <circle cx="0" cy="-10" r="12" fill="#f4b942"/>
+      <line x1="-40" y1="30" x2="40" y2="30" stroke="#6b8a4a" stroke-width="2"/>
+      <rect x="-35" y="45" width="50" height="10" fill="#f4b942"/>
+      <rect x="15" y="45" width="20" height="10" fill="#2a2a4e"/>
+      <text x="0" y="70" text-anchor="middle" font-size="9" fill="#6b6557" font-family="sans-serif">白天多 黑夜少</text>
+    </g>
+
+    <!-- 说明 -->
+    <text x="170" y="180" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">白天变长 → 叶片感知光周期变化</text>
+    <text x="170" y="197" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">→ 植物开始开花</text>
+  </g>
+
+  <!-- 底部：发芽过程图 -->
+  <g transform="translate(0,360)">
+    <text x="400" y="20" text-anchor="middle" font-size="16" fill="#2d2a24" font-family="sans-serif" font-weight="bold">从种子到嫩芽的生长过程</text>
+
+    <!-- 种子 -->
+    <g transform="translate(120,100)">
+      <ellipse cx="0" cy="0" rx="18" ry="12" fill="#8d6a3d"/>
+      <ellipse cx="0" cy="-2" rx="14" ry="9" fill="#a88868"/>
+      <text x="0" y="30" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">种子</text>
+    </g>
+    <path d="M150 100 L200 100" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr3)"/>
+
+    <!-- 发芽 -->
+    <g transform="translate(240,100)">
+      <ellipse cx="0" cy="5" rx="16" ry="10" fill="#8d6a3d"/>
+      <path d="M0 0 L0 -20" stroke="#5cb070" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="-5" cy="-18" rx="5" ry="7" fill="#7cc85a" transform="rotate(-30 -5 -18)"/>
+      <ellipse cx="5" cy="-18" rx="5" ry="7" fill="#7cc85a" transform="rotate(30 5 -18)"/>
+      <text x="0" y="30" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">发芽</text>
+    </g>
+    <path d="M270 100 L320 100" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr3)"/>
+
+    <!-- 幼苗 -->
+    <g transform="translate(360,100)">
+      <ellipse cx="0" cy="8" rx="14" ry="8" fill="#8d6a3d"/>
+      <path d="M0 5 L0 -30" stroke="#5cb070" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="-8" cy="-15" rx="7" ry="10" fill="#7cc85a" transform="rotate(-30 -8 -15)"/>
+      <ellipse cx="8" cy="-20" rx="7" ry="10" fill="#7cc85a" transform="rotate(30 8 -20)"/>
+      <ellipse cx="0" cy="-32" rx="6" ry="9" fill="#5cb070"/>
+      <text x="0" y="30" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">幼苗</text>
+    </g>
+    <path d="M390 100 L440 100" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr3)"/>
+
+    <!-- 小树 -->
+    <g transform="translate(480,100)">
+      <path d="M0 10 L0 -20" stroke="#6b4a2d" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="0" cy="-30" r="22" fill="#5cb070"/>
+      <circle cx="-12" cy="-25" r="15" fill="#6ab04c"/>
+      <circle cx="12" cy="-25" r="15" fill="#6ab04c"/>
+      <circle cx="0" cy="-40" r="15" fill="#7cc85a"/>
+      <text x="0" y="30" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">小树</text>
+    </g>
+    <path d="M510 100 L560 100" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr3)"/>
+
+    <!-- 开花的大树 -->
+    <g transform="translate(620,100)">
+      <path d="M0 10 L0 -25" stroke="#6b4a2d" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="0" cy="-35" r="28" fill="#5cb070"/>
+      <circle cx="-15" cy="-30" r="18" fill="#6ab04c"/>
+      <circle cx="15" cy="-30" r="18" fill="#6ab04c"/>
+      <!-- 花 -->
+      <circle cx="-10" cy="-45" r="4" fill="#f4a8c0"/>
+      <circle cx="8" cy="-50" r="4" fill="#f4a8c0"/>
+      <circle cx="0" cy="-38" r="4" fill="#f4a8c0"/>
+      <circle cx="15" cy="-42" r="4" fill="#f8c8d8"/>
+      <text x="0" y="30" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">开花</text>
+    </g>
+  </g>
+
+  <text x="400" y="570" text-anchor="middle" font-size="13" fill="#6b6557" font-family="sans-serif">"二月春风似剪刀"——春风带来温度变化，唤醒沉睡的种子</text>
+
+  <defs>
+    <marker id="arr3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#8d6a3d"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="法布尔蹲在草丛里，拿着放大镜观察昆虫">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="340" fill="#e8f0e6"/>
+  <!-- 远树 -->
+  <path d="M0 340 Q150 250 320 320 Q480 240 640 310 Q740 260 800 320 L800 360 L0 360 Z" fill="#6a8d3f" opacity="0.4"/>
+  <!-- 草地 -->
+  <path d="M0 340 Q400 320 800 340 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.6"/>
+  <path d="M0 400 Q400 380 800 400 L800 600 L0 600 Z" fill="#8d5a36" opacity="0.4"/>
+  <!-- 草丛 -->
+  <path d="M60 400 q6 -24 0 -36 M78 400 q6 -26 -3 -38 M96 400 q6 -22 3 -32" stroke="#4a6a2f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M680 410 q6 -24 0 -36 M698 410 q6 -26 -3 -38 M716 410 q6 -22 3 -32" stroke="#4a6a2f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M150 450 q5 -20 0 -30 M165 450 q5 -22 -2 -30" stroke="#6a8d3f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M600 460 q5 -20 0 -30 M615 460 q5 -22 -2 -30" stroke="#6a8d3f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 法布尔（蹲着） -->
+  <!-- 身体（蹲姿） -->
+  <ellipse cx="380" cy="430" rx="50" ry="40" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 头 -->
+  <ellipse cx="380" cy="360" rx="24" ry="26" fill="#e8c9a0"/>
+  <!-- 帽子 -->
+  <path d="M356 350 q24 -18 48 0 l4 -6 q-26 -20 -52 0 Z" fill="#c8843a"/>
+  <rect x="354" y="348" width="52" height="6" fill="#c8843a"/>
+  <!-- 眼镜 -->
+  <circle cx="372" cy="360" r="6" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="388" cy="360" r="6" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="378" y1="360" x2="382" y2="360" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="372" cy="360" r="1.5" fill="#7a3b14"/>
+  <circle cx="388" cy="360" r="1.5" fill="#7a3b14"/>
+  <!-- 胡子 -->
+  <path d="M372 374 q8 6 16 0" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <!-- 手臂（举放大镜） -->
+  <path d="M410 400 q30 10 50 30" stroke="#8d5a36" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <ellipse cx="462" cy="432" rx="9" ry="7" fill="#e8c9a0"/>
+  <!-- 放大镜 -->
+  <circle cx="490" cy="440" r="26" fill="#ffffff" opacity="0.3" stroke="#7a3b14" stroke-width="4"/>
+  <line x1="472" y1="458" x2="450" y2="480" stroke="#7a3b14" stroke-width="5" stroke-linecap="round"/>
+  <!-- 被观察的昆虫（屎壳郎/甲虫） -->
+  <ellipse cx="500" cy="490" rx="16" ry="11" fill="#6a5a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M500 479 l0 22" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="514" cy="487" r="5" fill="#6a5a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="517" cy="486" r="1.5" fill="#7a3b14"/>
+  <!-- 甲虫腿 -->
+  <path d="M488 488 l-8 4 M488 494 l-8 0 M510 492 l8 4 M510 496 l8 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <!-- 笔记本 -->
+  <rect x="300" y="470" width="70" height="50" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="310" y1="484" x2="360" y2="484" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="310" y1="494" x2="358" y2="494" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="310" y1="504" x2="355" y2="504" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 蝴蝶飞舞 -->
+  <path d="M620 200 q10 -8 18 0 q-9 6 -18 0 Z" fill="#e07856"/>
+  <path d="M638 200 q10 -8 18 0 q-9 6 -18 0 Z" fill="#c84a3a"/>
+  <path d="M638 200 l0 10" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">法布尔的昆虫记</text>
+</svg>

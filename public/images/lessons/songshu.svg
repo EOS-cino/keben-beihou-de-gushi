@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="松鼠在松树枝头抱着松果的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">松鼠 · 树梢上的小精灵</text>
+  <line x1="240" y1="62" x2="560" y2="62" stroke="#6a8d3f" stroke-width="2"/>
+
+  <!-- 天空背景 -->
+  <rect x="0" y="70" width="800" height="430" fill="#fef9ed"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+  <!-- 草地 -->
+  <g fill="#6a8d3f" opacity="0.5">
+    <ellipse cx="100" cy="510" rx="60" ry="12"/>
+    <ellipse cx="300" cy="515" rx="80" ry="14"/>
+    <ellipse cx="600" cy="510" rx="70" ry="12"/>
+  </g>
+
+  <!-- 松树树干 -->
+  <path d="M380 500 L385 200 L415 200 L420 500 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <!-- 树干纹理 -->
+  <g stroke="#6a4a2a" stroke-width="1.5" fill="none">
+    <path d="M388 350 Q400 345 412 350"/>
+    <path d="M390 280 Q400 275 410 280"/>
+    <path d="M387 420 Q400 415 413 420"/>
+  </g>
+
+  <!-- 松树树冠（多层针叶） -->
+  <g fill="#4a6a2f">
+    <polygon points="400,90 330,180 470,180"/>
+    <polygon points="400,150 310,250 490,250"/>
+    <polygon points="400,210 300,310 500,310"/>
+  </g>
+  <g fill="#6a8d3f" opacity="0.7">
+    <polygon points="400,110 345,175 455,175"/>
+    <polygon points="400,170 325,240 475,240"/>
+    <polygon points="400,230 315,300 485,300"/>
+  </g>
+
+  <!-- 松果 -->
+  <g fill="#c8843a" stroke="#8d5a36" stroke-width="1">
+    <ellipse cx="350" cy="320" rx="12" ry="18"/>
+    <ellipse cx="460" cy="340" rx="10" ry="15"/>
+  </g>
+  <g fill="#8d5a36" opacity="0.5">
+    <circle cx="347" cy="315" r="2"/>
+    <circle cx="353" cy="320" r="2"/>
+    <circle cx="350" cy="328" r="2"/>
+    <circle cx="457" cy="335" r="2"/>
+    <circle cx="463" cy="342" r="2"/>
+  </g>
+
+  <!-- 松鼠 -->
+  <g>
+    <!-- 大尾巴 -->
+    <path d="M520 380 Q560 340 555 280 Q550 250 530 245 Q520 260 525 290 Q528 320 510 350 Z" fill="#c8843a" stroke="#8d5a36" stroke-width="2"/>
+    <g stroke="#8d5a36" stroke-width="1" fill="none" opacity="0.5">
+      <path d="M535 270 Q545 280 540 300"/>
+      <path d="M530 300 Q540 310 535 330"/>
+    </g>
+    <!-- 身体 -->
+    <ellipse cx="490" cy="390" rx="35" ry="45" fill="#c8843a" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 肚子 -->
+    <ellipse cx="485" cy="395" rx="20" ry="30" fill="#f0d8a8"/>
+    <!-- 头 -->
+    <circle cx="490" cy="340" r="28" fill="#c8843a" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 耳朵 -->
+    <path d="M470 318 L465 295 L480 312 Z" fill="#c8843a" stroke="#8d5a36" stroke-width="1.5"/>
+    <path d="M510 318 L515 295 L500 312 Z" fill="#c8843a" stroke="#8d5a36" stroke-width="1.5"/>
+    <path d="M470 315 L468 302 L476 312 Z" fill="#e8b878"/>
+    <path d="M510 315 L512 302 L504 312 Z" fill="#e8b878"/>
+    <!-- 眼睛 -->
+    <circle cx="480" cy="338" r="4" fill="#2a1a0a"/>
+    <circle cx="500" cy="338" r="4" fill="#2a1a0a"/>
+    <circle cx="481" cy="337" r="1.5" fill="#fff"/>
+    <circle cx="501" cy="337" r="1.5" fill="#fff"/>
+    <!-- 鼻子 -->
+    <circle cx="490" cy="348" r="3" fill="#2a1a0a"/>
+    <!-- 嘴 -->
+    <path d="M486 352 Q490 356 494 352" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 前爪抱松果 -->
+    <ellipse cx="475" cy="380" rx="8" ry="12" fill="#c8843a" stroke="#8d5a36" stroke-width="1.5" transform="rotate(-20 475 380)"/>
+    <ellipse cx="505" cy="380" rx="8" ry="12" fill="#c8843a" stroke="#8d5a36" stroke-width="1.5" transform="rotate(20 505 380)"/>
+    <!-- 松果在爪中 -->
+    <ellipse cx="490" cy="378" rx="10" ry="14" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1"/>
+    <g fill="#6a4a2a" opacity="0.6">
+      <circle cx="487" cy="374" r="1.5"/>
+      <circle cx="493" cy="376" r="1.5"/>
+      <circle cx="490" cy="382" r="1.5"/>
+    </g>
+  </g>
+
+  <!-- 标注 -->
+  <rect x="440" y="270" width="100" height="26" fill="#fff6df" stroke="#6a8d3f" rx="4"/>
+  <text x="490" y="288" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">蓬松大尾巴</text>
+
+  <line x1="420" y1="200" x2="420" y2="160" stroke="#8d5a36" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="360" y="135" width="120" height="26" fill="#fff6df" stroke="#6a8d3f" rx="4"/>
+  <text x="420" y="153" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">松鼠的家（树杈窝）</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">漂亮、驯良、乖巧——树梢上的小精灵</text>
+</svg>

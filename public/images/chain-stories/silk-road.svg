@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="丝绸之路上商队驼铃和东西方交流的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">丝绸之路的故事</text>
+  <line x1="290" y1="58" x2="510" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="64" width="800" height="160" fill="#f0e0c8"/>
+  <!-- 沙漠 -->
+  <path d="M0 300 Q200 270 400 290 Q600 265 800 295 L800 500 L0 500 Z" fill="#e8c878" opacity="0.6"/>
+  <path d="M0 320 Q200 300 400 315 Q600 295 800 320 L800 500 L0 500 Z" fill="#d8b868" opacity="0.5"/>
+
+  <!-- 路线（虚线） -->
+  <path d="M80 380 Q250 340 400 360 Q550 340 720 370" fill="none" stroke="#7a3b14" stroke-width="2.5" stroke-dasharray="8,5" opacity="0.6"/>
+
+  <!-- 左：长安（起点） -->
+  <g transform="translate(80,360)">
+    <rect x="-30" y="-30" width="60" height="40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-35 -30 Q0 -50 35 -30" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-8" y="-15" width="16" height="25" fill="#7a3b14"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">长安</text>
+  </g>
+
+  <!-- 中：商队驼铃 -->
+  <g transform="translate(400,400)">
+    <!-- 骆驼1 -->
+    <g transform="translate(-40,0)">
+      <ellipse cx="0" cy="0" rx="30" ry="14" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-15 -8 Q-10 -22 -5 -8 M5 -8 Q10 -22 15 -8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="28" cy="-12" rx="10" ry="9" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M30 -20 Q33 -28 30 -32" fill="none" stroke="#7a3b14" stroke-width="2"/>
+      <rect x="-22" y="12" width="5" height="18" fill="#8d5a36"/>
+      <rect x="-8" y="12" width="5" height="18" fill="#8d5a36"/>
+      <rect x="12" y="12" width="5" height="18" fill="#8d5a36"/>
+      <rect x="22" y="12" width="5" height="18" fill="#8d5a36"/>
+      <!-- 货物 -->
+      <rect x="-10" y="-30" width="20" height="12" rx="2" fill="#c84a3a"/>
+    </g>
+    <!-- 骆驼2 -->
+    <g transform="translate(30,5)">
+      <ellipse cx="0" cy="0" rx="26" ry="12" fill="#a8703a" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-12 -6 Q-8 -18 -4 -6 M4 -6 Q8 -18 12 -6" fill="#a8703a" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="24" cy="-10" rx="8" ry="8" fill="#a8703a" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-18" y="10" width="4" height="16" fill="#a8703a"/>
+      <rect x="-6" y="10" width="4" height="16" fill="#a8703a"/>
+      <rect x="10" y="10" width="4" height="16" fill="#a8703a"/>
+      <rect x="20" y="10" width="4" height="16" fill="#a8703a"/>
+      <rect x="-8" y="-24" width="16" height="10" rx="2" fill="#6a8d3f"/>
+    </g>
+    <!-- 铃铛声 -->
+    <text x="0" y="-40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14" opacity="0.7">叮当~叮当~</text>
+  </g>
+
+  <!-- 右：罗马（终点） -->
+  <g transform="translate(720,360)">
+    <rect x="-30" y="-30" width="60" height="40" fill="#c8b898" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-35 -30 Q0 -50 35 -30" fill="#8d7a5a" stroke="#7a3b14" stroke-width="1.5"/>
+    <g fill="#7a3b14" opacity="0.6">
+      <path d="M-20 -10 Q-15 -25 -10 -10 Z"/>
+      <path d="M-5 -10 Q0 -25 5 -10 Z"/>
+      <path d="M10 -10 Q15 -25 20 -10 Z"/>
+    </g>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">罗马</text>
+  </g>
+
+  <!-- 交流内容（上方） -->
+  <g transform="translate(0,120)">
+    <!-- 东→西 -->
+    <rect x="120" y="0" width="200" height="50" rx="6" fill="#fff6df" stroke="#c84a3a" stroke-width="1.5" opacity="0.8"/>
+    <text x="220" y="20" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#c84a3a">东 → 西</text>
+    <text x="220" y="38" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">丝绸·瓷器·茶叶·造纸术</text>
+    <!-- 箭头 -->
+    <path d="M325 25 L355 25" stroke="#c84a3a" stroke-width="2"/>
+    <path d="M348 19 L360 25 L348 31" fill="none" stroke="#c84a3a" stroke-width="2"/>
+
+    <!-- 西→东 -->
+    <rect x="480" y="0" width="200" height="50" rx="6" fill="#fff6df" stroke="#6a8d3f" stroke-width="1.5" opacity="0.8"/>
+    <text x="580" y="20" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#4a6a2f">西 → 东</text>
+    <text x="580" y="38" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">葡萄·核桃·香料·佛教</text>
+    <path d="M475 25 L445 25" stroke="#6a8d3f" stroke-width="2"/>
+    <path d="M452 19 L440 25 L452 31" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+  </g>
+
+  <!-- 张骞标注 -->
+  <rect x="280" y="200" width="240" height="32" rx="6" fill="#e8f0e6" stroke="#6a8d3f" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="221" text-anchor="middle" font-family="serif" font-size="12" fill="#4a6a2f">张骞"凿空"西域，开辟了这条路</text>
+
+  <!-- 标注：敦煌/玉门关 -->
+  <g transform="translate(220,380)">
+    <rect x="-8" y="-12" width="16" height="20" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">玉门关</text>
+  </g>
+  <g transform="translate(580,375)">
+    <rect x="-8" y="-12" width="16" height="20" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">中亚集市</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">从长安到罗马，驼铃叮当——丝绸之路连起东西方，让文明因交流而丰富。</text>
+</svg>

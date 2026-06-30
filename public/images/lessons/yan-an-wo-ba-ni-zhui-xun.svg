@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="延安宝塔山、延河与窑洞的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">延安，我把你追寻</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#b5651d" stroke-width="2"/>
+  <!-- 天空 -->
+  <rect x="0" y="100" width="800" height="240" fill="#f0c068" opacity="0.25"/>
+  <!-- 远山 -->
+  <polygon points="0,340 200,180 400,340" fill="#8a9a5b" opacity="0.5"/>
+  <polygon points="300,340 520,160 760,340" fill="#6b8e7f" opacity="0.7"/>
+  <!-- 宝塔 -->
+  <rect x="490" y="170" width="40" height="120" fill="#b5651d"/>
+  <rect x="485" y="150" width="50" height="22" fill="#a83232"/>
+  <rect x="492" y="200" width="36" height="14" fill="#a83232"/>
+  <rect x="492" y="240" width="36" height="14" fill="#a83232"/>
+  <polygon points="485,150 535,150 510,128" fill="#a83232"/>
+  <!-- 延河 -->
+  <path d="M 0 420 q 200 -20 400 0 q 200 20 400 0 l 0 80 l -800 0 z" fill="#5d8aa8" opacity="0.5"/>
+  <path d="M 0 440 q 200 -16 400 0 q 200 16 400 0" stroke="#9bb7c4" stroke-width="2" fill="none"/>
+  <!-- 窑洞 -->
+  <path d="M 120 380 q 30 -28 60 0" fill="#5d4037"/>
+  <rect x="120" y="380" width="60" height="40" fill="#8a6d3b"/>
+  <path d="M 220 380 q 30 -28 60 0" fill="#5d4037"/>
+  <rect x="220" y="380" width="60" height="40" fill="#8a6d3b"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">追寻宝塔山下的火光与精神</text>
+</svg>

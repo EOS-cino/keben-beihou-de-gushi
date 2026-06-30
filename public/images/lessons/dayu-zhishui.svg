@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="大禹疏导洪水插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">大禹治水</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="160" fill="#e8f0d8"/>
+  <!-- 远山 -->
+  <path d="M0 240 L80 180 L160 220 L260 160 L360 210 L460 170 L560 205 L660 175 L760 210 L800 195 L800 280 L0 280 Z" fill="#c8b898" opacity="0.5"/>
+  <path d="M0 280 L60 230 L140 260 L240 220 L340 250 L440 225 L540 255 L640 230 L740 260 L800 245 L800 320 L0 320 Z" fill="#b8a888" opacity="0.6"/>
+
+  <!-- 山脉（左右两侧夹着河道） -->
+  <!-- 左山 -->
+  <path d="M0 320 L40 280 L80 300 L120 250 L160 290 L200 270 L200 500 L0 500 Z" fill="#a89878" stroke="#8a7858" stroke-width="2"/>
+  <!-- 山石纹理 -->
+  <path d="M40 320 L60 340 L50 360" fill="none" stroke="#8a7858" stroke-width="1.5"/>
+  <path d="M100 300 L120 320 L110 340" fill="none" stroke="#8a7858" stroke-width="1.5"/>
+  <path d="M60 380 L80 400 L70 420" fill="none" stroke="#8a7858" stroke-width="1.5"/>
+
+  <!-- 右山 -->
+  <path d="M600 270 L640 290 L680 250 L720 300 L760 280 L800 320 L800 500 L600 500 Z" fill="#a89878" stroke="#8a7858" stroke-width="2"/>
+  <path d="M640 320 L660 340 L650 360" fill="none" stroke="#8a7858" stroke-width="1.5"/>
+  <path d="M700 300 L720 320 L710 340" fill="none" stroke="#8a7858" stroke-width="1.5"/>
+  <path d="M660 380 L680 400 L670 420" fill="none" stroke="#8a7858" stroke-width="1.5"/>
+
+  <!-- 河流（被疏导的洪水，从山间穿过） -->
+  <path d="M200 320 Q300 340 400 330 Q500 320 600 340 L600 500 L200 500 Z" fill="#6ab8d0"/>
+  <!-- 水流方向（箭头表示疏导） -->
+  <path d="M250 380 Q350 390 450 380 Q550 370 600 385" fill="none" stroke="#4a98b8" stroke-width="3"/>
+  <path d="M280 420 Q380 430 480 420 Q550 410 590 425" fill="none" stroke="#4a98b8" stroke-width="3"/>
+  <!-- 水波纹 -->
+  <path d="M220 360 Q300 355 380 360 T540 360 T600 360" fill="none" stroke="#8ac8e0" stroke-width="2"/>
+  <path d="M220 400 Q300 395 380 400 T540 400 T600 400" fill="none" stroke="#8ac8e0" stroke-width="2"/>
+  <path d="M220 440 Q300 435 380 440 T540 440 T600 440" fill="none" stroke="#8ac8e0" stroke-width="2"/>
+
+  <!-- 水流箭头（表示疏导方向） -->
+  <g fill="#2e6a8a" opacity="0.6">
+    <polygon points="580,380 595,375 595,385"/>
+    <polygon points="570,420 585,415 585,425"/>
+  </g>
+
+  <!-- 大禹（站在山头指挥治水） -->
+  <!-- 身体 -->
+  <path d="M380 330 L385 270 L415 270 L420 330 Z" fill="#6a4a2a"/>
+  <!-- 头 -->
+  <circle cx="402" cy="252" r="18" fill="#f0d0a8"/>
+  <!-- 斗笠 -->
+  <path d="M378 248 Q402 222 426 248 L426 242 Q402 218 378 242 Z" fill="#8a6a3a"/>
+  <ellipse cx="402" cy="242" rx="28" ry="6" fill="#6a4a2a"/>
+  <!-- 眼睛 -->
+  <circle cx="396" cy="252" r="2" fill="#2a2a2a"/>
+  <circle cx="408" cy="252" r="2" fill="#2a2a2a"/>
+  <!-- 嘴（坚定） -->
+  <path d="M397 260 Q402 263 407 260" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 胡须 -->
+  <path d="M398 264 Q402 270 406 264" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+  <!-- 手臂（一手持铲，一手指向河道） -->
+  <path d="M385 285 L360 270" fill="none" stroke="#6a4a2a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="358" cy="268" r="7" fill="#f0d0a8"/>
+  <path d="M415 285 L445 300" fill="none" stroke="#6a4a2a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="447" cy="302" r="7" fill="#f0d0a8"/>
+
+  <!-- 铲子（治水工具） -->
+  <line x1="358" y1="268" x2="340" y2="310" stroke="#6a4220" stroke-width="4"/>
+  <path d="M330 305 L350 305 L345 325 L335 325 Z" fill="#8a8a8a" stroke="#5a5a5a" stroke-width="2"/>
+
+  <!-- 大禹标注 -->
+  <line x1="402" y1="225" x2="402" y2="190" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="357" y="165" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="402" y="183" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">大禹</text>
+
+  <!-- 河道标注 -->
+  <line x1="400" y1="380" x2="400" y2="420" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="345" y="425" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="443" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">疏导河道</text>
+
+  <!-- 山脉标注 -->
+  <line x1="120" y1="260" x2="120" y2="220" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="75" y="195" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="120" y="213" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">山脉</text>
+
+  <!-- 工具标注 -->
+  <line x1="340" y1="310" x2="300" y2="330" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="245" y="320" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="290" y="338" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">治水工具</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">大禹三过家门而不入，以疏导之法治水十三年，终平水患</text>
+</svg>

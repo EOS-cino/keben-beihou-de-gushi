@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一个女孩站在讲台上，台下同学鼓掌欢迎">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 教室背景墙 -->
+  <rect x="0" y="0" width="800" height="420" fill="#f3ece0"/>
+  <rect x="0" y="420" width="800" height="180" fill="#e8d9c0"/>
+  <!-- 黑板 -->
+  <rect x="60" y="60" width="680" height="180" fill="#4a6a2f" stroke="#8d5a36" stroke-width="6"/>
+  <text x="400" y="120" text-anchor="middle" font-family="serif" font-size="26" fill="#fef9ed">讲故事比赛</text>
+  <text x="400" y="160" text-anchor="middle" font-family="serif" font-size="18" fill="#a8d0e8">~ 给每一个勇敢的孩子 ~</text>
+  <!-- 讲台 -->
+  <rect x="330" y="380" width="140" height="14" fill="#8d5a36"/>
+  <rect x="340" y="394" width="10" height="60" fill="#8d5a36"/>
+  <rect x="450" y="394" width="10" height="60" fill="#8d5a36"/>
+  <!-- 英子 -->
+  <ellipse cx="400" cy="300" rx="24" ry="28" fill="#e8c9a0"/>
+  <path d="M376 292 q24 -20 48 0 q-24 -10 -48 0 Z" fill="#7a3b14"/>
+  <circle cx="392" cy="300" r="2.5" fill="#7a3b14"/>
+  <circle cx="408" cy="300" r="2.5" fill="#7a3b14"/>
+  <path d="M394 312 q6 3 12 0" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <!-- 脸颊红晕 -->
+  <circle cx="384" cy="307" r="4" fill="#e07856" opacity="0.5"/>
+  <circle cx="416" cy="307" r="4" fill="#e07856" opacity="0.5"/>
+  <!-- 衣服 -->
+  <path d="M374 326 q26 -8 52 0 l10 56 l-72 0 Z" fill="#c84a3a"/>
+  <!-- 麦克风 -->
+  <rect x="438" y="340" width="4" height="40" fill="#7a3b14"/>
+  <circle cx="440" cy="338" r="7" fill="#7a3b14"/>
+  <!-- 同学们鼓掌 -->
+  <!-- 同学1 -->
+  <ellipse cx="150" cy="360" rx="18" ry="22" fill="#e8c9a0"/>
+  <path d="M132 352 q18 -14 36 0 Z" fill="#7a3b14"/>
+  <path d="M128 392 q22 -6 44 0 l6 40 l-56 0 Z" fill="#7ab8d8"/>
+  <!-- 鼓掌的手 -->
+  <ellipse cx="120" cy="395" rx="8" ry="6" fill="#e8c9a0"/>
+  <ellipse cx="138" cy="395" rx="8" ry="6" fill="#e8c9a0"/>
+  <!-- 同学2 -->
+  <ellipse cx="250" cy="365" rx="18" ry="22" fill="#e8c9a0"/>
+  <path d="M232 358 q18 -14 36 0 Z" fill="#4a6a2f"/>
+  <path d="M228 397 q22 -6 44 0 l6 40 l-56 0 Z" fill="#c8843a"/>
+  <ellipse cx="220" cy="400" rx="8" ry="6" fill="#e8c9a0"/>
+  <ellipse cx="238" cy="400" rx="8" ry="6" fill="#e8c9a0"/>
+  <!-- 同学3 -->
+  <ellipse cx="560" cy="365" rx="18" ry="22" fill="#e8c9a0"/>
+  <path d="M542 358 q18 -14 36 0 Z" fill="#7a3b14"/>
+  <path d="M538 397 q22 -6 44 0 l6 40 l-56 0 Z" fill="#6a8d3f"/>
+  <ellipse cx="530" cy="400" rx="8" ry="6" fill="#e8c9a0"/>
+  <ellipse cx="548" cy="400" rx="8" ry="6" fill="#e8c9a0"/>
+  <!-- 同学4 -->
+  <ellipse cx="660" cy="360" rx="18" ry="22" fill="#e8c9a0"/>
+  <path d="M642 352 q18 -14 36 0 Z" fill="#c8843a"/>
+  <path d="M638 392 q22 -6 44 0 l6 40 l-56 0 Z" fill="#c84a3a"/>
+  <ellipse cx="630" cy="395" rx="8" ry="6" fill="#e8c9a0"/>
+  <ellipse cx="648" cy="395" rx="8" ry="6" fill="#e8c9a0"/>
+  <!-- 掌声符号 -->
+  <text x="100" y="340" font-family="serif" font-size="22" fill="#e07856">啪</text>
+  <text x="290" y="345" font-family="serif" font-size="18" fill="#c84a3a">啪</text>
+  <text x="590" y="340" font-family="serif" font-size="22" fill="#e07856">啪</text>
+  <text x="700" y="345" font-family="serif" font-size="18" fill="#c84a3a">啪</text>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">掌 声</text>
+</svg>

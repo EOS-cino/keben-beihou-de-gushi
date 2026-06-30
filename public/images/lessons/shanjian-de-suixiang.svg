@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="山间小路、溪流与远山插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">山间的随想</text>
+  <line x1="300" y1="60" x2="500" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="240" fill="#4a90b8" opacity="0.22"/>
+  <!-- 远山（最远） -->
+  <path d="M0 280 L120 200 L220 250 L340 180 L460 240 L580 190 L700 250 L800 220 L800 320 L0 320 Z" fill="#2d6a4f" opacity="0.3"/>
+  <!-- 中山 -->
+  <path d="M0 320 L100 260 L200 300 L320 230 L440 290 L560 240 L680 300 L800 270 L800 380 L0 380 Z" fill="#2d6a4f" opacity="0.5"/>
+  <!-- 云雾缠绕半山腰 -->
+  <g fill="#f8f8f0" opacity="0.7">
+    <ellipse cx="180" cy="290" rx="80" ry="14"/>
+    <ellipse cx="420" cy="280" rx="100" ry="16"/>
+    <ellipse cx="640" cy="295" rx="90" ry="14"/>
+  </g>
+  <!-- 近山 -->
+  <path d="M0 380 L80 320 L180 360 L280 300 L400 360 L520 310 L640 370 L760 330 L800 360 L800 460 L0 460 Z" fill="#2d6a4f" opacity="0.75"/>
+
+  <!-- 山间小路 -->
+  <path d="M400 560 Q380 500 420 460 Q460 420 420 380 Q380 340 430 300" fill="none" stroke="#c8a878" stroke-width="14" stroke-linecap="round"/>
+  <path d="M400 560 Q380 500 420 460 Q460 420 420 380 Q380 340 430 300" fill="none" stroke="#e8a838" stroke-width="3" stroke-dasharray="10,8" opacity="0.6"/>
+
+  <!-- 溪流 -->
+  <path d="M120 460 Q160 420 140 380 Q120 340 160 300 Q200 270 180 240" fill="none" stroke="#4a90b8" stroke-width="12" stroke-linecap="round" opacity="0.7"/>
+  <path d="M120 460 Q160 420 140 380 Q120 340 160 300 Q200 270 180 240" fill="none" stroke="#a8d8e8" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <!-- 溪水波纹 -->
+  <g stroke="#fff8c8" stroke-width="2" opacity="0.7" fill="none">
+    <path d="M125 430 Q135 425 145 430"/>
+    <path d="M130 395 Q140 390 150 395"/>
+    <path d="M150 350 Q160 345 170 350"/>
+  </g>
+
+  <!-- 树木 -->
+  <g>
+    <!-- 松树1 -->
+    <rect x="248" y="400" width="8" height="40" fill="#6a4220"/>
+    <path d="M252 360 L228 400 L276 400 Z" fill="#2d6a4f"/>
+    <path d="M252 380 L232 415 L272 415 Z" fill="#2d6a4f"/>
+    <!-- 松树2 -->
+    <rect x="560" y="395" width="8" height="45" fill="#6a4220"/>
+    <path d="M564 350 L538 395 L590 395 Z" fill="#2d6a4f"/>
+    <path d="M564 372 L542 408 L586 408 Z" fill="#2d6a4f"/>
+    <!-- 小树 -->
+    <rect x="680" y="410" width="6" height="30" fill="#6a4220"/>
+    <circle cx="683" cy="400" r="18" fill="#2d6a4f" opacity="0.85"/>
+  </g>
+
+  <!-- 行走的人 -->
+  <g transform="translate(415, 445)">
+    <circle cx="0" cy="-30" r="9" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+    <path d="M-10 -22 L-12 5 L-6 5 L-3 -10 L3 -10 L6 5 L12 5 L10 -22 Z" fill="#e07856" stroke="#a04830" stroke-width="1.5"/>
+    <path d="M-10 -18 L-18 0" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M10 -18 L18 0" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 飞鸟 -->
+  <g fill="none" stroke="#7a3b14" stroke-width="2" stroke-linecap="round">
+    <path d="M300 150 Q310 144 320 150 Q330 144 340 150"/>
+    <path d="M520 130 Q528 125 536 130 Q544 125 552 130"/>
+  </g>
+
+  <!-- 标注 -->
+  <line x1="150" y1="380" x2="100" y2="350" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="50" y="325" width="100" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="100" y="343" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">叮咚溪流</text>
+
+  <line x1="430" y1="430" x2="470" y2="470" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="455" y="475" width="100" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="505" y="493" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">山间小路</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">走进山里，听溪流叮咚，看云雾缭绕，心便安静下来</text>
+</svg>

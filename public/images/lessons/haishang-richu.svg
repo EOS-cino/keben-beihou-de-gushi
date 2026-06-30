@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="海上日出的壮丽景象插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">海上日出</text>
+  <line x1="310" y1="56" x2="490" y2="56" stroke="#c9952e" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8a6a3a">——巴金笔下的伟大奇观</text>
+
+  <!-- 天空（渐变：从深蓝到橙红） -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4a6a"/>
+      <stop offset="30%" stop-color="#8a6a5a"/>
+      <stop offset="60%" stop-color="#e08858"/>
+      <stop offset="85%" stop-color="#f4b060"/>
+      <stop offset="100%" stop-color="#f4d860"/>
+    </linearGradient>
+    <linearGradient id="seaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e08858"/>
+      <stop offset="20%" stop-color="#c47050"/>
+      <stop offset="50%" stop-color="#6a7090"/>
+      <stop offset="100%" stop-color="#3a4a6a"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="90" width="800" height="280" fill="url(#skyGrad)"/>
+
+  <!-- 云霞 -->
+  <g fill="#f4a060" opacity="0.6">
+    <ellipse cx="200" cy="160" rx="80" ry="12"/>
+    <ellipse cx="220" cy="155" rx="60" ry="8"/>
+    <ellipse cx="600" cy="180" rx="90" ry="14"/>
+    <ellipse cx="620" cy="175" rx="65" ry="10"/>
+    <ellipse cx="400" cy="140" rx="70" ry="10"/>
+  </g>
+  <!-- 云霞金边（镶边效果） -->
+  <g fill="none" stroke="#f4e060" stroke-width="2" opacity="0.7">
+    <path d="M120 160 Q200 155 280 160"/>
+    <path d="M510 180 Q600 175 690 180"/>
+  </g>
+  <text x="650" y="145" text-anchor="middle" font-family="serif" font-size="13" fill="#f4e060">云霞镶金边</text>
+
+  <!-- 太阳（刚跃出海面，红得可爱） -->
+  <g transform="translate(400, 340)">
+    <!-- 光晕 -->
+    <circle cx="0" cy="0" r="100" fill="#f4a040" opacity="0.1"/>
+    <circle cx="0" cy="0" r="75" fill="#f4a040" opacity="0.15"/>
+    <circle cx="0" cy="0" r="55" fill="#f4a040" opacity="0.2"/>
+    <!-- 太阳本体 -->
+    <circle cx="0" cy="0" r="45" fill="#f44020" stroke="#c43020" stroke-width="2"/>
+    <!-- 太阳上半部（亮） -->
+    <path d="M-45 0 A45 45 0 0 1 45 0 Z" fill="#f4602a"/>
+    <!-- 高光 -->
+    <ellipse cx="-15" cy="-20" rx="12" ry="8" fill="#f4a060" opacity="0.5"/>
+    <!-- 光线 -->
+    <g stroke="#f4a040" stroke-width="3" stroke-linecap="round" opacity="0.6">
+      <line x1="0" y1="-60" x2="0" y2="-75"/>
+      <line x1="-42" y1="-42" x2="-53" y2="-53"/>
+      <line x1="42" y1="-42" x2="53" y2="-53"/>
+      <line x1="-60" y1="0" x2="-75" y2="0"/>
+      <line x1="60" y1="0" x2="75" y2="0"/>
+    </g>
+  </g>
+  <text x="400" y="285" text-anchor="middle" font-family="serif" font-size="14" fill="#f4e060" font-weight="bold">太阳跃出海面</text>
+
+  <!-- 海面 -->
+  <rect x="0" y="370" width="800" height="230" fill="url(#seaGrad)"/>
+
+  <!-- 太阳在海面的倒影（金色光路） -->
+  <g>
+    <path d="M380 370 L360 600 L440 600 L420 370 Z" fill="#f4a040" opacity="0.3"/>
+    <path d="M390 370 L375 600 L425 600 L410 370 Z" fill="#f4e060" opacity="0.4"/>
+    <path d="M395 370 L390 600 L410 600 L405 370 Z" fill="#fff8a0" opacity="0.5"/>
+  </g>
+
+  <!-- 海浪 -->
+  <g fill="none" stroke="#8a8090" stroke-width="2" opacity="0.6">
+    <path d="M0 390 Q50 385 100 390 Q150 395 200 390 Q250 385 300 390 Q350 395 400 390 Q450 385 500 390 Q550 395 600 390 Q650 385 700 390 Q750 395 800 390"/>
+    <path d="M0 420 Q60 415 120 420 Q180 425 240 420 Q300 415 360 420 Q420 425 480 420 Q540 415 600 420 Q660 425 720 420 Q780 415 800 420"/>
+    <path d="M0 450 Q50 445 100 450 Q150 455 200 450 Q250 445 300 450 Q350 455 400 450 Q450 445 500 450 Q550 455 600 450 Q650 445 700 450 Q750 455 800 450"/>
+    <path d="M0 480 Q60 475 120 480 Q180 485 240 480 Q300 475 360 480 Q420 485 480 480 Q540 475 600 480 Q660 485 720 480 Q780 475 800 480"/>
+    <path d="M0 510 Q50 505 100 510 Q150 515 200 510 Q250 505 300 510 Q350 515 400 510 Q450 505 500 510 Q550 515 600 510 Q650 505 700 510 Q750 515 800 510"/>
+    <path d="M0 540 Q60 535 120 540 Q180 545 240 540 Q300 535 360 540 Q420 545 480 540 Q540 535 600 540 Q660 545 720 540 Q780 535 800 540"/>
+    <path d="M0 570 Q50 565 100 570 Q150 575 200 570 Q250 565 300 570 Q350 575 400 570 Q450 565 500 570 Q550 575 600 570 Q650 565 700 570 Q750 575 800 570"/>
+  </g>
+
+  <!-- 轮船（巴金所在的船，剪影） -->
+  <g transform="translate(150, 380)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="12" fill="#3a3a4a">轮船（巴金在此观看）</text>
+    <!-- 船身 -->
+    <path d="M-40 0 L-35 15 L35 15 L40 0 Z" fill="#3a3a4a" stroke="#1a1a2a" stroke-width="1.5"/>
+    <!-- 甲板上的结构 -->
+    <rect x="-15" y="-12" width="30" height="12" fill="#3a3a4a" stroke="#1a1a2a" stroke-width="1.5"/>
+    <rect x="-8" y="-25" width="16" height="13" fill="#3a3a4a" stroke="#1a1a2a" stroke-width="1.5"/>
+    <!-- 烟囱 -->
+    <rect x="5" y="-35" width="8" height="12" fill="#4a4a5a" stroke="#1a1a2a" stroke-width="1"/>
+    <!-- 烟 -->
+    <path d="M9 -35 Q15 -45 10 -55 Q5 -65 15 -70" fill="none" stroke="#8a8090" stroke-width="3" opacity="0.5"/>
+    <!-- 桅杆 -->
+    <line x1="-20" y1="0" x2="-20" y2="-30" stroke="#3a3a4a" stroke-width="2"/>
+    <!-- 人影（巴金） -->
+    <circle cx="-20" cy="-33" r="3" fill="#3a3a4a"/>
+    <rect x="-22" y="-30" width="4" height="8" fill="#3a3a4a"/>
+  </g>
+
+  <!-- 海鸟 -->
+  <g fill="none" stroke="#3a3a4a" stroke-width="2" stroke-linecap="round">
+    <path d="M550 200 Q560 195 570 200 Q580 195 590 200"/>
+    <path d="M620 230 Q628 226 636 230 Q644 226 652 230"/>
+    <path d="M500 250 Q508 246 516 250 Q524 246 532 250"/>
+  </g>
+
+  <!-- 时间轴标注（日出的过程） -->
+  <g transform="translate(60, 100)">
+    <rect x="-5" y="0" width="150" height="80" rx="8" fill="#fffdf7" stroke="#c9952e" stroke-width="1.5" opacity="0.85"/>
+    <text x="70" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a" font-weight="bold">日出过程</text>
+    <text x="10" y="38" font-family="serif" font-size="11" fill="#5a3a1a">1.天边出现红霞</text>
+    <text x="10" y="53" font-family="serif" font-size="11" fill="#5a3a1a">2.太阳露出小半边脸</text>
+    <text x="10" y="68" font-family="serif" font-size="11" fill="#5a3a1a">3.猛地一跳，跃出海面</text>
+  </g>
+</svg>

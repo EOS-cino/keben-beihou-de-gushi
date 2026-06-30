@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="后羿与嫦娥神话故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">后羿和嫦娥的故事</text>
+  <line x="270" y1="56" x2="530" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="0" y="80" width="800" height="520" fill="#1a1a3a" opacity="0.08"/>
+  <!-- 星星 -->
+  <g fill="#f4b942" opacity="0.6">
+    <circle cx="100" cy="120" r="1.5"/>
+    <circle cx="250" cy="100" r="1.5"/>
+    <circle cx="500" cy="130" r="1.5"/>
+    <circle cx="650" cy="110" r="1.5"/>
+    <circle cx="180" cy="180" r="1"/>
+    <circle cx="580" cy="180" r="1"/>
+  </g>
+
+  <!-- 左：后羿射日（英雄壮举） -->
+  <g transform="translate(180,250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">后羿射日</text>
+    <!-- 太阳 -->
+    <g transform="translate(0,-50)">
+      <circle cx="0" cy="0" r="22" fill="#f4b942" opacity="0.3"/>
+      <circle cx="0" cy="0" r="16" fill="#f4b942"/>
+    </g>
+    <!-- 后羿 -->
+    <g transform="translate(0,20)">
+      <rect x="-10" y="-12" width="20" height="28" fill="#8d5a36" rx="2"/>
+      <circle cx="0" cy="-22" r="9" fill="#e0c8a8"/>
+      <path d="M-9 -26 Q0 -32 9 -26" fill="#c84a3a"/>
+      <line x1="-5" y1="16" x2="-7" y2="35" stroke="#8d5a36" stroke-width="3"/>
+      <line x1="5" y1="16" x2="7" y2="35" stroke="#8d5a36" stroke-width="3"/>
+      <!-- 弓 -->
+      <g transform="translate(-15,-5)">
+        <path d="M0 -20 Q-12 0 0 20" fill="none" stroke="#8d5a36" stroke-width="2.5"/>
+        <line x1="0" y1="-20" x2="12" y2="0" stroke="#c0c0c0" stroke-width="1"/>
+        <line x1="0" y1="20" x2="12" y2="0" stroke="#c0c0c0" stroke-width="1"/>
+      </g>
+      <line x1="-10" y1="-3" x2="-15" y2="-5" stroke="#e0c8a8" stroke-width="2.5"/>
+      <line x1="10" y1="-3" x2="15" y2="-5" stroke="#e0c8a8" stroke-width="2.5"/>
+    </g>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">射九日·救苍生</text>
+  </g>
+
+  <!-- 中：不死药 -->
+  <g transform="translate(400,250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">西王母赐药</text>
+    <!-- 药包 -->
+    <g transform="translate(0,-20)">
+      <ellipse cx="0" cy="0" rx="25" ry="20" fill="#f5e8c8" stroke="#c8843a" stroke-width="2"/>
+      <path d="M-15 -15 L0 -25 L15 -15" fill="#c8843a" opacity="0.3"/>
+      <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">不死药</text>
+    </g>
+    <!-- 交接箭头 -->
+    <path d="M-60 -20 L-30 -20" fill="none" stroke="#8d5a36" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrHC1)"/>
+    <path d="M30 -20 L60 -20" fill="none" stroke="#8d5a36" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrHC1)"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">后羿交给嫦娥保管</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">逢蒙逼药·嫦娥吞药</text>
+  </g>
+
+  <!-- 右：嫦娥奔月 -->
+  <g transform="translate(620,250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">嫦娥奔月</text>
+    <!-- 月亮 -->
+    <circle cx="0" cy="-40" r="30" fill="#fef9ed" stroke="#c8843a" stroke-width="2"/>
+    <circle cx="-8" cy="-45" r="5" fill="#e0d8c8" opacity="0.5"/>
+    <circle cx="6" cy="-35" r="4" fill="#e0d8c8" opacity="0.5"/>
+    <!-- 嫦娥飞向月亮 -->
+    <g transform="translate(0,20)">
+      <ellipse cx="0" cy="0" rx="10" ry="14" fill="#7ab8d8"/>
+      <circle cx="0" cy="-15" r="8" fill="#e0c8a8"/>
+      <!-- 飘带 -->
+      <path d="M-8 5 Q-20 10 -25 20" fill="none" stroke="#a8d0e8" stroke-width="2"/>
+      <path d="M8 5 Q20 10 25 20" fill="none" stroke="#a8d0e8" stroke-width="2"/>
+      <!-- 飞升箭头 -->
+      <path d="M0 -25 L0 -35" stroke="#7ab8d8" stroke-width="2" marker-end="url(#arrHC1)"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">吞药飞升·月宫仙子</text>
+  </g>
+
+  <!-- 分隔线 -->
+  <line x1="60" y1="380" x2="740" y2="380" stroke="#c8843a" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- 下方：中秋由来 -->
+  <text x="400" y="415" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">中秋拜月的由来</text>
+
+  <!-- 后羿望月 -->
+  <g transform="translate(200,490)">
+    <!-- 月亮 -->
+    <circle cx="0" cy="-30" r="20" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5"/>
+    <circle cx="-4" cy="-33" r="3" fill="#e0d8c8" opacity="0.5"/>
+    <!-- 后羿仰望 -->
+    <g transform="translate(0,20)">
+      <rect x="-8" y="-10" width="16" height="22" fill="#8d5a36" rx="2"/>
+      <circle cx="0" cy="-18" r="8" fill="#e0c8a8"/>
+      <circle cx="-3" cy="-20" r="1.2" fill="#1a1a1a"/>
+      <circle cx="3" cy="-20" r="1.2" fill="#1a1a1a"/>
+      <line x1="-4" y1="12" x2="-6" y2="28" stroke="#8d5a36" stroke-width="3"/>
+      <line x1="4" y1="12" x2="6" y2="28" stroke="#8d5a36" stroke-width="3"/>
+    </g>
+    <!-- 供桌 -->
+    <rect x="-25" y="50" width="50" height="6" fill="#8d5a36"/>
+    <!-- 月饼 -->
+    <circle cx="-10" cy="48" r="5" fill="#c8843a"/>
+    <circle cx="10" cy="48" r="5" fill="#c8843a"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">后羿望月遥祭</text>
+  </g>
+
+  <!-- 百姓拜月 -->
+  <g transform="translate(600,490)">
+    <circle cx="0" cy="-30" r="20" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5"/>
+    <g transform="translate(-15,20)">
+      <rect x="-6" y="-8" width="12" height="18" fill="#7ab8d8" rx="2"/>
+      <circle cx="0" cy="-14" r="6" fill="#e0c8a8"/>
+    </g>
+    <g transform="translate(15,20)">
+      <rect x="-6" y="-8" width="12" height="18" fill="#e07856" rx="2"/>
+      <circle cx="0" cy="-14" r="6" fill="#e0c8a8"/>
+    </g>
+    <rect x="-30" y="50" width="60" height="6" fill="#8d5a36"/>
+    <circle cx="-12" cy="48" r="4" fill="#c8843a"/>
+    <circle cx="0" cy="48" r="4" fill="#c8843a"/>
+    <circle cx="12" cy="48" r="4" fill="#c8843a"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">百姓月下祈福</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="580" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">后羿射日救苍生，嫦娥奔月化仙子——中秋拜月吃月饼的由来</text>
+
+  <defs>
+    <marker id="arrHC1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#8d5a36"/>
+    </marker>
+  </defs>
+</svg>

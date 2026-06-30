@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="田园梅子、篱落儿童与溪头翁媪的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古诗词三首</text>
+  <text x="400" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">四时田园杂兴 · 宿新市徐公店 · 清平乐·村居</text>
+  <line x1="220" y1="95" x2="580" y2="95" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 四时田园：梅杏麦花 -->
+  <circle cx="120" cy="200" r="14" fill="#d4a017"/>
+  <circle cx="150" cy="210" r="14" fill="#c8553d"/>
+  <path d="M 90 250 q 40 -30 80 0" stroke="#8a9a5b" stroke-width="2" fill="none"/>
+  <circle cx="100" cy="240" r="3" fill="#ffffff" stroke="#9bb7c4"/>
+  <circle cx="120" cy="232" r="3" fill="#ffffff" stroke="#9bb7c4"/>
+  <circle cx="150" cy="238" r="3" fill="#ffffff" stroke="#9bb7c4"/>
+  <text x="130" y="300" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">梅黄杏肥</text>
+  <!-- 宿新市徐公店：儿童追蝶 -->
+  <rect x="260" y="160" width="220" height="160" fill="#e8dca0" opacity="0.5"/>
+  <path d="M 290 320 q 30 -10 60 0 q 30 10 60 0 q 30 -10 60 0" stroke="#8a9a5b" stroke-width="2" fill="none"/>
+  <circle cx="470" cy="200" r="12" fill="#f0c419" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="440" cy="240" r="12" fill="#f0c419" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="490" cy="250" r="12" fill="#f0c419" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="380" cy="250" r="14" fill="#e8a04e"/>
+  <path d="M 380 264 l -10 30 m 10 -30 l 10 30" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M 394 244 q 24 -16 40 0" stroke="#c8553d" stroke-width="2" fill="none"/>
+  <text x="370" y="350" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">儿童追黄蝶</text>
+  <!-- 清平乐村居：溪边翁媪 -->
+  <path d="M 560 320 q 50 -10 100 0" stroke="#5d8aa8" stroke-width="3" fill="none"/>
+  <ellipse cx="620" cy="220" rx="40" ry="24" fill="#8a6d3b" opacity="0.7"/>
+  <circle cx="600" cy="200" r="12" fill="#f5d9a0"/>
+  <circle cx="640" cy="200" r="12" fill="#f5d9a0"/>
+  <rect x="590" y="210" width="20" height="40" fill="#c8553d"/>
+  <rect x="630" y="210" width="20" height="40" fill="#3a7d44"/>
+  <circle cx="700" cy="280" r="16" fill="#f5d9a0"/>
+  <rect x="694" y="294" width="12" height="26" fill="#3a7d44"/>
+  <text x="640" y="360" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">溪边翁媪</text>
+  <line x1="100" y1="410" x2="700" y2="410" stroke="#7a3b14" stroke-width="1" opacity="0.3"/>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">梅子金黄杏子肥，溪头卧剥莲蓬</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">乡村三幅画，各有各的闲</text>
+</svg>

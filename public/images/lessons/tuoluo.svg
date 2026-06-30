@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="冰面上几个旋转的陀螺和抽鞭子的孩子插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">陀螺</text>
+  <line x1="350" y1="60" x2="450" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空（冬日） -->
+  <rect x="0" y="70" width="800" height="220" fill="#e8f0f5"/>
+  <!-- 远树（冬日光秃秃） -->
+  <line x1="100" y1="290" x2="100" y2="220" stroke="#5a3a1a" stroke-width="4"/>
+  <path d="M85 240 L100 220 L115 240 M90 255 L100 235 L110 255" stroke="#5a3a1a" stroke-width="3" fill="none"/>
+  <line x1="700" y1="290" x2="700" y2="210" stroke="#5a3a1a" stroke-width="4"/>
+  <path d="M685 230 L700 210 L715 230 M690 250 L700 230 L710 250" stroke="#5a3a1a" stroke-width="3" fill="none"/>
+
+  <!-- 雪花 -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="200" cy="120" r="3"/>
+    <circle cx="350" cy="150" r="2.5"/>
+    <circle cx="500" cy="110" r="3"/>
+    <circle cx="600" cy="170" r="2.5"/>
+    <circle cx="280" cy="200" r="2"/>
+    <circle cx="550" cy="220" r="2"/>
+  </g>
+
+  <!-- 冰面 -->
+  <rect x="0" y="290" width="800" height="310" fill="#d8e8f0"/>
+  <!-- 冰面反光 -->
+  <path d="M100 380 q60 -4 120 0 M350 420 q60 -4 120 0 M550 380 q60 -4 120 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- 陀螺1（漂亮的，大圆） -->
+  <g transform="translate(250 400)">
+    <ellipse cx="0" cy="0" rx="35" ry="12" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-35 0 L0 45 L35 0 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="-3" rx="30" ry="8" fill="#e07856"/>
+    <line x1="-20" y1="-3" x2="20" y2="-3" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 旋转线 -->
+    <ellipse cx="0" cy="-8" rx="38" ry="6" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  </g>
+
+  <!-- 陀螺2（鸭蛋鸭，不起眼） -->
+  <g transform="translate(450 410)">
+    <ellipse cx="0" cy="0" rx="28" ry="18" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="2"/>
+    <path d="M-28 0 L0 38 L28 0 Z" fill="#a8884a" stroke="#5a3a1a" stroke-width="2"/>
+    <ellipse cx="0" cy="-5" rx="24" ry="10" fill="#8d6a4a"/>
+    <!-- 旋转线（更密，表示转得快） -->
+    <ellipse cx="0" cy="-12" rx="32" ry="5" fill="none" stroke="#2d6a4f" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.7"/>
+    <ellipse cx="0" cy="-15" rx="30" ry="4" fill="none" stroke="#2d6a4f" stroke-width="1" stroke-dasharray="2,2" opacity="0.5"/>
+  </g>
+
+  <!-- 陀螺3（被撞翻的） -->
+  <g transform="translate(620 420) rotate(60)">
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-30 0 L0 40 L30 0 Z" fill="#6ab0d8" stroke="#7a3b14" stroke-width="2"/>
+  </g>
+
+  <!-- 孩子1（抽鞭子） -->
+  <g>
+    <rect x="160" y="430" width="36" height="55" rx="6" fill="#2d6a4f" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="178" cy="415" r="18" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M164 412 q14 -12 28 0" fill="#3a2a1a"/>
+    <circle cx="172" cy="416" r="2" fill="#3a2a1a"/>
+    <circle cx="184" cy="416" r="2" fill="#3a2a1a"/>
+    <path d="M172 424 q6 4 12 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 手臂举鞭子 -->
+    <path d="M196 440 q30 -10 50 -25" stroke="#2d6a4f" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- 鞭子 -->
+    <path d="M246 415 q20 5 30 25 q5 15 -5 25" stroke="#5a3a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- 腿 -->
+    <rect x="164" y="482" width="13" height="35" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="183" y="482" width="13" height="35" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 孩子2（看鸭蛋鸭，惊喜） -->
+  <g>
+    <rect x="500" y="440" width="36" height="50" rx="6" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="518" cy="425" r="18" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M504 422 q14 -12 28 0" fill="#3a2a1a"/>
+    <!-- 惊喜的眼睛 -->
+    <circle cx="512" cy="425" r="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="524" cy="425" r="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="512" cy="425" r="1.5" fill="#3a2a1a"/>
+    <circle cx="524" cy="425" r="1.5" fill="#3a2a1a"/>
+    <!-- 张嘴惊讶 -->
+    <ellipse cx="518" cy="434" rx="3" ry="4" fill="#7a3b14"/>
+    <!-- 手指向陀螺 -->
+    <path d="M500 455 q-20 5 -30 15" stroke="#e07856" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <rect x="504" y="488" width="13" height="32" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="523" y="488" width="13" height="32" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 标注 -->
+  <line x1="450" y1="385" x2="450" y2="340" stroke="#2d6a4f" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="395" y="318" width="110" height="24" fill="#fff6df" stroke="#2d6a4f" rx="4"/>
+  <text x="450" y="335" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">鸭蛋鸭（冠军）</text>
+
+  <line x1="620" y1="440" x2="680" y2="470" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="660" y="460" width="80" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="700" y="477" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">被撞翻了</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="580" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">不起眼的"鸭蛋鸭"转得又快又稳，打败了所有对手</text>
+</svg>

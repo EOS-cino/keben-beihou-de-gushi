@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="地球大陆从盘古大陆分裂漂移的示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景 -->
+  <rect x="0" y="0" width="800" height="460" fill="#f3ece0"/>
+  <rect x="0" y="460" width="800" height="140" fill="#e8d9c0"/>
+  <!-- 三个阶段标题 -->
+  <text x="145" y="60" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">2亿年前：泛大陆</text>
+  <text x="400" y="60" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">1亿年前：开始分裂</text>
+  <text x="655" y="60" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">现在：七大洲</text>
+  <!-- 箭头 -->
+  <path d="M250 70 l60 0 M490 70 l60 0" stroke="#c84a3a" stroke-width="3" fill="none"/>
+  <path d="M310 70 l-8 -4 l0 8 Z" fill="#c84a3a"/>
+  <path d="M550 70 l-8 -4 l0 8 Z" fill="#c84a3a"/>
+  <!-- 阶段1：泛大陆（一整块） -->
+  <circle cx="145" cy="200" r="70" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M100 170 Q130 150 165 165 Q190 180 185 210 Q175 240 140 245 Q105 235 95 205 Q90 185 100 170 Z" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2"/>
+  <text x="145" y="290" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">所有陆地连成一块</text>
+  <!-- 阶段2：分裂中 -->
+  <circle cx="400" cy="200" r="70" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M345 175 Q375 155 405 170 Q420 185 415 210 Q405 235 380 240 Z" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M425 180 Q450 165 465 185 Q470 210 455 230 Q435 240 420 225 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 裂缝箭头 -->
+  <path d="M410 200 l10 0 M410 210 l10 0" stroke="#c84a3a" stroke-width="2"/>
+  <path d="M425 200 l8 -3 M425 210 l8 3" stroke="#c84a3a" stroke-width="2"/>
+  <text x="400" y="290" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">大陆慢慢分开</text>
+  <!-- 阶段3：现在 -->
+  <circle cx="655" cy="200" r="70" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M600 175 Q620 160 635 175 Q640 195 625 205 Z" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M670 185 Q690 175 700 195 Q695 215 680 215 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M640 220 Q655 215 665 230 Q660 245 645 240 Z" fill="#4a6a2f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M610 225 Q620 222 625 235 Q620 245 610 240 Z" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2"/>
+  <text x="655" y="290" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">形成今天的大洲</text>
+  <!-- 漂移方向示意（底部） -->
+  <text x="400" y="350" text-anchor="middle" font-family="serif" font-size="18" fill="#c84a3a">板块每年移动约 5~10 厘米</text>
+  <!-- 传送带示意 -->
+  <rect x="200" y="380" width="400" height="30" rx="6" fill="#8d5a36" opacity="0.3" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="220" cy="395" r="8" fill="#7a3b14"/>
+  <circle cx="580" cy="395" r="8" fill="#7a3b14"/>
+  <path d="M230 395 q170 -8 340 0" stroke="#c84a3a" stroke-width="2" fill="none" stroke-dasharray="6 4"/>
+  <path d="M570 395 l-8 -4 l0 8 Z" fill="#c84a3a"/>
+  <text x="400" y="435" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">海底扩张像"传送带"推动大陆</text>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">大陆漂移学说</text>
+</svg>

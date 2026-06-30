@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="世界各地关于太阳的神话传说故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">太阳住在哪里</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——古今中外，都讲太阳的故事</text>
+
+  <!-- 中国：后羿射日 -->
+  <g transform="translate(160, 150)">
+    <rect x="-130" y="0" width="260" height="150" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">中国 · 后羿射日</text>
+    <!-- 十个太阳 -->
+    <g fill="#e8a838" stroke="#c8843a" stroke-width="1">
+      <circle cx="-90" cy="55" r="10"/>
+      <circle cx="-60" cy="50" r="10"/>
+      <circle cx="-30" cy="58" r="10"/>
+      <circle cx="0" cy="50" r="10"/>
+      <circle cx="30" cy="58" r="10"/>
+      <circle cx="60" cy="50" r="10"/>
+      <circle cx="90" cy="56" r="10"/>
+      <circle cx="-75" cy="80" r="9" opacity="0.4"/>
+      <circle cx="-15" cy="82" r="9" opacity="0.4"/>
+      <circle cx="45" cy="82" r="9" opacity="0.4"/>
+    </g>
+    <!-- 弓箭 -->
+    <path d="M-100 110 Q0 130 100 110" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="-100" y1="110" x2="100" y2="110" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">天上十个太阳，射下九个</text>
+  </g>
+
+  <!-- 北欧：太阳马车 -->
+  <g transform="translate(560, 150)">
+    <rect x="-130" y="0" width="260" height="150" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">北欧 · 太阳马车</text>
+    <g transform="translate(0, 70)">
+      <!-- 太阳 -->
+      <circle cx="-30" cy="-10" r="16" fill="#e8a838" stroke="#c8843a" stroke-width="1.5"/>
+      <!-- 马车 -->
+      <rect x="-10" y="-15" width="50" height="25" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.2"/>
+      <circle cx="0" cy="15" r="8" fill="#7a3b14"/>
+      <circle cx="40" cy="15" r="8" fill="#7a3b14"/>
+      <!-- 马 -->
+      <ellipse cx="70" cy="0" rx="16" ry="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.2"/>
+      <rect x="78" y="-10" width="6" height="12" fill="#8d5a36"/>
+      <!-- 追的大狼 -->
+      <ellipse cx="-80" cy="2" rx="14" ry="8" fill="#7a3b14"/>
+      <polygon points="-94,2 -100,-4 -100,8" fill="#7a3b14"/>
+    </g>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">神马拉马车，大狼在后追</text>
+  </g>
+
+  <!-- 科学：太阳是恒星 -->
+  <g transform="translate(400, 340)">
+    <rect x="-280" y="0" width="560" height="110" rx="8" fill="#fef9ed" stroke="#2d6a4f" stroke-width="2"/>
+    <text x="0" y="26" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#2d6a4f">科学：太阳是一颗恒星</text>
+    <g transform="translate(-180, 60)">
+      <circle cx="0" cy="0" r="22" fill="#e8a838" opacity="0.5"/>
+      <circle cx="0" cy="0" r="14" fill="#e8a838" stroke="#c8843a" stroke-width="1.5"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">太阳（恒星）</text>
+    </g>
+    <!-- 距离 -->
+    <path d="M-150 60 L150 60" stroke="#c8843a" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="0" y="52" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">一亿五千万千米 · 光跑8分钟</text>
+    <g transform="translate(180, 60)">
+      <circle cx="0" cy="0" r="10" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.2"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">地球（行星）</text>
+    </g>
+  </g>
+
+  <!-- 地球自转示意 -->
+  <g transform="translate(400, 470)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">不是太阳在跑，是地球在转——对着太阳是白天，背着是黑夜</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 510)">
+    <rect x="-300" y="0" width="600" height="60" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">古人编故事，今人讲道理</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">太阳摘不回家，却能照亮整个地球</text>
+  </g>
+</svg>

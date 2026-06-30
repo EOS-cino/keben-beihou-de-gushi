@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：白衣战士的阵地">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：白衣战士的阵地</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">白大褂，就是他们的战袍</text>
+  <g transform="translate(150,290)">
+    <circle cx="0" cy="-20" r="16" fill="#f0e6cf" stroke="#7a4a1a" stroke-width="2"/>
+    <path d="M-20,-4 L20,-4 L24,30 L-24,30 Z" fill="#fff" stroke="#3a4a6a" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="16" fill="#7a4a1a">白求恩</text>
+  </g>
+  <g transform="translate(400,290)">
+    <circle cx="0" cy="-20" r="16" fill="#f0e6cf" stroke="#7a4a1a" stroke-width="2"/>
+    <path d="M-20,-4 L20,-4 L24,30 L-24,30 Z" fill="#fff" stroke="#3a4a6a" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="16" fill="#7a4a1a">叶欣</text>
+  </g>
+  <g transform="translate(650,290)">
+    <circle cx="0" cy="-20" r="16" fill="#f0e6cf" stroke="#7a4a1a" stroke-width="2"/>
+    <path d="M-20,-4 L20,-4 L24,30 L-24,30 Z" fill="#fff" stroke="#3a4a6a" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="16" fill="#7a4a1a">抗疫医护</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">不同时代，同样的坚守</text>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一个孩子变成了一棵长满鸟窝的树插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">我变成了一棵树</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="350" fill="#e8f0f8" opacity="0.3"/>
+
+  <!-- 云朵 -->
+  <ellipse cx="120" cy="120" rx="40" ry="18" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="150" cy="115" rx="30" ry="15" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="680" cy="100" rx="45" ry="20" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="710" cy="95" rx="28" ry="14" fill="#ffffff" opacity="0.7"/>
+
+  <!-- 草地 -->
+  <ellipse cx="400" cy="560" rx="500" ry="80" fill="#c8dcc8" opacity="0.6"/>
+  <path d="M0 520 Q200 510 400 520 Q600 530 800 520 L800 600 L0 600 Z" fill="#a8c8a8" opacity="0.5"/>
+
+  <!-- 树干 -->
+  <path d="M370 520 Q365 400 375 300 Q380 250 385 200 L415 200 Q420 250 425 300 Q435 400 430 520 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <!-- 树干纹理 -->
+  <path d="M385 350 Q390 380 388 420" fill="none" stroke="#6a4220" stroke-width="2"/>
+  <path d="M412 320 Q408 360 410 400" fill="none" stroke="#6a4220" stroke-width="2"/>
+
+  <!-- 树枝 -->
+  <path d="M380 250 Q340 220 290 200" fill="none" stroke="#8d5a36" stroke-width="10" stroke-linecap="round"/>
+  <path d="M420 240 Q460 210 520 190" fill="none" stroke="#8d5a36" stroke-width="10" stroke-linecap="round"/>
+  <path d="M385 200 Q370 170 340 140" fill="none" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M415 195 Q435 165 470 135" fill="none" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- 树冠 -->
+  <ellipse cx="400" cy="160" rx="140" ry="90" fill="#2d6a4f" opacity="0.85"/>
+  <ellipse cx="320" cy="180" rx="70" ry="55" fill="#3d8a5f" opacity="0.8"/>
+  <ellipse cx="480" cy="170" rx="75" ry="60" fill="#3d8a5f" opacity="0.8"/>
+  <ellipse cx="400" cy="120" rx="100" ry="55" fill="#4d9a6f" opacity="0.7"/>
+
+  <!-- 鸟窝1（圆形） -->
+  <g transform="translate(300, 200)">
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <ellipse cx="0" cy="-3" rx="18" ry="8" fill="#5a3a1a"/>
+    <!-- 小鸟 -->
+    <ellipse cx="0" cy="-8" rx="8" ry="7" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-3" cy="-10" r="2" fill="#2a2a2a"/>
+    <path d="M-8 -8 L-12 -9" fill="none" stroke="#e07856" stroke-width="2"/>
+  </g>
+
+  <!-- 鸟窝2（三角形） -->
+  <g transform="translate(500, 180)">
+    <path d="M-22 12 L0 -15 L22 12 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <path d="M-15 8 L0 -5 L15 8 Z" fill="#5a3a1a"/>
+    <!-- 小鸟 -->
+    <ellipse cx="0" cy="3" rx="7" ry="6" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="3" cy="1" r="2" fill="#2a2a2a"/>
+  </g>
+
+  <!-- 鸟窝3（星形小窝） -->
+  <g transform="translate(370, 120)">
+    <path d="M0 -18 L5 -6 L18 -4 L8 5 L11 18 L0 10 L-11 18 L-8 5 L-18 -4 L-5 -6 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="0" cy="2" r="5" fill="#e07856"/>
+  </g>
+
+  <!-- 鸟窝4（靴子形） -->
+  <g transform="translate(440, 230)">
+    <path d="M-15 -10 L-15 10 L5 10 L5 5 L18 5 L18 -10 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <ellipse cx="0" cy="-8" rx="10" ry="5" fill="#5a3a1a"/>
+  </g>
+
+  <!-- 飞来的小鸟 -->
+  <g transform="translate(200, 130)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M-3 -3 L-12 -8 L-5 0" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M3 -3 L12 -8 L5 0" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="5" cy="-2" r="1.5" fill="#2a2a2a"/>
+  </g>
+  <g transform="translate(600, 140)">
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M-2 -2 L-10 -6 L-4 1" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M2 -2 L10 -6 L4 1" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="4" cy="-1" r="1.5" fill="#2a2a2a"/>
+  </g>
+
+  <!-- 水珠（口水滴下） -->
+  <ellipse cx="400" cy="280" rx="5" ry="8" fill="#4a90b8" opacity="0.7"/>
+  <ellipse cx="395" cy="305" rx="4" ry="6" fill="#4a90b8" opacity="0.5"/>
+
+  <!-- 妈妈（坐在树下） -->
+  <g transform="translate(560, 470)">
+    <!-- 头 -->
+    <circle cx="0" cy="-60" r="20" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头发 -->
+    <path d="M-20 -65 Q-22 -85 0 -88 Q22 -85 20 -65 Q15 -75 0 -73 Q-15 -75 -20 -65" fill="#3a2a1a"/>
+    <!-- 眼睛 -->
+    <circle cx="-6" cy="-60" r="2" fill="#2a2a2a"/>
+    <circle cx="6" cy="-60" r="2" fill="#2a2a2a"/>
+    <!-- 嘴（微笑） -->
+    <path d="M-5 -50 Q0 -46 5 -50" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 身体 -->
+    <path d="M-15 -40 L-20 10 L20 10 L15 -40 Z" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 腿（坐着） -->
+    <ellipse cx="-15" cy="15" rx="18" ry="8" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="15" cy="15" rx="18" ry="8" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手（抬头看树） -->
+    <path d="M-15 -30 L-25 -45" fill="none" stroke="#f0d0a8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M15 -30 L25 -45" fill="none" stroke="#f0d0a8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 标注：鸟窝 -->
+  <line x1="300" y1="200" x2="230" y2="250" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="180" y="255" width="80" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="220" y="272" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">各种鸟窝</text>
+
+  <!-- 标注：妈妈 -->
+  <line x1="560" y1="420" x2="620" y2="390" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="590" y="370" width="70" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="625" y="387" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">妈妈</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">变成树的孩子长满了鸟窝，妈妈抬头一看，就认出了他</text>
+</svg>

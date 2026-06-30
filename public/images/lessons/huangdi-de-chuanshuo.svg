@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="黄帝站在山岗上远眺的传说">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">黄帝的传说</text>
+  <circle cx="650" cy="120" r="30" fill="#e07856" opacity="0.6"/>
+  <path d="M0 350 L80 250 L140 300 L200 220 L260 280 L320 230 L380 290 L440 250 L500 300 L560 240 L620 290 L680 260 L740 300 L800 280 L800 600 L0 600z" fill="#6a8d3f" opacity="0.25"/>
+  <path d="M0 400 L100 330 L180 370 L280 320 L380 360 L480 310 L580 350 L680 320 L800 360 L800 600 L0 600z" fill="#4a6a2f" opacity="0.2"/>
+  <path d="M100 380 Q120 350 140 380 Q160 350 180 380" stroke="#8d5a36" stroke-width="3" fill="none"/>
+  <path d="M600 370 Q620 340 640 370 Q660 340 680 370" stroke="#8d5a36" stroke-width="3" fill="none"/>
+  <circle cx="380" cy="200" r="25" fill="#e07856"/>
+  <path d="M355 195 Q380 175 405 195 L400 200 Q380 185 360 200z" fill="#8d5a36"/>
+  <rect x="360" y="220" width="40" height="60" rx="5" fill="#c8843a"/>
+  <rect x="355" y="220" width="50" height="15" fill="#8d5a36"/>
+  <path d="M360 280 L350 340" stroke="#c8843a" stroke-width="10"/>
+  <path d="M400 280 L410 340" stroke="#c8843a" stroke-width="10"/>
+  <rect x="345" y="335" width="15" height="30" fill="#8d5a36"/>
+  <rect x="402" y="335" width="15" height="30" fill="#8d5a36"/>
+  <path d="M380 220 L370 260 L390 260z" fill="#c84a3a"/>
+  <path d="M400 240 Q450 250 470 280" stroke="#8d5a36" stroke-width="3" fill="none"/>
+  <circle cx="475" cy="285" r="5" fill="#e07856"/>
+  <path d="M200 420c15-10 30-12 45-5 10 5 15 12 10 20-5 8-15 10-25 8-15-3-25-10-30-18-2-4 0-5 0-5z" fill="#6a8d3f" opacity="0.5"/>
+  <path d="M550 430c15-10 30-12 45-5 10 5 15 12 10 20-5 8-15 10-25 8-15-3-25-10-30-18-2-4 0-5 0-5z" fill="#6a8d3f" opacity="0.5"/>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="18" fill="#4a6a2f">人文初祖 炎黄始祖</text>
+</svg>

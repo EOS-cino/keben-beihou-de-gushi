@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="向日葵花海迎着太阳插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">太阳的花瓣</text>
+  <line x1="310" y1="60" x2="490" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="300" fill="#4a90b8" opacity="0.15"/>
+  <!-- 太阳 -->
+  <circle cx="400" cy="180" r="50" fill="#e8a838" stroke="#c88820" stroke-width="3"/>
+  <g stroke="#e8a838" stroke-width="4" stroke-linecap="round">
+    <line x1="400" y1="110" x2="400" y2="90"/>
+    <line x1="400" y1="250" x2="400" y2="270"/>
+    <line x1="330" y1="180" x2="310" y2="180"/>
+    <line x1="470" y1="180" x2="490" y2="180"/>
+    <line x1="350" y1="130" x2="336" y2="116"/>
+    <line x1="450" y1="130" x2="464" y2="116"/>
+    <line x1="350" y1="230" x2="336" y2="244"/>
+    <line x1="450" y1="230" x2="464" y2="244"/>
+  </g>
+  <circle cx="400" cy="180" r="38" fill="#e07856" opacity="0.4"/>
+
+  <!-- 云朵 -->
+  <g fill="#f8f8f0" opacity="0.75">
+    <ellipse cx="120" cy="130" rx="38" ry="15"/>
+    <ellipse cx="150" cy="124" rx="26" ry="12"/>
+    <ellipse cx="660" cy="125" rx="40" ry="16"/>
+  </g>
+
+  <!-- 地面/田野 -->
+  <rect x="0" y="400" width="800" height="200" fill="#2d6a4f" opacity="0.3"/>
+  <path d="M0 405 Q200 400 400 405 T800 405" fill="none" stroke="#2d6a4f" stroke-width="2" opacity="0.5"/>
+
+  <!-- 向日葵花海 -->
+  <!-- 向日葵1（大，前景中央） -->
+  <g transform="translate(400, 420)">
+    <rect x="-5" y="0" width="10" height="80" fill="#2d6a4f"/>
+    <!-- 叶子 -->
+    <path d="M0 40 Q-30 30 -40 50 Q-25 55 0 45" fill="#2d6a4f"/>
+    <path d="M0 60 Q30 50 40 70 Q25 75 0 65" fill="#2d6a4f"/>
+    <!-- 花盘 -->
+    <circle cx="0" cy="-10" r="42" fill="#6a4220"/>
+    <circle cx="0" cy="-10" r="34" fill="#3a2210"/>
+    <!-- 花瓣 -->
+    <g fill="#e8a838" stroke="#c88820" stroke-width="1">
+      <ellipse cx="0" cy="-58" rx="10" ry="20"/>
+      <ellipse cx="0" cy="38" rx="10" ry="20"/>
+      <ellipse cx="-48" cy="-10" rx="20" ry="10"/>
+      <ellipse cx="48" cy="-10" rx="20" ry="10"/>
+      <ellipse cx="-34" cy="-44" rx="10" ry="20" transform="rotate(-45 -34 -44)"/>
+      <ellipse cx="34" cy="-44" rx="10" ry="20" transform="rotate(45 34 -44)"/>
+      <ellipse cx="-34" cy="24" rx="10" ry="20" transform="rotate(45 -34 24)"/>
+      <ellipse cx="34" cy="24" rx="10" ry="20" transform="rotate(-45 34 24)"/>
+    </g>
+    <!-- 花心纹理 -->
+    <g fill="#6a4220">
+      <circle cx="-10" cy="-18" r="2"/>
+      <circle cx="8" cy="-15" r="2"/>
+      <circle cx="-5" cy="-5" r="2"/>
+      <circle cx="12" cy="-3" r="2"/>
+      <circle cx="-15" cy="-2" r="2"/>
+      <circle cx="0" cy="-22" r="2"/>
+      <circle cx="5" cy="2" r="2"/>
+      <circle cx="-8" cy="6" r="2"/>
+    </g>
+  </g>
+
+  <!-- 向日葵2（左） -->
+  <g transform="translate(200, 460)">
+    <rect x="-4" y="0" width="8" height="60" fill="#2d6a4f"/>
+    <path d="M0 30 Q-22 22 -30 38 Q-18 42 0 35" fill="#2d6a4f"/>
+    <circle cx="0" cy="-8" r="30" fill="#6a4220"/>
+    <circle cx="0" cy="-8" r="24" fill="#3a2210"/>
+    <g fill="#e8a838" stroke="#c88820" stroke-width="1">
+      <ellipse cx="0" cy="-42" rx="8" ry="16"/>
+      <ellipse cx="0" cy="26" rx="8" ry="16"/>
+      <ellipse cx="-34" cy="-8" rx="16" ry="8"/>
+      <ellipse cx="34" cy="-8" rx="16" ry="8"/>
+      <ellipse cx="-24" cy="-32" rx="8" ry="16" transform="rotate(-45 -24 -32)"/>
+      <ellipse cx="24" cy="-32" rx="8" ry="16" transform="rotate(45 24 -32)"/>
+      <ellipse cx="-24" cy="16" rx="8" ry="16" transform="rotate(45 -24 16)"/>
+      <ellipse cx="24" cy="16" rx="8" ry="16" transform="rotate(-45 24 16)"/>
+    </g>
+  </g>
+
+  <!-- 向日葵3（右） -->
+  <g transform="translate(600, 460)">
+    <rect x="-4" y="0" width="8" height="60" fill="#2d6a4f"/>
+    <path d="M0 30 Q22 22 30 38 Q18 42 0 35" fill="#2d6a4f"/>
+    <circle cx="0" cy="-8" r="30" fill="#6a4220"/>
+    <circle cx="0" cy="-8" r="24" fill="#3a2210"/>
+    <g fill="#e8a838" stroke="#c88820" stroke-width="1">
+      <ellipse cx="0" cy="-42" rx="8" ry="16"/>
+      <ellipse cx="0" cy="26" rx="8" ry="16"/>
+      <ellipse cx="-34" cy="-8" rx="16" ry="8"/>
+      <ellipse cx="34" cy="-8" rx="16" ry="8"/>
+      <ellipse cx="-24" cy="-32" rx="8" ry="16" transform="rotate(-45 -24 -32)"/>
+      <ellipse cx="24" cy="-32" rx="8" ry="16" transform="rotate(45 24 -32)"/>
+      <ellipse cx="-24" cy="16" rx="8" ry="16" transform="rotate(45 -24 16)"/>
+      <ellipse cx="24" cy="16" rx="8" ry="16" transform="rotate(-45 24 16)"/>
+    </g>
+  </g>
+
+  <!-- 远处小向日葵 -->
+  <g transform="translate(100, 490)">
+    <rect x="-3" y="0" width="6" height="35" fill="#2d6a4f"/>
+    <circle cx="0" cy="-5" r="18" fill="#e8a838"/>
+    <circle cx="0" cy="-5" r="12" fill="#6a4220"/>
+  </g>
+  <g transform="translate(700, 495)">
+    <rect x="-3" y="0" width="6" height="30" fill="#2d6a4f"/>
+    <circle cx="0" cy="-5" r="16" fill="#e8a838"/>
+    <circle cx="0" cy="-5" r="10" fill="#6a4220"/>
+  </g>
+
+  <!-- 蜜蜂 -->
+  <g transform="translate(340, 360)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="-3" y1="-5" x2="-3" y2="5" stroke="#2a2a2a" stroke-width="2"/>
+    <line x1="3" y1="-5" x2="3" y2="5" stroke="#2a2a2a" stroke-width="2"/>
+    <ellipse cx="-4" cy="-6" rx="6" ry="4" fill="#f8f8f0" opacity="0.7"/>
+    <ellipse cx="4" cy="-6" rx="6" ry="4" fill="#f8f8f0" opacity="0.7"/>
+  </g>
+
+  <!-- 阳光线条（从太阳到花） -->
+  <g stroke="#e8a838" stroke-width="2" stroke-linecap="round" opacity="0.4" stroke-dasharray="6,6">
+    <line x1="400" y1="230" x2="400" y2="370"/>
+    <line x1="370" y1="225" x2="220" y2="430"/>
+    <line x1="430" y1="225" x2="580" y2="430"/>
+  </g>
+
+  <!-- 标注 -->
+  <line x1="400" y1="410" x2="400" y2="370" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="345" y="340" width="110" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="400" y="358" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">追着太阳转</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">向日葵迎着太阳，把阳光变成生长的力量</text>
+</svg>

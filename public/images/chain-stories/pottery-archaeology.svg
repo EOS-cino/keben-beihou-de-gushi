@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="考古学家在土层中挖出一只完整的古代陶罐">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="300" fill="#e8f0e6"/>
+  <!-- 远山 -->
+  <path d="M0 300 Q200 220 400 280 Q600 210 800 290 L800 320 L0 320 Z" fill="#6a8d3f" opacity="0.35"/>
+  <!-- 土层剖面 -->
+  <path d="M0 300 L800 300 L800 600 L0 600 Z" fill="#c8843a"/>
+  <!-- 土层纹理 -->
+  <rect x="0" y="300" width="800" height="60" fill="#8d5a36" opacity="0.3"/>
+  <rect x="0" y="360" width="800" height="80" fill="#c8843a" opacity="0.5"/>
+  <rect x="0" y="440" width="800" height="160" fill="#8d5a36" opacity="0.5"/>
+  <!-- 土层分隔线 -->
+  <path d="M0 360 Q400 350 800 360" stroke="#7a3b14" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M0 440 Q400 430 800 440" stroke="#7a3b14" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- 土层标注 -->
+  <text x="40" y="335" font-family="serif" font-size="13" fill="#7a3b14">表土层</text>
+  <text x="40" y="400" font-family="serif" font-size="13" fill="#7a3b14">文化层</text>
+  <text x="40" y="500" font-family="serif" font-size="13" fill="#7a3b14">古土层</text>
+  <!-- 挖掘坑 -->
+  <path d="M300 300 Q340 360 380 300 Z" fill="#5a3a1f"/>
+  <path d="M300 300 L380 300" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 陶罐（出土中） -->
+  <path d="M320 380 Q314 410 318 440 Q322 470 350 472 Q378 470 382 440 Q386 410 380 380 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+  <ellipse cx="350" cy="380" rx="30" ry="8" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+  <ellipse cx="350" cy="380" rx="22" ry="5" fill="#8d5a36"/>
+  <!-- 陶罐花纹 -->
+  <path d="M326 410 q24 8 48 0" stroke="#7a3b14" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M322 440 q28 10 56 0" stroke="#7a3b14" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- 陶罐周围土块 -->
+  <ellipse cx="300" cy="460" rx="14" ry="8" fill="#8d5a36"/>
+  <ellipse cx="400" cy="455" rx="12" ry="7" fill="#8d5a36"/>
+  <!-- 考古学家 -->
+  <ellipse cx="520" cy="280" rx="22" ry="26" fill="#e8c9a0"/>
+  <!-- 帽子 -->
+  <path d="M498 270 q22 -18 44 0 l4 -6 q-26 -20 -52 0 Z" fill="#8d5a36"/>
+  <rect x="496" y="268" width="48" height="6" fill="#8d5a36"/>
+  <circle cx="512" cy="280" r="2" fill="#7a3b14"/>
+  <circle cx="528" cy="280" r="2" fill="#7a3b14"/>
+  <!-- 放大镜 -->
+  <circle cx="470" cy="320" r="16" fill="none" stroke="#7a3b14" stroke-width="3"/>
+  <circle cx="470" cy="320" r="16" fill="#ffffff" opacity="0.2"/>
+  <line x1="458" y1="332" x2="440" y2="350" stroke="#7a3b14" stroke-width="4" stroke-linecap="round"/>
+  <!-- 身体 -->
+  <path d="M496 304 q24 -8 48 0 l12 70 l-72 0 Z" fill="#6a8d3f"/>
+  <!-- 手（指向陶罐） -->
+  <path d="M500 340 q-30 10 -60 30" stroke="#e8c9a0" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <ellipse cx="438" cy="372" rx="8" ry="6" fill="#e8c9a0"/>
+  <!-- 铲子 -->
+  <rect x="600" y="340" width="6" height="50" fill="#8d5a36"/>
+  <path d="M594 388 l18 0 l-4 16 l-10 0 Z" fill="#7a3b14"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">考古发现中的陶器</text>
+</svg>

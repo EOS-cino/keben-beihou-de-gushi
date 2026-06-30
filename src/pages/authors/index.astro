@@ -1,0 +1,141 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getLessonAuthors, authorSlug } from "../../data/authors";
+
+const gradeOrder = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"];
+
+const allLessons = await getCollection("lessons");
+
+// 按作者分组：将多作者课文拆分到各自作者名下
+const byAuthor = new Map<string, typeof allLessons>();
+for (const lesson of allLessons) {
+  const authors = getLessonAuthors(lesson.data.author);
+  for (const author of authors) {
+    if (!byAuthor.has(author)) byAuthor.set(author, []);
+    byAuthor.get(author)!.push(lesson);
+  }
+}
+
+// 统计每个作者的篇数与覆盖年级，按篇数降序、再按作者名排序
+const authors = [...byAuthor.entries()]
+  .map(([author, lessons]) => {
+    const grades = [...new Set(lessons.map((l) => l.data.grade))].sort(
+      (a, b) => gradeOrder.indexOf(a) - gradeOrder.indexOf(b),
+    );
+    return {
+      author,
+      count: lessons.length,
+      grades,
+    };
+  })
+  .sort((a, b) => {
+    if (b.count !== a.count) return b.count - a.count;
+    return a.author.localeCompare(b.author, "zh-CN");
+  });
+
+const totalAuthorLessons = authors.reduce((sum, a) => sum + a.count, 0);
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+
+const description = `按作者浏览课文背后的故事，共收录 ${authors.length} 位作者、${totalAuthorLessons} 篇课文。`;
+---
+
+<BaseLayout
+  title="作者索引 - 课文背后的故事"
+  description={description}
+>
+  <section class="page-hero compact">
+    <div>
+      <p class="eyebrow">作者索引</p>
+      <h1>按作者浏览课文故事</h1>
+      <p>
+        这里汇集了课文中出现的 <strong>{authors.length}</strong> 位作者（已排除"佚名""无名氏"），
+        共对应 <strong>{totalAuthorLessons}</strong> 篇课文故事。点击作者名字，进入该作者的所有课文合集。
+      </p>
+    </div>
+    <div class="library-note">
+      <strong>{authors.length}</strong>
+      <span>位作者</span>
+    </div>
+  </section>
+
+  <section class="content-section" aria-label="作者列表">
+    <ul class="author-index-list">
+      {authors.map((item) => (
+        <li class="author-index-item">
+          <a class="author-index-link" href={withBase(`/authors/${authorSlug(item.author)}/`)}>
+            <span class="author-index-name">{item.author}</span>
+            <span class="author-index-meta">
+              <span class="author-count">{item.count} 篇</span>
+              <span class="author-grades">{item.grades.join("、")}</span>
+            </span>
+            <svg class="link-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <style>
+    .author-index-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .author-index-item {
+      margin: 0;
+    }
+    .author-index-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 18px;
+      border-radius: 14px;
+      background: var(--surface, #fff);
+      border: 1px solid var(--border, rgba(0, 0, 0, 0.08));
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+    .author-index-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      border-color: var(--accent, #d98c3a);
+    }
+    .author-index-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      flex: 1;
+    }
+    .author-index-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+      font-size: 0.8rem;
+      color: var(--muted, #888);
+    }
+    .author-count {
+      font-weight: 600;
+      color: var(--accent, #d98c3a);
+    }
+    .author-grades {
+      font-size: 0.72rem;
+    }
+    .author-index-link .link-arrow {
+      color: var(--muted, #aaa);
+      flex-shrink: 0;
+    }
+    :global([data-theme="dark"]) .author-index-link {
+      background: var(--surface, #2a2a2a);
+      border-color: var(--border, rgba(255, 255, 255, 0.1));
+    }
+  </style>
+</BaseLayout>

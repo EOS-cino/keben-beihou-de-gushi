@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="作家铁凝伏案写作，桌上摆着稿纸和钢笔">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 室内墙 -->
+  <rect x="0" y="0" width="800" height="440" fill="#f3ece0"/>
+  <rect x="0" y="440" width="800" height="160" fill="#e8d9c0"/>
+  <!-- 窗户 -->
+  <rect x="540" y="60" width="220" height="180" fill="#a8d0e8" stroke="#7a3b14" stroke-width="5"/>
+  <line x1="650" y1="60" x2="650" y2="240" stroke="#7a3b14" stroke-width="3"/>
+  <line x1="540" y1="150" x2="760" y2="150" stroke="#7a3b14" stroke-width="3"/>
+  <!-- 窗外树枝 -->
+  <path d="M560 200 q30 -20 60 -10 M620 180 q20 -10 40 0" stroke="#4a6a2f" stroke-width="3" fill="none"/>
+  <!-- 书架 -->
+  <rect x="60" y="80" width="30" height="200" fill="#8d5a36"/>
+  <rect x="64" y="100" width="22" height="50" fill="#c84a3a"/>
+  <rect x="64" y="155" width="22" height="40" fill="#6a8d3f"/>
+  <rect x="64" y="200" width="22" height="45" fill="#7ab8d8"/>
+  <!-- 书桌 -->
+  <rect x="180" y="350" width="440" height="16" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="190" y="366" width="12" height="100" fill="#8d5a36"/>
+  <rect x="598" y="366" width="12" height="100" fill="#8d5a36"/>
+  <!-- 稿纸 -->
+  <rect x="280" y="312" width="140" height="40" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="290" y1="322" x2="410" y2="322" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="290" y1="330" x2="408" y2="330" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="290" y1="338" x2="405" y2="338" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="290" y1="346" x2="400" y2="346" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 钢笔 -->
+  <path d="M425 322 l36 -6 l4 5 l-36 6 Z" fill="#7a3b14"/>
+  <path d="M425 322 q-6 3 -10 8" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <!-- 茶杯 -->
+  <path d="M480 320 l0 24 q0 6 8 6 l8 0 q8 0 8 -6 l0 -24 Z" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M496 326 q8 0 8 8 q0 8 -8 8" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <path d="M486 316 q4 -6 8 0" stroke="#7ab8d8" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- 铁凝 -->
+  <ellipse cx="350" cy="270" rx="26" ry="30" fill="#e8c9a0"/>
+  <!-- 短发 -->
+  <path d="M324 256 q26 -22 52 0 q-26 -10 -52 0 Z" fill="#5a4a3a"/>
+  <path d="M324 256 q-4 16 0 26 M376 256 q4 16 0 26" stroke="#5a4a3a" stroke-width="6" fill="none"/>
+  <!-- 眼镜 -->
+  <circle cx="340" cy="268" r="7" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="360" cy="268" r="7" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="347" y1="268" x2="353" y2="268" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="340" cy="268" r="1.5" fill="#7a3b14"/>
+  <circle cx="360" cy="268" r="1.5" fill="#7a3b14"/>
+  <!-- 微笑 -->
+  <path d="M344 282 q6 4 12 0" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <!-- 衣服 -->
+  <path d="M320 300 q30 -8 60 0 l18 52 l-96 0 Z" fill="#c84a3a"/>
+  <path d="M350 300 l0 48" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 手（写字） -->
+  <ellipse cx="320" cy="328" rx="10" ry="7" fill="#e8c9a0"/>
+  <!-- 台灯 -->
+  <path d="M540 350 l-26 -44 l52 0 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="536" y="348" width="8" height="20" fill="#8d5a36"/>
+  <!-- 书堆 -->
+  <rect x="560" y="320" width="50" height="20" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1.5"/>
+  <rect x="565" y="304" width="45" height="16" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 灵感符号 -->
+  <text x="430" y="260" font-family="serif" font-size="22" fill="#f4d97a">✦</text>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">铁凝的写作风格</text>
+</svg>

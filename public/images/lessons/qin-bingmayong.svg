@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="秦兵马俑列阵排列插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">秦兵马俑</text>
+  <line x1="310" y1="62" x2="490" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 坑道背景 -->
+  <rect x="0" y="80" width="800" height="400" fill="#d4c8a0" opacity="0.3"/>
+  <!-- 坑壁 -->
+  <rect x="0" y="80" width="800" height="15" fill="#8d5a36" opacity="0.4"/>
+  <rect x="0" y="465" width="800" height="15" fill="#8d5a36" opacity="0.4"/>
+
+  <!-- 土隔梁 -->
+  <rect x="0" y="250" width="800" height="8" fill="#a89878" opacity="0.3"/>
+
+  <!-- 后排兵马俑（远处，较小） -->
+  <g opacity="0.5">
+    <!-- 俑1 -->
+    <g transform="translate(100, 200)">
+      <ellipse cx="0" cy="40" rx="18" ry="25" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="15" fill="#a88a6a" stroke="#5a3a1a" stroke-width="1"/>
+      <path d="M-12 -10 Q-8 -18 0 -18 Q8 -18 12 -10" fill="#3a2a1a"/>
+      <circle cx="-4" cy="0" r="1.5" fill="#2a2a2a"/>
+      <circle cx="4" cy="0" r="1.5" fill="#2a2a2a"/>
+      <path d="M-3 8 Q0 10 3 8" fill="none" stroke="#5a3a1a" stroke-width="1"/>
+    </g>
+    <!-- 俑2 -->
+    <g transform="translate(180, 200)">
+      <ellipse cx="0" cy="40" rx="18" ry="25" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="15" fill="#a88a6a" stroke="#5a3a1a" stroke-width="1"/>
+      <path d="M-12 -10 Q-8 -18 0 -18 Q8 -18 12 -10" fill="#3a2a1a"/>
+      <circle cx="-4" cy="0" r="1.5" fill="#2a2a2a"/>
+      <circle cx="4" cy="0" r="1.5" fill="#2a2a2a"/>
+      <path d="M-4 8 L4 8" stroke="#5a3a1a" stroke-width="1"/>
+    </g>
+    <!-- 俑3 -->
+    <g transform="translate(620, 200)">
+      <ellipse cx="0" cy="40" rx="18" ry="25" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="15" fill="#a88a6a" stroke="#5a3a1a" stroke-width="1"/>
+      <path d="M-12 -10 Q-8 -18 0 -18 Q8 -18 12 -10" fill="#3a2a1a"/>
+      <circle cx="-4" cy="0" r="1.5" fill="#2a2a2a"/>
+      <circle cx="4" cy="0" r="1.5" fill="#2a2a2a"/>
+      <path d="M-3 8 Q0 6 3 8" fill="none" stroke="#5a3a1a" stroke-width="1"/>
+    </g>
+    <!-- 俑4 -->
+    <g transform="translate(700, 200)">
+      <ellipse cx="0" cy="40" rx="18" ry="25" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="15" fill="#a88a6a" stroke="#5a3a1a" stroke-width="1"/>
+      <path d="M-12 -10 Q-8 -18 0 -18 Q8 -18 12 -10" fill="#3a2a1a"/>
+      <circle cx="-4" cy="0" r="1.5" fill="#2a2a2a"/>
+      <circle cx="4" cy="0" r="1.5" fill="#2a2a2a"/>
+    </g>
+  </g>
+
+  <!-- 前排兵马俑（近处，较大） -->
+  <!-- 将军俑 -->
+  <g transform="translate(200, 350)">
+    <!-- 身体（铠甲） -->
+    <ellipse cx="0" cy="50" rx="28" ry="40" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 铠甲纹 -->
+    <rect x="-20" y="30" width="40" height="35" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-20" y1="40" x2="20" y2="40" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-20" y1="50" x2="20" y2="50" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-10" y1="30" x2="-10" y2="65" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="10" y1="30" x2="10" y2="65" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="22" fill="#a88a6a" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 长冠 -->
+    <path d="M-10 -18 L-8 -28 L8 -28 L10 -18" fill="#5a3a1a" stroke="#3a2a1a" stroke-width="1.5"/>
+    <rect x="-6" y="-28" width="12" height="5" fill="#3a2a1a"/>
+    <!-- 五官 -->
+    <circle cx="-7" cy="0" r="2.5" fill="#2a2a2a"/>
+    <circle cx="7" cy="0" r="2.5" fill="#2a2a2a"/>
+    <path d="M-5 10 Q0 13 5 10" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 胡子 -->
+    <path d="M-6 12 L-8 18 M6 12 L8 18" fill="none" stroke="#3a2a1a" stroke-width="1.5"/>
+    <!-- 手臂 -->
+    <path d="M-25 30 L-35 60" fill="none" stroke="#8d6a4a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M25 30 L35 55" fill="none" stroke="#8d6a4a" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- 武士俑 -->
+  <g transform="translate(400, 360)">
+    <ellipse cx="0" cy="45" rx="25" ry="35" fill="#9d7a5a" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 铠甲 -->
+    <rect x="-18" y="25" width="36" height="30" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-18" y1="35" x2="18" y2="35" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-18" y1="45" x2="18" y2="45" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="20" fill="#b89a7a" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 发髻 -->
+    <ellipse cx="0" cy="-18" rx="8" ry="6" fill="#3a2a1a" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 五官（严肃） -->
+    <circle cx="-6" cy="0" r="2.5" fill="#2a2a2a"/>
+    <circle cx="6" cy="0" r="2.5" fill="#2a2a2a"/>
+    <path d="M-7 -3 L-3 -3" stroke="#5a3a1a" stroke-width="1"/>
+    <path d="M3 -3 L7 -3" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-4" y1="10" x2="4" y2="10" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 手持兵器 -->
+    <line x1="25" y1="30" x2="35" y2="-10" stroke="#5a3a1a" stroke-width="3"/>
+    <path d="M33 -10 L37 -15 L37 -5" fill="#8a8a8a" stroke="#5a3a1a" stroke-width="1"/>
+  </g>
+
+  <!-- 骑兵俑和马 -->
+  <g transform="translate(620, 360)">
+    <!-- 陶马 -->
+    <ellipse cx="0" cy="50" rx="50" ry="25" fill="#a88a6a" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 马头 -->
+    <ellipse cx="-45" cy="25" rx="20" ry="15" fill="#a88a6a" stroke="#5a3a1a" stroke-width="2"/>
+    <path d="M-55 15 L-60 5 L-55 15" fill="#a88a6a" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="-50" cy="22" r="2" fill="#2a2a2a"/>
+    <!-- 马腿 -->
+    <rect x="-30" y="70" width="8" height="25" fill="#8d6a4a" rx="2"/>
+    <rect x="-10" y="70" width="8" height="25" fill="#a88a6a" rx="2"/>
+    <rect x="15" y="70" width="8" height="25" fill="#8d6a4a" rx="2"/>
+    <rect x="30" y="70" width="8" height="25" fill="#a88a6a" rx="2"/>
+    <!-- 骑兵（在马上） -->
+    <ellipse cx="0" cy="15" rx="15" ry="20" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="0" cy="-15" r="14" fill="#b89a7a" stroke="#5a3a1a" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-28" rx="6" ry="5" fill="#3a2a1a" stroke="#5a3a1a" stroke-width="1"/>
+    <circle cx="-4" cy="-15" r="2" fill="#2a2a2a"/>
+    <circle cx="4" cy="-15" r="2" fill="#2a2a2a"/>
+  </g>
+
+  <!-- 标注：将军俑 -->
+  <line x1="200" y1="310" x2="130" y2="270" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="70" y="248" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="120" y="265" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">将军俑</text>
+
+  <!-- 标注：武士俑 -->
+  <line x1="400" y1="320" x2="400" y2="270" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="350" y="248" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="265" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">武士俑</text>
+
+  <!-- 标注：骑兵俑 -->
+  <line x1="620" y1="310" x2="690" y2="270" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="640" y="248" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="690" y="265" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">骑兵俑</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">近八千件陶俑列阵地下两千余年——每个面孔独一无二，世界第八大奇迹</text>
+</svg>

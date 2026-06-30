@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="日月明田力男等会意字拼搭的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">日月明</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">汉字像拼积木，两个字拼出一个新字</text>
+
+  <!-- 日月明 -->
+  <g transform="translate(200,170)">
+    <rect x="-90" y="-50" width="180" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="-50" y="10" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#f4b942">日</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="28" fill="#c8843a">+</text>
+    <text x="50" y="10" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#7ab8d8">月</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">太阳+月亮</text>
+    <!-- 等号和结果 -->
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="20" fill="#c8843a">=</text>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#7a3b14">明</text>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">都会发光→明亮</text>
+  </g>
+
+  <!-- 小大尖 -->
+  <g transform="translate(600,170)">
+    <rect x="-90" y="-50" width="180" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="-50" y="10" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#c8843a">小</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="28" fill="#c8843a">+</text>
+    <text x="50" y="10" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#c8843a">大</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">上小+下大</text>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="20" fill="#c8843a">=</text>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#7a3b14">尖</text>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">上细下粗→尖锐</text>
+  </g>
+
+  <!-- 田力男 -->
+  <g transform="translate(200,380)">
+    <rect x="-90" y="-50" width="180" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="-50" y="10" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#6a8d3f">田</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="28" fill="#c8843a">+</text>
+    <text x="50" y="10" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#c84a3a">力</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">田地+出力</text>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="20" fill="#c8843a">=</text>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#7a3b14">男</text>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">田里干活→男人</text>
+  </g>
+
+  <!-- 双木林 -->
+  <g transform="translate(600,380)">
+    <rect x="-90" y="-50" width="180" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="-50" y="10" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#4a6a2f">木</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="28" fill="#c8843a">+</text>
+    <text x="50" y="10" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#4a6a2f">木</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">树+树</text>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="20" fill="#c8843a">=</text>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#7a3b14">林</text>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">树多了→树林</text>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="100" y="540" width="600" height="45" rx="8" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">会意字：把两个字的意思合在一起，造出一个新字</text>
+</svg>

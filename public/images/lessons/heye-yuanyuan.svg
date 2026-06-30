@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="圆圆的荷叶上停着一只小蜻蜓，水珠在叶面上滚来滚去">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 池塘水面 -->
+  <ellipse cx="400" cy="520" rx="380" ry="60" fill="#a8d0e8" opacity="0.5"/>
+  <path d="M80 480 Q200 470 320 482 T560 478 T720 484 L720 600 L80 600 Z" fill="#a8d0e8" opacity="0.4"/>
+  <!-- 大荷叶 -->
+  <ellipse cx="400" cy="380" rx="200" ry="70" fill="#6a8d3f"/>
+  <ellipse cx="400" cy="370" rx="200" ry="65" fill="#7ba84a"/>
+  <!-- 荷叶纹理 -->
+  <g stroke="#4a6a2f" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M400 370 L260 360"/>
+    <path d="M400 370 L540 360"/>
+    <path d="M400 370 L280 390"/>
+    <path d="M400 370 L520 390"/>
+    <path d="M400 370 L340 350"/>
+    <path d="M400 370 L460 350"/>
+    <path d="M400 370 L340 395"/>
+    <path d="M400 370 L460 395"/>
+  </g>
+  <!-- 水珠 -->
+  <circle cx="350" cy="360" r="12" fill="#a8d0e8" opacity="0.8"/>
+  <circle cx="348" cy="357" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="430" cy="375" r="9" fill="#a8d0e8" opacity="0.8"/>
+  <circle cx="428" cy="373" r="3" fill="#ffffff" opacity="0.9"/>
+  <circle cx="380" cy="385" r="7" fill="#a8d0e8" opacity="0.7"/>
+  <!-- 荷花 -->
+  <g transform="translate(580,300)">
+    <ellipse cx="0" cy="0" rx="15" ry="35" fill="#e07856" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="0" rx="15" ry="35" fill="#e07856" transform="rotate(0)"/>
+    <ellipse cx="0" cy="0" rx="15" ry="35" fill="#e07856" transform="rotate(30)"/>
+    <ellipse cx="0" cy="0" rx="15" ry="35" fill="#c84a3a" transform="rotate(-15)"/>
+    <ellipse cx="0" cy="0" rx="15" ry="35" fill="#c84a3a" transform="rotate(15)"/>
+    <circle cx="0" cy="0" r="10" fill="#f4b942"/>
+  </g>
+  <!-- 蜻蜓 -->
+  <g transform="translate(300,250)">
+    <ellipse cx="0" cy="0" rx="4" ry="30" fill="#8d5a36"/>
+    <!-- 翅膀 -->
+    <ellipse cx="-18" cy="-5" rx="22" ry="8" fill="#a8d0e8" opacity="0.6"/>
+    <ellipse cx="18" cy="-5" rx="22" ry="8" fill="#a8d0e8" opacity="0.6"/>
+    <ellipse cx="-15" cy="10" rx="18" ry="6" fill="#a8d0e8" opacity="0.5"/>
+    <ellipse cx="15" cy="10" rx="18" ry="6" fill="#a8d0e8" opacity="0.5"/>
+    <circle cx="0" cy="-28" r="6" fill="#6a8d3f"/>
+    <circle cx="-2" cy="-30" r="2" fill="#ffffff"/>
+  </g>
+  <!-- 小青蛙 -->
+  <g transform="translate(450,340)">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#6a8d3f"/>
+    <ellipse cx="-8" cy="-8" rx="6" ry="6" fill="#6a8d3f"/>
+    <ellipse cx="8" cy="-8" rx="6" ry="6" fill="#6a8d3f"/>
+    <circle cx="-8" cy="-8" r="3" fill="#ffffff"/>
+    <circle cx="8" cy="-8" r="3" fill="#ffffff"/>
+    <circle cx="-8" cy="-7" r="1.5" fill="#2d2a24"/>
+    <circle cx="8" cy="-7" r="1.5" fill="#2d2a24"/>
+    <path d="M-6 4 Q0 8 6 4" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+  </g>
+  <!-- 荷叶柄 -->
+  <path d="M400 440 Q410 480 405 540" stroke="#4a6a2f" stroke-width="6" fill="none"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="100" r="40" fill="#f4b942" opacity="0.8"/>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">荷叶圆圆</text>
+</svg>

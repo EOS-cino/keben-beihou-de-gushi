@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="泰山石阶上挑山工折尺形登山的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">挑山工</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#b5651d" stroke-width="2"/>
+  <!-- 山体 -->
+  <polygon points="0,560 200,200 500,560" fill="#8a6d3b" opacity="0.4"/>
+  <polygon points="300,560 550,160 800,560" fill="#6b8e7f" opacity="0.5"/>
+  <!-- 石阶（折尺形之字路） -->
+  <polyline points="120,520 280,480 280,460 440,420 440,400 600,360 600,340 720,300" stroke="#5d4037" stroke-width="6" fill="none"/>
+  <!-- 游人（直上，停歇） -->
+  <ellipse cx="350" cy="430" rx="10" ry="16" fill="#3a7d44"/>
+  <circle cx="350" cy="410" r="8" fill="#f5d9a0"/>
+  <ellipse cx="500" cy="370" rx="10" ry="16" fill="#1e5f8e"/>
+  <circle cx="500" cy="350" r="8" fill="#f5d9a0"/>
+  <!-- 挑山工（在折尺路上） -->
+  <g>
+    <ellipse cx="640" cy="356" rx="14" ry="22" fill="#c8553d"/>
+    <circle cx="640" cy="330" r="11" fill="#f5d9a0"/>
+    <path d="M 628 326 q 12 -8 24 0" stroke="#3a3a3a" stroke-width="1.5" fill="none"/>
+    <!-- 扁担 -->
+    <line x1="600" y1="340" x2="690" y2="340" stroke="#5d4037" stroke-width="4"/>
+    <ellipse cx="600" cy="345" rx="18" ry="12" fill="#8a6d3b"/>
+    <ellipse cx="690" cy="345" rx="18" ry="12" fill="#8a6d3b"/>
+    <line x1="640" y1="345" x2="640" y2="380" stroke="#3a3a3a" stroke-width="2"/>
+  </g>
+  <!-- 汗滴 -->
+  <circle cx="620" cy="335" r="3" fill="#5d8aa8"/>
+  <circle cx="660" cy="335" r="2.5" fill="#5d8aa8"/>
+  <!-- 山顶 -->
+  <polygon points="540,170 555,140 570,170" fill="#e8eef2"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">一步一个脚印，走成一条直路</text>
+</svg>

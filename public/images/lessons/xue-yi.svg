@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="两个学生学下棋、一个专心一个分心的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#3a5a4a">学弈 · 专心致志</text>
+  <line x1="260" y1="62" x2="540" y2="62" stroke="#6a9a7a" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 弈秋（中央，老师） -->
+  <g>
+    <!-- 坐姿身体 -->
+    <path d="M380 490 L385 400 L425 400 L430 490 Z" fill="#5a4a3a"/>
+    <path d="M385 410 L355 450 L362 460 L395 425 Z" fill="#6a5a4a"/>
+    <path d="M425 410 L455 440 L450 450 L415 425 Z" fill="#6a5a4a"/>
+    <!-- 头 -->
+    <circle cx="405" cy="382" r="18" fill="#f0d0a8"/>
+    <!-- 冠帽 -->
+    <path d="M389 374 Q405 360 421 374 L421 368 Q405 356 389 368 Z" fill="#3a2a1a"/>
+    <rect x="397" y="362" width="16" height="10" fill="#3a2a1a"/>
+    <!-- 胡须（长者） -->
+    <path d="M398 398 Q405 408 412 398" fill="none" stroke="#cccccc" stroke-width="2"/>
+    <path d="M400 392 Q405 396 410 392" fill="none" stroke="#aaaaaa" stroke-width="1.5"/>
+    <!-- 表情（认真教导） -->
+    <circle cx="399" cy="382" r="2" fill="#2a2a2a"/>
+    <circle cx="411" cy="382" r="2" fill="#2a2a2a"/>
+    <path d="M399 390 Q405 393 411 390" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 手（指点棋盘） -->
+    <ellipse cx="455" cy="440" rx="8" ry="6" fill="#f0d0a8"/>
+  </g>
+
+  <!-- 棋盘（中间桌上） -->
+  <g>
+    <rect x="340" y="440" width="160" height="20" fill="#8a6a3a" stroke="#5a3a1a" stroke-width="2"/>
+    <rect x="350" y="425" width="140" height="20" fill="#e8c878" stroke="#8a6a3a" stroke-width="2"/>
+    <!-- 棋盘网格 -->
+    <g stroke="#5a3a1a" stroke-width="0.8">
+      <line x1="365" y1="425" x2="365" y2="445"/>
+      <line x1="385" y1="425" x2="385" y2="445"/>
+      <line x1="405" y1="425" x2="405" y2="445"/>
+      <line x1="425" y1="425" x2="425" y2="445"/>
+      <line x1="445" y1="425" x2="445" y2="445"/>
+      <line x1="465" y1="425" x2="465" y2="445"/>
+      <line x1="475" y1="425" x2="475" y2="445"/>
+      <line x1="350" y1="430" x2="490" y2="430"/>
+      <line x1="350" y1="438" x2="490" y2="438"/>
+    </g>
+    <!-- 棋子 -->
+    <circle cx="385" cy="434" r="4" fill="#2a2a2a"/>
+    <circle cx="425" cy="434" r="4" fill="#fff" stroke="#2a2a2a"/>
+    <circle cx="405" cy="430" r="4" fill="#2a2a2a"/>
+    <circle cx="445" cy="438" r="4" fill="#fff" stroke="#2a2a2a"/>
+  </g>
+
+  <!-- 学生1（左侧，专心） -->
+  <g>
+    <!-- 身体 -->
+    <path d="M180 490 L185 410 L225 410 L230 490 Z" fill="#3a6a5a"/>
+    <path d="M185 420 L210 445 L205 455 L180 430 Z" fill="#4a7a6a"/>
+    <!-- 头 -->
+    <circle cx="205" cy="392" r="16" fill="#f0d0a8"/>
+    <!-- 头巾 -->
+    <path d="M191 384 Q205 372 219 384 L219 378 Q205 366 191 378 Z" fill="#2a4a3a"/>
+    <!-- 表情（专注，眼睛盯棋盘） -->
+    <circle cx="210" cy="392" r="2" fill="#2a2a2a"/>
+    <circle cx="218" cy="392" r="2" fill="#2a2a2a"/>
+    <path d="M210 400 Q214 402 218 400" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 专注线（眼睛聚焦棋盘） -->
+    <line x1="218" y1="395" x2="380" y2="435" stroke="#3a6a5a" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+    <!-- 专注标记 -->
+    <text x="205" y="370" text-anchor="middle" font-family="serif" font-size="16" fill="#3a6a5a">!</text>
+  </g>
+
+  <!-- 学生2（右侧，分心） -->
+  <g>
+    <!-- 身体 -->
+    <path d="M570 490 L575 410 L615 410 L620 490 Z" fill="#8a5a3a"/>
+    <path d="M575 420 L550 445 L555 455 L580 430 Z" fill="#9a6a4a"/>
+    <!-- 头（仰起看天） -->
+    <circle cx="595" cy="392" r="16" fill="#f0d0a8"/>
+    <path d="M581 386 Q595 374 609 386 L609 380 Q595 368 581 380 Z" fill="#5a3a2a"/>
+    <!-- 表情（心不在焉，眼睛看天上） -->
+    <path d="M590 388 Q592 386 594 388" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <path d="M598 388 Q600 386 602 388" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <path d="M592 398 Q596 400 600 398" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 分心：想射天鹅 -->
+    <!-- 天鹅（天上飞） -->
+    <g>
+      <path d="M660 200 Q670 195 680 200 Q690 195 700 200 Q690 205 680 205 Q670 205 660 200 Z" fill="#fff" stroke="#aaa" stroke-width="1"/>
+      <circle cx="700" cy="200" r="4" fill="#fff" stroke="#aaa" stroke-width="1"/>
+      <polygon points="704,200 710,199 710,201" fill="#f4a842"/>
+      <!-- 翅膀 -->
+      <path d="M675 198 Q670 185 665 195" fill="none" stroke="#aaa" stroke-width="1.5"/>
+    </g>
+    <!-- 弓箭（想象中） -->
+    <g opacity="0.7">
+      <path d="M620 360 Q635 350 650 360" fill="none" stroke="#7a5a3a" stroke-width="3"/>
+      <line x1="620" y1="360" x2="650" y2="360" stroke="#5a3a1a" stroke-width="1"/>
+      <line x1="650" y1="360" x2="680" y2="210" stroke="#c4a01a" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <polygon points="680,210 675,218 685,218" fill="#c4a01a"/>
+    </g>
+    <!-- 分心视线 -->
+    <line x1="595" y1="385" x2="660" y2="210" stroke="#8a5a3a" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+    <!-- 问号标记 -->
+    <text x="595" y="370" text-anchor="middle" font-family="serif" font-size="16" fill="#8a5a3a">?</text>
+  </g>
+
+  <!-- 文字标注 -->
+  <line x1="205" y1="372" x2="205" y2="330" stroke="#3a6a5a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="140" y="305" width="130" height="26" fill="#fff6df" stroke="#6a9a7a" rx="4"/>
+  <text x="205" y="323" text-anchor="middle" font-family="serif" font-size="14" fill="#3a6a5a">专心致志</text>
+
+  <line x1="595" y1="372" x2="595" y2="330" stroke="#8a5a3a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="530" y="305" width="130" height="26" fill="#fff6df" stroke="#c47a3a" rx="4"/>
+  <text x="595" y="323" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a3a">心不在焉</text>
+
+  <line x1="405" y1="362" x2="405" y2="330" stroke="#5a4a3a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="305" width="100" height="26" fill="#fff6df" stroke="#8a7a5a" rx="4"/>
+  <text x="405" y="323" text-anchor="middle" font-family="serif" font-size="14" fill="#5a4a3a">弈秋（老师）</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="16" fill="#3a5a4a">同一老师，一个专心听讲，一个心想射雁——态度决定结果</text>
+</svg>

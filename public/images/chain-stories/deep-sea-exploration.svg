@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="深海潜水器与海底生物插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：深海探险的故事</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 深海背景渐层 -->
+  <rect x="0" y="70" width="800" height="200" fill="#3a5a78"/>
+  <rect x="0" y="270" width="800" height="200" fill="#2a4a68"/>
+  <rect x="0" y="470" width="800" height="130" fill="#1a3a50"/>
+  <!-- 海底 -->
+  <path d="M0 530 Q200 500 400 520 Q600 545 800 515 L800 600 L0 600 Z" fill="#5a3a1a" opacity="0.7"/>
+
+  <!-- 海面光线（微弱） -->
+  <g stroke="#a8d0e8" stroke-width="2" opacity="0.2">
+    <line x1="100" y1="70" x2="80" y2="200"/>
+    <line x1="300" y1="70" x2="290" y2="200"/>
+    <line x1="500" y1="70" x2="510" y2="200"/>
+  </g>
+
+  <!-- 的里雅斯特号（1960） -->
+  <g transform="translate(180, 180)">
+    <ellipse cx="0" cy="0" rx="50" ry="18" fill="#8a8a8a" stroke="#5a3a1a" stroke-width="2"/>
+    <circle cx="0" cy="15" r="22" fill="#6a6a6a" stroke="#3a2a1a" stroke-width="2"/>
+    <circle cx="-5" cy="12" r="5" fill="#a8d0e8" stroke="#3a2a1a" stroke-width="1"/>
+    <line x1="-40" y1="-5" x2="-55" y2="-10" stroke="#5a3a1a" stroke-width="2"/>
+    <line x1="40" y1="-5" x2="55" y2="-10" stroke="#5a3a1a" stroke-width="2"/>
+    <rect x="60" y="-25" width="50" height="16" fill="#fff6df" stroke="#c8843a" rx="3"/>
+    <text x="85" y="-13" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">1960</text>
+  </g>
+
+  <!-- 蛟龙号 -->
+  <g transform="translate(420, 250)">
+    <ellipse cx="0" cy="0" rx="48" ry="20" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-15" cy="-5" r="9" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="12" cy="-5" r="7" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M48 0 L65 -8 L65 8 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="55" y="-30" width="60" height="16" fill="#fff6df" stroke="#c8843a" rx="3"/>
+    <text x="85" y="-18" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">蛟龙号 2012</text>
+  </g>
+
+  <!-- 奋斗者号（最深处） -->
+  <g transform="translate(350, 430)">
+    <ellipse cx="0" cy="0" rx="45" ry="22" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <circle cx="-12" cy="-3" r="8" fill="#a8d0e8" stroke="#4a6a2f" stroke-width="2"/>
+    <circle cx="14" cy="-3" r="6" fill="#a8d0e8" stroke="#4a6a2f" stroke-width="2"/>
+    <path d="M-45 0 L-80 -15 L-80 15 Z" fill="#fef9ed" opacity="0.2"/>
+    <rect x="-30" y="-40" width="80" height="16" fill="#fff6df" stroke="#c8843a" rx="3"/>
+    <text x="10" y="-28" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">奋斗者号 10909m</text>
+  </g>
+
+  <!-- 深海生物 -->
+  <!-- 管虫群（热泉旁） -->
+  <g transform="translate(580, 500)">
+    <rect x="0" y="0" width="6" height="35" fill="#c84a3a" rx="2"/>
+    <rect x="12" y="0" width="6" height="45" fill="#e07856" rx="2"/>
+    <rect x="24" y="0" width="6" height="30" fill="#c84a3a" rx="2"/>
+    <circle cx="3" cy="0" r="4" fill="#e07856"/>
+    <circle cx="15" cy="0" r="4" fill="#c84a3a"/>
+    <circle cx="27" cy="0" r="4" fill="#e07856"/>
+  </g>
+  <!-- 热泉 -->
+  <path d="M590 500 Q585 470 595 450 Q600 440 590 420" fill="none" stroke="#e07856" stroke-width="3" opacity="0.5"/>
+
+  <!-- 发光水母 -->
+  <g transform="translate(120, 380)">
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="#7ab8d8" opacity="0.6" stroke="#a8d0e8" stroke-width="1"/>
+    <line x1="-10" y1="12" x2="-14" y2="40" stroke="#a8d0e8" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="14" x2="0" y2="44" stroke="#a8d0e8" stroke-width="1.5" opacity="0.5"/>
+    <line x1="10" y1="12" x2="14" y2="40" stroke="#a8d0e8" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="0" cy="-3" r="4" fill="#fef9ed" opacity="0.7"/>
+  </g>
+
+  <!-- 深度刻度 -->
+  <line x1="750" y1="80" x2="750" y2="520" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="770" y="180" font-family="serif" font-size="11" fill="#7a3b14">4000m</text>
+  <text x="770" y="280" font-family="serif" font-size="11" fill="#7a3b14">7000m</text>
+  <text x="770" y="440" font-family="serif" font-size="11" fill="#7a3b14">10000m</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从1960年的铁球到今天的奋斗者号，人类一步步潜入地球最深的黑暗。</text>
+</svg>

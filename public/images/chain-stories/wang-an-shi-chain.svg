@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="唐宋八大家与王安石变法插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：唐宋八大家里的改革者</text>
+  <line x1="170" y1="55" x2="630" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 上半：唐宋八大家 -->
+  <rect x="20" y="75" width="760" height="200" fill="#e8a838" opacity="0.06"/>
+  <text x="400" y="100" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">唐宋八大家</text>
+
+  <!-- 八位文人头像（简化） -->
+  <g font-family="serif" font-size="12" fill="#7a3b14">
+    <!-- 韩愈 -->
+    <g transform="translate(110, 170)">
+      <circle cx="0" cy="0" r="26" fill="#2d6a4f" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+      <path d="M-12 -10 Q-13 -20 0 -18 Q13 -20 12 -10" fill="#2a2a2a"/>
+      <text x="0" y="45" text-anchor="middle">韩愈</text>
+    </g>
+    <!-- 柳宗元 -->
+    <g transform="translate(200, 170)">
+      <circle cx="0" cy="0" r="26" fill="#2d6a4f" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+      <path d="M-12 -10 Q-13 -20 0 -18 Q13 -20 12 -10" fill="#2a2a2a"/>
+      <text x="0" y="45" text-anchor="middle">柳宗元</text>
+    </g>
+    <!-- 欧阳修 -->
+    <g transform="translate(290, 170)">
+      <circle cx="0" cy="0" r="26" fill="#2d6a4f" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+      <path d="M-12 -10 Q-13 -20 0 -18 Q13 -20 12 -10" fill="#2a2a2a"/>
+      <text x="0" y="45" text-anchor="middle">欧阳修</text>
+    </g>
+    <!-- 苏洵 -->
+    <g transform="translate(380, 170)">
+      <circle cx="0" cy="0" r="26" fill="#2d6a4f" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+      <path d="M-12 -10 Q-13 -20 0 -18 Q13 -20 12 -10" fill="#2a2a2a"/>
+      <text x="0" y="45" text-anchor="middle">苏洵</text>
+    </g>
+    <!-- 苏轼 -->
+    <g transform="translate(470, 170)">
+      <circle cx="0" cy="0" r="26" fill="#2d6a4f" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+      <path d="M-12 -10 Q-13 -20 0 -18 Q13 -20 12 -10" fill="#2a2a2a"/>
+      <text x="0" y="45" text-anchor="middle">苏轼</text>
+    </g>
+    <!-- 苏辙 -->
+    <g transform="translate(560, 170)">
+      <circle cx="0" cy="0" r="26" fill="#2d6a4f" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+      <path d="M-12 -10 Q-13 -20 0 -18 Q13 -20 12 -10" fill="#2a2a2a"/>
+      <text x="0" y="45" text-anchor="middle">苏辙</text>
+    </g>
+    <!-- 曾巩 -->
+    <g transform="translate(650, 170)">
+      <circle cx="0" cy="0" r="26" fill="#2d6a4f" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+      <path d="M-12 -10 Q-13 -20 0 -18 Q13 -20 12 -10" fill="#2a2a2a"/>
+      <text x="0" y="45" text-anchor="middle">曾巩</text>
+    </g>
+    <!-- 王安石（高亮） -->
+    <g transform="translate(730, 170)">
+      <circle cx="0" cy="0" r="30" fill="#e07856" opacity="0.3" stroke="#e07856" stroke-width="2.5"/>
+      <circle cx="0" cy="-5" r="14" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+      <path d="M-12 -10 Q-13 -20 0 -18 Q13 -20 12 -10" fill="#2a2a2a"/>
+      <path d="M-6 -2 Q0 4 6 -2" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+      <text x="0" y="48" text-anchor="middle" font-weight="bold">王安石</text>
+    </g>
+  </g>
+
+  <!-- 分隔线 -->
+  <line x1="60" y1="300" x2="740" y2="300" stroke="#e8a838" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.4"/>
+
+  <!-- 下半：变法 -->
+  <rect x="20" y="310" width="760" height="220" fill="#e07856" opacity="0.05"/>
+  <text x="400" y="335" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">王安石变法</text>
+
+  <!-- 变法内容三块 -->
+  <!-- 青苗法 -->
+  <g transform="translate(170, 420)">
+    <rect x="-70" y="-40" width="140" height="80" fill="#fff6df" stroke="#e8a838" stroke-width="2" rx="6"/>
+    <!-- 麦穗图标 -->
+    <g transform="translate(0, -20)">
+      <line x1="0" y1="0" x2="0" y2="15" stroke="#2d6a4f" stroke-width="2"/>
+      <ellipse cx="-4" cy="-2" rx="3" ry="5" fill="#e8a838"/>
+      <ellipse cx="4" cy="-2" rx="3" ry="5" fill="#e8a838"/>
+      <ellipse cx="0" cy="-8" rx="3" ry="5" fill="#e8a838"/>
+    </g>
+    <text x="0" y="15" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">青苗法</text>
+    <text x="0" y="32" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">官府借粮给农民</text>
+  </g>
+
+  <!-- 农田水利法 -->
+  <g transform="translate(400, 420)">
+    <rect x="-70" y="-40" width="140" height="80" fill="#fff6df" stroke="#e8a838" stroke-width="2" rx="6"/>
+    <!-- 水渠图标 -->
+    <g transform="translate(0, -20)">
+      <path d="M-15 5 Q-5 0 5 5 Q15 10 20 5" fill="none" stroke="#4a90b8" stroke-width="2.5"/>
+      <path d="M-15 0 Q-5 -5 5 0 Q15 5 20 0" fill="none" stroke="#4a90b8" stroke-width="2.5"/>
+    </g>
+    <text x="0" y="15" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">农田水利法</text>
+    <text x="0" y="32" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">修渠挖井灌庄稼</text>
+  </g>
+
+  <!-- 炼字 -->
+  <g transform="translate(630, 420)">
+    <rect x="-70" y="-40" width="140" height="80" fill="#fff6df" stroke="#e8a838" stroke-width="2" rx="6"/>
+    <!-- 诗句 -->
+    <text x="0" y="-18" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">春风又</text>
+    <text x="0" y="-4" text-anchor="middle" font-size="16" font-weight="bold" fill="#e07856" font-family="serif">绿</text>
+    <text x="0" y="14" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">江南岸</text>
+    <text x="0" y="32" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">一字改十几遍</text>
+  </g>
+
+  <!-- 标注 -->
+  <line x1="730" y1="200" x2="730" y2="225" stroke="#e07856" stroke-width="2" stroke-dasharray="4,3"/>
+  <rect x="660" y="225" width="140" height="26" fill="#fff6df" stroke="#e07856" stroke-width="2" rx="4"/>
+  <text x="730" y="243" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">既改革又炼字</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">王安石在八大家里最特别——敢动真格改革，也敢为一字改十几遍。</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="秋晚江面归鸟与田间花牛的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">现代诗二首</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#c8553d" stroke-width="2"/>
+  <!-- 夕阳 -->
+  <circle cx="560" cy="190" r="46" fill="#e8a04e" opacity="0.85"/>
+  <circle cx="560" cy="190" r="30" fill="#f0c068"/>
+  <!-- 江面 -->
+  <rect x="0" y="300" width="800" height="160" fill="#9bb7c4" opacity="0.5"/>
+  <rect x="0" y="300" width="800" height="50" fill="#c8553d" opacity="0.35"/>
+  <!-- 归鸟 -->
+  <path d="M 300 160 q 20 -16 40 0 q 20 -16 40 0" stroke="#3a3a3a" stroke-width="3" fill="none"/>
+  <path d="M 220 200 q 16 -12 32 0 q 16 -12 32 0" stroke="#3a3a3a" stroke-width="2.5" fill="none"/>
+  <!-- 芦苇 -->
+  <line x1="120" y1="300" x2="120" y2="430" stroke="#8a9a5b" stroke-width="3"/>
+  <ellipse cx="120" cy="295" rx="8" ry="20" fill="#d8c89a"/>
+  <line x1="160" y1="300" x2="160" y2="440" stroke="#8a9a5b" stroke-width="3"/>
+  <ellipse cx="160" cy="295" rx="8" ry="20" fill="#d8c89a"/>
+  <!-- 花牛 -->
+  <ellipse cx="420" cy="470" rx="80" ry="42" fill="#f5efe0" stroke="#3a3a3a" stroke-width="2"/>
+  <ellipse cx="500" cy="455" rx="34" ry="28" fill="#3a3a3a"/>
+  <ellipse cx="430" cy="455" rx="26" ry="22" fill="#3a3a3a"/>
+  <rect x="360" y="495" width="12" height="34" fill="#3a3a3a"/>
+  <rect x="400" y="500" width="12" height="30" fill="#3a3a3a"/>
+  <rect x="455" y="500" width="12" height="30" fill="#3a3a3a"/>
+  <rect x="485" y="495" width="12" height="34" fill="#3a3a3a"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">归鸟驮夕阳，花牛梦草场</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一面镜子映照出人脸和光芒的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">镜子 · 照见几千年</text>
+  <line x1="300" y1="62" x2="500" y2="62" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="490" width="800" height="110" fill="#e8d9b8"/>
+
+  <!-- 左侧：古代铜镜 -->
+  <g>
+    <!-- 铜镜 -->
+    <circle cx="180" cy="280" r="80" fill="#c8843a" stroke="#8d5a36" stroke-width="3"/>
+    <circle cx="180" cy="280" r="68" fill="#d49a4a"/>
+    <circle cx="180" cy="280" r="55" fill="#e8b878" opacity="0.6"/>
+    <!-- 铜镜背面花纹 -->
+    <g fill="none" stroke="#8d5a36" stroke-width="1.5" opacity="0.5">
+      <circle cx="180" cy="280" r="40"/>
+      <circle cx="180" cy="280" r="25"/>
+      <!-- 纹饰 -->
+      <path d="M180 240 Q200 260 180 280 Q160 260 180 240 Z"/>
+      <path d="M180 280 Q200 300 180 320 Q160 300 180 280 Z"/>
+      <path d="M140 280 Q160 260 180 280 Q160 300 140 280 Z"/>
+      <path d="M220 280 Q200 260 180 280 Q200 300 220 280 Z"/>
+    </g>
+    <!-- 中心钮 -->
+    <circle cx="180" cy="280" r="6" fill="#8d5a36"/>
+    <!-- 模糊人影（铜镜照不清） -->
+    <ellipse cx="180" cy="270" rx="15" ry="20" fill="#8d5a36" opacity="0.2"/>
+    <!-- 标注 -->
+    <rect x="120" y="380" width="120" height="26" fill="#fff6df" stroke="#8d5a36" rx="4"/>
+    <text x="180" y="398" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">古代铜镜（模糊）</text>
+    <!-- 水盆（最早的镜） -->
+    <ellipse cx="180" cy="450" rx="40" ry="8" fill="#7ab8d8" opacity="0.5"/>
+    <path d="M140 445 Q140 460 180 462 Q220 460 220 445" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    <text x="180" y="480" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">水面（最早的镜）</text>
+  </g>
+
+  <!-- 中间：箭头（发展） -->
+  <g>
+    <path d="M280 280 L380 280" stroke="#8d5a36" stroke-width="3" stroke-dasharray="8,5"/>
+    <path d="M370 272 L385 280 L370 288" fill="none" stroke="#8d5a36" stroke-width="3"/>
+    <text x="330" y="265" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">几千年</text>
+  </g>
+
+  <!-- 右侧：现代玻璃镜 -->
+  <g>
+    <!-- 镜框 -->
+    <rect x="420" y="140" width="280" height="280" fill="#8d5a36" stroke="#5a3a1a" stroke-width="3" rx="8"/>
+    <!-- 镜面 -->
+    <rect x="432" y="152" width="256" height="256" fill="#e8f0f8" stroke="#a8d0e8" stroke-width="2"/>
+    <!-- 清晰的人影 -->
+    <g>
+      <!-- 头 -->
+      <circle cx="560" cy="240" r="35" fill="#f0d0a8"/>
+      <!-- 头发 -->
+      <path d="M528 235 Q560 205 592 235 L592 245 L528 245 Z" fill="#5a3a1a"/>
+      <!-- 眼睛 -->
+      <circle cx="550" cy="240" r="3" fill="#2a2a2a"/>
+      <circle cx="570" cy="240" r="3" fill="#2a2a2a"/>
+      <!-- 嘴 -->
+      <path d="M552 252 Q560 257 568 252" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 身体 -->
+      <path d="M530 280 L535 380 L585 380 L590 280 Z" fill="#c84a3a"/>
+      <!-- 手 -->
+      <ellipse cx="530" cy="320" rx="8" ry="15" fill="#f0d0a8" transform="rotate(-15 530 320)"/>
+      <ellipse cx="590" cy="320" rx="8" ry="15" fill="#f0d0a8" transform="rotate(15 590 320)"/>
+    </g>
+    <!-- 光泽反射 -->
+    <path d="M450 160 L480 160 L460 200 L440 200 Z" fill="#fff" opacity="0.4"/>
+    <path d="M640 350 L670 350 L660 380 L630 380 Z" fill="#fff" opacity="0.2"/>
+    <!-- 标注 -->
+    <rect x="470" y="430" width="180" height="26" fill="#fff6df" stroke="#7ab8d8" rx="4"/>
+    <text x="560" y="448" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">现代玻璃镜（清晰）</text>
+  </g>
+
+  <!-- 反射光线示意 -->
+  <g opacity="0.4">
+    <line x1="560" y1="240" x2="560" y2="160" stroke="#f4c842" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="560" y1="160" x2="620" y2="120" stroke="#f4c842" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="640" y="115" font-family="serif" font-size="11" fill="#c8843a">光·反射</text>
+  </g>
+
+  <!-- 底部名言 -->
+  <rect x="150" y="520" width="500" height="36" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+  <text x="400" y="543" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">以铜为镜，可以正衣冠；以人为镜，可以明得失</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">从水面到铜镜到玻璃镀银——一面镜子，几千年智慧</text>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="母鸡带小鸡觅食和保护小鸡插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">母鸡</text>
+  <line x1="360" y1="56" x2="440" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——从讨厌到敬重，一位母亲的故事</text>
+
+  <!-- 院子背景 -->
+  <rect x="0" y="90" width="800" height="510" fill="#f0e8d0"/>
+  <!-- 篱笆 -->
+  <g stroke="#8d5a36" stroke-width="3" fill="none">
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="140" x2="800" y2="140"/>
+    <line x1="50" y1="100" x2="50" y2="160"/>
+    <line x1="150" y1="100" x2="150" y2="160"/>
+    <line x1="250" y1="100" x2="250" y2="160"/>
+    <line x1="350" y1="100" x2="350" y2="160"/>
+    <line x1="450" y1="100" x2="450" y2="160"/>
+    <line x1="550" y1="100" x2="550" y2="160"/>
+    <line x1="650" y1="100" x2="650" y2="160"/>
+    <line x1="750" y1="100" x2="750" y2="160"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="200" fill="#d4c8a0"/>
+  <rect x="0" y="400" width="800" height="200" fill="#8d5a36" opacity="0.1"/>
+
+  <!-- 母鸡（大，保护姿态，翅膀张开） -->
+  <g transform="translate(380, 380)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="20" rx="70" ry="50" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 翅膀张开（保护小鸡） -->
+    <path d="M-60 10 Q-100 -10 -110 30 Q-100 50 -60 40" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <path d="M60 10 Q100 -10 110 30 Q100 50 60 40" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 翅膀羽毛纹理 -->
+    <path d="M-85 15 Q-90 25 -85 35" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-95 20 Q-100 30 -95 40" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M85 15 Q90 25 85 35" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M95 20 Q100 30 95 40" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-35" r="28" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 鸡冠 -->
+    <path d="M-10 -60 Q-5 -70 0 -62 Q5 -70 10 -60 Q8 -55 0 -57 Q-8 -55 -10 -60 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 眼睛（警觉） -->
+    <circle cx="-8" cy="-38" r="5" fill="#fef9ed"/>
+    <circle cx="-8" cy="-38" r="3" fill="#7a3b14"/>
+    <circle cx="10" cy="-38" r="5" fill="#fef9ed"/>
+    <circle cx="10" cy="-38" r="3" fill="#7a3b14"/>
+    <!-- 嘴 -->
+    <path d="M-5 -28 L0 -20 L5 -28 Z" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 肉垂 -->
+    <ellipse cx="0" cy="-20" rx="4" ry="8" fill="#c84a3a"/>
+    <!-- 腿 -->
+    <line x1="-15" y1="65" x2="-15" y2="85" stroke="#e07856" stroke-width="4" stroke-linecap="round"/>
+    <line x1="15" y1="65" x2="15" y2="85" stroke="#e07856" stroke-width="4" stroke-linecap="round"/>
+    <!-- 爪子 -->
+    <path d="M-15 85 L-22 90 M-15 85 L-8 90 M-15 85 L-15 92" stroke="#e07856" stroke-width="3"/>
+    <path d="M15 85 L8 90 M15 85 L22 90 M15 85 L15 92" stroke="#e07856" stroke-width="3"/>
+    <!-- 警告符号 -->
+    <text x="40" y="-50" font-family="serif" font-size="16" fill="#c84a3a" font-weight="bold">！</text>
+  </g>
+
+  <!-- 小鸡们（躲在翅膀下） -->
+  <g transform="translate(320, 400)">
+    <ellipse cx="0" cy="0" rx="14" ry="11" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-2" cy="-8" r="10" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-4" cy="-10" r="2.5" fill="#7a3b14"/>
+    <circle cx="0" cy="-10" r="2.5" fill="#7a3b14"/>
+    <path d="M-3 -4 L0 -1 L3 -4" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M0 8 Q3 12 0 16" fill="none" stroke="#e07856" stroke-width="3"/>
+  </g>
+  <g transform="translate(440, 400)">
+    <ellipse cx="0" cy="0" rx="14" ry="11" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="2" cy="-8" r="10" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-10" r="2.5" fill="#7a3b14"/>
+    <circle cx="4" cy="-10" r="2.5" fill="#7a3b14"/>
+    <path d="M-1 -4 L2 -1 L5 -4" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M0 8 Q-3 12 0 16" fill="none" stroke="#e07856" stroke-width="3"/>
+  </g>
+  <g transform="translate(380, 430)">
+    <ellipse cx="0" cy="0" rx="12" ry="9" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-6" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-2" cy="-7" r="2" fill="#7a3b14"/>
+    <circle cx="2" cy="-7" r="2" fill="#7a3b14"/>
+  </g>
+
+  <!-- 野猫（被吓退，右侧远处） -->
+  <g transform="translate(680, 380)">
+    <ellipse cx="0" cy="10" rx="35" ry="18" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-25" cy="-5" r="18" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-35 -15 L-40 -30 L-30 -22 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-20 -18 L-15 -33 L-10 -22 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 害怕的眼睛 -->
+    <ellipse cx="-30" cy="-7" rx="3" ry="4" fill="#fef9ed"/>
+    <ellipse cx="-30" cy="-7" rx="1.5" ry="3" fill="#7a3b14"/>
+    <!-- 尾巴竖起（害怕） -->
+    <path d="M30 5 Q50 -20 45 -40" fill="none" stroke="#8d5a36" stroke-width="10" stroke-linecap="round"/>
+    <!-- 后退的腿 -->
+    <path d="M20 25 L30 35" stroke="#8d5a36" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-15 25 L-20 35" stroke="#8d5a36" stroke-width="6" stroke-linecap="round"/>
+    <text x="-10" y="-40" font-family="serif" font-size="12" fill="#7a3b14">？</text>
+  </g>
+
+  <!-- 食物（虫子，被母鸡找到） -->
+  <g transform="translate(200, 440)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <circle cx="-6" cy="-2" r="3" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+    <circle cx="6" cy="-2" r="3" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">咕咕～来吃</text>
+  </g>
+
+  <!-- 态度变化标注 -->
+  <g transform="translate(400, 200)">
+    <rect x="-220" y="0" width="440" height="50" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="2" opacity="0.9"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">讨厌 → 如怨如诉、心烦</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a">敬重 → 慈爱、勇敢、辛苦的母亲</text>
+  </g>
+
+  <!-- 底部标注 -->
+  <g transform="translate(400, 575)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">"一个母亲必定就是一位英雄"——老舍</text>
+  </g>
+</svg>

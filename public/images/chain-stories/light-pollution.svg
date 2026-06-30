@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="光污染让星星消失插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">光污染让星星消失</text>
+  <line x1="240" y1="56" x2="560" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——蜡烛和吊灯的实验</text>
+
+  <!-- 实验类比 -->
+  <g transform="translate(200, 200)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">黑暗中的蜡烛</text>
+    <!-- 黑暗房间 -->
+    <rect x="-80" y="0" width="160" height="120" fill="#1a1a3a" stroke="#7a3b14" stroke-width="2" rx="5"/>
+    <!-- 蜡烛 -->
+    <rect x="-5" y="60" width="10" height="40" fill="#c8843a"/>
+    <path d="M0 60 Q-5 50 0 40 Q5 50 0 60" fill="#e07856"/>
+    <circle cx="0" cy="50" r="15" fill="#e07856" opacity="0.2"/>
+    <!-- 能看到周围 -->
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="10" fill="#6a8d3f">眼睛适应黑暗</text>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="10" fill="#6a8d3f">能看清周围</text>
+  </g>
+
+  <!-- 箭头 -->
+  <g transform="translate(400, 250)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">突然开灯！</text>
+    <path d="M-30 20 L30 20" stroke="#c84a3a" stroke-width="3" fill="none"/>
+    <path d="M30 20 L22 13 L22 27 Z" fill="#c84a3a"/>
+  </g>
+
+  <g transform="translate(600, 200)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">亮灯后</text>
+    <rect x="-80" y="0" width="160" height="120" fill="#fef9ed" stroke="#7a3b14" stroke-width="2" rx="5"/>
+    <!-- 吊灯 -->
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="30" r="15" fill="#e07856"/>
+    <circle cx="0" cy="30" r="25" fill="#e07856" opacity="0.2"/>
+    <!-- 蜡烛（看不见了） -->
+    <rect x="-5" y="60" width="10" height="40" fill="#c8843a" opacity="0.3"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">蜡烛还在燃烧</text>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">但被吊灯"淹没"了</text>
+  </g>
+
+  <!-- 类比说明 -->
+  <g transform="translate(400, 370)">
+    <rect x="-320" y="0" width="640" height="50" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">星星=蜡烛（微弱） · 城市灯光=吊灯（强烈）</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">城市灯光照亮夜空→微弱星光被"盖住"→星星"消失"了</text>
+  </g>
+
+  <!-- 夜空亮度数据 -->
+  <g transform="translate(150, 450)">
+    <rect x="-100" y="0" width="200" height="110" rx="8" fill="#1a1a3a" stroke="#7ab8d8" stroke-width="1.5"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#7ab8d8" font-weight="bold">无光污染</text>
+    <g fill="#fef9ed">
+      <circle cx="-60" cy="40" r="1.5"/>
+      <circle cx="-40" cy="50" r="1"/>
+      <circle cx="-20" cy="38" r="2"/>
+      <circle cx="0" cy="48" r="1.5"/>
+      <circle cx="20" cy="42" r="1"/>
+      <circle cx="40" cy="50" r="2"/>
+      <circle cx="60" cy="44" r="1.5"/>
+      <circle cx="-50" cy="60" r="1"/>
+      <circle cx="-30" cy="68" r="1.5"/>
+      <circle cx="-10" cy="62" r="1"/>
+      <circle cx="10" cy="70" r="2"/>
+      <circle cx="30" cy="65" r="1"/>
+      <circle cx="50" cy="72" r="1.5"/>
+      <circle cx="-60" cy="80" r="1"/>
+      <circle cx="-20" cy="85" r="1.5"/>
+      <circle cx="20" cy="82" r="1"/>
+      <circle cx="60" cy="88" r="1"/>
+    </g>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="11" fill="#6a8d3f">能看到2000-3000颗星</text>
+  </g>
+
+  <g transform="translate(400, 450)">
+    <rect x="-100" y="0" width="200" height="110" rx="8" fill="#3a3a2a" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#c8843a" font-weight="bold">城市郊区</text>
+    <circle cx="-30" cy="50" r="1.5" fill="#fef9ed" opacity="0.5"/>
+    <circle cx="20" cy="60" r="1" fill="#fef9ed" opacity="0.4"/>
+    <circle cx="-10" cy="75" r="1.5" fill="#fef9ed" opacity="0.5"/>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="11" fill="#e07856">只能看到几百颗</text>
+  </g>
+
+  <g transform="translate(650, 450)">
+    <rect x="-100" y="0" width="200" height="110" rx="8" fill="#4a4a3a" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a" font-weight="bold">市中心</text>
+    <circle cx="0" cy="55" r="1.5" fill="#fef9ed" opacity="0.4"/>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">只能看到十几颗</text>
+  </g>
+
+  <!-- 底部标注 -->
+  <g transform="translate(400, 580)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">全球夜空亮度每年增加2%~10%——保护星空=保护环境</text>
+  </g>
+</svg>

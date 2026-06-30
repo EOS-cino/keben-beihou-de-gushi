@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各种昆虫在草丛中的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">昆虫</text>
+  <line x1="360" y1="56" x2="440" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——草丛里的小小世界</text>
+
+  <!-- 草地背景 -->
+  <rect x="0" y="90" width="800" height="510" fill="#e8f0d8"/>
+  <rect x="0" y="350" width="800" height="250" fill="#6a8d3f" opacity="0.3"/>
+
+  <!-- 草叶 -->
+  <g stroke="#4a6a2f" stroke-width="2.5" fill="none">
+    <path d="M50 500 Q55 460 50 420"/>
+    <path d="M120 510 Q125 470 120 430"/>
+    <path d="M250 500 Q255 460 250 420"/>
+    <path d="M380 510 Q385 470 380 430"/>
+    <path d="M500 500 Q505 460 500 420"/>
+    <path d="M620 510 Q625 470 620 430"/>
+    <path d="M720 500 Q725 460 720 420"/>
+  </g>
+  <g stroke="#6a8d3f" stroke-width="2" fill="none">
+    <path d="M80 500 Q85 470 80 440"/>
+    <path d="M200 510 Q205 480 200 450"/>
+    <path d="M320 500 Q325 470 320 440"/>
+    <path d="M450 510 Q455 480 450 450"/>
+    <path d="M570 500 Q575 470 570 440"/>
+    <path d="M680 510 Q685 480 680 450"/>
+  </g>
+
+  <!-- 蝴蝶（左上，飞舞） -->
+  <g transform="translate(200, 200)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">蝴蝶</text>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="3" ry="15" fill="#7a3b14"/>
+    <!-- 触角 -->
+    <path d="M-2 -12 Q-5 -20 -8 -22" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M2 -12 Q5 -20 8 -22" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 翅膀（左上） -->
+    <path d="M-3 -5 Q-25 -20 -30 -5 Q-25 5 -3 0" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-3 5 Q-20 15 -22 25 Q-15 25 -3 10" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 翅膀（右上） -->
+    <path d="M3 -5 Q25 -20 30 -5 Q25 5 3 0" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M3 5 Q20 15 22 25 Q15 25 3 10" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 翅膀斑点 -->
+    <circle cx="-18" cy="-8" r="3" fill="#c84a3a"/>
+    <circle cx="18" cy="-8" r="3" fill="#c84a3a"/>
+  </g>
+
+  <!-- 蜜蜂（中上，采蜜） -->
+  <g transform="translate(450, 180)">
+    <text x="0" y="-25" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">蜜蜂</text>
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 条纹 -->
+    <path d="M-5 -7 Q-3 0 -5 7" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M3 -7 Q5 0 3 7" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 翅膀 -->
+    <ellipse cx="-5" cy="-8" rx="8" ry="5" fill="#fef9ed" stroke="#7a3b14" stroke-width="1" opacity="0.7" transform="rotate(-20 -5 -8)"/>
+    <ellipse cx="5" cy="-8" rx="8" ry="5" fill="#fef9ed" stroke="#7a3b14" stroke-width="1" opacity="0.7" transform="rotate(20 5 -8)"/>
+    <!-- 触角 -->
+    <path d="M-3 -7 Q-5 -12 -7 -14" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M3 -7 Q5 -12 7 -14" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 眼睛 -->
+    <circle cx="-5" cy="-4" r="1.5" fill="#7a3b14"/>
+    <circle cx="3" cy="-4" r="1.5" fill="#7a3b14"/>
+  </g>
+
+  <!-- 蜻蜓（右上，悬停） -->
+  <g transform="translate(620, 220)">
+    <text x="0" y="-25" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">蜻蜓</text>
+    <!-- 身体（细长） -->
+    <ellipse cx="0" cy="0" rx="4" ry="25" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-22" r="8" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <!-- 复眼 -->
+    <circle cx="-4" cy="-23" r="4" fill="#c84a3a"/>
+    <circle cx="4" cy="-23" r="4" fill="#c84a3a"/>
+    <circle cx="-4" cy="-23" r="2" fill="#7a3b14"/>
+    <circle cx="4" cy="-23" r="2" fill="#7a3b14"/>
+    <!-- 翅膀（四片，透明） -->
+    <ellipse cx="-15" cy="-5" rx="20" ry="6" fill="#a8d0e8" opacity="0.5" stroke="#7ab8d8" stroke-width="1" transform="rotate(-15 -15 -5)"/>
+    <ellipse cx="15" cy="-5" rx="20" ry="6" fill="#a8d0e8" opacity="0.5" stroke="#7ab8d8" stroke-width="1" transform="rotate(15 15 -5)"/>
+    <ellipse cx="-15" cy="10" rx="18" ry="5" fill="#a8d0e8" opacity="0.5" stroke="#7ab8d8" stroke-width="1" transform="rotate(-10 -15 10)"/>
+    <ellipse cx="15" cy="10" rx="18" ry="5" fill="#a8d0e8" opacity="0.5" stroke="#7ab8d8" stroke-width="1" transform="rotate(10 15 10)"/>
+    <!-- 尾节 -->
+    <line x1="0" y1="10" x2="0" y2="25" stroke="#4a6a2f" stroke-width="1"/>
+  </g>
+
+  <!-- 蚂蚁（地面，排队搬食物） -->
+  <g transform="translate(150, 470)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">蚂蚁排队</text>
+    <!-- 蚂蚁1（搬食物） -->
+    <g transform="translate(0, 0)">
+      <ellipse cx="0" cy="0" rx="4" ry="3" fill="#7a3b14"/>
+      <circle cx="-6" cy="0" r="3" fill="#7a3b14"/>
+      <ellipse cx="6" cy="0" rx="5" ry="3" fill="#7a3b14"/>
+      <line x1="-3" y1="2" x2="-5" y2="6" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="3" y1="2" x2="5" y2="6" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 食物 -->
+      <circle cx="-10" cy="-3" r="4" fill="#6a8d3f"/>
+    </g>
+    <!-- 蚂蚁2 -->
+    <g transform="translate(25, 2)">
+      <ellipse cx="0" cy="0" rx="4" ry="3" fill="#7a3b14"/>
+      <circle cx="-6" cy="0" r="3" fill="#7a3b14"/>
+      <ellipse cx="6" cy="0" rx="5" ry="3" fill="#7a3b14"/>
+      <line x1="-3" y1="2" x2="-5" y2="6" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="3" y1="2" x2="5" y2="6" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 蚂蚁3 -->
+    <g transform="translate(50, 0)">
+      <ellipse cx="0" cy="0" rx="4" ry="3" fill="#7a3b14"/>
+      <circle cx="-6" cy="0" r="3" fill="#7a3b14"/>
+      <ellipse cx="6" cy="0" rx="5" ry="3" fill="#7a3b14"/>
+      <line x1="-3" y1="2" x2="-5" y2="6" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="3" y1="2" x2="5" y2="6" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 蚂蚁4 -->
+    <g transform="translate(75, 3)">
+      <ellipse cx="0" cy="0" rx="4" ry="3" fill="#7a3b14"/>
+      <circle cx="-6" cy="0" r="3" fill="#7a3b14"/>
+      <ellipse cx="6" cy="0" rx="5" ry="3" fill="#7a3b14"/>
+      <line x1="-3" y1="2" x2="-5" y2="6" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="3" y1="2" x2="5" y2="6" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 信息素路线 -->
+    <path d="M-10 5 Q40 8 90 5" fill="none" stroke="#c8843a" stroke-width="1" stroke-dasharray="2 2" opacity="0.5"/>
+  </g>
+
+  <!-- 蟋蟀（地面右侧） -->
+  <g transform="translate(550, 460)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">蟋蟀</text>
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <circle cx="-12" cy="-3" r="7" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <!-- 触角（长） -->
+    <path d="M-15 -8 Q-22 -20 -25 -30" fill="none" stroke="#4a6a2f" stroke-width="1.5"/>
+    <path d="M-10 -9 Q-15 -22 -18 -32" fill="none" stroke="#4a6a2f" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="-15" cy="-4" r="2" fill="#7a3b14"/>
+    <!-- 后腿（粗壮，跳跃） -->
+    <path d="M8 3 Q20 10 25 20 Q28 25 22 28" fill="none" stroke="#6a8d3f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M5 5 Q15 15 18 25" fill="none" stroke="#6a8d3f" stroke-width="3" stroke-linecap="round"/>
+    <!-- 翅膀 -->
+    <ellipse cx="3" cy="-2" rx="8" ry="4" fill="#4a6a2f" opacity="0.6"/>
+  </g>
+
+  <!-- 昆虫特征标注 -->
+  <g transform="translate(400, 330)">
+    <rect x="-180" y="0" width="360" height="45" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">昆虫特征：身体分头·胸·腹三部分，六条腿，一对触角</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">蜘蛛8条腿→不是昆虫 · 蜈蚣很多腿→不是昆虫</text>
+  </g>
+
+  <!-- 底部标注 -->
+  <g transform="translate(400, 575)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">蹲下来仔细看——草丛里有一个完整的世界</text>
+  </g>
+</svg>

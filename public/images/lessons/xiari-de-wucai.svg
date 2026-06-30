@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="五彩池层层叠叠彩色水池插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">夏日的五彩池</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——打翻的颜料盘，大自然的调色板</text>
+
+  <!-- 山坡背景 -->
+  <path d="M0 200 Q200 150 400 180 Q600 140 800 190 L800 600 L0 600 Z" fill="#d4c8a0"/>
+  <path d="M0 200 Q200 150 400 180 Q600 140 800 190 L800 250 L0 250 Z" fill="#8d5a36" opacity="0.15"/>
+
+  <!-- 水池（层层叠叠，从上到下） -->
+  <!-- 第一层（最高，蓝色） -->
+  <g transform="translate(400, 220)">
+    <path d="M-50 0 Q-60 15 -50 25 Q0 30 50 25 Q60 15 50 0 Q0 -5 -50 0" fill="#7ab8d8" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="8" rx="40" ry="10" fill="#a8d0e8" opacity="0.6"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="10" fill="#4a6a8f">蓝</text>
+  </g>
+
+  <!-- 第二层（绿色） -->
+  <g transform="translate(300, 270)">
+    <path d="M-60 0 Q-70 15 -60 25 Q0 30 60 25 Q70 15 60 0 Q0 -5 -60 0" fill="#6a8d3f" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="8" rx="48" ry="12" fill="#8ab060" opacity="0.5"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="10" fill="#4a6a2f">绿</text>
+  </g>
+  <g transform="translate(520, 270)">
+    <path d="M-45 0 Q-55 15 -45 25 Q0 30 45 25 Q55 15 45 0 Q0 -5 -45 0" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <ellipse cx="0" cy="8" rx="35" ry="9" fill="#e0a050" opacity="0.5"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">黄</text>
+  </g>
+
+  <!-- 第三层 -->
+  <g transform="translate(200, 330)">
+    <path d="M-55 0 Q-65 18 -55 28 Q0 33 55 28 Q65 18 55 0 Q0 -5 -55 0" fill="#a8d0e8" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="10" rx="42" ry="12" fill="#c0e0f0" opacity="0.5"/>
+  </g>
+  <g transform="translate(400, 335)">
+    <path d="M-65 0 Q-75 18 -65 28 Q0 33 65 28 Q75 18 65 0 Q0 -5 -65 0" fill="#e07856" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="10" rx="52" ry="13" fill="#f0a080" opacity="0.5"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">橙</text>
+  </g>
+  <g transform="translate(600, 330)">
+    <path d="M-50 0 Q-60 18 -50 28 Q0 33 50 28 Q60 18 50 0 Q0 -5 -50 0" fill="#fef9ed" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="10" rx="38" ry="11" fill="#fef9ed" opacity="0.7"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">白</text>
+  </g>
+
+  <!-- 第四层 -->
+  <g transform="translate(150, 400)">
+    <path d="M-50 0 Q-60 20 -50 32 Q0 37 50 32 Q60 20 50 0 Q0 -5 -50 0" fill="#7ab8d8" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="12" rx="38" ry="13" fill="#a8d0e8" opacity="0.5"/>
+  </g>
+  <g transform="translate(320, 405)">
+    <path d="M-60 0 Q-70 20 -60 32 Q0 37 60 32 Q70 20 60 0 Q0 -5 -60 0" fill="#6a8d3f" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="12" rx="46" ry="14" fill="#8ab060" opacity="0.5"/>
+  </g>
+  <g transform="translate(500, 400)">
+    <path d="M-55 0 Q-65 20 -55 32 Q0 37 55 32 Q65 20 55 0 Q0 -5 -55 0" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <ellipse cx="0" cy="12" rx="42" ry="13" fill="#e0a050" opacity="0.5"/>
+  </g>
+  <g transform="translate(660, 405)">
+    <path d="M-45 0 Q-55 20 -45 32 Q0 37 45 32 Q55 20 45 0 Q0 -5 -45 0" fill="#e07856" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="12" rx="34" ry="12" fill="#f0a080" opacity="0.5"/>
+  </g>
+
+  <!-- 第五层（最低） -->
+  <g transform="translate(250, 480)">
+    <path d="M-70 0 Q-80 22 -70 35 Q0 40 70 35 Q80 22 70 0 Q0 -5 -70 0" fill="#7ab8d8" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="14" rx="55" ry="15" fill="#a8d0e8" opacity="0.5"/>
+  </g>
+  <g transform="translate(450, 485)">
+    <path d="M-65 0 Q-75 22 -65 35 Q0 40 65 35 Q75 22 65 0 Q0 -5 -65 0" fill="#6a8d3f" stroke="#c8843a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="14" rx="50" ry="14" fill="#8ab060" opacity="0.5"/>
+  </g>
+  <g transform="translate(620, 480)">
+    <path d="M-50 0 Q-60 22 -50 35 Q0 40 50 35 Q60 22 50 0 Q0 -5 -50 0" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <ellipse cx="0" cy="14" rx="38" ry="13" fill="#e0a050" opacity="0.5"/>
+  </g>
+
+  <!-- 钙化堤边沿（金色花边） -->
+  <g fill="none" stroke="#c8843a" stroke-width="3" opacity="0.6">
+    <path d="M340 220 Q360 215 380 220 Q400 215 420 220 Q440 215 460 220"/>
+    <path d="M240 270 Q260 265 280 270 Q300 265 320 270 Q340 265 360 270"/>
+    <path d="M340 335 Q380 330 420 335 Q460 330 500 335"/>
+  </g>
+
+  <!-- 阳光 -->
+  <g transform="translate(700, 130)">
+    <circle cx="0" cy="0" r="20" fill="#e07856" opacity="0.6"/>
+    <g stroke="#e07856" stroke-width="2" opacity="0.4">
+      <line x1="0" y1="-25" x2="0" y2="-35"/>
+      <line x1="20" y1="-15" x2="28" y2="-22"/>
+      <line x1="-20" y1="-15" x2="-28" y2="-22"/>
+      <line x1="25" y1="0" x2="35" y2="0"/>
+      <line x1="-25" y1="0" x2="-35" y2="0"/>
+    </g>
+  </g>
+
+  <!-- 标注 -->
+  <g transform="translate(120, 540)">
+    <rect x="-90" y="0" width="180" height="45" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">颜色从哪来？</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">水深+矿物质+藻类+阳光</text>
+  </g>
+</svg>

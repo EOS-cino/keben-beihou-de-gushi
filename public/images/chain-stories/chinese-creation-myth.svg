@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国古代创世神话盘古女娲的系列插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">中国古代创世神话</text>
+  <line x1="290" y1="58" x2="510" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="310" x2="720" y2="310" stroke="#c8843a" stroke-width="3"/>
+  <path d="M720 310 L710 303 L710 317 Z" fill="#c8843a"/>
+
+  <!-- 节点1：盘古开天地 -->
+  <g transform="translate(150, 310)">
+    <circle cx="0" cy="0" r="12" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-75" y="-120" width="150" height="90" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-98" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">盘古开天地</text>
+    <!-- 盘古 -->
+    <g transform="translate(0, -60)">
+      <ellipse cx="0" cy="5" rx="12" ry="18" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-15" r="8" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 举天 -->
+      <path d="M-8 -5 Q-15 -20 -20 -30" fill="none" stroke="#8d5a36" stroke-width="4" stroke-linecap="round"/>
+      <path d="M8 -5 Q15 -20 20 -30" fill="none" stroke="#8d5a36" stroke-width="4" stroke-linecap="round"/>
+      <!-- 踩地 -->
+      <path d="M-5 22 L-8 30" stroke="#8d5a36" stroke-width="3"/>
+      <path d="M5 22 L8 30" stroke="#8d5a36" stroke-width="3"/>
+    </g>
+    <text x="0" y="-18" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">头顶天脚踏地</text>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">身体化为世界</text>
+  </g>
+
+  <!-- 节点2：女娲造人 -->
+  <g transform="translate(330, 310)">
+    <circle cx="0" cy="0" r="12" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-75" y="-120" width="150" height="90" rx="6" fill="#fff6df" stroke="#e07856" stroke-width="1.5"/>
+    <text x="0" y="-98" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">女娲造人</text>
+    <!-- 女娲捏泥人 -->
+    <g transform="translate(-20, -60)">
+      <ellipse cx="0" cy="5" rx="10" ry="14" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-10" r="7" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M8 0 Q15 -5 18 -10" fill="none" stroke="#c84a3a" stroke-width="3"/>
+    </g>
+    <!-- 泥人 -->
+    <g transform="translate(25, -55)">
+      <ellipse cx="0" cy="5" rx="6" ry="8" fill="#e0c898" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-5" r="4" fill="#e0c898" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-1" cy="-6" r="0.8" fill="#7a3b14"/>
+      <circle cx="1" cy="-6" r="0.8" fill="#7a3b14"/>
+    </g>
+    <text x="0" y="-18" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">黄泥捏小人</text>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">创造了人类</text>
+  </g>
+
+  <!-- 节点3：女娲补天 -->
+  <g transform="translate(510, 310)">
+    <circle cx="0" cy="0" r="12" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-75" y="-120" width="150" height="90" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-98" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">女娲补天</text>
+    <!-- 五色石 -->
+    <g transform="translate(-25, -60)">
+      <circle cx="0" cy="0" r="5" fill="#6a8d3f"/>
+      <circle cx="12" cy="2" r="5" fill="#c84a3a"/>
+      <circle cx="24" cy="0" r="5" fill="#e0c898"/>
+      <circle cx="6" cy="12" r="5" fill="#fff6df" stroke="#7a3b14" stroke-width="0.5"/>
+      <circle cx="18" cy="14" r="5" fill="#1a1a1a"/>
+    </g>
+    <text x="0" y="-18" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">炼五色石补天</text>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">拯救了人类</text>
+  </g>
+
+  <!-- 节点4：燧人取火 -->
+  <g transform="translate(680, 310)">
+    <circle cx="0" cy="0" r="12" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-65" y="40" width="130" height="80" rx="6" fill="#fff6df" stroke="#e07856" stroke-width="1.5"/>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">燧人取火</text>
+    <!-- 钻木取火 -->
+    <g transform="translate(0, 85)">
+      <rect x="-15" y="0" width="30" height="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0" y2="-15" stroke="#8d5a36" stroke-width="3"/>
+      <!-- 火花 -->
+      <circle cx="0" cy="-18" r="3" fill="#e07856" opacity="0.8"/>
+      <circle cx="-4" cy="-20" r="2" fill="#ffd700" opacity="0.6"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">钻木取火</text>
+  </g>
+
+  <!-- 底部：神话精神 -->
+  <g transform="translate(0, 420)">
+    <rect x="60" y="0" width="680" height="130" rx="10" fill="#fff6df" stroke="#c84a3a" stroke-width="2"/>
+    <text x="400" y="28" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">中国神话的精神：为人类牺牲</text>
+
+    <g transform="translate(140, 60)">
+      <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">盘古</text>
+      <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">身体化为世界</text>
+    </g>
+    <g transform="translate(300, 60)">
+      <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">女娲</text>
+      <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">炼石补天救人类</text>
+    </g>
+    <g transform="translate(460, 60)">
+      <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">燧人氏</text>
+      <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">钻木取火造福人</text>
+    </g>
+    <g transform="translate(620, 60)">
+      <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">神农氏</text>
+      <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">尝百草发明医药</text>
+    </g>
+
+    <text x="400" y="110" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">神不是来统治人的，而是来帮助人的</text>
+  </g>
+
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">从盘古开天到女娲补天——中国创世神话中的牺牲精神</text>
+</svg>

@@ -1,0 +1,183 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import LessonCard from "../components/LessonCard.astro";
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+
+// 时代分组（按时间顺序）
+const eraOrder = [
+  { key: "myth", label: "远古神话", match: ["远古", "上古", "上古神话", "上古传说", "中国古代神话"], emoji: "🌌", desc: "天地初开，先民想象世界的方式" },
+  { key: "preqin", label: "先秦", match: ["先秦", "春秋", "战国", "春秋战国"], emoji: "📜", desc: "百家争鸣，思想碰撞的黄金时代" },
+  { key: "qin", label: "秦汉", match: ["秦代", "汉代", "西汉", "东汉"], emoji: "🏯", desc: "大一统帝国的建立与巩固" },
+  { key: "threekingdoms", label: "三国两晋", match: ["三国", "魏晋南北朝", "南朝", "东晋"], emoji: "⚔️", desc: "英雄辈出，乱世中的传奇" },
+  { key: "suitang", label: "隋唐", match: ["隋代", "唐代"], emoji: "🏯", desc: "盛世繁华，诗仙诗圣辈出" },
+  { key: "song", label: "宋元", match: ["宋代", "北宋"], emoji: "🖌️", desc: "文人雅士，词赋繁华" },
+  { key: "ming", label: "明清", match: ["明代", "清代", "元末明初成书"], emoji: "🏮", desc: "古典文学集大成的时代" },
+  { key: "modern", label: "近代", match: ["近代", "近现代", "杩戜唬"], emoji: "🌊", desc: "中西碰撞，新旧交替" },
+  { key: "contemporary", label: "现代", match: ["现代", "鐜颁唬"], emoji: "📖", desc: "当代作家的笔触" },
+  { key: "folk", label: "民间传统", match: ["民间故事", "传统", "古代寓言", "古代"], emoji: "🎭", desc: "口耳相传的民间智慧" },
+  { key: "foreign", label: "外国文学", match: ["19世纪", "古希腊", "平安时代"], emoji: "🌏", desc: "异域文化的精彩篇章" },
+];
+
+const gradeOrder = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"];
+
+const lessons = await getCollection("lessons");
+
+// 把课文的 era 值匹配到第一个命中的时代分组（按时间顺序，取最早时代）
+function resolveEraKey(era: string): string | null {
+  const value = (era || "").trim();
+  if (!value) return null;
+  for (const group of eraOrder) {
+    if (group.match.some((m) => value.includes(m))) {
+      return group.key;
+    }
+  }
+  return null;
+}
+
+const groups = eraOrder
+  .map((group) => {
+    const groupLessons = lessons
+      .filter((lesson) => resolveEraKey(lesson.data.era) === group.key)
+      .sort((a, b) => {
+        const gradeDiff = gradeOrder.indexOf(a.data.grade) - gradeOrder.indexOf(b.data.grade);
+        if (gradeDiff !== 0) return gradeDiff;
+        return a.data.title.localeCompare(b.data.title, "zh-CN");
+      });
+    return { ...group, lessons: groupLessons };
+  })
+  .filter((group) => group.lessons.length > 0);
+
+const matchedCount = groups.reduce((sum, g) => sum + g.lessons.length, 0);
+const unmatchedCount = lessons.length - matchedCount;
+---
+
+<BaseLayout
+  title="时代时间轴 - 课文背后的故事"
+  description="沿着历史的脉络，找到每个时代的课文故事。"
+>
+  <section class="page-hero timeline-hero">
+    <div>
+      <p class="eyebrow">TIME LINE</p>
+      <h1>时代时间轴</h1>
+      <p>沿着历史的脉络，找到每个时代的课文故事</p>
+    </div>
+    <div class="timeline-hero-stat">
+      <strong>{groups.length}</strong>
+      <span>个时代 · {matchedCount} 篇课文</span>
+    </div>
+  </section>
+
+  <!-- 横向滚动的时间轴导航 -->
+  <nav class="timeline-nav" aria-label="时代时间轴导航">
+    <div class="timeline-track">
+      {groups.map((group, index) => (
+        <a
+          class="timeline-node"
+          href={`#${group.key}`}
+          data-target={group.key}
+        >
+          <span class="timeline-node-index">{String(index + 1).padStart(2, "0")}</span>
+          <span class="timeline-node-emoji">{group.emoji}</span>
+          <span class="timeline-node-label">{group.label}</span>
+          <span class="timeline-node-count">{group.lessons.length}</span>
+        </a>
+      ))}
+    </div>
+  </nav>
+
+  <!-- 时代区块 -->
+  <div class="timeline-sections">
+    {groups.map((group) => (
+      <section
+        class="timeline-section"
+        id={group.key}
+        style="scroll-margin-top: 130px;"
+      >
+        <header class="timeline-section-header">
+          <div class="timeline-section-title">
+            <span class="timeline-emoji" aria-hidden="true">{group.emoji}</span>
+            <div>
+              <h2>{group.label}</h2>
+              <p class="timeline-desc">{group.desc}</p>
+            </div>
+          </div>
+          <span class="timeline-count">{group.lessons.length} 篇课文</span>
+        </header>
+        <div class="card-grid lesson-list timeline-grid">
+          {group.lessons.map((lesson) => <LessonCard lesson={lesson} />)}
+        </div>
+      </section>
+    ))}
+  </div>
+
+  {unmatchedCount > 0 && (
+    <p class="timeline-note">
+      共 {lessons.length} 篇课文，其中 {unmatchedCount} 篇暂未归入历史时代，未在时间轴展示。
+    </p>
+  )}
+
+  <p class="empty-state" id="timelineEmpty" hidden>暂无课文收录到时间轴中。</p>
+
+  <script>
+    // 滚动联动：高亮当前时代节点，并把节点滚动到导航条可视区域
+    const nodes = [...document.querySelectorAll<HTMLAnchorElement>(".timeline-node")];
+    const sections = [...document.querySelectorAll<HTMLElement>(".timeline-section")];
+
+    if (nodes.length && sections.length) {
+      const nodeMap = new Map<string, HTMLAnchorElement>();
+      nodes.forEach((n) => nodeMap.set(n.dataset.target || "", n));
+
+      let activeId: string | null = null;
+
+      const setActive = (id: string) => {
+        if (id === activeId) return;
+        activeId = id;
+        nodes.forEach((n) => n.classList.toggle("active", n.dataset.target === id));
+        const active = nodeMap.get(id);
+        if (active) {
+          active.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+        }
+      };
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          // 选取当前最靠近视口顶部且可见的 section
+          const visible = entries
+            .filter((e) => e.isIntersecting)
+            .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+          if (visible[0]) {
+            setActive(visible[0].target.id);
+          }
+        },
+        { rootMargin: "-25% 0px -65% 0px", threshold: 0 }
+      );
+      sections.forEach((s) => observer.observe(s));
+
+      // 点击节点：平滑滚动到对应时代区块
+      nodes.forEach((node) => {
+        node.addEventListener("click", (event) => {
+          const targetId = node.dataset.target || "";
+          const target = document.getElementById(targetId);
+          if (target) {
+            event.preventDefault();
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+            history.replaceState(null, "", `#${targetId}`);
+          }
+        });
+      });
+
+      // 进入页面时若 URL 带锚点，滚动到对应区块
+      if (location.hash) {
+        const target = document.getElementById(location.hash.slice(1));
+        if (target) {
+          requestAnimationFrame(() => target.scrollIntoView({ behavior: "smooth", block: "start" }));
+        }
+      } else if (nodes[0]) {
+        nodes[0].classList.add("active");
+      }
+    }
+  </script>
+</BaseLayout>

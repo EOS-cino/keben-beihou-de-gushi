@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="月光照在湖面上泛着银光的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 夜空 -->
+  <rect x="0" y="0" width="800" height="380" fill="#4a90b8" opacity="0.12"/>
+  <!-- 月亮 -->
+  <circle cx="600" cy="130" r="55" fill="#fef9ed" opacity="0.9"/>
+  <circle cx="600" cy="130" r="55" fill="none" stroke="#e8a838" stroke-width="2" opacity="0.3"/>
+  <!-- 月亮纹理 -->
+  <circle cx="585" cy="115" r="8" fill="#e8a838" opacity="0.1"/>
+  <circle cx="615" cy="140" r="6" fill="#e8a838" opacity="0.1"/>
+  <circle cx="595" cy="145" r="5" fill="#e8a838" opacity="0.1"/>
+  <!-- 星星 -->
+  <g fill="#e8a838" opacity="0.6">
+    <circle cx="100" cy="80" r="2"/>
+    <circle cx="200" cy="120" r="2.5"/>
+    <circle cx="300" cy="60" r="2"/>
+    <circle cx="400" cy="100" r="3"/>
+    <circle cx="150" cy="180" r="2"/>
+    <circle cx="350" cy="200" r="2.5"/>
+    <circle cx="450" cy="150" r="2"/>
+    <circle cx="250" cy="250" r="2"/>
+    <circle cx="500" cy="220" r="2.5"/>
+    <circle cx="700" cy="250" r="2"/>
+  </g>
+  <!-- 远山 -->
+  <path d="M0 320 Q150 260 300 300 Q450 250 600 290 Q700 270 800 310 L800 380 L0 380 Z" fill="#2d6a4f" opacity="0.2"/>
+  <path d="M0 350 Q200 300 400 330 Q600 310 800 340 L800 380 L0 380 Z" fill="#2d6a4f" opacity="0.3"/>
+  <!-- 湖面 -->
+  <rect x="0" y="380" width="800" height="220" fill="#4a90b8" opacity="0.15"/>
+  <!-- 月光倒影 -->
+  <g opacity="0.4">
+    <ellipse cx="600" cy="400" rx="40" ry="4" fill="#fef9ed"/>
+    <ellipse cx="600" cy="420" rx="35" ry="3" fill="#fef9ed"/>
+    <ellipse cx="600" cy="440" rx="30" ry="3" fill="#fef9ed"/>
+    <ellipse cx="600" cy="460" rx="25" ry="2" fill="#fef9ed"/>
+    <ellipse cx="600" cy="480" rx="20" ry="2" fill="#fef9ed"/>
+    <ellipse cx="600" cy="500" rx="15" ry="2" fill="#fef9ed"/>
+  </g>
+  <!-- 湖面波纹 -->
+  <g stroke="#4a90b8" stroke-width="1.5" fill="none" opacity="0.3" stroke-linecap="round">
+    <path d="M100 420 Q120 418 140 420"/>
+    <path d="M200 450 Q220 448 240 450"/>
+    <path d="M80 480 Q100 478 120 480"/>
+    <path d="M300 470 Q320 468 340 470"/>
+    <path d="M150 520 Q170 518 190 520"/>
+    <path d="M350 500 Q370 498 390 500"/>
+    <path d="M700 430 Q720 428 740 430"/>
+    <path d="M650 490 Q670 488 690 490"/>
+  </g>
+  <!-- 芦苇 -->
+  <g transform="translate(100 380)">
+    <line x1="0" y1="0" x2="-5" y2="-60" stroke="#2d6a4f" stroke-width="2"/>
+    <line x1="15" y1="0" x2="10" y2="-70" stroke="#2d6a4f" stroke-width="2"/>
+    <line x1="30" y1="0" x2="25" y2="-55" stroke="#2d6a4f" stroke-width="2"/>
+    <ellipse cx="-5" cy="-60" rx="3" ry="8" fill="#e8a838" opacity="0.6"/>
+    <ellipse cx="10" cy="-70" rx="3" ry="8" fill="#e8a838" opacity="0.6"/>
+    <ellipse cx="25" cy="-55" rx="3" ry="8" fill="#e8a838" opacity="0.6"/>
+  </g>
+  <g transform="translate(720 380)">
+    <line x1="0" y1="0" x2="5" y2="-65" stroke="#2d6a4f" stroke-width="2"/>
+    <line x1="-15" y1="0" x2="-10" y2="-75" stroke="#2d6a4f" stroke-width="2"/>
+    <ellipse cx="5" cy="-65" rx="3" ry="8" fill="#e8a838" opacity="0.6"/>
+    <ellipse cx="-10" cy="-75" rx="3" ry="8" fill="#e8a838" opacity="0.6"/>
+  </g>
+  <!-- 小船 -->
+  <g transform="translate(350 440)">
+    <path d="M-30 0 Q-25 10 0 10 Q25 10 30 0 Z" fill="#8b6f47"/>
+    <line x1="0" y1="0" x2="0" y2="-25" stroke="#8b6f47" stroke-width="2"/>
+    <path d="M0 -25 L15 -15 L0 -15 Z" fill="#fef9ed" opacity="0.7"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#2d6a4f">月光</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7a7468">同一轮月亮，照着不同的心事</text>
+</svg>

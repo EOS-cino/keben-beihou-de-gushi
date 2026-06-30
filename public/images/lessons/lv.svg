@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天满眼绿色与风中之叶的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">绿</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#3a7d44" stroke-width="2"/>
+  <!-- 倾倒的墨水瓶 -->
+  <path d="M 90 200 l 50 0 l 10 40 l -70 0 z" fill="#3a3a3a" opacity="0.7"/>
+  <ellipse cx="115" cy="200" rx="25" ry="8" fill="#1a1a1a"/>
+  <!-- 绿颜料泼洒 -->
+  <path d="M 140 240 q 80 20 160 0 q 80 30 160 0 q 80 20 160 0 q 60 30 120 0 l 0 220 l -800 0 l 0 -200 q 60 20 120 0 z" fill="#3a7d44" opacity="0.5"/>
+  <!-- 各种绿 -->
+  <ellipse cx="240" cy="340" rx="50" ry="22" fill="#1e4d2b"/>
+  <ellipse cx="360" cy="360" rx="50" ry="22" fill="#3a7d44"/>
+  <ellipse cx="480" cy="340" rx="50" ry="22" fill="#6b8e7f"/>
+  <ellipse cx="600" cy="360" rx="50" ry="22" fill="#8fb996"/>
+  <ellipse cx="200" cy="420" rx="50" ry="22" fill="#4a7c59"/>
+  <ellipse cx="340" cy="440" rx="50" ry="22" fill="#2d6a4f"/>
+  <ellipse cx="500" cy="430" rx="50" ry="22" fill="#95d5b2"/>
+  <ellipse cx="640" cy="450" rx="50" ry="22" fill="#52796f"/>
+  <!-- 风线 -->
+  <path d="M 120 280 q 60 -10 120 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 300 290 q 60 -10 120 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 500 280 q 60 -10 120 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">所有的绿，在一起舞蹈</text>
+</svg>

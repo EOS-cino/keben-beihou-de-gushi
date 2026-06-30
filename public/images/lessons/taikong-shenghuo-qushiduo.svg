@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="宇航员在太空舱中失重漂浮、喝水吃饭的趣味场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">太空生活趣事多</text>
+  <line x1="320" y1="58" x2="480" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 太空背景 -->
+  <rect x="0" y="72" width="800" height="528" fill="#1a1a3a" opacity="0.08"/>
+
+  <!-- 星星 -->
+  <circle cx="80" cy="110" r="2" fill="#c8843a" opacity="0.6"/>
+  <circle cx="200" cy="90" r="1.5" fill="#c8843a" opacity="0.5"/>
+  <circle cx="700" cy="100" r="2" fill="#c8843a" opacity="0.6"/>
+  <circle cx="620" cy="130" r="1.5" fill="#c8843a" opacity="0.5"/>
+  <circle cx="120" cy="200" r="1.5" fill="#c8843a" opacity="0.4"/>
+  <circle cx="730" cy="220" r="2" fill="#c8843a" opacity="0.5"/>
+
+  <!-- 地球（窗外） -->
+  <circle cx="680" cy="180" r="50" fill="#a8d0e8" opacity="0.5"/>
+  <path d="M645 175 Q660 165 675 175 Q690 185 705 175 Q715 185 710 195" fill="#6a8d3f" opacity="0.4"/>
+
+  <!-- 太空舱圆窗 -->
+  <circle cx="680" cy="180" r="55" fill="none" stroke="#7a3b14" stroke-width="3" opacity="0.5"/>
+
+  <!-- 宇航员1：漂浮喝水 -->
+  <g transform="translate(280, 240)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="35" ry="45" fill="#e0e0e0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头盔 -->
+    <circle cx="0" cy="-55" r="28" fill="#a8d0e8" opacity="0.4" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-55" r="22" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="-7" cy="-57" r="2" fill="#7a3b14"/>
+    <circle cx="7" cy="-57" r="2" fill="#7a3b14"/>
+    <!-- 笑嘴 -->
+    <path d="M-6 -48 Q0 -44 6 -48" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手臂 -->
+    <path d="M-30 -10 Q-50 -5 -55 10" fill="none" stroke="#e0e0e0" stroke-width="10" stroke-linecap="round"/>
+    <path d="M30 -10 Q50 -15 55 -5" fill="none" stroke="#e0e0e0" stroke-width="10" stroke-linecap="round"/>
+    <!-- 水袋 -->
+    <rect x="48" y="-15" width="20" height="28" rx="4" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 吸管 -->
+    <path d="M58 -15 Q50 -25 40 -30 Q30 -35 20 -32" fill="none" stroke="#7ab8d8" stroke-width="3" stroke-linecap="round"/>
+    <!-- 水珠飘出 -->
+    <circle cx="15" cy="-28" r="4" fill="#7ab8d8" opacity="0.7"/>
+    <circle cx="5" cy="-35" r="3" fill="#7ab8d8" opacity="0.6"/>
+    <circle cx="-5" cy="-30" r="2.5" fill="#7ab8d8" opacity="0.5"/>
+    <!-- 国旗标志 -->
+    <rect x="-12" y="-5" width="24" height="16" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="-12" y="-5" width="8" height="5" fill="#ffd700"/>
+  </g>
+
+  <!-- 宇航员2：睡袋绑墙上 -->
+  <g transform="translate(130, 380)">
+    <!-- 睡袋 -->
+    <path d="M-25 50 Q-30 0 -25 -40 Q-25 -50 0 -50 Q25 -50 25 -40 Q30 0 25 50 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头部露出 -->
+    <circle cx="0" cy="-45" r="18" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-5" cy="-47" r="1.5" fill="#7a3b14"/>
+    <circle cx="5" cy="-47" r="1.5" fill="#7a3b14"/>
+    <path d="M-4 -40 Q0 -38 4 -40" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 绑带 -->
+    <line x1="-30" y1="-10" x2="30" y2="-10" stroke="#7a3b14" stroke-width="3"/>
+    <line x1="-30" y1="20" x2="30" y2="20" stroke="#7a3b14" stroke-width="3"/>
+    <!-- 墙壁固定点 -->
+    <rect x="-35" y="-15" width="6" height="10" fill="#7a3b14"/>
+    <rect x="29" y="-15" width="6" height="10" fill="#7a3b14"/>
+  </g>
+
+  <!-- 飘浮的食物盒 -->
+  <g transform="translate(520, 360)">
+    <rect x="-20" y="-12" width="40" height="24" rx="3" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-20" y="-12" width="40" height="8" fill="#c84a3a"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">太空餐</text>
+  </g>
+  <g transform="translate(580, 420)">
+    <rect x="-15" y="-10" width="30" height="20" rx="3" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1.5" opacity="0.8"/>
+  </g>
+
+  <!-- 飘浮的水珠 -->
+  <circle cx="450" cy="300" r="5" fill="#7ab8d8" opacity="0.6"/>
+  <circle cx="470" cy="330" r="3" fill="#7ab8d8" opacity="0.5"/>
+  <circle cx="420" cy="380" r="4" fill="#7ab8d8" opacity="0.5"/>
+
+  <!-- 标注：失重喝水 -->
+  <line x1="320" y1="210" x2="370" y2="160" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="330" y="135" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="385" y="153" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">失重喝水</text>
+
+  <!-- 标注：绑着睡 -->
+  <line x1="160" y1="350" x2="100" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="40" y="288" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="95" y="306" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">绑着睡袋</text>
+
+  <!-- 标注：食物飘浮 -->
+  <line x1="520" y1="348" x2="560" y2="300" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="510" y="278" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="565" y="296" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">食物飘浮</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">失重让一切飘起来——宇航员的太空生活有趣又奇妙</text>
+</svg>

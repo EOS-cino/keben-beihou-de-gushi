@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="夜海中诺曼底号与救生艇的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">"诺曼底号"遇难记</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#1e5f8e" stroke-width="2"/>
+  <!-- 夜空 -->
+  <rect x="0" y="100" width="800" height="220" fill="#2c3e50" opacity="0.3"/>
+  <circle cx="140" cy="160" r="3" fill="#f5efe0"/>
+  <circle cx="280" cy="140" r="2.5" fill="#f5efe0"/>
+  <circle cx="620" cy="150" r="3" fill="#f5efe0"/>
+  <circle cx="700" cy="180" r="2.5" fill="#f5efe0"/>
+  <!-- 倾斜的诺曼底号 -->
+  <g transform="rotate(-12 400 320)">
+    <path d="M 180 340 l 440 0 l -30 50 l -380 0 z" fill="#3a3a3a"/>
+    <rect x="220" y="290" width="360" height="50" fill="#7d8a99"/>
+    <rect x="260" y="250" width="60" height="40" fill="#9bb7c4"/>
+    <rect x="360" y="250" width="60" height="40" fill="#9bb7c4"/>
+    <rect x="460" y="250" width="60" height="40" fill="#9bb7c4"/>
+    <!-- 烟囱 -->
+    <rect x="340" y="200" width="30" height="50" fill="#5d4037"/>
+    <rect x="440" y="200" width="30" height="50" fill="#5d4037"/>
+    <!-- 桅杆 -->
+    <line x1="260" y1="290" x2="260" y2="200" stroke="#3a3a3a" stroke-width="2"/>
+    <line x1="540" y1="290" x2="540" y2="200" stroke="#3a3a3a" stroke-width="2"/>
+  </g>
+  <!-- 撞来的玛丽号（远处黑影） -->
+  <path d="M 640 330 l 80 0 l -10 30 l -60 0 z" fill="#1a1a1a" opacity="0.6"/>
+  <!-- 海浪 -->
+  <path d="M 0 400 q 100 -20 200 0 q 100 20 200 0 q 100 20 200 0 q 100 -20 200 0 l 0 200 l -800 0 z" fill="#1e5f8e" opacity="0.5"/>
+  <path d="M 0 430 q 100 -16 200 0 q 100 16 200 0 q 100 16 200 0 q 100 -16 200 0" stroke="#9bb7c4" stroke-width="2" fill="none"/>
+  <!-- 救生艇 -->
+  <path d="M 100 470 q 50 -10 100 0 q -10 20 -50 20 q -40 0 -50 -20 z" fill="#d4a017" opacity="0.7"/>
+  <path d="M 260 490 q 50 -10 100 0 q -10 20 -50 20 q -40 0 -50 -20 z" fill="#d4a017" opacity="0.7"/>
+  <path d="M 560 480 q 50 -10 100 0 q -10 20 -50 20 q -40 0 -50 -20 z" fill="#d4a017" opacity="0.7"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">沉船时刻，船长与船共存亡</text>
+</svg>

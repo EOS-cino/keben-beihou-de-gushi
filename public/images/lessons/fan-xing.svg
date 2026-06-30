@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="海上夜空中繁星闪烁插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">繁星</text>
+  <line x1="350" y1="62" x2="450" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="0" y="70" width="800" height="350" fill="#1a2a3a" opacity="0.15"/>
+
+  <!-- 星星（大量） -->
+  <g fill="#e8a838" opacity="0.8">
+    <circle cx="80" cy="100" r="2"/>
+    <circle cx="150" cy="85" r="1.5"/>
+    <circle cx="220" cy="110" r="2.5"/>
+    <circle cx="290" cy="90" r="1.5"/>
+    <circle cx="350" cy="105" r="2"/>
+    <circle cx="420" cy="85" r="3"/>
+    <circle cx="490" cy="100" r="1.5"/>
+    <circle cx="560" cy="90" r="2"/>
+    <circle cx="630" cy="110" r="2.5"/>
+    <circle cx="700" cy="95" r="1.5"/>
+    <circle cx="50" cy="140" r="1.5"/>
+    <circle cx="120" cy="155" r="2"/>
+    <circle cx="190" cy="140" r="1.5"/>
+    <circle cx="260" cy="160" r="2.5"/>
+    <circle cx="330" cy="145" r="1.5"/>
+    <circle cx="400" cy="165" r="2"/>
+    <circle cx="470" cy="150" r="3"/>
+    <circle cx="540" cy="160" r="1.5"/>
+    <circle cx="610" cy="145" r="2"/>
+    <circle cx="680" cy="160" r="2.5"/>
+    <circle cx="750" cy="140" r="1.5"/>
+    <circle cx="90" cy="200" r="2"/>
+    <circle cx="170" cy="190" r="1.5"/>
+    <circle cx="240" cy="210" r="2.5"/>
+    <circle cx="310" cy="195" r="2"/>
+    <circle cx="380" cy="215" r="1.5"/>
+    <circle cx="450" cy="200" r="2"/>
+    <circle cx="520" cy="210" r="2.5"/>
+    <circle cx="590" cy="195" r="1.5"/>
+    <circle cx="660" cy="215" r="2"/>
+    <circle cx="730" cy="200" r="1.5"/>
+    <circle cx="60" cy="250" r="1.5"/>
+    <circle cx="130" cy="260" r="2"/>
+    <circle cx="200" cy="245" r="2.5"/>
+    <circle cx="270" cy="265" r="1.5"/>
+    <circle cx="340" cy="250" r="2"/>
+    <circle cx="480" cy="260" r="2"/>
+    <circle cx="550" cy="245" r="1.5"/>
+    <circle cx="620" cy="265" r="2.5"/>
+    <circle cx="690" cy="250" r="2"/>
+    <circle cx="760" cy="260" r="1.5"/>
+  </g>
+
+  <!-- 大星星（闪烁的） -->
+  <g fill="#fef9ed" stroke="#e8a838" stroke-width="1">
+    <path d="M180 130 L183 122 L186 130 L194 133 L186 136 L183 144 L180 136 L172 133 Z" opacity="0.9"/>
+    <path d="M440 175 L443 167 L446 175 L454 178 L446 181 L443 189 L440 181 L432 178 Z" opacity="0.9"/>
+    <path d="M620 230 L623 222 L626 230 L634 233 L626 236 L623 244 L620 236 L612 233 Z" opacity="0.9"/>
+    <path d="M300 120 L302 114 L304 120 L310 122 L304 124 L302 130 L300 124 L294 122 Z" opacity="0.8"/>
+  </g>
+
+  <!-- 月亮（弯月） -->
+  <g transform="translate(680, 120)" opacity="0.6">
+    <circle cx="0" cy="0" r="20" fill="#fef9ed"/>
+    <circle cx="8" cy="-3" r="18" fill="#1a2a3a" opacity="0.3"/>
+  </g>
+
+  <!-- 海平面 -->
+  <rect x="0" y="380" width="800" height="140" fill="#4a90b8" opacity="0.3"/>
+  <rect x="0" y="380" width="800" height="140" fill="#3a7a98" opacity="0.2"/>
+
+  <!-- 海面波纹 -->
+  <path d="M0 400 Q100 395 200 400 Q300 405 400 400 Q500 395 600 400 Q700 405 800 400" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.5"/>
+  <path d="M0 430 Q120 425 240 430 Q360 435 480 430 Q600 425 720 430 Q780 432 800 430" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.5"/>
+  <path d="M0 460 Q100 455 200 460 Q300 465 400 460 Q500 455 600 460 Q700 465 800 460" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- 星星倒影 -->
+  <g fill="#e8a838" opacity="0.2">
+    <circle cx="180" cy="410" r="1.5"/>
+    <circle cx="440" cy="420" r="2"/>
+    <circle cx="620" cy="415" r="1.5"/>
+    <circle cx="300" cy="425" r="1"/>
+  </g>
+
+  <!-- 船（甲板上躺着的人） -->
+  <g transform="translate(400, 470)">
+    <!-- 船身 -->
+    <path d="M-120 20 L-100 50 L100 50 L120 20 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 甲板 -->
+    <rect x="-100" y="15" width="200" height="8" fill="#a07050" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 桅杆 -->
+    <rect x="-3" y="-60" width="6" height="75" fill="#5a3a1a"/>
+    <!-- 躺着的人 -->
+    <g transform="translate(20, 10)">
+      <!-- 头 -->
+      <circle cx="-25" cy="0" r="10" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 身体（躺着） -->
+      <rect x="-15" y="-5" width="40" height="10" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+      <!-- 腿 -->
+      <rect x="25" y="-3" width="25" height="6" fill="#3a4a5a" rx="2"/>
+      <!-- 手（枕在头下） -->
+      <path d="M-25 5 L-30 0" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- 标注：繁星满天 -->
+  <line x1="440" y1="175" x2="540" y2="130" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="510" y="105" width="90" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="555" y="122" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">繁星满天</text>
+
+  <!-- 标注：海上星空 -->
+  <line x1="400" y1="460" x2="500" y2="420" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="480" y="395" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="530" y="412" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">甲板仰望</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">海上的星空天连着海、海连着天，星星像睡在母亲的怀里——温暖又安心</text>
+</svg>

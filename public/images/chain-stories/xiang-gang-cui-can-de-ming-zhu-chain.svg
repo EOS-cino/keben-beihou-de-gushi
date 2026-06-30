@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：祖国海边的几颗明珠">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：祖国海边的几颗明珠</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">沿海一串明珠，各有各的美</text>
+  <g transform="translate(140,290)">
+    <path d="M-30,40 L30,40 L20,-30 L-20,-30 Z" fill="#9aa8c0" stroke="#3a4a6a" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="18" fill="#3a4a6a">大连</text>
+  </g>
+  <g transform="translate(310,290)">
+    <rect x="-30" y="-30" width="60" height="70" fill="#c0392b" stroke="#7a1a1a" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="18" fill="#c0392b">上海</text>
+  </g>
+  <g transform="translate(480,290)">
+    <path d="M-30,40 L0,-30 L30,40 Z" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="18" fill="#a8742a">广州</text>
+  </g>
+  <g transform="translate(650,290)">
+    <circle cx="0" cy="10" r="34" fill="#7fb8d8" stroke="#2a5a7a" stroke-width="2"/>
+    <circle cx="0" cy="10" r="14" fill="#fbe9c8"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="18" fill="#2a5a7a">香港</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">沿着海岸线，逛一遍中国</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="雨水循环与春雨润物原理插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：春雨为什么"润物细无声"</text>
+  <line x1="120" y1="55" x2="680" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 水循环图 -->
+  <!-- 海洋 -->
+  <path d="M0 380 Q200 370 400 380 Q600 370 800 380 L800 430 L0 430 Z" fill="#4a90b8" opacity="0.4"/>
+  <text x="400" y="418" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a8a">大海</text>
+
+  <!-- 蒸发箭头 -->
+  <g stroke="#4a90b8" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round">
+    <path d="M150 370 Q150 300 150 250" marker-end="url(#up2)"/>
+    <path d="M250 370 Q250 300 250 240" marker-end="url(#up2)"/>
+    <path d="M550 370 Q550 300 550 250" marker-end="url(#up2)"/>
+    <path d="M650 370 Q650 300 650 240" marker-end="url(#up2)"/>
+  </g>
+  <defs>
+    <marker id="up2" markerWidth="8" markerHeight="8" refX="4" refY="0" orient="auto">
+      <path d="M0 8 L4 0 L8 8 Z" fill="#4a90b8"/>
+    </marker>
+  </defs>
+  <text x="180" y="320" font-family="serif" font-size="10" fill="#4a6a8a">蒸发</text>
+
+  <!-- 云 -->
+  <g fill="#c8d4dc" opacity="0.8">
+    <ellipse cx="200" cy="200" rx="50" ry="22"/>
+    <ellipse cx="230" cy="210" rx="36" ry="18"/>
+    <ellipse cx="560" cy="190" rx="46" ry="20"/>
+    <ellipse cx="590" cy="200" rx="34" ry="16"/>
+  </g>
+  <text x="400" y="170" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">水蒸气升上天变成云</text>
+
+  <!-- 降雨 -->
+  <g stroke="#4a90b8" stroke-width="2" opacity="0.6" stroke-linecap="round">
+    <line x1="200" y1="225" x2="196" y2="260"/>
+    <line x1="220" y1="225" x2="216" y2="260"/>
+    <line x1="240" y1="225" x2="236" y2="260"/>
+    <line x1="560" y1="215" x2="556" y2="250"/>
+    <line x1="580" y1="215" x2="576" y2="250"/>
+    <line x1="600" y1="215" x2="596" y2="250"/>
+  </g>
+
+  <!-- 陆地与植物 -->
+  <rect x="0" y="330" width="800" height="50" fill="#8d6f47" opacity="0.3"/>
+  <g transform="translate(220 330)">
+    <path d="M0 0 Q-2 -30 -10 -44" stroke="#2d6a4f" stroke-width="3" fill="none"/>
+    <path d="M0 0 Q2 -30 10 -44" stroke="#2d6a4f" stroke-width="3" fill="none"/>
+    <ellipse cx="-10" cy="-44" rx="6" ry="10" fill="#2d6a4f" opacity="0.8"/>
+    <ellipse cx="10" cy="-44" rx="6" ry="10" fill="#2d6a4f" opacity="0.8"/>
+  </g>
+  <g transform="translate(580 330)">
+    <path d="M0 0 Q-2 -26 -8 -38" stroke="#2d6a4f" stroke-width="2.5" fill="none"/>
+    <ellipse cx="-8" cy="-38" rx="5" ry="8" fill="#3d8a5f" opacity="0.8"/>
+  </g>
+  <text x="400" y="355" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">春雨慢慢渗进土里，被根吸收</text>
+
+  <!-- 河流回海 -->
+  <path d="M400 380 Q300 400 150 420" stroke="#4a90b8" stroke-width="3" fill="none" opacity="0.5"/>
+  <text x="280" y="410" font-family="serif" font-size="10" fill="#4a6a8a">河水流回大海</text>
+
+  <!-- 三特点框 -->
+  <g transform="translate(80 460)">
+    <rect x="0" y="0" width="200" height="46" fill="#fff6df" stroke="#4a90b8" stroke-width="1.5" rx="6"/>
+    <text x="100" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#4a90b8">毛毛雨：细无声</text>
+    <text x="100" y="34" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">雨滴小，落地力量轻</text>
+  </g>
+  <g transform="translate(300 460)">
+    <rect x="0" y="0" width="200" height="46" fill="#fff6df" stroke="#2d6a4f" stroke-width="1.5" rx="6"/>
+    <text x="100" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">慢：润物</text>
+    <text x="100" y="34" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">渗得深，不流走</text>
+  </g>
+  <g transform="translate(520 460)">
+    <rect x="0" y="0" width="200" height="46" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="6"/>
+    <text x="100" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#e8a838">春雨贵如油</text>
+    <text x="100" y="34" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">正是种子发芽时</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="525" width="700" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.85"/>
+  <text x="400" y="548" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">水从海到云到雨到河再到海，转一大圈又回来——</text>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">春雨的"慢"和"柔"，是它最了不起的力量。</text>
+</svg>

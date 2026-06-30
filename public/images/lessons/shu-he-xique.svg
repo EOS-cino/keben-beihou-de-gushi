@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从一棵树一只喜鹊到许多树许多喜鹊的对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">树和喜鹊</text>
+
+  <!-- 分割线 -->
+  <line x1="400" y1="80" x2="400" y2="560" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 左边：从前（孤单） -->
+  <text x="200" y="110" text-anchor="middle" font-family="serif" font-size="20" fill="#8d5a36" font-weight="bold">从前·孤单</text>
+  <rect x="40" y="120" width="360" height="430" fill="#8d5a36" opacity="0.06"/>
+
+  <!-- 光秃秃的原野，一棵树 -->
+  <rect x="40" y="460" width="360" height="90" fill="#c8843a" opacity="0.2"/>
+  <g transform="translate(200,460)">
+    <!-- 树干 -->
+    <rect x="-10" y="-120" width="20" height="120" fill="#7a3b14"/>
+    <!-- 树冠（稀疏） -->
+    <ellipse cx="0" cy="-140" rx="50" ry="45" fill="#6a8d3f" opacity="0.85"/>
+    <ellipse cx="-25" cy="-130" rx="28" ry="25" fill="#4a6a2f" opacity="0.8"/>
+    <ellipse cx="25" cy="-135" rx="30" ry="27" fill="#6a8d3f" opacity="0.8"/>
+    <!-- 鸟窝 -->
+    <ellipse cx="15" cy="-115" rx="18" ry="10" fill="#8d5a36"/>
+    <ellipse cx="15" cy="-117" rx="14" ry="6" fill="#5a2a10"/>
+    <!-- 一只孤单的喜鹊 -->
+    <g transform="translate(15,-130)">
+      <ellipse cx="0" cy="0" rx="12" ry="9" fill="#3a3a3a"/>
+      <circle cx="-8" cy="-6" r="7" fill="#3a3a3a"/>
+      <circle cx="-10" cy="-7" r="2" fill="#fef9ed"/>
+      <circle cx="-10" cy="-7" r="1" fill="#1a1a1a"/>
+      <path d="M-14 -6 L-20 -5 L-14 -4 Z" fill="#c8843a"/>
+      <!-- 白肚子 -->
+      <ellipse cx="2" cy="3" rx="6" ry="5" fill="#fef9ed"/>
+      <!-- 尾巴 -->
+      <path d="M10 2 L22 -2 L22 6 Z" fill="#3a3a3a"/>
+    </g>
+  </g>
+  <!-- 叹气 -->
+  <text x="200" y="310" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">唉，真没意思……</text>
+  <text x="200" y="540" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">只有一棵树，只有一只喜鹊</text>
+
+  <!-- 右边：后来（快乐） -->
+  <text x="600" y="110" text-anchor="middle" font-family="serif" font-size="20" fill="#6a8d3f" font-weight="bold">后来·快乐</text>
+  <rect x="400" y="120" width="360" height="430" fill="#6a8d3f" opacity="0.06"/>
+
+  <!-- 许多树 -->
+  <rect x="400" y="460" width="360" height="90" fill="#6a8d3f" opacity="0.2"/>
+  <!-- 树1 -->
+  <g transform="translate(470,460)">
+    <rect x="-7" y="-90" width="14" height="90" fill="#7a3b14"/>
+    <ellipse cx="0" cy="-105" rx="38" ry="35" fill="#6a8d3f"/>
+    <ellipse cx="-15" cy="-100" rx="20" ry="18" fill="#4a6a2f"/>
+    <ellipse cx="12" cy="-108" rx="22" ry="20" fill="#6a8d3f"/>
+    <ellipse cx="10" cy="-88" rx="12" ry="7" fill="#8d5a36"/>
+  </g>
+  <!-- 树2 -->
+  <g transform="translate(580,460)">
+    <rect x="-8" y="-100" width="16" height="100" fill="#7a3b14"/>
+    <ellipse cx="0" cy="-118" rx="42" ry="38" fill="#6a8d3f"/>
+    <ellipse cx="-18" cy="-112" rx="22" ry="20" fill="#4a6a2f"/>
+    <ellipse cx="16" cy="-115" rx="24" ry="22" fill="#6a8d3f"/>
+    <ellipse cx="-12" cy="-100" rx="12" ry="7" fill="#8d5a36"/>
+    <ellipse cx="14" cy="-95" rx="10" ry="6" fill="#8d5a36"/>
+  </g>
+  <!-- 树3 -->
+  <g transform="translate(690,460)">
+    <rect x="-7" y="-85" width="14" height="85" fill="#7a3b14"/>
+    <ellipse cx="0" cy="-100" rx="36" ry="33" fill="#6a8d3f"/>
+    <ellipse cx="-14" cy="-95" rx="19" ry="17" fill="#4a6a2f"/>
+    <ellipse cx="13" cy="-102" rx="21" ry="19" fill="#6a8d3f"/>
+    <ellipse cx="-8" cy="-85" rx="11" ry="6" fill="#8d5a36"/>
+  </g>
+
+  <!-- 许多喜鹊（叽叽喳喳） -->
+  <g transform="translate(470,340)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#3a3a3a"/>
+    <circle cx="-7" cy="-5" r="6" fill="#3a3a3a"/>
+    <circle cx="-9" cy="-6" r="1.5" fill="#fef9ed"/>
+    <path d="M-12 -5 L-17 -4 L-12 -3 Z" fill="#c8843a"/>
+    <ellipse cx="2" cy="2" rx="5" ry="4" fill="#fef9ed"/>
+    <path d="M9 1 L19 -2 L19 5 Z" fill="#3a3a3a"/>
+  </g>
+  <g transform="translate(580,310)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#3a3a3a"/>
+    <circle cx="-7" cy="-5" r="6" fill="#3a3a3a"/>
+    <circle cx="-9" cy="-6" r="1.5" fill="#fef9ed"/>
+    <path d="M-12 -5 L-17 -4 L-12 -3 Z" fill="#c8843a"/>
+    <ellipse cx="2" cy="2" rx="5" ry="4" fill="#fef9ed"/>
+    <path d="M9 1 L19 -2 L19 5 Z" fill="#3a3a3a"/>
+  </g>
+  <g transform="translate(690,330)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#3a3a3a"/>
+    <circle cx="-7" cy="-5" r="6" fill="#3a3a3a"/>
+    <circle cx="-9" cy="-6" r="1.5" fill="#fef9ed"/>
+    <path d="M-12 -5 L-17 -4 L-12 -3 Z" fill="#c8843a"/>
+    <ellipse cx="2" cy="2" rx="5" ry="4" fill="#fef9ed"/>
+    <path d="M9 1 L19 -2 L19 5 Z" fill="#3a3a3a"/>
+  </g>
+  <g transform="translate(530,380)">
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="#3a3a3a"/>
+    <circle cx="-6" cy="-4" r="5" fill="#3a3a3a"/>
+    <path d="M8 1 L16 -1 L16 4 Z" fill="#3a3a3a"/>
+  </g>
+  <g transform="translate(640,390)">
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="#3a3a3a"/>
+    <circle cx="-6" cy="-4" r="5" fill="#3a3a3a"/>
+    <path d="M8 1 L16 -1 L16 4 Z" fill="#3a3a3a"/>
+  </g>
+
+  <!-- 叽叽喳喳 -->
+  <text x="600" y="270" text-anchor="middle" font-family="serif" font-size="14" fill="#6a8d3f">叽叽喳喳，热闹极了！</text>
+  <text x="600" y="540" text-anchor="middle" font-family="serif" font-size="13" fill="#6a8d3f">好多树，好多喜鹊，都很快乐</text>
+</svg>

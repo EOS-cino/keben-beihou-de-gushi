@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小獾和小刺猬在森林里互相竖起大拇指，脸上带着开心的笑容">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 森林背景 -->
+  <rect x="0" y="0" width="800" height="350" fill="#a8d0e8" opacity="0.1"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="80" r="30" fill="#f4b942" opacity="0.6"/>
+  <!-- 树木 -->
+  <g transform="translate(80,350)">
+    <rect x="-8" y="-100" width="16" height="100" fill="#8d5a36"/>
+    <circle cx="0" cy="-130" r="45" fill="#6a8d3f"/>
+    <circle cx="-25" cy="-115" r="28" fill="#7ba84a"/>
+    <circle cx="25" cy="-115" r="28" fill="#7ba84a"/>
+  </g>
+  <g transform="translate(720,350)">
+    <rect x="-8" y="-100" width="16" height="100" fill="#8d5a36"/>
+    <circle cx="0" cy="-130" r="45" fill="#6a8d3f"/>
+    <circle cx="-25" cy="-115" r="28" fill="#7ba84a"/>
+    <circle cx="25" cy="-115" r="28" fill="#7ba84a"/>
+  </g>
+  <!-- 草地 -->
+  <path d="M0 380 Q200 370 400 380 T800 375 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.4"/>
+  <path d="M0 430 Q200 420 400 430 T800 425 L800 600 L0 600 Z" fill="#4a6a2f" opacity="0.3"/>
+  <!-- 小花 -->
+  <g fill="#e07856" opacity="0.6">
+    <circle cx="100" cy="500" r="4"/>
+    <circle cx="700" cy="490" r="4"/>
+    <circle cx="200" cy="520" r="3"/>
+  </g>
+  <!-- 小獾（左边） -->
+  <g transform="translate(280,380)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="40" rx="35" ry="30" fill="#8d5a36"/>
+    <!-- 白色条纹 -->
+    <path d="M-15 20 Q0 15 15 20" stroke="#fef9ed" stroke-width="8" fill="none"/>
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="28" fill="#8d5a36"/>
+    <!-- 脸部白色 -->
+    <ellipse cx="0" cy="5" rx="18" ry="15" fill="#fef9ed"/>
+    <!-- 条纹 -->
+    <path d="M-10 -10 Q0 -5 10 -10" stroke="#fef9ed" stroke-width="6" fill="none"/>
+    <!-- 耳朵 -->
+    <ellipse cx="-18" cy="-18" rx="7" ry="9" fill="#7a3b14"/>
+    <ellipse cx="18" cy="-18" rx="7" ry="9" fill="#7a3b14"/>
+    <!-- 眼睛（开心） -->
+    <path d="M-10 -2 Q-7 -5 -4 -2" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <path d="M4 -2 Q7 -5 10 -2" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <!-- 鼻子 -->
+    <ellipse cx="0" cy="8" rx="4" ry="3" fill="#2d2a24"/>
+    <!-- 嘴（笑） -->
+    <path d="M-6 14 Q0 20 6 14" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <!-- 手臂（竖大拇指） -->
+    <path d="M25 30 L45 15" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+    <!-- 大拇指 -->
+    <circle cx="47" cy="12" r="5" fill="#f4d4a8"/>
+    <rect x="44" y="5" width="6" height="10" rx="3" fill="#f4d4a8"/>
+    <!-- 另一只手拿板凳 -->
+    <path d="M-25 30 L-40 45" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+    <!-- 小板凳 -->
+    <g transform="translate(-50,50)">
+      <rect x="-15" y="0" width="30" height="6" fill="#c8843a"/>
+      <rect x="-12" y="6" width="4" height="15" fill="#8d5a36"/>
+      <rect x="8" y="6" width="4" height="15" fill="#8d5a36"/>
+    </g>
+  </g>
+  <!-- 小刺猬（右边） -->
+  <g transform="translate(520,390)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="35" rx="35" ry="28" fill="#c8843a"/>
+    <!-- 刺 -->
+    <g stroke="#7a3b14" stroke-width="2.5">
+      <line x1="-30" y1="20" x2="-40" y2="10"/>
+      <line x1="-25" y1="10" x2="-35" y2="0"/>
+      <line x1="-15" y1="5" x2="-22" y2="-5"/>
+      <line x1="-5" y1="2" x2="-10" y2="-8"/>
+      <line x1="5" y1="2" x2="10" y2="-8"/>
+      <line x1="15" y1="5" x2="22" y2="-5"/>
+      <line x1="25" y1="10" x2="35" y2="0"/>
+      <line x1="30" y1="20" x2="40" y2="10"/>
+      <line x1="-30" y1="30" x2="-42" y2="25"/>
+      <line x1="30" y1="30" x2="42" y2="25"/>
+    </g>
+    <!-- 脸 -->
+    <ellipse cx="-25" cy="30" rx="18" ry="16" fill="#f4d4a8"/>
+    <!-- 耳朵 -->
+    <ellipse cx="-30" cy="18" rx="5" ry="7" fill="#c8843a"/>
+    <!-- 眼睛（开心） -->
+    <path d="M-32 26 Q-29 23 -26 26" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <!-- 鼻子 -->
+    <ellipse cx="-38" cy="32" rx="4" ry="3" fill="#2d2a24"/>
+    <!-- 嘴（笑） -->
+    <path d="M-38 38 Q-34 42 -30 38" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <!-- 脸颊红晕 -->
+    <circle cx="-28" cy="36" r="4" fill="#e07856" opacity="0.3"/>
+    <!-- 手臂（竖大拇指） -->
+    <path d="M-15 40 L-30 55" stroke="#c8843a" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="-32" cy="57" r="4" fill="#f4d4a8"/>
+    <rect x="-35" y="52" width="5" height="9" rx="2" fill="#f4d4a8"/>
+    <!-- 另一只手拿苹果 -->
+    <path d="M15 40 L30 30" stroke="#c8843a" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="33" cy="28" r="10" fill="#c84a3a"/>
+    <path d="M33 18 L33 22" stroke="#4a6a2f" stroke-width="2"/>
+    <ellipse cx="36" cy="16" rx="4" ry="2" fill="#6a8d3f"/>
+  </g>
+  <!-- 爱心 -->
+  <g transform="translate(400,300)" opacity="0.5">
+    <path d="M0 5 C-10 -5 -20 -5 -20 5 C-20 15 0 25 0 25 C0 25 20 15 20 5 C20 -5 10 -5 0 5" fill="#e07856"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">称赞</text>
+</svg>

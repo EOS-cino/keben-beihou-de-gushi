@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="青蛙坐在井里看天、小鸟在井口的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">坐井观天</text>
+
+  <!-- 天空（井口外的大片天空） -->
+  <rect x="0" y="60" width="800" height="240" fill="#a8d4f0"/>
+  <!-- 云朵 -->
+  <ellipse cx="120" cy="120" rx="50" ry="18" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="155" cy="108" rx="35" ry="14" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="600" cy="140" rx="55" ry="20" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="640" cy="128" rx="38" ry="15" fill="#ffffff" opacity="0.8"/>
+  <!-- 远处飞鸟 -->
+  <path d="M500 100 Q508 94 516 100 Q524 94 532 100" fill="none" stroke="#4a4a4a" stroke-width="2"/>
+  <path d="M560 130 Q566 126 572 130 Q578 126 584 130" fill="none" stroke="#4a4a4a" stroke-width="1.5"/>
+
+  <!-- 地面/草地 -->
+  <rect x="0" y="300" width="800" height="300" fill="#7a9a5a"/>
+  <path d="M0 300 Q200 295 400 300 Q600 305 800 298 L800 320 L0 320 Z" fill="#6b8a4a"/>
+
+  <!-- 井的外围（石头砌的井圈） -->
+  <ellipse cx="400" cy="310" rx="180" ry="30" fill="#8d7a5a"/>
+  <ellipse cx="400" cy="305" rx="175" ry="26" fill="#a89878"/>
+
+  <!-- 井口（圆形开口） -->
+  <ellipse cx="400" cy="305" rx="140" ry="22" fill="#2a2a3e"/>
+  <!-- 井内壁（从井口向下看到的井壁） -->
+  <path d="M260 305 Q260 400 300 480 L500 480 Q540 400 540 305 Z" fill="#3a3a2e"/>
+
+  <!-- 井壁砖块纹理 -->
+  <g opacity="0.4">
+    <path d="M280 340 L520 340" stroke="#5a5a3e" stroke-width="1.5"/>
+    <path d="M275 380 L525 380" stroke="#5a5a3e" stroke-width="1.5"/>
+    <path d="M285 420 L515 420" stroke="#5a5a3e" stroke-width="1.5"/>
+    <path d="M295 455 L505 455" stroke="#5a5a3e" stroke-width="1.5"/>
+    <!-- 砖块竖线 -->
+    <path d="M340 305 L335 340 M400 305 L400 340 M460 305 L465 340" stroke="#5a5a3e" stroke-width="1"/>
+    <path d="M330 340 L325 380 M390 340 L390 380 M450 340 L455 380" stroke="#5a5a3e" stroke-width="1"/>
+    <path d="M340 380 L335 420 M400 380 L400 420 M460 380 L465 420" stroke="#5a5a3e" stroke-width="1"/>
+  </g>
+
+  <!-- 井壁青苔 -->
+  <ellipse cx="300" cy="400" rx="20" ry="8" fill="#4a7a3a" opacity="0.5"/>
+  <ellipse cx="480" cy="430" rx="18" ry="7" fill="#4a7a3a" opacity="0.5"/>
+  <ellipse cx="350" cy="450" rx="15" ry="6" fill="#4a7a3a" opacity="0.4"/>
+
+  <!-- 井底水面 -->
+  <ellipse cx="400" cy="475" rx="100" ry="12" fill="#4a7ab8" opacity="0.6"/>
+
+  <!-- 青蛙（井底） -->
+  <g transform="translate(400,455)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="5" rx="35" ry="22" fill="#6ab04c"/>
+    <ellipse cx="0" cy="2" rx="31" ry="18" fill="#7cc85a"/>
+    <!-- 后腿 -->
+    <ellipse cx="-28" cy="15" rx="12" ry="8" fill="#5a9d3e" transform="rotate(-20 -28 15)"/>
+    <ellipse cx="28" cy="15" rx="12" ry="8" fill="#5a9d3e" transform="rotate(20 28 15)"/>
+    <!-- 头部 -->
+    <ellipse cx="0" cy="-10" rx="26" ry="18" fill="#7cc85a"/>
+    <!-- 眼睛凸起 -->
+    <circle cx="-10" cy="-22" r="10" fill="#7cc85a"/>
+    <circle cx="10" cy="-22" r="10" fill="#7cc85a"/>
+    <!-- 眼白（向上看） -->
+    <circle cx="-10" cy="-24" r="6" fill="#ffffff"/>
+    <circle cx="10" cy="-24" r="6" fill="#ffffff"/>
+    <!-- 瞳孔（向上看井口） -->
+    <circle cx="-10" cy="-26" r="3" fill="#1a1a1a"/>
+    <circle cx="10" cy="-26" r="3" fill="#1a1a1a"/>
+    <!-- 嘴巴 -->
+    <path d="M-12 0 Q0 6 12 0" fill="none" stroke="#3d6b28" stroke-width="2" stroke-linecap="round"/>
+    <!-- 肚子 -->
+    <ellipse cx="0" cy="8" rx="22" ry="12" fill="#c8e8a8" opacity="0.5"/>
+  </g>
+  <text x="400" y="500" text-anchor="middle" font-size="13" fill="#fef9ed" font-family="sans-serif" font-weight="bold">青蛙</text>
+
+  <!-- 青蛙视角：从井底看到的一小片天 -->
+  <ellipse cx="400" cy="305" rx="100" ry="16" fill="#a8d4f0" opacity="0.6"/>
+  <text x="400" y="275" text-anchor="middle" font-size="12" fill="#2d5a8a" font-family="sans-serif">青蛙看到的天（只有井口大）</text>
+
+  <!-- 小鸟（站在井沿上） -->
+  <g transform="translate(560,295)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#5a8ac8"/>
+    <ellipse cx="0" cy="-2" rx="17" ry="12" fill="#6b9ad8"/>
+    <!-- 头 -->
+    <circle cx="-12" cy="-10" r="11" fill="#6b9ad8"/>
+    <!-- 眼睛 -->
+    <circle cx="-15" cy="-12" r="3" fill="#ffffff"/>
+    <circle cx="-15" cy="-11" r="1.5" fill="#1a1a1a"/>
+    <!-- 喙 -->
+    <path d="M-22 -10 L-30 -8 L-22 -6" fill="#e8a040"/>
+    <!-- 翅膀 -->
+    <path d="M-5 -5 Q5 -15 15 -8 Q10 0 -5 3" fill="#4a7ab8"/>
+    <!-- 尾巴 -->
+    <path d="M18 -2 L28 -5 L28 3 L18 5" fill="#4a7ab8"/>
+    <!-- 腿 -->
+    <line x1="-2" y1="14" x2="-2" y2="22" stroke="#e8a040" stroke-width="2"/>
+    <line x1="6" y1="14" x2="6" y2="22" stroke="#e8a040" stroke-width="2"/>
+  </g>
+  <text x="560" y="340" text-anchor="middle" font-size="13" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">小鸟</text>
+
+  <!-- 对话气泡：小鸟 -->
+  <g transform="translate(620,220)">
+    <path d="M0 0 Q0 -25 25 -25 L100 -25 Q125 -25 125 0 L125 15 Q125 25 115 25 L40 25 L25 40 L30 25 L10 25 Q0 25 0 15 Z" fill="#ffffff" stroke="#4a7ab8" stroke-width="2"/>
+    <text x="62" y="-5" text-anchor="middle" font-size="11" fill="#2d5a8a" font-family="sans-serif">天无边无际</text>
+    <text x="62" y="12" text-anchor="middle" font-size="11" fill="#2d5a8a" font-family="sans-serif">大得很哪！</text>
+  </g>
+
+  <!-- 对话气泡：青蛙 -->
+  <g transform="translate(200,370)">
+    <path d="M0 0 Q0 -25 25 -25 L95 -25 Q120 -25 120 0 L120 15 Q120 25 110 25 L50 25 L35 40 L40 25 L10 25 Q0 25 0 15 Z" fill="#ffffff" stroke="#5a9d3e" stroke-width="2"/>
+    <text x="60" y="-5" text-anchor="middle" font-size="11" fill="#3d6b28" font-family="sans-serif">天不过井口</text>
+    <text x="60" y="12" text-anchor="middle" font-size="11" fill="#3d6b28" font-family="sans-serif">那么大！</text>
+  </g>
+
+  <!-- 井圈石块标注 -->
+  <text x="200" y="315" text-anchor="middle" font-size="11" fill="#6b5a3a" font-family="sans-serif">井沿</text>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="沙漠植物与防风固沙插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：沙漠里的绿色英雄</text>
+  <line x1="190" y1="55" x2="610" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="200" fill="#e8a838" opacity="0.18"/>
+  <circle cx="680" cy="150" r="32" fill="#e8a838" stroke="#c88820" stroke-width="2"/>
+
+  <!-- 沙丘 -->
+  <path d="M0 360 Q200 300 400 340 Q600 370 800 320 L800 560 L0 560 Z" fill="#e8a838" opacity="0.4"/>
+  <path d="M0 420 Q250 390 500 415 Q700 435 800 410 L800 560 L0 560 Z" fill="#e07856" opacity="0.3"/>
+
+  <!-- 左：治沙前（风沙肆虐） -->
+  <rect x="20" y="75" width="240" height="200" fill="#e07856" opacity="0.05"/>
+  <text x="140" y="100" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">治沙前·风沙肆虐</text>
+  <!-- 风沙线条 -->
+  <g stroke="#c88820" stroke-width="2.5" stroke-linecap="round" opacity="0.6" fill="none">
+    <path d="M40 140 Q90 135 140 145"/>
+    <path d="M60 170 Q110 165 160 175"/>
+    <path d="M40 200 Q90 195 140 205"/>
+    <path d="M60 230 Q110 225 160 235"/>
+  </g>
+  <!-- 枯树 -->
+  <g transform="translate(220, 340)">
+    <path d="M0 0 L0 -60 M0 -40 L-15 -55 M0 -30 L15 -50 M0 -20 L-12 -35" fill="none" stroke="#6a4220" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- 中间箭头（种树） -->
+  <g transform="translate(400, 200)">
+    <path d="M-30 0 L30 0" fill="none" stroke="#2d6a4f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 -8 L30 0 L20 8" fill="none" stroke="#2d6a4f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="-15" text-anchor="middle" font-size="13" fill="#2d6a4f" font-family="serif">种树治沙</text>
+  </g>
+
+  <!-- 右：治沙后（绿洲） -->
+  <rect x="540" y="75" width="240" height="200" fill="#2d6a4f" opacity="0.06"/>
+  <text x="660" y="100" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">治沙后·绿洲重现</text>
+  <!-- 小树林 -->
+  <g transform="translate(600, 180)">
+    <rect x="-3" y="0" width="6" height="25" fill="#6a4220"/>
+    <circle cx="0" cy="-8" r="16" fill="#2d6a4f"/>
+  </g>
+  <g transform="translate(640, 190)">
+    <rect x="-3" y="0" width="6" height="22" fill="#6a4220"/>
+    <circle cx="0" cy="-6" r="14" fill="#2d6a4f"/>
+  </g>
+  <g transform="translate(680, 185)">
+    <rect x="-3" y="0" width="6" height="24" fill="#6a4220"/>
+    <circle cx="0" cy="-7" r="15" fill="#2d6a4f"/>
+  </g>
+  <g transform="translate(720, 195)">
+    <rect x="-3" y="0" width="6" height="20" fill="#6a4220"/>
+    <circle cx="0" cy="-5" r="13" fill="#2d6a4f"/>
+  </g>
+
+  <!-- 下方：三种沙漠植物的本领 -->
+  <line x1="60" y1="400" x2="740" y2="400" stroke="#e8a838" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.4"/>
+  <text x="400" y="425" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">沙漠植物各有"绝招"</text>
+
+  <!-- 胡杨：根深 -->
+  <g transform="translate(160, 500)">
+    <rect x="-4" y="-40" width="8" height="40" fill="#6a4220"/>
+    <ellipse cx="0" cy="-50" rx="22" ry="16" fill="#e8a838" opacity="0.8"/>
+    <!-- 根系（深扎） -->
+    <g fill="none" stroke="#6a4220" stroke-width="3" stroke-linecap="round" opacity="0.7">
+      <path d="M0 0 L-15 25 L-20 45"/>
+      <path d="M0 0 L15 25 L20 45"/>
+      <path d="M0 0 L0 30 L-5 50"/>
+    </g>
+    <rect x="-55" y="55" width="110" height="22" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="4"/>
+    <text x="0" y="70" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">胡杨·根深找水</text>
+  </g>
+
+  <!-- 梭梭：固沙 -->
+  <g transform="translate(400, 500)">
+    <path d="M0 0 L-5 -25 M0 0 L5 -28 M0 0 L0 -30 M0 0 L-12 -22 M0 0 L12 -22" fill="none" stroke="#6a4220" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-30" rx="18" ry="12" fill="#2d6a4f" opacity="0.7"/>
+    <!-- 抓住的沙块 -->
+    <g fill="#c88820" opacity="0.5">
+      <rect x="-25" y="5" width="50" height="8" rx="2"/>
+    </g>
+    <rect x="-55" y="55" width="110" height="22" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="4"/>
+    <text x="0" y="70" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">梭梭·粘沙固土</text>
+  </g>
+
+  <!-- 仙人掌：储水 -->
+  <g transform="translate(640, 500)">
+    <ellipse cx="0" cy="-20" rx="14" ry="30" fill="#2d6a4f" stroke="#1a4a35" stroke-width="1.5"/>
+    <ellipse cx="-18" cy="-15" rx="8" ry="16" fill="#2d6a4f" stroke="#1a4a35" stroke-width="1.5"/>
+    <!-- 刺 -->
+    <g stroke="#fff8e0" stroke-width="1.5">
+      <line x1="-8" y1="-35" x2="-12" y2="-40"/>
+      <line x1="8" y1="-30" x2="12" y2="-35"/>
+      <line x1="0" y1="-45" x2="0" y2="-50"/>
+    </g>
+    <!-- 水滴 -->
+    <g fill="#4a90b8" opacity="0.7">
+      <ellipse cx="0" cy="-20" rx="3" ry="5"/>
+    </g>
+    <rect x="-55" y="55" width="110" height="22" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="4"/>
+    <text x="0" y="70" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">仙人掌·茎里储水</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">根深找水、粘沙固土、茎里储水——沙漠植物各有绝招，把黄沙变成绿洲。</text>
+</svg>

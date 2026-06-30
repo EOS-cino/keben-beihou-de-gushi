@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="守岛战士的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">守岛战士的故事</text>
+  <line x1="300" y1="60" x2="500" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="180" fill="#e8f0f5"/>
+  <!-- 海洋 -->
+  <rect x="0" y="250" width="800" height="350" fill="#4a90b8" opacity="0.4"/>
+  <!-- 海浪 -->
+  <path d="M0 270 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0 q20 -5 40 0" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.3"/>
+
+  <!-- 开山岛 -->
+  <ellipse cx="400" cy="430" rx="120" ry="35" fill="#8d8d8d" stroke="#5a5a5a" stroke-width="2"/>
+  <path d="M300 430 Q330 380 380 375 Q430 370 470 385 Q500 395 500 430 Z" fill="#a0a0a0" stroke="#5a5a5a" stroke-width="2"/>
+
+  <!-- 营房 -->
+  <rect x="360" y="380" width="80" height="50" fill="#f0e8d8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M352 380 L400 355 L448 380 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <rect x="385" y="400" width="15" height="30" fill="#7a3b14"/>
+  <rect x="365" y="390" width="15" height="12" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+  <rect x="410" y="390" width="15" height="12" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+
+  <!-- 旗杆和国旗 -->
+  <line x1="460" y1="380" x2="460" y2="280" stroke="#5a3a1a" stroke-width="3"/>
+  <rect x="460" y="285" width="35" height="25" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+  <rect x="460" y="285" width="12" height="25" fill="#e8a838"/>
+
+  <!-- 王继才夫妇（两个小人） -->
+  <g>
+    <!-- 王继才 -->
+    <rect x="320" y="395" width="24" height="35" rx="4" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="332" cy="385" r="11" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M322 382 q10 -8 20 0" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="322" y="380" width="20" height="4" fill="#2d6a4f"/>
+    <circle cx="328" cy="386" r="1.5" fill="#3a2a1a"/>
+    <circle cx="336" cy="386" r="1.5" fill="#3a2a1a"/>
+    <path d="M328 392 q4 2 8 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <rect x="322" y="428" width="9" height="18" fill="#3a2a1a"/>
+    <rect x="333" y="428" width="9" height="18" fill="#3a2a1a"/>
+    <!-- 王仕花 -->
+    <rect x="500" y="395" width="24" height="35" rx="4" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="512" cy="385" r="11" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M502 380 q10 -10 20 0" fill="#5a3a1a"/>
+    <circle cx="508" cy="386" r="1.5" fill="#3a2a1a"/>
+    <circle cx="516" cy="386" r="1.5" fill="#3a2a1a"/>
+    <path d="M508 392 q4 2 8 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <rect x="502" y="428" width="9" height="18" fill="#3a2a1a"/>
+    <rect x="513" y="428" width="9" height="18" fill="#3a2a1a"/>
+  </g>
+
+  <!-- "三十二年"标注 -->
+  <rect x="340" y="320" width="120" height="30" fill="#fff6df" stroke="#e07856" stroke-width="2" rx="4"/>
+  <text x="400" y="340" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856" font-weight="bold">守岛三十二年</text>
+  <path d="M400 350 L400 370" stroke="#e07856" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- 左侧：日常任务 -->
+  <g>
+    <rect x="30" y="100" width="180" height="160" fill="#fff6df" stroke="#2d6a4f" stroke-width="2" rx="8"/>
+    <text x="120" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">每天的任务</text>
+    <text x="50" y="150" font-family="serif" font-size="12" fill="#7a3b14">· 升国旗</text>
+    <text x="50" y="170" font-family="serif" font-size="12" fill="#7a3b14">· 巡岛</text>
+    <text x="50" y="190" font-family="serif" font-size="12" fill="#7a3b14">· 观察海面</text>
+    <text x="50" y="210" font-family="serif" font-size="12" fill="#7a3b14">· 记录天气</text>
+    <text x="50" y="230" font-family="serif" font-size="12" fill="#7a3b14">· 维护设备</text>
+    <text x="50" y="250" font-family="serif" font-size="11" fill="#e07856">风雨无阻，日复一日</text>
+  </g>
+
+  <!-- 右侧：守岛就是守家 -->
+  <g>
+    <rect x="590" y="100" width="180" height="160" fill="#fff6df" stroke="#e07856" stroke-width="2" rx="8"/>
+    <text x="680" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856" font-weight="bold">守岛就是守家</text>
+    <!-- 小岛 -->
+    <ellipse cx="680" cy="180" rx="30" ry="10" fill="#8d8d8d"/>
+    <!-- 箭头 -->
+    <path d="M680 195 L680 215" stroke="#7a3b14" stroke-width="2" fill="none" marker-end="url(#ar3)"/>
+    <!-- 家 -->
+    <rect x="660" y="220" width="40" height="25" fill="#f0e8d8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M655 220 L680 205 L705 220 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <text x="680" y="255" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">守好岛，后面的家才安全</text>
+  </g>
+
+  <defs>
+    <marker id="ar3" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#7a3b14"/>
+    </marker>
+  </defs>
+
+  <!-- 底部说明 -->
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">"岛再小，也是国家的土地。人在岛上，国旗就在。"</text>
+  <text x="400" y="545" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">用最平凡的日子，守着最不平凡的国土</text>
+</svg>

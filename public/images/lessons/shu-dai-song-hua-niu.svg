@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="书戴嵩画牛">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <rect x="0" y="0" width="800" height="92" fill="#27ae60" opacity="0.16"/>
+  <text x="400" y="58" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">书戴嵩画牛</text>
+  <line x1="320" y1="80" x2="480" y2="80" stroke="#27ae60" stroke-width="3"/>
+
+  <g opacity="0.88">
+    <rect x="250" y="200" width="300" height="240" rx="8" fill="#fff" stroke="#27ae60" stroke-width="3"/>
+    <rect x="250" y="200" width="300" height="40" fill="#27ae60" opacity="0.7"/>
+    <rect x="250" y="400" width="300" height="40" fill="#27ae60" opacity="0.7"/>
+    <path d="M280 270 h240 M280 305 h220 M280 340 h240 M280 375 h200" stroke="#27ae60" stroke-width="2" opacity="0.4"/>
+  </g>
+  <g opacity="0.5">
+    <circle cx="250" cy="200" r="10" fill="#27ae60"/>
+    <circle cx="550" cy="200" r="10" fill="#27ae60"/>
+  </g>
+  <text x="400" y="330" text-anchor="middle" font-family="serif" font-size="50" fill="#27ae60" opacity="0.2">古</text>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">画牛要问牧童</text>
+</svg>

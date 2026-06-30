@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：雨后那条会变色的路">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：雨后那条会变色的路</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">同一条路，四时不同</text>
+  <rect x="80" y="150" width="150" height="200" rx="8" fill="#cfe6c0" stroke="#5a8a3a" stroke-width="2"/>
+  <text x="155" y="200" text-anchor="middle" font-family="serif" font-size="20" fill="#3a6b2a">春</text>
+  <path d="M120,300 Q155,250 190,300" fill="none" stroke="#3a6b2a" stroke-width="2"/>
+  <rect x="330" y="150" width="150" height="200" rx="8" fill="#fbe9a8" stroke="#c98a3a" stroke-width="2"/>
+  <text x="405" y="200" text-anchor="middle" font-family="serif" font-size="20" fill="#a8742a">夏</text>
+  <circle cx="380" cy="290" r="14" fill="#7fb8d8"/><circle cx="410" cy="300" r="10" fill="#7fb8d8"/>
+  <rect x="580" y="150" width="150" height="200" rx="8" fill="#f4c77a" stroke="#c98a3a" stroke-width="2"/>
+  <text x="655" y="200" text-anchor="middle" font-family="serif" font-size="20" fill="#a85a2a">秋</text>
+  <path d="M620,300 l16,-20 l22,5 l-9,20 l9,20 l-22,5 l-16,-20 z" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+  <text x="400" y="420" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">会看的孩子，一年到头都走在风景里</text>
+</svg>

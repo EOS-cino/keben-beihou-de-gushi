@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="老师的手握着小手教写字的温暖插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">老师的手</text>
+  <line x1="340" y1="56" x2="460" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——那双手，牵过我们一程又一程</text>
+
+  <!-- 黑板 -->
+  <g transform="translate(400, 200)">
+    <rect x="-260" y="0" width="520" height="170" rx="6" fill="#2d6a4f" stroke="#8d5a36" stroke-width="6"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="34" fill="#fef9ed" font-weight="bold">横要平 竖要直</text>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="16" fill="#e8a838">一笔一画，写好中国字</text>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="11" fill="#fef9ed" opacity="0.7">黑板上写满又擦掉，是老师的手</text>
+  </g>
+
+  <!-- 老师握着小手写字 -->
+  <g transform="translate(400, 410)">
+    <!-- 本子 -->
+    <g transform="translate(0, 30)">
+      <rect x="-120" y="0" width="240" height="90" fill="#ffffff" stroke="#c8843a" stroke-width="2"/>
+      <line x1="-120" y1="30" x2="120" y2="30" stroke="#4a90b8" opacity="0.4"/>
+      <line x1="-120" y1="60" x2="120" y2="60" stroke="#4a90b8" opacity="0.4"/>
+      <!-- 写的字 -->
+      <text x="-60" y="25" font-family="serif" font-size="28" fill="#7a3b14">人</text>
+      <text x="20" y="25" font-family="serif" font-size="28" fill="#7a3b14">口</text>
+      <text x="-60" y="55" font-family="serif" font-size="28" fill="#7a3b14">手</text>
+    </g>
+    <!-- 铅笔 -->
+    <g transform="translate(60, 10) rotate(-30)">
+      <rect x="0" y="-4" width="90" height="8" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+      <polygon points="90,-4 110,0 90,4" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.2"/>
+      <polygon points="110,0 116,-2 116,2" fill="#7a3b14"/>
+      <rect x="-12" y="-4" width="12" height="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.2"/>
+    </g>
+    <!-- 老师的大手握小手 -->
+    <g transform="translate(60, 30)">
+      <!-- 小手 -->
+      <ellipse cx="0" cy="0" rx="14" ry="10" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-3" y="-18" width="6" height="10" rx="3" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+      <rect x="4" y="-17" width="6" height="9" rx="3" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+      <!-- 老师的手包在外面 -->
+      <path d="M-20 -5 Q-24 -16 -10 -20 Q10 -24 24 -16 Q30 -8 26 4 Q20 14 6 14 Q-14 14 -20 -5 Z" fill="#e07856" stroke="#7a3b14" stroke-width="1.5" opacity="0.85"/>
+      <text x="3" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">老师的手，握着小手</text>
+    </g>
+  </g>
+
+  <!-- 粉笔灰点缀 -->
+  <g fill="#fef9ed" opacity="0.8">
+    <circle cx="180" cy="200" r="2"/>
+    <circle cx="620" cy="220" r="2"/>
+    <circle cx="200" cy="380" r="2"/>
+    <circle cx="600" cy="400" r="2"/>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 530)">
+    <rect x="-300" y="0" width="600" height="50" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">老师的手不像妈妈的手那样软，却一样暖</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">牵着我们走过一程又一程</text>
+  </g>
+</svg>

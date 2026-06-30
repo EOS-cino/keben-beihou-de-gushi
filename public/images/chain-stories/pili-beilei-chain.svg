@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="张之路与儿童科幻插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：会写科幻的儿童文学作家</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 左：张之路与书桌 -->
+  <rect x="20" y="80" width="370" height="440" fill="#4a90b8" opacity="0.06"/>
+  <!-- 书桌 -->
+  <rect x="60" y="340" width="280" height="16" fill="#6a4220" stroke="#4a2a10" stroke-width="2"/>
+  <rect x="70" y="356" width="12" height="80" fill="#6a4220"/>
+  <rect x="318" y="356" width="12" height="80" fill="#6a4220"/>
+  <!-- 书堆 -->
+  <g transform="translate(90, 320)">
+    <rect x="0" y="0" width="70" height="20" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="5" y="-18" width="65" height="18" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="2" y="-34" width="68" height="16" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+  <!-- 稿纸与笔 -->
+  <g transform="translate(220, 318)">
+    <rect x="0" y="0" width="90" height="22" fill="#fff8e0" stroke="#c88820" stroke-width="1.5"/>
+    <line x1="8" y1="8" x2="82" y2="8" stroke="#c8a878" stroke-width="1"/>
+    <line x1="8" y1="15" x2="75" y2="15" stroke="#c8a878" stroke-width="1"/>
+    <line x1="60" y1="-20" x2="55" y2="5" stroke="#6a4220" stroke-width="3" stroke-linecap="round"/>
+    <path d="M55 5 L52 10 L58 10 Z" fill="#2a2a2a"/>
+  </g>
+  <!-- 张之路（作家） -->
+  <g transform="translate(200, 240)">
+    <!-- 身体 -->
+    <path d="M-32 100 L-24 20 L-16 -10 L16 -10 L24 20 L32 100 Z" fill="#2d6a4f" stroke="#1a4a35" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-38" r="28" fill="#f0d0a8" stroke="#c89060" stroke-width="2"/>
+    <!-- 头发 -->
+    <path d="M-26 -45 Q-28 -62 0 -64 Q28 -62 26 -45 Q14 -54 0 -52 Q-14 -54 -26 -45" fill="#2a2a2a"/>
+    <!-- 眼镜 -->
+    <circle cx="-10" cy="-38" r="8" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="10" cy="-38" r="8" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="-2" y1="-38" x2="2" y2="-38" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="-10" cy="-38" rx="3" ry="2.5" fill="#2a2a2a"/>
+    <ellipse cx="10" cy="-38" rx="3" ry="2.5" fill="#2a2a2a"/>
+    <!-- 嘴（微笑） -->
+    <path d="M-6 -25 Q0 -20 6 -25" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手（写字） -->
+    <path d="M-16 0 L-30 30 L-35 45" fill="none" stroke="#f0d0a8" stroke-width="9" stroke-linecap="round"/>
+    <path d="M16 0 L30 25 L35 40" fill="none" stroke="#f0d0a8" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- 右：科幻想象（飞船、星球、机器人） -->
+  <rect x="410" y="80" width="370" height="440" fill="#2d6a4f" opacity="0.06"/>
+  <!-- 星空 -->
+  <g fill="#e8a838" opacity="0.7">
+    <circle cx="450" cy="120" r="2"/>
+    <circle cx="520" cy="105" r="2.5"/>
+    <circle cx="600" cy="125" r="2"/>
+    <circle cx="680" cy="110" r="2.5"/>
+    <circle cx="730" cy="140" r="2"/>
+    <circle cx="480" cy="160" r="1.5"/>
+    <circle cx="640" cy="155" r="1.5"/>
+  </g>
+  <!-- 星球 -->
+  <circle cx="620" cy="220" r="40" fill="#e07856" opacity="0.5" stroke="#7a3b14" stroke-width="2"/>
+  <ellipse cx="620" cy="220" rx="55" ry="12" fill="none" stroke="#e8a838" stroke-width="2" opacity="0.6"/>
+  <circle cx="510" cy="180" r="22" fill="#4a90b8" opacity="0.5" stroke="#7a3b14" stroke-width="1.5"/>
+
+  <!-- 飞船 -->
+  <g transform="translate(520, 320)">
+    <ellipse cx="0" cy="0" rx="50" ry="18" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-20 -10 Q0 -30 20 -10" fill="#a8d8e8" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-10" cy="-5" r="4" fill="#e8a838"/>
+    <circle cx="5" cy="-5" r="4" fill="#e8a838"/>
+    <!-- 底部光 -->
+    <path d="M-30 12 L-40 35 M0 15 L0 40 M30 12 L40 35" fill="none" stroke="#e8a838" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- 小机器人 -->
+  <g transform="translate(660, 400)">
+    <rect x="-15" y="-25" width="30" height="35" fill="#e8a838" stroke="#7a3b14" stroke-width="2" rx="4"/>
+    <rect x="-12" y="-50" width="24" height="25" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2" rx="4"/>
+    <circle cx="-5" cy="-42" r="3" fill="#2d6a4f"/>
+    <circle cx="5" cy="-42" r="3" fill="#2d6a4f"/>
+    <line x1="0" y1="-50" x2="0" y2="-58" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-60" r="3" fill="#e07856"/>
+    <rect x="-18" y="10" width="6" height="20" fill="#6a4220"/>
+    <rect x="12" y="10" width="6" height="20" fill="#6a4220"/>
+    <path d="M-15 -10 L-30 0 M15 -10 L30 0" fill="none" stroke="#e8a838" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 问号（假如） -->
+  <text x="470" y="450" font-size="40" font-weight="bold" fill="#e8a838" opacity="0.5" font-family="serif">？</text>
+  <text x="700" y="280" font-size="36" font-weight="bold" fill="#e8a838" opacity="0.5" font-family="serif">！</text>
+
+  <!-- 标注 -->
+  <rect x="120" y="150" width="160" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="200" y="169" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">作家张之路</text>
+
+  <rect x="540" y="250" width="140" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="610" y="269" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">科幻的想象</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">张之路学过物理，爱把科学知识编进故事，打开一扇让孩子看见更大世界的窗。</text>
+</svg>

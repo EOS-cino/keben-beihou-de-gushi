@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="阳光下盛开各色太阳花的花园">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="320" fill="#e8a838" opacity="0.1"/>
+  <!-- 太阳 -->
+  <circle cx="400" cy="120" r="50" fill="#e8a838" opacity="0.6"/>
+  <circle cx="400" cy="120" r="36" fill="#e8a838" opacity="0.85"/>
+  <g stroke="#e8a838" stroke-width="3" opacity="0.55" stroke-linecap="round">
+    <line x1="400" y1="56" x2="400" y2="40"/>
+    <line x1="400" y1="184" x2="400" y2="200"/>
+    <line x1="334" y1="120" x2="318" y2="120"/>
+    <line x1="466" y1="120" x2="482" y2="120"/>
+    <line x1="354" y1="74" x2="342" y2="62"/>
+    <line x1="446" y1="166" x2="458" y2="178"/>
+    <line x1="446" y1="74" x2="458" y2="62"/>
+    <line x1="354" y1="166" x2="342" y2="178"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="340" width="800" height="260" fill="#8d6f47" opacity="0.25"/>
+  <rect x="0" y="380" width="800" height="220" fill="#8d6f47" opacity="0.2"/>
+  <!-- 花盆 -->
+  <g transform="translate(400 440)">
+    <path d="M-110 0 L110 0 L96 80 L-96 80 Z" fill="#e07856" opacity="0.85"/>
+    <rect x="-114" y="-8" width="228" height="14" fill="#c06540"/>
+    <!-- 土 -->
+    <ellipse cx="0" cy="0" rx="108" ry="10" fill="#5a3a1a" opacity="0.6"/>
+  </g>
+  <!-- 太阳花群 -->
+  <g transform="translate(400 410)">
+    <!-- 红 -->
+    <g transform="translate(-70 -20)">
+      <path d="M0 -30 Q0 0 0 30" stroke="#2d6a4f" stroke-width="3" fill="none"/>
+      <g fill="#e07856">
+        <ellipse cx="0" cy="-18" rx="8" ry="14"/>
+        <ellipse cx="0" cy="18" rx="8" ry="14"/>
+        <ellipse cx="-18" cy="0" rx="14" ry="8"/>
+        <ellipse cx="18" cy="0" rx="14" ry="8"/>
+        <ellipse cx="-13" cy="-13" rx="10" ry="12" transform="rotate(-45)"/>
+        <ellipse cx="13" cy="-13" rx="10" ry="12" transform="rotate(45)"/>
+        <ellipse cx="-13" cy="13" rx="10" ry="12" transform="rotate(45)"/>
+        <ellipse cx="13" cy="13" rx="10" ry="12" transform="rotate(-45)"/>
+      </g>
+      <circle cx="0" cy="0" r="9" fill="#e8a838"/>
+    </g>
+    <!-- 黄 -->
+    <g transform="translate(0 -34)">
+      <path d="M0 0 Q0 30 0 64" stroke="#2d6a4f" stroke-width="3" fill="none"/>
+      <g fill="#e8a838">
+        <ellipse cx="0" cy="-16" rx="7" ry="12"/>
+        <ellipse cx="0" cy="16" rx="7" ry="12"/>
+        <ellipse cx="-16" cy="0" rx="12" ry="7"/>
+        <ellipse cx="16" cy="0" rx="12" ry="7"/>
+        <ellipse cx="-11" cy="-11" rx="9" ry="10" transform="rotate(-45)"/>
+        <ellipse cx="11" cy="-11" rx="9" ry="10" transform="rotate(45)"/>
+        <ellipse cx="-11" cy="11" rx="9" ry="10" transform="rotate(45)"/>
+        <ellipse cx="11" cy="11" rx="9" ry="10" transform="rotate(-45)"/>
+      </g>
+      <circle cx="0" cy="0" r="8" fill="#c0651a"/>
+    </g>
+    <!-- 粉 -->
+    <g transform="translate(70 -18)">
+      <path d="M0 -28 Q0 0 0 28" stroke="#2d6a4f" stroke-width="3" fill="none"/>
+      <g fill="#e09898">
+        <ellipse cx="0" cy="-16" rx="7" ry="12"/>
+        <ellipse cx="0" cy="16" rx="7" ry="12"/>
+        <ellipse cx="-16" cy="0" rx="12" ry="7"/>
+        <ellipse cx="16" cy="0" rx="12" ry="7"/>
+        <ellipse cx="-11" cy="-11" rx="9" ry="10" transform="rotate(-45)"/>
+        <ellipse cx="11" cy="-11" rx="9" ry="10" transform="rotate(45)"/>
+        <ellipse cx="-11" cy="11" rx="9" ry="10" transform="rotate(45)"/>
+        <ellipse cx="11" cy="11" rx="9" ry="10" transform="rotate(-45)"/>
+      </g>
+      <circle cx="0" cy="0" r="8" fill="#e8a838"/>
+    </g>
+    <!-- 白 -->
+    <g transform="translate(-35 -50)">
+      <path d="M0 0 Q0 20 0 50" stroke="#2d6a4f" stroke-width="2.5" fill="none"/>
+      <g fill="#fff6df" stroke="#e8a838" stroke-width="1">
+        <ellipse cx="0" cy="-12" rx="6" ry="10"/>
+        <ellipse cx="0" cy="12" rx="6" ry="10"/>
+        <ellipse cx="-12" cy="0" rx="10" ry="6"/>
+        <ellipse cx="12" cy="0" rx="10" ry="6"/>
+      </g>
+      <circle cx="0" cy="0" r="6" fill="#e8a838"/>
+    </g>
+    <!-- 橙 -->
+    <g transform="translate(38 -48)">
+      <path d="M0 0 Q0 20 0 48" stroke="#2d6a4f" stroke-width="2.5" fill="none"/>
+      <g fill="#e8a838">
+        <ellipse cx="0" cy="-12" rx="6" ry="10"/>
+        <ellipse cx="0" cy="12" rx="6" ry="10"/>
+        <ellipse cx="-12" cy="0" rx="10" ry="6"/>
+        <ellipse cx="12" cy="0" rx="10" ry="6"/>
+      </g>
+      <circle cx="0" cy="0" r="6" fill="#c0651a"/>
+    </g>
+    <!-- 针状叶 -->
+    <g stroke="#2d6a4f" stroke-width="2" fill="none" opacity="0.7">
+      <path d="M-70 10 Q-80 14 -86 22"/>
+      <path d="M0 30 Q-12 36 -18 44"/>
+      <path d="M70 14 Q80 18 86 26"/>
+    </g>
+  </g>
+  <!-- 肉嘟嘟的茎(细节) -->
+  <text x="180" y="430" font-family="serif" font-size="12" fill="#2d6a4f">肉嘟嘟的茎</text>
+  <text x="600" y="200" font-family="serif" font-size="12" fill="#e8a838">给点阳光就灿烂</text>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#2d6a4f">太阳花</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">太阳出来它就开，太阳落山它就睡</text>
+</svg>

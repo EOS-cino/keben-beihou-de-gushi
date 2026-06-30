@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="珍稀动物与保护标志">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">动物保护拍手歌</text>
+  <ellipse cx="180" cy="220" rx="50" ry="40" fill="#fff" stroke="#8d5a36" stroke-width="2"/>
+  <ellipse cx="165" cy="200" rx="25" ry="22" fill="#fff" stroke="#8d5a36" stroke-width="2"/>
+  <circle cx="158" cy="195" r="8" fill="#7a3b14"/>
+  <circle cx="172" cy="195" r="8" fill="#7a3b14"/>
+  <circle cx="158" cy="195" r="4" fill="#fef9ed"/>
+  <circle cx="172" cy="195" r="4" fill="#fef9ed"/>
+  <circle cx="158" cy="195" r="2" fill="#7a3b14"/>
+  <circle cx="172" cy="195" r="2" fill="#7a3b14"/>
+  <ellipse cx="150" cy="215" rx="6" ry="4" fill="#7a3b14"/>
+  <ellipse cx="180" cy="215" rx="6" ry="4" fill="#7a3b14"/>
+  <ellipse cx="155" cy="260" rx="12" ry="15" fill="#7a3b14"/>
+  <ellipse cx="205" cy="260" rx="12" ry="15" fill="#7a3b14"/>
+  <text x="180" y="300" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">大熊猫</text>
+  <ellipse cx="400" cy="210" rx="35" ry="25" fill="#e07856" opacity="0.6"/>
+  <circle cx="385" cy="195" r="15" fill="#e07856" opacity="0.6"/>
+  <path d="M375 185 L370 175 L380 180z" fill="#c84a3a" opacity="0.6"/>
+  <path d="M395 185 L400 175 L390 180z" fill="#c84a3a" opacity="0.6"/>
+  <circle cx="380" cy="193" r="3" fill="#7a3b14"/>
+  <circle cx="392" cy="193" r="3" fill="#7a3b14"/>
+  <ellipse cx="420" cy="215" rx="15" ry="8" fill="#e07856" opacity="0.4"/>
+  <text x="400" y="260" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">金丝猴</text>
+  <ellipse cx="620" cy="200" rx="30" ry="35" fill="#a8d0e8" opacity="0.5"/>
+  <ellipse cx="620" cy="180" rx="20" ry="15" fill="#7ab8d8" opacity="0.5"/>
+  <path d="M600 175 L595 165 L605 170z" fill="#7ab8d8" opacity="0.5"/>
+  <path d="M640 175 L645 165 L635 170z" fill="#7ab8d8" opacity="0.5"/>
+  <circle cx="613" cy="180" r="3" fill="#7a3b14"/>
+  <circle cx="627" cy="180" r="3" fill="#7a3b14"/>
+  <path d="M610 195 Q620 200 630 195" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <text x="620" y="260" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">朱鹮</text>
+  <circle cx="200" cy="400" r="35" fill="#c8843a" opacity="0.5"/>
+  <ellipse cx="185" cy="385" rx="15" ry="12" fill="#c8843a" opacity="0.5"/>
+  <path d="M170 380 L160 375 L172 382z" fill="#8d5a36" opacity="0.5"/>
+  <circle cx="182" cy="383" r="2" fill="#7a3b14"/>
+  <path d="M190 395 Q200 400 210 395" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <ellipse cx="180" cy="430" rx="8" ry="20" fill="#c8843a" opacity="0.4"/>
+  <ellipse cx="220" cy="430" rx="8" ry="20" fill="#c8843a" opacity="0.4"/>
+  <text x="200" y="475" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">藏羚羊</text>
+  <circle cx="500" cy="390" r="40" fill="#c84a3a" opacity="0.15"/>
+  <circle cx="500" cy="390" r="30" fill="#c84a3a" opacity="0.1"/>
+  <text x="500" y="385" text-anchor="middle" font-family="serif" font-size="20" fill="#c84a3a">保护</text>
+  <text x="500" y="405" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a">动物</text>
+  <path d="M460 420 Q500 440 540 420" stroke="#6a8d3f" stroke-width="3" fill="none"/>
+  <text x="500" y="475" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">爱护自然</text>
+  <circle cx="680" cy="390" r="30" fill="#6a8d3f" opacity="0.3"/>
+  <text x="680" y="385" text-anchor="middle" font-family="serif" font-size="16" fill="#4a6a2f">珍稀</text>
+  <text x="680" y="405" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">动物</text>
+  <text x="680" y="475" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">需要保护</text>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="16" fill="#4a6a2f">动物是人类的朋友</text>
+</svg>

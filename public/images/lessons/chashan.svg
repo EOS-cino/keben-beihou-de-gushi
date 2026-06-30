@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="茶山梯田和采茶场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">茶山</text>
+  <line x="360" y1="56" x2="440" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——一片茶叶从山上走到杯子里</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="90" width="800" height="100" fill="#a8d0e8" opacity="0.3"/>
+  <!-- 云雾 -->
+  <ellipse cx="200" cy="130" rx="60" ry="15" fill="#fef9ed" opacity="0.6"/>
+  <ellipse cx="500" cy="120" rx="70" ry="18" fill="#fef9ed" opacity="0.5"/>
+  <ellipse cx="650" cy="140" rx="50" ry="12" fill="#fef9ed" opacity="0.6"/>
+
+  <!-- 茶山梯田（层层叠叠） -->
+  <!-- 第一层（最高） -->
+  <path d="M0 200 Q200 180 400 195 Q600 175 800 200 L800 230 Q600 210 400 225 Q200 210 0 230 Z" fill="#6a8d3f" opacity="0.5"/>
+  <path d="M0 200 Q200 180 400 195 Q600 175 800 200" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+  <!-- 茶树小圆点 -->
+  <g fill="#4a6a2f" opacity="0.6">
+    <circle cx="50" cy="210" r="4"/>
+    <circle cx="80" cy="208" r="4"/>
+    <circle cx="110" cy="212" r="4"/>
+    <circle cx="150" cy="206" r="4"/>
+    <circle cx="190" cy="210" r="4"/>
+    <circle cx="230" cy="208" r="4"/>
+    <circle cx="270" cy="212" r="4"/>
+    <circle cx="310" cy="206" r="4"/>
+    <circle cx="350" cy="210" r="4"/>
+    <circle cx="400" cy="208" r="4"/>
+    <circle cx="440" cy="212" r="4"/>
+    <circle cx="480" cy="206" r="4"/>
+    <circle cx="520" cy="210" r="4"/>
+    <circle cx="560" cy="208" r="4"/>
+    <circle cx="600" cy="212" r="4"/>
+    <circle cx="640" cy="206" r="4"/>
+    <circle cx="680" cy="210" r="4"/>
+    <circle cx="720" cy="208" r="4"/>
+    <circle cx="760" cy="212" r="4"/>
+  </g>
+
+  <!-- 第二层 -->
+  <path d="M0 240 Q200 220 400 235 Q600 215 800 240 L800 280 Q600 255 400 270 Q200 255 0 280 Z" fill="#6a8d3f" opacity="0.6"/>
+  <path d="M0 240 Q200 220 400 235 Q600 215 800 240" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+  <g fill="#4a6a2f" opacity="0.7">
+    <circle cx="60" cy="252" r="5"/>
+    <circle cx="100" cy="250" r="5"/>
+    <circle cx="140" cy="254" r="5"/>
+    <circle cx="180" cy="248" r="5"/>
+    <circle cx="220" cy="252" r="5"/>
+    <circle cx="260" cy="250" r="5"/>
+    <circle cx="300" cy="254" r="5"/>
+    <circle cx="340" cy="248" r="5"/>
+    <circle cx="380" cy="252" r="5"/>
+    <circle cx="420" cy="250" r="5"/>
+    <circle cx="460" cy="254" r="5"/>
+    <circle cx="500" cy="248" r="5"/>
+    <circle cx="540" cy="252" r="5"/>
+    <circle cx="580" cy="250" r="5"/>
+    <circle cx="620" cy="254" r="5"/>
+    <circle cx="660" cy="248" r="5"/>
+    <circle cx="700" cy="252" r="5"/>
+    <circle cx="740" cy="250" r="5"/>
+  </g>
+
+  <!-- 第三层 -->
+  <path d="M0 290 Q200 265 400 285 Q600 260 800 290 L800 340 Q600 305 400 325 Q200 305 0 340 Z" fill="#4a6a2f" opacity="0.6"/>
+  <path d="M0 290 Q200 265 400 285 Q600 260 800 290" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+  <g fill="#4a6a2f" opacity="0.7">
+    <circle cx="50" cy="305" r="6"/>
+    <circle cx="90" cy="302" r="6"/>
+    <circle cx="130" cy="308" r="6"/>
+    <circle cx="170" cy="300" r="6"/>
+    <circle cx="210" cy="306" r="6"/>
+    <circle cx="250" cy="302" r="6"/>
+    <circle cx="290" cy="308" r="6"/>
+    <circle cx="330" cy="300" r="6"/>
+    <circle cx="370" cy="306" r="6"/>
+    <circle cx="410" cy="302" r="6"/>
+    <circle cx="450" cy="308" r="6"/>
+    <circle cx="490" cy="300" r="6"/>
+    <circle cx="530" cy="306" r="6"/>
+    <circle cx="570" cy="302" r="6"/>
+    <circle cx="610" cy="308" r="6"/>
+    <circle cx="650" cy="300" r="6"/>
+    <circle cx="690" cy="306" r="6"/>
+    <circle cx="730" cy="302" r="6"/>
+  </g>
+
+  <!-- 第四层（最低，最近） -->
+  <path d="M0 350 Q200 320 400 345 Q600 315 800 350 L800 420 Q600 370 400 395 Q200 370 0 420 Z" fill="#4a6a2f" opacity="0.7"/>
+  <path d="M0 350 Q200 320 400 345 Q600 315 800 350" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+  <g fill="#4a6a2f" opacity="0.8">
+    <circle cx="60" cy="368" r="7"/>
+    <circle cx="100" cy="365" r="7"/>
+    <circle cx="140" cy="372" r="7"/>
+    <circle cx="180" cy="362" r="7"/>
+    <circle cx="220" cy="370" r="7"/>
+    <circle cx="260" cy="365" r="7"/>
+    <circle cx="300" cy="372" r="7"/>
+    <circle cx="340" cy="362" r="7"/>
+    <circle cx="380" cy="370" r="7"/>
+    <circle cx="420" cy="365" r="7"/>
+    <circle cx="460" cy="372" r="7"/>
+    <circle cx="500" cy="362" r="7"/>
+    <circle cx="540" cy="370" r="7"/>
+    <circle cx="580" cy="365" r="7"/>
+    <circle cx="620" cy="372" r="7"/>
+    <circle cx="660" cy="362" r="7"/>
+    <circle cx="700" cy="370" r="7"/>
+    <circle cx="740" cy="365" r="7"/>
+  </g>
+
+  <!-- 采茶人（在第三层） -->
+  <g transform="translate(300, 300)">
+    <!-- 竹篓 -->
+    <path d="M-10 5 L10 5 L8 20 L-8 20 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-10 5 Q0 0 10 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-15" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头巾 -->
+    <path d="M-9 -18 Q0 -25 9 -18" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="10" ry="12" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手（采茶动作） -->
+    <path d="M8 -5 Q15 -8 20 -10" fill="none" stroke="#c8843a" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="22" cy="-10" r="2" fill="#6a8d3f"/>
+    <text x="25" y="-20" font-family="serif" font-size="10" fill="#7a3b14">采茶</text>
+  </g>
+
+  <!-- 另一个采茶人 -->
+  <g transform="translate(550, 305)">
+    <path d="M-10 5 L10 5 L8 20 L-8 20 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-10 5 Q0 0 10 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-15" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-9 -18 Q0 -25 9 -18" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="0" cy="0" rx="10" ry="12" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-8 -5 Q-15 -8 -20 -10" fill="none" stroke="#4a6a2f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- 制茶步骤（底部） -->
+  <g transform="translate(120, 480)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">采茶</text>
+    <circle cx="0" cy="20" r="15" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="9" fill="#fef9ed">嫩芽</text>
+  </g>
+  <path d="M145 500 L195 500" stroke="#c8843a" stroke-width="2" fill="none"/>
+  <path d="M195 500 L188 495 L188 505 Z" fill="#c8843a"/>
+
+  <g transform="translate(220, 480)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">杀青</text>
+    <ellipse cx="0" cy="22" rx="18" ry="12" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="20" rx="14" ry="8" fill="#c84a3a" opacity="0.5"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="9" fill="#fef9ed">高温炒</text>
+  </g>
+  <path d="M245 500 L295 500" stroke="#c8843a" stroke-width="2" fill="none"/>
+  <path d="M295 500 L288 495 L288 505 Z" fill="#c8843a"/>
+
+  <g transform="translate(320, 480)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">揉捻</text>
+    <ellipse cx="0" cy="22" rx="15" ry="10" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <path d="M-10 18 Q0 15 10 18" fill="none" stroke="#4a6a2f" stroke-width="1"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="9" fill="#fef9ed">揉成条</text>
+  </g>
+  <path d="M345 500 L395 500" stroke="#c8843a" stroke-width="2" fill="none"/>
+  <path d="M395 500 L388 495 L388 505 Z" fill="#c8843a"/>
+
+  <g transform="translate(420, 480)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">干燥</text>
+    <rect x="-15" y="12" width="30" height="20" rx="3" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="9" fill="#fef9ed">烘干</text>
+  </g>
+  <path d="M445 500 L495 500" stroke="#c8843a" stroke-width="2" fill="none"/>
+  <path d="M495 500 L488 495 L488 505 Z" fill="#c8843a"/>
+
+  <g transform="translate(530, 480)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">泡茶</text>
+    <!-- 茶杯 -->
+    <path d="M-12 12 L12 12 L10 35 L-10 35 Z" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="12" rx="12" ry="4" fill="#6a8d3f" opacity="0.6"/>
+    <!-- 茶叶 -->
+    <ellipse cx="-3" cy="10" rx="3" ry="1.5" fill="#4a6a2f" transform="rotate(20 -3 10)"/>
+    <ellipse cx="4" cy="11" rx="3" ry="1.5" fill="#4a6a2f" transform="rotate(-15 4 11)"/>
+    <!-- 热气 -->
+    <path d="M-5 5 Q-3 0 -5 -5 M5 5 Q3 0 5 -5" fill="none" stroke="#a8d0e8" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- 底部标注 -->
+  <g transform="translate(400, 575)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">高山云雾出好茶——一杯茶背后是采茶人和制茶人的辛苦</text>
+  </g>
+</svg>

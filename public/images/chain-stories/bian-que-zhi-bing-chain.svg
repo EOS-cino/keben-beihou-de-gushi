@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从扁鹊治病到防微杜渐的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：扁鹊治病 -->
+  <circle cx="170" cy="300" r="110" fill="#c8553d" opacity="0.25" stroke="#c8553d" stroke-width="3"/>
+  <circle cx="170" cy="285" r="18" fill="#f5d9a0"/>
+  <path d="M 160 280 q 10 -6 20 0" stroke="#3a3a3a" stroke-width="1.5" fill="none"/>
+  <rect x="164" y="303" width="12" height="20" fill="#3a7d44"/>
+  <text x="170" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">扁鹊治病</text>
+  <text x="170" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">小病不治</text>
+  <!-- 右珠：防微杜渐 -->
+  <circle cx="630" cy="300" r="110" fill="#8fb996" opacity="0.3" stroke="#3a7d44" stroke-width="3"/>
+  <rect x="600" y="290" width="60" height="10" fill="#5d4037"/>
+  <circle cx="615" cy="285" r="3" fill="#9bb7c4"/>
+  <path d="M 615 290 q 2 8 0 14" stroke="#5d8aa8" stroke-width="2" fill="none"/>
+  <text x="630" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">防微杜渐</text>
+  <text x="630" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">溃于蚁穴</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">扁鹊治病，防微杜渐的小故事</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">坏东西刚冒头时最好对付，等长大就难了</text>
+</svg>

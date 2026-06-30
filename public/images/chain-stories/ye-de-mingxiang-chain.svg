@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="城市与乡村夜晚对比连珠故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#4a5a6a">连珠小故事：城市和乡村的夜</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#7a7468">两种夜，一种装满星星和虫鸣，一种装满灯光和喧嚣</text>
+
+  <!-- 左：乡村的夜 -->
+  <g transform="translate(200 300)">
+    <rect x="-130" y="-110" width="260" height="240" fill="#1a2a4a" opacity="0.85" rx="8"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#fef9ed">乡村的夜</text>
+    <!-- 满天星 -->
+    <g fill="#fef9ed">
+      <circle cx="-90" cy="-70" r="1.5"/>
+      <circle cx="-60" cy="-55" r="1.2"/>
+      <circle cx="-30" cy="-78" r="1.8"/>
+      <circle cx="0" cy="-60" r="1.5"/>
+      <circle cx="30" cy="-75" r="1.3"/>
+      <circle cx="60" cy="-58" r="1.6"/>
+      <circle cx="90" cy="-72" r="1.4"/>
+      <circle cx="-100" cy="-40" r="1.2"/>
+      <circle cx="100" cy="-45" r="1.3"/>
+      <circle cx="-75" cy="-30" r="1"/>
+      <circle cx="75" cy="-25" r="1.2"/>
+    </g>
+    <!-- 月亮 -->
+    <circle cx="-80" cy="-30" r="16" fill="#fef8e0" opacity="0.8"/>
+    <!-- 蛙虫声波 -->
+    <g fill="none" stroke="#7aaa5a" stroke-width="1.2" opacity="0.6">
+      <path d="M40 -20 Q48 -24 56 -20"/>
+      <path d="M40 -14 Q50 -18 60 -14"/>
+    </g>
+    <!-- 草地 -->
+    <path d="M-120 50 Q-60 40 0 50 Q60 60 120 50 L120 120 L-120 120 Z" fill="#2d4a3a" opacity="0.8"/>
+    <!-- 小屋 -->
+    <g transform="translate(-50 40)">
+      <rect x="-18" y="0" width="36" height="28" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+      <path d="M-22 0 L0 -18 L22 0 Z" fill="#5a4a2a"/>
+      <rect x="-3" y="10" width="8" height="18" fill="#e8a838" opacity="0.7"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7aaa5a">虫声蛙声·满天星斗</text>
+  </g>
+
+  <!-- 中间对比箭头 -->
+  <g transform="translate(400 300)">
+    <path d="M-30 0 L30 0" stroke="#c8943a" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="11" fill="#8a5a14">VS</text>
+  </g>
+
+  <!-- 右：城市的夜 -->
+  <g transform="translate(600 300)">
+    <rect x="-130" y="-110" width="260" height="240" fill="#2a2a3a" opacity="0.9" rx="8"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#fef9ed">城市的夜</text>
+    <!-- 昏黄天（光污染） -->
+    <rect x="-120" y="-80" width="240" height="60" fill="#e8a838" opacity="0.1"/>
+    <!-- 几颗黯淡的星 -->
+    <g fill="#fef9ed" opacity="0.3">
+      <circle cx="-80" cy="-65" r="0.8"/>
+      <circle cx="40" cy="-70" r="0.8"/>
+    </g>
+    <!-- 高楼 -->
+    <g fill="#3a3a4a" stroke="#5a5a6a" stroke-width="1">
+      <rect x="-100" y="-10" width="35" height="90"/>
+      <rect x="-55" y="-30" width="40" height="110"/>
+      <rect x="-5" y="-20" width="35" height="100"/>
+      <rect x="40" y="-40" width="38" height="120"/>
+      <rect x="85" y="-15" width="30" height="95"/>
+    </g>
+    <!-- 亮灯窗户 -->
+    <g fill="#e8a838" opacity="0.8">
+      <rect x="-95" y="0" width="6" height="6"/>
+      <rect x="-85" y="10" width="6" height="6"/>
+      <rect x="-95" y="30" width="6" height="6"/>
+      <rect x="-48" y="-15" width="6" height="6"/>
+      <rect x="-35" y="5" width="6" height="6"/>
+      <rect x="-48" y="30" width="6" height="6"/>
+      <rect x="0" y="-5" width="6" height="6"/>
+      <rect x="12" y="15" width="6" height="6"/>
+      <rect x="45" y="-25" width="6" height="6"/>
+      <rect x="58" y="-5" width="6" height="6"/>
+      <rect x="45" y="25" width="6" height="6"/>
+      <rect x="90" y="0" width="6" height="6"/>
+      <rect x="100" y="20" width="6" height="6"/>
+    </g>
+    <!-- 霓虹灯 -->
+    <rect x="-120" y="80" width="240" height="10" fill="#e07856" opacity="0.5"/>
+    <!-- 噪音波纹 -->
+    <g fill="none" stroke="#e07856" stroke-width="1.2" opacity="0.5">
+      <path d="M-90 60 Q-85 55 -80 60 Q-75 65 -70 60"/>
+      <path d="M70 65 Q75 60 80 65 Q85 70 90 65"/>
+    </g>
+    <!-- 汽车 -->
+    <g transform="translate(0 75)">
+      <rect x="-12" y="-4" width="24" height="8" fill="#e8a838" rx="2"/>
+      <circle cx="-7" cy="4" r="3" fill="#2a2a2a"/>
+      <circle cx="7" cy="4" r="3" fill="#2a2a2a"/>
+    </g>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="11" fill="#e07856">霓虹噪音·看不见星星</text>
+  </g>
+
+  <!-- 底部：白噪音 -->
+  <g transform="translate(400 470)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">安静成了稀缺品——有人录下雨声虫鸣，做成"白噪音"助眠</text>
+    <!-- 白噪音图标 -->
+    <g transform="translate(0 35)">
+      <circle cx="-60" cy="0" r="14" fill="none" stroke="#4a90b8" stroke-width="1.5"/>
+      <path d="M-68 0 Q-64 -5 -60 0 Q-56 5 -52 0" fill="none" stroke="#4a90b8" stroke-width="1.5"/>
+      <text x="-60" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#4a90b8">雨声</text>
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#2d6a4f" stroke-width="1.5"/>
+      <path d="M-6 -2 Q-3 -6 0 -2 Q3 2 6 -2" fill="none" stroke="#2d6a4f" stroke-width="1.5"/>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#2d6a4f">虫鸣</text>
+      <circle cx="60" cy="0" r="14" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+      <path d="M54 0 Q58 -4 62 0 Q66 4 70 0" fill="none" stroke="#e8a838" stroke-width="1.5"/>
+      <text x="60" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#e8a838">海浪</text>
+    </g>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="545" width="680" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">给自己留一段安静的时光，关掉手机，听听窗外的夜</text>
+</svg>

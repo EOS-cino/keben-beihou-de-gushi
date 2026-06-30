@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="宇宙有多大插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">宇宙有多大</text>
+  <line x1="340" y1="56" x2="460" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——一步一步往外走，每步都让人头晕</text>
+
+  <!-- 六步同心圆 -->
+  <!-- 背景 -->
+  <rect x="0" y="90" width="800" height="510" fill="#1a1a3a" opacity="0.8"/>
+
+  <!-- 星星 -->
+  <g fill="#fef9ed" opacity="0.5">
+    <circle cx="50" cy="120" r="1"/>
+    <circle cx="150" cy="110" r="1.5"/>
+    <circle cx="700" cy="120" r="1"/>
+    <circle cx="750" cy="130" r="1.5"/>
+    <circle cx="30" cy="200" r="1"/>
+    <circle cx="770" cy="200" r="1"/>
+    <circle cx="50" cy="500" r="1"/>
+    <circle cx="750" cy="500" r="1.5"/>
+  </g>
+
+  <!-- 第六步：可观测宇宙（最大圆） -->
+  <circle cx="400" cy="340" r="260" fill="none" stroke="#c84a3a" stroke-width="1.5" opacity="0.2"/>
+  <text x="400" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a" opacity="0.7">可观测宇宙：直径930亿光年·约2万亿个星系</text>
+
+  <!-- 第五步：超星系团 -->
+  <circle cx="400" cy="340" r="200" fill="none" stroke="#e07856" stroke-width="1.5" opacity="0.3"/>
+  <text x="400" y="155" text-anchor="middle" font-family="serif" font-size="10" fill="#e07856" opacity="0.7">室女座超星系团：直径约1亿光年</text>
+
+  <!-- 第四步：星系群 -->
+  <circle cx="400" cy="340" r="150" fill="none" stroke="#c8843a" stroke-width="1.5" opacity="0.4"/>
+  <text x="400" y="205" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a" opacity="0.7">本星系群：直径约1000万光年</text>
+
+  <!-- 第三步：银河系 -->
+  <circle cx="400" cy="340" r="100" fill="none" stroke="#6a8d3f" stroke-width="1.5" opacity="0.5"/>
+  <g transform="translate(400, 340)" opacity="0.3">
+    <ellipse cx="0" cy="0" rx="90" ry="25" fill="#6a8d3f"/>
+    <ellipse cx="0" cy="0" rx="60" ry="18" fill="#4a6a2f"/>
+  </g>
+  <text x="400" y="250" text-anchor="middle" font-family="serif" font-size="11" fill="#6a8d3f">银河系：直径10万光年·2000亿颗恒星</text>
+
+  <!-- 第二步：恒星邻居 -->
+  <circle cx="400" cy="340" r="55" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="360" cy="320" r="2" fill="#fef9ed"/>
+  <text x="345" y="315" font-family="serif" font-size="9" fill="#7ab8d8">比邻星</text>
+  <text x="345" y="327" font-family="serif" font-size="8" fill="#7ab8d8">4.2光年</text>
+  <text x="400" y="285" text-anchor="middle" font-family="serif" font-size="10" fill="#7ab8d8">恒星邻居</text>
+
+  <!-- 第一步：太阳系 -->
+  <circle cx="400" cy="340" r="30" fill="none" stroke="#e07856" stroke-width="1.5" opacity="0.7"/>
+  <!-- 太阳 -->
+  <circle cx="415" cy="335" r="5" fill="#e07856"/>
+  <!-- 地球 -->
+  <circle cx="400" cy="340" r="4" fill="#7ab8d8"/>
+  <text x="400" y="355" text-anchor="middle" font-family="serif" font-size="8" fill="#fef9ed">地球</text>
+  <text x="400" y="310" text-anchor="middle" font-family="serif" font-size="10" fill="#e07856">太阳系：光走8分钟到地球</text>
+
+  <!-- 比喻 -->
+  <g transform="translate(400, 500)">
+    <rect x="-300" y="0" width="600" height="70" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">恒星总数比地球上所有沙粒加起来还多</text>
+    <text x="0" y="42" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">人类最快的探测器飞到最近的恒星要几万年</text>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">我们虽然小，却能思考这么大的宇宙——这本身就是了不起的事</text>
+  </g>
+</svg>

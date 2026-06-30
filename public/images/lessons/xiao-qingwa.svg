@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小青蛙在稻田里捉害虫的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">小青蛙</text>
+  <line x1="350" y1="56" x2="450" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="200" fill="#d6ecf7"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="140" r="28" fill="#f4b942"/>
+  <circle cx="680" cy="140" r="38" fill="#f4b942" opacity="0.25"/>
+  <!-- 云 -->
+  <ellipse cx="150" cy="130" rx="40" ry="15" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="175" cy="122" rx="28" ry="12" fill="#ffffff" opacity="0.85"/>
+
+  <!-- 稻田 -->
+  <rect x="0" y="280" width="800" height="320" fill="#a8d878"/>
+  <!-- 水面 -->
+  <rect x="0" y="280" width="800" height="30" fill="#7ec0db" opacity="0.6"/>
+  <path d="M0 290 Q200 285 400 290 T800 290" fill="none" stroke="#a8d4e8" stroke-width="2"/>
+
+  <!-- 禾苗（多株） -->
+  <g stroke="#5a8a3a" stroke-width="3" fill="none">
+    <path d="M80 320 Q78 280 82 250"/>
+    <path d="M85 320 Q90 285 87 255"/>
+    <path d="M75 320 Q70 290 73 262"/>
+  </g>
+  <g fill="#6ab04c">
+    <ellipse cx="82" cy="248" rx="4" ry="12" transform="rotate(-15 82 248)"/>
+    <ellipse cx="87" cy="253" rx="4" ry="12" transform="rotate(10 87 253)"/>
+    <ellipse cx="73" cy="260" rx="4" ry="12" transform="rotate(-20 73 260)"/>
+  </g>
+  <g stroke="#5a8a3a" stroke-width="3" fill="none">
+    <path d="M680 320 Q678 280 682 250"/>
+    <path d="M685 320 Q690 285 687 255"/>
+    <path d="M675 320 Q670 290 673 262"/>
+  </g>
+  <g fill="#6ab04c">
+    <ellipse cx="682" cy="248" rx="4" ry="12" transform="rotate(-15 682 248)"/>
+    <ellipse cx="687" cy="253" rx="4" ry="12" transform="rotate(10 687 253)"/>
+    <ellipse cx="673" cy="260" rx="4" ry="12" transform="rotate(-20 673 260)"/>
+  </g>
+
+  <!-- 荷叶 -->
+  <ellipse cx="400" cy="340" rx="100" ry="28" fill="#3d8b4e"/>
+  <ellipse cx="400" cy="335" rx="96" ry="24" fill="#5cb070"/>
+  <path d="M400 335 L345 320 M400 335 L455 320 M400 335 L340 340 M400 335 L460 340" stroke="#3d8b4e" stroke-width="2"/>
+
+  <!-- 小青蛙 -->
+  <g transform="translate(400,310)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="20" rx="42" ry="28" fill="#6ab04c"/>
+    <ellipse cx="0" cy="15" rx="38" ry="24" fill="#7cc85a"/>
+    <!-- 后腿 -->
+    <ellipse cx="-34" cy="32" rx="18" ry="11" fill="#5a9d3e" transform="rotate(-20 -34 32)"/>
+    <ellipse cx="34" cy="32" rx="18" ry="11" fill="#5a9d3e" transform="rotate(20 34 32)"/>
+    <!-- 前腿 -->
+    <ellipse cx="-22" cy="36" rx="7" ry="14" fill="#6ab04c"/>
+    <ellipse cx="22" cy="36" rx="7" ry="14" fill="#6ab04c"/>
+    <!-- 头部 -->
+    <ellipse cx="0" cy="-8" rx="32" ry="23" fill="#7cc85a"/>
+    <!-- 大眼睛凸起 -->
+    <circle cx="-14" cy="-22" r="13" fill="#7cc85a"/>
+    <circle cx="14" cy="-22" r="13" fill="#7cc85a"/>
+    <!-- 眼白 -->
+    <circle cx="-14" cy="-22" r="8" fill="#ffffff"/>
+    <circle cx="14" cy="-22" r="8" fill="#ffffff"/>
+    <!-- 瞳孔 -->
+    <circle cx="-14" cy="-20" r="4" fill="#1a1a1a"/>
+    <circle cx="14" cy="-20" r="4" fill="#1a1a1a"/>
+    <!-- 嘴巴 -->
+    <path d="M-16 4 Q0 12 16 4" fill="none" stroke="#3d6b28" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 肚子 -->
+    <ellipse cx="0" cy="22" rx="26" ry="16" fill="#c8e8a8" opacity="0.6"/>
+    <!-- 舌头伸出捉虫 -->
+    <path d="M0 8 Q20 0 35 -5 Q38 -6 36 -3" fill="none" stroke="#e85060" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- 害虫（飞虫） -->
+  <g transform="translate(445,295)">
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#5a4a3a"/>
+    <!-- 翅膀 -->
+    <ellipse cx="-4" cy="-4" rx="5" ry="3" fill="#d0d0d0" opacity="0.7"/>
+    <ellipse cx="4" cy="-4" rx="5" ry="3" fill="#d0d0d0" opacity="0.7"/>
+    <!-- 运动线 -->
+    <path d="M-15 -8 L-8 -5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- 标注：大眼睛 -->
+  <line x1="414" y1="288" x2="520" y2="240" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="490" y="225" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="530" y="243" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">大眼睛</text>
+
+  <!-- 标注：捉害虫 -->
+  <line x1="435" y1="305" x2="540" y2="340" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="500" y="328" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="545" y="346" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">捉害虫</text>
+
+  <!-- 标注：禾苗 -->
+  <line x1="82" y1="255" x2="140" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="100" y="185" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="140" y="203" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">保护禾苗</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">河水清清天气晴，小小青蛙大眼睛，保护禾苗吃害虫，它是庄稼好卫兵</text>
+</svg>

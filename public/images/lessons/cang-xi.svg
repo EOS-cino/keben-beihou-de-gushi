@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="藏戏 - 面具与高原舞台">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题栏 -->
+  <rect x="0" y="0" width="800" height="74" fill="#7a3b14" opacity="0.12"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">藏 戏</text>
+  <line x1="320" y1="64" x2="480" y2="64" stroke="#c05a30" stroke-width="2"/>
+
+  <!-- 高原天空 -->
+  <rect x="0" y="74" width="800" height="200" fill="#3a7d5c" opacity="0.08"/>
+  <!-- 雪山 -->
+  <path d="M0 270 L100 160 L180 270 Z" fill="#7a7468" opacity="0.2"/>
+  <path d="M120 270 L260 130 L400 270 Z" fill="#7a7468" opacity="0.25"/>
+  <path d="M340 270 L480 150 L620 270 Z" fill="#7a7468" opacity="0.2"/>
+  <path d="M560 270 L680 170 L800 270 Z" fill="#7a7468" opacity="0.18"/>
+  <!-- 雪顶 -->
+  <path d="M230 150 L260 130 L290 155 L275 158 L265 150 L250 158 Z" fill="#fef9ed" opacity="0.8"/>
+  <path d="M450 170 L480 150 L510 175 L495 178 L485 170 L470 178 Z" fill="#fef9ed" opacity="0.7"/>
+
+  <!-- 经幡 -->
+  <g transform="translate(0,200)">
+    <line x1="0" y1="0" x2="800" y2="-10" stroke="#7a3b14" stroke-width="1" opacity="0.4"/>
+    <rect x="80" y="0" width="20" height="14" fill="#c05a30" opacity="0.6"/>
+    <rect x="180" y="-2" width="20" height="14" fill="#3a7d5c" opacity="0.6"/>
+    <rect x="300" y="-4" width="20" height="14" fill="#c05a30" opacity="0.6"/>
+    <rect x="440" y="-6" width="20" height="14" fill="#3a7d5c" opacity="0.6"/>
+    <rect x="560" y="-8" width="20" height="14" fill="#c05a30" opacity="0.6"/>
+    <rect x="680" y="-9" width="20" height="14" fill="#3a7d5c" opacity="0.6"/>
+  </g>
+
+  <!-- 舞台地面 -->
+  <path d="M0 350 Q200 330 400 345 T800 340 L800 514 L0 514 Z" fill="#c05a30" opacity="0.08"/>
+  <ellipse cx="400" cy="430" rx="320" ry="50" fill="#7a3b14" opacity="0.06"/>
+
+  <!-- 藏戏面具1：白色温巴面具（左） -->
+  <g transform="translate(200,330)">
+    <!-- 面具轮廓 -->
+    <ellipse cx="0" cy="0" rx="45" ry="55" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头发 -->
+    <path d="M-45 -30 Q-50 -55 -35 -60 M45 -30 Q50 -55 35 -60" stroke="#2d2a24" stroke-width="3" fill="none"/>
+    <path d="M-30 -55 Q0 -70 30 -55" stroke="#2d2a24" stroke-width="3" fill="none"/>
+    <!-- 眉毛 -->
+    <path d="M-22 -18 Q-15 -22 -8 -18 M8 -18 Q15 -22 22 -18" stroke="#2d2a24" stroke-width="3" fill="none"/>
+    <!-- 眼睛 -->
+    <ellipse cx="-13" cy="-5" rx="7" ry="5" fill="#fff" stroke="#2d2a24" stroke-width="1.5"/>
+    <ellipse cx="13" cy="-5" rx="7" ry="5" fill="#fff" stroke="#2d2a24" stroke-width="1.5"/>
+    <circle cx="-13" cy="-5" r="3" fill="#2d2a24"/><circle cx="13" cy="-5" r="3" fill="#2d2a24"/>
+    <!-- 鼻子 -->
+    <path d="M0 -2 L-4 10 L4 10 Z" fill="#c05a30" opacity="0.3" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 嘴（张嘴笑） -->
+    <path d="M-12 20 Q0 30 12 20 Q0 26 -12 20 Z" fill="#c05a30"/>
+    <path d="M-8 22 Q0 28 8 22" stroke="#fef9ed" stroke-width="1.5" fill="none"/>
+    <!-- 装饰花纹 -->
+    <circle cx="-25" cy="15" r="3" fill="#c05a30" opacity="0.6"/>
+    <circle cx="25" cy="15" r="3" fill="#c05a30" opacity="0.6"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">温巴面具</text>
+  </g>
+
+  <!-- 藏戏面具2：红色国王面具（中） -->
+  <g transform="translate(400,320)">
+    <ellipse cx="0" cy="0" rx="48" ry="58" fill="#c05a30" opacity="0.8" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 王冠 -->
+    <path d="M-30 -45 L-25 -60 L-15 -48 L0 -62 L15 -48 L25 -60 L30 -45 Z" fill="#7a3b14" stroke="#2d2a24" stroke-width="1"/>
+    <circle cx="0" cy="-52" r="4" fill="#fef9ed"/>
+    <!-- 眉毛（怒目） -->
+    <path d="M-24 -18 L-8 -12 M8 -12 L24 -18" stroke="#2d2a24" stroke-width="3" fill="none"/>
+    <!-- 眼睛 -->
+    <ellipse cx="-14" cy="-3" rx="8" ry="6" fill="#fff" stroke="#2d2a24" stroke-width="1.5"/>
+    <ellipse cx="14" cy="-3" rx="8" ry="6" fill="#fff" stroke="#2d2a24" stroke-width="1.5"/>
+    <circle cx="-14" cy="-3" r="4" fill="#2d2a24"/><circle cx="14" cy="-3" r="4" fill="#2d2a24"/>
+    <!-- 鼻子 -->
+    <path d="M0 0 L-5 14 L5 14 Z" fill="#7a3b14" opacity="0.5" stroke="#2d2a24" stroke-width="1"/>
+    <!-- 胡须 -->
+    <path d="M-14 22 Q0 32 14 22 M-10 28 Q0 36 10 28" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <!-- 嘴 -->
+    <path d="M-10 18 Q0 24 10 18" stroke="#2d2a24" stroke-width="2.5" fill="none"/>
+    <!-- 装饰 -->
+    <circle cx="-28" cy="10" r="3" fill="#fef9ed" opacity="0.7"/>
+    <circle cx="28" cy="10" r="3" fill="#fef9ed" opacity="0.7"/>
+    <text x="0" y="82" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">国王面具</text>
+  </g>
+
+  <!-- 藏戏面具3：绿色母亲面具（右） -->
+  <g transform="translate(600,330)">
+    <ellipse cx="0" cy="0" rx="45" ry="55" fill="#3a7d5c" opacity="0.7" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头饰 -->
+    <path d="M-35 -40 Q0 -58 35 -40 L35 -32 L-35 -32 Z" fill="#c05a30" opacity="0.7"/>
+    <circle cx="0" cy="-45" r="5" fill="#fef9ed"/>
+    <!-- 眉毛 -->
+    <path d="M-20 -16 Q-13 -20 -6 -16 M6 -16 Q13 -20 20 -16" stroke="#2d2a24" stroke-width="2.5" fill="none"/>
+    <!-- 眼睛 -->
+    <ellipse cx="-12" cy="-4" rx="7" ry="5" fill="#fff" stroke="#2d2a24" stroke-width="1.5"/>
+    <ellipse cx="12" cy="-4" rx="7" ry="5" fill="#fff" stroke="#2d2a24" stroke-width="1.5"/>
+    <circle cx="-12" cy="-4" r="3" fill="#2d2a24"/><circle cx="12" cy="-4" r="3" fill="#2d2a24"/>
+    <!-- 鼻子 -->
+    <path d="M0 -2 L-3 10 L3 10 Z" fill="#7a3b14" opacity="0.4" stroke="#2d2a24" stroke-width="1"/>
+    <!-- 嘴（微笑） -->
+    <path d="M-10 20 Q0 26 10 20" stroke="#2d2a24" stroke-width="2.5" fill="none"/>
+    <!-- 耳环 -->
+    <circle cx="-42" cy="5" r="4" fill="none" stroke="#c05a30" stroke-width="2"/>
+    <circle cx="42" cy="5" r="4" fill="none" stroke="#c05a30" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">母亲面具</text>
+  </g>
+
+  <!-- 舞蹈表演者剪影（底部） -->
+  <g transform="translate(400,470)" opacity="0.5">
+    <!-- 表演者1 -->
+    <g transform="translate(-80,0)">
+      <rect x="-8" y="-25" width="16" height="30" rx="3" fill="#7a3b14"/>
+      <circle cx="0" cy="-33" r="9" fill="#c05a30" opacity="0.6"/>
+      <path d="M-8 -15 Q-20 -5 -24 10" stroke="#7a3b14" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M8 -15 Q20 -5 24 10" stroke="#7a3b14" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <rect x="-6" y="5" width="5" height="20" fill="#7a3b14"/>
+      <rect x="1" y="5" width="5" height="20" fill="#7a3b14"/>
+    </g>
+    <!-- 表演者2 -->
+    <g transform="translate(80,0)">
+      <rect x="-8" y="-25" width="16" height="30" rx="3" fill="#7a3b14"/>
+      <circle cx="0" cy="-33" r="9" fill="#3a7d5c" opacity="0.6"/>
+      <path d="M-8 -15 Q-22 -8 -26 8" stroke="#7a3b14" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M8 -15 Q22 -8 26 8" stroke="#7a3b14" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <rect x="-6" y="5" width="5" height="20" fill="#7a3b14"/>
+      <rect x="1" y="5" width="5" height="20" fill="#7a3b14"/>
+    </g>
+  </g>
+
+  <!-- 哈达装饰 -->
+  <g transform="translate(400,250)" opacity="0.5">
+    <path d="M-120 0 Q0 20 120 0" stroke="#fef9ed" stroke-width="6" fill="none" opacity="0.6"/>
+    <path d="M-120 0 Q0 20 120 0" stroke="#7a7468" stroke-width="1" fill="none"/>
+  </g>
+
+  <rect x="0" y="514" width="800" height="86" fill="#fef9ed"/>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">雪域高原千年戏，面具之下演悲欢</text>
+</svg>

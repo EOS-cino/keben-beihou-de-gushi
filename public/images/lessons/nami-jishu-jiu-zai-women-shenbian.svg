@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="纳米材料与冰箱衣物医疗用品的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">纳米技术就在我们身边</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#1e5f8e" stroke-width="2"/>
+  <!-- 放大的纳米结构（中央） -->
+  <circle cx="400" cy="300" r="90" fill="none" stroke="#1e5f8e" stroke-width="2" stroke-dasharray="6,4"/>
+  <circle cx="400" cy="300" r="6" fill="#1e5f8e"/>
+  <circle cx="370" cy="280" r="5" fill="#c8553d"/>
+  <circle cx="430" cy="280" r="5" fill="#c8553d"/>
+  <circle cx="370" cy="320" r="5" fill="#c8553d"/>
+  <circle cx="430" cy="320" r="5" fill="#c8553d"/>
+  <line x1="400" y1="300" x2="370" y2="280" stroke="#1e5f8e" stroke-width="1.5"/>
+  <line x1="400" y1="300" x2="430" y2="280" stroke="#1e5f8e" stroke-width="1.5"/>
+  <line x1="400" y1="300" x2="370" y2="320" stroke="#1e5f8e" stroke-width="1.5"/>
+  <line x1="400" y1="300" x2="430" y2="320" stroke="#1e5f8e" stroke-width="1.5"/>
+  <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="14" fill="#1e5f8e">纳米尺度</text>
+  <!-- 冰箱 -->
+  <rect x="120" y="180" width="100" height="160" rx="6" fill="#9bb7c4" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="120" y1="240" x2="220" y2="240" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="210" cy="210" r="3" fill="#3a3a3a"/>
+  <circle cx="210" cy="270" r="3" fill="#3a3a3a"/>
+  <text x="170" y="370" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">冰箱涂层</text>
+  <!-- 衣服 -->
+  <path d="M 580 180 l 30 20 l 0 120 l -60 0 l 0 -120 z" fill="#c8553d" opacity="0.5" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="580" y1="200" x2="580" y2="320" stroke="#3a3a3a" stroke-width="1.5"/>
+  <circle cx="560" cy="240" r="3" fill="#3a3a3a"/>
+  <text x="580" y="370" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">纳米衣物</text>
+  <!-- 医疗十字 -->
+  <rect x="640" y="200" width="80" height="80" rx="8" fill="#ffffff" stroke="#c8553d" stroke-width="2"/>
+  <rect x="672" y="214" width="16" height="52" fill="#c8553d"/>
+  <rect x="654" y="232" width="52" height="16" fill="#c8553d"/>
+  <text x="680" y="310" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">纳米医疗</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">看不见的小不点，改变着大生活</text>
+</svg>

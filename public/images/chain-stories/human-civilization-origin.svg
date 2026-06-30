@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="四大文明古国插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：人类文明的起源</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 世界地图底色 -->
+  <rect x="40" y="90" width="720" height="380" fill="#a8d0e8" opacity="0.2" rx="8"/>
+
+  <!-- 河流连线（四大文明） -->
+  <path d="M150 200 Q300 250 450 200 Q600 180 700 230" fill="none" stroke="#7ab8d8" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- 1. 两河流域（苏美尔） -->
+  <g transform="translate(150, 200)">
+    <circle cx="0" cy="0" r="8" fill="#c84a3a"/>
+    <!-- 神塔（ziggurat） -->
+    <g transform="translate(-40, 20)">
+      <rect x="0" y="60" width="80" height="20" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+      <rect x="10" y="40" width="60" height="20" fill="#a06a3a" stroke="#5a3a1a" stroke-width="1.5"/>
+      <rect x="20" y="20" width="40" height="20" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+      <rect x="30" y="0" width="20" height="20" fill="#a06a3a" stroke="#5a3a1a" stroke-width="1.5"/>
+    </g>
+    <!-- 楔形文字泥板 -->
+    <g transform="translate(50, 40)">
+      <rect x="0" y="0" width="30" height="22" fill="#d8c9a8" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+      <path d="M5 6 L10 4 M5 10 L10 8 M5 14 L10 12 M15 6 L20 4 M15 10 L20 8" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">两河流域</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">楔形文字</text>
+  </g>
+
+  <!-- 2. 古埃及 -->
+  <g transform="translate(330, 200)">
+    <circle cx="0" cy="0" r="8" fill="#e07856"/>
+    <!-- 金字塔 -->
+    <g transform="translate(-35, 20)">
+      <path d="M0 80 L40 10 L80 80 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M40 10 L40 80" stroke="#7a3b14" stroke-width="1" opacity="0.4"/>
+      <path d="M40 10 L20 80" stroke="#7a3b14" stroke-width="1" opacity="0.3"/>
+    </g>
+    <!-- 象形文字 -->
+    <g transform="translate(55, 40)">
+      <rect x="0" y="0" width="28" height="22" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+      <circle cx="7" cy="8" r="2.5" fill="#7a3b14"/>
+      <path d="M14 5 L18 12 L14 12 Z" fill="#7a3b14"/>
+      <path d="M5 16 L22 16" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">古埃及</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">金字塔·象形文字</text>
+  </g>
+
+  <!-- 3. 中华文明 -->
+  <g transform="translate(510, 200)">
+    <circle cx="0" cy="0" r="8" fill="#c84a3a"/>
+    <!-- 青铜鼎 -->
+    <g transform="translate(-30, 20)">
+      <path d="M0 30 L0 10 Q0 5 30 5 Q60 5 60 10 L60 30 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <rect x="-5" y="5" width="70" height="8" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <!-- 鼎足 -->
+      <rect x="5" y="30" width="6" height="20" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <rect x="27" y="30" width="6" height="20" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <rect x="49" y="30" width="6" height="20" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <!-- 鼎耳 -->
+      <path d="M5 5 Q0 -5 10 0" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+      <path d="M55 5 Q60 -5 50 0" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+    </g>
+    <!-- 甲骨文 -->
+    <g transform="translate(45, 40)">
+      <path d="M5 0 Q15 -5 25 0 Q20 10 15 8 Q10 10 5 0" fill="#d8c9a8" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M10 3 L20 3 M12 6 L18 6" stroke="#7a3b14" stroke-width="0.8"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">中华文明</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">青铜器·甲骨文</text>
+  </g>
+
+  <!-- 4. 古印度 -->
+  <g transform="translate(680, 200)">
+    <circle cx="0" cy="0" r="8" fill="#e07856"/>
+    <!-- 城市规划 -->
+    <g transform="translate(-35, 20)">
+      <rect x="0" y="20" width="70" height="50" fill="#d8c9a8" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 网格街道 -->
+      <line x1="0" y1="35" x2="70" y2="35" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+      <line x1="0" y1="55" x2="70" y2="55" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+      <line x1="23" y1="20" x2="23" y2="70" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+      <line x1="46" y1="20" x2="46" y2="70" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+      <!-- 房屋 -->
+      <rect x="5" y="23" width="14" height="9" fill="#8d5a36"/>
+      <rect x="28" y="23" width="14" height="9" fill="#8d5a36"/>
+      <rect x="51" y="23" width="14" height="9" fill="#8d5a36"/>
+      <rect x="5" y="43" width="14" height="9" fill="#8d5a36"/>
+      <rect x="28" y="43" width="14" height="9" fill="#8d5a36"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">古印度</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">城市规划·印章</text>
+  </g>
+
+  <!-- 共同要素 -->
+  <g transform="translate(400, 400)">
+    <rect x="-220" y="0" width="440" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">文明的四个共同要素</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">大河 · 农业 · 文字 · 城市</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="42" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">四大文明在大河边几乎同时开花——水、农、字、城，凑齐了文明就发芽。</text>
+</svg>

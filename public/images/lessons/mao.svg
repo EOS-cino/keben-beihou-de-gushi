@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="猫的古怪性格和可爱姿态插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">猫</text>
+  <line x1="360" y1="56" x2="440" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——老舍笔下的古怪与可爱</text>
+
+  <!-- 室内背景 -->
+  <rect x="0" y="90" width="800" height="510" fill="#f5ecd8"/>
+  <!-- 窗户 -->
+  <rect x="50" y="110" width="200" height="180" fill="#a8d0e8" stroke="#8d5a36" stroke-width="4" rx="4"/>
+  <line x1="150" y1="110" x2="150" y2="290" stroke="#8d5a36" stroke-width="3"/>
+  <line x1="50" y1="200" x2="250" y2="200" stroke="#8d5a36" stroke-width="3"/>
+  <!-- 窗外树枝 -->
+  <path d="M70 280 L90 220 L110 240" fill="none" stroke="#4a6a2f" stroke-width="3"/>
+  <circle cx="95" cy="225" r="8" fill="#6a8d3f"/>
+  <circle cx="108" cy="245" r="7" fill="#6a8d3f"/>
+
+  <!-- 阳光光斑 -->
+  <ellipse cx="400" cy="450" rx="250" ry="60" fill="#c8843a" opacity="0.15"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="480" width="800" height="120" fill="#d4b888" stroke="#a08858" stroke-width="2"/>
+  <g stroke="#b89858" stroke-width="1" fill="none">
+    <line x1="0" y1="510" x2="800" y2="510"/>
+    <line x1="0" y1="540" x2="800" y2="540"/>
+    <line x1="0" y1="570" x2="800" y2="570"/>
+    <line x1="150" y1="480" x2="150" y2="600"/>
+    <line x1="350" y1="480" x2="350" y2="600"/>
+    <line x1="550" y1="480" x2="550" y2="600"/>
+    <line x1="700" y1="480" x2="700" y2="600"/>
+  </g>
+
+  <!-- 大猫（趴着睡觉） -->
+  <g transform="translate(400, 420)">
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">乖巧时：呼噜呼噜</text>
+    <ellipse cx="0" cy="20" rx="90" ry="35" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <path d="M-40 0 Q-35 -10 -25 0" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M-15 -5 Q-10 -15 0 -5" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M10 0 Q15 -10 25 0" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <circle cx="-75" cy="10" r="30" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <path d="M-95 -5 L-100 -25 L-85 -15 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-70 -15 L-65 -35 L-55 -20 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-88 5 Q-83 10 -78 5" fill="none" stroke="#7a3b14" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-72 5 Q-67 10 -62 5" fill="none" stroke="#7a3b14" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-78 15 L-75 18 L-72 15 Z" fill="#c84a3a"/>
+    <g stroke="#7a3b14" stroke-width="1" fill="none">
+      <line x1="-85" y1="16" x2="-105" y2="13"/>
+      <line x1="-85" y1="19" x2="-105" y2="20"/>
+      <line x1="-65" y1="16" x2="-50" y2="13"/>
+      <line x1="-65" y1="19" x2="-50" y2="20"/>
+    </g>
+    <path d="M85 20 Q120 10 125 -15 Q120 -35 100 -30" fill="none" stroke="#c8843a" stroke-width="18" stroke-linecap="round"/>
+    <path d="M85 20 Q120 10 125 -15 Q120 -35 100 -30" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <text x="-30" y="-15" font-family="serif" font-size="14" fill="#8d5a36" opacity="0.6">zzz</text>
+  </g>
+
+  <!-- 小猫（淘气玩耍） -->
+  <g transform="translate(620, 400)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">淘气时：满月小猫</text>
+    <ellipse cx="0" cy="10" rx="30" ry="20" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-5" cy="-15" r="18" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-18 -25 L-22 -38 L-12 -30 Z" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M2 -28 L6 -40 L12 -30 Z" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-12" cy="-15" r="4" fill="#6a8d3f"/>
+    <circle cx="2" cy="-15" r="4" fill="#6a8d3f"/>
+    <circle cx="-11" cy="-14" r="2" fill="#7a3b14"/>
+    <circle cx="3" cy="-14" r="2" fill="#7a3b14"/>
+    <path d="M-7 -6 L-5 -3 L-3 -6 Z" fill="#c84a3a"/>
+    <path d="M-5 -3 Q-3 2 0 0" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M25 5 Q40 -10 35 -30" fill="none" stroke="#e07856" stroke-width="10" stroke-linecap="round"/>
+    <path d="M25 5 Q40 -10 35 -30" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-15 25 L-20 40" stroke="#e07856" stroke-width="8" stroke-linecap="round"/>
+    <path d="M10 25 L15 38" stroke="#e07856" stroke-width="8" stroke-linecap="round"/>
+    <!-- 毛线球 -->
+    <circle cx="40" cy="45" r="12" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M30 45 Q35 38 42 45 Q48 52 40 50" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 花盆（被弄倒） -->
+  <g transform="translate(120, 460)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">花盆（被当玩具）</text>
+    <path d="M-20 -10 L-25 15 L25 20 L20 -5 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2" transform="rotate(-15)"/>
+    <ellipse cx="15" cy="20" rx="20" ry="5" fill="#7a3b14" opacity="0.6"/>
+    <circle cx="25" cy="15" r="3" fill="#7a3b14"/>
+    <circle cx="30" cy="22" r="2" fill="#7a3b14"/>
+    <path d="M-10 -15 Q-5 -30 0 -20" fill="none" stroke="#4a6a2f" stroke-width="2" transform="rotate(-15)"/>
+    <circle cx="-5" cy="-30" r="6" fill="#e07856" stroke="#c84a3a" stroke-width="1.5" transform="rotate(-15)"/>
+  </g>
+
+  <!-- 性格标注 -->
+  <g transform="translate(400, 150)">
+    <rect x="-180" y="0" width="360" height="55" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="2" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">古怪性格：又老实又贪玩 · 又胆小又勇猛</text>
+    <text x="0" y="42" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">又温柔又任性 · 无忧无虑</text>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="雨后彩虹桥插画，孩子在彩虹前想象">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">彩虹</text>
+  <line x1="360" y1="56" x2="440" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="360" fill="#d6ecf7"/>
+  <!-- 远山 -->
+  <path d="M0 380 L120 300 L200 340 L320 280 L450 330 L580 290 L700 320 L800 300 L800 440 L0 440 Z" fill="#8ab8a0" opacity="0.5"/>
+  <!-- 地面 -->
+  <rect x="0" y="440" width="800" height="160" fill="#c8e8a8"/>
+
+  <!-- 彩虹（七色弧） -->
+  <path d="M120 440 A280 280 0 0 1 680 440" fill="none" stroke="#e84030" stroke-width="14"/>
+  <path d="M134 440 A266 266 0 0 1 666 440" fill="none" stroke="#e88030" stroke-width="14"/>
+  <path d="M148 440 A252 252 0 0 1 652 440" fill="none" stroke="#f4d830" stroke-width="14"/>
+  <path d="M162 440 A238 238 0 0 1 638 440" fill="none" stroke="#5cb050" stroke-width="14"/>
+  <path d="M176 440 A224 224 0 0 1 624 440" fill="none" stroke="#4ab8c8" stroke-width="14"/>
+  <path d="M190 440 A210 210 0 0 1 610 440" fill="none" stroke="#4878c8" stroke-width="14"/>
+  <path d="M204 440 A196 196 0 0 1 596 440" fill="none" stroke="#8848c8" stroke-width="14"/>
+
+  <!-- 太阳 -->
+  <circle cx="700" cy="140" r="30" fill="#f4b942"/>
+  <circle cx="700" cy="140" r="40" fill="#f4b942" opacity="0.25"/>
+
+  <!-- 云朵 -->
+  <ellipse cx="120" cy="130" rx="40" ry="16" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="150" cy="120" rx="30" ry="13" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="500" cy="110" rx="35" ry="14" fill="#ffffff" opacity="0.8"/>
+
+  <!-- 小女孩 -->
+  <g transform="translate(400,490)">
+    <!-- 头 -->
+    <circle cx="0" cy="-60" r="18" fill="#f0d0a8"/>
+    <!-- 头发 -->
+    <path d="M-18 -65 Q0 -82 18 -65 L18 -55 Q0 -70 -18 -55 Z" fill="#3a2a1a"/>
+    <!-- 两个小辫 -->
+    <ellipse cx="-20" cy="-50" rx="6" ry="10" fill="#3a2a1a"/>
+    <ellipse cx="20" cy="-50" rx="6" ry="10" fill="#3a2a1a"/>
+    <!-- 蝴蝶结 -->
+    <path d="M-26 -48 L-20 -52 L-14 -48 L-20 -44 Z" fill="#e84080"/>
+    <path d="M14 -48 L20 -52 L26 -48 L20 -44 Z" fill="#e84080"/>
+    <!-- 眼睛 -->
+    <circle cx="-6" cy="-62" r="2" fill="#1a1a1a"/>
+    <circle cx="6" cy="-62" r="2" fill="#1a1a1a"/>
+    <!-- 嘴 -->
+    <path d="M-4 -52 Q0 -48 4 -52" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 身体（裙子） -->
+    <path d="M-15 -42 L-25 0 L25 0 L15 -42 Z" fill="#e84080"/>
+    <!-- 手臂（指向彩虹） -->
+    <path d="M-15 -35 L-35 -50" fill="none" stroke="#e84080" stroke-width="8" stroke-linecap="round"/>
+    <path d="M15 -35 L30 -45" fill="none" stroke="#e84080" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-36" cy="-51" r="6" fill="#f0d0a8"/>
+    <circle cx="31" cy="-46" r="6" fill="#f0d0a8"/>
+    <!-- 腿 -->
+    <rect x="-10" y="0" width="8" height="20" fill="#3a5a7a"/>
+    <rect x="2" y="0" width="8" height="20" fill="#3a5a7a"/>
+  </g>
+
+  <!-- 想象气泡：水壶浇花 -->
+  <g transform="translate(150,200)" opacity="0.85">
+    <ellipse cx="0" cy="0" rx="55" ry="35" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 水壶 -->
+    <rect x="-15" y="-8" width="22" height="16" fill="#5cb070" rx="2"/>
+    <path d="M7 -4 Q18 -4 18 4" fill="none" stroke="#5cb070" stroke-width="4"/>
+    <path d="M-15 -4 L-22 -8" fill="none" stroke="#5cb070" stroke-width="4"/>
+    <!-- 水滴 -->
+    <circle cx="-20" cy="10" r="2" fill="#4ab8c8"/>
+    <circle cx="-15" cy="14" r="1.5" fill="#4ab8c8"/>
+    <!-- 花 -->
+    <circle cx="20" cy="8" r="5" fill="#e84080"/>
+    <circle cx="20" cy="8" r="2" fill="#f4d830"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">帮爸爸浇花</text>
+  </g>
+
+  <!-- 想象气泡：晾衣服 -->
+  <g transform="translate(620,210)" opacity="0.85">
+    <ellipse cx="0" cy="0" rx="55" ry="35" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 晾衣绳 -->
+    <line x1="-30" y1="-5" x2="30" y2="-5" stroke="#8a6a3a" stroke-width="2"/>
+    <!-- 衣服 -->
+    <path d="M-15 -5 L-15 12 L-5 12 L-5 -5 Z" fill="#e84030"/>
+    <path d="M5 -5 L5 12 L20 12 L20 -5 Z" fill="#4878c8"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">帮妈妈晾衣</text>
+  </g>
+
+  <!-- 标注：彩虹 -->
+  <line x1="400" y1="200" x2="400" y2="130" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="345" y="108" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="126" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">彩虹像一座桥</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">雨后天边一座桥，红橙黄绿青蓝紫，孩子想象着在桥上做各种有趣的事</text>
+</svg>

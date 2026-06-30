@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国世界遗产插画：长城、故宫等">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">中国的世界遗产</text>
+  <text x="400" y="66" text-anchor="middle" font-family="serif" font-size="14" fill="#6b6557">祖国大地上，藏着全人类共同珍视的宝藏</text>
+
+  <!-- 长城 -->
+  <g transform="translate(150,200)">
+    <rect x="-90" y="-70" width="180" height="140" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">长城</text>
+    <text x="0" y="-34" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">1987年列入</text>
+    <!-- 长城图形 -->
+    <g transform="translate(0,10)">
+      <path d="M-60 30 L-40 0 L-20 15 L0 -10 L20 10 L40 -5 L60 20" fill="none" stroke="#8a6a4a" stroke-width="5"/>
+      <g fill="#8a6a4a">
+        <rect x="-42" y="-5" width="5" height="8"/>
+        <rect x="-22" y="10" width="5" height="8"/>
+        <rect x="-2" y="-15" width="5" height="8"/>
+        <rect x="18" y="5" width="5" height="8"/>
+        <rect x="38" y="-10" width="5" height="8"/>
+      </g>
+      <!-- 烽火台 -->
+      <rect x="-4" y="-25" width="10" height="12" fill="#a88a6a"/>
+      <rect x="-6" y="-28" width="14" height="4" fill="#8a6a4a"/>
+    </g>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">绵延万里·民族精神</text>
+  </g>
+
+  <!-- 故宫 -->
+  <g transform="translate(400,200)">
+    <rect x="-90" y="-70" width="180" height="140" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">故宫</text>
+    <text x="0" y="-34" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">1987年列入</text>
+    <!-- 故宫图形 -->
+    <g transform="translate(0,15)">
+      <!-- 城墙 -->
+      <rect x="-55" y="10" width="110" height="20" fill="#a84030"/>
+      <!-- 城楼 -->
+      <path d="M-45 10 L-45 -10 L-35 -20 L35 -20 L45 -10 L45 10 Z" fill="#c84030"/>
+      <!-- 屋顶 -->
+      <path d="M-40 -20 L-30 -35 L30 -35 L40 -20 Z" fill="#8a2010"/>
+      <path d="M-35 -35 Q0 -45 35 -35" fill="#8a2010"/>
+      <!-- 柱子 -->
+      <line x1="-25" y1="-10" x2="-25" y2="10" stroke="#8a2010" stroke-width="2"/>
+      <line x1="-8" y1="-10" x2="-8" y2="10" stroke="#8a2010" stroke-width="2"/>
+      <line x1="8" y1="-10" x2="8" y2="10" stroke="#8a2010" stroke-width="2"/>
+      <line x1="25" y1="-10" x2="25" y2="10" stroke="#8a2010" stroke-width="2"/>
+      <!-- 门 -->
+      <rect x="-6" y="-5" width="12" height="15" fill="#8a2010"/>
+      <!-- 屋脊兽 -->
+      <circle cx="-30" cy="-35" r="2" fill="#f4d830"/>
+      <circle cx="30" cy="-35" r="2" fill="#f4d830"/>
+    </g>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">明清皇宫·九千间房</text>
+  </g>
+
+  <!-- 兵马俑 -->
+  <g transform="translate(650,200)">
+    <rect x="-90" y="-70" width="180" height="140" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">秦始皇陵兵马俑</text>
+    <text x="0" y="-34" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">1987年列入</text>
+    <!-- 兵马俑图形 -->
+    <g transform="translate(0,10)">
+      <!-- 三个陶俑 -->
+      <g transform="translate(-25,0)">
+        <path d="M-8 25 L-8 0 L-5 -5 L5 -5 L8 0 L8 25 Z" fill="#8a7a5a"/>
+        <circle cx="0" cy="-10" r="7" fill="#a89878"/>
+        <path d="M-7 -15 Q0 -20 7 -15" fill="#8a7a5a"/>
+        <circle cx="-2" cy="-10" r="1" fill="#3a2a1a"/>
+        <circle cx="2" cy="-10" r="1" fill="#3a2a1a"/>
+      </g>
+      <g transform="translate(0,0)">
+        <path d="M-8 25 L-8 0 L-5 -5 L5 -5 L8 0 L8 25 Z" fill="#8a7a5a"/>
+        <circle cx="0" cy="-10" r="7" fill="#a89878"/>
+        <path d="M-7 -15 Q0 -20 7 -15" fill="#8a7a5a"/>
+        <circle cx="-2" cy="-10" r="1" fill="#3a2a1a"/>
+        <circle cx="2" cy="-10" r="1" fill="#3a2a1a"/>
+      </g>
+      <g transform="translate(25,0)">
+        <path d="M-8 25 L-8 0 L-5 -5 L5 -5 L8 0 L8 25 Z" fill="#8a7a5a"/>
+        <circle cx="0" cy="-10" r="7" fill="#a89878"/>
+        <path d="M-7 -15 Q0 -20 7 -15" fill="#8a7a5a"/>
+        <circle cx="-2" cy="-10" r="1" fill="#3a2a1a"/>
+        <circle cx="2" cy="-10" r="1" fill="#3a2a1a"/>
+      </g>
+    </g>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">世界第八大奇迹</text>
+  </g>
+
+  <!-- 黄山 -->
+  <g transform="translate(150,420)">
+    <rect x="-90" y="-60" width="180" height="120" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-40" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">黄山</text>
+    <text x="0" y="-24" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">1990年列入</text>
+    <g transform="translate(0,15)">
+      <path d="M-40 20 L-20 -15 L0 5 L15 -20 L35 20 Z" fill="#8a7a5a"/>
+      <path d="M-20 -15 L-15 -5 L-5 0" fill="#ffffff" opacity="0.6"/>
+      <path d="M15 -20 L20 -8 L28 0" fill="#ffffff" opacity="0.6"/>
+      <!-- 迎客松 -->
+      <path d="M-20 -15 L-22 -25" stroke="#5a3a10" stroke-width="2"/>
+      <ellipse cx="-26" cy="-25" rx="6" ry="3" fill="#5a8a3a"/>
+      <ellipse cx="-20" cy="-28" rx="5" ry="2.5" fill="#5a8a3a"/>
+    </g>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">奇松怪石·云海温泉</text>
+  </g>
+
+  <!-- 九寨沟 -->
+  <g transform="translate(400,420)">
+    <rect x="-90" y="-60" width="180" height="120" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-40" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">九寨沟</text>
+    <text x="0" y="-24" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">1992年列入</text>
+    <g transform="translate(0,15)">
+      <!-- 五彩湖水 -->
+      <ellipse cx="0" cy="10" rx="50" ry="12" fill="#4ab8c8" opacity="0.6"/>
+      <ellipse cx="-15" cy="8" rx="15" ry="6" fill="#5cb050" opacity="0.5"/>
+      <ellipse cx="20" cy="12" rx="12" ry="5" fill="#4878c8" opacity="0.5"/>
+      <!-- 瀑布 -->
+      <path d="M-30 -5 L-30 10 M-20 -8 L-20 10 M-10 -5 L-10 10" stroke="#a8d4e8" stroke-width="3" opacity="0.7"/>
+      <!-- 山 -->
+      <path d="M-50 0 L-35 -20 L-20 0" fill="#6a8a5a" opacity="0.6"/>
+      <path d="M20 0 L35 -18 L50 0" fill="#6a8a5a" opacity="0.6"/>
+    </g>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">五彩湖水·人间仙境</text>
+  </g>
+
+  <!-- 杭州西湖 -->
+  <g transform="translate(650,420)">
+    <rect x="-90" y="-60" width="180" height="120" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-40" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">杭州西湖</text>
+    <text x="0" y="-24" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">2011年列入</text>
+    <g transform="translate(0,15)">
+      <!-- 湖水 -->
+      <ellipse cx="0" cy="10" rx="50" ry="10" fill="#7ec0db" opacity="0.5"/>
+      <!-- 断桥 -->
+      <path d="M-30 5 Q-15 -2 0 5 Q15 -2 30 5" fill="none" stroke="#8a6a4a" stroke-width="3"/>
+      <!-- 雷峰塔 -->
+      <g transform="translate(30,-5)">
+        <rect x="-6" y="-15" width="12" height="15" fill="#a84030"/>
+        <path d="M-8 -15 L0 -22 L8 -15 Z" fill="#8a2010"/>
+        <rect x="-7" y="-10" width="14" height="2" fill="#8a2010"/>
+        <rect x="-7" y="-5" width="14" height="2" fill="#8a2010"/>
+      </g>
+      <!-- 柳树 -->
+      <path d="M-35 5 L-35 -10" stroke="#5a3a10" stroke-width="2"/>
+      <ellipse cx="-35" cy="-12" rx="6" ry="4" fill="#5a8a3a"/>
+    </g>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">淡妆浓抹·文化景观</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">中国有近60项世界遗产，位居世界第二——每一项都是全人类共同的宝藏</text>
+</svg>

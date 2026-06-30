@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="志愿者服务的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">志愿服务精神</text>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#6b6557" font-family="sans-serif">从雷锋到现代志愿者——善良在传递</text>
+
+  <!-- 时间线 -->
+  <line x1="80" y1="120" x2="720" y2="120" stroke="#8d6a3d" stroke-width="3"/>
+
+  <!-- 节点1：1960年代 雷锋 -->
+  <g transform="translate(150,120)">
+    <circle cx="0" cy="0" r="12" fill="#5a7a3a"/>
+    <text x="0" y="-25" text-anchor="middle" font-size="13" fill="#2d2a24" font-family="sans-serif" font-weight="bold">1960年代</text>
+    <!-- 雷锋小图 -->
+    <g transform="translate(0,50)">
+      <circle cx="0" cy="0" r="16" fill="#f4c8a0"/>
+      <path d="M-16 -5 Q-14 -20 0 -18 Q14 -20 16 -5 L16 -2 L-16 -2 Z" fill="#4a6a3a"/>
+      <ellipse cx="0" cy="-3" rx="16" ry="4" fill="#3a5a2a"/>
+      <path d="M0 -14 L2 -10 L6 -10 L3 -7 L4 -3 L0 -5 L-4 -3 L-3 -7 L-6 -10 L-2 -10 Z" fill="#e36f5b"/>
+      <circle cx="-5" cy="-1" r="1.5" fill="#1a1a1a"/>
+      <circle cx="5" cy="-1" r="1.5" fill="#1a1a1a"/>
+      <path d="M-4 6 Q0 9 4 6" fill="none" stroke="#8d5a3d" stroke-width="1.5"/>
+      <path d="M-18 14 L-22 45 L22 45 L18 14 Z" fill="#5a7a3a"/>
+    </g>
+    <text x="0" y="120" text-anchor="middle" font-size="12" fill="#3a5a1a" font-family="sans-serif">雷锋</text>
+    <text x="0" y="138" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">帮助战友</text>
+    <text x="0" y="153" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">助人为乐</text>
+  </g>
+
+  <!-- 节点2：2008 汶川/奥运 -->
+  <g transform="translate(400,120)">
+    <circle cx="0" cy="0" r="12" fill="#4a7ab8"/>
+    <text x="0" y="-25" text-anchor="middle" font-size="13" fill="#2d2a24" font-family="sans-serif" font-weight="bold">2008年</text>
+    <!-- 志愿者小图 -->
+    <g transform="translate(0,50)">
+      <circle cx="0" cy="0" r="16" fill="#f4c8a0"/>
+      <path d="M-14 -8 Q-12 -18 0 -16 Q12 -18 14 -8 Q12 -14 0 -12 Q-12 -14 -14 -8" fill="#2a1a0a"/>
+      <circle cx="-5" cy="-1" r="1.5" fill="#1a1a1a"/>
+      <circle cx="5" cy="-1" r="1.5" fill="#1a1a1a"/>
+      <path d="M-4 6 Q0 9 4 6" fill="none" stroke="#8d5a3d" stroke-width="1.5"/>
+      <!-- 蓝色志愿者马甲 -->
+      <path d="M-18 14 L-22 45 L22 45 L18 14 Z" fill="#4a7ab8"/>
+      <!-- 志愿者标志（心形+手） -->
+      <circle cx="0" cy="28" r="8" fill="#ffffff"/>
+      <path d="M-3 26 C-5 24 -5 21 -3 21 C-1 21 0 23 0 24 C0 23 1 21 3 21 C5 21 5 24 3 26 L0 30 Z" fill="#e36f5b"/>
+    </g>
+    <text x="0" y="120" text-anchor="middle" font-size="12" fill="#2d5a8a" font-family="sans-serif">志愿者</text>
+    <text x="0" y="138" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">汶川救援</text>
+    <text x="0" y="153" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">奥运服务</text>
+  </g>
+
+  <!-- 节点3：今天 社区志愿者 -->
+  <g transform="translate(650,120)">
+    <circle cx="0" cy="0" r="12" fill="#e8a040"/>
+    <text x="0" y="-25" text-anchor="middle" font-size="13" fill="#2d2a24" font-family="sans-serif" font-weight="bold">今天</text>
+    <!-- 社区志愿者 -->
+    <g transform="translate(0,50)">
+      <circle cx="0" cy="0" r="16" fill="#f4c8a0"/>
+      <path d="M-14 -8 Q-12 -18 0 -16 Q12 -18 14 -8 Q12 -14 0 -12 Q-12 -14 -14 -8" fill="#3a2a1a"/>
+      <circle cx="-5" cy="-1" r="1.5" fill="#1a1a1a"/>
+      <circle cx="5" cy="-1" r="1.5" fill="#1a1a1a"/>
+      <path d="M-4 6 Q0 9 4 6" fill="none" stroke="#8d5a3d" stroke-width="1.5"/>
+      <path d="M-18 14 L-22 45 L22 45 L18 14 Z" fill="#e8a040"/>
+      <circle cx="0" cy="28" r="8" fill="#ffffff"/>
+      <path d="M-3 26 C-5 24 -5 21 -3 21 C-1 21 0 23 0 24 C0 23 1 21 3 21 C5 21 5 24 3 26 L0 30 Z" fill="#e36f5b"/>
+    </g>
+    <text x="0" y="120" text-anchor="middle" font-size="12" fill="#8d6a3d" font-family="sans-serif">社区志愿者</text>
+    <text x="0" y="138" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">敬老助残</text>
+    <text x="0" y="153" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">支教环保</text>
+  </g>
+
+  <!-- 下方：志愿服务场景 -->
+  <g transform="translate(0,320)">
+    <text x="400" y="0" text-anchor="middle" font-size="16" fill="#2d2a24" font-family="sans-serif" font-weight="bold">志愿服务就在身边</text>
+
+    <!-- 场景1：帮老人过马路 -->
+    <g transform="translate(140,80)">
+      <rect x="-70" y="-15" width="140" height="130" rx="8" fill="#f0f7f4" stroke="#5a7a3a" stroke-width="1.5"/>
+      <text x="0" y="5" text-anchor="middle" font-size="11" fill="#3a5a1a" font-family="sans-serif" font-weight="bold">扶老人过马路</text>
+      <!-- 斑马线 -->
+      <rect x="-55" y="80" width="110" height="6" fill="#c8c8c8"/>
+      <rect x="-55" y="92" width="110" height="6" fill="#c8c8c8"/>
+      <!-- 志愿者 -->
+      <g transform="translate(-15,50)">
+        <circle cx="0" cy="0" r="8" fill="#f4c8a0"/>
+        <path d="M-8 -3 Q-7 -9 0 -8 Q7 -9 8 -3" fill="#3a2a1a"/>
+        <path d="M-9 6 L-11 25 L11 25 L9 6 Z" fill="#e8a040"/>
+        <path d="M9 8 L18 12" fill="none" stroke="#e8a040" stroke-width="4" stroke-linecap="round"/>
+      </g>
+      <!-- 老人 -->
+      <g transform="translate(15,50)">
+        <circle cx="0" cy="0" r="8" fill="#f4c8a0"/>
+        <path d="M-8 -3 Q-7 -9 0 -8 Q7 -9 8 -3" fill="#c8c8c8"/>
+        <path d="M-9 6 L-11 25 L11 25 L9 6 Z" fill="#6b4a5a"/>
+        <!-- 拐杖 -->
+        <line x1="10" y1="10" x2="14" y2="28" stroke="#8d6a3d" stroke-width="2"/>
+      </g>
+    </g>
+
+    <!-- 场景2：支教 -->
+    <g transform="translate(400,80)">
+      <rect x="-70" y="-15" width="140" height="130" rx="8" fill="#f0f7f4" stroke="#4a7ab8" stroke-width="1.5"/>
+      <text x="0" y="5" text-anchor="middle" font-size="11" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">山区支教</text>
+      <!-- 黑板 -->
+      <rect x="-50" y="20" width="100" height="50" rx="3" fill="#2a4a2a"/>
+      <text x="0" y="50" text-anchor="middle" font-size="12" fill="#ffffff" font-family="sans-serif">A B C</text>
+      <!-- 老师 -->
+      <g transform="translate(-25,85)">
+        <circle cx="0" cy="0" r="7" fill="#f4c8a0"/>
+        <path d="M-7 -3 Q-6 -8 0 -7 Q6 -8 7 -3" fill="#3a2a1a"/>
+        <path d="M-8 5 L-10 18 L10 18 L8 5 Z" fill="#4a7ab8"/>
+      </g>
+      <!-- 学生 -->
+      <g transform="translate(20,88)">
+        <circle cx="0" cy="0" r="6" fill="#f4c8a0"/>
+        <path d="M-6 -2 Q-5 -7 0 -6 Q5 -7 6 -2" fill="#2a1a0a"/>
+        <path d="M-7 4 L-9 15 L9 15 L7 4 Z" fill="#e36f5b"/>
+      </g>
+    </g>
+
+    <!-- 场景3：环保捡垃圾 -->
+    <g transform="translate(660,80)">
+      <rect x="-70" y="-15" width="140" height="130" rx="8" fill="#f0f7f4" stroke="#5a9d3e" stroke-width="1.5"/>
+      <text x="0" y="5" text-anchor="middle" font-size="11" fill="#3a6b28" font-family="sans-serif" font-weight="bold">环保行动</text>
+      <!-- 树 -->
+      <g transform="translate(-35,50)">
+        <rect x="-3" y="10" width="6" height="20" fill="#6b4a2d"/>
+        <circle cx="0" cy="5" r="15" fill="#5cb070"/>
+      </g>
+      <!-- 志愿者捡垃圾 -->
+      <g transform="translate(15,55)">
+        <circle cx="0" cy="0" r="7" fill="#f4c8a0"/>
+        <path d="M-7 -3 Q-6 -8 0 -7 Q6 -8 7 -3" fill="#3a2a1a"/>
+        <path d="M-8 5 L-10 22 L10 22 L8 5 Z" fill="#5a9d3e"/>
+        <!-- 弯腰手 -->
+        <path d="M8 8 Q15 15 18 22" fill="none" stroke="#5a9d3e" stroke-width="4" stroke-linecap="round"/>
+      </g>
+      <!-- 垃圾袋 -->
+      <ellipse cx="22" cy="28" rx="8" ry="6" fill="#4a4a4a"/>
+      <!-- 垃圾 -->
+      <rect x="15" y="30" width="4" height="3" fill="#e8a040"/>
+    </g>
+  </g>
+
+  <!-- 底部 -->
+  <text x="400" y="570" text-anchor="middle" font-size="13" fill="#6b6557" font-family="sans-serif">每一个愿意伸出援手的人，都是"活雷锋"</text>
+</svg>

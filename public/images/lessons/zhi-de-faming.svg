@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="蔡伦造纸过程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">蔡伦造纸</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c9952e" stroke-width="3"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="480" width="800" height="120" fill="#e8d5a8"/>
+
+  <!-- 左侧：原料堆（树皮、麻头、破布） -->
+  <text x="120" y="470" text-anchor="middle" font-family="serif" font-size="14" fill="#7a5a2a">原料：树皮·麻头·破布</text>
+  <!-- 树皮 -->
+  <path d="M60 440 Q80 420 100 440 Q120 420 140 440 L140 475 L60 475 Z" fill="#a0703a" stroke="#6b4a20" stroke-width="2"/>
+  <line x1="80" y1="445" x2="80" y2="470" stroke="#6b4a20" stroke-width="1.5"/>
+  <line x1="100" y1="440" x2="100" y2="470" stroke="#6b4a20" stroke-width="1.5"/>
+  <line x1="120" y1="445" x2="120" y2="470" stroke="#6b4a20" stroke-width="1.5"/>
+  <!-- 破布团 -->
+  <ellipse cx="170" cy="460" rx="28" ry="18" fill="#d4a5a5" stroke="#9a6060" stroke-width="2"/>
+  <path d="M150 458 Q160 448 170 455 Q180 448 190 460" fill="none" stroke="#9a6060" stroke-width="1.5"/>
+  <!-- 麻头 -->
+  <path d="M50 460 L55 440 M60 462 L68 438 M70 460 L80 442 M85 462 L95 440" stroke="#b8956a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 中间：水缸和捣浆 -->
+  <text x="300" y="470" text-anchor="middle" font-family="serif" font-size="14" fill="#7a5a2a">浸泡·捣浆</text>
+  <!-- 水缸 -->
+  <ellipse cx="300" cy="475" rx="70" ry="14" fill="#7a9ab0"/>
+  <path d="M230 475 L240 420 L360 420 L370 475 Z" fill="#8fb4cc" stroke="#5a7a90" stroke-width="2.5"/>
+  <ellipse cx="300" cy="420" rx="60" ry="12" fill="#a8cce0" stroke="#5a7a90" stroke-width="2"/>
+  <!-- 纸浆气泡 -->
+  <circle cx="280" cy="415" r="4" fill="#fef9ed" opacity="0.7"/>
+  <circle cx="310" cy="412" r="3" fill="#fef9ed" opacity="0.7"/>
+  <circle cx="325" cy="418" r="5" fill="#fef9ed" opacity="0.7"/>
+  <!-- 木杵 -->
+  <rect x="295" y="300" width="10" height="120" fill="#8b6332" stroke="#5a3a1a" stroke-width="2" rx="3"/>
+  <ellipse cx="300" cy="300" rx="8" ry="6" fill="#a07840" stroke="#5a3a1a" stroke-width="2"/>
+
+  <!-- 右侧：抄纸帘和晾干的纸 -->
+  <text x="560" y="470" text-anchor="middle" font-family="serif" font-size="14" fill="#7a5a2a">抄纸·晾干</text>
+  <!-- 抄纸帘架 -->
+  <rect x="490" y="400" width="140" height="50" rx="6" fill="#c4923a" stroke="#7a5a20" stroke-width="2.5"/>
+  <line x1="500" y1="410" x2="620" y2="410" stroke="#7a5a20" stroke-width="1"/>
+  <line x1="500" y1="420" x2="620" y2="420" stroke="#7a5a20" stroke-width="1"/>
+  <line x1="500" y1="430" x2="620" y2="430" stroke="#7a5a20" stroke-width="1"/>
+  <line x1="500" y1="440" x2="620" y2="440" stroke="#7a5a20" stroke-width="1"/>
+  <!-- 晾晒的纸 -->
+  <rect x="660" y="360" width="70" height="95" fill="#faf5e8" stroke="#c9b88a" stroke-width="2" rx="2"/>
+  <line x1="670" y1="380" x2="720" y2="380" stroke="#d4c4a0" stroke-width="1"/>
+  <line x1="670" y1="395" x2="720" y2="395" stroke="#d4c4a0" stroke-width="1"/>
+  <line x1="670" y1="410" x2="720" y2="410" stroke="#d4c4a0" stroke-width="1"/>
+  <line x1="670" y1="425" x2="720" y2="425" stroke="#d4c4a0" stroke-width="1"/>
+  <line x1="670" y1="440" x2="720" y2="440" stroke="#d4c4a0" stroke-width="1"/>
+  <text x="695" y="470" text-anchor="middle" font-family="serif" font-size="13" fill="#7a5a2a">蔡侯纸</text>
+
+  <!-- 蔡伦人物 -->
+  <!-- 头 -->
+  <circle cx="400" cy="180" r="32" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2.5"/>
+  <!-- 帽子（汉代官帽） -->
+  <path d="M368 165 Q400 140 432 165 L440 155 L430 175 L370 175 L360 155 Z" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- 眼睛 -->
+  <circle cx="390" cy="180" r="3" fill="#1a1a1a"/>
+  <circle cx="410" cy="180" r="3" fill="#1a1a1a"/>
+  <!-- 嘴 -->
+  <path d="M392 195 Q400 200 408 195" fill="none" stroke="#5a3a1a" stroke-width="2" stroke-linecap="round"/>
+  <!-- 胡须 -->
+  <path d="M388 200 Q400 215 412 200" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+  <!-- 身体（长袍） -->
+  <path d="M370 210 L360 350 L440 350 L430 210 Z" fill="#8b4a2a" stroke="#5a2a1a" stroke-width="2.5"/>
+  <!-- 衣领 -->
+  <path d="M385 210 L400 235 L415 210" fill="none" stroke="#f4d4a8" stroke-width="3"/>
+  <!-- 腰带 -->
+  <rect x="365" y="280" width="70" height="10" fill="#c9952e" stroke="#7a5a1a" stroke-width="1.5"/>
+  <!-- 手臂（指向纸） -->
+  <path d="M430 230 L470 280 L490 320" fill="none" stroke="#8b4a2a" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="492" cy="322" r="8" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2"/>
+  <!-- 左手 -->
+  <path d="M370 230 L340 270" fill="none" stroke="#8b4a2a" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="338" cy="272" r="8" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2"/>
+
+  <!-- 标注：蔡伦 -->
+  <text x="400" y="120" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a3a1a">蔡 伦</text>
+  <path d="M400 125 L400 145" stroke="#5a3a1a" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#5a3a1a"/>
+    </marker>
+  </defs>
+
+  <!-- 流程箭头 -->
+  <path d="M190 450 Q220 430 240 430" fill="none" stroke="#c9952e" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arrowhead)"/>
+  <path d="M370 440 Q420 430 490 425" fill="none" stroke="#c9952e" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arrowhead)"/>
+  <path d="M630 410 Q650 395 665 390" fill="none" stroke="#c9952e" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arrowhead)"/>
+
+  <!-- 装饰：竹简（左上角，代表纸发明前的书写材料） -->
+  <text x="80" y="100" text-anchor="middle" font-family="serif" font-size="13" fill="#7a5a2a">纸发明前：竹简</text>
+  <rect x="50" y="110" width="8" height="80" fill="#c4a070" stroke="#7a5a20" stroke-width="1.5" rx="2"/>
+  <rect x="62" y="110" width="8" height="80" fill="#c4a070" stroke="#7a5a20" stroke-width="1.5" rx="2"/>
+  <rect x="74" y="110" width="8" height="80" fill="#c4a070" stroke="#7a5a20" stroke-width="1.5" rx="2"/>
+  <rect x="86" y="110" width="8" height="80" fill="#c4a070" stroke="#7a5a20" stroke-width="1.5" rx="2"/>
+  <rect x="98" y="110" width="8" height="80" fill="#c4a070" stroke="#7a5a20" stroke-width="1.5" rx="2"/>
+  <line x1="50" y1="125" x2="106" y2="125" stroke="#7a5a20" stroke-width="1"/>
+  <line x1="50" y1="150" x2="106" y2="150" stroke="#7a5a20" stroke-width="1"/>
+  <line x1="50" y1="175" x2="106" y2="175" stroke="#7a5a20" stroke-width="1"/>
+</svg>

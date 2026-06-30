@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="黄山五绝奇松怪石云海温泉冬雪插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：黄山五绝</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 云海背景 -->
+  <rect x="0" y="70" width="800" height="200" fill="#e8e8f0" opacity="0.3"/>
+  <ellipse cx="150" cy="160" rx="80" ry="20" fill="#fff" opacity="0.5"/>
+  <ellipse cx="400" cy="140" rx="100" ry="22" fill="#fff" opacity="0.5"/>
+  <ellipse cx="650" cy="170" rx="90" ry="20" fill="#fff" opacity="0.5"/>
+
+  <!-- 山峰 -->
+  <path d="M0 280 L120 150 L200 200 L280 130 L360 190 L440 140 L520 200 L600 150 L680 210 L800 170 L800 300 L0 300 Z" fill="#9a8870" opacity="0.5"/>
+  <path d="M0 300 L100 220 L180 260 L260 200 L340 260 L420 210 L500 270 L580 220 L660 270 L800 240 L800 340 L0 340 Z" fill="#8a7860" opacity="0.4"/>
+
+  <!-- 第一绝：奇松（迎客松） -->
+  <g transform="translate(130, 230)">
+    <!-- 树干 -->
+    <path d="M 0 60 Q -2 30 0 0 Q 2 -10 0 -20" fill="none" stroke="#5a4a2a" stroke-width="5"/>
+    <!-- 岩石 -->
+    <ellipse cx="0" cy="62" rx="25" ry="10" fill="#9a8870" stroke="#7a6a50" stroke-width="1.5"/>
+    <!-- 向一侧伸出的枝条 -->
+    <path d="M 0 -10 Q 20 -5 40 0 Q 50 5 55 12" fill="none" stroke="#5a4a2a" stroke-width="3"/>
+    <!-- 松针簇 -->
+    <ellipse cx="55" cy="12" rx="12" ry="6" fill="#4a7a3a" stroke="#3a6a2a" stroke-width="1" transform="rotate(10 55 12)"/>
+    <ellipse cx="40" cy="-2" rx="10" ry="5" fill="#5a8a4a" stroke="#3a6a2a" stroke-width="1" transform="rotate(-10 40 -2)"/>
+    <ellipse cx="0" cy="-22" rx="10" ry="5" fill="#4a7a3a" stroke="#3a6a2a" stroke-width="1"/>
+    <ellipse cx="-15" cy="-5" rx="9" ry="5" fill="#5a8a4a" stroke="#3a6a2a" stroke-width="1" transform="rotate(-30 -15 -5)"/>
+  </g>
+
+  <!-- 第二绝：怪石（猴子观海） -->
+  <g transform="translate(380, 200)">
+    <!-- 底座岩石 -->
+    <ellipse cx="0" cy="35" rx="30" ry="12" fill="#9a8870" stroke="#7a6a50" stroke-width="1.5"/>
+    <!-- 猴子形状的石头 -->
+    <path d="M -15 30 Q -20 10 -12 -5 Q -8 -15 0 -18 Q 8 -15 12 -5 Q 20 10 15 30 Z" fill="#a89880" stroke="#7a6a50" stroke-width="1.5"/>
+    <!-- 猴子头部凸起 -->
+    <circle cx="-5" cy="-12" r="6" fill="#a89880" stroke="#7a6a50" stroke-width="1.5"/>
+    <circle cx="5" cy="-12" r="6" fill="#a89880" stroke="#7a6a50" stroke-width="1.5"/>
+  </g>
+
+  <!-- 第三绝：云海（波浪线） -->
+  <g transform="translate(0, 290)">
+    <path d="M 0 0 Q 50 -8 100 0 Q 150 -8 200 0 Q 250 -8 300 0 Q 350 -8 400 0 Q 450 -8 500 0 Q 550 -8 600 0 Q 650 -8 700 0 Q 750 -8 800 0" fill="none" stroke="#c8c8d8" stroke-width="3" opacity="0.7"/>
+    <path d="M 0 10 Q 50 2 100 10 Q 150 2 200 10 Q 250 2 300 10 Q 350 2 400 10 Q 450 2 500 10 Q 550 2 600 10 Q 650 2 700 10 Q 750 2 800 10" fill="none" stroke="#d8d8e8" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- 第四绝：温泉 -->
+  <g transform="translate(620, 320)">
+    <!-- 水池 -->
+    <ellipse cx="0" cy="20" rx="45" ry="18" fill="#d8e8e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="18" rx="40" ry="14" fill="#c0e0e8" opacity="0.6"/>
+    <!-- 蒸汽 -->
+    <path d="M -15 10 Q -18 -5 -12 -20 Q -15 -35 -8 -45" fill="none" stroke="#e8e8f0" stroke-width="3" opacity="0.6"/>
+    <path d="M 0 10 Q 3 -5 -2 -20 Q 1 -35 -3 -48" fill="none" stroke="#e8e8f0" stroke-width="3" opacity="0.6"/>
+    <path d="M 15 10 Q 18 -5 12 -20 Q 15 -35 8 -45" fill="none" stroke="#e8e8f0" stroke-width="3" opacity="0.6"/>
+  </g>
+
+  <!-- 第五绝：冬雪（雪花） -->
+  <g transform="translate(130, 400)" opacity="0.7">
+    <g transform="translate(0,0)">
+      <line x1="-6" y1="0" x2="6" y2="0" stroke="#c8d8e8" stroke-width="1.5"/>
+      <line x1="0" y1="-6" x2="0" y2="6" stroke="#c8d8e8" stroke-width="1.5"/>
+      <line x1="-4" y1="-4" x2="4" y2="4" stroke="#c8d8e8" stroke-width="1.5"/>
+      <line x1="-4" y1="4" x2="4" y2="-4" stroke="#c8d8e8" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(30,-15)">
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#c8d8e8" stroke-width="1.5"/>
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#c8d8e8" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(60,5)">
+      <line x1="-6" y1="0" x2="6" y2="0" stroke="#c8d8e8" stroke-width="1.5"/>
+      <line x1="0" y1="-6" x2="0" y2="6" stroke="#c8d8e8" stroke-width="1.5"/>
+      <line x1="-4" y1="-4" x2="4" y2="4" stroke="#c8d8e8" stroke-width="1.5"/>
+    </g>
+  </g>
+  <!-- 雪松 -->
+  <g transform="translate(200, 440)">
+    <path d="M 0 30 L -8 10 L -5 10 L -10 -5 L -6 -5 L -12 -20 L 0 -35 L 12 -20 L 6 -5 L 10 -5 L 8 10 L 5 10 L 0 30" fill="#e8e8f0" stroke="#b8c8d8" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="0" y2="40" stroke="#5a4a2a" stroke-width="3"/>
+  </g>
+
+  <!-- 标注：奇松 -->
+  <line x1="130" y1="210" x2="130" y2="120" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="90" y="95" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="130" y="113" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">奇松</text>
+
+  <!-- 标注：怪石 -->
+  <line x1="380" y1="180" x2="380" y2="120" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="340" y="95" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="380" y="113" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">怪石</text>
+
+  <!-- 标注：云海 -->
+  <line x1="500" y1="290" x2="500" y2="240" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="460" y="215" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="500" y="233" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">云海</text>
+
+  <!-- 标注：温泉 -->
+  <line x1="620" y1="305" x2="680" y2="270" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="640" y="248" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="680" y="266" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">温泉</text>
+
+  <!-- 标注：冬雪 -->
+  <line x1="200" y1="420" x2="250" y2="380" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="220" y="358" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="260" y="376" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">冬雪</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">奇松、怪石、云海、温泉、冬雪——黄山五绝名不虚传，"黄山归来不看岳"。</text>
+</svg>

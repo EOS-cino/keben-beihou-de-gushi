@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="任大霖童年乡村生活插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">任大霖的童年</text>
+  <line x1="300" y1="60" x2="500" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="260" fill="#e8f0e6"/>
+  <!-- 远山 -->
+  <path d="M0 290 Q200 230 400 260 Q600 220 800 270 L800 330 L0 330 Z" fill="#6a8d3f" opacity="0.3"/>
+
+  <!-- 江南水乡房屋 -->
+  <g>
+    <!-- 房屋1 -->
+    <rect x="120" y="240" width="120" height="80" fill="#f0e8d8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M110 240 L180 200 L250 240 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <rect x="160" y="270" width="24" height="50" fill="#7a3b14"/>
+    <rect x="195" y="265" width="28" height="22" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 房屋2 -->
+    <rect x="260" y="250" width="90" height="70" fill="#f0e8d8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M252 250 L305 215 L358 250 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <rect x="285" y="278" width="20" height="42" fill="#7a3b14"/>
+  </g>
+
+  <!-- 河流 -->
+  <path d="M0 380 Q200 360 400 380 Q600 400 800 370 L800 440 Q600 470 400 450 Q200 430 0 450 Z" fill="#4a90b8" opacity="0.5"/>
+  <!-- 水波 -->
+  <path d="M100 400 q15 -4 30 0 M300 415 q15 -4 30 0 M520 395 q15 -4 30 0 M680 410 q15 -4 30 0" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- 小石桥 -->
+  <path d="M340 360 Q400 330 460 360" fill="none" stroke="#8d6a4a" stroke-width="10" stroke-linecap="round"/>
+  <rect x="335" y="358" width="130" height="8" fill="#8d6a4a" opacity="0"/>
+
+  <!-- 草地 -->
+  <path d="M0 440 Q400 420 800 440 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.5"/>
+
+  <!-- 童年任大霖（男孩） -->
+  <g>
+    <!-- 身体 -->
+    <rect x="395" y="430" width="40" height="60" rx="8" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="415" cy="410" r="22" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头发 -->
+    <path d="M395 405 q20 -18 40 0" fill="#3a2a1a"/>
+    <!-- 眼睛 -->
+    <circle cx="408" cy="410" r="2.5" fill="#3a2a1a"/>
+    <circle cx="422" cy="410" r="2.5" fill="#3a2a1a"/>
+    <!-- 笑嘴 -->
+    <path d="M409 420 q6 5 12 0" stroke="#7a3b14" stroke-width="2" fill="none"/>
+    <!-- 腿 -->
+    <rect x="400" y="488" width="14" height="40" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="420" y="488" width="14" height="40" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手举着书 -->
+    <path d="M395 445 q-20 5 -28 20" stroke="#e07856" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- 小书 -->
+    <rect x="355" y="460" width="30" height="22" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="370" y1="460" x2="370" y2="482" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 小狗阿黑 -->
+  <g>
+    <ellipse cx="500" cy="500" rx="30" ry="22" fill="#5a3a1a" stroke="#3a2a1a" stroke-width="2"/>
+    <circle cx="528" cy="488" r="16" fill="#5a3a1a" stroke="#3a2a1a" stroke-width="2"/>
+    <path d="M520 478 l-6 -10 M536 478 l6 -10" stroke="#3a2a1a" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="532" cy="486" r="2" fill="#fef9ed"/>
+    <path d="M540 492 l6 -2" stroke="#3a2a1a" stroke-width="2"/>
+    <rect x="478" y="515" width="8" height="22" fill="#5a3a1a"/>
+    <rect x="498" y="515" width="8" height="22" fill="#5a3a1a"/>
+    <!-- 尾巴翘起 -->
+    <path d="M472 490 q-12 -15 -6 -25" stroke="#5a3a1a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 蜻蜓 -->
+  <g>
+    <ellipse cx="200" cy="180" rx="10" ry="3" fill="#4a90b8"/>
+    <path d="M185 178 L215 178 M185 182 L215 182" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+    <path d="M210 180 L225 180" stroke="#4a90b8" stroke-width="1.5"/>
+  </g>
+  <g>
+    <ellipse cx="640" cy="200" rx="10" ry="3" fill="#e07856"/>
+    <path d="M625 198 L655 198 M625 202 L655 202" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+    <path d="M650 200 L665 200" stroke="#e07856" stroke-width="1.5"/>
+  </g>
+
+  <!-- 蚕宝宝（特写小框） -->
+  <rect x="50" y="470" width="120" height="100" fill="#fef9ed" stroke="#c8843a" stroke-width="2" rx="6" opacity="0.95"/>
+  <text x="110" y="490" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">养蚕的乐趣</text>
+  <ellipse cx="90" cy="520" rx="18" ry="8" fill="#f0e8d8" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M72 520 q6 -3 12 0 q6 -3 12 0 q6 -3 12 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+  <ellipse cx="130" cy="540" rx="16" ry="7" fill="#f0e8d8" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M114 540 q6 -3 12 0 q6 -3 12 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+  <!-- 桑叶 -->
+  <path d="M60 555 q20 -8 40 0" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">江南水乡的童年，是任大霖写不完的故事宝藏</text>
+</svg>

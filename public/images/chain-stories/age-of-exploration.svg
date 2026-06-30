@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="大航海时代帆船远航插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：大航海时代的故事</text>
+  <line x1="180" y1="62" x2="620" y2="62" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心主题 -->
+  <rect x="240" y="95" width="320" height="50" fill="#fff6df" stroke="#7ab8d8" stroke-width="2" rx="8"/>
+  <text x="400" y="120" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#4a6a2f">15-17世纪 · 帆船征服海洋</text>
+  <text x="400" y="137" text-anchor="middle" font-family="serif" font-size="11" fill="#7ab8d8">把分散的世界连成一个整体</text>
+
+  <!-- 四个航海家节点 -->
+  <!-- 迪亚士/达伽马（左上） -->
+  <g>
+    <line x1="300" y1="145" x2="140" y2="190" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="40" y="190" width="200" height="130" fill="#fff6df" stroke="#7ab8d8" rx="6"/>
+    <text x="140" y="212" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7ab8d8">迪亚士·达伽马</text>
+    <text x="140" y="228" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">绕非洲到印度</text>
+    <!-- 好望角 -->
+    <g transform="translate(140 265)">
+      <!-- 非洲轮廓 -->
+      <path d="M-30 -10 Q-20 -20 -10 -15 Q0 -5 5 10 Q-5 15 -20 12 Q-30 5 -30 -10 Z" fill="#6a8d3f" opacity="0.4" stroke="#4a6a2f" stroke-width="1"/>
+      <!-- 航线 -->
+      <path d="M-40 0 Q-25 5 -15 0 Q0 -5 15 5" fill="none" stroke="#c84a3a" stroke-width="2" stroke-dasharray="4,3"/>
+      <circle cx="-15" cy="0" r="3" fill="#c84a3a"/>
+      <text x="-15" y="-8" text-anchor="middle" font-family="serif" font-size="8" fill="#c84a3a">好望角</text>
+    </g>
+    <text x="140" y="305" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">"风暴角"→"好望角"</text>
+  </g>
+
+  <!-- 哥伦布（右上） -->
+  <g>
+    <line x1="400" y1="145" x2="400" y2="190" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="300" y="190" width="200" height="130" fill="#fff6df" stroke="#c8843a" rx="6"/>
+    <text x="400" y="212" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c8843a">哥伦布</text>
+    <text x="400" y="228" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">1492年·向西到东方？</text>
+    <!-- 地球+航线 -->
+    <g transform="translate(400 265)">
+      <circle cx="0" cy="0" r="25" fill="#a8d0e8" opacity="0.5" stroke="#7ab8d8" stroke-width="1.5"/>
+      <!-- 美洲 -->
+      <path d="M-15 -5 Q-10 -15 -5 -8 Q0 0 -8 10 Q-15 5 -15 -5 Z" fill="#6a8d3f" opacity="0.5"/>
+      <!-- 航线 -->
+      <path d="M20 5 Q5 10 -10 0" fill="none" stroke="#c84a3a" stroke-width="2" stroke-dasharray="4,3"/>
+      <circle cx="20" cy="5" r="3" fill="#c8843a" text-anchor="middle"/>
+      <text x="20" y="18" text-anchor="middle" font-family="serif" font-size="7" fill="#c8843a">欧洲</text>
+      <text x="-10" y="18" text-anchor="middle" font-family="serif" font-size="7" fill="#6a8d3f">美洲</text>
+    </g>
+    <text x="400" y="305" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">以为到了印度·其实到了美洲</text>
+  </g>
+
+  <!-- 麦哲伦（左下） -->
+  <g>
+    <line x1="350" y1="145" x2="200" y2="340" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="60" y="340" width="220" height="130" fill="#fff6df" stroke="#c84a3a" rx="6"/>
+    <text x="170" y="362" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">麦哲伦</text>
+    <text x="170" y="378" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">1519年·第一次环球航行</text>
+    <!-- 环球航线 -->
+    <g transform="translate(170 415)">
+      <circle cx="0" cy="0" r="28" fill="#a8d0e8" opacity="0.4" stroke="#7ab8d8" stroke-width="1.5"/>
+      <path d="M-28 0 Q0 -20 28 0 Q0 20 -28 0" fill="none" stroke="#c84a3a" stroke-width="2" stroke-dasharray="4,3"/>
+      <circle cx="-28" cy="0" r="3" fill="#c84a3a"/>
+      <circle cx="28" cy="0" r="3" fill="#c84a3a"/>
+    </g>
+    <text x="170" y="460" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">5艘船270人→1艘船18人回</text>
+  </g>
+
+  <!-- 郑和（右下） -->
+  <g>
+    <line x1="450" y1="145" x2="600" y2="340" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="500" y="340" width="240" height="130" fill="#fff6df" stroke="#6a8d3f" rx="6"/>
+    <text x="620" y="362" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a6a2f">郑和</text>
+    <text x="620" y="378" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">1405-1433年·七下西洋</text>
+    <!-- 宝船 -->
+    <g transform="translate(620 420)">
+      <path d="M-35 5 Q-30 20 0 22 Q30 20 35 5 L30 -2 L-30 -2 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1"/>
+      <line x1="0" y1="-2" x2="0" y2="-30" stroke="#5a3a1a" stroke-width="2"/>
+      <path d="M0 -28 Q-15 -20 -18 -5 Q-8 -3 0 -5" fill="#c84a3a" opacity="0.7"/>
+      <path d="M0 -28 Q15 -20 18 -5 Q8 -3 0 -5" fill="#c84a3a" opacity="0.7"/>
+    </g>
+    <text x="620" y="460" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">比哥伦布早87年·船队两万人</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">探索未知需要巨大勇气——正是这些敢走的人，把分散的世界连成了一体</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="植物睡眠运动插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">植物的睡眠运动</text>
+  <line x1="290" y1="58" x2="510" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 三个植物分区 -->
+  <!-- 含羞草 -->
+  <rect x="30" y="80" width="240" height="440" fill="#f0e8d0" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="150" y="110" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5a8a3a">含羞草</text>
+  <!-- 茎 -->
+  <rect x="148" y="280" width="4" height="180" fill="#5a8a3a"/>
+  <!-- 叶子（张开状态） -->
+  <g transform="translate(150,260)">
+    <path d="M0 0 L-40 -10 L-45 -25 L-35 -30 L-25 -20 L-15 -28 L-5 -18 L5 -28 L15 -18 L25 -20 L35 -30 L45 -25 L40 -10 Z" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/>
+    <path d="M0 0 L-40 10 L-45 25 L-35 30 L-25 20 L-15 28 L-5 18 L5 28 L15 18 L25 20 L35 30 L45 25 L40 10 Z" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/>
+  </g>
+  <!-- 叶子（合拢状态，右侧小图） -->
+  <g transform="translate(200,420)">
+    <rect x="-1" y="0" width="2" height="30" fill="#5a8a3a"/>
+    <path d="M0 0 L-8 -5 L-6 -15 L0 -12 L6 -15 L8 -5 Z" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/>
+  </g>
+  <text x="200" y="470" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">碰后合拢</text>
+  <!-- 手指 -->
+  <g transform="translate(100,250)">
+    <path d="M0 0 L0 25 Q0 30 5 30 L10 30" fill="none" stroke="#e8c4a0" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="3" cy="0" rx="4" ry="6" fill="#e8c4a0"/>
+  </g>
+
+  <!-- 合欢树 -->
+  <rect x="290" y="80" width="240" height="440" fill="#f0e8d0" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="410" y="110" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5a8a3a">合欢树</text>
+  <!-- 树干 -->
+  <rect x="408" y="280" width="4" height="180" fill="#8d5a36"/>
+  <!-- 树冠（白天张开） -->
+  <ellipse cx="410" cy="240" rx="60" ry="45" fill="#5a8a3a" opacity="0.8"/>
+  <!-- 羽状叶（张开） -->
+  <g stroke="#3a6a1a" stroke-width="1.5" fill="none">
+    <path d="M380 220 L360 210 M380 225 L358 225 M380 230 L360 240"/>
+    <path d="M440 220 L460 210 M440 225 L462 225 M440 230 L460 240"/>
+    <path d="M410 200 L410 185 M395 205 L385 195 M425 205 L435 195"/>
+  </g>
+  <!-- 合欢花（粉绒球） -->
+  <circle cx="390" cy="235" r="10" fill="#d4648a" opacity="0.8"/>
+  <circle cx="430" cy="245" r="10" fill="#d4648a" opacity="0.8"/>
+  <!-- 叶子合拢（夜晚，右下小图） -->
+  <g transform="translate(440,420)">
+    <rect x="-1" y="0" width="2" height="30" fill="#5a8a3a"/>
+    <path d="M0 5 L-6 0 L-4 -8 L0 -5 L4 -8 L6 0 Z" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1"/>
+  </g>
+  <text x="440" y="470" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">夜晚合拢</text>
+  <!-- 月亮 -->
+  <path d="M340 150 A12 12 0 1 0 352 162 A9 9 0 1 1 340 150 Z" fill="#e8a838" opacity="0.6"/>
+
+  <!-- 睡莲 -->
+  <rect x="550" y="80" width="240" height="440" fill="#d8e8f0" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="670" y="110" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#3a6a9a">睡莲</text>
+  <!-- 水面 -->
+  <rect x="560" y="300" width="220" height="160" fill="#5a9aba" opacity="0.5"/>
+  <!-- 睡莲叶（圆形） -->
+  <ellipse cx="640" cy="360" rx="35" ry="10" fill="#5a8a3a"/>
+  <ellipse cx="720" cy="380" rx="30" ry="8" fill="#5a8a3a"/>
+  <!-- 睡莲花（白天开放） -->
+  <g transform="translate(640,340)">
+    <ellipse cx="0" cy="-8" rx="6" ry="12" fill="#fff6df" stroke="#e8a838" stroke-width="1"/>
+    <ellipse cx="7" cy="-4" rx="6" ry="12" fill="#fff6df" stroke="#e8a838" stroke-width="1" transform="rotate(45 7 -4)"/>
+    <ellipse cx="-7" cy="-4" rx="6" ry="12" fill="#fff6df" stroke="#e8a838" stroke-width="1" transform="rotate(-45 -7 -4)"/>
+    <ellipse cx="0" cy="0" rx="5" ry="5" fill="#e8a838"/>
+  </g>
+  <!-- 睡莲花（夜晚合拢，右下） -->
+  <g transform="translate(720,400)">
+    <ellipse cx="0" cy="-5" rx="5" ry="10" fill="#fff6df" stroke="#e8a838" stroke-width="1"/>
+    <ellipse cx="0" cy="-5" rx="3" ry="8" fill="#f0e0c0"/>
+  </g>
+  <text x="670" y="490" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">白天开 · 夜晚合</text>
+
+  <!-- 标注：含羞草 -->
+  <line x1="150" y1="260" x2="150" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="95" y="175" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="150" y="194" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">一碰就合</text>
+
+  <!-- 标注：合欢树 -->
+  <line x1="410" y1="240" x2="410" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="175" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="410" y="194" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">昼开夜合</text>
+
+  <!-- 标注：睡莲 -->
+  <line x1="640" y1="340" x2="640" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="585" y="175" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="640" y="194" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">随光开合</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="548" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="573" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">含羞草、合欢树、睡莲都会开合——这是植物适应光线的"睡眠运动"，和蒲公英变色道理相通。</text>
+</svg>

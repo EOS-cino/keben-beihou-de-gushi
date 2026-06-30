@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天冰雪融化柳树发芽燕子归来插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">春天来了</text>
+  <line x1="340" y1="56" x2="460" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——一点一点，藏在细节里</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="90" width="800" height="280" fill="#4a90b8" opacity="0.1"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="150" r="28" fill="#e8a838" opacity="0.6"/>
+
+  <!-- 柳树 -->
+  <g transform="translate(180, 200)">
+    <rect x="-8" y="0" width="16" height="180" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 枝条 -->
+    <path d="M0 10 Q-30 30 -50 70" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <path d="M0 10 Q30 30 50 70" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <path d="M0 20 Q-40 50 -60 100" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <path d="M0 20 Q40 50 60 100" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <path d="M0 30 Q-20 60 -30 120" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <path d="M0 30 Q20 60 30 120" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <!-- 嫩芽 -->
+    <circle cx="-50" cy="70" r="4" fill="#2d6a4f"/>
+    <circle cx="50" cy="70" r="4" fill="#2d6a4f"/>
+    <circle cx="-60" cy="100" r="4" fill="#2d6a4f"/>
+    <circle cx="60" cy="100" r="4" fill="#2d6a4f"/>
+    <circle cx="-30" cy="120" r="4" fill="#2d6a4f"/>
+    <circle cx="30" cy="120" r="4" fill="#2d6a4f"/>
+    <circle cx="-40" cy="50" r="3" fill="#4a6a2f"/>
+    <circle cx="40" cy="50" r="3" fill="#4a6a2f"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">柳树冒嫩芽</text>
+  </g>
+
+  <!-- 河流 -->
+  <g transform="translate(0, 380)">
+    <rect x="0" y="0" width="800" height="60" fill="#4a90b8" opacity="0.3"/>
+    <!-- 碎冰 -->
+    <g opacity="0.7">
+      <polygon points="350,10 380,5 390,20 360,25" fill="#fef9ed" stroke="#4a90b8" stroke-width="1"/>
+      <polygon points="450,15 475,10 480,25 455,28" fill="#fef9ed" stroke="#4a90b8" stroke-width="1"/>
+      <polygon points="550,8 575,12 570,25 548,22" fill="#fef9ed" stroke="#4a90b8" stroke-width="1"/>
+    </g>
+    <!-- 水波 -->
+    <path d="M0 30 Q100 25 200 30 Q300 35 400 30 Q500 25 600 30 Q700 35 800 30" fill="none" stroke="#4a90b8" stroke-width="1.5"/>
+    <path d="M0 45 Q100 40 200 45 Q300 50 400 45 Q500 40 600 45 Q700 50 800 45" fill="none" stroke="#4a90b8" stroke-width="1.5" opacity="0.6"/>
+    <text x="450" y="75" text-anchor="middle" font-family="serif" font-size="11" fill="#4a90b8">冰化了，水开始流</text>
+  </g>
+
+  <!-- 燕子 -->
+  <g transform="translate(500, 180)">
+    <path d="M0 0 Q-15 -8 -25 -3 Q-15 2 0 5 Q15 2 25 -3 Q15 -8 0 0" fill="#7a3b14"/>
+    <path d="M0 5 L0 15" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-3 15 Q0 20 3 15" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">燕子归来</text>
+  </g>
+  <g transform="translate(580, 220)">
+    <path d="M0 0 Q-10 -5 -16 -2 Q-10 1 0 3 Q10 1 16 -2 Q10 -5 0 0" fill="#7a3b14" opacity="0.8"/>
+  </g>
+
+  <!-- 地面嫩草 -->
+  <g transform="translate(0, 440)">
+    <path d="M100 0 L102 -10 L104 0" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <path d="M120 0 L122 -12 L124 0" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <path d="M300 0 L302 -10 L304 0" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <path d="M320 0 L322 -8 L324 0" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <path d="M600 0 L602 -12 L604 0" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <path d="M620 0 L622 -10 L624 0" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <!-- 花 -->
+    <g transform="translate(450, -5)">
+      <path d="M0 0 L0 -15" stroke="#2d6a4f" stroke-width="2"/>
+      <circle cx="0" cy="-18" r="5" fill="#e07856"/>
+      <circle cx="0" cy="-18" r="2" fill="#e8a838"/>
+    </g>
+    <g transform="translate(700, -5)">
+      <path d="M0 0 L0 -12" stroke="#2d6a4f" stroke-width="2"/>
+      <circle cx="0" cy="-15" r="4" fill="#e8a838"/>
+    </g>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 530)">
+    <rect x="-300" y="0" width="600" height="55" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">风软了 · 芽苞鼓了 · 冰化了 · 燕子来了</text>
+    <text x="0" y="42" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">春天不是一下子来的，是一点一点来的</text>
+  </g>
+</svg>

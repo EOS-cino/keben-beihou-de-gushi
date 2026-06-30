@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="黄山天都峰陡峭石阶、孩子与老爷爷互相鼓励攀登插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">爬天都峰</text>
+  <line x1="330" y1="58" x2="470" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="250" fill="#c4d8e8" opacity="0.35"/>
+  <!-- 云朵 -->
+  <ellipse cx="120" cy="120" rx="40" ry="14" fill="#fff" opacity="0.6"/>
+  <ellipse cx="650" cy="100" rx="50" ry="16" fill="#fff" opacity="0.6"/>
+  <ellipse cx="500" cy="150" rx="35" ry="12" fill="#fff" opacity="0.5"/>
+
+  <!-- 远山 -->
+  <path d="M0 320 L100 200 L180 250 L260 180 L340 240 L420 190 L500 250 L580 200 L680 260 L800 220 L800 340 L0 340 Z" fill="#a0b8a0" opacity="0.4"/>
+
+  <!-- 天都峰主峰 -->
+  <path d="M300 340 L380 120 L420 100 L460 120 L540 340 Z" fill="#9a8870" stroke="#7a6a50" stroke-width="2"/>
+  <!-- 峰顶细节 -->
+  <path d="M380 120 L420 100 L460 120 L450 140 L420 125 L390 140 Z" fill="#b0a088" stroke="#7a6a50" stroke-width="1.5"/>
+
+  <!-- 陡峭石阶（之字形） -->
+  <path d="M330 330 L360 310 L390 330 L420 310 L450 330 L470 310 L440 290 L410 310 L380 290 L350 310 L320 290 L350 270 L380 290 L410 270 L380 250 L350 270 L370 230 L400 250 L420 210 L390 190" fill="none" stroke="#8a7a60" stroke-width="3" stroke-dasharray="2,0"/>
+
+  <!-- 左侧山体 -->
+  <path d="M0 340 L80 280 L140 320 L200 290 L260 330 L0 400 Z" fill="#8a7860" opacity="0.5"/>
+  <!-- 右侧山体 -->
+  <path d="M540 340 L620 290 L680 320 L740 280 L800 330 L800 400 L540 400 Z" fill="#8a7860" opacity="0.5"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="160" fill="#d8c8a8" opacity="0.5"/>
+
+  <!-- 老爷爷（下方攀登中） -->
+  <g transform="translate(360, 300)">
+    <!-- 身体 -->
+    <path d="M -14 50 Q -16 20 -10 5 Q -5 -2 0 -2 Q 5 -2 10 5 Q 16 20 14 50" fill="#6a7a8a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-15" r="12" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 白发 -->
+    <path d="M -12 -18 Q -10 -28 0 -30 Q 10 -28 12 -18" fill="#f0f0f0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 白胡子 -->
+    <path d="M -6 -8 Q 0 0 6 -8 Q 4 4 0 6 Q -4 4 -6 -8" fill="#f0f0f0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 眼睛 -->
+    <circle cx="-4" cy="-16" r="1.5" fill="#7a3b14"/>
+    <circle cx="4" cy="-16" r="1.5" fill="#7a3b14"/>
+    <!-- 手臂（拄拐） -->
+    <path d="M 14 10 Q 25 20 28 35" fill="none" stroke="#6a7a8a" stroke-width="7" stroke-linecap="round"/>
+    <line x1="28" y1="35" x2="32" y2="55" stroke="#8a6a3a" stroke-width="4"/>
+    <!-- 另一只手向上 -->
+    <path d="M -14 10 Q -22 0 -25 -10" fill="none" stroke="#6a7a8a" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="-25" cy="-12" r="5" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 孩子（上方攀登中） -->
+  <g transform="translate(410, 230)">
+    <!-- 身体 -->
+    <path d="M -10 35 Q -12 12 -8 2 Q -4 -2 0 -2 Q 4 -2 8 2 Q 12 12 10 35" fill="#c84030" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-12" r="10" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头发 -->
+    <path d="M -10 -15 Q -8 -24 0 -25 Q 8 -24 10 -15" fill="#3a3a3a" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 眼睛 -->
+    <circle cx="-3" cy="-12" r="1.5" fill="#7a3b14"/>
+    <circle cx="3" cy="-12" r="1.5" fill="#7a3b14"/>
+    <!-- 嘴（笑） -->
+    <path d="M -3 -6 Q 0 -4 3 -6" fill="none" stroke="#7a3b14" stroke-width="1.2"/>
+    <!-- 手臂（向上抓） -->
+    <path d="M 10 5 Q 20 -5 22 -18" fill="none" stroke="#c84030" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="22" cy="-20" r="4.5" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 另一只手 -->
+    <path d="M -10 5 Q -16 12 -18 22" fill="none" stroke="#c84030" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 互相鼓励的对话气泡 -->
+  <g transform="translate(330, 260)">
+    <ellipse cx="0" cy="0" rx="32" ry="14" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <path d="M 15 10 L 22 18 L 10 14" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">加油！</text>
+  </g>
+
+  <!-- 峰顶旗帜 -->
+  <line x1="420" y1="100" x2="420" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M420 72 L450 78 L420 84 Z" fill="#c84030" stroke="#7a3b14" stroke-width="1"/>
+
+  <!-- 标注：天都峰 -->
+  <line x1="420" y1="110" x2="560" y2="90" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="555" y="72" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="605" y="90" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">天都峰</text>
+
+  <!-- 标注：陡峭石阶 -->
+  <line x1="395" y1="280" x2="250" y2="250" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="170" y="235" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="225" y="253" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">陡峭石阶</text>
+
+  <!-- 标注：老爷爷 -->
+  <line x1="345" y1="285" x2="250" y2="320" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="195" y="310" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="240" y="328" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">老爷爷</text>
+
+  <!-- 标注：孩子 -->
+  <line x1="425" y1="215" x2="500" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="490" y="185" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="530" y="203" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">"我"</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">一老一小互相鼓励，从别人身上汲取力量，终于登上天都峰顶</text>
+</svg>

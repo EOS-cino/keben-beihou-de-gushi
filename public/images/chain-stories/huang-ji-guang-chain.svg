@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从黄继光堵枪眼到董存瑞炸碉堡的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：黄继光 -->
+  <circle cx="170" cy="300" r="110" fill="#a83232" opacity="0.25" stroke="#a83232" stroke-width="3"/>
+  <rect x="148" y="285" width="30" height="14" fill="#1a1a1a"/>
+  <path d="M 150 290 l 30 0 l -6 -20 l -18 0 z" fill="#1a1a1a"/>
+  <circle cx="163" cy="275" r="10" fill="#f5d9a0"/>
+  <path d="M 175 290 q 30 -8 40 4" stroke="#3a7d44" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 195 285 l 14 -8 l 4 8 z" fill="#f0c419"/>
+  <text x="170" y="335" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">黄继光</text>
+  <text x="170" y="358" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">堵枪眼</text>
+  <!-- 右珠：董存瑞 -->
+  <circle cx="630" cy="300" r="110" fill="#b5651d" opacity="0.25" stroke="#b5651d" stroke-width="3"/>
+  <rect x="612" y="285" width="36" height="16" fill="#5d4037"/>
+  <rect x="618" y="270" width="24" height="16" fill="#5d4037"/>
+  <circle cx="630" cy="300" r="9" fill="#f5d9a0"/>
+  <path d="M 630 310 q 0 14 0 18" stroke="#3a7d44" stroke-width="6" fill="none"/>
+  <path d="M 612 285 l -14 0 M 612 301 l -14 0" stroke="#c8553d" stroke-width="3"/>
+  <path d="M 590 293 l 8 0 l -4 -6 z" fill="#f0c419"/>
+  <text x="630" y="335" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">董存瑞</text>
+  <text x="630" y="358" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">炸碉堡</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">黄继光堵枪眼，董存瑞炸碉堡</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">把生留给别人，把危险留给自己</text>
+</svg>

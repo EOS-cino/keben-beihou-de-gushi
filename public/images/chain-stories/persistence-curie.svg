@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="居里夫人研究插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">坚持与毅力——居里夫人</text>
+  <line x1="230" y1="56" x2="570" y2="56" stroke="#c9952e" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8a6a3a">——从李白到居里夫人，"磨"的精神</text>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#c4b4a4" stroke="#8a7a6a" stroke-width="2"/>
+
+  <!-- 简陋实验室（漏雨棚屋） -->
+  <g transform="translate(400, 350)">
+    <!-- 棚屋结构 -->
+    <path d="M-180 0 L-180 -120 L180 -120 L180 0 Z" fill="#e8d8c0" stroke="#8a6a3a" stroke-width="2.5"/>
+    <!-- 屋顶（破旧） -->
+    <path d="M-190 -120 L0 -160 L190 -120 Z" fill="#8a6a4a" stroke="#5a4a2a" stroke-width="2.5"/>
+    <!-- 漏雨处 -->
+    <path d="M-50 -155 L-40 -140" stroke="#6a9ab8" stroke-width="2" opacity="0.6"/>
+    <path d="M-48 -140 L-46 -130" stroke="#6a9ab8" stroke-width="2" opacity="0.6"/>
+    <path d="M60 -155 L70 -140" stroke="#6a9ab8" stroke-width="2" opacity="0.6"/>
+    <path d="M62 -140 L64 -130" stroke="#6a9ab8" stroke-width="2" opacity="0.6"/>
+    <!-- 窗户 -->
+    <rect x="-150" y="-100" width="50" height="50" fill="#c4dae8" stroke="#5a3a1a" stroke-width="2"/>
+    <line x1="-125" y1="-100" x2="-125" y2="-50" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-150" y1="-75" x2="-100" y2="-75" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 门 -->
+    <rect x="120" y="-80" width="40" height="80" fill="#6a4a2a" stroke="#3a2a1a" stroke-width="2"/>
+    <circle cx="150" cy="-40" r="2" fill="#c9952e"/>
+    <!-- 标注：简陋实验室 -->
+    <text x="0" y="-170" text-anchor="middle" font-family="serif" font-size="14" fill="#5a3a1a">简陋的棚屋实验室</text>
+  </g>
+
+  <!-- 大锅（熬煮矿渣） -->
+  <g transform="translate(320, 400)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">沥青铀矿渣</text>
+    <!-- 锅 -->
+    <ellipse cx="0" cy="40" rx="45" ry="10" fill="#3a3a3a"/>
+    <path d="M-45 40 L-35 0 L35 0 L45 40 Z" fill="#5a5a5a" stroke="#2a2a2a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="0" rx="35" ry="8" fill="#3a3a3a" stroke="#2a2a2a" stroke-width="2"/>
+    <!-- 锅内液体（沸腾） -->
+    <ellipse cx="0" cy="0" rx="32" ry="6" fill="#6a5a4a" opacity="0.8"/>
+    <!-- 气泡 -->
+    <circle cx="-15" cy="-3" r="3" fill="#8a7a6a" opacity="0.6"/>
+    <circle cx="5" cy="-5" r="2.5" fill="#8a7a6a" opacity="0.6"/>
+    <circle cx="18" cy="-2" r="3" fill="#8a7a6a" opacity="0.6"/>
+    <!-- 蒸汽 -->
+    <path d="M-10 -5 Q-15 -20 -5 -25 Q5 -30 -5 -35" fill="none" stroke="#d4d4d4" stroke-width="2" opacity="0.5"/>
+    <path d="M10 -5 Q15 -20 5 -25 Q-5 -30 5 -35" fill="none" stroke="#d4d4d4" stroke-width="2" opacity="0.5"/>
+    <!-- 搅拌棒 -->
+    <rect x="-3" y="-40" width="6" height="45" fill="#8b6332" stroke="#5a3a1a" stroke-width="1.5" rx="2"/>
+  </g>
+
+  <!-- 居里夫人（在锅旁搅拌） -->
+  <g transform="translate(250, 380)">
+    <text x="-30" y="-100" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#5a3a1a">居里夫人</text>
+    <!-- 头 -->
+    <circle cx="-30" cy="-50" r="20" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 头发（盘起） -->
+    <path d="M-48 -55 Q-40 -70 -30 -68 Q-20 -70 -12 -55" fill="#4a3a2a" stroke="#2a1a0a" stroke-width="1.5"/>
+    <circle cx="-30" cy="-72" r="8" fill="#4a3a2a" stroke="#2a1a0a" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="-37" cy="-50" r="2" fill="#1a1a1a"/>
+    <circle cx="-23" cy="-50" r="2" fill="#1a1a1a"/>
+    <!-- 嘴 -->
+    <line x1="-34" y1="-40" x2="-26" y2="-40" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 身体（实验服） -->
+    <path d="M-48 -30 L-55 40 L-5 40 L2 -30 Z" fill="#d4d4c0" stroke="#8a8a6a" stroke-width="2.5"/>
+    <!-- 手臂（搅拌） -->
+    <path d="M-40 -20 Q-30 -10 -20 0" fill="none" stroke="#d4d4c0" stroke-width="12" stroke-linecap="round"/>
+    <path d="M-40 -20 Q-30 -10 -20 0" fill="none" stroke="#8a8a6a" stroke-width="2"/>
+    <circle cx="-18" cy="2" r="8" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2"/>
+  </g>
+
+  <!-- 提炼出的镭（小试管，发光） -->
+  <g transform="translate(550, 380)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">纯镭（0.1克）</text>
+    <!-- 光晕 -->
+    <circle cx="0" cy="10" r="30" fill="#6a8a4a" opacity="0.1"/>
+    <circle cx="0" cy="10" r="20" fill="#6a8a4a" opacity="0.15"/>
+    <!-- 试管 -->
+    <path d="M-8 -10 L-8 25 Q-8 30 0 30 Q8 30 8 25 L8 -10 Z" fill="#f4f4e0" stroke="#8a8a6a" stroke-width="2"/>
+    <ellipse cx="0" cy="-10" rx="8" ry="3" fill="#d4d4b0" stroke="#8a8a6a" stroke-width="1.5"/>
+    <!-- 镭（发出蓝绿色荧光） -->
+    <path d="M-6 0 L-6 25 Q-6 28 0 28 Q6 28 6 25 L6 0 Z" fill="#6a8a4a" opacity="0.6"/>
+    <circle cx="-2" cy="15" r="2" fill="#a0c060" opacity="0.8"/>
+    <circle cx="3" cy="20" r="1.5" fill="#a0c060" opacity="0.8"/>
+  </g>
+
+  <!-- 数据对比标注 -->
+  <g transform="translate(680, 250)">
+    <rect x="-65" y="0" width="130" height="70" rx="6" fill="#fffdf7" stroke="#c44a3a" stroke-width="1.5" opacity="0.85"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="13" fill="#c44a3a" font-weight="bold">四年坚持</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">成吨矿渣</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">→ 0.1克纯镭</text>
+  </g>
+
+  <!-- 底部：对比——铁杵成针 -->
+  <g transform="translate(400, 540)">
+    <rect x="-280" y="0" width="560" height="45" rx="8" fill="#fffdf7" stroke="#c9952e" stroke-width="1.5" opacity="0.9"/>
+    <text x="-180" y="28" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">老婆婆磨铁杵（每天磨一点）</text>
+    <path d="M-50 22 L50 22" stroke="#c9952e" stroke-width="2.5" marker-end="url(#arrowC)"/>
+    <text x="180" y="28" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">居里夫人提炼镭（每天熬一锅）</text>
+  </g>
+  <defs>
+    <marker id="arrowC" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#c9952e"/>
+    </marker>
+  </defs>
+
+  <!-- 诺贝尔奖章标注 -->
+  <g transform="translate(130, 250)">
+    <circle cx="0" cy="0" r="25" fill="#f4c430" stroke="#c4952e" stroke-width="2.5"/>
+    <text x="0" y="-3" text-anchor="middle" font-family="serif" font-size="10" fill="#5a3a1a" font-weight="bold">诺贝尔</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="10" fill="#5a3a1a">奖×2</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#5a3a1a">两次获奖</text>
+  </g>
+</svg>

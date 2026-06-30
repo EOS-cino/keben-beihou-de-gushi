@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从天窗到安徒生窗边写童话的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：天窗 -->
+  <circle cx="170" cy="300" r="110" fill="#5d8aa8" opacity="0.25" stroke="#1e5f8e" stroke-width="3"/>
+  <polygon points="130,300 170,250 210,300" fill="#5d4037"/>
+  <rect x="155" y="285" width="30" height="20" fill="#f0c068" stroke="#3a3a3a" stroke-width="2"/>
+  <polygon points="155,305 185,305 200,335 140,335" fill="#f0c068" opacity="0.4"/>
+  <text x="170" y="355" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">茅盾·天窗</text>
+  <text x="170" y="378" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">看一小片想一大片</text>
+  <!-- 右珠：安徒生窗 -->
+  <circle cx="630" cy="300" r="110" fill="#e88aa8" opacity="0.25" stroke="#c8553d" stroke-width="3"/>
+  <rect x="605" y="265" width="50" height="50" fill="#f5efe0" stroke="#5d4037" stroke-width="2"/>
+  <line x1="630" y1="265" x2="630" y2="315" stroke="#5d4037" stroke-width="1.5"/>
+  <line x1="605" y1="290" x2="655" y2="290" stroke="#5d4037" stroke-width="1.5"/>
+  <circle cx="650" cy="280" r="4" fill="#f0c419"/>
+  <text x="630" y="355" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">安徒生窗</text>
+  <text x="630" y="378" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">卖火柴的小女孩</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">天窗之外，安徒生的窗</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">用眼睛看一小片，用脑子想一大片</text>
+</svg>

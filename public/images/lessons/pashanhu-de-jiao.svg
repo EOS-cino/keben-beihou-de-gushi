@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="爬山虎藤蔓攀上墙面插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">爬山虎的脚</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 砖墙背景 -->
+  <rect x="60" y="80" width="680" height="440" fill="#e8d8b8" stroke="#8a6a3a" stroke-width="3"/>
+  <!-- 砖缝纹理 -->
+  <g stroke="#c8b898" stroke-width="1.5">
+    <line x1="60" y1="140" x2="740" y2="140"/>
+    <line x1="60" y1="200" x2="740" y2="200"/>
+    <line x1="60" y1="260" x2="740" y2="260"/>
+    <line x1="60" y1="320" x2="740" y2="320"/>
+    <line x1="60" y1="380" x2="740" y2="380"/>
+    <line x1="60" y1="440" x2="740" y2="440"/>
+    <line x1="60" y1="500" x2="740" y2="500"/>
+  </g>
+  <g stroke="#c8b898" stroke-width="1.5">
+    <line x1="130" y1="80" x2="130" y2="140"/>
+    <line x1="260" y1="80" x2="260" y2="140"/>
+    <line x1="390" y1="80" x2="390" y2="140"/>
+    <line x1="520" y1="80" x2="520" y2="140"/>
+    <line x1="650" y1="80" x2="650" y2="140"/>
+    <line x1="195" y1="140" x2="195" y2="200"/>
+    <line x1="325" y1="140" x2="325" y2="200"/>
+    <line x1="455" y1="140" x2="455" y2="200"/>
+    <line x1="585" y1="140" x2="585" y2="200"/>
+    <line x1="715" y1="140" x2="715" y2="200"/>
+    <line x1="130" y1="200" x2="130" y2="260"/>
+    <line x1="260" y1="200" x2="260" y2="260"/>
+    <line x1="390" y1="200" x2="390" y2="260"/>
+    <line x1="520" y1="200" x2="520" y2="260"/>
+    <line x1="650" y1="200" x2="650" y2="260"/>
+    <line x1="195" y1="260" x2="195" y2="320"/>
+    <line x1="325" y1="260" x2="325" y2="320"/>
+    <line x1="455" y1="260" x2="455" y2="320"/>
+    <line x1="585" y1="260" x2="585" y2="320"/>
+    <line x1="130" y1="320" x2="130" y2="380"/>
+    <line x1="260" y1="320" x2="260" y2="380"/>
+    <line x1="390" y1="320" x2="390" y2="380"/>
+    <line x1="520" y1="320" x2="520" y2="380"/>
+    <line x1="650" y1="320" x2="650" y2="380"/>
+    <line x1="195" y1="380" x2="195" y2="440"/>
+    <line x1="325" y1="380" x2="325" y2="440"/>
+    <line x1="455" y1="380" x2="455" y2="440"/>
+    <line x1="585" y1="380" x2="585" y2="440"/>
+    <line x1="130" y1="440" x2="130" y2="500"/>
+    <line x1="260" y1="440" x2="260" y2="500"/>
+    <line x1="390" y1="440" x2="390" y2="500"/>
+    <line x1="520" y1="440" x2="520" y2="500"/>
+    <line x1="650" y1="440" x2="650" y2="500"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="520" width="800" height="80" fill="#c8a878"/>
+
+  <!-- 主藤蔓1（从地面攀上墙） -->
+  <path d="M150 520 Q145 460 155 400 Q165 340 150 280 Q140 220 160 160 Q170 120 165 90" fill="none" stroke="#5a7a3a" stroke-width="5" stroke-linecap="round"/>
+  <!-- 分枝 -->
+  <path d="M155 400 Q200 380 240 390" fill="none" stroke="#5a7a3a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M150 280 Q110 260 80 250" fill="none" stroke="#5a7a3a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M160 160 Q210 150 250 155" fill="none" stroke="#5a7a3a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 主藤蔓2 -->
+  <path d="M450 520 Q445 460 455 400 Q465 340 450 280 Q440 220 460 160 Q470 120 465 90" fill="none" stroke="#5a7a3a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M455 400 Q500 380 540 390" fill="none" stroke="#5a7a3a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M450 280 Q410 260 380 250" fill="none" stroke="#5a7a3a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M460 160 Q510 150 550 155" fill="none" stroke="#5a7a3a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 主藤蔓3 -->
+  <path d="M650 520 Q645 460 655 400 Q665 340 650 280 Q640 220 660 160 Q670 120 665 90" fill="none" stroke="#5a7a3a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- 叶子群 -->
+  <g>
+    <!-- 藤蔓1的叶子 -->
+    <ellipse cx="120" cy="440" rx="22" ry="16" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-25 120 440)"/>
+    <ellipse cx="180" cy="420" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(20 180 420)"/>
+    <ellipse cx="100" cy="360" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-30 100 360)"/>
+    <ellipse cx="170" cy="340" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(15 170 340)"/>
+    <ellipse cx="130" cy="260" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-20 130 260)"/>
+    <ellipse cx="190" cy="240" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(25 190 240)"/>
+    <ellipse cx="140" cy="180" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-15 140 180)"/>
+    <ellipse cx="200" cy="160" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(20 200 160)"/>
+    <ellipse cx="155" cy="110" rx="18" ry="14" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5"/>
+
+    <!-- 藤蔓2的叶子 -->
+    <ellipse cx="420" cy="440" rx="22" ry="16" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-25 420 440)"/>
+    <ellipse cx="480" cy="420" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(20 480 420)"/>
+    <ellipse cx="400" cy="360" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-30 400 360)"/>
+    <ellipse cx="470" cy="340" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(15 470 340)"/>
+    <ellipse cx="430" cy="260" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-20 430 260)"/>
+    <ellipse cx="490" cy="240" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(25 490 240)"/>
+    <ellipse cx="440" cy="180" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-15 440 180)"/>
+    <ellipse cx="500" cy="160" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(20 500 160)"/>
+    <ellipse cx="455" cy="110" rx="18" ry="14" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5"/>
+
+    <!-- 藤蔓3的叶子 -->
+    <ellipse cx="620" cy="440" rx="22" ry="16" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-25 620 440)"/>
+    <ellipse cx="680" cy="420" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(20 680 420)"/>
+    <ellipse cx="600" cy="360" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-30 600 360)"/>
+    <ellipse cx="670" cy="340" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(15 670 340)"/>
+    <ellipse cx="630" cy="260" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-20 630 260)"/>
+    <ellipse cx="690" cy="240" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(25 690 240)"/>
+    <ellipse cx="640" cy="180" rx="20" ry="15" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(-15 640 180)"/>
+    <ellipse cx="700" cy="160" rx="22" ry="16" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5" transform="rotate(20 700 160)"/>
+  </g>
+
+  <!-- 爬山虎的"脚"（吸盘，放大特写区域） -->
+  <!-- 特写框 -->
+  <rect x="540" y="340" width="180" height="130" fill="#fef9ed" stroke="#c8843a" stroke-width="2" rx="5" opacity="0.92"/>
+  <text x="630" y="360" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">吸盘脚（特写）</text>
+  <!-- 茎 -->
+  <path d="M580 440 Q600 410 620 390" fill="none" stroke="#5a7a3a" stroke-width="3"/>
+  <!-- 吸盘1 -->
+  <circle cx="620" cy="390" r="8" fill="#7a9a5a" stroke="#3a6a1a" stroke-width="1.5"/>
+  <circle cx="620" cy="390" r="4" fill="#5a7a3a"/>
+  <!-- 吸盘2 -->
+  <path d="M620 390 Q640 395 660 400" fill="none" stroke="#5a7a3a" stroke-width="3"/>
+  <circle cx="660" cy="400" r="8" fill="#7a9a5a" stroke="#3a6a1a" stroke-width="1.5"/>
+  <circle cx="660" cy="400" r="4" fill="#5a7a3a"/>
+  <!-- 吸盘3 -->
+  <path d="M620 390 Q630 410 640 425" fill="none" stroke="#5a7a3a" stroke-width="3"/>
+  <circle cx="640" cy="425" r="7" fill="#7a9a5a" stroke="#3a6a1a" stroke-width="1.5"/>
+  <circle cx="640" cy="425" r="3.5" fill="#5a7a3a"/>
+  <!-- 吸盘4 -->
+  <path d="M660 400 Q680 405 695 415" fill="none" stroke="#5a7a3a" stroke-width="3"/>
+  <circle cx="695" cy="415" r="7" fill="#7a9a5a" stroke="#3a6a1a" stroke-width="1.5"/>
+  <circle cx="695" cy="415" r="3.5" fill="#5a7a3a"/>
+
+  <!-- 藤蔓标注 -->
+  <line x1="160" y1="300" x2="80" y2="300" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="10" y="287" width="70" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="45" y="305" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">藤蔓</text>
+
+  <!-- 叶子标注 -->
+  <line x1="200" y1="160" x2="280" y2="130" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="285" y="117" width="70" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="320" y="135" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">叶片</text>
+
+  <!-- 吸盘脚标注 -->
+  <line x1="540" y1="400" x2="490" y2="400" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="415" y="387" width="75" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="452" y="405" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">吸盘脚</text>
+
+  <!-- 砖墙标注 -->
+  <line x1="740" y1="250" x2="770" y2="250" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="725" y="237" width="70" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="760" y="255" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">墙面</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">爬山虎的脚像小吸盘，牢牢吸附在墙壁上，支撑藤蔓向上攀爬</text>
+</svg>

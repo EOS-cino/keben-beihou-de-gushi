@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="科学家在实验室做实验的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">科学家的故事 · 坚持与发现</text>
+  <line x1="240" y1="62" x2="560" y2="62" stroke="#4a6a2f" stroke-width="2"/>
+
+  <!-- 实验室背景墙 -->
+  <rect x="0" y="70" width="800" height="400" fill="#fff6df" opacity="0.5"/>
+
+  <!-- 书架 -->
+  <rect x="50" y="100" width="140" height="200" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <g fill="#6a8d3f">
+    <rect x="60" y="115" width="120" height="14"/>
+    <rect x="60" y="135" width="120" height="14" fill="#c84a3a"/>
+    <rect x="60" y="155" width="120" height="14" fill="#7ab8d8"/>
+    <rect x="60" y="175" width="120" height="14"/>
+    <rect x="60" y="195" width="120" height="14" fill="#c8843a"/>
+    <rect x="60" y="215" width="120" height="14"/>
+    <rect x="60" y="235" width="120" height="14" fill="#4a6a2f"/>
+  </g>
+
+  <!-- 实验桌 -->
+  <rect x="200" y="380" width="500" height="20" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <rect x="220" y="400" width="15" height="100" fill="#5a3a1a"/>
+  <rect x="665" y="400" width="15" height="100" fill="#5a3a1a"/>
+
+  <!-- 试管架 -->
+  <g>
+    <rect x="250" y="320" width="100" height="12" fill="#8d5a36"/>
+    <rect x="250" y="360" width="100" height="12" fill="#8d5a36"/>
+    <!-- 试管 -->
+    <g fill="none" stroke="#a8a8a8" stroke-width="1.5">
+      <path d="M265 332 L265 360 L260 372 L270 372 L265 360" fill="#a8d0e8" opacity="0.6"/>
+      <path d="M290 332 L290 360 L285 372 L295 372 L290 360" fill="#6a8d3f" opacity="0.6"/>
+      <path d="M315 332 L315 360 L310 372 L320 372 L315 360" fill="#f4c842" opacity="0.7"/>
+    </g>
+    <!-- 成功的试管（发光） -->
+    <g>
+      <path d="M340 332 L340 360 L335 372 L345 372 L340 360" fill="#f4d842" stroke="#c8843a" stroke-width="1.5"/>
+      <!-- 光芒 -->
+      <g stroke="#f4c842" stroke-width="1.5" opacity="0.6">
+        <line x1="340" y1="320" x2="340" y2="310"/>
+        <line x1="330" y1="325" x2="324" y2="318"/>
+        <line x1="350" y1="325" x2="356" y2="318"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- 烧杯 -->
+  <g>
+    <path d="M420 340 L420 375 Q420 380 425 380 L465 380 Q470 380 470 375 L470 340 Z" fill="none" stroke="#a8a8a8" stroke-width="2"/>
+    <path d="M422 360 L468 360 L468 375 Q468 378 465 378 L425 378 Q422 378 422 375 Z" fill="#7ab8d8" opacity="0.5"/>
+    <!-- 气泡 -->
+    <circle cx="435" cy="365" r="2" fill="#fff" opacity="0.6"/>
+    <circle cx="450" cy="370" r="1.5" fill="#fff" opacity="0.6"/>
+    <circle cx="458" cy="362" r="2" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <!-- 显微镜 -->
+  <g>
+    <rect x="540" y="365" width="50" height="15" fill="#5a3a1a"/>
+    <rect x="555" y="300" width="20" height="65" fill="#4a4a4a"/>
+    <circle cx="565" cy="295" r="12" fill="#3a3a3a"/>
+    <rect x="548" y="330" width="34" height="8" fill="#5a5a5a"/>
+    <rect x="560" y="345" width="10" height="20" fill="#4a4a4a"/>
+  </g>
+
+  <!-- 实验记录本 -->
+  <g>
+    <rect x="610" y="345" width="80" height="35" fill="#fff" stroke="#8d5a36" stroke-width="1.5" rx="2"/>
+    <g stroke="#8d5a36" stroke-width="0.8">
+      <line x1="618" y1="355" x2="682" y2="355"/>
+      <line x1="618" y1="363" x2="675" y2="363"/>
+      <line x1="618" y1="371" x2="680" y2="371"/>
+    </g>
+    <text x="650" y="340" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">第188次</text>
+  </g>
+
+  <!-- 科学家 -->
+  <g>
+    <!-- 白大褂 -->
+    <path d="M470 380 L475 250 L535 250 L540 380 Z" fill="#fff" stroke="#8d5a36" stroke-width="1.5"/>
+    <!-- 口袋 -->
+    <rect x="485" y="300" width="20" height="20" fill="none" stroke="#8d5a36" stroke-width="1"/>
+    <!-- 领带 -->
+    <path d="M505 250 L500 270 L505 290 L510 270 Z" fill="#c84a3a"/>
+    <!-- 头 -->
+    <circle cx="505" cy="225" r="22" fill="#f0d0a8"/>
+    <!-- 眼镜 -->
+    <circle cx="497" cy="225" r="7" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <circle cx="513" cy="225" r="7" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <line x1="504" y1="225" x2="506" y2="225" stroke="#2a2a2a" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="497" cy="225" r="2" fill="#2a2a2a"/>
+    <circle cx="513" cy="225" r="2" fill="#2a2a2a"/>
+    <!-- 嘴（微笑） -->
+    <path d="M498 238 Q505 243 512 238" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头发 -->
+    <path d="M484 220 Q505 200 526 220 L526 228 L484 228 Z" fill="#5a3a1a"/>
+    <!-- 手（举试管） -->
+    <path d="M475 270 L455 300 L460 308 L480 278 Z" fill="#f0d0a8"/>
+    <ellipse cx="455" cy="305" rx="6" ry="8" fill="#f0d0a8"/>
+    <!-- 另一只手（记录） -->
+    <path d="M535 270 L555 310 L548 316 L530 278 Z" fill="#f0d0a8"/>
+  </g>
+
+  <!-- 灯泡（灵感） -->
+  <g>
+    <circle cx="620" cy="160" r="18" fill="#f4d842" opacity="0.8"/>
+    <rect x="614" y="175" width="12" height="8" fill="#8d5a36"/>
+    <g stroke="#f4c842" stroke-width="2" stroke-linecap="round" opacity="0.7">
+      <line x1="620" y1="135" x2="620" y2="125"/>
+      <line x1="600" y1="150" x2="592" y2="145"/>
+      <line x1="640" y1="150" x2="648" y2="145"/>
+      <line x1="600" y1="170" x2="592" y2="175"/>
+      <line x1="640" y1="170" x2="648" y2="175"/>
+    </g>
+  </g>
+
+  <!-- 标注 -->
+  <rect x="320" y="290" width="80" height="22" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="360" y="305" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">成功！</text>
+  <line x1="360" y1="312" x2="345" y2="325" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">一百八十八次失败，换来一次成功——科学的路没有捷径</text>
+</svg>

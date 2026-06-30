@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="月光照进窗前的诗人插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">静夜思</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空 -->
+  <rect x="0" y="80" width="800" height="280" fill="#3a5a7a"/>
+  <!-- 星星 -->
+  <g fill="#fff8e0">
+    <circle cx="100" cy="120" r="2"/>
+    <circle cx="180" cy="100" r="1.5"/>
+    <circle cx="250" cy="140" r="2"/>
+    <circle cx="320" cy="110" r="1.5"/>
+    <circle cx="500" cy="130" r="2"/>
+    <circle cx="580" cy="100" r="1.5"/>
+    <circle cx="680" cy="140" r="2"/>
+    <circle cx="730" cy="110" r="1.5"/>
+    <circle cx="150" cy="180" r="1.5"/>
+    <circle cx="400" cy="170" r="1.5"/>
+    <circle cx="620" cy="180" r="1.5"/>
+  </g>
+
+  <!-- 月亮 -->
+  <circle cx="650" cy="170" r="50" fill="#f8f0c8" stroke="#e8d898" stroke-width="2"/>
+  <!-- 月亮表面纹理 -->
+  <circle cx="635" cy="160" r="8" fill="#e8e0b0" opacity="0.5"/>
+  <circle cx="660" cy="180" r="6" fill="#e8e0b0" opacity="0.5"/>
+  <circle cx="645" cy="190" r="5" fill="#e8e0b0" opacity="0.4"/>
+
+  <!-- 室内墙壁 -->
+  <rect x="0" y="360" width="800" height="240" fill="#e8d8b8"/>
+  <!-- 地面 -->
+  <rect x="0" y="480" width="800" height="120" fill="#d8c898"/>
+
+  <!-- 窗户 -->
+  <rect x="450" y="120" width="200" height="200" fill="#1a3a5a" stroke="#8a6a3a" stroke-width="6"/>
+  <!-- 窗格 -->
+  <line x1="550" y1="120" x2="550" y2="320" stroke="#8a6a3a" stroke-width="4"/>
+  <line x1="450" y1="220" x2="650" y2="220" stroke="#8a6a3a" stroke-width="4"/>
+  <!-- 窗外月光（从窗户照进来） -->
+  <path d="M450 220 L200 480 L650 480 L650 220 Z" fill="#f8f0c8" opacity="0.25"/>
+  <!-- 月光光束 -->
+  <path d="M480 250 L250 470 L350 470 L530 250 Z" fill="#f8f0c8" opacity="0.15"/>
+
+  <!-- 床 -->
+  <!-- 床架 -->
+  <rect x="100" y="420" width="300" height="20" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <!-- 床腿 -->
+  <rect x="110" y="440" width="15" height="60" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <rect x="375" y="440" width="15" height="60" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <!-- 床头板 -->
+  <rect x="100" y="370" width="15" height="60" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <!-- 被褥 -->
+  <rect x="120" y="400" width="270" height="25" fill="#c84030" stroke="#8a2010" stroke-width="2" rx="3"/>
+  <!-- 枕头 -->
+  <rect x="120" y="395" width="50" height="20" fill="#f0e8d0" stroke="#c8a878" stroke-width="2" rx="5"/>
+
+  <!-- 诗人（坐在床边，抬头望月） -->
+  <!-- 身体（长袍） -->
+  <path d="M250 500 L255 410 L295 410 L300 500 Z" fill="#3a5a7a"/>
+  <!-- 衣袖 -->
+  <path d="M255 420 L235 460 L240 470 L265 440 Z" fill="#2e4a6a"/>
+  <!-- 头（微微抬起望月） -->
+  <circle cx="275" cy="390" r="20" fill="#f0d0a8"/>
+  <!-- 头巾 -->
+  <path d="M255 386 Q275 366 295 386 L295 378 Q275 360 255 378 Z" fill="#2a2a2a"/>
+  <rect x="265" y="370" width="20" height="12" fill="#2a2a2a"/>
+  <!-- 眼睛（向上望） -->
+  <ellipse cx="270" cy="385" rx="2.5" ry="2" fill="#2a2a2a"/>
+  <ellipse cx="282" cy="385" rx="2.5" ry="2" fill="#2a2a2a"/>
+  <!-- 嘴 -->
+  <path d="M271 396 Q275 398 279 396" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 胡须 -->
+  <path d="M270 400 Q275 408 280 400" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+  <!-- 手臂（一手撑床，一手抬袖） -->
+  <path d="M295 425 L320 410" fill="none" stroke="#3a5a7a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="322" cy="408" r="7" fill="#f0d0a8"/>
+
+  <!-- 桌子（旁边小桌） -->
+  <rect x="350" y="440" width="80" height="10" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <rect x="355" y="450" width="10" height="50" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <rect x="415" y="450" width="10" height="50" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <!-- 桌上书卷 -->
+  <rect x="365" y="428" width="50" height="14" fill="#fff8e0" stroke="#8a6a30" stroke-width="1.5" rx="2"/>
+  <!-- 油灯 -->
+  <rect x="380" y="415" width="15" height="15" fill="#8a6a30" stroke="#5a3a10" stroke-width="1.5"/>
+  <ellipse cx="387" cy="412" rx="6" ry="4" fill="#f4a838"/>
+  <path d="M387 408 Q384 400 387 395 Q390 400 387 408" fill="#f4c842" opacity="0.8"/>
+
+  <!-- 地上月光（霜的意象） -->
+  <ellipse cx="350" cy="500" rx="120" ry="15" fill="#f8f0c8" opacity="0.3"/>
+
+  <!-- 月亮标注 -->
+  <line x1="650" y1="120" x2="650" y2="90" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="605" y="65" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="650" y="83" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">明月</text>
+
+  <!-- 诗人标注 -->
+  <line x1="275" y1="365" x2="275" y2="325" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="230" y="300" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="275" y="318" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">诗人</text>
+
+  <!-- 床标注 -->
+  <line x1="250" y1="420" x2="250" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="205" y="355" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="250" y="373" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">床</text>
+
+  <!-- 月光标注 -->
+  <line x1="400" y1="480" x2="450" y2="480" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="455" y="467" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="500" y="485" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">疑是地上霜</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">床前明月光，疑是地上霜。举头望明月，低头思故乡</text>
+</svg>

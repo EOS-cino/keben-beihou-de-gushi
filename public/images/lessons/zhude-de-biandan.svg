@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="朱德挑粮上井冈山的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">朱德的扁担</text>
+  <line x1="320" y1="56" x2="480" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="240" fill="#d6ecf7"/>
+  <!-- 远山（井冈山） -->
+  <path d="M0 320 L100 200 L180 250 L280 170 L380 230 L500 180 L620 240 L720 200 L800 230 L800 360 L0 360 Z" fill="#6a8a5a" opacity="0.5"/>
+  <path d="M0 320 L120 240 L220 280 L340 220 L460 270 L580 230 L700 280 L800 260 L800 360 L0 360 Z" fill="#5a7a4a" opacity="0.6"/>
+  <!-- 山路 -->
+  <path d="M100 540 Q200 450 300 420 Q400 400 500 390 Q600 380 700 360" fill="none" stroke="#c4a878" stroke-width="20"/>
+  <path d="M100 540 Q200 450 300 420 Q400 400 500 390 Q600 380 700 360" fill="none" stroke="#d4b888" stroke-width="16"/>
+
+  <!-- 草地 -->
+  <rect x="0" y="520" width="800" height="80" fill="#a8c878" opacity="0.5"/>
+
+  <!-- 朱德挑粮 -->
+  <g transform="translate(350,400)">
+    <!-- 箩筐（左） -->
+    <ellipse cx="-55" cy="50" rx="28" ry="10" fill="#8a6a3a"/>
+    <path d="M-83 50 L-75 10 L-35 10 L-27 50 Z" fill="#a88a5a"/>
+    <ellipse cx="-55" cy="10" rx="20" ry="6" fill="#c4a060"/>
+    <!-- 粮食 -->
+    <ellipse cx="-55" cy="8" rx="16" ry="4" fill="#e8c840"/>
+    <!-- 箩筐（右） -->
+    <ellipse cx="55" cy="50" rx="28" ry="10" fill="#8a6a3a"/>
+    <path d="M27 50 L35 10 L75 10 L83 50 Z" fill="#a88a5a"/>
+    <ellipse cx="55" cy="10" rx="20" ry="6" fill="#c4a060"/>
+    <ellipse cx="55" cy="8" rx="16" ry="4" fill="#e8c840"/>
+    <!-- 扁担 -->
+    <rect x="-70" y="-8" width="140" height="8" fill="#8a6a3a" rx="3"/>
+    <rect x="-68" y="-7" width="136" height="3" fill="#a88a5a" rx="2"/>
+    <!-- 扁担上的字 -->
+    <text x="0" y="-1" text-anchor="middle" font-size="6" fill="#5a3a10" font-weight="bold">朱德的扁担</text>
+    <!-- 绳子 -->
+    <line x1="-55" y1="10" x2="-55" y2="-5" stroke="#5a4a3a" stroke-width="2"/>
+    <line x1="55" y1="10" x2="55" y2="-5" stroke="#5a4a3a" stroke-width="2"/>
+
+    <!-- 朱德 -->
+    <!-- 头 -->
+    <circle cx="0" cy="-50" r="16" fill="#f0d0a8"/>
+    <!-- 军帽 -->
+    <path d="M-16 -55 Q0 -72 16 -55 L16 -50 Q0 -62 -16 -50 Z" fill="#5a7a3a"/>
+    <rect x="-18" y="-52" width="36" height="6" fill="#4a6a2a"/>
+    <!-- 五角星 -->
+    <path d="M0 -64 L2 -59 L7 -59 L3 -56 L5 -51 L0 -54 L-5 -51 L-3 -56 L-7 -59 L-2 -59 Z" fill="#e84030"/>
+    <!-- 眼睛 -->
+    <circle cx="-5" cy="-50" r="1.5" fill="#1a1a1a"/>
+    <circle cx="5" cy="-50" r="1.5" fill="#1a1a1a"/>
+    <!-- 嘴 -->
+    <path d="M-3 -42 Q0 -40 3 -42" fill="none" stroke="#7a3b14" stroke-width="1.2"/>
+    <!-- 胡子 -->
+    <path d="M-4 -40 Q0 -36 4 -40" fill="none" stroke="#3a3a3a" stroke-width="1"/>
+    <!-- 身体（军装） -->
+    <path d="M-18 -34 L-22 10 L22 10 L18 -34 Z" fill="#5a7a3a"/>
+    <!-- 腰带 -->
+    <rect x="-22" y="-5" width="44" height="6" fill="#3a4a1a"/>
+    <!-- 腿 -->
+    <rect x="-12" y="10" width="9" height="30" fill="#4a6a2a"/>
+    <rect x="3" y="10" width="9" height="30" fill="#4a6a2a"/>
+    <!-- 草鞋 -->
+    <ellipse cx="-7" cy="42" rx="8" ry="4" fill="#8a7a4a"/>
+    <ellipse cx="7" cy="42" rx="8" ry="4" fill="#8a7a4a"/>
+    <!-- 手臂（扶扁担） -->
+    <path d="M-18 -28 L-30 -10" fill="none" stroke="#5a7a3a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M18 -28 L30 -10" fill="none" stroke="#5a7a3a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-31" cy="-8" r="5" fill="#f0d0a8"/>
+    <circle cx="31" cy="-8" r="5" fill="#f0d0a8"/>
+  </g>
+
+  <!-- 后面的战士 -->
+  <g transform="translate(580,430)" opacity="0.85">
+    <!-- 箩筐 -->
+    <ellipse cx="-40" cy="35" rx="20" ry="7" fill="#8a6a3a"/>
+    <path d="M-60 35 L-55 8 L-25 8 L-20 35 Z" fill="#a88a5a"/>
+    <ellipse cx="40" cy="35" rx="20" ry="7" fill="#8a6a3a"/>
+    <path d="M20 35 L25 8 L55 8 L60 35 Z" fill="#a88a5a"/>
+    <rect x="-50" y="-5" width="100" height="6" fill="#8a6a3a" rx="2"/>
+    <!-- 战士 -->
+    <circle cx="0" cy="-35" r="12" fill="#f0d0a8"/>
+    <path d="M-12 -40 Q0 -52 12 -40 L12 -36 Q0 -46 -12 -36 Z" fill="#5a7a3a"/>
+    <rect x="-14" y="-36" width="28" height="5" fill="#4a6a2a"/>
+    <circle cx="-4" cy="-35" r="1.2" fill="#1a1a1a"/>
+    <circle cx="4" cy="-35" r="1.2" fill="#1a1a1a"/>
+    <path d="M-14 -23 L-17 8 L17 8 L14 -23 Z" fill="#5a7a3a"/>
+    <rect x="-10" y="8" width="7" height="22" fill="#4a6a2a"/>
+    <rect x="3" y="8" width="7" height="22" fill="#4a6a2a"/>
+  </g>
+
+  <!-- 标注：朱德 -->
+  <line x1="350" y1="340" x2="250" y2="280" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="170" y="265" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="220" y="283" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">朱德军长</text>
+
+  <!-- 标注：扁担 -->
+  <line x1="350" y1="395" x2="200" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="95" y="367" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="150" y="385" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">写有名字的扁担</text>
+
+  <!-- 标注：井冈山 -->
+  <line x1="280" y1="200" x2="180" y2="140" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="100" y="125" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="145" y="143" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">井冈山</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">军长和战士同甘共苦，一根扁担挑起的不只是粮食，更是艰苦奋斗的精神</text>
+</svg>

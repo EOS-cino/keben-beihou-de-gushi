@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古今饮水方式与路边茶水摊的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">从前的人怎么喝水</text>
+  <line x1="240" y1="56" x2="560" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——从河边到水龙头，一杯水的千年路</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="160" x2="720" y2="160" stroke="#c8843a" stroke-width="3"/>
+  <g font-family="serif" fill="#7a3b14">
+    <circle cx="140" cy="160" r="7" fill="#4a90b8"/>
+    <text x="140" y="145" text-anchor="middle" font-size="11">远古</text>
+    <circle cx="310" cy="160" r="7" fill="#2d6a4f"/>
+    <text x="310" y="145" text-anchor="middle" font-size="11">挖井</text>
+    <circle cx="480" cy="160" r="7" fill="#e8a838"/>
+    <text x="480" y="145" text-anchor="middle" font-size="11">茶水摊</text>
+    <circle cx="650" cy="160" r="7" fill="#c84a3a"/>
+    <text x="650" y="145" text-anchor="middle" font-size="11">自来水</text>
+  </g>
+
+  <!-- 远古：河边喝水 -->
+  <g transform="translate(140, 210)">
+    <rect x="-80" y="0" width="160" height="120" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="1.5"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#4a90b8">河边捧水</text>
+    <path d="M-50 80 Q-30 60 0 80 Q30 100 50 80" fill="none" stroke="#4a90b8" stroke-width="2"/>
+    <ellipse cx="0" cy="78" rx="48" ry="8" fill="#4a90b8" opacity="0.4"/>
+    <g transform="translate(0, 50)">
+      <circle cx="0" cy="0" r="6" fill="#e07856"/>
+      <path d="M-6 4 Q-12 12 -8 18" fill="none" stroke="#e07856" stroke-width="3"/>
+      <path d="M6 4 Q12 12 8 18" fill="none" stroke="#e07856" stroke-width="3"/>
+    </g>
+    <text x="0" y="108" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">弯腰捧水喝</text>
+  </g>
+
+  <!-- 挖井 -->
+  <g transform="translate(310, 210)">
+    <rect x="-80" y="0" width="160" height="120" rx="8" fill="#fef9ed" stroke="#2d6a4f" stroke-width="1.5"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#2d6a4f">挖井取水</text>
+    <g transform="translate(0, 70)">
+      <rect x="-25" y="-10" width="50" height="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-18" y="0" width="36" height="40" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <ellipse cx="0" cy="0" rx="18" ry="6" fill="#4a90b8" opacity="0.6"/>
+    </g>
+    <text x="0" y="108" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">井是村子的中心</text>
+  </g>
+
+  <!-- 茶水摊 -->
+  <g transform="translate(480, 210)">
+    <rect x="-80" y="0" width="160" height="120" rx="8" fill="#fef9ed" stroke="#e8a838" stroke-width="1.5"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#e8a838">路边茶水摊</text>
+    <g transform="translate(0, 70)">
+      <ellipse cx="0" cy="20" rx="35" ry="12" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.2"/>
+      <ellipse cx="0" cy="20" rx="28" ry="8" fill="#4a90b8" opacity="0.5"/>
+      <!-- 碗 -->
+      <path d="M-25 0 Q-25 8 -18 10 L18 10 Q25 8 25 0 Z" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="108" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">过路人随便喝，不要钱</text>
+  </g>
+
+  <!-- 自来水 -->
+  <g transform="translate(650, 210)">
+    <rect x="-80" y="0" width="160" height="120" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#c84a3a">自来水</text>
+    <g transform="translate(0, 65)">
+      <rect x="-6" y="-20" width="12" height="30" fill="#c8843a" stroke="#7a3b14" stroke-width="1.2"/>
+      <circle cx="0" cy="-22" r="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.2"/>
+      <path d="M0 10 L0 24" stroke="#4a90b8" stroke-width="2.5"/>
+      <ellipse cx="0" cy="28" rx="6" ry="3" fill="#4a90b8" opacity="0.5"/>
+    </g>
+    <text x="0" y="108" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">拧开就有，方便又干净</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 380)">
+    <rect x="-320" y="0" width="640" height="120" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">"背井离乡"——井在古人心里的分量</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">施茶的老传统，和树下的那槽水是一个道理</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">免费饮水点、志愿送水站，都是老石槽的"新模样"</text>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">把方便留给陌生人，是一代代传下来的善</text>
+  </g>
+</svg>

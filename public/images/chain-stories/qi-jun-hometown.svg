@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="琦君的故乡情结插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：琦君的故乡情结</text>
+  <line x1="200" y1="62" x2="600" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心主题 -->
+  <rect x="280" y="100" width="240" height="56" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="400" y="125" text-anchor="middle" font-family="serif" font-size="17" font-weight="bold" fill="#7a3b14">琦君 · 故乡情结</text>
+  <text x="400" y="145" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">用文字拼一幅回不去的故乡</text>
+
+  <!-- 三部作品节点 -->
+  <!-- 桂花雨（左） -->
+  <g>
+    <line x1="320" y1="156" x2="180" y2="220" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <!-- 桂花树 -->
+    <rect x="170" y="360" width="8" height="80" fill="#6a4a2a"/>
+    <ellipse cx="174" cy="330" rx="35" ry="30" fill="#4a6a2f"/>
+    <g fill="#f4c842">
+      <circle cx="160" cy="325" r="3"/>
+      <circle cx="174" cy="320" r="3"/>
+      <circle cx="188" cy="328" r="3"/>
+      <circle cx="168" cy="338" r="3"/>
+      <circle cx="180" cy="340" r="3"/>
+    </g>
+    <circle cx="150" cy="370" r="2.5" fill="#f4c842"/>
+    <circle cx="200" cy="375" r="2.5" fill="#f4c842"/>
+    <rect x="110" y="400" width="130" height="50" fill="#fff6df" stroke="#c8a83a" rx="6"/>
+    <text x="175" y="420" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#8a6a14">《桂花雨》</text>
+    <text x="175" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#8a6a14">故乡的味道</text>
+  </g>
+
+  <!-- 春酒（中下） -->
+  <g>
+    <line x1="400" y1="156" x2="400" y2="220" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <!-- 酒坛 -->
+    <ellipse cx="400" cy="370" rx="25" ry="15" fill="#8d5a36"/>
+    <path d="M375 370 Q375 340 385 330 L415 330 Q425 340 425 370" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <ellipse cx="400" cy="330" rx="15" ry="5" fill="#5a3a1a"/>
+    <!-- 酒液光泽 -->
+    <ellipse cx="400" cy="350" rx="18" ry="8" fill="#c8843a" opacity="0.5"/>
+    <rect x="335" y="400" width="130" height="50" fill="#fff6df" stroke="#c84a3a" rx="6"/>
+    <text x="400" y="420" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#c84a3a">《春酒》</text>
+    <text x="400" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">故乡的人情</text>
+  </g>
+
+  <!-- 髻（右） -->
+  <g>
+    <line x1="480" y1="156" x2="620" y2="220" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <!-- 母亲头像（发髻） -->
+    <circle cx="625" cy="340" r="28" fill="#f0d0a8"/>
+    <!-- 发髻 -->
+    <ellipse cx="625" cy="312" rx="18" ry="12" fill="#3a2a1a"/>
+    <ellipse cx="625" cy="308" rx="12" ry="8" fill="#2a1a0a"/>
+    <!-- 簪子 -->
+    <line x1="610" y1="310" x2="640" y2="312" stroke="#c8843a" stroke-width="2"/>
+    <circle cx="641" cy="312" r="3" fill="#c84a3a"/>
+    <!-- 眼睛 -->
+    <circle cx="617" cy="340" r="2" fill="#2a2a2a"/>
+    <circle cx="633" cy="340" r="2" fill="#2a2a2a"/>
+    <path d="M618 348 Q625 352 632 348" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="560" y="400" width="130" height="50" fill="#fff6df" stroke="#5a3a1a" rx="6"/>
+    <text x="625" y="420" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#5a3a1a">《髻》</text>
+    <text x="625" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">母亲的身影</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">桂花是味道、春酒是人情、发髻是母亲——琦君用文字拾起故乡的碎片</text>
+</svg>

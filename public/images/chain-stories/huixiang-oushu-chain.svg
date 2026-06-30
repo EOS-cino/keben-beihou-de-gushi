@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="贺知章的回乡插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：贺知章的回乡</text>
+  <line x="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左侧：金龟换酒 -->
+  <g transform="translate(170, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#e8a838">金龟换酒</text>
+    <!-- 贺知章 -->
+    <g transform="translate(-30, -30)">
+      <circle cx="0" cy="0" r="14" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M-10 -6 Q0 -14 10 -6" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+      <circle cx="-4" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <circle cx="4" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <path d="M-3 5 Q0 7 3 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-14 14 L-18 50 L18 50 L14 14 Z" fill="#4a4060" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 李白 -->
+    <g transform="translate(30, -30)">
+      <circle cx="0" cy="0" r="14" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M-10 -6 Q0 -14 10 -6" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+      <circle cx="-4" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <circle cx="4" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <path d="M-3 5 Q0 7 3 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-14 14 L-18 50 L18 50 L14 14 Z" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 酒杯 -->
+    <g transform="translate(0, 35)">
+      <path d="M -8 0 L -6 12 L 6 12 L 8 0 Z" fill="#e8a838" opacity="0.6" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="0" rx="8" ry="2" fill="#e8a838" opacity="0.4"/>
+    </g>
+    <!-- 金龟 -->
+    <g transform="translate(-50, 40)">
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="-3" y1="5" x2="-5" y2="9" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="3" y1="5" x2="5" y2="9" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="3" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">解金龟当酒钱</text>
+    <text x="0" y="82" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">与李白豪饮·风流狂客</text>
+  </g>
+
+  <!-- 中间：告老还乡 -->
+  <g transform="translate(400, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">告老还乡·86岁</text>
+ <!-- 时间线 -->
+    <line x1="-60" y1="-60" x2="60" y2="-60" stroke="#c8843a" stroke-width="2"/>
+    <circle cx="-60" cy="-60" r="5" fill="#e07856"/>
+    <circle cx="60" cy="-60" r="5" fill="#2d6a4f"/>
+    <text x="-60" y="-45" text-anchor="middle" font-family="serif" font-size="11" fill="#e07856">37岁离家</text>
+    <text x="60" y="-45" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">86岁回乡</text>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="12" fill="#c8843a">50年</text>
+    <!-- 镜湖 -->
+    <g transform="translate(0, 0)">
+      <ellipse cx="0" cy="0" rx="50" ry="15" fill="#4a90b8" opacity="0.2"/>
+      <path d="M -40 -3 Q -30 -6 -20 -3 Q -10 0 0 -3 Q 10 -6 20 -3 Q 30 0 40 -3" fill="none" stroke="#4a90b8" stroke-width="1.5" opacity="0.4"/>
+      <path d="M -35 3 Q -25 0 -15 3 Q -5 6 5 3 Q 15 0 25 3 Q 30 5 35 3" fill="none" stroke="#4a90b8" stroke-width="1" opacity="0.3"/>
+    </g>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"惟有门前镜湖水"</text>
+    <text x="0" y="46" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"春风不改旧时波"</text>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">皇帝赐镜湖·百官送行</text>
+    <text x="0" y="82" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">回乡不久便去世</text>
+  </g>
+
+  <!-- 右侧：咏柳 -->
+  <g transform="translate(630, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#2d6a4f">咏柳·另一面</text>
+    <!-- 柳树 -->
+    <g transform="translate(0, -20)">
+      <path d="M 0 40 Q -2 0 -4 -30" fill="none" stroke="#5a4a2a" stroke-width="3"/>
+      <path d="M -4 -20 Q -15 -15 -25 -10" fill="none" stroke="#5a4a2a" stroke-width="1.5"/>
+      <path d="M -4 -25 Q 10 -20 20 -15" fill="none" stroke="#5a4a2a" stroke-width="1.5"/>
+      <ellipse cx="-22" cy="-10" rx="2" ry="6" fill="#7aaa5a" transform="rotate(-30 -22 -10)"/>
+      <ellipse cx="17" cy="-15" rx="2" ry="6" fill="#7aaa5a" transform="rotate(30 17 -15)"/>
+      <ellipse cx="-15" cy="-5" rx="2" ry="5" fill="#7aaa5a" transform="rotate(-40 -15 -5)"/>
+      <ellipse cx="12" cy="-8" rx="2" ry="5" fill="#7aaa5a" transform="rotate(40 12 -8)"/>
+    </g>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"不知细叶谁裁出"</text>
+    <text x="0" y="51" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"二月春风似剪刀"</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">年轻时轻快活泼</text>
+    <text x="0" y="85" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">年老时深沉感慨</text>
+  </g>
+
+  <!-- 下方：核心精神 -->
+  <g transform="translate(400, 430)">
+    <rect x="-280" y="0" width="560" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">从金龟换酒的豪放到回乡偶书的感慨——贺知章的一生</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">五十年游子路，回家却被当客人——这是所有离乡人的共同乡愁</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">贺知章：八十六岁回乡，写下二十八字千古乡愁——家乡还在，人已非</text>
+</svg>

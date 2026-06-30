@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="海中小岛上守岛战士和菜地的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小岛</text>
+  <line x1="360" y1="60" x2="440" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="200" fill="#e8f0f5"/>
+  <!-- 太阳 -->
+  <circle cx="650" cy="130" r="30" fill="#e8a838" opacity="0.6"/>
+  <circle cx="650" cy="130" r="20" fill="#e8a838"/>
+
+  <!-- 海洋 -->
+  <rect x="0" y="270" width="800" height="330" fill="#4a90b8" opacity="0.5"/>
+  <!-- 海浪 -->
+  <path d="M0 290 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0 q20 -6 40 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M0 340 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0 q30 -5 60 0" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.3"/>
+
+  <!-- 小岛（礁石） -->
+  <ellipse cx="400" cy="420" rx="200" ry="60" fill="#8d8d8d" stroke="#5a5a5a" stroke-width="2.5"/>
+  <path d="M220 420 Q260 360 320 350 Q380 340 440 345 Q500 350 560 380 Q580 400 580 420 Z" fill="#a0a0a0" stroke="#5a5a5a" stroke-width="2.5"/>
+  <!-- 礁石纹理 -->
+  <ellipse cx="300" cy="395" rx="20" ry="8" fill="#8d8d8d" opacity="0.5"/>
+  <ellipse cx="480" cy="400" rx="25" ry="10" fill="#8d8d8d" opacity="0.5"/>
+
+  <!-- 菜地（绿色小块） -->
+  <g>
+    <rect x="340" y="370" width="50" height="25" fill="#2d6a4f" stroke="#1a4a3a" stroke-width="1.5" rx="3"/>
+    <rect x="400" y="365" width="45" height="22" fill="#3a7a5f" stroke="#1a4a3a" stroke-width="1.5" rx="3"/>
+    <rect x="455" y="372" width="40" height="20" fill="#2d6a4f" stroke="#1a4a3a" stroke-width="1.5" rx="3"/>
+    <!-- 菜叶 -->
+    <circle cx="355" cy="378" r="5" fill="#4a9a6f"/>
+    <circle cx="370" cy="382" r="4" fill="#4a9a6f"/>
+    <circle cx="415" cy="373" r="5" fill="#5aaa7f"/>
+    <circle cx="430" cy="378" r="4" fill="#4a9a6f"/>
+    <circle cx="467" cy="380" r="4" fill="#5aaa7f"/>
+    <circle cx="480" cy="383" r="3" fill="#4a9a6f"/>
+  </g>
+
+  <!-- 防晒网（支架） -->
+  <line x1="330" y1="370" x2="330" y2="340" stroke="#5a3a1a" stroke-width="2"/>
+  <line x1="500" y1="372" x2="500" y2="340" stroke="#5a3a1a" stroke-width="2"/>
+  <path d="M330 340 L500 340" stroke="#5a3a1a" stroke-width="2"/>
+  <path d="M330 340 L500 340" stroke="#e8a838" stroke-width="1" stroke-dasharray="6,3" opacity="0.5"/>
+
+  <!-- 旗杆和国旗 -->
+  <line x1="260" y1="350" x2="260" y2="270" stroke="#5a3a1a" stroke-width="3"/>
+  <rect x="260" y="275" width="40" height="28" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+  <rect x="260" y="275" width="14" height="28" fill="#e8a838"/>
+
+  <!-- 将军（蹲着看菜地） -->
+  <g>
+    <rect x="540" y="380" width="30" height="35" rx="5" fill="#2d6a4f" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="555" cy="370" r="14" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 军帽 -->
+    <path d="M542 367 q13 -10 26 0" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="542" y="365" width="26" height="5" fill="#2d6a4f"/>
+    <!-- 眼睛看向菜地 -->
+    <circle cx="548" cy="372" r="2" fill="#3a2a1a"/>
+    <circle cx="558" cy="372" r="2" fill="#3a2a1a"/>
+    <!-- 手伸向菜叶 -->
+    <path d="M540 395 q-15 5 -25 12" stroke="#2d6a4f" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <ellipse cx="513" cy="408" rx="6" ry="5" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 腿（蹲） -->
+    <rect x="542" y="412" width="11" height="20" fill="#3a2a1a" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="556" y="412" width="11" height="20" fill="#3a2a1a" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 战士（站着，憨笑） -->
+  <g>
+    <rect x="600" y="370" width="28" height="45" rx="5" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="614" cy="360" r="13" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M602 357 q12 -9 24 0" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="602" y="355" width="24" height="5" fill="#2d6a4f"/>
+    <circle cx="608" cy="362" r="1.5" fill="#3a2a1a"/>
+    <circle cx="620" cy="362" r="1.5" fill="#3a2a1a"/>
+    <path d="M608 368 q6 3 12 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <rect x="602" y="412" width="10" height="22" fill="#3a2a1a" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="616" y="412" width="10" height="22" fill="#3a2a1a" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 土袋标注 -->
+  <g>
+    <rect x="120" y="440" width="30" height="20" rx="3" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1.5" transform="rotate(-10 135 450)"/>
+    <rect x="155" y="445" width="28" height="18" rx="3" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1.5" transform="rotate(8 169 454)"/>
+    <line x1="170" y1="430" x2="250" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <rect x="90" y="410" width="90" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+    <text x="135" y="427" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">从大陆背来的土</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">礁石上种出的绿色，是战士们用汗水和智慧浇灌的</text>
+</svg>

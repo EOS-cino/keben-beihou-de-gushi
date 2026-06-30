@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="水的三态变化循环示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">水的三态变化之谜</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 大海 -->
+  <rect x="0" y="420" width="800" height="120" fill="#a8d0e8" opacity="0.5"/>
+  <path d="M0 420 Q100 410 200 420 T400 420 T600 420 T800 420" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#3a6a8a">大海（液态）</text>
+
+  <!-- 太阳 -->
+  <circle cx="680" cy="120" r="30" fill="#f4b942"/>
+  <g stroke="#f4b942" stroke-width="3" stroke-linecap="round">
+    <line x1="680" y1="75" x2="680" y2="85"/>
+    <line x1="680" y1="155" x2="680" y2="165"/>
+    <line x1="635" y1="120" x2="645" y2="120"/>
+    <line x1="715" y1="120" x2="725" y2="120"/>
+    <line x1="648" y1="88" x2="655" y2="95"/>
+    <line x1="705" y1="145" x2="712" y2="152"/>
+  </g>
+  <text x="680" y="200" text-anchor="middle" font-family="serif" font-size="12" fill="#c8843a">太阳加热</text>
+
+  <!-- 蒸发箭头：海→云 -->
+  <path d="M200 415 Q180 300 250 220" fill="none" stroke="#7ab8d8" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arrC1)"/>
+  <text x="150" y="320" font-family="serif" font-size="12" fill="#5a8aaa">蒸发</text>
+
+  <!-- 云（气态） -->
+  <g transform="translate(300,200)">
+    <ellipse cx="0" cy="0" rx="60" ry="26" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="-30" cy="-10" rx="32" ry="20" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="30" cy="-8" rx="34" ry="20" fill="#ffffff" opacity="0.9"/>
+    <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#6b8aaa">云（气态）</text>
+  </g>
+
+  <!-- 凝结箭头 -->
+  <path d="M360 200 Q420 250 480 280" fill="none" stroke="#7ab8d8" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arrC1)"/>
+  <text x="430" y="235" font-family="serif" font-size="12" fill="#5a8aaa">遇冷凝结</text>
+
+  <!-- 降雨 -->
+  <g transform="translate(500,320)">
+    <g stroke="#5a9dc8" stroke-width="2.5" stroke-linecap="round">
+      <line x1="-20" y1="0" x2="-24" y2="18"/>
+      <line x1="-5" y1="-5" x2="-9" y2="13"/>
+      <line x1="10" y1="0" x2="6" y2="18"/>
+      <line x1="25" y1="-5" x2="21" y2="13"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="12" fill="#3a6a8a">降雨/雪</text>
+  </g>
+
+  <!-- 降水箭头：雨→地面 -->
+  <path d="M500 365 Q500 390 500 410" fill="none" stroke="#7ab8d8" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arrC1)"/>
+
+  <!-- 冰雪（固态） -->
+  <g transform="translate(620,330)">
+    <rect x="-30" y="-15" width="60" height="30" fill="#c8e0f0" stroke="#7ab8d8" stroke-width="2" rx="4"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#a8d0e8" stroke-width="1"/>
+    <line x1="-10" y1="-15" x2="-10" y2="15" stroke="#a8d0e8" stroke-width="1"/>
+    <line x1="10" y1="-15" x2="10" y2="15" stroke="#a8d0e8" stroke-width="1"/>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#3a6a8a">冰/雪（固态）</text>
+  </g>
+
+  <!-- 融化箭头：冰→海 -->
+  <path d="M620 370 Q600 400 580 415" fill="none" stroke="#7ab8d8" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arrC1)"/>
+  <text x="640" y="400" font-family="serif" font-size="12" fill="#5a8aaa">融化</text>
+
+  <!-- 河流回海 -->
+  <path d="M500 415 Q350 425 200 420" fill="none" stroke="#5a9dc8" stroke-width="4" stroke-linecap="round" marker-end="url(#arrC1)"/>
+  <text x="350" y="445" text-anchor="middle" font-family="serif" font-size="12" fill="#3a6a8a">河流汇入大海</text>
+
+  <!-- 循环标注 -->
+  <rect x="100" y="540" width="600" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">水循环：蒸发 → 凝结成云 → 降水 → 汇入大海 → 再次蒸发</text>
+
+  <defs>
+    <marker id="arrC1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#7ab8d8"/>
+    </marker>
+  </defs>
+</svg>

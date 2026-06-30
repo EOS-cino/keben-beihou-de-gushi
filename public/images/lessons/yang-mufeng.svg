@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古代男童端出杨梅招待客人的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">杨氏之子 · 九岁妙答</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c84a3a" stroke-width="2"/>
+
+  <!-- 古代厅堂背景 -->
+  <rect x="0" y="70" width="800" height="430" fill="#fef9ed"/>
+  <!-- 屋顶横梁 -->
+  <rect x="50" y="80" width="700" height="12" fill="#8d5a36"/>
+  <rect x="50" y="92" width="700" height="6" fill="#5a3a1a"/>
+  <!-- 立柱 -->
+  <rect x="60" y="98" width="14" height="400" fill="#8d5a36"/>
+  <rect x="726" y="98" width="14" height="400" fill="#8d5a36"/>
+  <!-- 窗格 -->
+  <g stroke="#8d5a36" stroke-width="1.5" fill="none" opacity="0.4">
+    <rect x="100" y="120" width="100" height="80"/>
+    <line x1="150" y1="120" x2="150" y2="200"/>
+    <line x1="100" y1="160" x2="200" y2="160"/>
+    <rect x="600" y="120" width="100" height="80"/>
+    <line x1="650" y1="120" x2="650" y2="200"/>
+    <line x1="600" y1="160" x2="700" y2="160"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="490" width="800" height="110" fill="#e8d9b8"/>
+
+  <!-- 案几 -->
+  <rect x="280" y="380" width="240" height="15" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+  <rect x="290" y="395" width="10" height="50" fill="#5a3a1a"/>
+  <rect x="500" y="395" width="10" height="50" fill="#5a3a1a"/>
+
+  <!-- 果盘 -->
+  <ellipse cx="400" cy="375" rx="55" ry="12" fill="#c8843a" stroke="#8d5a36" stroke-width="1.5"/>
+  <ellipse cx="400" cy="372" rx="50" ry="9" fill="#e8b878"/>
+  <!-- 杨梅 -->
+  <g fill="#c84a3a">
+    <circle cx="375" cy="368" r="8"/>
+    <circle cx="390" cy="365" r="8"/>
+    <circle cx="405" cy="368" r="8"/>
+    <circle cx="420" cy="365" r="8"/>
+    <circle cx="382" cy="372" r="7"/>
+    <circle cx="398" cy="372" r="7"/>
+    <circle cx="413" cy="372" r="7"/>
+  </g>
+  <!-- 杨梅表面颗粒 -->
+  <g fill="#8d2a1a" opacity="0.5">
+    <circle cx="373" cy="366" r="1"/>
+    <circle cx="378" cy="369" r="1"/>
+    <circle cx="388" cy="363" r="1"/>
+    <circle cx="392" cy="367" r="1"/>
+    <circle cx="403" cy="366" r="1"/>
+    <circle cx="407" cy="370" r="1"/>
+    <circle cx="418" cy="363" r="1"/>
+    <circle cx="422" cy="367" r="1"/>
+  </g>
+
+  <!-- 杨氏之子（男童） -->
+  <g>
+    <!-- 身体（古装） -->
+    <path d="M210 490 L215 380 L255 380 L260 490 Z" fill="#7ab8d8"/>
+    <!-- 腰带 -->
+    <rect x="215" y="420" width="45" height="8" fill="#4a6a2f"/>
+    <!-- 衣领 -->
+    <path d="M225 380 L235 395 L245 380" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="235" cy="355" r="22" fill="#f0d0a8"/>
+    <!-- 头发（古代童子头） -->
+    <path d="M215 350 Q235 328 255 350 L255 345 Q235 320 215 345 Z" fill="#2a1a0a"/>
+    <!-- 两个发髻 -->
+    <circle cx="220" cy="330" r="8" fill="#2a1a0a"/>
+    <circle cx="250" cy="330" r="8" fill="#2a1a0a"/>
+    <circle cx="220" cy="330" r="4" fill="#c8843a"/>
+    <circle cx="250" cy="330" r="4" fill="#c8843a"/>
+    <!-- 表情（聪慧微笑） -->
+    <circle cx="228" cy="355" r="2" fill="#2a2a2a"/>
+    <circle cx="242" cy="355" r="2" fill="#2a2a2a"/>
+    <path d="M228 363 Q235 368 242 363" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手（端果盘方向） -->
+    <path d="M255 390 L280 375 L285 382 L260 398 Z" fill="#f0d0a8"/>
+  </g>
+
+  <!-- 孔君平（客人） -->
+  <g>
+    <!-- 身体（古装长袍） -->
+    <path d="M540 490 L545 370 L590 370 L595 490 Z" fill="#6a8d3f"/>
+    <!-- 腰带 -->
+    <rect x="545" y="410" width="50" height="8" fill="#8d5a36"/>
+    <!-- 衣领 -->
+    <path d="M555 370 L567 388 L580 370" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 胡须 -->
+    <path d="M560 375 Q567 395 574 375" fill="#e8e0d8" opacity="0.7"/>
+    <!-- 头 -->
+    <circle cx="567" cy="345" r="22" fill="#f0d0a8"/>
+    <!-- 头巾（古代文人） -->
+    <path d="M547 340 Q567 318 587 340 L587 335 Q567 312 547 335 Z" fill="#4a6a2f"/>
+    <rect x="555" y="325" width="24" height="8" fill="#4a6a2f"/>
+    <!-- 表情（笑眯眯逗趣） -->
+    <circle cx="560" cy="345" r="2" fill="#2a2a2a"/>
+    <circle cx="574" cy="345" r="2" fill="#2a2a2a"/>
+    <path d="M560 353 Q567 358 574 353" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手（指杨梅） -->
+    <path d="M545 385 L520 375 L517 382 L540 395 Z" fill="#f0d0a8"/>
+    <line x1="517" y1="378" x2="460" y2="370" stroke="#8d5a36" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 对话气泡 -->
+  <g>
+    <!-- 孔君平说话 -->
+    <rect x="470" y="240" width="170" height="40" fill="#fff6df" stroke="#6a8d3f" stroke-width="1.5" rx="8"/>
+    <path d="M530 280 L535 295 L545 280 Z" fill="#fff6df" stroke="#6a8d3f" stroke-width="1.5"/>
+    <text x="555" y="258" text-anchor="middle" font-family="serif" font-size="13" fill="#4a6a2f">此是君家果</text>
+    <text x="555" y="273" text-anchor="middle" font-family="serif" font-size="11" fill="#6a8d3f">（杨梅=杨家果？）</text>
+  </g>
+  <g>
+    <!-- 男童回答 -->
+    <rect x="160" y="240" width="190" height="40" fill="#fff6df" stroke="#7ab8d8" stroke-width="1.5" rx="8"/>
+    <path d="M260 280 L255 295 L245 280 Z" fill="#fff6df" stroke="#7ab8d8" stroke-width="1.5"/>
+    <text x="255" y="258" text-anchor="middle" font-family="serif" font-size="13" fill="#4a6a2f">未闻孔雀是夫子家禽</text>
+    <text x="255" y="273" text-anchor="middle" font-family="serif" font-size="11" fill="#7ab8d8">（孔雀=孔家禽？）</text>
+  </g>
+
+  <!-- 孔雀图案（装饰） -->
+  <g opacity="0.3">
+    <ellipse cx="680" cy="450" rx="20" ry="12" fill="#4a6a2f"/>
+    <circle cx="695" cy="440" r="8" fill="#4a6a2f"/>
+    <g fill="#6a8d3f">
+      <ellipse cx="670" cy="445" rx="3" ry="10" transform="rotate(-20 670 445)"/>
+      <ellipse cx="675" cy="440" rx="3" ry="10" transform="rotate(-10 675 440)"/>
+      <ellipse cx="680" cy="438" rx="3" ry="10"/>
+    </g>
+    <circle cx="660" cy="445" r="3" fill="#c84a3a"/>
+    <circle cx="665" cy="442" r="3" fill="#f4c842"/>
+    <circle cx="672" cy="440" r="3" fill="#c84a3a"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">以姓氏做文章，九岁童子妙答孔君平</text>
+</svg>

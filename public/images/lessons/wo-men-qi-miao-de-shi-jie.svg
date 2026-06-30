@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="我们奇妙的世界：天空与大地">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">我们奇妙的世界</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">上面是天空，下面是大地</text>
+  <rect x="60" y="120" width="680" height="180" fill="#cfe8f0" opacity="0.5"/>
+  <circle cx="220" cy="200" r="30" fill="#f6dca0" stroke="#c98a3a" stroke-width="2"/>
+  <g transform="translate(500,200)">
+    <ellipse cx="0" cy="0" rx="40" ry="18" fill="#fff" stroke="#a8c8d8" stroke-width="1"/>
+    <ellipse cx="20" cy="-10" rx="25" ry="12" fill="#fff" stroke="#a8c8d8" stroke-width="1"/>
+  </g>
+  <rect x="60" y="300" width="680" height="180" fill="#d8f0d8" opacity="0.5"/>
+  <g transform="translate(200,400)">
+    <rect x="-4" y="-40" width="8" height="80" fill="#7a4a1a"/>
+    <circle cx="0" cy="-50" r="28" fill="#7fb85a" stroke="#4a8b3a" stroke-width="2"/>
+  </g>
+  <g transform="translate(500,410)">
+    <ellipse cx="0" cy="10" rx="40" ry="12" fill="#a8d8e8" stroke="#5a8fa3" stroke-width="2"/>
+    <ellipse cx="-10" cy="5" rx="15" ry="6" fill="#fff" opacity="0.6"/>
+  </g>
+  <line x1="400" y1="300" x2="400" y2="300" stroke="#7a3b14" stroke-width="0"/>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">只要仔细看，就能找到奇妙</text>
+</svg>

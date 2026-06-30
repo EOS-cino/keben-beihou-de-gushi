@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="夜空中蝙蝠飞行与飞机雷达探测的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">夜间飞行的秘密</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#1e5f8e" stroke-width="2"/>
+  <!-- 夜空背景 -->
+  <rect x="0" y="100" width="800" height="260" fill="#2c3e50" opacity="0.15"/>
+  <!-- 月亮 -->
+  <circle cx="150" cy="160" r="34" fill="#e8dca0" opacity="0.8"/>
+  <!-- 蝙蝠 -->
+  <path d="M 360 180 q 18 -22 36 0 q 18 -22 36 0 q -18 10 -36 10 q -18 0 -36 -10 z" fill="#3a3a3a"/>
+  <circle cx="396" cy="182" r="6" fill="#3a3a3a"/>
+  <!-- 超声波弧线 -->
+  <path d="M 440 185 q 50 -10 90 0" stroke="#1e5f8e" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 440 200 q 60 -8 110 0" stroke="#1e5f8e" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 440 215 q 70 -6 130 0" stroke="#1e5f8e" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- 飞机 -->
+  <path d="M 560 360 l 60 -8 l 30 -6 l -6 14 l -24 6 l -60 8 z" fill="#7a8a99" stroke="#3a3a3a" stroke-width="1.5"/>
+  <polygon points="600,352 612,348 612,372 600,368" fill="#5d6d7e"/>
+  <!-- 雷达波 -->
+  <path d="M 680 400 q -40 -20 -90 -20" stroke="#c8553d" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 680 420 q -50 -22 -110 -22" stroke="#c8553d" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 680 440 q -60 -24 -130 -24" stroke="#c8553d" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- 地面 -->
+  <rect x="0" y="490" width="800" height="110" fill="#8a9a5b" opacity="0.4"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">蝙蝠回声定位，启发人类造雷达</text>
+</svg>

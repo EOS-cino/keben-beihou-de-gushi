@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="翠鸟捕鱼插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">翠鸟捕鱼的秘密</text>
+  <line x1="290" y1="58" x2="510" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 上半部分：水面以上 -->
+  <rect x="0" y="64" width="800" height="240" fill="#d8e8f0"/>
+  <!-- 芦苇 -->
+  <g stroke="#5a8a3a" stroke-width="2.5" fill="none">
+    <path d="M60 304 L55 200"/>
+    <path d="M80 304 L85 210"/>
+    <path d="M100 304 L95 195"/>
+    <path d="M720 304 L725 205"/>
+    <path d="M740 304 L735 195"/>
+    <path d="M760 304 L765 215"/>
+  </g>
+  <ellipse cx="55" cy="200" rx="4" ry="10" fill="#8d5a36"/>
+  <ellipse cx="85" cy="210" rx="4" ry="10" fill="#8d5a36"/>
+  <ellipse cx="95" cy="195" rx="4" ry="10" fill="#8d5a36"/>
+  <ellipse cx="725" cy="205" rx="4" ry="10" fill="#8d5a36"/>
+  <ellipse cx="735" cy="195" rx="4" ry="10" fill="#8d5a36"/>
+
+  <!-- 翠鸟（俯冲姿态） -->
+  <g transform="translate(400,150) rotate(60)">
+    <!-- 身体（流线型） -->
+    <ellipse cx="0" cy="0" rx="30" ry="16" fill="#3a9a5a"/>
+    <!-- 翅膀（展开） -->
+    <path d="M-5 -2 Q-20 -25 -35 -20 Q-25 -8 -10 -2" fill="#2a7a9a"/>
+    <path d="M-5 2 Q-20 25 -35 20 Q-25 8 -10 2" fill="#2a7a9a"/>
+    <!-- 头 -->
+    <circle cx="22" cy="-2" r="13" fill="#3a9a5a"/>
+    <!-- 眼睛 -->
+    <circle cx="26" cy="-3" r="3" fill="#fff6df"/>
+    <circle cx="27" cy="-3" r="1.8" fill="#3d2817"/>
+    <!-- 嘴 -->
+    <path d="M33 -2 L55 0 L33 2 Z" fill="#e8583a"/>
+    <!-- 橙肚子 -->
+    <ellipse cx="5" cy="8" rx="16" ry="8" fill="#e8884a"/>
+    <!-- 尾巴 -->
+    <path d="M-28 0 L-42 -4 L-42 4 Z" fill="#2a7a9a"/>
+  </g>
+
+  <!-- 俯冲轨迹虚线 -->
+  <path d="M400 110 Q420 180 430 250" fill="none" stroke="#c8843a" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- 水面线 -->
+  <rect x="0" y="304" width="800" height="256" fill="#5a9aba"/>
+  <line x1="0" y1="304" x2="800" y2="304" stroke="#3a7a9a" stroke-width="2"/>
+
+  <!-- 水花（入水处） -->
+  <g transform="translate(430,304)">
+    <path d="M0 0 Q-15 -15 -20 -5 Q-10 -20 -5 -12" fill="none" stroke="#c8e8f0" stroke-width="2"/>
+    <path d="M0 0 Q15 -15 20 -5 Q10 -20 5 -12" fill="none" stroke="#c8e8f0" stroke-width="2"/>
+    <circle cx="-18" cy="-8" r="3" fill="#c8e8f0" opacity="0.7"/>
+    <circle cx="18" cy="-8" r="3" fill="#c8e8f0" opacity="0.7"/>
+    <circle cx="-25" cy="-3" r="2" fill="#c8e8f0" opacity="0.6"/>
+    <circle cx="25" cy="-3" r="2" fill="#c8e8f0" opacity="0.6"/>
+  </g>
+
+  <!-- 水下的小鱼 -->
+  <g transform="translate(440,360)">
+    <ellipse cx="0" cy="0" rx="16" ry="7" fill="#c8d8e8"/>
+    <path d="M-16 0 L-26 -5 L-26 5 Z" fill="#c8d8e8"/>
+    <circle cx="10" cy="-2" r="1.8" fill="#3d2817"/>
+    <path d="M-5 -5 Q0 -8 5 -5" fill="none" stroke="#8da8b8" stroke-width="1"/>
+  </g>
+  <!-- 其他小鱼 -->
+  <g transform="translate(200,420)">
+    <ellipse cx="0" cy="0" rx="12" ry="5" fill="#b8c8d8" opacity="0.7"/>
+    <path d="M-12 0 L-20 -4 L-20 4 Z" fill="#b8c8d8" opacity="0.7"/>
+  </g>
+  <g transform="translate(620,450)">
+    <ellipse cx="0" cy="0" rx="10" ry="4" fill="#b8c8d8" opacity="0.7"/>
+    <path d="M-10 0 L-17 -3 L-17 3 Z" fill="#b8c8d8" opacity="0.7"/>
+  </g>
+
+  <!-- 水草 -->
+  <g stroke="#3a8a5a" stroke-width="2.5" fill="none" opacity="0.7">
+    <path d="M120 540 Q125 500 120 460 Q115 420 120 380"/>
+    <path d="M680 540 Q685 500 680 460 Q675 420 680 380"/>
+  </g>
+
+  <!-- 标注：好眼力 -->
+  <line x1="426" y1="147" x2="560" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="540" y="95" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="590" y="114" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">好眼力</text>
+
+  <!-- 标注：俯冲速度 -->
+  <line x1="420" y1="200" x2="300" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="180" y="180" width="120" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="240" y="199" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">俯冲极快</text>
+
+  <!-- 标注：尖嘴入水 -->
+  <line x1="430" y1="304" x2="530" y2="330" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="500" y="315" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="555" y="334" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">尖嘴入水</text>
+
+  <!-- 标注：水下小鱼 -->
+  <line x1="440" y1="360" x2="340" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="270" y="365" width="90" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="315" y="384" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">水下小鱼</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="548" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="573" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">翠鸟靠好眼力、快速度和流线型身体捕鱼：盯住猎物，猛地俯冲，尖嘴叼起小鱼。</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从王冕墨梅到郑板桥画竹的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：王冕墨梅 -->
+  <circle cx="170" cy="300" r="110" fill="#8a9a5b" opacity="0.25" stroke="#6b8e7f" stroke-width="3"/>
+  <line x1="150" y1="320" x2="190" y2="265" stroke="#3a3a3a" stroke-width="3"/>
+  <line x1="178" y1="285" x2="196" y2="278" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="180" cy="278" r="6" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="190" cy="270" r="6" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="172" cy="295" r="6" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  <text x="170" y="350" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">王冕·墨梅</text>
+  <text x="170" y="373" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">只留清气</text>
+  <!-- 右珠：郑板桥竹 -->
+  <circle cx="630" cy="300" r="110" fill="#3a7d44" opacity="0.25" stroke="#1e4d2b" stroke-width="3"/>
+  <line x1="615" y1="325" x2="618" y2="265" stroke="#3a7d44" stroke-width="4"/>
+  <line x1="635" y1="325" x2="638" y2="270" stroke="#2d6a4f" stroke-width="4"/>
+  <path d="M 615 290 q -16 -6 -22 -16" stroke="#1e4d2b" stroke-width="2" fill="none"/>
+  <path d="M 617 305 q 18 -4 26 -14" stroke="#1e4d2b" stroke-width="2" fill="none"/>
+  <path d="M 635 295 q 16 -6 22 -16" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+  <text x="630" y="350" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">郑板桥·竹</text>
+  <text x="630" y="373" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">任尔东西南北风</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">王冕墨梅，郑板桥画竹</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">画画其实都在"画自己"，托物言志</text>
+</svg>

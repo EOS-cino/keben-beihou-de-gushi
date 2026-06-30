@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从冰心写繁星到泰戈尔写母亲的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：冰心 -->
+  <circle cx="170" cy="300" r="110" fill="#e88aa8" opacity="0.3" stroke="#c8553d" stroke-width="3"/>
+  <circle cx="155" cy="280" r="2" fill="#7a3b14"/>
+  <circle cx="170" cy="270" r="2.5" fill="#7a3b14"/>
+  <circle cx="185" cy="282" r="2" fill="#7a3b14"/>
+  <circle cx="162" cy="295" r="2" fill="#7a3b14"/>
+  <circle cx="180" cy="295" r="2" fill="#7a3b14"/>
+  <text x="170" y="330" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">冰心</text>
+  <text x="170" y="353" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">繁星·母亲</text>
+  <!-- 右珠：泰戈尔 -->
+  <circle cx="630" cy="300" r="110" fill="#e8a04e" opacity="0.3" stroke="#b5651d" stroke-width="3"/>
+  <path d="M 615 295 q 15 -22 30 0" stroke="#5d4037" stroke-width="3" fill="none"/>
+  <circle cx="630" cy="280" r="6" fill="#f5d9a0"/>
+  <text x="630" y="330" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">泰戈尔</text>
+  <text x="630" y="353" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">飞鸟集·母亲</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">冰心的繁星，泰戈尔的母亲</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">真情会"传染"，一首小诗能传一百年</text>
+</svg>

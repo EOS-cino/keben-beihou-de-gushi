@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="活在人们心里的人">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <rect x="0" y="0" width="800" height="92" fill="#8e44ad" opacity="0.16"/>
+  <text x="400" y="58" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">活在人们心里的人</text>
+  <line x1="320" y1="80" x2="480" y2="80" stroke="#8e44ad" stroke-width="3"/>
+
+  <circle cx="600" cy="200" r="58" fill="#8e44ad" opacity="0.85"/>
+  <circle cx="622" cy="190" r="58" fill="#fef9ed"/>
+  <g opacity="0.55">
+    <circle cx="180" cy="170" r="4" fill="#8e44ad"/><circle cx="250" cy="140" r="3" fill="#8e44ad"/>
+    <circle cx="330" cy="180" r="4" fill="#8e44ad"/><circle cx="470" cy="150" r="3" fill="#8e44ad"/>
+  </g>
+  <polygon points="80,470 280,290 470,470" fill="#8e44ad" opacity="0.5"/>
+  <polygon points="330,470 540,320 740,470" fill="#8e44ad" opacity="0.32"/>
+  <path d="M80 470 Q200 452 320 470 T560 470 T740 470" stroke="#8e44ad" stroke-width="3" fill="none" opacity="0.4"/>
+  <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="60" fill="#8e44ad" opacity="0.18">诗</text>
+  <g opacity="0.85"><ellipse cx="120" cy="500" rx="26" ry="16" fill="none" stroke="#8e44ad" stroke-width="5"/><ellipse cx="168" cy="500" rx="26" ry="16" fill="none" stroke="#8e44ad" stroke-width="5"/><ellipse cx="632" cy="500" rx="26" ry="16" fill="none" stroke="#8e44ad" stroke-width="5"/><ellipse cx="680" cy="500" rx="26" ry="16" fill="none" stroke="#8e44ad" stroke-width="5"/></g>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">连珠小故事：活在人们心里的人</text>
+</svg>

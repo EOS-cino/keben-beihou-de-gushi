@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="恐龙向鸟类演化的过程：从奔跑恐龙到长羽毛再到飞翔">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景 -->
+  <rect x="0" y="0" width="800" height="460" fill="#e8f0e6"/>
+  <rect x="0" y="460" width="800" height="140" fill="#e8d9c0"/>
+  <!-- 演化时间轴 -->
+  <line x1="80" y1="400" x2="720" y2="400" stroke="#7a3b14" stroke-width="4"/>
+  <path d="M720 400 l-12 -6 l0 12 Z" fill="#7a3b14"/>
+  <!-- 阶段1：奔跑恐龙（无羽毛） -->
+  <ellipse cx="160" cy="320" rx="40" ry="24" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M195 308 q20 -20 28 -34" stroke="#8d5a36" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <ellipse cx="226" cy="270" rx="14" ry="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M238 272 l10 3 l-10 4 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="230" cy="268" r="2" fill="#7a3b14"/>
+  <path d="M130 340 l-4 30 M175 342 l6 28" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+  <path d="M120 320 q-20 -4 -30 4" stroke="#8d5a36" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="160" cy="400" r="6" fill="#c84a3a"/>
+  <text x="160" y="430" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">第一步：奔跑</text>
+  <text x="160" y="448" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">长出绒毛保暖</text>
+  <!-- 箭头 -->
+  <path d="M240 360 l40 0" stroke="#c84a3a" stroke-width="3" fill="none" stroke-dasharray="5 4"/>
+  <path d="M280 360 l-8 -4 l0 8 Z" fill="#c84a3a"/>
+  <!-- 阶段2：长羽毛恐龙 -->
+  <ellipse cx="380" cy="320" rx="42" ry="26" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M418 306 q22 -20 30 -36" stroke="#6a8d3f" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <ellipse cx="450" cy="266" rx="14" ry="10" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M462 268 l10 3 l-10 4 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="454" cy="264" r="2" fill="#7a3b14"/>
+  <!-- 羽毛（前肢） -->
+  <path d="M400 300 Q370 280 340 295 Q370 308 398 308 Z" fill="#4a6a2f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M350 290 l6 10 M365 287 l4 12 M380 290 l2 12" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <!-- 尾巴羽毛 -->
+  <path d="M340 322 Q300 318 280 335 Q310 340 340 332 Z" fill="#4a6a2f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M345 340 l-4 28 M390 342 l6 26" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="380" cy="400" r="6" fill="#c84a3a"/>
+  <text x="380" y="430" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">第二步：长羽毛</text>
+  <text x="380" y="448" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">前肢变宽可滑翔</text>
+  <!-- 箭头 -->
+  <path d="M470 360 l40 0" stroke="#c84a3a" stroke-width="3" fill="none" stroke-dasharray="5 4"/>
+  <path d="M510 360 l-8 -4 l0 8 Z" fill="#c84a3a"/>
+  <!-- 阶段3：飞翔的鸟 -->
+  <ellipse cx="620" cy="300" rx="26" ry="16" fill="#7ab8d8" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="642" cy="294" r="10" fill="#7ab8d8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M652 294 l8 2 l-8 3 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="645" cy="292" r="1.5" fill="#7a3b14"/>
+  <!-- 张开的翅膀 -->
+  <path d="M610 295 Q560 270 520 290 Q560 300 605 300 Z" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M615 305 Q570 330 530 320 Q570 312 610 308 Z" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M540 285 l4 10 M560 280 l2 12 M580 282 l0 12" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <!-- 尾羽 -->
+  <path d="M598 305 q-16 8 -24 4" stroke="#7ab8d8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="620" cy="400" r="6" fill="#c84a3a"/>
+  <text x="620" y="430" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">第三步：飞翔</text>
+  <text x="620" y="448" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">变成现代鸟类</text>
+  <!-- 飞行轨迹 -->
+  <path d="M560 250 q30 -20 60 -30" stroke="#c84a3a" stroke-width="2" fill="none" stroke-dasharray="4 4" opacity="0.6"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">恐龙变成鸟</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春风吹过柳树发芽、燕子飞来的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="400" fill="#4a90b8" opacity="0.08"/>
+  <!-- 太阳 -->
+  <circle cx="120" cy="100" r="30" fill="#e8a838" opacity="0.5"/>
+  <!-- 远山 -->
+  <path d="M0 320 Q150 270 300 300 Q450 260 600 290 Q700 270 800 310 L800 400 L0 400 Z" fill="#dceee3" opacity="0.5"/>
+  <!-- 地面 -->
+  <path d="M0 380 Q400 370 800 380 L800 600 L0 600 Z" fill="#dceee3"/>
+  <path d="M0 430 Q400 420 800 430 L800 600 L0 600 Z" fill="#9fc8b4" opacity="0.4"/>
+  <!-- 草地 -->
+  <g fill="#2d6a4f" opacity="0.5">
+    <path d="M50 450 Q55 420 50 405 Q60 420 65 450 Z"/>
+    <path d="M100 455 Q105 425 100 410 Q110 425 115 455 Z"/>
+    <path d="M600 450 Q605 420 600 405 Q610 420 615 450 Z"/>
+    <path d="M650 455 Q655 425 650 410 Q660 425 665 455 Z"/>
+    <path d="M700 450 Q705 420 700 405 Q710 420 715 450 Z"/>
+    <path d="M750 455 Q755 425 750 410 Q760 425 765 455 Z"/>
+  </g>
+  <!-- 柳树 -->
+  <g transform="translate(200 430)">
+    <!-- 树干 -->
+    <path d="M-8 0 Q-5 -80 -3 -150 Q0 -160 3 -150 Q5 -80 8 0 Z" fill="#8b6f47"/>
+    <!-- 树枝 -->
+    <path d="M0 -140 Q-30 -160 -60 -170" stroke="#8b6f47" stroke-width="3" fill="none"/>
+    <path d="M0 -140 Q30 -160 60 -170" stroke="#8b6f47" stroke-width="3" fill="none"/>
+    <path d="M0 -150 Q-15 -175 -35 -185" stroke="#8b6f47" stroke-width="2.5" fill="none"/>
+    <path d="M0 -150 Q15 -175 35 -185" stroke="#8b6f47" stroke-width="2.5" fill="none"/>
+    <!-- 嫩绿柳叶 -->
+    <g fill="#2d6a4f" opacity="0.7">
+      <ellipse cx="-60" cy="-168" rx="4" ry="10" transform="rotate(20 -60 -168)"/>
+      <ellipse cx="-50" cy="-175" rx="4" ry="10" transform="rotate(15 -50 -175)"/>
+      <ellipse cx="-40" cy="-180" rx="4" ry="10" transform="rotate(10 -40 -180)"/>
+      <ellipse cx="-35" cy="-183" rx="3" ry="8" transform="rotate(5 -35 -183)"/>
+      <ellipse cx="60" cy="-168" rx="4" ry="10" transform="rotate(-20 60 -168)"/>
+      <ellipse cx="50" cy="-175" rx="4" ry="10" transform="rotate(-15 50 -175)"/>
+      <ellipse cx="40" cy="-180" rx="4" ry="10" transform="rotate(-10 40 -180)"/>
+      <ellipse cx="35" cy="-183" rx="3" ry="8" transform="rotate(-5 35 -183)"/>
+    </g>
+    <!-- 垂下的柳条 -->
+    <g stroke="#2d6a4f" stroke-width="1.5" fill="none" opacity="0.5">
+      <path d="M-55 -165 Q-58 -130 -55 -100"/>
+      <path d="M-40 -175 Q-42 -140 -38 -110"/>
+      <path d="M55 -165 Q58 -130 55 -100"/>
+      <path d="M40 -175 Q42 -140 38 -110"/>
+    </g>
+  </g>
+  <!-- 燕子 -->
+  <g fill="#2d6a4f" opacity="0.8">
+    <g transform="translate(450 150)">
+      <path d="M0 0 Q-12 -5 -20 -2 Q-12 2 -8 5 Q-4 2 0 0 Z"/>
+      <path d="M0 0 Q12 -5 20 -2 Q12 2 8 5 Q4 2 0 0 Z"/>
+      <path d="M-3 0 L0 8 L3 0 Z" fill="#e07856"/>
+    </g>
+    <g transform="translate(520 120) scale(0.8)">
+      <path d="M0 0 Q-12 -5 -20 -2 Q-12 2 -8 5 Q-4 2 0 0 Z"/>
+      <path d="M0 0 Q12 -5 20 -2 Q12 2 8 5 Q4 2 0 0 Z"/>
+      <path d="M-3 0 L0 8 L3 0 Z" fill="#e07856"/>
+    </g>
+    <g transform="translate(580 180) scale(0.7)">
+      <path d="M0 0 Q-12 -5 -20 -2 Q-12 2 -8 5 Q-4 2 0 0 Z"/>
+      <path d="M0 0 Q12 -5 20 -2 Q12 2 8 5 Q4 2 0 0 Z"/>
+      <path d="M-3 0 L0 8 L3 0 Z" fill="#e07856"/>
+    </g>
+  </g>
+  <!-- 风的线条 -->
+  <g stroke="#4a90b8" stroke-width="2" fill="none" opacity="0.3" stroke-linecap="round">
+    <path d="M350 250 Q400 240 450 250"/>
+    <path d="M380 280 Q430 270 480 280"/>
+    <path d="M340 300 Q390 290 440 300"/>
+  </g>
+  <!-- 小花 -->
+  <g>
+    <circle cx="400" cy="480" r="5" fill="#e07856"/>
+    <circle cx="400" cy="480" r="2" fill="#e8a838"/>
+    <circle cx="500" cy="500" r="5" fill="#e8a838"/>
+    <circle cx="500" cy="500" r="2" fill="#fff"/>
+    <circle cx="600" cy="490" r="5" fill="#e07856"/>
+    <circle cx="600" cy="490" r="2" fill="#e8a838"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#2d6a4f">春风吹</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7a7468">风一吹，整个世界都醒了过来</text>
+</svg>

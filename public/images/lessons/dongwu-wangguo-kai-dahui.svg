@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="老虎站在大树下宣布开会，各种小动物围坐在一起认真听">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="350" fill="#a8d0e8" opacity="0.2"/>
+  <!-- 草地 -->
+  <path d="M0 400 Q200 380 400 395 T800 390 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.5"/>
+  <path d="M0 440 Q200 425 400 435 T800 430 L800 600 L0 600 Z" fill="#4a6a2f" opacity="0.4"/>
+  <!-- 大树 -->
+  <rect x="110" y="200" width="20" height="200" fill="#8d5a36"/>
+  <circle cx="120" cy="180" r="60" fill="#6a8d3f"/>
+  <circle cx="90" cy="170" r="40" fill="#7ba84a"/>
+  <circle cx="150" cy="170" r="40" fill="#7ba84a"/>
+  <circle cx="120" cy="140" r="45" fill="#6a8d3f"/>
+  <!-- 老虎（站在树桩上） -->
+  <g transform="translate(400,280)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="50" rx="50" ry="40" fill="#c8843a"/>
+    <!-- 条纹 -->
+    <path d="M-30 30 Q-25 50 -30 70" stroke="#7a3b14" stroke-width="4" fill="none"/>
+    <path d="M0 25 Q0 50 0 80" stroke="#7a3b14" stroke-width="4" fill="none"/>
+    <path d="M30 30 Q25 50 30 70" stroke="#7a3b14" stroke-width="4" fill="none"/>
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="38" fill="#c8843a"/>
+    <!-- 耳朵 -->
+    <ellipse cx="-25" cy="-25" rx="10" ry="12" fill="#c8843a"/>
+    <ellipse cx="25" cy="-25" rx="10" ry="12" fill="#c8843a"/>
+    <ellipse cx="-25" cy="-23" rx="5" ry="7" fill="#e07856"/>
+    <ellipse cx="25" cy="-23" rx="5" ry="7" fill="#e07856"/>
+    <!-- 条纹 -->
+    <path d="M-20 -15 L-15 -5" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M0 -20 L0 -8" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M20 -15 L15 -5" stroke="#7a3b14" stroke-width="3"/>
+    <!-- 脸 -->
+    <ellipse cx="-12" cy="-5" rx="8" ry="10" fill="#fef9ed"/>
+    <ellipse cx="12" cy="-5" rx="8" ry="10" fill="#fef9ed"/>
+    <circle cx="-12" cy="-5" r="4" fill="#2d2a24"/>
+    <circle cx="12" cy="-5" r="4" fill="#2d2a24"/>
+    <circle cx="-11" cy="-6" r="1.5" fill="#ffffff"/>
+    <circle cx="13" cy="-6" r="1.5" fill="#ffffff"/>
+    <!-- 鼻子嘴 -->
+    <path d="M-5 8 L0 12 L5 8 Z" fill="#7a3b14"/>
+    <path d="M0 12 Q-5 18 -10 15" stroke="#7a3b14" stroke-width="2" fill="none"/>
+    <path d="M0 12 Q5 18 10 15" stroke="#7a3b14" stroke-width="2" fill="none"/>
+    <!-- 王字 -->
+    <text x="0" y="-15" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a3b14">王</text>
+  </g>
+  <!-- 树桩 -->
+  <rect x="360" y="340" width="80" height="50" rx="5" fill="#8d5a36"/>
+  <ellipse cx="400" cy="340" rx="40" ry="10" fill="#a06a3a"/>
+  <!-- 小动物们围坐 -->
+  <!-- 小狐狸 -->
+  <g transform="translate(200,440)">
+    <ellipse cx="0" cy="20" rx="25" ry="20" fill="#e07856"/>
+    <circle cx="0" cy="0" r="20" fill="#e07856"/>
+    <path d="M-15 -15 L-20 -25 L-10 -18 Z" fill="#e07856"/>
+    <path d="M15 -15 L20 -25 L10 -18 Z" fill="#e07856"/>
+    <circle cx="-7" cy="-2" r="3" fill="#2d2a24"/>
+    <circle cx="7" cy="-2" r="3" fill="#2d2a24"/>
+    <ellipse cx="0" cy="6" rx="3" ry="2" fill="#2d2a24"/>
+  </g>
+  <!-- 小兔子 -->
+  <g transform="translate(600,440)">
+    <ellipse cx="0" cy="20" rx="22" ry="18" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="18" fill="#ffffff"/>
+    <ellipse cx="-7" cy="-20" rx="4" ry="14" fill="#ffffff"/>
+    <ellipse cx="7" cy="-20" rx="4" ry="14" fill="#ffffff"/>
+    <circle cx="-6" cy="-2" r="3" fill="#c84a3a"/>
+    <circle cx="6" cy="-2" r="3" fill="#c84a3a"/>
+  </g>
+  <!-- 小熊 -->
+  <g transform="translate(300,460)">
+    <ellipse cx="0" cy="15" rx="25" ry="20" fill="#8d5a36"/>
+    <circle cx="0" cy="0" r="20" fill="#8d5a36"/>
+    <circle cx="-15" cy="-15" r="8" fill="#8d5a36"/>
+    <circle cx="15" cy="-15" r="8" fill="#8d5a36"/>
+    <circle cx="-7" cy="-2" r="3" fill="#2d2a24"/>
+    <circle cx="7" cy="-2" r="3" fill="#2d2a24"/>
+    <ellipse cx="0" cy="6" rx="4" ry="3" fill="#2d2a24"/>
+  </g>
+  <!-- 小猴子 -->
+  <g transform="translate(520,460)">
+    <ellipse cx="0" cy="15" rx="22" ry="18" fill="#c8843a"/>
+    <circle cx="0" cy="0" r="18" fill="#c8843a"/>
+    <circle cx="-14" cy="-10" r="7" fill="#fef9ed"/>
+    <circle cx="14" cy="-10" r="7" fill="#fef9ed"/>
+    <circle cx="-7" cy="-2" r="3" fill="#2d2a24"/>
+    <circle cx="7" cy="-2" r="3" fill="#2d2a24"/>
+  </g>
+  <!-- 喇叭 -->
+  <g transform="translate(470,310)">
+    <path d="M0 0 L30 -15 L30 15 Z" fill="#8d5a36"/>
+    <rect x="-20" y="-6" width="20" height="12" rx="3" fill="#7a3b14"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">动物王国开大会</text>
+</svg>

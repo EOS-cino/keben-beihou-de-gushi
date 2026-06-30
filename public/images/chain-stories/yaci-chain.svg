@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各地换牙民俗与牙齿生长科学的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">换牙的老规矩和新学问</text>
+  <line x1="200" y1="56" x2="600" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——老规矩讲心愿，新学问讲道理</text>
+
+  <!-- 世界各地习俗三栏 -->
+  <g transform="translate(150, 130)">
+    <rect x="-110" y="0" width="220" height="140" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">中国</text>
+    <!-- 屋顶与床 -->
+    <g transform="translate(0, 50)">
+      <polygon points="-60,0 -40,-20 -20,0" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-50" y="0" width="30" height="18" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="20" y="-5" width="40" height="18" fill="#4a90b8" opacity="0.5" stroke="#7a3b14" stroke-width="1"/>
+      <polygon points="0,-12 2,-6 -2,-6" fill="#fef9ed" stroke="#7a3b14" stroke-width="1" transform="translate(-40,-22)"/>
+    </g>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">上牙扔屋顶 下牙扔床底</text>
+    <text x="0" y="124" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">盼新牙长得齐</text>
+  </g>
+
+  <g transform="translate(400, 130)">
+    <rect x="-110" y="0" width="220" height="140" rx="8" fill="#fef9ed" stroke="#e8a838" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#e8a838">墨西哥</text>
+    <g transform="translate(0, 55)">
+      <ellipse cx="0" cy="10" rx="30" ry="14" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.2"/>
+      <ellipse cx="0" cy="10" rx="20" ry="8" fill="#7a3b14"/>
+      <!-- 老鼠 -->
+      <ellipse cx="-15" cy="6" rx="7" ry="5" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-22" cy="4" r="3" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-8 6 Q2 -2 8 8" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    </g>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">把牙放进老鼠洞</text>
+    <text x="0" y="124" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">盼新牙像鼠牙般结实</text>
+  </g>
+
+  <g transform="translate(650, 130)">
+    <rect x="-110" y="0" width="220" height="140" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">美国</text>
+    <g transform="translate(0, 55)">
+      <!-- 枕头 -->
+      <ellipse cx="0" cy="14" rx="42" ry="14" fill="#fef9ed" stroke="#4a90b8" stroke-width="1.5"/>
+      <!-- 牙仙子翅膀 -->
+      <ellipse cx="-12" cy="2" rx="10" ry="6" fill="#e8a838" opacity="0.7"/>
+      <ellipse cx="12" cy="2" rx="10" ry="6" fill="#e8a838" opacity="0.7"/>
+      <circle cx="0" cy="0" r="6" fill="#e07856"/>
+      <!-- 硬币 -->
+      <circle cx="0" cy="16" r="5" fill="#e8a838" stroke="#c8843a" stroke-width="1"/>
+    </g>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">牙压枕头下，牙仙留硬币</text>
+    <text x="0" y="124" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">一夜之间小惊喜</text>
+  </g>
+
+  <!-- 新学问：恒牙顶乳牙 -->
+  <g transform="translate(400, 330)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#2d6a4f">新学问：恒牙是怎么长出来的</text>
+    <g transform="translate(-120, 25)">
+      <!-- 乳牙 -->
+      <path d="M-12 -10 Q-16 4 -8 12 Q0 6 8 12 Q16 4 12 -10 Z" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">乳牙</text>
+    </g>
+    <!-- 箭头 -->
+    <path d="M-80 35 Q0 60 80 35" fill="none" stroke="#c8843a" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#c8843a">恒牙往上顶</text>
+    <g transform="translate(120, 25)">
+      <!-- 恒牙顶出 -->
+      <path d="M-14 -14 Q-18 6 -10 16 Q0 8 10 16 Q18 6 14 -14 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M0 -14 L0 -26" stroke="#2d6a4f" stroke-width="2"/>
+      <text x="0" y="34" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">恒牙</text>
+    </g>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 470)">
+    <rect x="-320" y="0" width="640" height="100" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="26" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">全世界孩子换牙，都盼新牙又齐又好</text>
+    <text x="0" y="52" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">扔不扔牙，新牙都会长——这是身体自己的安排</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">恒牙要陪人一辈子，换完牙更要好好刷牙</text>
+  </g>
+</svg>

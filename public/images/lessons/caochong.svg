@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="曹冲称象：大象站在船上，水面有刻度线标记">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fef9ed"/>
+
+  <!-- Sky gradient -->
+  <rect width="800" height="350" fill="#fff5dc"/>
+
+  <!-- Distant mountains -->
+  <path d="M0,320 Q100,270 200,295 Q300,260 400,285 Q500,255 600,290 Q700,265 800,300 L800,360 L0,360 Z" fill="#e8dcc0" opacity="0.6"/>
+  <path d="M0,340 Q120,310 250,330 Q380,305 500,325 Q620,300 800,335 L800,380 L0,380 Z" fill="#d4c9a8" opacity="0.5"/>
+
+  <!-- Sun -->
+  <circle cx="670" cy="80" r="35" fill="#e8b04c" opacity="0.3"/>
+  <circle cx="670" cy="80" r="22" fill="#e8b04c" opacity="0.5"/>
+
+  <!-- Cloud -->
+  <ellipse cx="140" cy="70" rx="45" ry="18" fill="#f0e8d0" opacity="0.7"/>
+  <ellipse cx="170" cy="60" rx="30" ry="14" fill="#f0e8d0" opacity="0.6"/>
+  <ellipse cx="500" cy="50" rx="40" ry="16" fill="#f0e8d0" opacity="0.5"/>
+
+  <!-- Water surface -->
+  <rect x="0" y="360" width="800" height="240" fill="#b8d4d8" opacity="0.3"/>
+  <rect x="0" y="370" width="800" height="230" fill="#a8c8cc" opacity="0.3"/>
+
+  <!-- Water ripples -->
+  <path d="M40,400 Q80,395 120,400 T200,400 T280,400 T360,400 T440,400 T520,400 T600,400 T680,400 T760,400" stroke="#8ab0b4" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M20,430 Q60,425 100,430 T180,430 T260,430 T340,430 T420,430 T500,430 T580,430 T660,430 T740,430" stroke="#8ab0b4" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M50,465 Q90,460 130,465 T210,465 T290,465 T370,465 T450,465 T530,465 T610,465 T690,465 T770,465" stroke="#8ab0b4" stroke-width="1" fill="none" opacity="0.25"/>
+  <path d="M30,500 Q70,495 110,500 T190,500 T270,500 T350,500 T430,500 T510,500 T590,500 T670,500 T750,500" stroke="#8ab0b4" stroke-width="1" fill="none" opacity="0.2"/>
+  <path d="M60,535 Q100,530 140,535 T220,535 T300,535 T380,535 T460,535 T540,535 T620,535 T700,535 T780,535" stroke="#8ab0b4" stroke-width="0.8" fill="none" opacity="0.15"/>
+
+  <!-- Boat hull -->
+  <path d="M200,380 L600,380 L560,440 L240,440 Z" fill="#7a3b14"/>
+  <path d="M200,380 L600,380 L590,395 L210,395 Z" fill="#9a5330"/>
+  <!-- Boat deck line -->
+  <line x1="200" y1="380" x2="600" y2="380" stroke="#5a2a10" stroke-width="2"/>
+
+  <!-- Boat mast/flag -->
+  <line x1="400" y1="380" x2="400" y2="310" stroke="#5a2a10" stroke-width="3"/>
+  <path d="M400,315 L445,322 L400,340 Z" fill="#c05a30"/>
+
+  <!-- Water line mark on boat -->
+  <line x1="240" y1="425" x2="560" y2="425" stroke="#fef9ed" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="565" y="429" font-family="serif" font-size="12" fill="#7a7468">水位</text>
+
+  <!-- Elephant body -->
+  <ellipse cx="400" cy="340" rx="110" ry="55" fill="#a89a8a"/>
+  <!-- Elephant head -->
+  <ellipse cx="490" cy="320" rx="42" ry="38" fill="#a89a8a"/>
+  <!-- Elephant ear -->
+  <ellipse cx="478" cy="308" rx="25" ry="32" fill="#988878" transform="rotate(-15 478 308)"/>
+  <!-- Elephant eye -->
+  <circle cx="502" cy="314" r="4" fill="#2d2a24"/>
+  <circle cx="503" cy="313" r="1.5" fill="#fef9ed"/>
+  <!-- Elephant trunk -->
+  <path d="M520,325 Q545,340 540,370 Q538,385 525,388 Q515,388 512,380" stroke="#a89a8a" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M520,325 Q545,340 540,370 Q538,385 525,388 Q515,388 512,380" stroke="#988878" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Trunk tip -->
+  <ellipse cx="515" cy="382" rx="6" ry="8" fill="#988878"/>
+  <!-- Elephant tusks -->
+  <path d="M505,338 Q515,352 510,360" stroke="#e8dcc0" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Elephant legs -->
+  <rect x="320" y="370" width="20" height="14" rx="3" fill="#988878"/>
+  <rect x="360" y="370" width="20" height="14" rx="3" fill="#988878"/>
+  <rect x="420" y="370" width="20" height="14" rx="3" fill="#988878"/>
+  <rect x="460" y="370" width="20" height="14" rx="3" fill="#988878"/>
+  <!-- Elephant tail -->
+  <path d="M292,340 Q278,348 275,365" stroke="#a89a8a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="275" cy="367" r="4" fill="#988878"/>
+
+  <!-- Young Cao Chong figure (small, on left side of boat) -->
+  <!-- Head -->
+  <circle cx="270" cy="345" r="14" fill="#e8c8a0"/>
+  <!-- Hair -->
+  <path d="M257,340 Q257,328 270,327 Q283,328 283,340 Q283,333 270,332 Q257,333 257,340" fill="#2d2a24"/>
+  <!-- Body -->
+  <path d="M260,358 L280,358 L283,378 L257,378 Z" fill="#3a7d5c"/>
+  <!-- Arms pointing at water line -->
+  <path d="M280,362 Q295,372 305,395" stroke="#e8c8a0" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Other arm -->
+  <path d="M260,362 Q250,370 248,378" stroke="#e8c8a0" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Carved water mark indicator (arrow pointing to line) -->
+  <path d="M310,395 L295,418" stroke="#c05a30" stroke-width="2.5" fill="none" marker-end="url(#arrowHead)"/>
+  <defs>
+    <marker id="arrowHead" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c05a30"/>
+    </marker>
+  </defs>
+
+  <!-- Stones on boat (small pile) -->
+  <ellipse cx="360" cy="355" rx="14" ry="9" fill="#8a7468"/>
+  <ellipse cx="380" cy="352" rx="12" ry="8" fill="#7a6458"/>
+  <ellipse cx="345" cy="358" rx="10" ry="7" fill="#9a8478"/>
+
+  <!-- Decorative bamboo scroll in corner -->
+  <rect x="50" y="440" width="80" height="50" rx="4" fill="#f0e8d0" stroke="#c0a878" stroke-width="1.5"/>
+  <line x1="50" y1="455" x2="130" y2="455" stroke="#d4c098" stroke-width="0.8"/>
+  <line x1="50" y1="470" x2="130" y2="470" stroke="#d4c098" stroke-width="0.8"/>
+  <line x1="50" y1="478" x2="110" y2="478" stroke="#d4c098" stroke-width="0.8"/>
+  <text x="56" y="450" font-family="serif" font-size="9" fill="#7a3b14">称象</text>
+
+  <!-- Title seal -->
+  <rect x="700" y="530" width="60" height="50" rx="4" fill="#c05a30" opacity="0.85"/>
+  <text x="715" y="552" font-family="serif" font-size="14" fill="#fef9ed" font-weight="bold">曹冲</text>
+  <text x="715" y="570" font-family="serif" font-size="14" fill="#fef9ed" font-weight="bold">称象</text>
+
+  <!-- Small waves around boat -->
+  <path d="M180,395 Q190,392 200,395" stroke="#8ab0b4" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M600,395 Q610,392 620,395" stroke="#8ab0b4" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M170,410 Q185,405 200,410" stroke="#8ab0b4" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M600,410 Q615,405 630,410" stroke="#8ab0b4" stroke-width="1" fill="none" opacity="0.4"/>
+</svg>

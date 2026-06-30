@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="金华双龙洞洞口和钟乳石插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">记金华的双龙洞</text>
+  <line x1="280" y1="60" x2="520" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 山体背景 -->
+  <path d="M0 520 L0 200 Q100 150 200 180 Q300 120 400 160 Q500 110 600 170 Q700 140 800 190 L800 520 Z" fill="#8d6a4a" opacity="0.4"/>
+  <path d="M0 520 L0 280 Q150 240 300 270 Q450 230 600 280 Q700 250 800 290 L800 520 Z" fill="#6a5a3a" opacity="0.5"/>
+
+  <!-- 树木 -->
+  <g>
+    <path d="M80 380 L70 320 L90 320 Z" fill="#2d6a4f"/>
+    <path d="M85 360 L75 310 L95 310 Z" fill="#3a7a5f"/>
+    <rect x="78" y="370" width="6" height="20" fill="#5a3a1a"/>
+  </g>
+  <g>
+    <path d="M720 390 L710 330 L730 330 Z" fill="#2d6a4f"/>
+    <path d="M725 370 L715 320 L735 320 Z" fill="#3a7a5f"/>
+    <rect x="718" y="380" width="6" height="20" fill="#5a3a1a"/>
+  </g>
+
+  <!-- 洞口（拱形） -->
+  <path d="M250 520 L250 350 Q250 250 400 250 Q550 250 550 350 L550 520 Z" fill="#3a2a1a"/>
+  <!-- 洞口边缘亮处 -->
+  <path d="M250 350 Q250 250 400 250 Q550 250 550 350" fill="none" stroke="#8d6a4a" stroke-width="6"/>
+  <!-- 洞内深处（更暗） -->
+  <path d="M290 520 L290 370 Q290 300 400 300 Q510 300 510 370 L510 520 Z" fill="#2a1a0a"/>
+
+  <!-- 洞顶双龙钟乳石 -->
+  <!-- 青龙 -->
+  <path d="M310 280 Q340 290 360 280 Q380 270 400 285" fill="none" stroke="#4a90b8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="402" cy="285" r="6" fill="#4a90b8"/>
+  <circle cx="404" cy="284" r="1.5" fill="#fef9ed"/>
+  <!-- 龙角 -->
+  <path d="M400 280 L396 270 M404 280 L408 270" stroke="#4a90b8" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 黄龙 -->
+  <path d="M420 290 Q450 300 470 290 Q490 280 500 295" fill="none" stroke="#e8a838" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="502" cy="295" r="6" fill="#e8a838"/>
+  <circle cx="504" cy="294" r="1.5" fill="#fef9ed"/>
+  <path d="M500 290 L496 280 M504 290 L508 280" stroke="#e8a838" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 钟乳石（从洞顶垂下） -->
+  <path d="M320 300 L325 360 L330 300 Z" fill="#c8b898" stroke="#8d6a4a" stroke-width="1.5"/>
+  <path d="M360 310 L368 380 L376 310 Z" fill="#d8c8a8" stroke="#8d6a4a" stroke-width="1.5"/>
+  <path d="M440 305 L446 370 L452 305 Z" fill="#c8b898" stroke="#8d6a4a" stroke-width="1.5"/>
+  <path d="M470 315 L475 355 L480 315 Z" fill="#d8c8a8" stroke="#8d6a4a" stroke-width="1.5"/>
+
+  <!-- 石笋（从地面长上） -->
+  <path d="M340 520 L345 460 L350 520 Z" fill="#c8b898" stroke="#8d6a4a" stroke-width="1.5"/>
+  <path d="M420 520 L428 450 L436 520 Z" fill="#d8c8a8" stroke="#8d6a4a" stroke-width="1.5"/>
+  <path d="M460 520 L465 480 L470 520 Z" fill="#c8b898" stroke="#8d6a4a" stroke-width="1.5"/>
+
+  <!-- 地下溪流 -->
+  <path d="M300 510 Q400 500 500 510" fill="none" stroke="#4a90b8" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M320 508 q15 -2 30 0 M380 506 q15 -2 30 0 M440 508 q15 -2 30 0" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- 小船（在孔隙处，仰卧） -->
+  <g transform="translate(400 410)">
+    <path d="M-30 10 Q-30 -5 0 -5 Q30 -5 30 10 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 躺着的人 -->
+    <rect x="-12" y="-18" width="24" height="14" rx="3" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-16" cy="-12" r="6" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 绳子 -->
+    <line x1="30" y1="5" x2="80" y2="5" stroke="#5a3a1a" stroke-width="2" stroke-dasharray="4,2"/>
+  </g>
+
+  <!-- 孔隙标注 -->
+  <line x1="400" y1="395" x2="400" y2="340" stroke="#e07856" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="318" width="90" height="24" fill="#fff6df" stroke="#e07856" rx="4"/>
+  <text x="400" y="335" text-anchor="middle" font-family="serif" font-size="13" fill="#e07856" font-weight="bold">孔隙（仰卧通过）</text>
+
+  <!-- 杜鹃花（路上） -->
+  <g>
+    <circle cx="130" cy="460" r="8" fill="#e07856"/>
+    <circle cx="142" cy="455" r="7" fill="#e0584a"/>
+    <circle cx="125" cy="470" r="6" fill="#e07856"/>
+    <path d="M135 470 L135 490" stroke="#2d6a4f" stroke-width="2"/>
+  </g>
+  <g>
+    <circle cx="660" cy="465" r="8" fill="#e07856"/>
+    <circle cx="672" cy="460" r="7" fill="#e0584a"/>
+    <circle cx="655" cy="475" r="6" fill="#e07856"/>
+    <path d="M665 475 L665 495" stroke="#2d6a4f" stroke-width="2"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">仰卧小船穿过孔隙，洞顶双龙盘旋，钟乳石千姿百态</text>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="雷电形成过程示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">雷电是怎么产生的</text>
+  <line x="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 上半部分：雷雨云中的电荷分布 -->
+  <text x="400" y="100" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">雷雨云中的电荷分布</text>
+
+  <!-- 云 -->
+  <g transform="translate(400,200)">
+    <!-- 云体 -->
+    <ellipse cx="0" cy="0" rx="120" ry="50" fill="#5a5a6a" opacity="0.4"/>
+    <ellipse cx="-60" cy="-15" rx="50" ry="30" fill="#5a5a6a" opacity="0.4"/>
+    <ellipse cx="60" cy="-15" rx="50" ry="30" fill="#5a5a6a" opacity="0.4"/>
+    <ellipse cx="0" cy="-25" rx="55" ry="28" fill="#5a5a6a" opacity="0.4"/>
+
+    <!-- 正电荷（上层） -->
+    <g fill="#c84a3a">
+      <text x="-80" y="-30" font-family="serif" font-size="14" font-weight="bold">+</text>
+      <text x="-50" y="-35" font-family="serif" font-size="14" font-weight="bold">+</text>
+      <text x="-20" y="-30" font-family="serif" font-size="14" font-weight="bold">+</text>
+      <text x="10" y="-35" font-family="serif" font-size="14" font-weight="bold">+</text>
+      <text x="40" y="-30" font-family="serif" font-size="14" font-weight="bold">+</text>
+      <text x="70" y="-35" font-family="serif" font-size="14" font-weight="bold">+</text>
+    </g>
+    <text x="140" y="-30" font-family="serif" font-size="12" fill="#c84a3a">正电荷（上层）</text>
+
+    <!-- 负电荷（下层） -->
+    <g fill="#3a6a8a">
+      <text x="-80" y="25" font-family="serif" font-size="14" font-weight="bold">-</text>
+      <text x="-50" y="30" font-family="serif" font-size="14" font-weight="bold">-</text>
+      <text x="-20" y="25" font-family="serif" font-size="14" font-weight="bold">-</text>
+      <text x="10" y="30" font-family="serif" font-size="14" font-weight="bold">-</text>
+      <text x="40" y="25" font-family="serif" font-size="14" font-weight="bold">-</text>
+      <text x="70" y="30" font-family="serif" font-size="14" font-weight="bold">-</text>
+    </g>
+    <text x="140" y="28" font-family="serif" font-size="12" fill="#3a6a8a">负电荷（下层）</text>
+
+    <!-- 上升气流箭头 -->
+    <g stroke="#7ab8d8" stroke-width="2" fill="none" opacity="0.5">
+      <path d="M-90 50 Q-80 20 -85 -10" marker-end="url(#arrL1)"/>
+      <path d="M0 55 Q5 20 0 -15" marker-end="url(#arrL1)"/>
+      <path d="M80 50 Q85 20 80 -10" marker-end="url(#arrL1)"/>
+    </g>
+    <text x="-130" y="55" font-family="serif" font-size="10" fill="#5a8aaa">上升气流</text>
+  </g>
+
+  <!-- 闪电放电 -->
+  <g transform="translate(400,310)">
+    <path d="M0 0 L-10 15 L5 20 L-8 35 L10 40 L-5 55 L8 60 L0 75" fill="none" stroke="#f4ec68" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 0 L-10 15 L5 20 L-8 35 L10 40 L-5 55 L8 60 L0 75" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5"/>
+    <!-- 闪电标注 -->
+    <text x="30" y="35" font-family="serif" font-size="12" fill="#c84a3a">放电！</text>
+    <text x="30" y="50" font-family="serif" font-size="10" fill="#c84a3a">3万°C</text>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="10" fill="#8d7a5a" opacity="0.3"/>
+  <!-- 正电荷（地面） -->
+  <g fill="#c84a3a" opacity="0.5">
+    <text x="280" y="420" font-family="serif" font-size="12" font-weight="bold">+</text>
+    <text x="350" y="420" font-family="serif" font-size="12" font-weight="bold">+</text>
+    <text x="420" y="420" font-family="serif" font-size="12" font-weight="bold">+</text>
+    <text x="490" y="420" font-family="serif" font-size="12" font-weight="bold">+</text>
+  </g>
+  <text x="540" y="420" font-family="serif" font-size="11" fill="#c84a3a">地面感应正电荷</text>
+
+  <!-- 分隔线 -->
+  <line x1="60" y1="440" x2="740" y2="440" stroke="#c8843a" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- 下方：为什么先闪电后雷声 -->
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">为什么先看到闪电后听到雷声？</text>
+
+  <!-- 光速 -->
+  <g transform="translate(200,520)">
+    <rect x="-90" y="-25" width="180" height="55" fill="#fff6df" stroke="#f4b942" stroke-width="1.5" rx="6"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c8843a">光速</text>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">约30万公里/秒</text>
+    <!-- 瞬间到达 -->
+    <text x="0" y="32" text-anchor="middle" font-family="serif" font-size="10" fill="#6a8d3f">瞬间到达眼睛</text>
+  </g>
+
+  <!-- VS -->
+  <text x="400" y="525" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#c8843a">VS</text>
+
+  <!-- 声速 -->
+  <g transform="translate(600,520)">
+    <rect x="-90" y="-25" width="180" height="55" fill="#fff6df" stroke="#7ab8d8" stroke-width="1.5" rx="6"/>
+    <text x="0" y="-5" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#3a6a8a">声速</text>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="12" fill="#3a6a8a">约340米/秒</text>
+    <text x="0" y="32" text-anchor="middle" font-family="serif" font-size="10" fill="#5a8aaa">过一会儿才到耳朵</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">闪电和雷声同时产生，但光速是声速的90万倍——每差3秒，雷电约1公里远</text>
+
+  <defs>
+    <marker id="arrL1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7ab8d8"/>
+    </marker>
+  </defs>
+</svg>

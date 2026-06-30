@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="普罗米修斯盗火插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">普罗米修斯盗火</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c9952e" stroke-width="3"/>
+
+  <!-- 天空（黄昏色调） -->
+  <rect x="0" y="65" width="800" height="400" fill="#d4c8a8"/>
+
+  <!-- 悬崖（高加索山） -->
+  <path d="M100 465 L100 200 L180 150 L260 200 L260 465 Z" fill="#8a7a6a" stroke="#4a3a2a" stroke-width="3"/>
+  <!-- 岩石纹理 -->
+  <g stroke="#6a5a4a" stroke-width="2" fill="none">
+    <path d="M120 250 L150 240 L170 255"/>
+    <path d="M130 300 L160 295 L180 310"/>
+    <path d="M140 350 L170 345 L195 360"/>
+    <path d="M120 400 L155 395 L180 410"/>
+  </g>
+  <text x="180" y="135" text-anchor="middle" font-family="serif" font-size="14" fill="#5a3a1a">高加索山悬崖</text>
+
+  <!-- 地面 -->
+  <rect x="0" y="465" width="800" height="135" fill="#a08060" stroke="#6a4a2a" stroke-width="2"/>
+
+  <!-- 普罗米修斯（被锁在悬崖上） -->
+  <g transform="translate(180, 280)">
+    <text x="0" y="-65" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a3a1a">普罗米修斯</text>
+    <!-- 头 -->
+    <circle cx="0" cy="-30" r="22" fill="#e8c8a0" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 头发 -->
+    <path d="M-20 -38 Q-15 -55 0 -52 Q15 -55 20 -38" fill="#4a3a2a" stroke="#2a1a0a" stroke-width="1.5"/>
+    <!-- 眼睛（坚毅） -->
+    <path d="M-10 -32 L-4 -32" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M4 -32 L10 -32" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 嘴（紧闭） -->
+    <line x1="-5" y1="-20" x2="5" y2="-20" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 胡须 -->
+    <path d="M-8 -18 Q0 -8 8 -18" fill="none" stroke="#4a3a2a" stroke-width="1.5"/>
+    <!-- 身体（半裸，古希腊风格） -->
+    <path d="M-20 -8 L-25 60 L25 60 L20 -8 Z" fill="#e8c8a0" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 披风 -->
+    <path d="M-20 -8 L-45 30 L-40 70 L-25 60" fill="#8a4a2a" stroke="#4a2a1a" stroke-width="2" opacity="0.85"/>
+    <path d="M20 -8 L45 20 L42 60 L25 60" fill="#8a4a2a" stroke="#4a2a1a" stroke-width="2" opacity="0.85"/>
+    <!-- 铁链（锁住手腕） -->
+    <g stroke="#3a3a3a" stroke-width="3" fill="none">
+      <circle cx="-30" cy="10" r="8" fill="none" stroke="#3a3a3a" stroke-width="4"/>
+      <line x1="-38" y1="10" x2="-60" y2="5"/>
+      <circle cx="30" cy="10" r="8" fill="none" stroke="#3a3a3a" stroke-width="4"/>
+      <line x1="38" y1="10" x2="60" y2="5"/>
+    </g>
+    <!-- 铁链链接到岩石 -->
+    <line x1="-60" y1="5" x2="-75" y2="-5" stroke="#3a3a3a" stroke-width="3"/>
+    <line x1="60" y1="5" x2="75" y2="-5" stroke="#3a3a3a" stroke-width="3"/>
+  </g>
+
+  <!-- 鹫鹰（飞来啄食肝脏） -->
+  <g transform="translate(250, 220)">
+    <text x="20" y="-30" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">鹫鹰（每日啄食）</text>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="20" ry="12" fill="#5a4a3a" stroke="#2a1a0a" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="-18" cy="-5" r="10" fill="#6a5a4a" stroke="#2a1a0a" stroke-width="2"/>
+    <!-- 眼睛（凶猛） -->
+    <circle cx="-22" cy="-7" r="2.5" fill="#c44a2a"/>
+    <!-- 喙（尖锐弯曲） -->
+    <path d="M-28 -3 L-35 0 L-28 4 Z" fill="#d4a040" stroke="#8a6a20" stroke-width="1.5"/>
+    <!-- 翅膀（展开俯冲） -->
+    <path d="M0 -5 Q15 -25 40 -20 Q25 -8 10 -3 Z" fill="#4a3a2a" stroke="#2a1a0a" stroke-width="2"/>
+    <path d="M5 5 Q20 20 40 15 Q25 8 10 5 Z" fill="#4a3a2a" stroke="#2a1a0a" stroke-width="2"/>
+    <!-- 翅膀羽毛 -->
+    <line x1="15" y1="-15" x2="25" y2="-18" stroke="#2a1a0a" stroke-width="1.5"/>
+    <line x1="20" y1="-10" x2="30" y2="-13" stroke="#2a1a0a" stroke-width="1.5"/>
+    <line x1="25" y1="-5" x2="35" y2="-8" stroke="#2a1a0a" stroke-width="1.5"/>
+    <!-- 利爪 -->
+    <path d="M5 10 L3 20 M10 10 L8 20 M15 10 L13 20" stroke="#d4a040" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- 火种（普罗米修斯带给人类的火，右下方） -->
+  <g transform="translate(550, 380)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#c44a2a">火种</text>
+    <!-- 火堆 -->
+    <!-- 木柴 -->
+    <rect x="-30" y="20" width="60" height="8" fill="#7a5a3a" stroke="#4a2a1a" stroke-width="2" rx="2" transform="rotate(-5)"/>
+    <rect x="-30" y="25" width="60" height="8" fill="#6a4a2a" stroke="#4a2a1a" stroke-width="2" rx="2" transform="rotate(8)"/>
+    <!-- 火焰 -->
+    <path d="M-20 20 Q-25 -10 -10 -25 Q-5 -10 0 -30 Q5 -10 10 -25 Q25 -10 20 20 Z" fill="#f4602a" stroke="#c44020" stroke-width="2"/>
+    <path d="M-12 15 Q-15 -5 -5 -20 Q0 -8 5 -20 Q15 -5 12 15 Z" fill="#f4a040" stroke="#c48020" stroke-width="1.5"/>
+    <path d="M-5 10 Q-8 -5 0 -15 Q8 -5 5 10 Z" fill="#f4e060"/>
+    <!-- 火星 -->
+    <circle cx="-25" cy="-15" r="2" fill="#f4a040" opacity="0.8"/>
+    <circle cx="25" cy="-10" r="1.5" fill="#f4a040" opacity="0.7"/>
+    <circle cx="-15" cy="-35" r="1.5" fill="#f4e060" opacity="0.6"/>
+    <circle cx="15" cy="-30" r="2" fill="#f4a040" opacity="0.7"/>
+    <!-- 光晕 -->
+    <circle cx="0" cy="0" r="50" fill="#f4a040" opacity="0.08"/>
+    <circle cx="0" cy="0" r="35" fill="#f4a040" opacity="0.12"/>
+  </g>
+
+  <!-- 人类（围在火旁，右下角） -->
+  <g transform="translate(680, 440)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">人类（获得火种）</text>
+    <!-- 人1（坐着取暖） -->
+    <circle cx="-20" cy="-15" r="10" fill="#e8c8a0" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M-28 -20 Q-20 -30 -12 -20" fill="#3a2a1a" stroke="#1a0a00" stroke-width="1"/>
+    <path d="M-30 -5 L-35 25 L-5 25 L-10 -5 Z" fill="#7a5a3a" stroke="#3a2a1a" stroke-width="1.5"/>
+    <!-- 手伸向火 -->
+    <path d="M-10 -5 Q5 -15 15 -20" fill="none" stroke="#7a5a3a" stroke-width="8" stroke-linecap="round"/>
+    <!-- 人2（小孩） -->
+    <circle cx="20" cy="-5" r="8" fill="#e8c8a0" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M14 -8 Q20 -15 26 -8" fill="#3a2a1a"/>
+    <path d="M12 3 L8 25 L32 25 L28 3 Z" fill="#8a6a4a" stroke="#3a2a1a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 太阳车（左上角，火种来源） -->
+  <g transform="translate(100, 110)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">太阳车（火种来源）</text>
+    <!-- 太阳 -->
+    <circle cx="0" cy="0" r="25" fill="#f4b942" stroke="#e0a020" stroke-width="2"/>
+    <g stroke="#f4b942" stroke-width="2.5" stroke-linecap="round">
+      <line x1="0" y1="-30" x2="0" y2="-38"/>
+      <line x1="0" y1="30" x2="0" y2="38"/>
+      <line x1="-30" y1="0" x2="-38" y2="0"/>
+      <line x1="30" y1="0" x2="38" y2="0"/>
+      <line x1="-21" y1="-21" x2="-27" y2="-27"/>
+      <line x1="21" y1="21" x2="27" y2="27"/>
+      <line x1="-21" y1="21" x2="-27" y2="27"/>
+      <line x1="21" y1="-21" x2="27" y2="-27"/>
+    </g>
+  </g>
+
+  <!-- 茴香秆（盗火工具，连接太阳和火堆的虚线） -->
+  <path d="M130 130 Q300 200 530 370" fill="none" stroke="#c9952e" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+  <text x="330" y="245" text-anchor="middle" font-family="serif" font-size="12" fill="#8a6a3a" opacity="0.7">茴香秆传火</text>
+</svg>

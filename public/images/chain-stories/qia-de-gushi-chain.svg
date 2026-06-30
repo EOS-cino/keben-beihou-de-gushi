@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="赵州桥与李春的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">赵州桥为什么能站一千四百年</text>
+  <line x1="180" y1="56" x2="620" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——隋朝工匠李春的智慧</text>
+
+  <!-- 河岸和水 -->
+  <rect x="0" y="380" width="800" height="80" fill="#4a90b8" opacity="0.3"/>
+  <path d="M0 400 Q100 395 200 400 Q300 405 400 400 Q500 395 600 400 Q700 405 800 400" fill="none" stroke="#4a90b8" stroke-width="2"/>
+  <path d="M0 420 Q100 415 200 420 Q300 425 400 420 Q500 415 600 420 Q700 425 800 420" fill="none" stroke="#4a90b8" stroke-width="2" opacity="0.6"/>
+
+  <!-- 赵州桥主体 -->
+  <g transform="translate(400, 250)">
+    <!-- 大拱（扁拱） -->
+    <path d="M-180 150 Q-180 30 0 30 Q180 30 180 150 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2.5"/>
+    <path d="M-180 150 Q-180 50 0 50 Q180 50 180 150 Z" fill="#fef9ed"/>
+    <!-- 桥面 -->
+    <rect x="-195" y="25" width="390" height="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 栏杆 -->
+    <rect x="-195" y="15" width="390" height="4" fill="#7a3b14"/>
+
+    <!-- 四个小拱（敞肩） -->
+    <ellipse cx="-110" cy="80" rx="22" ry="25" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="-55" cy="80" rx="15" ry="18" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="55" cy="80" rx="15" ry="18" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="110" cy="80" rx="22" ry="25" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+  </g>
+
+  <!-- 标注：扁拱 -->
+  <g transform="translate(150, 200)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#c84a3a">扁拱</text>
+    <text x="0" y="16" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">拱高仅7米</text>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">水过得去</text>
+    <path d="M40 20 Q80 40 130 70" fill="none" stroke="#c84a3a" stroke-width="1.5" stroke-dasharray="3,3"/>
+  </g>
+
+  <!-- 标注：敞肩小拱 -->
+  <g transform="translate(560, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#2d6a4f">敞肩小拱</text>
+    <text x="0" y="16" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">减轻重量</text>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">泄洪·好看</text>
+    <path d="M-30 35 Q-60 55 -90 80" fill="none" stroke="#2d6a4f" stroke-width="1.5" stroke-dasharray="3,3"/>
+  </g>
+
+  <!-- 李春 -->
+  <g transform="translate(680, 320)">
+    <circle cx="0" cy="0" r="14" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-10 -6 Q0 -14 10 -6" fill="#7a3b14"/>
+    <circle cx="-4" cy="0" r="1.5" fill="#7a3b14"/>
+    <circle cx="4" cy="0" r="1.5" fill="#7a3b14"/>
+    <path d="M-3 6 Q0 8 3 6" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="0" cy="25" rx="16" ry="20" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">李春</text>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">隋朝工匠</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 490)">
+    <rect x="-320" y="0" width="640" height="95" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">结实 · 实用 · 好看，三件事都想到了</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">扁拱让洪水顺畅流过 · 小拱减轻重量又泄洪 · 一千四百年历经地震洪水</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">好的工程比人的寿命长，它替创造它的人，一直站在那里</text>
+  </g>
+</svg>

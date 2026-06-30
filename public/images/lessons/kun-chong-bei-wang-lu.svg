@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="昆虫备忘录">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">昆虫备忘录</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">一本小本子，记下有趣昆虫</text>
+  <g transform="translate(160,300)">
+    <ellipse cx="0" cy="10" rx="30" ry="22" fill="#c0392b" stroke="#7a1a1a" stroke-width="2"/>
+    <line x1="-8" y1="-10" x2="-8" y2="30" stroke="#3a2a1a" stroke-width="2"/>
+    <line x1="8" y1="-10" x2="8" y2="30" stroke="#3a2a1a" stroke-width="2"/>
+    <circle cx="0" cy="-6" r="6" fill="#3a2a1a"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">花大姐</text>
+  </g>
+  <g transform="translate(400,300)">
+    <ellipse cx="0" cy="10" rx="34" ry="24" fill="#3a2a1a" stroke="#1a1a1a" stroke-width="2"/>
+    <path d="M-20,-8 L-34,-22" stroke="#1a1a1a" stroke-width="3"/>
+    <path d="M34,-2 L46,-10" stroke="#1a1a1a" stroke-width="3"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">独角仙</text>
+  </g>
+  <g transform="translate(640,300)">
+    <ellipse cx="0" cy="10" rx="30" ry="14" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <path d="M-20,6 L-50,-10" stroke="#3a6b2a" stroke-width="2"/>
+    <path d="M20,6 L50,-10" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">蚂蚱</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">观察不嫌小，几笔也生动</text>
+</svg>

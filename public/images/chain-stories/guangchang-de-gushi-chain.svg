@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国古今广场演变与公共空间故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">广场的前世今生</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——城市的"客厅"，已经有一两千岁</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="150" x2="720" y2="150" stroke="#c8843a" stroke-width="3"/>
+  <g font-family="serif" fill="#7a3b14">
+    <circle cx="160" cy="150" r="7" fill="#e8a838"/>
+    <text x="160" y="135" text-anchor="middle" font-size="11">古代集市</text>
+    <circle cx="330" cy="150" r="7" fill="#c84a3a"/>
+    <text x="330" y="135" text-anchor="middle" font-size="11">庙前空地</text>
+    <circle cx="500" cy="150" r="7" fill="#4a90b8"/>
+    <text x="500" y="135" text-anchor="middle" font-size="11">近代大广场</text>
+    <circle cx="660" cy="150" r="7" fill="#2d6a4f"/>
+    <text x="660" y="135" text-anchor="middle" font-size="11">今日百变广场</text>
+  </g>
+
+  <!-- 古代集市 -->
+  <g transform="translate(160, 200)">
+    <rect x="-100" y="0" width="200" height="140" rx="8" fill="#fef9ed" stroke="#e8a838" stroke-width="1.5"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#e8a838">集市</text>
+    <g transform="translate(0, 65)">
+      <rect x="-50" y="0" width="20" height="20" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-20" y="0" width="20" height="20" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="10" y="0" width="20" height="20" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-35" y="-15" width="10" height="15" fill="#8d5a36"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">逢三逢八开集</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">买卖、见面、打听</text>
+  </g>
+
+  <!-- 庙前空地 -->
+  <g transform="translate(330, 200)">
+    <rect x="-100" y="0" width="200" height="140" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#c84a3a">庙前空地</text>
+    <g transform="translate(0, 70)">
+      <polygon points="-40,20 40,20 30,-10 -30,-10" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.2"/>
+      <rect x="-30" y="-10" width="60" height="30" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.2"/>
+      <!-- 戏台小人 -->
+      <circle cx="-10" cy="10" r="3" fill="#e8a838"/>
+      <circle cx="10" cy="10" r="3" fill="#e07856"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">唱戏 · 耍把式 · 逛庙会</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">人山人海</text>
+  </g>
+
+  <!-- 天安门 -->
+  <g transform="translate(500, 200)">
+    <rect x="-100" y="0" width="200" height="140" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="1.5"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#4a90b8">天安门广场</text>
+    <g transform="translate(0, 60)">
+      <rect x="-50" y="0" width="100" height="40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.2"/>
+      <polygon points="-55,0 55,0 0,-20" fill="#7a3b14"/>
+      <rect x="-10" y="15" width="20" height="25" fill="#e8a838"/>
+      <!-- 旗杆 -->
+      <line x1="40" y1="40" x2="40" y2="-10" stroke="#7a3b14" stroke-width="2"/>
+      <polygon points="40,-10 56,-6 40,-2" fill="#c84a3a"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">能容上百万人</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">见证很多大事</text>
+  </g>
+
+  <!-- 今日广场 -->
+  <g transform="translate(660, 200)">
+    <rect x="-100" y="0" width="200" height="140" rx="8" fill="#fef9ed" stroke="#2d6a4f" stroke-width="1.5"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#2d6a4f">百变客厅</text>
+    <g transform="translate(0, 60)" font-family="serif" font-size="9" fill="#7a3b14">
+      <text x="0" y="0" text-anchor="middle">晨练</text>
+      <text x="0" y="18" text-anchor="middle">广场舞</text>
+      <text x="0" y="36" text-anchor="middle">夜市</text>
+      <text x="0" y="54" text-anchor="middle">露天电影</text>
+    </g>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 380)">
+    <rect x="-320" y="0" width="640" height="110" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">圣马可广场 · 协和广场 · 天安门广场</text>
+    <text x="0" y="54" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">全世界的广场，干的事都差不多——让人聚在一起</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">空间是死的，人是活的，是人的活动让广场有了故事</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">每个人，都是这个"客厅"里的主角</text>
+  </g>
+</svg>

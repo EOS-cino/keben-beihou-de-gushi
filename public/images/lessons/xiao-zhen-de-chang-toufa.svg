@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小女孩甩着长长的头发，头发像瀑布一样垂下来的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小真的长头发</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空背景 -->
+  <rect x="0" y="70" width="800" height="300" fill="#e8f0f8" opacity="0.4"/>
+
+  <!-- 远处小山 -->
+  <path d="M0 320 L120 250 L250 290 L400 230 L550 280 L680 240 L800 270 L800 370 L0 370 Z" fill="#c8dcc8" opacity="0.5"/>
+
+  <!-- 小河 -->
+  <path d="M0 400 Q200 390 400 400 Q600 410 800 400 L800 460 L0 460 Z" fill="#a8d0e8" opacity="0.6"/>
+  <path d="M0 415 Q150 408 300 415 Q450 422 600 415 Q700 410 800 415" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+  <path d="M0 435 Q180 428 360 435 Q540 442 720 435 Q780 432 800 435" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 小真 -->
+  <!-- 长头发（从头顶垂下，像瀑布） -->
+  <path d="M360 165 Q340 200 330 260 Q325 330 335 400 Q340 440 350 470" fill="none" stroke="#3a2a1a" stroke-width="40" stroke-linecap="round" opacity="0.9"/>
+  <path d="M440 165 Q460 200 470 260 Q475 330 465 400 Q460 440 450 470" fill="none" stroke="#3a2a1a" stroke-width="40" stroke-linecap="round" opacity="0.9"/>
+  <path d="M400 170 Q395 250 400 350 Q405 420 400 475" fill="none" stroke="#4a3a2a" stroke-width="35" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- 头 -->
+  <circle cx="400" cy="150" r="38" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 短头发顶部 -->
+  <path d="M362 145 Q365 110 400 105 Q435 110 438 145 Q430 125 400 122 Q370 125 362 145" fill="#3a2a1a"/>
+  <!-- 眼睛 -->
+  <circle cx="388" cy="150" r="3.5" fill="#2a2a2a"/>
+  <circle cx="412" cy="150" r="3.5" fill="#2a2a2a"/>
+  <!-- 嘴巴（笑） -->
+  <path d="M390 165 Q400 172 410 165" fill="none" stroke="#7a3b14" stroke-width="2" stroke-linecap="round"/>
+  <!-- 腮红 -->
+  <circle cx="378" cy="160" r="6" fill="#e8a8a0" opacity="0.5"/>
+  <circle cx="422" cy="160" r="6" fill="#e8a8a0" opacity="0.5"/>
+
+  <!-- 身体（连衣裙） -->
+  <path d="M375 185 L365 280 L435 280 L425 185 Z" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 裙子 -->
+  <path d="M365 270 L340 340 L460 340 L435 270 Z" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 腿 -->
+  <rect x="378" y="335" width="14" height="50" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+  <rect x="408" y="335" width="14" height="50" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+  <!-- 鞋子 -->
+  <ellipse cx="385" cy="390" rx="12" ry="6" fill="#5a3a1a"/>
+  <ellipse cx="415" cy="390" rx="12" ry="6" fill="#5a3a1a"/>
+
+  <!-- 手臂（张开） -->
+  <path d="M375 200 Q345 220 325 250" fill="none" stroke="#f0d0a8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M425 200 Q455 220 475 250" fill="none" stroke="#f0d0a8" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- 钓鱼场景（头发垂入河中钓鱼） -->
+  <path d="M350 470 Q360 490 365 510" fill="none" stroke="#3a2a1a" stroke-width="3" opacity="0.6"/>
+  <!-- 鱼 -->
+  <ellipse cx="365" cy="520" rx="18" ry="10" fill="#4a90b8" stroke="#2d6a4f" stroke-width="1.5"/>
+  <path d="M347 520 L335 512 L335 528 Z" fill="#4a90b8" stroke="#2d6a4f" stroke-width="1.5"/>
+  <circle cx="372" cy="517" r="2" fill="#2a2a2a"/>
+
+  <!-- 朋友1（短头发女孩） -->
+  <g transform="translate(620, 200)">
+    <circle cx="0" cy="0" r="28" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-28 -5 Q-25 -35 0 -38 Q25 -35 28 -5 Q20 -20 0 -18 Q-20 -20 -28 -5" fill="#2a1a0a"/>
+    <circle cx="-8" cy="0" r="2.5" fill="#2a2a2a"/>
+    <circle cx="8" cy="0" r="2.5" fill="#2a2a2a"/>
+    <path d="M-6 12 Q0 17 6 12" fill="none" stroke="#7a3b14" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-20 25 L-25 90 L25 90 L20 25 Z" fill="#2d6a4f" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-10" y="88" width="8" height="35" fill="#f0d0a8" rx="2"/>
+    <rect x="2" y="88" width="8" height="35" fill="#f0d0a8" rx="2"/>
+  </g>
+
+  <!-- 朋友2 -->
+  <g transform="translate(700, 220)">
+    <circle cx="0" cy="0" r="26" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-26 -3 Q-23 -33 0 -36 Q23 -33 26 -3" fill="#3a2a1a"/>
+    <circle cx="-7" cy="0" r="2.5" fill="#2a2a2a"/>
+    <circle cx="7" cy="0" r="2.5" fill="#2a2a2a"/>
+    <path d="M-5 11 Q0 15 5 11" fill="none" stroke="#7a3b14" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-18 23 L-22 85 L22 85 L18 23 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+  </g>
+
+  <!-- 标注：小真 -->
+  <line x1="400" y1="105" x2="400" y2="80" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="360" y="55" width="80" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="72" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">小真</text>
+
+  <!-- 标注：长头发钓鱼 -->
+  <line x1="365" y1="520" x2="430" y2="510" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="420" y="495" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="470" y="512" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">头发钓鱼</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">小真的头发能长到小河里钓鱼，想象力让普通的事物变得奇妙无比</text>
+</svg>

@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小猴子下山掰玉米摘桃子抱西瓜追小兔的连环插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小猴子下山</text>
+
+  <!-- 四格连环画 -->
+  <line x1="400" y1="80" x2="400" y2="560" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="40" y1="320" x2="760" y2="320" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 格1：掰玉米 -->
+  <g>
+    <rect x="40" y="80" width="360" height="240" fill="#6a8d3f" opacity="0.1"/>
+    <text x="220" y="105" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">①掰玉米</text>
+    <!-- 玉米秆 -->
+    <g transform="translate(150,250)">
+      <line x1="0" y1="0" x2="0" y2="-80" stroke="#4a6a2f" stroke-width="4"/>
+      <path d="M0 -30 L-15 -45 M0 -50 L15 -60" stroke="#4a6a2f" stroke-width="2"/>
+      <!-- 玉米 -->
+      <ellipse cx="-8" cy="-40" rx="7" ry="18" fill="#e0a050"/>
+      <ellipse cx="-8" cy="-40" rx="5" ry="16" fill="#f4c870"/>
+      <path d="M-12 -55 L-15 -62 M-4 -55 L-1 -62" stroke="#6a8d3f" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(250,250)">
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#4a6a2f" stroke-width="4"/>
+      <ellipse cx="8" cy="-50" rx="7" ry="18" fill="#e0a050"/>
+      <ellipse cx="8" cy="-50" rx="5" ry="16" fill="#f4c870"/>
+    </g>
+    <!-- 小猴子扛玉米 -->
+    <g transform="translate(320,230)">
+      <ellipse cx="0" cy="10" rx="16" ry="18" fill="#8d5a36"/>
+      <ellipse cx="0" cy="14" rx="10" ry="12" fill="#c8a070"/>
+      <circle cx="0" cy="-15" r="14" fill="#8d5a36"/>
+      <circle cx="0" cy="-12" r="10" fill="#c8a070"/>
+      <circle cx="-4" cy="-15" r="2" fill="#1a1a1a"/>
+      <circle cx="4" cy="-15" r="2" fill="#1a1a1a"/>
+      <path d="M-3 -8 Q0 -6 3 -8" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 耳朵 -->
+      <circle cx="-13" cy="-18" r="5" fill="#8d5a36"/>
+      <circle cx="13" cy="-18" r="5" fill="#8d5a36"/>
+      <!-- 扛玉米 -->
+      <ellipse cx="-18" cy="-8" rx="5" ry="14" fill="#e0a050" transform="rotate(-20 -18 -8)"/>
+      <line x1="-10" y1="-5" x2="-22" y2="-12" stroke="#c8a070" stroke-width="3"/>
+      <!-- 尾巴 -->
+      <path d="M14 5 Q30 0 28 -15" fill="none" stroke="#8d5a36" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="220" y="300" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">又大又多，扛着走</text>
+  </g>
+
+  <!-- 格2：摘桃子 -->
+  <g>
+    <rect x="400" y="80" width="360" height="240" fill="#e07856" opacity="0.08"/>
+    <text x="580" y="105" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">②扔玉米摘桃子</text>
+    <!-- 桃树 -->
+    <g transform="translate(500,250)">
+      <rect x="-5" y="-60" width="10" height="60" fill="#7a3b14"/>
+      <ellipse cx="0" cy="-75" rx="45" ry="35" fill="#6a8d3f"/>
+      <ellipse cx="-20" cy="-70" rx="22" ry="18" fill="#4a6a2f"/>
+      <!-- 桃子 -->
+      <circle cx="-15" cy="-80" r="8" fill="#e07856"/>
+      <circle cx="10" cy="-90" r="8" fill="#e07856"/>
+      <circle cx="20" cy="-70" r="7" fill="#e07856"/>
+    </g>
+    <!-- 扔掉的玉米 -->
+    <ellipse cx="450" cy="285" rx="6" ry="14" fill="#e0a050" opacity="0.5" transform="rotate(30 450 285)"/>
+    <text x="450" y="305" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">扔了</text>
+    <!-- 小猴子捧桃子 -->
+    <g transform="translate(650,230)">
+      <ellipse cx="0" cy="10" rx="16" ry="18" fill="#8d5a36"/>
+      <ellipse cx="0" cy="14" rx="10" ry="12" fill="#c8a070"/>
+      <circle cx="0" cy="-15" r="14" fill="#8d5a36"/>
+      <circle cx="0" cy="-12" r="10" fill="#c8a070"/>
+      <circle cx="-4" cy="-15" r="2" fill="#1a1a1a"/>
+      <circle cx="4" cy="-15" r="2" fill="#1a1a1a"/>
+      <path d="M-3 -8 Q0 -6 3 -8" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-13" cy="-18" r="5" fill="#8d5a36"/>
+      <circle cx="13" cy="-18" r="5" fill="#8d5a36"/>
+      <!-- 捧桃子 -->
+      <circle cx="-8" cy="2" r="7" fill="#e07856"/>
+      <circle cx="8" cy="2" r="7" fill="#e07856"/>
+      <path d="M14 5 Q30 0 28 -15" fill="none" stroke="#8d5a36" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="580" y="300" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">又大又红，捧着走</text>
+  </g>
+
+  <!-- 格3：抱西瓜 -->
+  <g>
+    <rect x="40" y="320" width="360" height="240" fill="#6a8d3f" opacity="0.1"/>
+    <text x="220" y="345" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">③扔桃子抱西瓜</text>
+    <!-- 瓜地 -->
+    <ellipse cx="120" cy="500" rx="30" ry="20" fill="#4a6a2f"/>
+    <path d="M100 500 Q120 490 140 500" fill="none" stroke="#2a4a1f" stroke-width="2"/>
+    <ellipse cx="180" cy="510" rx="28" ry="18" fill="#4a6a2f"/>
+    <!-- 扔掉的桃子 -->
+    <circle cx="100" cy="540" r="6" fill="#e07856" opacity="0.5"/>
+    <text x="100" y="555" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">扔了</text>
+    <!-- 小猴子抱西瓜 -->
+    <g transform="translate(280,460)">
+      <ellipse cx="0" cy="20" rx="16" ry="18" fill="#8d5a36"/>
+      <circle cx="0" cy="-5" r="14" fill="#8d5a36"/>
+      <circle cx="0" cy="-2" r="10" fill="#c8a070"/>
+      <circle cx="-4" cy="-5" r="2" fill="#1a1a1a"/>
+      <circle cx="4" cy="-5" r="2" fill="#1a1a1a"/>
+      <path d="M-3 2 Q0 4 3 2" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-13" cy="-8" r="5" fill="#8d5a36"/>
+      <circle cx="13" cy="-8" r="5" fill="#8d5a36"/>
+      <!-- 抱大西瓜 -->
+      <ellipse cx="0" cy="25" rx="22" ry="18" fill="#4a6a2f"/>
+      <path d="M-18 25 Q0 18 18 25 M-15 30 Q0 24 15 30" fill="none" stroke="#2a4a1f" stroke-width="1.5"/>
+    </g>
+    <text x="220" y="545" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">又大又圆，抱着走</text>
+  </g>
+
+  <!-- 格4：追小兔，空手 -->
+  <g>
+    <rect x="400" y="320" width="360" height="240" fill="#7a3b14" opacity="0.06"/>
+    <text x="580" y="345" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a" font-weight="bold">④追小兔，空手回家</text>
+    <!-- 扔掉的西瓜 -->
+    <ellipse cx="450" cy="510" rx="18" ry="14" fill="#4a6a2f" opacity="0.4"/>
+    <text x="450" y="535" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">扔了</text>
+    <!-- 小兔子跑进树林 -->
+    <g transform="translate(700,450)">
+      <ellipse cx="0" cy="0" rx="16" ry="13" fill="#e8e0d0"/>
+      <circle cx="-12" cy="-8" r="10" fill="#e8e0d0"/>
+      <ellipse cx="-16" cy="-20" rx="4" ry="12" fill="#e8e0d0"/>
+      <ellipse cx="-10" cy="-22" rx="4" ry="12" fill="#e8e0d0"/>
+      <circle cx="-15" cy="-8" r="1.5" fill="#c84a3a"/>
+      <circle cx="14" cy="0" r="4" fill="#e8e0d0"/>
+      <!-- 跑速线 -->
+      <path d="M-30 -5 L-22 -5 M-32 0 L-24 0" stroke="#8d5a36" stroke-width="1.5" opacity="0.5"/>
+    </g>
+    <!-- 树林 -->
+    <ellipse cx="680" cy="400" rx="30" ry="28" fill="#4a6a2f" opacity="0.6"/>
+    <ellipse cx="730" cy="410" rx="25" ry="24" fill="#4a6a2f" opacity="0.6"/>
+    <!-- 小猴子空手发呆 -->
+    <g transform="translate(540,470)">
+      <ellipse cx="0" cy="15" rx="16" ry="18" fill="#8d5a36"/>
+      <ellipse cx="0" cy="19" rx="10" ry="12" fill="#c8a070"/>
+      <circle cx="0" cy="-10" r="14" fill="#8d5a36"/>
+      <circle cx="0" cy="-7" r="10" fill="#c8a070"/>
+      <!-- 发呆眼 -->
+      <circle cx="-4" cy="-10" r="2.5" fill="#1a1a1a"/>
+      <circle cx="4" cy="-10" r="2.5" fill="#1a1a1a"/>
+      <!-- 哭丧嘴 -->
+      <path d="M-3 0 Q0 -2 3 0" fill="none" stroke="#7a3b14" stroke-width="1.2"/>
+      <circle cx="-13" cy="-13" r="5" fill="#8d5a36"/>
+      <circle cx="13" cy="-13" r="5" fill="#8d5a36"/>
+      <!-- 空手摊开 -->
+      <ellipse cx="-16" cy="8" rx="6" ry="4" fill="#c8a070"/>
+      <ellipse cx="16" cy="8" rx="6" ry="4" fill="#c8a070"/>
+    </g>
+    <text x="580" y="545" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">小兔不见了，空着手回家</text>
+  </g>
+</svg>

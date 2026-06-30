@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="北京春节庙会热闹场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#8a2a1a">北京的春节</text>
+  <line x1="300" y1="62" x2="500" y2="62" stroke="#c4a83a" stroke-width="2"/>
+
+  <!-- 灯笼串（顶部装饰） -->
+  <g>
+    <line x1="50" y1="90" x2="750" y2="90" stroke="#c4a01a" stroke-width="2"/>
+    <!-- 灯笼1 -->
+    <ellipse cx="120" cy="115" rx="20" ry="16" fill="#c4282a" stroke="#8a1a1a" stroke-width="2"/>
+    <rect x="114" y="98" width="12" height="6" fill="#f4c842"/>
+    <rect x="114" y="129" width="12" height="6" fill="#f4c842"/>
+    <line x1="120" y1="90" x2="120" y2="98" stroke="#8a6a1a" stroke-width="1.5"/>
+    <line x1="120" y1="135" x2="120" y2="145" stroke="#f4c842" stroke-width="1.5"/>
+    <!-- 灯笼2 -->
+    <ellipse cx="260" cy="115" rx="20" ry="16" fill="#c4282a" stroke="#8a1a1a" stroke-width="2"/>
+    <rect x="254" y="98" width="12" height="6" fill="#f4c842"/>
+    <rect x="254" y="129" width="12" height="6" fill="#f4c842"/>
+    <line x1="260" y1="90" x2="260" y2="98" stroke="#8a6a1a" stroke-width="1.5"/>
+    <!-- 灯笼3 -->
+    <ellipse cx="540" cy="115" rx="20" ry="16" fill="#c4282a" stroke="#8a1a1a" stroke-width="2"/>
+    <rect x="534" y="98" width="12" height="6" fill="#f4c842"/>
+    <rect x="534" y="129" width="12" height="6" fill="#f4c842"/>
+    <line x1="540" y1="90" x2="540" y2="98" stroke="#8a6a1a" stroke-width="1.5"/>
+    <!-- 灯笼4 -->
+    <ellipse cx="680" cy="115" rx="20" ry="16" fill="#c4282a" stroke="#8a1a1a" stroke-width="2"/>
+    <rect x="674" y="98" width="12" height="6" fill="#f4c842"/>
+    <rect x="674" y="129" width="12" height="6" fill="#f4c842"/>
+    <line x1="680" y1="90" x2="680" y2="98" stroke="#8a6a1a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="490" width="800" height="110" fill="#e8d9b8"/>
+
+  <!-- 庙会摊位（左） -->
+  <g>
+    <rect x="40" y="380" width="120" height="110" fill="#b83828" stroke="#7a1a14" stroke-width="2"/>
+    <path d="M35 380 L100 340 L165 380 Z" fill="#f4c842" stroke="#c4a01a" stroke-width="2"/>
+    <!-- 招牌 -->
+    <rect x="60" y="395" width="80" height="24" fill="#5a1a14" stroke="#f4c842" stroke-width="1.5"/>
+    <text x="100" y="412" text-anchor="middle" font-family="serif" font-size="13" fill="#f4c842">糖葫芦</text>
+    <!-- 糖葫芦串 -->
+    <g>
+      <line x1="70" y1="430" x2="70" y2="470" stroke="#5a3a1a" stroke-width="2"/>
+      <circle cx="70" cy="438" r="7" fill="#c4282a"/>
+      <circle cx="70" cy="452" r="7" fill="#c4282a"/>
+      <circle cx="70" cy="466" r="7" fill="#c4282a"/>
+      <line x1="95" y1="430" x2="95" y2="470" stroke="#5a3a1a" stroke-width="2"/>
+      <circle cx="95" cy="438" r="7" fill="#c4282a"/>
+      <circle cx="95" cy="452" r="7" fill="#c4282a"/>
+      <circle cx="95" cy="466" r="7" fill="#c4282a"/>
+      <line x1="120" y1="430" x2="120" y2="470" stroke="#5a3a1a" stroke-width="2"/>
+      <circle cx="120" cy="438" r="7" fill="#c4282a"/>
+      <circle cx="120" cy="452" r="7" fill="#c4282a"/>
+      <circle cx="120" cy="466" r="7" fill="#c4282a"/>
+    </g>
+  </g>
+
+  <!-- 庙会摊位（右） -->
+  <g>
+    <rect x="640" y="380" width="120" height="110" fill="#b83828" stroke="#7a1a14" stroke-width="2"/>
+    <path d="M635 380 L700 340 L765 380 Z" fill="#f4c842" stroke="#c4a01a" stroke-width="2"/>
+    <rect x="660" y="395" width="80" height="24" fill="#5a1a14" stroke="#f4c842" stroke-width="1.5"/>
+    <text x="700" y="412" text-anchor="middle" font-family="serif" font-size="13" fill="#f4c842">年货铺</text>
+    <!-- 年货 -->
+    <g fill="#e8a842">
+      <rect x="660" y="430" width="25" height="20" stroke="#8a6a1a" stroke-width="1"/>
+      <rect x="690" y="430" width="25" height="20" stroke="#8a6a1a" stroke-width="1"/>
+      <rect x="720" y="430" width="25" height="20" stroke="#8a6a1a" stroke-width="1"/>
+      <rect x="660" y="455" width="25" height="20" fill="#c4282a" stroke="#8a6a1a" stroke-width="1"/>
+      <rect x="690" y="455" width="25" height="20" fill="#5a8a3a" stroke="#8a6a1a" stroke-width="1"/>
+      <rect x="720" y="455" width="25" height="20" fill="#c4282a" stroke="#8a6a1a" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- 舞龙（中央） -->
+  <g>
+    <!-- 龙头 -->
+    <circle cx="320" cy="360" r="22" fill="#f4c842" stroke="#c4a01a" stroke-width="2"/>
+    <!-- 龙眼 -->
+    <circle cx="312" cy="354" r="3" fill="#2a2a2a"/>
+    <!-- 龙角 -->
+    <path d="M325 340 L320 325 L330 330 Z" fill="#c4282a"/>
+    <path d="M335 340 L340 325 L330 330 Z" fill="#c4282a"/>
+    <!-- 龙嘴 -->
+    <path d="M298 360 L285 355 L285 370 L298 368 Z" fill="#c4282a"/>
+    <!-- 龙须 -->
+    <path d="M285 365 Q275 375 270 385" fill="none" stroke="#c4a01a" stroke-width="2"/>
+    <path d="M285 362 Q272 360 265 358" fill="none" stroke="#c4a01a" stroke-width="2"/>
+    <!-- 龙身（波浪） -->
+    <path d="M340 360 Q380 330 420 360 Q460 390 500 360" fill="none" stroke="#f4c842" stroke-width="16" stroke-linecap="round"/>
+    <path d="M340 360 Q380 330 420 360 Q460 390 500 360" fill="none" stroke="#e8a832" stroke-width="10" stroke-linecap="round"/>
+    <!-- 龙身鳞片 -->
+    <g fill="#c4a01a">
+      <circle cx="360" cy="345" r="3"/>
+      <circle cx="380" cy="340" r="3"/>
+      <circle cx="400" cy="345" r="3"/>
+      <circle cx="420" cy="360" r="3"/>
+      <circle cx="440" cy="375" r="3"/>
+      <circle cx="460" cy="380" r="3"/>
+      <circle cx="480" cy="370" r="3"/>
+    </g>
+    <!-- 龙尾 -->
+    <path d="M500 360 L520 345 L515 365 Z" fill="#f4c842" stroke="#c4a01a" stroke-width="1.5"/>
+    <!-- 举龙杆的人 -->
+    <g>
+      <line x1="320" y1="382" x2="320" y2="450" stroke="#5a3a1a" stroke-width="3"/>
+      <path d="M310 490 L312 440 L328 440 L330 490 Z" fill="#c4282a"/>
+      <circle cx="320" cy="425" r="12" fill="#f0d0a8"/>
+    </g>
+    <g>
+      <line x1="420" y1="375" x2="420" y2="450" stroke="#5a3a1a" stroke-width="3"/>
+      <path d="M410 490 L412 440 L428 440 L430 490 Z" fill="#c4282a"/>
+      <circle cx="420" cy="425" r="12" fill="#f0d0a8"/>
+    </g>
+    <g>
+      <line x1="500" y1="370" x2="500" y2="450" stroke="#5a3a1a" stroke-width="3"/>
+      <path d="M490 490 L492 440 L508 440 L510 490 Z" fill="#c4282a"/>
+      <circle cx="500" cy="425" r="12" fill="#f0d0a8"/>
+    </g>
+  </g>
+
+  <!-- 围观人群 -->
+  <g>
+    <circle cx="200" cy="455" r="10" fill="#f0d0a8"/>
+    <rect x="193" y="465" width="14" height="25" fill="#3a5a7a"/>
+    <circle cx="230" cy="460" r="9" fill="#f0d0a8"/>
+    <rect x="224" y="469" width="12" height="21" fill="#5a4a3a"/>
+    <circle cx="560" cy="455" r="10" fill="#f0d0a8"/>
+    <rect x="553" y="465" width="14" height="25" fill="#3a7a5a"/>
+    <circle cx="590" cy="460" r="9" fill="#f0d0a8"/>
+    <rect x="584" y="469" width="12" height="21" fill="#7a4a3a"/>
+  </g>
+
+  <!-- 鞭炮/烟花 -->
+  <g fill="#c4282a">
+    <rect x="170" y="200" width="8" height="20" rx="2"/>
+    <rect x="185" y="195" width="8" height="20" rx="2"/>
+    <rect x="200" y="200" width="8" height="20" rx="2"/>
+  </g>
+  <!-- 烟花爆炸 -->
+  <g stroke="#f4c842" stroke-width="2" fill="none">
+    <path d="M190 180 L190 160"/>
+    <path d="M190 180 L175 165"/>
+    <path d="M190 180 L205 165"/>
+    <path d="M190 180 L180 155"/>
+    <path d="M190 180 L200 155"/>
+  </g>
+  <g fill="#f4c842">
+    <circle cx="190" cy="155" r="2"/>
+    <circle cx="175" cy="165" r="2"/>
+    <circle cx="205" cy="165" r="2"/>
+  </g>
+
+  <!-- 文字标注 -->
+  <line x1="420" y1="340" x2="420" y2="290" stroke="#8a2a1a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="370" y="265" width="100" height="26" fill="#fff6df" stroke="#c4a83a" rx="4"/>
+  <text x="420" y="283" text-anchor="middle" font-family="serif" font-size="14" fill="#8a2a1a">舞龙表演</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#8a2a1a">庙会上舞龙、糖葫芦、红灯笼——老舍笔下浓浓的北京年味儿</text>
+</svg>

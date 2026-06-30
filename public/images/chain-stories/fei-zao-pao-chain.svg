@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：一代代人的童年游戏">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：一代代人的童年游戏</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">游戏变了，快乐没变</text>
+  <g transform="translate(140,300)">
+    <circle cx="0" cy="20" r="16" fill="#7fb8d8" stroke="#2a5a7a" stroke-width="2"/>
+    <circle cx="-10" cy="14" r="5" fill="#fff"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="14" fill="#2a5a7a">弹玻璃球</text>
+  </g>
+  <g transform="translate(310,300)">
+    <ellipse cx="0" cy="20" rx="20" ry="8" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <line x1="0" y1="20" x2="0" y2="50" stroke="#7a4a1a" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="14" fill="#a8742a">抽陀螺</text>
+  </g>
+  <g transform="translate(490,300)">
+    <circle cx="0" cy="20" r="20" fill="#cfe8f0" stroke="#5a8fa3" stroke-width="2"/>
+    <circle cx="0" cy="20" r="8" fill="#fff" opacity="0.6"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="14" fill="#5a8fa3">滚铁环</text>
+  </g>
+  <g transform="translate(660,300)">
+    <circle cx="0" cy="20" r="14" fill="#fbe9c8" stroke="#c98a3a" stroke-width="2" opacity="0.7"/>
+    <circle cx="14" cy="6" r="10" fill="#e8d8f0" stroke="#c98a3a" stroke-width="2" opacity="0.7"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="14" fill="#a85a2a">吹泡泡</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">每一页，都藏着最快乐的童年</text>
+</svg>

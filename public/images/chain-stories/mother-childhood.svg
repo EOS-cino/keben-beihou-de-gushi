@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="妈妈小时候的生活场景">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">妈妈小时候的故事</text>
+  <rect x="100" y="100" width="280" height="200" rx="5" fill="#fff" stroke="#8d5a36" stroke-width="3"/>
+  <rect x="115" y="115" width="250" height="170" rx="3" fill="#fef9ed" stroke="#c8843a" stroke-width="1"/>
+  <circle cx="180" cy="170" r="18" fill="#e07856" opacity="0.5"/>
+  <path d="M165 165 Q180 152 195 165" fill="#8d5a36" opacity="0.5"/>
+  <rect x="165" y="185" width="30" height="35" rx="4" fill="#c84a3a" opacity="0.4"/>
+  <path d="M175 185 L170 200 L190 200 L185 185" fill="#c84a3a" opacity="0.4"/>
+  <circle cx="175" cy="168" r="1.5" fill="#7a3b14"/>
+  <circle cx="185" cy="168" r="1.5" fill="#7a3b14"/>
+  <path d="M170 230 Q180 235 190 230" stroke="#8d5a36" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M240 140 Q260 120 280 140 Q300 120 320 140" stroke="#6a8d3f" stroke-width="2" fill="none" opacity="0.3"/>
+  <ellipse cx="250" cy="150" rx="10" ry="6" fill="#6a8d3f" opacity="0.3" transform="rotate(-20 250 150)"/>
+  <ellipse cx="290" cy="145" rx="10" ry="6" fill="#4a6a2f" opacity="0.3" transform="rotate(15 290 145)"/>
+  <ellipse cx="270" cy="200" rx="20" ry="12" fill="#e07856" opacity="0.2"/>
+  <circle cx="260" cy="195" r="8" fill="#c84a3a" opacity="0.2"/>
+  <text x="240" y="260" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">跳皮筋</text>
+  <text x="240" y="278" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">丢沙包</text>
+  <text x="240" y="296" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">捉迷藏</text>
+  <rect x="420" y="100" width="280" height="200" rx="5" fill="#fff" stroke="#8d5a36" stroke-width="3"/>
+  <rect x="435" y="115" width="250" height="170" rx="3" fill="#fef9ed" stroke="#c8843a" stroke-width="1"/>
+  <rect x="460" y="140" width="60" height="40" fill="#8d5a36" opacity="0.2"/>
+  <rect x="470" y="150" width="15" height="20" fill="#a8d0e8" opacity="0.3"/>
+  <rect x="495" y="150" width="15" height="20" fill="#a8d0e8" opacity="0.3"/>
+  <polygon points="455,140 490,120 525,140" fill="#c84a3a" opacity="0.2"/>
+  <circle cx="560" cy="170" r="15" fill="#c8843a" opacity="0.3"/>
+  <rect x="548" y="183" width="24" height="30" rx="4" fill="#7ab8d8" opacity="0.3"/>
+  <rect x="552" y="210" width="6" height="20" fill="#8d5a36" opacity="0.3"/>
+  <rect x="562" y="210" width="6" height="20" fill="#8d5a36" opacity="0.3"/>
+  <path d="M540 165 Q560 150 580 165" fill="#8d5a36" opacity="0.3"/>
+  <ellipse cx="610" cy="180" rx="20" ry="12" fill="#6a8d3f" opacity="0.2"/>
+  <text x="560" y="260" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">走路去上学</text>
+  <text x="560" y="278" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">黑白课本</text>
+  <text x="560" y="296" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">五分钱冰棍</text>
+  <line x1="100" y1="340" x2="700" y2="340" stroke="#8d5a36" stroke-width="1" stroke-dasharray="5 5" opacity="0.3"/>
+  <circle cx="180" cy="390" r="18" fill="#e07856" opacity="0.2"/>
+  <text x="180" y="395" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">也缺牙</text>
+  <circle cx="320" cy="390" r="18" fill="#c8843a" opacity="0.2"/>
+  <text x="320" y="395" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">也扎辫子</text>
+  <circle cx="460" cy="390" r="18" fill="#6a8d3f" opacity="0.2"/>
+  <text x="460" y="395" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">也玩泥巴</text>
+  <circle cx="600" cy="390" r="18" fill="#7ab8d8" opacity="0.2"/>
+  <text x="600" y="395" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">也怕老师</text>
+  <text x="400" y="450" text-anchor="middle" font-family="serif" font-size="16" fill="#c84a3a">妈妈也曾是个小孩子</text>
+  <text x="400" y="480" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">也缺过牙 也闯过祸 也偷吃过糖</text>
+  <text x="400" y="520" text-anchor="middle" font-family="serif" font-size="16" fill="#4a6a2f">每个大人 都曾是个和你一样的小孩</text>
+  <text x="400" y="550" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">听听妈妈小时候的故事吧</text>
+</svg>

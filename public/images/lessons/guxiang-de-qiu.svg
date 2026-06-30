@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="秋天金黄的稻田和老屋插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="300" fill="#e8a838" opacity="0.1"/>
+  <!-- 远山 -->
+  <path d="M0 280 Q150 200 300 260 Q450 220 600 250 Q700 230 800 270 L800 320 L0 320 Z" fill="#dceee3" opacity="0.6"/>
+  <path d="M0 310 Q200 260 400 290 Q600 270 800 300 L800 340 L0 340 Z" fill="#9fc8b4" opacity="0.4"/>
+  <!-- 稻田 -->
+  <path d="M0 320 Q400 310 800 320 L800 520 L0 520 Z" fill="#e8a838" opacity="0.3"/>
+  <path d="M0 360 Q400 350 800 360 L800 520 L0 520 Z" fill="#f4d783" opacity="0.5"/>
+  <!-- 稻穗 -->
+  <g stroke="#e8a838" stroke-width="2" opacity="0.6">
+    <line x1="50" y1="400" x2="48" y2="370"/>
+    <line x1="80" y1="410" x2="78" y2="375"/>
+    <line x1="110" y1="405" x2="108" y2="372"/>
+    <line x1="140" y1="415" x2="138" y2="378"/>
+    <line x1="170" y1="400" x2="168" y2="370"/>
+    <line x1="200" y1="410" x2="198" y2="375"/>
+    <line x1="230" y1="405" x2="228" y2="372"/>
+    <line x1="260" y1="415" x2="258" y2="378"/>
+    <line x1="540" y1="400" x2="538" y2="370"/>
+    <line x1="570" y1="410" x2="568" y2="375"/>
+    <line x1="600" y1="405" x2="598" y2="372"/>
+    <line x1="630" y1="415" x2="628" y2="378"/>
+    <line x1="660" y1="400" x2="658" y2="370"/>
+    <line x1="690" y1="410" x2="688" y2="375"/>
+    <line x1="720" y1="405" x2="718" y2="372"/>
+    <line x1="750" y1="415" x2="748" y2="378"/>
+  </g>
+  <!-- 老屋 -->
+  <g transform="translate(400 320)">
+    <!-- 屋顶 -->
+    <path d="M-80 0 L0 -60 L80 0 Z" fill="#e07856"/>
+    <path d="M-80 0 L0 -60 L80 0 L75 5 L0 -55 L-75 5 Z" fill="#c06540"/>
+    <!-- 墙 -->
+    <rect x="-65" y="0" width="130" height="80" fill="#f4e4c4"/>
+    <!-- 门 -->
+    <rect x="-15" y="30" width="30" height="50" fill="#8b6f47"/>
+    <circle cx="8" cy="55" r="2" fill="#e8a838"/>
+    <!-- 窗 -->
+    <rect x="-50" y="15" width="25" height="25" fill="#4a90b8" opacity="0.6"/>
+    <rect x="25" y="15" width="25" height="25" fill="#4a90b8" opacity="0.6"/>
+    <line x1="-37.5" y1="15" x2="-37.5" y2="40" stroke="#8b6f47" stroke-width="1.5"/>
+    <line x1="-50" y1="27.5" x2="-25" y2="27.5" stroke="#8b6f47" stroke-width="1.5"/>
+    <line x1="37.5" y1="15" x2="37.5" y2="40" stroke="#8b6f47" stroke-width="1.5"/>
+    <line x1="25" y1="27.5" x2="50" y2="27.5" stroke="#8b6f47" stroke-width="1.5"/>
+    <!-- 烟囱 -->
+    <rect x="30" y="-50" width="15" height="25" fill="#8b6f47"/>
+    <!-- 炊烟 -->
+    <path d="M37 -50 Q35 -65 40 -75 Q35 -85 42 -95" stroke="#ccc" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  </g>
+  <!-- 柿子树 -->
+  <g transform="translate(150 350)">
+    <rect x="-4" y="0" width="8" height="60" fill="#8b6f47"/>
+    <path d="M0 0 Q-30 -10 -50 -25" stroke="#8b6f47" stroke-width="4" fill="none"/>
+    <path d="M0 0 Q30 -10 50 -25" stroke="#8b6f47" stroke-width="4" fill="none"/>
+    <path d="M0 0 Q-15 -30 -25 -50" stroke="#8b6f47" stroke-width="3" fill="none"/>
+    <path d="M0 0 Q15 -30 25 -50" stroke="#8b6f47" stroke-width="3" fill="none"/>
+    <!-- 柿子 -->
+    <circle cx="-45" cy="-22" r="6" fill="#e07856"/>
+    <circle cx="45" cy="-22" r="6" fill="#e07856"/>
+    <circle cx="-22" cy="-48" r="5" fill="#e07856"/>
+    <circle cx="22" cy="-48" r="5" fill="#e07856"/>
+    <circle cx="-10" cy="-15" r="5" fill="#e07856"/>
+    <circle cx="10" cy="-15" r="5" fill="#e07856"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="520" width="800" height="80" fill="#9fc8b4" opacity="0.3"/>
+  <!-- 落叶 -->
+  <g fill="#e8a838" opacity="0.7">
+    <ellipse cx="100" cy="540" rx="8" ry="4" transform="rotate(30 100 540)"/>
+    <ellipse cx="300" cy="550" rx="7" ry="3" transform="rotate(-20 300 550)"/>
+    <ellipse cx="550" cy="545" rx="8" ry="4" transform="rotate(45 550 545)"/>
+    <ellipse cx="680" cy="555" rx="7" ry="3" transform="rotate(-30 680 555)"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#2d6a4f">故乡的秋</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7a7468">离开家以后，才懂得秋天有多美</text>
+</svg>

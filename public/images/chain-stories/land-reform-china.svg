@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国土地改革运动插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：中国土地改革的故事</text>
+  <line x1="170" y1="62" x2="630" y2="62" stroke="#8d5a36" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心主题 -->
+  <rect x="260" y="95" width="280" height="50" fill="#fff6df" stroke="#8d5a36" stroke-width="2" rx="8"/>
+  <text x="400" y="120" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">耕者有其田 · 三亿农民翻身</text>
+  <text x="400" y="137" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">1947-1952年</text>
+
+  <!-- 改革前（左） -->
+  <g>
+    <rect x="50" y="180" width="240" height="180" fill="#fff6df" stroke="#c84a3a" stroke-width="2" rx="6"/>
+    <text x="170" y="205" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c84a3a">改革前</text>
+    <!-- 饼图：土地分配 -->
+    <g transform="translate(120 280)">
+      <!-- 地主70% -->
+      <path d="M0 0 L0 -50 A50 50 0 1 1 -47 -16 Z" fill="#c84a3a" opacity="0.7"/>
+      <!-- 农民30% -->
+      <path d="M0 0 L-47 -16 A50 50 0 0 1 0 -50 Z" fill="#6a8d3f" opacity="0.7"/>
+    </g>
+    <text x="170" y="265" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">地主10%人口</text>
+    <text x="170" y="278" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">占70%土地</text>
+    <text x="170" y="310" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">农民90%人口</text>
+    <text x="170" y="323" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">仅30%土地</text>
+    <!-- 农民弯腰 -->
+    <g transform="translate(220 320)">
+      <ellipse cx="0" cy="20" rx="12" ry="8" fill="#8d5a36"/>
+      <circle cx="-5" cy="10" r="6" fill="#f0d0a8"/>
+      <path d="M-5 16 L-10 25" stroke="#8d5a36" stroke-width="3"/>
+    </g>
+    <text x="170" y="350" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">租地·交租·吃不饱</text>
+  </g>
+
+  <!-- 箭头 -->
+  <g>
+    <path d="M295 270 L350 270" stroke="#8d5a36" stroke-width="3"/>
+    <path d="M340 263 L355 270 L340 277" fill="none" stroke="#8d5a36" stroke-width="3"/>
+    <text x="322" y="258" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#c84a3a">土改</text>
+  </g>
+
+  <!-- 改革后（右） -->
+  <g>
+    <rect x="360" y="180" width="240" height="180" fill="#fff6df" stroke="#6a8d3f" stroke-width="2" rx="6"/>
+    <text x="480" y="205" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a6a2f">改革后</text>
+    <!-- 均分土地示意 -->
+    <g transform="translate(390 225)">
+      <rect x="0" y="0" width="50" height="30" fill="#6a8d3f" opacity="0.5" stroke="#4a6a2f"/>
+      <rect x="55" y="0" width="50" height="30" fill="#6a8d3f" opacity="0.5" stroke="#4a6a2f"/>
+      <rect x="110" y="0" width="50" height="30" fill="#6a8d3f" opacity="0.5" stroke="#4a6a2f"/>
+      <rect x="0" y="35" width="50" height="30" fill="#6a8d3f" opacity="0.5" stroke="#4a6a2f"/>
+      <rect x="55" y="35" width="50" height="30" fill="#6a8d3f" opacity="0.5" stroke="#4a6a2f"/>
+      <rect x="110" y="35" width="50" height="30" fill="#6a8d3f" opacity="0.5" stroke="#4a6a2f"/>
+      <text x="25" y="48" text-anchor="middle" font-family="serif" font-size="9" fill="#fff6df">张</text>
+      <text x="80" y="48" text-anchor="middle" font-family="serif" font-size="9" fill="#fff6df">王</text>
+      <text x="135" y="48" text-anchor="middle" font-family="serif" font-size="9" fill="#fff6df">李</text>
+      <text x="25" y="83" text-anchor="middle" font-family="serif" font-size="9" fill="#fff6df">赵</text>
+      <text x="80" y="83" text-anchor="middle" font-family="serif" font-size="9" fill="#fff6df">三黑</text>
+      <text x="135" y="83" text-anchor="middle" font-family="serif" font-size="9" fill="#fff6df">孙</text>
+    </g>
+    <text x="480" y="335" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">7亿亩地分给3亿农民</text>
+    <text x="480" y="350" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">耕者有其田</text>
+  </g>
+
+  <!-- 地契 -->
+  <g>
+    <rect x="620" y="220" width="80" height="55" fill="#fff6df" stroke="#c84a3a" stroke-width="2" rx="2" transform="rotate(-8 660 247)"/>
+    <text x="660" y="240" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a" transform="rotate(-8 660 247)">地契</text>
+    <text x="660" y="255" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a" transform="rotate(-8 660 247)">自有田亩</text>
+    <!-- 印章 -->
+    <rect x="648" y="260" width="20" height="20" fill="#c84a3a" opacity="0.6" transform="rotate(-8 660 247)"/>
+  </g>
+
+  <!-- 底部时间线 -->
+  <g>
+    <rect x="80" y="400" width="640" height="60" fill="#fff6df" stroke="#8d5a36" stroke-width="1.5" rx="8"/>
+    <text x="400" y="425" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">土地改革大事记</text>
+    <line x1="120" y1="440" x2="680" y2="440" stroke="#8d5a36" stroke-width="1.5"/>
+    <circle cx="160" cy="440" r="5" fill="#c84a3a"/>
+    <text x="160" y="455" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">1947 土地法大纲</text>
+    <circle cx="400" cy="440" r="5" fill="#c8843a"/>
+    <text x="400" y="455" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">1950 土地改革法</text>
+    <circle cx="640" cy="440" r="5" fill="#6a8d3f"/>
+    <text x="640" y="455" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">1952 基本完成</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从"给人种地"到"种自己的地"——土地改革让三黑们翻身做主人</text>
+</svg>

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="竹节人 - 课桌上的竹节大战">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题栏 -->
+  <rect x="0" y="0" width="800" height="74" fill="#7a3b14" opacity="0.12"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">竹 节 人</text>
+  <line x1="320" y1="64" x2="480" y2="64" stroke="#c05a30" stroke-width="2"/>
+
+  <!-- 墙面背景 -->
+  <rect x="0" y="74" width="800" height="440" fill="#3a7d5c" opacity="0.04"/>
+  <!-- 黑板/告示 -->
+  <rect x="60" y="110" width="160" height="100" rx="4" fill="#2d2a24" opacity="0.85"/>
+  <text x="140" y="150" text-anchor="middle" font-family="serif" font-size="16" fill="#fef9ed">课间</text>
+  <text x="140" y="180" text-anchor="middle" font-family="serif" font-size="14" fill="#c05a30">竹节人</text>
+  <text x="140" y="200" text-anchor="middle" font-family="serif" font-size="12" fill="#7a7468">大战开始！</text>
+
+  <!-- 课桌（横截面展示，桌面有缝隙） -->
+  <g>
+    <!-- 桌面 -->
+    <rect x="200" y="360" width="400" height="20" rx="3" fill="#7a3b14"/>
+    <rect x="200" y="360" width="400" height="6" fill="#c05a30" opacity="0.4"/>
+    <!-- 桌面缝隙 -->
+    <rect x="392" y="360" width="16" height="20" fill="#2d2a24"/>
+    <!-- 桌腿 -->
+    <rect x="210" y="380" width="14" height="120" fill="#7a3b14"/>
+    <rect x="576" y="380" width="14" height="120" fill="#7a3b14"/>
+    <!-- 桌横档 -->
+    <rect x="210" y="470" width="380" height="8" fill="#7a3b14" opacity="0.6"/>
+  </g>
+
+  <!-- 竹节人1（左，红色系） -->
+  <g transform="translate(330,360)">
+    <!-- 头 -->
+    <rect x="-7" y="-120" width="14" height="14" rx="2" fill="#c05a30"/>
+    <!-- 身体（竹节） -->
+    <rect x="-9" y="-106" width="18" height="40" rx="3" fill="#7a3b14"/>
+    <line x1="-9" y1="-96" x2="9" y2="-96" stroke="#2d2a24" stroke-width="1.5"/>
+    <line x1="-9" y1="-86" x2="9" y2="-86" stroke="#2d2a24" stroke-width="1.5"/>
+    <line x1="-9" y1="-76" x2="9" y2="-76" stroke="#2d2a24" stroke-width="1.5"/>
+    <!-- 手臂（竹节，举着武器） -->
+    <line x1="-9" y1="-100" x2="-30" y2="-80" stroke="#7a3b14" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-30" y1="-80" x2="-38" y2="-65" stroke="#7a3b14" stroke-width="5" stroke-linecap="round"/>
+    <line x1="9" y1="-100" x2="28" y2="-70" stroke="#7a3b14" stroke-width="6" stroke-linecap="round"/>
+    <line x1="28" y1="-70" x2="40" y2="-50" stroke="#7a3b14" stroke-width="5" stroke-linecap="round"/>
+    <!-- 武器（竹棍） -->
+    <line x1="40" y1="-50" x2="60" y2="-30" stroke="#2d2a24" stroke-width="3" stroke-linecap="round"/>
+    <!-- 腿（竹节） -->
+    <line x1="-5" y1="-66" x2="-14" y2="-30" stroke="#7a3b14" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-14" y1="-30" x2="-16" y2="0" stroke="#7a3b14" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="-66" x2="14" y2="-30" stroke="#7a3b14" stroke-width="6" stroke-linecap="round"/>
+    <line x1="14" y1="-30" x2="16" y2="0" stroke="#7a3b14" stroke-width="5" stroke-linecap="round"/>
+    <!-- 线绳（穿入桌缝） -->
+    <line x1="0" y1="0" x2="62" y2="0" stroke="#7a7468" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- 竹节人2（右，绿色系） -->
+  <g transform="translate(470,360)">
+    <!-- 头 -->
+    <rect x="-7" y="-120" width="14" height="14" rx="2" fill="#3a7d5c"/>
+    <!-- 身体 -->
+    <rect x="-9" y="-106" width="18" height="40" rx="3" fill="#3a7d5c" opacity="0.8"/>
+    <line x1="-9" y1="-96" x2="9" y2="-96" stroke="#2d2a24" stroke-width="1.5"/>
+    <line x1="-9" y1="-86" x2="9" y2="-86" stroke="#2d2a24" stroke-width="1.5"/>
+    <line x1="-9" y1="-76" x2="9" y2="-76" stroke="#2d2a24" stroke-width="1.5"/>
+    <!-- 手臂 -->
+    <line x1="-9" y1="-100" x2="-28" y2="-70" stroke="#3a7d5c" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-28" y1="-70" x2="-40" y2="-50" stroke="#3a7d5c" stroke-width="5" stroke-linecap="round"/>
+    <line x1="9" y1="-100" x2="30" y2="-80" stroke="#3a7d5c" stroke-width="6" stroke-linecap="round"/>
+    <line x1="30" y1="-80" x2="38" y2="-65" stroke="#3a7d5c" stroke-width="5" stroke-linecap="round"/>
+    <!-- 武器 -->
+    <line x1="-40" y1="-50" x2="-60" y2="-30" stroke="#2d2a24" stroke-width="3" stroke-linecap="round"/>
+    <!-- 腿 -->
+    <line x1="-5" y1="-66" x2="-14" y2="-30" stroke="#3a7d5c" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-14" y1="-30" x2="-16" y2="0" stroke="#3a7d5c" stroke-width="5" stroke-linecap="round"/>
+    <line x1="5" y1="-66" x2="14" y2="-30" stroke="#3a7d5c" stroke-width="6" stroke-linecap="round"/>
+    <line x1="14" y1="-30" x2="16" y2="0" stroke="#3a7d5c" stroke-width="5" stroke-linecap="round"/>
+    <!-- 线绳 -->
+    <line x1="0" y1="0" x2="-62" y2="0" stroke="#7a7468" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- 战斗特效（碰撞星星） -->
+  <g fill="#c05a30" opacity="0.8">
+    <path d="M400 250 L404 262 L416 264 L406 272 L410 284 L400 276 L390 284 L394 272 L384 264 L396 262 Z"/>
+  </g>
+  <g fill="#7a3b14" opacity="0.6">
+    <circle cx="380" cy="270" r="2"/><circle cx="420" cy="265" r="2"/><circle cx="410" cy="285" r="1.5"/><circle cx="390" cy="285" r="1.5"/>
+  </g>
+
+  <!-- 桌下手拉线绳 -->
+  <g transform="translate(400,400)">
+    <!-- 线绳穿出桌缝 -->
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#7a7468" stroke-width="1.2"/>
+    <line x1="-2" y1="0" x2="-2" y2="30" stroke="#7a7468" stroke-width="1.2"/>
+    <!-- 双手 -->
+    <g transform="translate(-40,55)">
+      <ellipse cx="0" cy="0" rx="14" ry="10" fill="#c05a30" opacity="0.85"/>
+      <path d="M10 -2 Q24 -8 34 -10" stroke="#c05a30" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <line x1="34" y1="-10" x2="42" y2="-25" stroke="#7a7468" stroke-width="1"/>
+    </g>
+    <g transform="translate(40,55)">
+      <ellipse cx="0" cy="0" rx="14" ry="10" fill="#c05a30" opacity="0.85"/>
+      <path d="M-10 -2 Q-24 -8 -34 -10" stroke="#c05a30" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <line x1="-34" y1="-10" x2="-42" y2="-25" stroke="#7a7468" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- 围观同学（左右） -->
+  <g transform="translate(90,300)" opacity="0.7">
+    <rect x="-12" y="-20" width="24" height="40" rx="4" fill="#3a7d5c"/>
+    <circle cx="0" cy="-32" r="11" fill="#c05a30"/>
+    <circle cx="0" cy="-42" r="6" fill="#2d2a24"/>
+    <path d="M-4 -34 Q0 -31 4 -34" stroke="#2d2a24" stroke-width="1" fill="none"/>
+  </g>
+  <g transform="translate(710,300)" opacity="0.7">
+    <rect x="-12" y="-20" width="24" height="40" rx="4" fill="#c05a30"/>
+    <circle cx="0" cy="-32" r="11" fill="#3a7d5c"/>
+    <circle cx="0" cy="-42" r="6" fill="#2d2a24"/>
+    <path d="M-4 -34 Q0 -31 4 -34" stroke="#2d2a24" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- 散落的竹节材料 -->
+  <g fill="#7a3b14" opacity="0.5">
+    <rect x="120" y="490" width="20" height="5" rx="2"/>
+    <rect x="650" y="495" width="18" height="5" rx="2"/>
+    <rect x="680" y="488" width="15" height="5" rx="2"/>
+    <circle cx="140" cy="505" r="3"/><circle cx="670" cy="510" r="3"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="14" fill="#7a7468" opacity="0.15"/>
+
+  <rect x="0" y="514" width="800" height="86" fill="#fef9ed"/>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">小小竹节连成兵，课桌缝里演大战</text>
+</svg>

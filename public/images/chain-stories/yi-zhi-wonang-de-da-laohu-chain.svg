@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="童年舞台表演记忆插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">舞台上的童年记忆</text>
+  <line x1="290" y1="60" x2="510" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 背景墙 -->
+  <rect x="0" y="70" width="800" height="530" fill="#f5ecd8"/>
+
+  <!-- 三个舞台场景画框 -->
+  <!-- 画框1：紧张忘词 -->
+  <g>
+    <rect x="50" y="100" width="220" height="200" fill="#fff6df" stroke="#c8843a" stroke-width="3" rx="6"/>
+    <text x="160" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">第一次登台</text>
+    <!-- 小人站在台上 -->
+    <rect x="135" y="240" width="30" height="40" rx="5" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="150" cy="225" r="16" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M138 222 q12 -10 24 0" fill="#3a2a1a"/>
+    <!-- 汗滴 -->
+    <ellipse cx="165" cy="220" rx="3" ry="5" fill="#4a90b8"/>
+    <!-- 张嘴说不出话 -->
+    <ellipse cx="150" cy="232" rx="3" ry="4" fill="#7a3b14"/>
+    <!-- 麦克风 -->
+    <rect x="180" y="245" width="4" height="30" fill="#7a3b14"/>
+    <ellipse cx="182" cy="243" rx="6" ry="5" fill="#5a3a1a"/>
+    <!-- 小舞台 -->
+    <rect x="100" y="280" width="120" height="10" fill="#8d6a4a"/>
+  </g>
+
+  <!-- 画框2：练习眼神 -->
+  <g>
+    <rect x="290" y="100" width="220" height="200" fill="#fff6df" stroke="#c8843a" stroke-width="3" rx="6"/>
+    <text x="400" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">苦练基本功</text>
+    <!-- 小人抬头看鸽子 -->
+    <rect x="385" y="240" width="30" height="40" rx="5" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="400" cy="225" r="16" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M388 220 q12 -8 24 0" fill="#3a2a1a"/>
+    <!-- 眼睛向上看 -->
+    <circle cx="394" cy="222" r="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="406" cy="222" r="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="394" cy="220" r="1.5" fill="#3a2a1a"/>
+    <circle cx="406" cy="220" r="1.5" fill="#3a2a1a"/>
+    <!-- 鸽子 -->
+    <ellipse cx="430" cy="160" rx="14" ry="9" fill="#ffffff" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="440" cy="158" r="5" fill="#ffffff" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="442" cy="157" r="1" fill="#3a2a1a"/>
+    <path d="M420 162 q-8 -6 -4 -14" fill="#ffffff" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 飞行虚线 -->
+    <path d="M380 175 q20 -8 40 0" stroke="#c8843a" stroke-width="1.5" fill="none" stroke-dasharray="3,3"/>
+  </g>
+
+  <!-- 画框3：成功演出 -->
+  <g>
+    <rect x="530" y="100" width="220" height="200" fill="#fff6df" stroke="#c8843a" stroke-width="3" rx="6"/>
+    <text x="640" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">坚持后的舞台</text>
+    <!-- 小人鞠躬 -->
+    <path d="M640 280 L640 250" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="625" y="245" width="30" height="40" rx="5" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5" transform="rotate(-15 640 265)"/>
+    <circle cx="625" cy="235" r="16" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5" transform="rotate(-15 640 240)"/>
+    <!-- 笑脸 -->
+    <path d="M620 232 q5 4 10 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 掌声 -->
+    <text x="570" y="200" font-family="serif" font-size="16" fill="#e07856">啪啪</text>
+    <text x="690" y="200" font-family="serif" font-size="16" fill="#e07856">啪啪</text>
+    <!-- 舞台 -->
+    <rect x="580" y="280" width="120" height="10" fill="#8d6a4a"/>
+  </g>
+
+  <!-- 底部大舞台 -->
+  <rect x="50" y="380" width="700" height="160" fill="#c8a878" opacity="0.4" rx="8"/>
+  <text x="400" y="420" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14" font-weight="bold">台上三分钟，台下无数次的练习</text>
+
+  <!-- 三个成长箭头 -->
+  <g>
+    <path d="M160 320 L160 360" stroke="#e07856" stroke-width="3" fill="none" marker-end="url(#arr1)"/>
+    <path d="M400 320 L400 360" stroke="#e07856" stroke-width="3" fill="none" marker-end="url(#arr1)"/>
+    <path d="M640 320 L640 360" stroke="#2d6a4f" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+  </g>
+  <defs>
+    <marker id="arr1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#e07856"/>
+    </marker>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#2d6a4f"/>
+    </marker>
+  </defs>
+
+  <!-- 底部说明 -->
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">从紧张忘词到从容登台，每一次"出糗"都是成长的台阶</text>
+  <text x="400" y="500" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">敢站上舞台，就已经比退缩的人厉害了</text>
+</svg>

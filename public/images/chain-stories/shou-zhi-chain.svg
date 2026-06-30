@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="合在一起才有力量">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <rect x="0" y="0" width="800" height="92" fill="#d4a017" opacity="0.16"/>
+  <text x="400" y="58" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">合在一起才有力量</text>
+  <line x1="320" y1="80" x2="480" y2="80" stroke="#d4a017" stroke-width="3"/>
+
+  <g opacity="0.85">
+    <rect x="240" y="220" width="320" height="220" rx="10" fill="#fff" stroke="#d4a017" stroke-width="3"/>
+    <path d="M400 220 v220" stroke="#d4a017" stroke-width="2" opacity="0.5"/>
+    <path d="M280 270 h100 M280 300 h80 M280 330 h110" stroke="#d4a017" stroke-width="3" opacity="0.4"/>
+    <path d="M420 270 h100 M420 300 h80 M420 330 h110" stroke="#d4a017" stroke-width="3" opacity="0.4"/>
+  </g>
+  <circle cx="610" cy="200" r="26" fill="#d4a017" opacity="0.7"/>
+  <text x="610" y="208" text-anchor="middle" font-family="serif" font-size="22" fill="#fff">书</text>
+  <text x="400" y="180" text-anchor="middle" font-family="serif" font-size="28" fill="#d4a017" opacity="0.6">~ ~</text>
+  <g opacity="0.85"><ellipse cx="120" cy="500" rx="26" ry="16" fill="none" stroke="#d4a017" stroke-width="5"/><ellipse cx="168" cy="500" rx="26" ry="16" fill="none" stroke="#d4a017" stroke-width="5"/><ellipse cx="632" cy="500" rx="26" ry="16" fill="none" stroke="#d4a017" stroke-width="5"/><ellipse cx="680" cy="500" rx="26" ry="16" fill="none" stroke="#d4a017" stroke-width="5"/></g>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">连珠小故事：合在一起才有力量</text>
+</svg>

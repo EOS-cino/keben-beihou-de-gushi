@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠故事 - 不同的教育智慧">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 连珠标识徽章 -->
+  <g transform="translate(60,42)">
+    <rect x="-44" y="-22" width="88" height="44" rx="22" fill="#3a7d5c"/>
+    <circle cx="-26" cy="0" r="5" fill="#fef9ed"/><circle cx="-10" cy="0" r="5" fill="#fef9ed"/><circle cx="6" cy="0" r="5" fill="#fef9ed"/><circle cx="22" cy="0" r="5" fill="#fef9ed"/>
+    <text x="40" y="5" font-family="serif" font-size="16" font-weight="bold" fill="#fef9ed">连珠</text>
+  </g>
+  <text x="460" y="48" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#3a7d5c">不同的教育智慧</text>
+  <line x1="360" y1="64" x2="560" y2="64" stroke="#3a7d5c" stroke-width="2"/>
+
+  <!-- 中央树干 -->
+  <g transform="translate(400,300)">
+    <path d="M0 160 Q-8 80 -4 0 Q-2 -60 0 -120" stroke="#7a3b14" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- 树根 -->
+    <path d="M0 160 Q-30 175 -50 170 M0 160 Q30 175 50 170" stroke="#7a3b14" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- 树冠 -->
+    <circle cx="0" cy="-130" r="50" fill="#3a7d5c" opacity="0.3"/>
+    <circle cx="-30" cy="-115" r="32" fill="#3a7d5c" opacity="0.25"/>
+    <circle cx="30" cy="-115" r="32" fill="#3a7d5c" opacity="0.25"/>
+    <circle cx="0" cy="-155" r="30" fill="#3a7d5c" opacity="0.25"/>
+  </g>
+
+  <!-- 左上：孟母三迁 -->
+  <g transform="translate(150,140)">
+    <rect x="-90" y="-50" width="180" height="100" rx="8" fill="#fff" stroke="#c05a30" stroke-width="2"/>
+    <circle cx="-60" cy="-20" r="18" fill="#c05a30" opacity="0.85"/>
+    <!-- 房子图标 -->
+    <path d="M-68 -10 L-52 -10 L-52 5 L-68 5 Z M-70 -10 L-50 -22 L-30 -10" stroke="#fef9ed" stroke-width="2" fill="none"/>
+    <path d="M-50 -10 L-30 -22 L-10 -10" stroke="#fef9ed" stroke-width="2" fill="none" opacity="0.5"/>
+    <text x="20" y="-25" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">孟母三迁</text>
+    <text x="20" y="-5" font-family="serif" font-size="12" fill="#7a7468">择邻而居</text>
+    <text x="20" y="13" font-family="serif" font-size="12" fill="#7a7468">环境育人</text>
+    <text x="20" y="31" font-family="serif" font-size="12" fill="#7a7468">以身作则</text>
+    <!-- 连线到树 -->
+    <path d="M90 0 Q160 30 230 80" stroke="#c05a30" stroke-width="2" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 右上：曾子杀猪 -->
+  <g transform="translate(650,140)">
+    <rect x="-90" y="-50" width="180" height="100" rx="8" fill="#fff" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-60" cy="-20" r="18" fill="#7a3b14" opacity="0.85"/>
+    <!-- 诚信图标-勾 -->
+    <path d="M-68 -22 L-62 -14 L-50 -28" stroke="#fef9ed" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="-20" y="-25" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">曾子杀猪</text>
+    <text x="-20" y="-5" font-family="serif" font-size="12" fill="#7a7468">言而有信</text>
+    <text x="-20" y="13" font-family="serif" font-size="12" fill="#7a7468">以身教子</text>
+    <text x="-20" y="31" font-family="serif" font-size="12" fill="#7a7468">诚信为本</text>
+    <path d="M-90 0 Q-160 30 -230 80" stroke="#7a3b14" stroke-width="2" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 左下：岳母刺字 -->
+  <g transform="translate(150,450)">
+    <rect x="-90" y="-50" width="180" height="100" rx="8" fill="#fff" stroke="#c05a30" stroke-width="2"/>
+    <circle cx="-60" cy="-20" r="18" fill="#c05a30" opacity="0.85"/>
+    <!-- 精忠报国字 -->
+    <text x="-60" y="-14" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#fef9ed">精忠</text>
+    <text x="-60" y="-1" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#fef9ed">报国</text>
+    <text x="20" y="-25" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">岳母刺字</text>
+    <text x="20" y="-5" font-family="serif" font-size="12" fill="#7a7468">立志报国</text>
+    <text x="20" y="13" font-family="serif" font-size="12" fill="#7a7468">严格期望</text>
+    <text x="20" y="31" font-family="serif" font-size="12" fill="#7a7468">忠义传家</text>
+    <path d="M90 0 Q160 -30 230 -80" stroke="#c05a30" stroke-width="2" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 右下：铁杵磨针 -->
+  <g transform="translate(650,450)">
+    <rect x="-90" y="-50" width="180" height="100" rx="8" fill="#fff" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-60" cy="-20" r="18" fill="#7a3b14" opacity="0.85"/>
+    <!-- 铁杵磨针图标 -->
+    <rect x="-72" y="-24" width="24" height="5" rx="2" fill="#fef9ed"/>
+    <rect x="-46" y="-23" width="4" height="3" fill="#fef9ed"/>
+    <path d="M-72 -16 Q-60 -10 -44 -16" stroke="#fef9ed" stroke-width="1" fill="none" opacity="0.6"/>
+    <text x="-20" y="-25" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">铁杵磨针</text>
+    <text x="-20" y="-5" font-family="serif" font-size="12" fill="#7a7468">持之以恒</text>
+    <text x="-20" y="13" font-family="serif" font-size="12" fill="#7a7468">磨砺意志</text>
+    <text x="-20" y="31" font-family="serif" font-size="12" fill="#7a7468">功到自然</text>
+    <path d="M-90 0 Q-160 -30 -230 -80" stroke="#7a3b14" stroke-width="2" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 中央标题 -->
+  <g transform="translate(400,300)">
+    <rect x="-55" y="-22" width="110" height="44" rx="22" fill="#7a3b14"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#fef9ed">教育之道</text>
+  </g>
+
+  <!-- 果实装饰 -->
+  <g fill="#c05a30" opacity="0.7">
+    <circle cx="370" cy="190" r="5"/><circle cx="420" cy="175" r="5"/><circle cx="440" cy="210" r="5"/>
+    <circle cx="365" cy="225" r="4"/><circle cx="410" cy="230" r="4"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="17" fill="#3a7d5c" opacity="0.9">连珠小故事：严慈相济，因材施教，古人的教育智慧</text>
+</svg>

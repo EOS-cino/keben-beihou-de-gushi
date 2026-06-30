@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="冬夜窗外飘雪屋内奶奶端着热汤的温馨场景">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 夜空 -->
+  <rect x="0" y="0" width="800" height="200" fill="#2d4a68" opacity="0.3"/>
+  <!-- 雪花 -->
+  <g fill="#fef9ed" stroke="#c8d4dc" stroke-width="0.5">
+    <circle cx="80" cy="40" r="2.5"/>
+    <circle cx="180" cy="70" r="2"/>
+    <circle cx="280" cy="50" r="2.5"/>
+    <circle cx="380" cy="80" r="2"/>
+    <circle cx="480" cy="40" r="2.5"/>
+    <circle cx="580" cy="70" r="2"/>
+    <circle cx="680" cy="50" r="2.5"/>
+    <circle cx="120" cy="130" r="2"/>
+    <circle cx="340" cy="140" r="2"/>
+    <circle cx="560" cy="130" r="2"/>
+    <circle cx="720" cy="150" r="2"/>
+  </g>
+  <!-- 窗户 -->
+  <g transform="translate(400 260)">
+    <rect x="-200" y="-110" width="400" height="220" rx="6" fill="#fff6df" stroke="#8d5a36" stroke-width="5"/>
+    <line x1="0" y1="-110" x2="0" y2="110" stroke="#8d5a36" stroke-width="4"/>
+    <line x1="-200" y1="0" x2="200" y2="0" stroke="#8d5a36" stroke-width="4"/>
+    <!-- 左半:窗外雪景 -->
+    <rect x="-196" y="-106" width="194" height="106" fill="#9fb0bc" opacity="0.4"/>
+    <path d="M-196 30 Q-100 18 -2 30 L-2 104 L-196 104 Z" fill="#fef9ed" opacity="0.6"/>
+    <!-- 远屋雪顶 -->
+    <g transform="translate(-100 -10)">
+      <path d="M-30 0 L0 -22 L30 0 Z" fill="#fef9ed"/>
+      <rect x="-24" y="0" width="48" height="30" fill="#8d5a36" opacity="0.5"/>
+    </g>
+    <text x="-100" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a8a">窗外雪正大</text>
+    <!-- 右半:屋内暖 -->
+    <rect x="2" y="-106" width="194" height="216" fill="#e8a838" opacity="0.15"/>
+    <rect x="2" y="0" width="194" height="106" fill="#e07856" opacity="0.12"/>
+  </g>
+  <!-- 暖气白汽(右窗内) -->
+  <g transform="translate(500 220)" stroke="#fff" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round">
+    <path d="M0 0 Q-6 -10 0 -20 Q6 -30 0 -40"/>
+    <path d="M14 4 Q8 -6 14 -16 Q20 -26 14 -36"/>
+  </g>
+  <!-- 奶奶端汤 -->
+  <g transform="translate(520 330)">
+    <!-- 围裙身体 -->
+    <ellipse cx="0" cy="40" rx="34" ry="28" fill="#c84a3a"/>
+    <rect x="-22" y="20" width="44" height="40" fill="#e07856" opacity="0.6"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-10" r="18" fill="#f0d0a8"/>
+    <path d="M-18 -14 Q0 -32 18 -14 Q14 -24 0 -26 Q-14 -24 -18 -14 Z" fill="#8a8a8a"/>
+    <circle cx="-6" cy="-10" r="1.5" fill="#2a2a2a" opacity="0.7"/>
+    <circle cx="6" cy="-10" r="1.5" fill="#2a2a2a" opacity="0.7"/>
+    <path d="M-4 -2 Q0 0 4 -2" stroke="#7a3b14" stroke-width="1.2" fill="none"/>
+    <!-- 捧碗的手 -->
+    <ellipse cx="0" cy="22" rx="22" ry="8" fill="#f0d0a8"/>
+    <!-- 热汤碗 -->
+    <ellipse cx="0" cy="16" rx="20" ry="6" fill="#5a3a1a"/>
+    <path d="M-20 16 Q-20 28 0 28 Q20 28 20 16 Z" fill="#8d5a36"/>
+    <ellipse cx="0" cy="16" rx="16" ry="4" fill="#e8a838" opacity="0.7"/>
+    <!-- 白汽 -->
+    <g stroke="#fff" stroke-width="2" fill="none" opacity="0.7" stroke-linecap="round">
+      <path d="M-8 14 Q-12 4 -8 -6 Q-4 -16 -8 -26"/>
+      <path d="M0 12 Q-4 2 0 -8 Q4 -18 0 -28"/>
+      <path d="M8 14 Q4 4 8 -6 Q12 -16 8 -26"/>
+    </g>
+  </g>
+  <!-- 孩子捧碗喝 -->
+  <g transform="translate(330 360)">
+    <ellipse cx="0" cy="36" rx="30" ry="24" fill="#4a90b8"/>
+    <circle cx="0" cy="-6" r="16" fill="#f0d0a8"/>
+    <path d="M-14 -10 Q0 -24 14 -10 Q10 -18 0 -20 Q-10 -18 -14 -10 Z" fill="#3a2a1a"/>
+    <path d="M-5 -8 L-2 -4 L1 -8" stroke="#2a2a2a" stroke-width="1.2" fill="none"/>
+    <path d="M3 -8 L6 -4 L9 -8" stroke="#2a2a2a" stroke-width="1.2" fill="none"/>
+    <!-- 碗到嘴边 -->
+    <ellipse cx="0" cy="6" rx="16" ry="5" fill="#5a3a1a"/>
+    <path d="M-16 6 Q-16 16 0 16 Q16 16 16 6 Z" fill="#8d5a36"/>
+    <ellipse cx="0" cy="6" rx="13" ry="3.5" fill="#e8a838" opacity="0.8"/>
+  </g>
+  <!-- 红色暖意心形 -->
+  <g transform="translate(420 200)" opacity="0.5">
+    <path d="M0 16 Q-16 0 -16 -10 Q-16 -22 -6 -22 Q0 -22 0 -12 Q0 -22 6 -22 Q16 -22 16 -10 Q16 0 0 16 Z" fill="#e07856"/>
+  </g>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#c84a3a">冬日的暖</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">外面再冷，家里总有一碗热汤在等你</text>
+</svg>

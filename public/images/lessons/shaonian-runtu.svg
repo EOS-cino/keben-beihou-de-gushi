@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="少年闰土、月夜和瓜地插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">少年闰土</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空 -->
+  <rect x="0" y="80" width="800" height="260" fill="#2a4a6a"/>
+  <!-- 星星 -->
+  <g fill="#fff8e0">
+    <circle cx="100" cy="120" r="2"/>
+    <circle cx="200" cy="100" r="1.5"/>
+    <circle cx="300" cy="130" r="2"/>
+    <circle cx="450" cy="110" r="1.5"/>
+    <circle cx="550" cy="140" r="2"/>
+    <circle cx="700" cy="120" r="1.5"/>
+    <circle cx="150" cy="180" r="1.5"/>
+    <circle cx="350" cy="170" r="1.5"/>
+    <circle cx="500" cy="190" r="1.5"/>
+  </g>
+
+  <!-- 月亮 -->
+  <circle cx="620" cy="160" r="55" fill="#f8f0c8" stroke="#e8d898" stroke-width="2"/>
+  <circle cx="605" cy="150" r="8" fill="#e8e0b0" opacity="0.5"/>
+  <circle cx="630" cy="170" r="6" fill="#e8e0b0" opacity="0.5"/>
+  <circle cx="615" cy="180" r="5" fill="#e8e0b0" opacity="0.4"/>
+
+  <!-- 远山（夜色中） -->
+  <path d="M0 340 L80 280 L160 320 L260 260 L360 310 L460 270 L560 305 L660 275 L760 310 L800 295 L800 360 L0 360 Z" fill="#1a3a4a" opacity="0.6"/>
+
+  <!-- 瓜地地面 -->
+  <rect x="0" y="340" width="800" height="260" fill="#3a5a3a"/>
+  <!-- 地面纹理 -->
+  <path d="M0 360 Q200 355 400 360 T800 360" fill="none" stroke="#2a4a2a" stroke-width="2"/>
+  <path d="M0 400 Q200 395 400 400 T800 400" fill="none" stroke="#2a4a2a" stroke-width="2"/>
+
+  <!-- 西瓜藤蔓 -->
+  <g stroke="#4a7a3a" stroke-width="2" fill="none">
+    <path d="M50 420 Q100 410 150 420 Q200 430 250 420"/>
+    <path d="M300 430 Q350 420 400 430 Q450 440 500 430"/>
+    <path d="M550 420 Q600 410 650 420 Q700 430 750 420"/>
+  </g>
+
+  <!-- 西瓜叶 -->
+  <g fill="#4a8a3a" stroke="#2a6a1a" stroke-width="1.5">
+    <ellipse cx="100" cy="415" rx="20" ry="14" transform="rotate(-20 100 415)"/>
+    <ellipse cx="200" cy="425" rx="18" ry="12" transform="rotate(15 200 425)"/>
+    <ellipse cx="350" cy="425" rx="20" ry="14" transform="rotate(-15 350 425)"/>
+    <ellipse cx="450" cy="435" rx="18" ry="12" transform="rotate(20 450 435)"/>
+    <ellipse cx="600" cy="415" rx="20" ry="14" transform="rotate(-20 600 415)"/>
+    <ellipse cx="700" cy="425" rx="18" ry="12" transform="rotate(15 700 425)"/>
+  </g>
+
+  <!-- 西瓜 -->
+  <g>
+    <ellipse cx="130" cy="450" rx="25" ry="18" fill="#3a7a3a" stroke="#2a5a1a" stroke-width="2"/>
+    <path d="M110 445 Q130 440 150 445" fill="none" stroke="#2a5a1a" stroke-width="1.5"/>
+    <path d="M115 455 Q130 450 145 455" fill="none" stroke="#2a5a1a" stroke-width="1.5"/>
+
+    <ellipse cx="380" cy="460" rx="28" ry="20" fill="#3a7a3a" stroke="#2a5a1a" stroke-width="2"/>
+    <path d="M358 455 Q380 450 402 455" fill="none" stroke="#2a5a1a" stroke-width="1.5"/>
+    <path d="M362 465 Q380 460 398 465" fill="none" stroke="#2a5a1a" stroke-width="1.5"/>
+
+    <ellipse cx="650" cy="455" rx="25" ry="18" fill="#3a7a3a" stroke="#2a5a1a" stroke-width="2"/>
+    <path d="M630 450 Q650 445 670 450" fill="none" stroke="#2a5a1a" stroke-width="1.5"/>
+    <path d="M635 460 Q650 455 665 460" fill="none" stroke="#2a5a1a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 闰土（少年，手持钢叉，项带银圈） -->
+  <!-- 身体 -->
+  <path d="M320 500 L325 420 L375 420 L380 500 Z" fill="#6a4a2a"/>
+  <!-- 头 -->
+  <circle cx="350" cy="395" r="22" fill="#f0d0a8"/>
+  <!-- 头发 -->
+  <path d="M328 392 Q350 370 372 392 L372 384 Q350 366 328 384 Z" fill="#2a2a2a"/>
+  <!-- 银项圈 -->
+  <ellipse cx="350" cy="418" rx="18" ry="5" fill="none" stroke="#c8c8c0" stroke-width="3"/>
+  <ellipse cx="350" cy="418" rx="18" ry="5" fill="none" stroke="#e8e8e0" stroke-width="1.5"/>
+  <!-- 眼睛 -->
+  <ellipse cx="343" cy="395" rx="2.5" ry="2" fill="#2a2a2a"/>
+  <ellipse cx="357" cy="395" rx="2.5" ry="2" fill="#2a2a2a"/>
+  <!-- 嘴 -->
+  <path d="M345 405 Q350 408 355 405" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 手臂（双手持叉） -->
+  <path d="M325 435 L300 420" fill="none" stroke="#6a4a2a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="298" cy="418" r="7" fill="#f0d0a8"/>
+  <path d="M375 435 L395 420" fill="none" stroke="#6a4a2a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="397" cy="418" r="7" fill="#f0d0a8"/>
+
+  <!-- 钢叉（胡叉） -->
+  <line x1="350" y1="415" x2="350" y2="320" stroke="#6a4220" stroke-width="5"/>
+  <!-- 叉头 -->
+  <path d="M340 320 L340 300 M350 320 L350 295 M360 320 L360 300" fill="none" stroke="#8a8a8a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M338 300 Q340 290 342 295 M348 295 Q350 285 352 290 M358 300 Q360 290 362 295" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- 叉柄连接 -->
+  <rect x="345" y="318" width="10" height="8" fill="#6a4220"/>
+
+  <!-- 猹（小兽，从瓜地中窜出） -->
+  <!-- 身体 -->
+  <ellipse cx="550" cy="470" rx="35" ry="20" fill="#6a5a4a" stroke="#4a3a2a" stroke-width="2"/>
+  <!-- 头 -->
+  <ellipse cx="585" cy="460" rx="18" ry="15" fill="#6a5a4a" stroke="#4a3a2a" stroke-width="2"/>
+  <!-- 耳朵 -->
+  <path d="M578 448 L575 438 L582 445 Z" fill="#4a3a2a"/>
+  <path d="M592 448 L595 438 L588 445 Z" fill="#4a3a2a"/>
+  <!-- 眼睛（发光） -->
+  <circle cx="580" cy="458" r="3" fill="#f4c842"/>
+  <circle cx="590" cy="458" r="3" fill="#f4c842"/>
+  <circle cx="580" cy="458" r="1.5" fill="#2a2a2a"/>
+  <circle cx="590" cy="458" r="1.5" fill="#2a2a2a"/>
+  <!-- 鼻子 -->
+  <circle cx="598" cy="463" r="2" fill="#2a2a2a"/>
+  <!-- 腿 -->
+  <rect x="525" y="485" width="8" height="15" fill="#4a3a2a" rx="2"/>
+  <rect x="545" y="488" width="8" height="12" fill="#4a3a2a" rx="2"/>
+  <rect x="570" y="485" width="8" height="15" fill="#4a3a2a" rx="2"/>
+  <!-- 尾巴 -->
+  <path d="M515 465 Q500 460 495 470" fill="none" stroke="#6a5a4a" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- 闰土标注 -->
+  <line x1="350" y1="370" x2="350" y2="330" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="305" y="305" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="350" y="323" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">少年闰土</text>
+
+  <!-- 月亮标注 -->
+  <line x1="620" y1="105" x2="620" y2="80" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="575" y="55" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="620" y="73" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">金黄圆月</text>
+
+  <!-- 猹标注 -->
+  <line x1="550" y1="445" x2="550" y2="410" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="525" y="385" width="60" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="555" y="403" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">猹</text>
+
+  <!-- 瓜地标注 -->
+  <line x1="130" y1="470" x2="130" y2="500" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="85" y="505" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="130" y="523" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">西瓜地</text>
+
+  <!-- 钢叉标注 -->
+  <line x1="350" y1="300" x2="420" y2="280" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="425" y="267" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="470" y="285" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">钢叉</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">深蓝天空挂着一轮金黄圆月，少年闰土项带银圈，手持钢叉在瓜地刺猹</text>
+</svg>

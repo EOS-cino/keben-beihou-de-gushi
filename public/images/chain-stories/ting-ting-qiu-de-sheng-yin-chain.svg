@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：一年到头的声音罐子">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：一年到头的声音罐子</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">把四季的声音装进罐子</text>
+  <g>
+    <rect x="120" y="240" width="100" height="160" rx="10" fill="#cfe6c0" stroke="#5a8a3a" stroke-width="2"/>
+    <rect x="120" y="220" width="100" height="24" rx="8" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="170" y="440" text-anchor="middle" font-family="serif" font-size="18" fill="#3a6b2a">春·滴答</text>
+    <rect x="290" y="240" width="100" height="160" rx="10" fill="#fbe9a8" stroke="#c98a3a" stroke-width="2"/>
+    <rect x="290" y="220" width="100" height="24" rx="8" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <text x="340" y="440" text-anchor="middle" font-family="serif" font-size="18" fill="#a8742a">夏·知了</text>
+    <rect x="460" y="240" width="100" height="160" rx="10" fill="#f4c77a" stroke="#c98a3a" stroke-width="2"/>
+    <rect x="460" y="220" width="100" height="24" rx="8" fill="#d99a3a" stroke="#c98a3a" stroke-width="2"/>
+    <text x="510" y="440" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">秋·刷刷</text>
+    <rect x="630" y="240" width="100" height="160" rx="10" fill="#dfe6f0" stroke="#5a6a8a" stroke-width="2"/>
+    <rect x="630" y="220" width="100" height="24" rx="8" fill="#9aa8c0" stroke="#3a4a6a" stroke-width="2"/>
+    <text x="680" y="440" text-anchor="middle" font-family="serif" font-size="18" fill="#3a4a6a">冬·咯吱</text>
+  </g>
+  <text x="425" y="500" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">打开盖子，就是一整年的歌</text>
+</svg>

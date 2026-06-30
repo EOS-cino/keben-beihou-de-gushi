@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="国旗国歌国徽三个象征图案">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">中国的国旗国歌国徽</text>
+  <rect x="100" y="120" width="180" height="120" fill="#c84a3a"/>
+  <polygon points="140,145 148,170 173,170 153,185 160,210 140,195 120,210 127,185 107,170 132,170" fill="#e07856"/>
+  <polygon points="180,155 184,168 197,168 187,176 190,189 180,181 170,189 173,176 163,168 176,168" fill="#e07856"/>
+  <polygon points="200,155 204,168 217,168 207,176 210,189 200,181 190,189 193,176 183,168 196,168" fill="#e07856"/>
+  <polygon points="200,180 204,193 217,193 207,201 210,214 200,206 190,214 193,201 183,193 196,193" fill="#e07856"/>
+  <polygon points="180,180 184,193 197,193 187,201 190,214 180,206 170,214 173,201 163,193 176,193" fill="#e07856"/>
+  <text x="190" y="270" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">国旗 五星红旗</text>
+  <rect x="340" y="120" width="120" height="120" rx="5" fill="#fff" stroke="#8d5a36" stroke-width="2"/>
+  <circle cx="400" cy="180" r="40" fill="#c84a3a" opacity="0.15"/>
+  <rect x="375" y="155" width="50" height="30" fill="#c84a3a" opacity="0.3"/>
+  <polygon points="375,155 380,145 400,150 420,145 425,155" fill="#c84a3a" opacity="0.3"/>
+  <polygon points="390,165 395,175 405,175 397,180 400,190 390,184 380,190 383,180 375,175 385,175" fill="#c8843a" opacity="0.5"/>
+  <polygon points="415,165 418,173 426,173 420,178 422,186 415,181 408,186 410,178 404,173 412,173" fill="#c8843a" opacity="0.5"/>
+  <path d="M370 200 Q385 210 400 205 Q415 200 430 210" stroke="#c8843a" stroke-width="2" fill="none"/>
+  <circle cx="360" cy="200" r="8" fill="#8d5a36" opacity="0.3"/>
+  <circle cx="440" cy="200" r="8" fill="#8d5a36" opacity="0.3"/>
+  <text x="400" y="270" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">国徽</text>
+  <circle cx="620" cy="180" r="55" fill="#fff" stroke="#8d5a36" stroke-width="2"/>
+  <path d="M580 180 Q620 150 660 180" stroke="#7ab8d8" stroke-width="2" fill="none"/>
+  <path d="M580 185 Q620 155 660 185" stroke="#a8d0e8" stroke-width="2" fill="none"/>
+  <text x="620" y="175" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">义勇军</text>
+  <text x="620" y="195" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">进行曲</text>
+  <path d="M590 210 L650 210" stroke="#c84a3a" stroke-width="2"/>
+  <text x="620" y="270" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">国歌</text>
+  <line x1="100" y1="310" x2="700" y2="310" stroke="#8d5a36" stroke-width="1" stroke-dasharray="5 5" opacity="0.3"/>
+  <text x="190" y="350" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">红色代表革命</text>
+  <text x="190" y="370" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">五颗星代表团结</text>
+  <text x="400" y="350" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">天安门 齿轮</text>
+  <text x="400" y="370" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">麦穗 金星</text>
+  <text x="620" y="350" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">起来 不愿做</text>
+  <text x="620" y="370" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">奴隶的人们</text>
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="18" fill="#c84a3a">祖国的三张名片</text>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="16" fill="#4a6a2f">每个中国人都应该认识</text>
+</svg>

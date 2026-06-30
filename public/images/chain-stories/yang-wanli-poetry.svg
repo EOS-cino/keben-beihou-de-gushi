@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="杨万里诚斋体诗风插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">杨万里与诚斋体</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">自然活泼，像说话一样，以小见大</text>
+
+  <!-- 杨万里头像 -->
+  <g transform="translate(400,180)">
+    <circle r="55" fill="#f4c8a0" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 帽子（宋代文人巾） -->
+    <path d="M-45 -25 L-40 -55 L40 -55 L45 -25 Z" fill="#3a2a1a"/>
+    <rect x="-42" y="-28" width="84" height="6" fill="#3a2a1a"/>
+    <!-- 眼睛 -->
+    <path d="M-18 -5 Q-15 -8 -12 -5" fill="none" stroke="#3a2a1a" stroke-width="2"/>
+    <path d="M12 -5 Q15 -8 18 -5" fill="none" stroke="#3a2a1a" stroke-width="2"/>
+    <!-- 胡须 -->
+    <path d="M-10 15 Q0 25 10 15" fill="none" stroke="#3a2a1a" stroke-width="1.5"/>
+    <path d="M-8 20 Q0 30 8 20" fill="none" stroke="#3a2a1a" stroke-width="1.5"/>
+    <!-- 身体 -->
+    <path d="M-40 55 L-50 130 L50 130 L40 55 Z" fill="#6a8d3f"/>
+    <path d="M-8 55 L0 75 L8 55 Z" fill="#fef9ed"/>
+  </g>
+  <text x="400" y="330" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">杨万里（1127-1206）</text>
+  <text x="400" y="352" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">南宋四大家之一·号诚斋</text>
+
+  <!-- 诚斋体三个特点 -->
+  <g transform="translate(150,420)">
+    <rect x="-85" y="-35" width="170" height="70" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-12" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">自然活泼</text>
+    <text x="0" y="8" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">不堆典故</text>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">像说话一样</text>
+  </g>
+
+  <g transform="translate(400,420)">
+    <rect x="-85" y="-35" width="170" height="70" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-12" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">画面感强</text>
+    <text x="0" y="8" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">像摄像机拍下</text>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">生活中的小画面</text>
+  </g>
+
+  <g transform="translate(650,420)">
+    <rect x="-85" y="-35" width="170" height="70" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-12" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">以小见大</text>
+    <text x="0" y="8" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">爱写小东西</text>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">小荷·蜻蜓·儿童</text>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="100" y="500" width="600" height="70" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">杨万里烧掉旧诗，从头开始，用真诚的心写真实的景</text>
+  <text x="400" y="552" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">一生写了两万多首诗，流传四千多首，宋代写诗最多的人之一</text>
+</svg>

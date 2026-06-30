@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="寻找幸福的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">寻找幸福的故事</text>
+  <line x1="310" y1="60" x2="490" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 三个故事场景 -->
+
+  <!-- 场景1：第欧根尼晒太阳 -->
+  <g>
+    <rect x="40" y="90" width="230" height="200" fill="#fff6df" stroke="#e8a838" stroke-width="2.5" rx="8"/>
+    <text x="155" y="115" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">第欧根尼的阳光</text>
+    <!-- 太阳 -->
+    <circle cx="80" cy="150" r="18" fill="#e8a838"/>
+    <path d="M80 125 L80 115 M60 150 L50 150 M100 150 L110 150 M65 135 L58 128 M95 135 L102 128" stroke="#e8a838" stroke-width="2"/>
+    <!-- 木桶 -->
+    <rect x="150" y="220" width="80" height="50" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2" rx="4"/>
+    <line x1="150" y1="235" x2="230" y2="235" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="150" y1="250" x2="230" y2="250" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 人（躺木桶里晒太阳） -->
+    <circle cx="190" cy="210" r="12" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M180 207 q10 -8 20 0" fill="#3a2a1a"/>
+    <path d="M185 215 q5 2 10 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <rect x="175" y="222" width="30" height="10" rx="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 斗篷 -->
+    <path d="M160 230 q30 5 50 0" fill="#8d2a2a" stroke="#7a3b14" stroke-width="1"/>
+    <text x="155" y="275" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"别挡住我的阳光"</text>
+  </g>
+
+  <!-- 场景2：海鸟与鲁侯 -->
+  <g>
+    <rect x="285" y="90" width="230" height="200" fill="#fff6df" stroke="#2d6a4f" stroke-width="2.5" rx="8"/>
+    <text x="400" y="115" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">庄子的海鸟</text>
+    <!-- 鸟笼 -->
+    <rect x="350" y="170" width="100" height="80" fill="none" stroke="#7a3b14" stroke-width="2" rx="4"/>
+    <line x1="360" y1="170" x2="360" y2="250" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="380" y1="170" x2="380" y2="250" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="400" y1="170" x2="400" y2="250" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="420" y1="170" x2="420" y2="250" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="440" y1="170" x2="440" y2="250" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 海鸟（不开心） -->
+    <ellipse cx="400" cy="215" rx="16" ry="11" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="412" cy="212" r="5" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="414" cy="211" r="1.5" fill="#3a2a1a"/>
+    <path d="M417 214 l5 -1" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 翅膀耷拉 -->
+    <path d="M392 215 q-8 8 -6 15" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 音符（音乐让它害怕） -->
+    <text x="330" y="190" font-family="serif" font-size="16" fill="#e07856">♪</text>
+    <text x="460" y="195" font-family="serif" font-size="16" fill="#e07856">♫</text>
+    <!-- 肉（不吃） -->
+    <ellipse cx="380" cy="240" rx="8" ry="4" fill="#8d2a2a" stroke="#7a3b14" stroke-width="1"/>
+    <text x="400" y="275" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">顺应天性才是幸福</text>
+  </g>
+
+  <!-- 场景3：渔夫晒太阳 -->
+  <g>
+    <rect x="530" y="90" width="230" height="200" fill="#fff6df" stroke="#e07856" stroke-width="2.5" rx="8"/>
+    <text x="645" y="115" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856" font-weight="bold">渔夫的阳光</text>
+    <!-- 海 -->
+    <rect x="550" y="210" width="190" height="70" fill="#4a90b8" opacity="0.4"/>
+    <path d="M550 220 q15 -4 30 0 M600 225 q15 -4 30 0 M650 220 q15 -4 30 0 M700 225 q15 -4 30 0" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <!-- 太阳 -->
+    <circle cx="700" cy="150" r="16" fill="#e8a838"/>
+    <!-- 渔夫（躺着晒太阳） -->
+    <circle cx="590" cy="195" r="12" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M580 192 q10 -8 20 0" fill="#3a2a1a"/>
+    <path d="M585 200 q5 2 10 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <rect x="575" y="207" width="40" height="8" rx="3" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 小船 -->
+    <path d="M570 215 q25 8 50 0" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 富翁（站着，惊讶） -->
+    <rect x="660" y="170" width="20" height="35" rx="3" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="670" cy="162" r="10" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M662 160 q8 -6 16 0" fill="#3a2a1a"/>
+    <circle cx="666" cy="162" r="1.5" fill="#3a2a1a"/>
+    <circle cx="674" cy="162" r="1.5" fill="#3a2a1a"/>
+    <text x="645" y="275" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"我现在不就在晒太阳吗"</text>
+  </g>
+
+  <!-- 底部：共同的答案 -->
+  <rect x="100" y="360" width="600" height="180" fill="#f5ecd8" stroke="#c8843a" stroke-width="2.5" rx="10"/>
+  <text x="400" y="395" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14" font-weight="bold">不同的故事，共同的发现</text>
+
+  <!-- 三个箭头汇聚 -->
+  <path d="M155 300 L300 380" stroke="#e8a838" stroke-width="2.5" fill="none" stroke-dasharray="5,3"/>
+  <path d="M400 300 L400 380" stroke="#2d6a4f" stroke-width="2.5" fill="none" stroke-dasharray="5,3"/>
+  <path d="M645 300 L500 380" stroke="#e07856" stroke-width="2.5" fill="none" stroke-dasharray="5,3"/>
+
+  <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="16" fill="#2d6a4f">幸福不是别人给的，而是自己找到的</text>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="16" fill="#e07856">幸福不是拥有很多，而是不被欲望绑架</text>
+  <text x="400" y="490" text-anchor="middle" font-family="serif" font-size="16" fill="#c8843a">幸福不在远方，也许就在身边</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">每个人都可以有自己的答案，重要的是认真去想、认真去找</text>
+</svg>

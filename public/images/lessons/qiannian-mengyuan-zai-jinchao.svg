@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古代飞天梦与现代火箭飞船的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">千年梦圆在今朝</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#1e5f8e" stroke-width="2"/>
+  <!-- 古代飞天：月亮+万户椅 -->
+  <circle cx="160" cy="180" r="44" fill="#e8dca0" opacity="0.85"/>
+  <circle cx="150" cy="170" r="6" fill="#c8c08a" opacity="0.6"/>
+  <circle cx="175" cy="195" r="8" fill="#c8c08a" opacity="0.6"/>
+  <!-- 椅子+火箭 -->
+  <rect x="230" y="280" width="50" height="50" fill="#8a6d3b"/>
+  <line x1="232" y1="280" x2="220" y2="240" stroke="#c8553d" stroke-width="3"/>
+  <line x1="278" y1="280" x2="290" y2="240" stroke="#c8553d" stroke-width="3"/>
+  <line x1="255" y1="280" x2="255" y2="230" stroke="#c8553d" stroke-width="3"/>
+  <path d="M 250 230 l 10 0 l -5 -20 z" fill="#f0c419"/>
+  <text x="255" y="360" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">万户飞天</text>
+  <!-- 时间轴箭头 -->
+  <line x1="320" y1="305" x2="470" y2="305" stroke="#7a3b14" stroke-width="3" stroke-dasharray="10,6"/>
+  <polygon points="470,305 458,299 458,311" fill="#7a3b14"/>
+  <text x="395" y="290" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">千年</text>
+  <!-- 现代火箭 -->
+  <polygon points="600,160 620,160 620,300 600,300" fill="#ffffff" stroke="#3a3a3a" stroke-width="2"/>
+  <polygon points="600,160 610,140 620,160" fill="#c8553d"/>
+  <polygon points="590,280 600,260 600,300" fill="#1e5f8e"/>
+  <polygon points="630,280 620,260 620,300" fill="#1e5f8e"/>
+  <!-- 火焰 -->
+  <path d="M 605 300 q -6 30 0 50 q 6 -20 0 -50 z" fill="#f0c419"/>
+  <path d="M 615 300 q -6 30 0 50 q 6 -20 0 -50 z" fill="#e8853d"/>
+  <!-- 星 -->
+  <circle cx="700" cy="170" r="2.5" fill="#7a3b14"/>
+  <circle cx="680" cy="200" r="2" fill="#7a3b14"/>
+  <circle cx="720" cy="210" r="2.5" fill="#7a3b14"/>
+  <text x="610" y="385" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">神舟飞天</text>
+  <line x1="100" y1="430" x2="700" y2="430" stroke="#7a3b14" stroke-width="1" opacity="0.3"/>
+  <text x="400" y="490" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">嫦娥奔月 → 神舟飞天</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">千年的飞天梦，今天圆了</text>
+</svg>

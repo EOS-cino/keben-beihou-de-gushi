@@ -1,0 +1,19 @@
+{
+  "name": "textbook-stories",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^5.10.1",
+    "pinyin-pro": "^3.28.1",
+    "typescript": "^5.8.3"
+  }
+}

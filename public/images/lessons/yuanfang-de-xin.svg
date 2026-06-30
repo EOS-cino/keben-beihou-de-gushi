@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一封信从远方寄来孩子读信的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">远方的信</text>
+  <line x1="340" y1="56" x2="460" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——等了十天，才到想它的人手里</text>
+
+  <!-- 左：村口老槐树等信 -->
+  <g transform="translate(200, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#2d6a4f">村口等信</text>
+    <!-- 老槐树 -->
+    <g transform="translate(-30, 60)">
+      <rect x="-6" y="0" width="12" height="80" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-10" rx="40" ry="35" fill="#2d6a4f" opacity="0.85"/>
+      <ellipse cx="-20" cy="-20" rx="25" ry="22" fill="#4a6a2f" opacity="0.8"/>
+      <ellipse cx="20" cy="-15" rx="28" ry="25" fill="#4a6a2f" opacity="0.8"/>
+    </g>
+    <!-- 小北踮脚看 -->
+    <g transform="translate(30, 80)">
+      <circle cx="0" cy="-30" r="10" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-7 -35 Q0 -42 7 -35" fill="#7a3b14"/>
+      <circle cx="-3" cy="-30" r="1.5" fill="#7a3b14"/>
+      <circle cx="3" cy="-30" r="1.5" fill="#7a3b14"/>
+      <ellipse cx="0" cy="-8" rx="11" ry="14" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 踮脚 -->
+      <path d="M-7 6 Q-10 20 -8 35" fill="none" stroke="#c84a3a" stroke-width="4" stroke-linecap="round"/>
+      <path d="M7 6 Q10 20 8 35" fill="none" stroke="#c84a3a" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="-8" cy="38" rx="5" ry="3" fill="#7a3b14"/>
+      <ellipse cx="8" cy="38" rx="5" ry="3" fill="#7a3b14"/>
+    </g>
+    <!-- 公路 -->
+    <rect x="-80" y="140" width="160" height="10" fill="#7a3b14" opacity="0.3"/>
+    <text x="0" y="170" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">踮脚往公路看</text>
+  </g>
+
+  <!-- 中：邮递员送信 -->
+  <g transform="translate(450, 250)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a90b8">叮铃铃</text>
+    <!-- 自行车 -->
+    <circle cx="-25" cy="40" r="18" fill="none" stroke="#2d6a4f" stroke-width="3"/>
+    <circle cx="-25" cy="40" r="3" fill="#2d6a4f"/>
+    <circle cx="25" cy="40" r="18" fill="none" stroke="#2d6a4f" stroke-width="3"/>
+    <circle cx="25" cy="40" r="3" fill="#2d6a4f"/>
+    <line x1="-25" y1="40" x2="25" y2="40" stroke="#2d6a4f" stroke-width="2"/>
+    <line x1="-25" y1="40" x2="0" y2="15" stroke="#2d6a4f" stroke-width="2"/>
+    <line x1="25" y1="40" x2="0" y2="15" stroke="#2d6a4f" stroke-width="2"/>
+    <line x1="0" y1="15" x2="0" y2="-5" stroke="#2d6a4f" stroke-width="2"/>
+    <!-- 邮递员 -->
+    <g transform="translate(0, -10)">
+      <circle cx="0" cy="0" r="9" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="18" rx="11" ry="14" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 绿帽子 -->
+      <ellipse cx="0" cy="-8" rx="10" ry="4" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <!-- 帆布包 -->
+    <rect x="8" y="5" width="20" height="18" rx="3" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 信封露出 -->
+    <rect x="12" y="0" width="12" height="8" fill="#fef9ed" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">绿色自行车</text>
+  </g>
+
+  <!-- 右：灯下读信 -->
+  <g transform="translate(660, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#e8a838">灯下读信</text>
+    <!-- 台灯 -->
+    <g transform="translate(-20, 60)">
+      <path d="M-12 0 L12 0 L8 -20 L-8 -20 Z" fill="#e8a838" opacity="0.7" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-1" y="0" width="2" height="30" fill="#7a3b14"/>
+      <ellipse cx="0" cy="32" rx="10" ry="3" fill="#7a3b14"/>
+      <!-- 光 -->
+      <path d="M-15 -5 L-25 20 L25 20 L15 -5" fill="#e8a838" opacity="0.15"/>
+    </g>
+    <!-- 信封 -->
+    <g transform="translate(10, 80)">
+      <rect x="-25" y="0" width="50" height="32" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-25 0 L0 15 L25 0" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 邮戳 -->
+      <circle cx="15" cy="20" r="6" fill="none" stroke="#c84a3a" stroke-width="1"/>
+      <text x="15" y="23" text-anchor="middle" font-family="serif" font-size="5" fill="#c84a3a">邮</text>
+      <!-- 字 -->
+      <line x1="-18" y1="10" x2="5" y2="10" stroke="#7a3b14" stroke-width="0.5"/>
+      <line x1="-18" y1="14" x2="5" y2="14" stroke="#7a3b14" stroke-width="0.5"/>
+    </g>
+    <!-- 小北 -->
+    <g transform="translate(10, 130)">
+      <circle cx="0" cy="-15" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="0" rx="9" ry="11" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <text x="0" y="170" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">想你的爸爸</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 470)">
+    <rect x="-320" y="0" width="640" height="90" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">信里藏着的不是文字，是牵挂</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">等了三天 · 走了十天 · 舍不得拆 · 摸摸邮戳 · 灯下慢慢读</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">等待让得到变得更珍贵，慢，也有慢的好</text>
+  </g>
+</svg>

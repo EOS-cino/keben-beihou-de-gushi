@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一位老爷爷坐在书桌前翻译童书，旁边堆满了各国童话书">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 书房背景 -->
+  <rect x="0" y="0" width="800" height="400" fill="#f4d4a8" opacity="0.1"/>
+  <!-- 书架 -->
+  <g transform="translate(120,200)">
+    <rect x="-10" y="-120" width="180" height="200" fill="#8d5a36" opacity="0.3"/>
+    <!-- 书 -->
+    <g>
+      <rect x="0" y="-110" width="12" height="80" fill="#c84a3a"/>
+      <rect x="14" y="-110" width="12" height="80" fill="#6a8d3f"/>
+      <rect x="28" y="-110" width="12" height="80" fill="#7ab8d8"/>
+      <rect x="42" y="-110" width="12" height="80" fill="#f4b942"/>
+      <rect x="56" y="-110" width="12" height="80" fill="#7a3b14"/>
+      <rect x="70" y="-110" width="12" height="80" fill="#c8843a"/>
+      <rect x="0" y="-25" width="12" height="80" fill="#6a8d3f"/>
+      <rect x="14" y="-25" width="12" height="80" fill="#c84a3a"/>
+      <rect x="28" y="-25" width="12" height="80" fill="#7ab8d8"/>
+      <rect x="42" y="-25" width="12" height="80" fill="#8d5a36"/>
+      <rect x="56" y="-25" width="12" height="80" fill="#e07856"/>
+      <rect x="70" y="-25" width="12" height="80" fill="#4a6a2f"/>
+    </g>
+  </g>
+  <!-- 各国童话书 -->
+  <g transform="translate(600,180)">
+    <!-- 书堆 -->
+    <rect x="-40" y="40" width="80" height="15" fill="#c84a3a" rx="2"/>
+    <rect x="-35" y="25" width="75" height="15" fill="#6a8d3f" rx="2"/>
+    <rect x="-38" y="10" width="78" height="15" fill="#7ab8d8" rx="2"/>
+    <!-- 书名标签 -->
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="8" fill="#fef9ed">长袜子皮皮</text>
+    <text x="2" y="35" text-anchor="middle" font-family="serif" font-size="8" fill="#fef9ed">木偶奇遇记</text>
+    <text x="1" y="20" text-anchor="middle" font-family="serif" font-size="8" fill="#fef9ed">安徒生童话</text>
+    <!-- 旗帜（各国） -->
+    <g transform="translate(0,-20)">
+      <line x1="0" y1="0" x2="0" y2="-40" stroke="#8d5a36" stroke-width="2"/>
+      <rect x="0" y="-40" width="20" height="12" fill="#7ab8d8"/>
+      <rect x="0" y="-28" width="20" height="12" fill="#ffffff"/>
+      <rect x="0" y="-16" width="20" height="12" fill="#c84a3a"/>
+    </g>
+  </g>
+  <!-- 书桌 -->
+  <rect x="200" y="380" width="400" height="12" fill="#8d5a36"/>
+  <rect x="210" y="392" width="8" height="80" fill="#8d5a36"/>
+  <rect x="582" y="392" width="8" height="80" fill="#8d5a36"/>
+  <!-- 老爷爷（任溶溶） -->
+  <g transform="translate(400,300)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="50" rx="40" ry="35" fill="#8d5a36"/>
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="28" fill="#f4d4a8"/>
+    <!-- 白发 -->
+    <path d="M-25 -8 Q-28 -28 -15 -30 Q0 -33 15 -30 Q28 -28 25 -8" fill="#ffffff" opacity="0.9"/>
+    <!-- 眼镜 -->
+    <circle cx="-10" cy="0" r="8" fill="none" stroke="#2d2a24" stroke-width="2"/>
+    <circle cx="10" cy="0" r="8" fill="none" stroke="#2d2a24" stroke-width="2"/>
+    <line x1="-2" y1="0" x2="2" y2="0" stroke="#2d2a24" stroke-width="2"/>
+    <!-- 眼睛（笑） -->
+    <path d="M-13 0 Q-10 -3 -7 0" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+    <path d="M7 0 Q10 -3 13 0" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+    <!-- 嘴（微笑） -->
+    <path d="M-6 12 Q0 16 6 12" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <!-- 白胡子 -->
+    <path d="M-12 14 Q0 25 12 14" fill="#ffffff" opacity="0.8"/>
+    <!-- 手臂（写字） -->
+    <path d="M-30 35 L-45 60" stroke="#8d5a36" stroke-width="10" stroke-linecap="round"/>
+    <path d="M30 35 L45 55" stroke="#8d5a36" stroke-width="10" stroke-linecap="round"/>
+    <!-- 手握笔 -->
+    <circle cx="45" cy="55" r="6" fill="#f4d4a8"/>
+    <line x1="45" y1="55" x2="55" y2="45" stroke="#7a3b14" stroke-width="3"/>
+  </g>
+  <!-- 桌上的稿纸和笔 -->
+  <g transform="translate(440,375)">
+    <rect x="-30" y="-5" width="60" height="10" fill="#fef9ed" stroke="#8d5a36" stroke-width="1"/>
+    <line x1="-25" y1="-2" x2="20" y2="-2" stroke="#8d5a36" stroke-width="0.5"/>
+    <line x1="-25" y1="1" x2="15" y2="1" stroke="#8d5a36" stroke-width="0.5"/>
+    <line x1="-25" y1="4" x2="22" y2="4" stroke="#8d5a36" stroke-width="0.5"/>
+  </g>
+  <!-- 墨水瓶 -->
+  <g transform="translate(240,370)">
+    <rect x="-8" y="-8" width="16" height="12" rx="2" fill="#7a3b14"/>
+    <rect x="-5" y="-12" width="10" height="5" fill="#2d2a24"/>
+  </g>
+  <!-- 台灯 -->
+  <g transform="translate(560,350)">
+    <rect x="-3" y="0" width="6" height="30" fill="#8d5a36"/>
+    <path d="M-20 -5 L20 -5 L15 -25 L-15 -25 Z" fill="#f4b942" opacity="0.7"/>
+    <circle cx="0" cy="30" r="8" fill="#8d5a36"/>
+    <!-- 灯光 -->
+    <path d="M-20 -5 L-40 20 L40 20 L20 -5 Z" fill="#f4b942" opacity="0.1"/>
+  </g>
+  <!-- 地面 -->
+  <path d="M0 470 Q200 465 400 470 T800 468 L800 600 L0 600 Z" fill="#8d5a36" opacity="0.1"/>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">任溶溶的翻译故事</text>
+</svg>

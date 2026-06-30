@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="鲁迅弃医从文的人生转折插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">鲁迅为什么弃医从文</text>
+  <line x1="250" y1="56" x2="550" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——看见麻木，才拿起笔</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="330" x2="720" y2="330" stroke="#c8843a" stroke-width="3"/>
+  <circle cx="180" cy="330" r="8" fill="#6a8d3f"/>
+  <circle cx="380" cy="330" r="8" fill="#c8843a"/>
+  <circle cx="560" cy="330" r="8" fill="#c84a3a"/>
+  <circle cx="680" cy="330" r="8" fill="#4a90b8"/>
+
+  <!-- 1881：出生 -->
+  <g transform="translate(180, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#6a8d3f">1881年</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">生于绍兴</text>
+    <g transform="translate(0, 50)">
+      <path d="M-28 30 L-28 0 L0 -15 L28 0 L28 30 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+      <rect x="-7" y="10" width="14" height="20" fill="#8d5a36"/>
+      <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">周家少爷</text>
+    </g>
+  </g>
+
+  <!-- 13岁：家道中落 -->
+  <g transform="translate(380, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c8843a">约13岁</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">家道中落</text>
+    <g transform="translate(0, 50)">
+      <rect x="-30" y="0" width="55" height="32" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+      <text x="-3" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#fef9ed">当</text>
+      <rect x="5" y="0" width="55" height="32" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+      <text x="32" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#fef9ed">药</text>
+      <text x="15" y="50" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">当铺受冷眼</text>
+    </g>
+  </g>
+
+  <!-- 仙台：幻灯片事件 -->
+  <g transform="translate(560, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">仙台学医</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">幻灯片事件</text>
+    <g transform="translate(0, 50)">
+      <!-- 幻灯幕布 -->
+      <rect x="-30" y="0" width="60" height="40" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-10" cy="20" r="5" fill="#c84a3a"/>
+      <circle cx="10" cy="20" r="5" fill="#7a3b14" opacity="0.6"/>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">看客麻木</text>
+      <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">→ 决定弃医</text>
+    </g>
+  </g>
+
+  <!-- 1918：拿起笔 -->
+  <g transform="translate(680, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">1918年</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">《狂人日记》</text>
+    <g transform="translate(0, 50)">
+      <rect x="-3" y="0" width="6" height="30" fill="#7a3b14"/>
+      <path d="M-3 30 L0 38 L3 30 Z" fill="#7a3b14"/>
+      <rect x="-15" y="40" width="30" height="20" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="9" fill="#4a90b8">用笔唤醒</text>
+    </g>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 430)">
+    <rect x="-310" y="0" width="620" height="130" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">手术刀治身体，笔治人心</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">学医：想治病救人 → 看见看客的麻木 → 明白治心比治身更要紧</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">弃医从文：放下听诊器，拿起笔，给旧社会"把脉"</text>
+    <text x="0" y="108" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">"凡是愚弱的国民，即使体格如何健全，</text>
+    <text x="0" y="125" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">也只能做毫无意义的示众的材料和看客。"——鲁迅</text>
+  </g>
+</svg>

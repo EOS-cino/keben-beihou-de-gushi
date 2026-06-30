@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="人类通讯方式从烽火到书信到手机的变化插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">人类怎么把消息传到远方</text>
+  <line x1="200" y1="56" x2="600" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——从跑几个月到一秒到达</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="320" x2="720" y2="320" stroke="#c8843a" stroke-width="3"/>
+  <circle cx="160" cy="320" r="8" fill="#c84a3a"/>
+  <circle cx="300" cy="320" r="8" fill="#e8a838"/>
+  <circle cx="440" cy="320" r="8" fill="#e07856"/>
+  <circle cx="560" cy="320" r="8" fill="#2d6a4f"/>
+  <circle cx="680" cy="320" r="8" fill="#4a90b8"/>
+
+  <!-- 跑步送信 -->
+  <g transform="translate(160, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">最早</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">用人跑</text>
+    <g transform="translate(0, 50)">
+      <circle cx="0" cy="0" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="15" rx="8" ry="11" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-6 25 Q-12 35 -15 45" fill="none" stroke="#c84a3a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M6 25 Q14 30 18 22" fill="none" stroke="#c84a3a" stroke-width="3" stroke-linecap="round"/>
+      <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">马拉松</text>
+      <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">一天几十里</text>
+    </g>
+  </g>
+
+  <!-- 烽火 -->
+  <g transform="translate(300, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#e8a838">古代</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">烽火</text>
+    <g transform="translate(0, 50)">
+      <!-- 烽火台 -->
+      <rect x="-20" y="20" width="40" height="30" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-25" y="15" width="50" height="8" fill="#7a3b14"/>
+      <!-- 烟火 -->
+      <path d="M-8 15 Q-10 0 -3 -8 Q0 -15 3 -8 Q10 0 8 15" fill="#e8a838" opacity="0.8" stroke="#c84a3a" stroke-width="1"/>
+      <path d="M-4 10 Q-5 0 0 -5 Q5 0 4 10" fill="#e07856"/>
+      <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">只能传</text>
+      <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">"有敌人"</text>
+    </g>
+  </g>
+
+  <!-- 驿站/信鸽 -->
+  <g transform="translate(440, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#e07856">古代</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">驿站·信鸽</text>
+    <g transform="translate(0, 50)">
+      <!-- 马 -->
+      <ellipse cx="-5" cy="20" rx="15" ry="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-18" cy="15" r="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="-12" y1="28" x2="-14" y2="38" stroke="#7a3b14" stroke-width="2"/>
+      <line x1="0" y1="28" x2="2" y2="38" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 鸽子 -->
+      <g transform="translate(15, -5)">
+        <ellipse cx="0" cy="0" rx="8" ry="5" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+        <circle cx="6" cy="-2" r="3" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+        <path d="M-8 0 Q-15 -5 -12 5" fill="#4a90b8" opacity="0.6"/>
+      </g>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">八百里加急</text>
+      <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">鸽子飞回巢</text>
+    </g>
+  </g>
+
+  <!-- 邮票书信 -->
+  <g transform="translate(560, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#2d6a4f">近代</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">邮票书信</text>
+    <g transform="translate(0, 50)">
+      <!-- 信封 -->
+      <rect x="-22" y="5" width="44" height="28" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-22 5 L0 20 L22 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 邮票 -->
+      <rect x="10" y="8" width="12" height="10" fill="#e8a838" stroke="#7a3b14" stroke-width="1" stroke-dasharray="1,1"/>
+      <circle cx="16" cy="13" r="3" fill="#c84a3a" opacity="0.5"/>
+      <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">黑便士·大龙</text>
+      <text x="0" y="63" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">走几天几月</text>
+    </g>
+  </g>
+
+  <!-- 手机 -->
+  <g transform="translate(680, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">现在</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">手机·网络</text>
+    <g transform="translate(0, 50)">
+      <!-- 手机 -->
+      <rect x="-12" y="0" width="24" height="40" rx="4" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-9" y="5" width="18" height="26" fill="#fef9ed" stroke="#7a3b14" stroke-width="0.5"/>
+      <circle cx="0" cy="35" r="2" fill="#7a3b14"/>
+      <!-- 信号波 -->
+      <path d="M14 10 Q20 15 18 25" fill="none" stroke="#4a90b8" stroke-width="1.5"/>
+      <path d="M16 5 Q26 15 24 30" fill="none" stroke="#4a90b8" stroke-width="1.5" opacity="0.5"/>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">一秒到达</text>
+      <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">"在吗？""在"</text>
+    </g>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 400)">
+    <rect x="-320" y="0" width="640" height="150" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">消息从走几个月，变成走几秒</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">跑 · 烽火 · 驿站 · 信鸽 · 邮票书信 · 电报 · 电话 · 手机 · 互联网</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">快了，可我们很少写长信了——以前写好几页，现在发个"在吗"就没了</text>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">"快"让我们得到了效率，"慢"让我们得到了认真</text>
+    <text x="0" y="132" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">通讯方式变了，可人想和远方的人说话的心，从来没变</text>
+  </g>
+</svg>

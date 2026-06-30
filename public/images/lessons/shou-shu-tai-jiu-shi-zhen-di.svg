@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="手术台就是阵地">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">手术台就是阵地</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">炮火中的手术台</text>
+  <path d="M120,260 L680,260 L660,400 L140,400 Z" fill="#d9c9a8" stroke="#7a4a1a" stroke-width="2"/>
+  <path d="M120,260 L400,180 L680,260" fill="#c0392b" stroke="#7a1a1a" stroke-width="2"/>
+  <rect x="300" y="290" width="200" height="50" rx="4" fill="#f0e6cf" stroke="#7a4a1a" stroke-width="2"/>
+  <g transform="translate(400,260)" fill="#fff" stroke="#3a4a6a" stroke-width="2">
+    <circle cx="0" cy="-20" r="12"/>
+    <path d="M-16,-8 L16,-8 L20,20 L-20,20 Z"/>
+  </g>
+  <circle cx="400" cy="280" r="8" fill="#fbe9a8" opacity="0.8"/>
+  <g fill="#9aa8c0" opacity="0.6">
+    <circle cx="180" cy="200" r="6"/><circle cx="620" cy="210" r="5"/><circle cx="500" cy="170" r="4"/>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">“手术台就是医生的阵地”</text>
+</svg>

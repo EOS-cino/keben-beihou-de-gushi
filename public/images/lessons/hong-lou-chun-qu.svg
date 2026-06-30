@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="红楼春趣 - 大观园放风筝">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题栏 -->
+  <rect x="0" y="0" width="800" height="74" fill="#7a3b14" opacity="0.12"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">红 楼 春 趣</text>
+  <line x1="320" y1="64" x2="480" y2="64" stroke="#c05a30" stroke-width="2"/>
+
+  <!-- 春天天空渐变 -->
+  <rect x="0" y="74" width="800" height="340" fill="#3a7d5c" opacity="0.06"/>
+  <!-- 远山 -->
+  <path d="M0 380 Q150 320 300 360 Q450 300 600 350 Q700 330 800 370 L800 400 L0 400 Z" fill="#3a7d5c" opacity="0.15"/>
+
+  <!-- 云朵 -->
+  <g fill="#fff" opacity="0.7">
+    <ellipse cx="120" cy="130" rx="40" ry="14"/>
+    <ellipse cx="150" cy="125" rx="30" ry="12"/>
+    <ellipse cx="600" cy="110" rx="45" ry="15"/>
+    <ellipse cx="630" cy="105" rx="30" ry="12"/>
+  </g>
+
+  <!-- 风筝1：燕子风筝（左上） -->
+  <g transform="translate(180,150) rotate(-15)">
+    <path d="M0 0 L-20 -15 L-25 0 L-20 15 Z" fill="#c05a30"/>
+    <path d="M0 0 L20 -15 L25 0 L20 15 Z" fill="#c05a30"/>
+    <circle cx="0" cy="-8" r="10" fill="#c05a30"/>
+    <circle cx="-3" cy="-10" r="2" fill="#fef9ed"/><circle cx="3" cy="-10" r="2" fill="#fef9ed"/>
+    <!-- 尾飘带 -->
+    <path d="M0 15 Q-5 30 -8 45 Q-3 40 0 50 Q3 40 8 45 Q5 30 0 15" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 风筝线 -->
+    <path d="M0 0 Q60 80 120 200" stroke="#7a7468" stroke-width="0.8" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- 风筝2：蝴蝶风筝（右上） -->
+  <g transform="translate(580,130) rotate(10)">
+    <ellipse cx="-12" cy="-8" rx="14" ry="18" fill="#3a7d5c" opacity="0.8"/>
+    <ellipse cx="12" cy="-8" rx="14" ry="18" fill="#3a7d5c" opacity="0.8"/>
+    <ellipse cx="-10" cy="10" rx="10" ry="12" fill="#3a7d5c" opacity="0.6"/>
+    <ellipse cx="10" cy="10" rx="10" ry="12" fill="#3a7d5c" opacity="0.6"/>
+    <rect x="-2" y="-15" width="4" height="30" rx="2" fill="#7a3b14"/>
+    <circle cx="0" cy="-18" r="4" fill="#7a3b14"/>
+    <path d="M0 15 Q-3 30 -5 45 M0 15 Q3 30 5 45" stroke="#7a3b14" stroke-width="1.2" fill="none"/>
+    <!-- 风筝线 -->
+    <path d="M0 0 Q-50 90 -110 220" stroke="#7a7468" stroke-width="0.8" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- 风筝3：菱形小风筝（中上） -->
+  <g transform="translate(400,100) rotate(5)">
+    <path d="M0 -20 L15 0 L0 20 L-15 0 Z" fill="#c05a30" opacity="0.7"/>
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#fef9ed" stroke-width="1"/>
+    <line x1="0" y1="-20" x2="0" y2="20" stroke="#fef9ed" stroke-width="1"/>
+    <path d="M0 20 Q5 35 0 50 Q-5 35 0 20" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <path d="M0 0 Q-30 100 -60 240" stroke="#7a7468" stroke-width="0.8" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- 大观园建筑（中景） -->
+  <g transform="translate(400,400)">
+    <!-- 主楼 -->
+    <rect x="-80" y="-20" width="160" height="40" fill="#7a3b14" opacity="0.7"/>
+    <!-- 屋顶（翘檐） -->
+    <path d="M-95 -20 Q-90 -45 -60 -50 L60 -50 Q90 -45 95 -20 L80 -20 L-80 -20 Z" fill="#2d2a24"/>
+    <path d="M-95 -20 Q-100 -25 -105 -18 M95 -20 Q100 -25 105 -18" stroke="#2d2a24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- 屋脊 -->
+    <line x1="-60" y1="-50" x2="60" y2="-50" stroke="#c05a30" stroke-width="2"/>
+    <!-- 柱子 -->
+    <rect x="-70" y="-20" width="6" height="40" fill="#2d2a24"/>
+    <rect x="64" y="-20" width="6" height="40" fill="#2d2a24"/>
+    <!-- 门窗 -->
+    <rect x="-30" y="-15" width="60" height="35" fill="#c05a30" opacity="0.3"/>
+    <line x1="0" y1="-15" x2="0" y2="20" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 灯笼 -->
+    <ellipse cx="-50" cy="-30" rx="6" ry="8" fill="#c05a30"/>
+    <ellipse cx="50" cy="-30" rx="6" ry="8" fill="#c05a30"/>
+    <!-- 二层小楼（左） -->
+    <g transform="translate(-150,-10)">
+      <rect x="-40" y="-10" width="80" height="30" fill="#7a3b14" opacity="0.6"/>
+      <path d="M-48 -10 Q-45 -28 -25 -32 L25 -32 Q45 -28 48 -10 L-48 -10 Z" fill="#2d2a24"/>
+    </g>
+    <!-- 二层小楼（右） -->
+    <g transform="translate(150,-10)">
+      <rect x="-40" y="-10" width="80" height="30" fill="#7a3b14" opacity="0.6"/>
+      <path d="M-48 -10 Q-45 -28 -25 -32 L25 -32 Q45 -28 48 -10 L-48 -10 Z" fill="#2d2a24"/>
+    </g>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="440" width="800" height="74" fill="#3a7d5c" opacity="0.1"/>
+  <!-- 围墙 -->
+  <rect x="0" y="440" width="800" height="6" fill="#7a3b14" opacity="0.4"/>
+
+  <!-- 人物剪影：放风筝的人1 -->
+  <g transform="translate(200,440)">
+    <path d="M-14 -20 L14 -20 L18 20 L-18 20 Z" fill="#c05a30" opacity="0.85"/>
+    <circle cx="0" cy="-34" r="12" fill="#c05a30" opacity="0.85"/>
+    <circle cx="0" cy="-44" r="6" fill="#2d2a24"/>
+    <!-- 举线的手 -->
+    <path d="M14 -10 Q30 -20 36 -35" stroke="#c05a30" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <line x1="36" y1="-35" x2="20" y2="-290" stroke="#7a7468" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- 人物剪影：放风筝的人2 -->
+  <g transform="translate(600,440)">
+    <path d="M-12 -20 L12 -20 L16 20 L-16 20 Z" fill="#3a7d5c" opacity="0.85"/>
+    <circle cx="0" cy="-32" r="11" fill="#3a7d5c" opacity="0.85"/>
+    <circle cx="0" cy="-41" r="6" fill="#2d2a24"/>
+    <path d="M-12 -10 Q-26 -20 -30 -35" stroke="#3a7d5c" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <line x1="-30" y1="-35" x2="-20" y2="-310" stroke="#7a7468" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- 柳树枝条装饰 -->
+  <g stroke="#3a7d5c" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M40 120 Q30 160 35 200 Q40 230 30 260"/>
+    <path d="M55 125 Q50 165 55 205 Q60 235 50 265"/>
+    <path d="M760 130 Q770 170 765 210 Q760 240 770 270"/>
+    <path d="M745 135 Q750 175 745 215 Q740 245 750 275"/>
+  </g>
+
+  <rect x="0" y="514" width="800" height="86" fill="#fef9ed"/>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">大观园中春风暖，纸鸢高飞笑语喧</text>
+</svg>

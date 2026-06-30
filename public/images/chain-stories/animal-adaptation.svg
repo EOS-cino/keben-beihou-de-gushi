@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="不同动物特征插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">动物的不同本领</text>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#6b6557" font-family="sans-serif">每种动物的身体结构，都是生存的答案</text>
+
+  <!-- 四种动物卡片 -->
+
+  <!-- 卡片1：啄木鸟 -->
+  <g transform="translate(0,90)">
+    <rect x="40" y="0" width="340" height="160" rx="10" fill="#f0f7f4" stroke="#5a9d3e" stroke-width="2"/>
+    <text x="210" y="25" text-anchor="middle" font-size="14" fill="#3a6b28" font-family="sans-serif" font-weight="bold">啄木鸟——森林医生</text>
+    <!-- 树干 -->
+    <rect x="80" y="50" width="30" height="90" fill="#8d6a3d"/>
+    <ellipse cx="95" cy="55" rx="18" ry="8" fill="#6b4a2d"/>
+    <!-- 树洞 -->
+    <ellipse cx="95" cy="90" rx="8" ry="6" fill="#3a2a1a"/>
+    <!-- 啄木鸟 -->
+    <g transform="translate(95,80)">
+      <!-- 身体 -->
+      <ellipse cx="0" cy="0" rx="14" ry="10" fill="#4a4a4a"/>
+      <ellipse cx="0" cy="-2" rx="11" ry="8" fill="#5a5a5a"/>
+      <!-- 红头 -->
+      <circle cx="-10" cy="-5" r="8" fill="#e36f5b"/>
+      <!-- 尖嘴（插进树洞） -->
+      <path d="M-16 -3 L-22 -2" stroke="#2a2a2a" stroke-width="2" stroke-linecap="round"/>
+      <!-- 眼睛 -->
+      <circle cx="-12" cy="-6" r="1.5" fill="#1a1a1a"/>
+      <!-- 翅膀斑点 -->
+      <circle cx="3" cy="-2" r="2" fill="#ffffff"/>
+      <circle cx="8" cy="2" r="2" fill="#ffffff"/>
+      <!-- 爪子抓树 -->
+      <path d="M5 8 L5 14 M3 14 L8 14" stroke="#4a4a4a" stroke-width="1.5"/>
+    </g>
+    <!-- 特征标注 -->
+    <g transform="translate(180,70)">
+      <text x="0" y="0" font-size="11" fill="#3a6b28" font-family="sans-serif" font-weight="bold">本领：啄树捉虫</text>
+      <text x="0" y="18" font-size="10" fill="#6b6557" font-family="sans-serif">· 尖嘴如凿，能啄开树皮</text>
+      <text x="0" y="34" font-size="10" fill="#6b6557" font-family="sans-serif">· 长舌勾出树洞里的虫</text>
+      <text x="0" y="50" font-size="10" fill="#6b6557" font-family="sans-serif">· 头骨减震，大脑不受伤</text>
+      <text x="0" y="70" font-size="10" fill="#6b6557" font-family="sans-serif">· 爪子抓树，尾巴支撑</text>
+    </g>
+  </g>
+
+  <!-- 卡片2：蝙蝠 -->
+  <g transform="translate(420,90)">
+    <rect x="0" y="0" width="340" height="160" rx="10" fill="#e8e8f0" stroke="#6a6a8a" stroke-width="2"/>
+    <text x="170" y="25" text-anchor="middle" font-size="14" fill="#3a3a5a" font-family="sans-serif" font-weight="bold">蝙蝠——回声定位</text>
+    <!-- 夜空背景 -->
+    <rect x="20" y="40" width="120" height="100" rx="5" fill="#2a2a4e" opacity="0.3"/>
+    <!-- 蝙蝠 -->
+    <g transform="translate(80,90)">
+      <!-- 身体 -->
+      <ellipse cx="0" cy="0" rx="8" ry="10" fill="#3a3a3a"/>
+      <!-- 翅膀 -->
+      <path d="M-5 -3 Q-20 -10 -30 0 Q-25 5 -15 3 Q-10 5 -5 3" fill="#4a4a4a"/>
+      <path d="M5 -3 Q20 -10 30 0 Q25 5 15 3 Q10 5 5 3" fill="#4a4a4a"/>
+      <!-- 耳朵 -->
+      <path d="M-3 -8 L-5 -14 L-1 -10" fill="#3a3a3a"/>
+      <path d="M3 -8 L5 -14 L1 -10" fill="#3a3a3a"/>
+    </g>
+    <!-- 声波 -->
+    <g transform="translate(80,90)">
+      <path d="M10 0 Q20 -5 30 0" fill="none" stroke="#7ec0db" stroke-width="1.5" opacity="0.6"/>
+      <path d="M10 -5 Q25 -15 40 -5" fill="none" stroke="#7ec0db" stroke-width="1.5" opacity="0.5"/>
+      <path d="M10 5 Q25 15 40 5" fill="none" stroke="#7ec0db" stroke-width="1.5" opacity="0.5"/>
+      <!-- 飞虫 -->
+      <circle cx="35" cy="0" r="3" fill="#e8a040"/>
+    </g>
+    <!-- 特征标注 -->
+    <g transform="translate(160,70)">
+      <text x="0" y="0" font-size="11" fill="#3a3a5a" font-family="sans-serif" font-weight="bold">本领：黑暗中捕食</text>
+      <text x="0" y="18" font-size="10" fill="#6b6557" font-family="sans-serif">· 发出高频声波</text>
+      <text x="0" y="34" font-size="10" fill="#6b6557" font-family="sans-serif">· 回声定位猎物位置</text>
+      <text x="0" y="50" font-size="10" fill="#6b6557" font-family="sans-serif">· 不靠眼睛也能飞行</text>
+      <text x="0" y="70" font-size="10" fill="#6b6557" font-family="sans-serif">· 启发了人类发明雷达</text>
+    </g>
+  </g>
+
+  <!-- 卡片3：变色龙 -->
+  <g transform="translate(40,270)">
+    <rect x="0" y="0" width="340" height="160" rx="10" fill="#fff4e0" stroke="#e8a040" stroke-width="2"/>
+    <text x="170" y="25" text-anchor="middle" font-size="14" fill="#8d6a3d" font-family="sans-serif" font-weight="bold">变色龙——伪装大师</text>
+    <!-- 树枝 -->
+    <path d="M30 100 Q80 95 130 100 Q160 102 180 100" fill="none" stroke="#6b4a2d" stroke-width="6" stroke-linecap="round"/>
+    <!-- 变色龙 -->
+    <g transform="translate(80,80)">
+      <!-- 身体 -->
+      <ellipse cx="0" cy="10" rx="15" ry="10" fill="#5a9d3e"/>
+      <!-- 头 -->
+      <ellipse cx="-12" cy="5" rx="8" ry="7" fill="#6ab04c"/>
+      <!-- 眼睛（凸起） -->
+      <circle cx="-15" cy="2" r="5" fill="#5a9d3e"/>
+      <circle cx="-15" cy="2" r="3" fill="#ffffff"/>
+      <circle cx="-15" cy="2" r="1.5" fill="#1a1a1a"/>
+      <!-- 卷尾巴 -->
+      <path d="M12 12 Q25 15 28 5 Q25 0 20 5" fill="none" stroke="#5a9d3e" stroke-width="5" stroke-linecap="round"/>
+      <!-- 腿 -->
+      <path d="M-5 18 L-5 25" stroke="#5a9d3e" stroke-width="3" stroke-linecap="round"/>
+      <path d="M8 18 L8 25" stroke="#5a9d3e" stroke-width="3" stroke-linecap="round"/>
+      <!-- 长舌头弹射 -->
+      <path d="M-18 5 Q-35 8 -40 5" fill="none" stroke="#e36f5b" stroke-width="2"/>
+      <circle cx="-42" cy="5" r="3" fill="#e36f5b"/>
+    </g>
+    <!-- 特征标注 -->
+    <g transform="translate(180,60)">
+      <text x="0" y="0" font-size="11" fill="#8d6a3d" font-family="sans-serif" font-weight="bold">本领：树上捕虫</text>
+      <text x="0" y="18" font-size="10" fill="#6b6557" font-family="sans-serif">· 变色伪装，融入环境</text>
+      <text x="0" y="34" font-size="10" fill="#6b6557" font-family="sans-serif">· 两眼分别转动，视野广</text>
+      <text x="0" y="50" font-size="10" fill="#6b6557" font-family="sans-serif">· 舌头弹射，瞬间粘虫</text>
+      <text x="0" y="70" font-size="10" fill="#6b6557" font-family="sans-serif">· 卷尾抓枝，稳如泰山</text>
+    </g>
+  </g>
+
+  <!-- 卡片4：鸭子 -->
+  <g transform="translate(420,270)">
+    <rect x="0" y="0" width="340" height="160" rx="10" fill="#e8f0ff" stroke="#4a7ab8" stroke-width="2"/>
+    <text x="170" y="25" text-anchor="middle" font-size="14" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">鸭子——游泳高手</text>
+    <!-- 水面 -->
+    <rect x="20" y="90" width="120" height="60" rx="5" fill="#7ec0db" opacity="0.4"/>
+    <path d="M25 100 Q50 97 75 100 Q100 103 135 100" fill="none" stroke="#a8d4e8" stroke-width="1.5"/>
+    <!-- 鸭子 -->
+    <g transform="translate(80,85)">
+      <ellipse cx="0" cy="0" rx="18" ry="12" fill="#ffffff"/>
+      <circle cx="-15" cy="-8" r="10" fill="#ffffff"/>
+      <path d="M-23 -8 L-30 -6 L-30 -2 L-23 -4" fill="#e8a040"/>
+      <circle cx="-17" cy="-10" r="2" fill="#1a1a1a"/>
+      <!-- 脚蹼（水下） -->
+      <ellipse cx="-3" cy="14" rx="6" ry="3" fill="#e8a040" opacity="0.5"/>
+      <ellipse cx="8" cy="14" rx="6" ry="3" fill="#e8a040" opacity="0.5"/>
+    </g>
+    <!-- 特征标注 -->
+    <g transform="translate(160,60)">
+      <text x="0" y="0" font-size="11" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">本领：水中觅食</text>
+      <text x="0" y="18" font-size="10" fill="#6b6557" font-family="sans-serif">· 脚有蹼，划水有力</text>
+      <text x="0" y="34" font-size="10" fill="#6b6557" font-family="sans-serif">· 扁嘴滤食小鱼虾</text>
+      <text x="0" y="50" font-size="10" fill="#6b6557" font-family="sans-serif">· 羽毛防水，浮在水面</text>
+      <text x="0" y="70" font-size="10" fill="#6b6557" font-family="sans-serif">· 适合水边生活</text>
+    </g>
+  </g>
+
+  <!-- 底部：仿生学 -->
+  <g transform="translate(0,460)">
+    <text x="400" y="20" text-anchor="middle" font-size="16" fill="#2d2a24" font-family="sans-serif" font-weight="bold">动物本领启发了人类的发明</text>
+
+    <g transform="translate(150,55)">
+      <text x="0" y="0" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">蝙蝠回声定位</text>
+      <path d="M0 10 L80 10" stroke="#8d6a3d" stroke-width="2" fill="none" marker-end="url(#arr7)"/>
+      <text x="0" y="-15" text-anchor="middle" font-size="20" fill="#3a3a5a" font-family="sans-serif">🦇</text>
+    </g>
+    <g transform="translate(280,55)">
+      <text x="0" y="0" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">→ 雷达</text>
+    </g>
+
+    <g transform="translate(420,55)">
+      <text x="0" y="0" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">海豚流线型</text>
+      <path d="M0 10 L80 10" stroke="#8d6a3d" stroke-width="2" fill="none" marker-end="url(#arr7)"/>
+    </g>
+    <g transform="translate(550,55)">
+      <text x="0" y="0" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">→ 潜艇</text>
+    </g>
+  </g>
+
+  <text x="400" y="575" text-anchor="middle" font-size="13" fill="#6b6557" font-family="sans-serif">每种动物的本领，都是大自然亿万年演化的结果</text>
+
+  <defs>
+    <marker id="arr7" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#8d6a3d"/>
+    </marker>
+  </defs>
+</svg>

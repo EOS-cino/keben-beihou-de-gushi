@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="星光穿越光年到达地球的旅程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：星星的光要走多久才到我们眼里</text>
+  <line x1="100" y1="55" x2="700" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 距离阶梯 -->
+  <!-- 太阳 -->
+  <g transform="translate(120 200)">
+    <circle cx="0" cy="0" r="22" fill="#e8a838"/>
+    <g stroke="#e8a838" stroke-width="1.5" opacity="0.5">
+      <line x1="0" y1="-30" x2="0" y2="-36"/>
+      <line x1="0" y1="30" x2="0" y2="36"/>
+      <line x1="-30" y1="0" x2="-36" y2="0"/>
+      <line x1="30" y1="0" x2="36" y2="0"/>
+    </g>
+    <text x="0" y="56" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">太阳</text>
+    <text x="0" y="74" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">8分钟</text>
+  </g>
+
+  <!-- 比邻星 -->
+  <g transform="translate(290 200)">
+    <circle cx="0" cy="0" r="10" fill="#e07856"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">比邻星</text>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">4.2光年</text>
+  </g>
+
+  <!-- 织女星 -->
+  <g transform="translate(440 200)">
+    <circle cx="0" cy="0" r="12" fill="#4a90b8"/>
+    <circle cx="0" cy="0" r="20" fill="#4a90b8" opacity="0.2"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">织女星</text>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">25光年</text>
+  </g>
+
+  <!-- 仙女座 -->
+  <g transform="translate(600 200)">
+    <ellipse cx="0" cy="0" rx="22" ry="10" fill="#9fc8b4" opacity="0.6"/>
+    <ellipse cx="0" cy="0" rx="12" ry="6" fill="#9fc8b4" opacity="0.9"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">仙女座星系</text>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">250万光年</text>
+  </g>
+
+  <!-- 光旅程(虚线) -->
+  <g stroke="#e8a838" stroke-width="1.5" opacity="0.5" stroke-dasharray="5 5" fill="none">
+    <path d="M120 200 Q260 320 440 200"/>
+  </g>
+
+  <!-- 时光机概念 -->
+  <g transform="translate(400 360)">
+    <rect x="-220" y="0" width="440" height="56" fill="#2d4a68" opacity="0.1" stroke="#4a90b8" stroke-width="1.5" rx="8"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a8a" font-weight="bold">望远镜是时光机：看得越远，就是看得越早</text>
+    <text x="0" y="44" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">你现在看到的星光，是它出发时的"旧照片"</text>
+  </g>
+
+  <!-- 外星人看地球(趣味) -->
+  <g transform="translate(150 440)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">织女星上的外星人此刻看地球</text>
+    <g transform="translate(0 24)">
+      <circle cx="0" cy="0" r="14" fill="#4a90b8"/>
+      <path d="M-8 -4 Q0 -10 8 -4" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+      <!-- 恐龙(25年前=错的，是25光年→看25年前) -->
+      <g transform="translate(0 6)">
+        <ellipse cx="-4" cy="0" rx="6" ry="4" fill="#2d6a4f" opacity="0.7"/>
+        <path d="M-10 0 L-14 -4" stroke="#2d6a4f" stroke-width="1.5"/>
+      </g>
+    </g>
+    <text x="0" y="56" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">看到的是25年前的样子</text>
+  </g>
+
+  <!-- 最远星系 -->
+  <g transform="translate(620 440)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">最远星系的光</text>
+    <g transform="translate(0 24)">
+      <circle cx="0" cy="0" r="3" fill="#fef9ed" stroke="#c8843a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#e8a838" stroke-width="0.8" opacity="0.5"/>
+    </g>
+    <text x="0" y="56" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">走了一百多亿年</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="510" width="700" height="65" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.85"/>
+  <text x="400" y="538" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">光虽然每秒跑三十万公里，宇宙却大得光也要走几十亿年。</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a">那束光在黑暗里走了几十亿年，最后正好落进你的眼睛——这是一场约。</text>
+</svg>

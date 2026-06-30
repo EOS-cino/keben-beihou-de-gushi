@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="带电的小男孩与火花插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">霹雳贝贝</text>
+  <line x1="310" y1="60" x2="490" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="0" y="80" width="800" height="300" fill="#4a90b8" opacity="0.18"/>
+  <!-- 星星 -->
+  <g fill="#e8a838" opacity="0.8">
+    <circle cx="90" cy="120" r="2"/>
+    <circle cx="180" cy="100" r="2.5"/>
+    <circle cx="260" cy="130" r="2"/>
+    <circle cx="620" cy="110" r="2.5"/>
+    <circle cx="700" cy="135" r="2"/>
+    <circle cx="540" cy="95" r="2"/>
+  </g>
+
+  <!-- 闪电 -->
+  <path d="M400 80 L380 150 L405 150 L375 230 L410 230 L385 300" fill="none" stroke="#e8a838" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M400 80 L420 150 L395 150 L425 230 L390 230 L415 300" fill="none" stroke="#fff8c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="430" width="800" height="170" fill="#c8a878" opacity="0.5"/>
+  <path d="M0 440 Q200 435 400 440 T800 440" fill="none" stroke="#a88858" stroke-width="2"/>
+
+  <!-- 贝贝（小男孩） -->
+  <g transform="translate(400, 380)">
+    <!-- 身体 -->
+    <path d="M-28 50 L-24 -10 L24 -10 L28 50 Z" fill="#2d6a4f" stroke="#1a4a35" stroke-width="2"/>
+    <!-- 衣服闪电图案 -->
+    <path d="M-6 5 L2 -5 L-2 -5 L6 -18 L0 0 L4 0 L-4 15 Z" fill="#e8a838"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-40" r="30" fill="#f0d0a8" stroke="#c89060" stroke-width="2"/>
+    <!-- 头发（竖起，带电） -->
+    <path d="M-26 -52 Q-30 -75 -20 -68 Q-22 -82 -10 -72 Q-12 -85 0 -78 Q12 -85 10 -72 Q22 -82 20 -68 Q30 -75 26 -52 Q0 -64 -26 -52" fill="#2a2a2a"/>
+    <!-- 眼睛 -->
+    <ellipse cx="-10" cy="-42" rx="3.5" ry="3.5" fill="#2a2a2a"/>
+    <ellipse cx="10" cy="-42" rx="3.5" ry="3.5" fill="#2a2a2a"/>
+    <!-- 嘴（惊讶） -->
+    <ellipse cx="0" cy="-28" rx="4" ry="5" fill="#7a3b14"/>
+    <!-- 双臂伸出 -->
+    <path d="M-24 -5 L-70 20 L-85 30" fill="none" stroke="#f0d0a8" stroke-width="14" stroke-linecap="round"/>
+    <path d="M24 -5 L70 20 L85 30" fill="none" stroke="#f0d0a8" stroke-width="14" stroke-linecap="round"/>
+    <!-- 手心光球 -->
+    <circle cx="-88" cy="32" r="14" fill="#e8a838" opacity="0.5"/>
+    <circle cx="-88" cy="32" r="7" fill="#fff8c8"/>
+    <circle cx="88" cy="32" r="14" fill="#e8a838" opacity="0.5"/>
+    <circle cx="88" cy="32" r="7" fill="#fff8c8"/>
+    <!-- 手指间火花 -->
+    <g stroke="#e8a838" stroke-width="2" stroke-linecap="round">
+      <line x1="-95" y1="20" x2="-100" y2="12"/>
+      <line x1="-80" y1="20" x2="-75" y2="12"/>
+      <line x1="-88" y1="48" x2="-88" y2="58"/>
+      <line x1="95" y1="20" x2="100" y2="12"/>
+      <line x1="80" y1="20" x2="75" y2="12"/>
+      <line x1="88" y1="48" x2="88" y2="58"/>
+    </g>
+    <!-- 腿 -->
+    <path d="M-15 50 L-20 95 L-24 120" fill="none" stroke="#2d6a4f" stroke-width="14" stroke-linecap="round"/>
+    <path d="M15 50 L20 95 L24 120" fill="none" stroke="#2d6a4f" stroke-width="14" stroke-linecap="round"/>
+    <ellipse cx="-26" cy="124" rx="14" ry="8" fill="#7a3b14"/>
+    <ellipse cx="26" cy="124" rx="14" ry="8" fill="#7a3b14"/>
+  </g>
+
+  <!-- 周围电火花 -->
+  <g stroke="#e8a838" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M300 320 L290 310 L300 305 L288 295"/>
+    <path d="M500 320 L510 310 L500 305 L512 295"/>
+    <path d="M320 250 L308 245 L315 238"/>
+    <path d="M480 250 L492 245 L485 238"/>
+  </g>
+
+  <!-- 灯泡（被点亮） -->
+  <g transform="translate(150, 320)">
+    <circle cx="0" cy="0" r="22" fill="#fff8c8" stroke="#e8a838" stroke-width="2"/>
+    <path d="M-8 18 L-8 28 L8 28 L8 18" fill="#a0a0a0" stroke="#6a6a6a" stroke-width="1.5"/>
+    <path d="M-6 8 L0 -2 L4 4 L8 -6" fill="none" stroke="#e8a838" stroke-width="2"/>
+    <g stroke="#e8a838" stroke-width="1.5" opacity="0.6">
+      <line x1="0" y1="-30" x2="0" y2="-38"/>
+      <line x1="-28" y1="-8" x2="-36" y2="-12"/>
+      <line x1="28" y1="-8" x2="36" y2="-12"/>
+    </g>
+  </g>
+
+  <!-- 标注 -->
+  <rect x="335" y="100" width="130" height="28" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="400" y="119" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">带电的小男孩</text>
+
+  <line x1="150" y1="298" x2="150" y2="270" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="100" y="245" width="100" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="150" y="263" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">手心能发光</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">贝贝身上带着电，烦恼里也藏着奇遇与温暖</text>
+</svg>

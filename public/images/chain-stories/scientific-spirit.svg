@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="科学精神四要素插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：科学精神是什么</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 中心圆 -->
+  <circle cx="400" cy="300" r="60" fill="#fff6df" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="295" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">科学</text>
+  <text x="400" y="315" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">精神</text>
+
+  <!-- 连接线 -->
+  <g stroke="#c8843a" stroke-width="2" stroke-dasharray="5,3">
+    <line x1="400" y1="240" x2="400" y2="170"/>
+    <line x1="460" y1="300" x2="560" y2="300"/>
+    <line x1="400" y1="360" x2="400" y2="430"/>
+    <line x1="340" y1="300" x2="240" y2="300"/>
+  </g>
+
+  <!-- 1.好奇（上） -->
+  <g transform="translate(400, 130)">
+    <circle cx="0" cy="0" r="40" fill="#e07856" opacity="0.2" stroke="#c84a3a" stroke-width="2"/>
+    <!-- 问号 -->
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#c84a3a">?</text>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">好奇</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">牛顿问"苹果为什么落地"</text>
+  </g>
+
+  <!-- 2.严谨（右） -->
+  <g transform="translate(600, 300)">
+    <circle cx="0" cy="0" r="40" fill="#6a8d3f" opacity="0.2" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 放大镜 -->
+    <circle cx="-5" cy="-5" r="14" fill="none" stroke="#4a6a2f" stroke-width="3"/>
+    <line x1="5" y1="5" x2="15" y2="15" stroke="#4a6a2f" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">严谨</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">门捷列夫留空格预言元素</text>
+  </g>
+
+  <!-- 3.不怕失败（下） -->
+  <g transform="translate(400, 470)">
+    <circle cx="0" cy="0" r="40" fill="#7ab8d8" opacity="0.2" stroke="#7ab8d8" stroke-width="2"/>
+    <!-- 失败×和成功✓ -->
+    <g stroke="#3a5a78" stroke-width="3" fill="none">
+      <line x1="-15" y1="-10" x2="-5" y2="0"/>
+      <line x1="-5" y1="-10" x2="-15" y2="0"/>
+    </g>
+    <path d="M5 -5 L10 5 L20 -8" fill="none" stroke="#6a8d3f" stroke-width="3"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">不怕失败</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">爱迪生试了上千种灯丝</text>
+  </g>
+
+  <!-- 4.求真（左） -->
+  <g transform="translate(200, 300)">
+    <circle cx="0" cy="0" r="40" fill="#c8843a" opacity="0.2" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 眼睛 -->
+    <ellipse cx="0" cy="0" rx="18" ry="12" fill="#fef9ed" stroke="#8d5a36" stroke-width="2"/>
+    <circle cx="0" cy="0" r="6" fill="#8d5a36"/>
+    <circle cx="2" cy="-2" r="2" fill="#fef9ed"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">求真</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">伽利略相信眼睛不信权威</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="42" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">好奇问"为什么"，严谨找"证据"，失败不放弃，只认事实不认权威——这就是科学精神。</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="时光机器与时间漩涡插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">时光机器</text>
+  <line x1="330" y1="62" x2="470" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 时间漩涡背景 -->
+  <g transform="translate(400, 300)">
+    <circle cx="0" cy="0" r="200" fill="none" stroke="#7ab8d8" stroke-width="1" opacity="0.2"/>
+    <circle cx="0" cy="0" r="160" fill="none" stroke="#7ab8d8" stroke-width="1" opacity="0.25"/>
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.3"/>
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#a8d0e8" stroke-width="2" opacity="0.4"/>
+    <!-- 螺旋 -->
+    <path d="M0 0 Q50 -30 60 0 Q50 30 0 0 Q-50 -30 -60 0 Q-50 30 0 0" fill="none" stroke="#c8843a" stroke-width="2" opacity="0.5"/>
+    <path d="M0 0 Q80 -50 100 0 Q80 50 0 0 Q-80 -50 -100 0 Q-80 50 0 0" fill="none" stroke="#c8843a" stroke-width="1.5" opacity="0.3"/>
+  </g>
+
+  <!-- 时光机舱（中央） -->
+  <g transform="translate(400, 300)">
+    <!-- 舱体 -->
+    <ellipse cx="0" cy="0" rx="55" ry="45" fill="#8d5a36" stroke="#5a3a1a" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="45" ry="36" fill="#a8d0e8" opacity="0.4" stroke="#7ab8d8" stroke-width="2"/>
+    <!-- 舱窗 -->
+    <circle cx="0" cy="-5" r="18" fill="#1a2a4a" stroke="#7a3b14" stroke-width="2.5"/>
+    <circle cx="0" cy="-5" r="14" fill="#2a3a5a"/>
+    <!-- 窗内星光 -->
+    <circle cx="-5" cy="-8" r="1.5" fill="#fef9ed"/>
+    <circle cx="4" cy="-3" r="1" fill="#fef9ed"/>
+    <circle cx="-2" cy="2" r="1" fill="#fef9ed"/>
+    <!-- 控制面板 -->
+    <rect x="-30" y="15" width="60" height="18" rx="3" fill="#5a3a1a" stroke="#3a2a1a" stroke-width="1.5"/>
+    <!-- 按钮 -->
+    <circle cx="-18" cy="24" r="4" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+    <circle cx="-6" cy="24" r="4" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="6" cy="24" r="4" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="18" cy="24" r="4" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 刻度盘 -->
+    <circle cx="0" cy="24" r="0" fill="none"/>
+    <!-- 底座 -->
+    <ellipse cx="0" cy="48" rx="40" ry="8" fill="#5a3a1a" stroke="#3a2a1a" stroke-width="2"/>
+    <!-- 光芒 -->
+    <g stroke="#e07856" stroke-width="2" opacity="0.5">
+      <line x1="-70" y1="0" x2="-85" y2="0"/>
+      <line x1="70" y1="0" x2="85" y2="0"/>
+      <line x1="0" y1="-60" x2="0" y2="-75"/>
+    </g>
+  </g>
+
+  <!-- 左：过去（恐龙时代） -->
+  <g transform="translate(130, 200)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">过去</text>
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">-6500万年</text>
+    <!-- 蕨类植物 -->
+    <path d="M-20 50 Q-15 20 -10 50 M-10 50 Q-5 15 0 50 M0 50 Q5 20 10 50 M10 50 Q15 25 20 50" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 霸王龙简笔 -->
+    <g transform="translate(0, 20)">
+      <path d="M-15 10 Q-20 -5 -10 -10 Q0 -15 10 -10 Q20 -5 18 10 L15 25 L-12 25 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <!-- 头 -->
+      <ellipse cx="18" cy="-12" rx="12" ry="8" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <!-- 牙 -->
+      <path d="M24 -10 L26 -5 M22 -8 L24 -3" stroke="#fef9ed" stroke-width="1.5"/>
+      <!-- 眼 -->
+      <circle cx="20" cy="-13" r="1.5" fill="#c84a3a"/>
+      <!-- 尾 -->
+      <path d="M-15 10 Q-30 5 -35 15" fill="none" stroke="#6a8d3f" stroke-width="6" stroke-linecap="round"/>
+      <!-- 腿 -->
+      <rect x="-8" y="25" width="5" height="15" fill="#4a6a2f"/>
+      <rect x="8" y="25" width="5" height="15" fill="#4a6a2f"/>
+    </g>
+  </g>
+
+  <!-- 右：未来 -->
+  <g transform="translate(670, 200)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">未来</text>
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">+3000年</text>
+    <!-- 飞行汽车 -->
+    <g transform="translate(0, 10)">
+      <ellipse cx="0" cy="0" rx="25" ry="10" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-10" y="-12" width="20" height="10" rx="3" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 光束 -->
+      <ellipse cx="-15" cy="12" rx="4" ry="2" fill="#e07856" opacity="0.6"/>
+      <ellipse cx="15" cy="12" rx="4" ry="2" fill="#e07856" opacity="0.6"/>
+    </g>
+    <!-- 高楼 -->
+    <g transform="translate(-20, 50)">
+      <rect x="0" y="-30" width="12" height="30" fill="#8d5a36" opacity="0.6"/>
+      <rect x="15" y="-40" width="12" height="40" fill="#8d5a36" opacity="0.6"/>
+      <rect x="30" y="-25" width="12" height="25" fill="#8d5a36" opacity="0.6"/>
+      <!-- 窗户灯 -->
+      <rect x="2" y="-25" width="3" height="3" fill="#e07856"/>
+      <rect x="17" y="-35" width="3" height="3" fill="#e07856"/>
+      <rect x="32" y="-20" width="3" height="3" fill="#e07856"/>
+    </g>
+  </g>
+
+  <!-- 时间轴箭头 -->
+  <line x1="130" y1="430" x2="670" y2="430" stroke="#8d5a36" stroke-width="2"/>
+  <polygon points="670,430 660,425 660,435" fill="#8d5a36"/>
+  <circle cx="400" cy="430" r="6" fill="#c84a3a"/>
+  <text x="400" y="455" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">现在</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="500" width="700" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8" opacity="0.85"/>
+  <text x="400" y="525" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">过去回不去，未来还没来——</text>
+  <text x="400" y="548" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">唯一能握在手里的，是"现在"这一秒</text>
+</svg>

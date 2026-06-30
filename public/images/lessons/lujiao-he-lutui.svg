@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="鹿角和鹿腿">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">鹿角和鹿腿</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">漂亮的不一定有用</text>
+  <g transform="translate(300,300)">
+    <ellipse cx="0" cy="40" rx="50" ry="30" fill="#e8b94a" stroke="#a85a2a" stroke-width="2"/>
+    <ellipse cx="0" cy="10" rx="24" ry="20" fill="#f0d8a8" stroke="#a85a2a" stroke-width="2"/>
+    <path d="M-14,-4 L-26,-26 L-18,-10 Z M-18,-10 L-34,-20" fill="none" stroke="#7a4a1a" stroke-width="3"/>
+    <path d="M14,-4 L26,-26 L18,-10 Z M18,-10 L34,-20" fill="none" stroke="#7a4a1a" stroke-width="3"/>
+    <line x1="-30" y1="60" x2="-30" y2="90" stroke="#7a4a1a" stroke-width="4"/>
+    <line x1="30" y1="60" x2="30" y2="90" stroke="#7a4a1a" stroke-width="4"/>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="16" fill="#a85a2a">角·漂亮</text>
+  </g>
+  <g transform="translate(540,330)">
+    <line x1="-20" y1="-30" x2="-20" y2="20" stroke="#7a4a1a" stroke-width="5"/>
+    <line x1="20" y1="-30" x2="20" y2="20" stroke="#7a4a1a" stroke-width="5"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="16" fill="#a85a2a">腿·有用</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">有用的，才是真正好的</text>
+</svg>

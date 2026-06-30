@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="年轮特写展示树木年龄的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景树影 -->
+  <g opacity="0.08">
+    <rect x="80" y="100" width="12" height="400" fill="#2d6a4f"/>
+    <rect x="680" y="120" width="10" height="380" fill="#2d6a4f"/>
+    <circle cx="86" cy="100" r="30" fill="#2d6a4f"/>
+    <circle cx="685" cy="120" r="25" fill="#2d6a4f"/>
+  </g>
+  <!-- 树桩横截面（大圆） -->
+  <g transform="translate(400 320)">
+    <!-- 外圈树皮 -->
+    <circle cx="0" cy="0" r="200" fill="#6b5535" opacity="0.6"/>
+    <circle cx="0" cy="0" r="195" fill="#8b6f47" opacity="0.5"/>
+    <!-- 年轮 -->
+    <g fill="none" stroke="#a08560" stroke-width="2" opacity="0.5">
+      <circle cx="0" cy="0" r="185"/>
+      <circle cx="0" cy="0" r="170"/>
+      <circle cx="0" cy="0" r="155"/>
+      <circle cx="0" cy="0" r="140"/>
+      <circle cx="0" cy="0" r="125"/>
+      <circle cx="0" cy="0" r="110"/>
+      <circle cx="0" cy="0" r="95"/>
+      <circle cx="0" cy="0" r="80"/>
+      <circle cx="0" cy="0" r="65"/>
+      <circle cx="0" cy="0" r="50"/>
+      <circle cx="0" cy="0" r="35"/>
+      <circle cx="0" cy="0" r="20"/>
+    </g>
+    <!-- 宽年轮（雨水多的年） -->
+    <circle cx="0" cy="0" r="170" fill="none" stroke="#e8a838" stroke-width="3" opacity="0.3"/>
+    <circle cx="0" cy="0" r="125" fill="none" stroke="#e8a838" stroke-width="3" opacity="0.3"/>
+    <!-- 窄年轮（干旱的年） -->
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#e07856" stroke-width="2.5" opacity="0.4"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#e07856" stroke-width="2.5" opacity="0.4"/>
+    <!-- 火烧痕迹 -->
+    <path d="M120 -80 Q140 -60 130 -30" stroke="#333" stroke-width="3" fill="none" opacity="0.3"/>
+    <!-- 中心点 -->
+    <circle cx="0" cy="0" r="8" fill="#6b5535"/>
+    <circle cx="0" cy="0" r="3" fill="#4a3a25"/>
+    <!-- 裂缝 -->
+    <path d="M0 0 L30 50 L60 120" stroke="#6b5535" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M0 0 L-40 -30 L-80 -80" stroke="#6b5535" stroke-width="1.5" fill="none" opacity="0.3"/>
+  </g>
+  <!-- 标注线 -->
+  <g stroke="#2d6a4f" stroke-width="1.5" fill="none" opacity="0.5">
+    <line x1="400" y1="320" x2="570" y2="320"/>
+    <line x1="570" y1="320" x2="600" y2="300"/>
+  </g>
+  <g transform="translate(610 290)">
+    <rect x="0" y="0" width="120" height="35" fill="#fef9ed" stroke="#2d6a4f" stroke-width="1.5" opacity="0.8"/>
+    <text x="60" y="15" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#2d6a4f">宽年轮=雨水多</text>
+    <text x="60" y="28" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="9" fill="#7a7468">那年长得快</text>
+  </g>
+  <g stroke="#e07856" stroke-width="1.5" fill="none" opacity="0.5">
+    <line x1="400" y1="320" x2="400" y2="470"/>
+    <line x1="400" y1="470" x2="430" y2="490"/>
+  </g>
+  <g transform="translate(435 480)">
+    <rect x="0" y="0" width="120" height="35" fill="#fef9ed" stroke="#e07856" stroke-width="1.5" opacity="0.8"/>
+    <text x="60" y="15" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#e07856">窄年轮=干旱</text>
+    <text x="60" y="28" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="9" fill="#7a7468">那年长得慢</text>
+  </g>
+  <!-- 放大镜 -->
+  <g transform="translate(250 250)">
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#e8a838" stroke-width="5"/>
+    <circle cx="0" cy="0" r="35" fill="#fef9ed" opacity="0.2"/>
+    <line x1="25" y1="25" x2="45" y2="45" stroke="#e8a838" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#2d6a4f">连珠小故事：年轮会说话</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7a7468">一圈一圈，树把每一年都记在了身体里</text>
+</svg>

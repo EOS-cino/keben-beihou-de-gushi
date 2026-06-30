@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="西游记文化插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#8a5a14">连珠小故事：西游记的文化影响</text>
+  <line x1="180" y1="62" x2="620" y2="62" stroke="#c8943a" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心孙悟空形象 -->
+  <g>
+    <!-- 身体（虎皮裙） -->
+    <path d="M380 470 L385 380 L425 380 L430 470 Z" fill="#c45a2a"/>
+    <!-- 虎皮裙花纹 -->
+    <rect x="385" y="430" width="45" height="40" fill="#e8a842"/>
+    <g stroke="#5a3a1a" stroke-width="2" fill="none">
+      <path d="M390 440 Q400 445 410 440"/>
+      <path d="M390 455 Q400 460 410 455"/>
+    </g>
+    <!-- 头 -->
+    <circle cx="405" cy="360" r="22" fill="#a07a4a"/>
+    <!-- 猴脸 -->
+    <path d="M405 355 Q393 365 405 378 Q417 365 405 355 Z" fill="#f0d0a8"/>
+    <!-- 眼睛（火眼金睛） -->
+    <circle cx="399" cy="362" r="3" fill="#2a2a2a"/>
+    <circle cx="411" cy="362" r="3" fill="#2a2a2a"/>
+    <circle cx="399" cy="362" r="1" fill="#f4d842"/>
+    <circle cx="411" cy="362" r="1" fill="#f4d842"/>
+    <!-- 金箍 -->
+    <path d="M385 348 Q405 338 425 348" fill="none" stroke="#f4c842" stroke-width="5"/>
+    <circle cx="405" cy="342" r="4" fill="#e8783a"/>
+    <!-- 手臂（持金箍棒） -->
+    <path d="M385 390 L350 420 L345 430 L388 405 Z" fill="#a07a4a"/>
+    <path d="M425 390 L460 360 L465 370 L430 405 Z" fill="#a07a4a"/>
+    <!-- 金箍棒 -->
+    <rect x="340" y="350" width="10" height="120" fill="#e8a842" rx="2"/>
+    <rect x="338" y="348" width="14" height="14" fill="#c45a2a" rx="2"/>
+    <rect x="338" y="458" width="14" height="14" fill="#c45a2a" rx="2"/>
+  </g>
+
+  <!-- 四个文化载体节点 -->
+  <!-- 节点1：文学（书） -->
+  <g>
+    <rect x="80" y="160" width="90" height="110" fill="#fff6df" stroke="#8a5a14" stroke-width="2" rx="3"/>
+    <line x1="125" y1="160" x2="125" y2="270" stroke="#8a5a14" stroke-width="1"/>
+    <line x1="95" y1="185" x2="155" y2="185" stroke="#c8943a" stroke-width="1"/>
+    <line x1="95" y1="200" x2="155" y2="200" stroke="#c8943a" stroke-width="1"/>
+    <line x1="95" y1="215" x2="155" y2="215" stroke="#c8943a" stroke-width="1"/>
+    <text x="125" y="295" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">明代小说</text>
+    <text x="125" y="312" text-anchor="middle" font-family="serif" font-size="11" fill="#8a5a14">吴承恩原著</text>
+  </g>
+
+  <!-- 节点2：戏曲（脸谱） -->
+  <g>
+    <ellipse cx="280" cy="200" rx="40" ry="48" fill="#fff6df" stroke="#8a5a14" stroke-width="2"/>
+    <!-- 猴脸谱 -->
+    <path d="M280 185 Q260 205 280 235 Q300 205 280 185 Z" fill="#f0d0a8"/>
+    <ellipse cx="268" cy="195" rx="8" ry="6" fill="#c45a2a"/>
+    <ellipse cx="292" cy="195" rx="8" ry="6" fill="#c45a2a"/>
+    <circle cx="268" cy="195" r="3" fill="#2a2a2a"/>
+    <circle cx="292" cy="195" r="3" fill="#2a2a2a"/>
+    <path d="M270 215 Q280 222 290 215" fill="none" stroke="#c45a2a" stroke-width="2"/>
+    <text x="280" y="270" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">京剧猴戏</text>
+    <text x="280" y="287" text-anchor="middle" font-family="serif" font-size="11" fill="#8a5a14">舞台演绎</text>
+  </g>
+
+  <!-- 节点3：动画（胶片） -->
+  <g>
+    <rect x="470" y="160" width="100" height="80" fill="#fff6df" stroke="#8a5a14" stroke-width="2" rx="3"/>
+    <!-- 胶片孔 -->
+    <g fill="#8a5a14">
+      <rect x="475" y="165" width="8" height="8"/>
+      <rect x="475" y="227" width="8" height="8"/>
+      <rect x="557" y="165" width="8" height="8"/>
+      <rect x="557" y="227" width="8" height="8"/>
+    </g>
+    <!-- 画面里的小猴 -->
+    <circle cx="520" cy="200" r="16" fill="#a07a4a"/>
+    <path d="M520 197 Q512 204 520 213 Q528 204 520 197 Z" fill="#f0d0a8"/>
+    <circle cx="516" cy="200" r="2" fill="#2a2a2a"/>
+    <circle cx="524" cy="200" r="2" fill="#2a2a2a"/>
+    <text x="520" y="270" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">动画电影</text>
+    <text x="520" y="287" text-anchor="middle" font-family="serif" font-size="11" fill="#8a5a14">大闹天宫</text>
+  </g>
+
+  <!-- 节点4：影视（电视） -->
+  <g>
+    <rect x="640" y="160" width="100" height="80" fill="#fff6df" stroke="#8a5a14" stroke-width="2" rx="6"/>
+    <rect x="650" y="170" width="80" height="60" fill="#2a2a4a" rx="2"/>
+    <!-- 电视里的猴 -->
+    <circle cx="690" cy="200" r="14" fill="#a07a4a"/>
+    <path d="M690 198 Q683 205 690 212 Q697 205 690 198 Z" fill="#f0d0a8"/>
+    <text x="690" y="270" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">电视剧</text>
+    <text x="690" y="287" text-anchor="middle" font-family="serif" font-size="11" fill="#8a5a14">1986版</text>
+  </g>
+
+  <!-- 连线到中心 -->
+  <g stroke="#c8943a" stroke-width="1.5" stroke-dasharray="5,4" fill="none">
+    <path d="M170 270 Q280 330 385 380"/>
+    <path d="M280 250 Q340 320 385 370"/>
+    <path d="M520 250 Q470 320 425 370"/>
+    <path d="M640 270 Q540 330 430 380"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="15" fill="#8a5a14">从小说到戏曲、动画、影视——孙悟空的形象跨越四百年历久弥新</text>
+</svg>

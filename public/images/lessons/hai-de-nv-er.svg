@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="海中美人鱼凝望海面的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">海的女儿</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#1e5f8e" stroke-width="2"/>
+  <!-- 月夜天空 -->
+  <rect x="0" y="100" width="800" height="180" fill="#2c3e50" opacity="0.18"/>
+  <circle cx="160" cy="170" r="34" fill="#e8dca0" opacity="0.85"/>
+  <circle cx="150" cy="160" r="5" fill="#c8c08a" opacity="0.6"/>
+  <!-- 星 -->
+  <circle cx="320" cy="150" r="2" fill="#f5efe0"/>
+  <circle cx="500" cy="140" r="2" fill="#f5efe0"/>
+  <circle cx="640" cy="170" r="2" fill="#f5efe0"/>
+  <!-- 大船（远处） -->
+  <path d="M 520 240 l 120 0 l -12 24 l -96 0 z" fill="#5d4037" opacity="0.6"/>
+  <line x1="560" y1="240" x2="560" y2="190" stroke="#3a3a3a" stroke-width="2"/>
+  <polygon points="560,200 600,210 560,220" fill="#f5efe0" opacity="0.8"/>
+  <line x1="600" y1="240" x2="600" y2="200" stroke="#3a3a3a" stroke-width="2"/>
+  <!-- 海面 -->
+  <path d="M 0 280 q 200 -20 400 0 q 200 20 400 0 l 0 320 l -800 0 z" fill="#1e5f8e" opacity="0.5"/>
+  <path d="M 0 300 q 200 -16 400 0 q 200 16 400 0" stroke="#9bb7c4" stroke-width="2" fill="none"/>
+  <path d="M 0 340 q 200 -14 400 0 q 200 14 400 0" stroke="#9bb7c4" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <!-- 珊瑚海草 -->
+  <path d="M 120 560 q 10 -60 0 -100 q -10 -30 0 -50" stroke="#3a7d44" stroke-width="3" fill="none"/>
+  <path d="M 680 560 q -10 -60 0 -100 q 10 -30 0 -50" stroke="#3a7d44" stroke-width="3" fill="none"/>
+  <circle cx="120" cy="450" r="6" fill="#e88aa8"/>
+  <circle cx="680" cy="460" r="6" fill="#c8a8e9"/>
+  <!-- 小人鱼 -->
+  <ellipse cx="350" cy="430" rx="40" ry="50" fill="#9bb7c4" opacity="0.6"/>
+  <!-- 鱼尾 -->
+  <path d="M 320 470 q 30 60 70 80 q 20 4 20 -10 q -30 -40 -40 -70 z" fill="#3a7d44" opacity="0.7"/>
+  <path d="M 410 540 q 20 10 30 -10 q -10 -10 -20 -10 z" fill="#3a7d44" opacity="0.7"/>
+  <!-- 头 -->
+  <circle cx="350" cy="380" r="24" fill="#f5d9a0"/>
+  <path d="M 330 374 q 20 -14 40 0" stroke="#3a3a3a" stroke-width="2" fill="none"/>
+  <circle cx="342" cy="382" r="2" fill="#3a3a3a"/>
+  <circle cx="360" cy="382" r="2" fill="#3a3a3a"/>
+  <path d="M 344 394 q 6 4 12 0" stroke="#c8553d" stroke-width="1.5" fill="none"/>
+  <!-- 头发 -->
+  <path d="M 326 372 q -10 30 0 60 q 10 -10 10 -30 z" fill="#c8553d" opacity="0.6"/>
+  <!-- 凝望的手 -->
+  <path d="M 380 400 q 30 -20 60 -10" stroke="#f5d9a0" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">一条小人鱼，用声音换一段爱</text>
+</svg>

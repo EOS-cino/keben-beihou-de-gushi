@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一只长着羽毛的小恐龙张开前肢，背景是飞翔的现代鸟类">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 史前天空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#e8f0e6"/>
+  <!-- 远山/峡谷 -->
+  <path d="M0 420 Q160 320 320 400 Q480 300 640 390 Q740 340 800 400 L800 460 L0 460 Z" fill="#8d5a36" opacity="0.4"/>
+  <path d="M0 420 Q200 360 400 410 Q600 350 800 410 L800 460 L0 460 Z" fill="#c8843a" opacity="0.4"/>
+  <!-- 地面 -->
+  <path d="M0 440 Q400 425 800 440 L800 600 L0 600 Z" fill="#8d5a36" opacity="0.5"/>
+  <path d="M0 470 Q400 455 800 470 L800 600 L0 600 Z" fill="#6a5a3a" opacity="0.5"/>
+  <!-- 蕨类植物 -->
+  <path d="M80 470 q-4 -30 4 -50 M95 470 q2 -28 10 -44 M110 470 q8 -26 4 -40" stroke="#4a6a2f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M700 470 q-4 -30 4 -50 M715 470 q2 -28 10 -44" stroke="#4a6a2f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 飞翔的鸟（现代） -->
+  <path d="M580 120 q20 -12 36 0 q-18 6 -36 0 Z" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M616 120 q20 -12 36 0 q-18 6 -36 0 Z" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M616 120 l0 14" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M640 90 q14 -8 26 0 q-13 4 -26 0 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M666 90 q14 -8 26 0 q-13 4 -26 0 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 小恐龙（长羽毛） -->
+  <!-- 身体 -->
+  <ellipse cx="340" cy="380" rx="70" ry="42" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2.5"/>
+  <!-- 脖子 -->
+  <path d="M395 360 Q420 320 430 290" stroke="#6a8d3f" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <!-- 头 -->
+  <ellipse cx="438" cy="285" rx="24" ry="18" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2.5"/>
+  <path d="M458 288 l16 4 l-16 6 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="444" cy="282" r="3" fill="#7a3b14"/>
+  <!-- 嘴张开发声 -->
+  <path d="M456 285 l8 -2" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 羽毛（前肢/翅膀雏形） -->
+  <path d="M380 350 Q340 320 300 330 Q330 350 370 360 Z" fill="#4a6a2f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M310 335 l8 12 M325 332 l6 14 M340 332 l4 14" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <path d="M390 370 Q360 360 330 370 Q360 384 386 380 Z" fill="#4a6a2f" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 尾巴羽毛 -->
+  <path d="M275 385 Q230 380 200 400 Q240 405 275 395 Z" fill="#4a6a2f" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M220 390 l4 10 M235 388 l2 12 M250 390 l0 12" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <!-- 身上绒毛 -->
+  <path d="M320 360 l2 8 M340 355 l2 8 M360 360 l2 8" stroke="#4a6a2f" stroke-width="2" fill="none"/>
+  <!-- 腿 -->
+  <path d="M310 415 l-6 40" stroke="#8d5a36" stroke-width="9" stroke-linecap="round"/>
+  <path d="M370 418 l4 38" stroke="#8d5a36" stroke-width="9" stroke-linecap="round"/>
+  <!-- 爪 -->
+  <path d="M304 455 l-6 6 M304 455 l0 8 M304 455 l6 6" stroke="#7a3b14" stroke-width="2.5" fill="none"/>
+  <path d="M374 456 l-6 6 M374 456 l0 8 M374 456 l6 6" stroke="#7a3b14" stroke-width="2.5" fill="none"/>
+  <!-- 飞向蓝天箭头 -->
+  <path d="M440 270 q30 -30 60 -60" stroke="#c84a3a" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+  <path d="M500 210 l-8 -4 l4 12 Z" fill="#c84a3a"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">飞向蓝天的恐龙</text>
+</svg>

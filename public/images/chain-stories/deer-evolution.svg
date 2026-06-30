@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="鹿角与鹿腿的进化对比示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景 -->
+  <rect x="0" y="0" width="800" height="460" fill="#f3ece0"/>
+  <rect x="0" y="460" width="800" height="140" fill="#e8d9c0"/>
+  <!-- 分隔线 -->
+  <line x1="400" y1="40" x2="400" y2="440" stroke="#7a3b14" stroke-width="2" stroke-dasharray="8 6" opacity="0.5"/>
+  <!-- 左侧：鹿角 -->
+  <text x="200" y="70" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">鹿角：华丽</text>
+  <text x="200" y="92" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a">求偶炫耀 · 易挂树枝</text>
+  <!-- 鹿头（左） -->
+  <ellipse cx="200" cy="220" rx="50" ry="40" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 鹿角（华丽分叉） -->
+  <path d="M180 185 q-10 -30 -30 -45 M180 185 q-4 -34 -16 -52 M180 185 q6 -32 0 -54" stroke="#7a3b14" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M220 185 q10 -30 30 -45 M220 185 q4 -34 16 -52 M220 185 q-6 -32 0 -54" stroke="#7a3b14" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M150 140 q-8 -8 -16 -6 M164 133 q-4 -8 -12 -8 M176 131 q2 -8 -4 -12 M250 140 q8 -8 16 -6 M236 133 q4 -8 12 -8 M224 131 q-2 -8 4 -12" stroke="#7a3b14" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- 鹿眼 -->
+  <circle cx="188" cy="215" r="3" fill="#7a3b14"/>
+  <circle cx="212" cy="215" r="3" fill="#7a3b14"/>
+  <!-- 鹿耳 -->
+  <ellipse cx="170" cy="195" rx="8" ry="14" fill="#8d5a36"/>
+  <ellipse cx="230" cy="195" rx="8" ry="14" fill="#8d5a36"/>
+  <!-- 挂住树枝示意 -->
+  <path d="M120 160 q20 10 40 0" stroke="#4a6a2f" stroke-width="3" fill="none"/>
+  <path d="M240 160 q20 10 40 0" stroke="#4a6a2f" stroke-width="3" fill="none"/>
+  <text x="200" y="290" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">⚠ 逃跑时易缠住</text>
+  <!-- 右侧：鹿腿 -->
+  <text x="600" y="70" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">鹿腿：细长</text>
+  <text x="600" y="92" text-anchor="middle" font-family="serif" font-size="14" fill="#6a8d3f">奔跑利器 · 时速60km</text>
+  <!-- 鹿腿（右） -->
+  <ellipse cx="600" cy="180" rx="60" ry="30" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 四条细长腿 -->
+  <path d="M560 200 l-8 100" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M585 205 l-4 100" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M615 205 l4 100" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M640 200 l8 100" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+  <!-- 蹄子 -->
+  <ellipse cx="551" cy="302" rx="6" ry="4" fill="#7a3b14"/>
+  <ellipse cx="581" cy="307" rx="6" ry="4" fill="#7a3b14"/>
+  <ellipse cx="619" cy="307" rx="6" ry="4" fill="#7a3b14"/>
+  <ellipse cx="649" cy="302" rx="6" ry="4" fill="#7a3b14"/>
+  <!-- 速度线 -->
+  <path d="M520 230 l-30 0 M520 250 l-40 0 M520 270 l-25 0" stroke="#7ab8d8" stroke-width="3" stroke-linecap="round"/>
+  <text x="600" y="340" text-anchor="middle" font-family="serif" font-size="13" fill="#6a8d3f">✓ 逃命时救了命</text>
+  <!-- 底部对比箭头 -->
+  <rect x="150" y="380" width="180" height="40" rx="8" fill="#c84a3a" opacity="0.2" stroke="#c84a3a" stroke-width="2"/>
+  <text x="240" y="406" text-anchor="middle" font-family="serif" font-size="15" fill="#c84a3a">好看 ≠ 有用</text>
+  <rect x="470" y="380" width="180" height="40" rx="8" fill="#6a8d3f" opacity="0.2" stroke="#6a8d3f" stroke-width="2"/>
+  <text x="560" y="406" text-anchor="middle" font-family="serif" font-size="15" fill="#6a8d3f">平凡 ≠ 没用</text>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">鹿角和鹿腿的进化</text>
+</svg>

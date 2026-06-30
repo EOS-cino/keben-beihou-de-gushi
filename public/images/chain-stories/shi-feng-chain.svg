@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：动物界的建筑师">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：动物界的建筑师</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">没上过学，却把房子盖得精巧</text>
+  <g transform="translate(150,300)">
+    <path d="M-40,40 L40,40 L40,-20 L-40,-20 Z" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <line x1="0" y1="-20" x2="0" y2="40" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#a8742a">蜜蜂·六边形</text>
+  </g>
+  <g transform="translate(400,300)">
+    <path d="M-30,40 Q0,50 30,40 L20,-10 L-20,-10 Z" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <line x1="0" y1="-10" x2="0" y2="-40" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#3a6b2a">织布鸟·吊巢</text>
+  </g>
+  <g transform="translate(650,300)">
+    <path d="M-40,40 Q-50,0 -20,-20 Q0,-30 20,-20 Q50,0 40,40 Z" fill="#c9b89a" stroke="#7a4a1a" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#7a4a1a">石蜂·泥罐</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">靠本能，一代代传下来</text>
+</svg>

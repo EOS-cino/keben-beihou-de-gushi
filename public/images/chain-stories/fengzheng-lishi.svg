@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国风筝历史插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">风筝的历史</text>
+  <text x="400" y="66" text-anchor="middle" font-family="serif" font-size="14" fill="#6b6557">中国是风筝的故乡，两千多年来从木鸢到纸鸢再到风筝</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="330" x2="720" y2="330" stroke="#c8843a" stroke-width="2.5"/>
+  <path d="M720 330 L710 325 L710 335 Z" fill="#c8843a"/>
+
+  <!-- 阶段1：春秋·木鸢 -->
+  <g transform="translate(150,200)">
+    <circle cx="0" cy="130" r="8" fill="#c8843a"/>
+    <text x="0" y="155" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">春秋战国</text>
+    <text x="0" y="172" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">约2400年前</text>
+    <!-- 木鸢 -->
+    <g transform="translate(0,0)">
+      <path d="M-25 0 L0 -15 L25 0 L0 15 Z" fill="#8a6a4a" stroke="#5a3a10" stroke-width="1.5"/>
+      <line x1="-25" y1="0" x2="25" y2="0" stroke="#5a3a10" stroke-width="1"/>
+      <line x1="0" y1="-15" x2="0" y2="15" stroke="#5a3a10" stroke-width="1"/>
+      <!-- 翅膀 -->
+      <path d="M-25 0 Q-35 -5 -30 5" fill="none" stroke="#5a3a10" stroke-width="2"/>
+      <path d="M25 0 Q35 -5 30 5" fill="none" stroke="#5a3a10" stroke-width="2"/>
+    </g>
+    <rect x="-55" y="40" width="110" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="5"/>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">木鸢</text>
+    <text x="0" y="76" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">墨子·鲁班</text>
+    <text x="0" y="88" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">木头制成</text>
+  </g>
+
+  <!-- 阶段2：汉代·纸鸢 -->
+  <g transform="translate(330,200)">
+    <circle cx="0" cy="130" r="8" fill="#c8843a"/>
+    <text x="0" y="155" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">汉代</text>
+    <text x="0" y="172" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">约2000年前</text>
+    <!-- 纸鸢 -->
+    <g transform="translate(0,0)">
+      <path d="M-22 0 L0 -18 L22 0 L0 18 Z" fill="#fff8e0" stroke="#c8843a" stroke-width="1.5"/>
+      <line x1="-22" y1="0" x2="22" y2="0" stroke="#c8843a" stroke-width="1"/>
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="#c8843a" stroke-width="1"/>
+      <!-- 竹哨 -->
+      <rect x="-3" y="-22" width="6" height="4" fill="#8a6a4a"/>
+    </g>
+    <rect x="-55" y="40" width="110" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="5"/>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">纸鸢</text>
+    <text x="0" y="76" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">纸糊竹骨</text>
+    <text x="0" y="88" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">军事信号</text>
+  </g>
+
+  <!-- 阶段3：唐宋·风筝 -->
+  <g transform="translate(510,200)">
+    <circle cx="0" cy="130" r="8" fill="#c8843a"/>
+    <text x="0" y="155" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">唐宋</text>
+    <text x="0" y="172" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">约1000年前</text>
+    <!-- 风筝（带竹哨会响） -->
+    <g transform="translate(0,0)">
+      <path d="M-22 0 L0 -18 L22 0 L0 18 Z" fill="#e84030" stroke="#c82010" stroke-width="1.5"/>
+      <line x1="-22" y1="0" x2="22" y2="0" stroke="#c82010" stroke-width="1"/>
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="#c82010" stroke-width="1"/>
+      <!-- 竹哨 -->
+      <rect x="-4" y="-24" width="8" height="5" fill="#8a6a4a"/>
+      <!-- 音符 -->
+      <text x="15" y="-20" font-size="12" fill="#5a7a3a">♪</text>
+      <text x="-20" y="-15" font-size="10" fill="#5a7a3a">♫</text>
+      <!-- 尾巴 -->
+      <path d="M0 18 Q5 25 -3 30 Q3 35 -2 40" fill="none" stroke="#e84030" stroke-width="2"/>
+    </g>
+    <rect x="-55" y="40" width="110" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="5"/>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">风筝</text>
+    <text x="0" y="76" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">加竹哨会响</text>
+    <text x="0" y="88" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">风声如筝</text>
+  </g>
+
+  <!-- 阶段4：现代·潍坊风筝节 -->
+  <g transform="translate(680,200)">
+    <circle cx="0" cy="130" r="8" fill="#c8843a"/>
+    <text x="0" y="155" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">现代</text>
+    <text x="0" y="172" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">潍坊风筝节</text>
+    <!-- 巨型风筝 -->
+    <g transform="translate(0,0)">
+      <!-- 蝴蝶风筝 -->
+      <ellipse cx="-12" cy="-5" rx="12" ry="10" fill="#8848c8" opacity="0.8"/>
+      <ellipse cx="12" cy="-5" rx="12" ry="10" fill="#8848c8" opacity="0.8"/>
+      <ellipse cx="-10" cy="8" rx="8" ry="6" fill="#a868d8" opacity="0.8"/>
+      <ellipse cx="10" cy="8" rx="8" ry="6" fill="#a868d8" opacity="0.8"/>
+      <rect x="-2" y="-10" width="4" height="20" fill="#5a3a10"/>
+      <path d="M0 10 Q3 18 -2 24 Q2 30 -1 36" fill="none" stroke="#5a3a10" stroke-width="1.5"/>
+    </g>
+    <rect x="-55" y="40" width="110" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="5"/>
+    <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">世界传播</text>
+    <text x="0" y="76" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">千姿百态</text>
+    <text x="0" y="88" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">全球共享</text>
+  </g>
+
+  <!-- 下方：名称由来 -->
+  <line x1="60" y1="400" x2="740" y2="400" stroke="#c8843a" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+  <text x="400" y="435" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">为什么叫"风筝"？</text>
+
+  <g transform="translate(250,490)">
+    <rect x="-90" y="-30" width="180" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">纸鸢上装竹哨</text>
+    <text x="0" y="8" text-anchor="middle" font-family="serif" font-size="12" fill="#6b6557">风一吹，竹哨发声</text>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="12" fill="#6b6557">声音像筝在弹奏</text>
+  </g>
+  <path d="M340 490 L460 490" stroke="#8d6a3d" stroke-width="3" marker-end="url(#arr4)"/>
+  <g transform="translate(550,490)">
+    <rect x="-90" y="-30" width="180" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">故称"风筝"</text>
+    <text x="0" y="12" text-anchor="middle" font-family="serif" font-size="12" fill="#6b6557">风 + 筝（古乐器）</text>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="11" fill="#6b6557">最早的风筝真的会"唱歌"</text>
+  </g>
+
+  <defs>
+    <marker id="arr4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#8d6a3d"/>
+    </marker>
+  </defs>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">从墨子的木鸢到课文里传递友谊的风筝，风筝飞了两千多年，越飞越温暖</text>
+</svg>

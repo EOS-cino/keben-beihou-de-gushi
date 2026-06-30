@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从不同角度看杨桃呈现不同形状的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">画杨桃</text>
+  <line x="350" y1="56" x2="450" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 标题 -->
+  <text x="400" y="100" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">同一个杨桃，不同角度，不同样子</text>
+
+  <!-- 角度1：侧面看（椭圆） -->
+  <g transform="translate(180,240)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">侧面看</text>
+    <!-- 杨桃（椭圆） -->
+    <ellipse cx="0" cy="0" rx="50" ry="25" fill="#e0d848" stroke="#8d7a2a" stroke-width="2"/>
+    <!-- 棱线 -->
+    <path d="M-50 0 Q0 -18 50 0" fill="none" stroke="#c8a830" stroke-width="1.5"/>
+    <path d="M-50 0 Q0 18 50 0" fill="none" stroke="#c8a830" stroke-width="1.5"/>
+    <path d="M-45 -8 Q0 -22 45 -8" fill="none" stroke="#c8a830" stroke-width="1"/>
+    <path d="M-45 8 Q0 22 45 8" fill="none" stroke="#c8a830" stroke-width="1"/>
+    <!-- 眼睛示意 -->
+    <g transform="translate(0,50)">
+      <circle cx="-8" cy="0" r="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="8" cy="0" r="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-8" cy="0" r="1.5" fill="#1a1a1a"/>
+      <circle cx="8" cy="0" r="1.5" fill="#1a1a1a"/>
+    </g>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">椭圆形</text>
+  </g>
+
+  <!-- 角度2：正面看（五角星） -->
+  <g transform="translate(400,240)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">正面看</text>
+    <!-- 杨桃（五角星） -->
+    <path d="M0 -40 L12 -12 L40 -8 L18 12 L25 40 L0 25 L-25 40 L-18 12 L-40 -8 L-12 -12 Z" fill="#e0d848" stroke="#8d7a2a" stroke-width="2"/>
+    <!-- 高光 -->
+    <ellipse cx="-5" cy="-15" rx="8" ry="12" fill="#f4ec68" opacity="0.5"/>
+    <!-- 眼睛示意（正对） -->
+    <g transform="translate(0,50)">
+      <circle cx="-8" cy="0" r="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="8" cy="0" r="3" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-8" cy="0" r="1.5" fill="#1a1a1a"/>
+      <circle cx="8" cy="0" r="1.5" fill="#1a1a1a"/>
+    </g>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">五角星形！</text>
+  </g>
+
+  <!-- 角度3：横切开（五角星截面） -->
+  <g transform="translate(620,240)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">横切开</text>
+    <!-- 杨桃截面 -->
+    <path d="M0 -35 L10 -10 L35 -7 L16 10 L22 35 L0 22 L-22 35 L-16 10 L-35 -7 L-10 -10 Z" fill="#f4ec68" stroke="#8d7a2a" stroke-width="2"/>
+    <!-- 种子 -->
+    <g fill="#8d5a36">
+      <ellipse cx="0" cy="-5" rx="2" ry="4"/>
+      <ellipse cx="8" cy="5" rx="2" ry="4"/>
+      <ellipse cx="-8" cy="5" rx="2" ry="4"/>
+    </g>
+    <!-- 刀 -->
+    <g transform="translate(0,-50)">
+      <rect x="-20" y="0" width="40" height="3" fill="#c0c0c0"/>
+      <rect x="-25" y="0" width="8" height="6" fill="#8d5a36"/>
+    </g>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">五角星截面</text>
+  </g>
+
+  <!-- 分隔线 -->
+  <line x1="60" y1="370" x2="740" y2="370" stroke="#c8843a" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- 下方：课堂场景 -->
+  <text x="400" y="400" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">老师让同学轮流坐到"我"的位置看</text>
+
+  <!-- 讲桌上的杨桃 -->
+  <g transform="translate(400,470)">
+    <!-- 讲桌 -->
+    <rect x="-80" y="20" width="160" height="10" fill="#8d5a36"/>
+    <rect x="-70" y="30" width="8" height="30" fill="#8d5a36"/>
+    <rect x="62" y="30" width="8" height="30" fill="#8d5a36"/>
+    <!-- 杨桃（正面五角星） -->
+    <path d="M0 -20 L6 -6 L20 -4 L8 6 L12 20 L0 12 L-12 20 L-8 6 L-20 -4 L-6 -6 Z" fill="#e0d848" stroke="#8d7a2a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 坐在位置上的同学 -->
+  <g transform="translate(200,470)">
+    <circle cx="0" cy="-15" r="12" fill="#e0c8a8"/>
+    <rect x="-8" y="-3" width="16" height="20" fill="#7ab8d8" rx="2"/>
+    <circle cx="-3" cy="-17" r="1.5" fill="#1a1a1a"/>
+    <circle cx="3" cy="-17" r="1.5" fill="#1a1a1a"/>
+    <!-- 惊讶嘴 -->
+    <ellipse cx="0" cy="-12" rx="2" ry="3" fill="#1a1a1a"/>
+    <!-- 视线 -->
+    <path d="M10 -15 L180 -10" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"真的是五角星！"</text>
+  </g>
+
+  <!-- 老师的话 -->
+  <rect x="150" y="520" width="500" height="55" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+  <text x="400" y="543" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">"从不同的角度看，看到的样子是不一样的。"</text>
+  <text x="400" y="563" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">"看到什么样就画成什么样，不要想当然。"</text>
+</svg>

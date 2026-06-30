@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="会摇尾巴的狼">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">会摇尾巴的狼</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">装狗的狼，骗得了谁？</text>
+  <path d="M250,400 L250,250 Q250,230 270,230 L530,230 Q550,230 550,250 L550,400 Z" fill="#a88a4a" stroke="#5a3a1a" stroke-width="3"/>
+  <path d="M250,400 L550,400" stroke="#5a3a1a" stroke-width="4"/>
+  <g transform="translate(400,330)">
+    <ellipse cx="0" cy="20" rx="50" ry="30" fill="#7a7a7a" stroke="#3a3a3a" stroke-width="2"/>
+    <ellipse cx="0" cy="-6" rx="26" ry="22" fill="#9a9a9a" stroke="#3a3a3a" stroke-width="2"/>
+    <path d="M-20,-22 L-30,-34 L-16,-24 Z" fill="#7a7a7a" stroke="#3a3a3a" stroke-width="2"/>
+    <path d="M20,-22 L30,-34 L16,-24 Z" fill="#7a7a7a" stroke="#3a3a3a" stroke-width="2"/>
+    <circle cx="-8" cy="-6" r="3" fill="#3a2a1a"/><circle cx="8" cy="-6" r="3" fill="#3a2a1a"/>
+    <path d="M50,10 q20,5 30,-10" fill="none" stroke="#3a3a3a" stroke-width="4"/>
+  </g>
+  <g transform="translate(660,250)">
+    <ellipse cx="0" cy="20" rx="30" ry="20" fill="#f0e6cf" stroke="#7a4a1a" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="16" ry="14" fill="#e8d4b0" stroke="#7a4a1a" stroke-width="2"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="14" fill="#7a4a1a">老山羊</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">花言巧语，骗不过细看</text>
+</svg>

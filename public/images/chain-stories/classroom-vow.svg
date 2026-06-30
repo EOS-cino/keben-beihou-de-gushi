@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一句志向怎样长成一生行动">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 顶部标题 -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">一句志向怎样长成一生行动</text>
+  <line x1="270" y1="52" x2="530" y2="52" stroke="#c8843a" stroke-width="2"/>
+  <!-- 教室背景墙 -->
+  <rect x="30" y="65" width="420" height="340" fill="#f5e6c8" stroke="#c8843a" stroke-width="2"/>
+  <!-- 黑板 -->
+  <rect x="55" y="85" width="370" height="110" rx="4" fill="#2d4a3a" stroke="#6b4a2f" stroke-width="6"/>
+  <!-- 黑板文字 -->
+  <text x="240" y="130" text-anchor="middle" font-size="20" font-weight="bold" fill="#f0e0c0" font-family="serif">为中华之崛起而读书</text>
+  <text x="240" y="160" text-anchor="middle" font-size="12" fill="#c4a06a" font-family="serif">——少年周恩来</text>
+  <!-- 黑板粉笔架 -->
+  <rect x="55" y="195" width="370" height="6" fill="#8d5a36"/>
+  <!-- 地面 -->
+  <rect x="30" y="405" width="420" height="0" fill="none"/>
+  <!-- 讲台 -->
+  <rect x="70" y="360" width="80" height="50" fill="#b67b43" stroke="#6b4a2f" stroke-width="2"/>
+  <rect x="65" y="355" width="90" height="8" fill="#9a6a33"/>
+  <!-- 学生课桌1 -->
+  <g transform="translate(200,340)">
+    <rect x="-45" y="0" width="90" height="8" fill="#b67b43"/>
+    <rect x="-40" y="8" width="6" height="35" fill="#8d5a36"/>
+    <rect x="34" y="8" width="6" height="35" fill="#8d5a36"/>
+    <rect x="-30" y="-6" width="30" height="8" fill="#f0e0c0" stroke="#8d5a36" stroke-width="1"/>
+  </g>
+  <!-- 学生课桌2 -->
+  <g transform="translate(360,340)">
+    <rect x="-45" y="0" width="90" height="8" fill="#b67b43"/>
+    <rect x="-40" y="8" width="6" height="35" fill="#8d5a36"/>
+    <rect x="34" y="8" width="6" height="35" fill="#8d5a36"/>
+  </g>
+  <!-- 坐着的学生 -->
+  <g transform="translate(360,320)">
+    <circle cx="0" cy="-20" r="9" fill="#e8c4a0"/>
+    <path d="M-9 -25 Q0 -32 9 -25" fill="#3d2817"/>
+    <circle cx="-3" cy="-21" r="1.2" fill="#3d2817"/><circle cx="3" cy="-21" r="1.2" fill="#3d2817"/>
+    <path d="M-2 -16 Q0 -14 2 -16" stroke="#3d2817" stroke-width="1" fill="none"/>
+    <path d="M-10 -14 L-12 5 L-6 8 L6 8 L12 5 L10 -14 Z" fill="#4a6a8a"/>
+    <path d="M-10 -8 L-16 0" stroke="#4a6a8a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M10 -8 L16 0" stroke="#4a6a8a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 站起来的少年周恩来 -->
+  <g transform="translate(200,300)">
+    <!-- 头 -->
+    <circle cx="0" cy="-55" r="11" fill="#e8c4a0"/>
+    <!-- 头发 -->
+    <path d="M-11 -60 Q0 -70 11 -60 L9 -54 Q0 -58 -9 -54 Z" fill="#3d2817"/>
+    <!-- 眼睛 -->
+    <circle cx="-3.5" cy="-56" r="1.5" fill="#3d2817"/><circle cx="3.5" cy="-56" r="1.5" fill="#3d2817"/>
+    <!-- 嘴（说话） -->
+    <ellipse cx="0" cy="-49" rx="2" ry="1.5" fill="#8a4a2a"/>
+    <!-- 身体（学生装） -->
+    <path d="M-14 -46 L-16 -10 L-10 -5 L10 -5 L16 -10 L14 -46 Z" fill="#3a5a3a"/>
+    <!-- 衣领 -->
+    <path d="M-5 -46 L0 -38 L5 -46" fill="#2a4a2a"/>
+    <!-- 左臂（举起发言） -->
+    <path d="M-14 -40 L-28 -50 L-32 -55" stroke="#3a5a3a" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="-33" cy="-55" r="4" fill="#e8c4a0"/>
+    <!-- 右臂 -->
+    <path d="M14 -40 L22 -20" stroke="#3a5a3a" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="23" cy="-20" r="4" fill="#e8c4a0"/>
+    <!-- 腿 -->
+    <rect x="-9" y="-5" width="7" height="30" fill="#4a4a3a"/>
+    <rect x="2" y="-5" width="7" height="30" fill="#4a4a3a"/>
+    <ellipse cx="-5" cy="27" rx="5" ry="3" fill="#2d1c10"/>
+    <ellipse cx="5" cy="27" rx="5" ry="3" fill="#2d1c10"/>
+  </g>
+  <!-- 时间线区域 -->
+  <rect x="475" y="65" width="295" height="340" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="6"/>
+  <text x="622" y="90" text-anchor="middle" font-size="16" font-weight="bold" fill="#7a3b14" font-family="serif">一生奋斗历程</text>
+  <line x1="510" y1="100" x2="735" y2="100" stroke="#c8843a" stroke-width="1.5"/>
+  <!-- 时间线竖线 -->
+  <line x1="540" y1="120" x2="540" y2="390" stroke="#c8843a" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <!-- 时间节点 -->
+  <g font-family="serif" fill="#7a3b14">
+    <circle cx="540" cy="135" r="6" fill="#c8843a"/>
+    <text x="555" y="132" font-size="13" font-weight="bold">1911年</text>
+    <text x="555" y="148" font-size="11">少年立志"为中华之崛起"</text>
+    <circle cx="540" cy="185" r="6" fill="#c8843a"/>
+    <text x="555" y="182" font-size="13" font-weight="bold">1917年</text>
+    <text x="555" y="198" font-size="11">留学日本，探索救国之路</text>
+    <circle cx="540" cy="235" r="6" fill="#c8843a"/>
+    <text x="555" y="232" font-size="13" font-weight="bold">1920年代</text>
+    <text x="555" y="248" font-size="11">赴法勤工俭学，投身革命</text>
+    <circle cx="540" cy="285" r="6" fill="#c8843a"/>
+    <text x="555" y="282" font-size="13" font-weight="bold">1935年</text>
+    <text x="555" y="298" font-size="11">长征途中，力挽狂澜</text>
+    <circle cx="540" cy="335" r="6" fill="#c8843a"/>
+    <text x="555" y="332" font-size="13" font-weight="bold">1949年</text>
+    <text x="555" y="348" font-size="11">出任总理，建设新中国</text>
+    <circle cx="540" cy="385" r="6" fill="#c8843a"/>
+    <text x="555" y="382" font-size="13" font-weight="bold">一生</text>
+    <text x="555" y="398" font-size="11">鞠躬尽瘁，知行合一</text>
+  </g>
+  <!-- 标注：少年志向 -->
+  <line x1="195" y1="265" x2="140" y2="225" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="50" y="207" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="105" y="226" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">少年志向</text>
+  <!-- 标注：一生奋斗 -->
+  <line x1="540" y1="260" x2="470" y2="260" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="475" y="425" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <line x1="530" y1="390" x2="530" y2="425" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="530" y="444" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">一生奋斗</text>
+  <!-- 标注：知行合一 -->
+  <line x1="620" y1="390" x2="680" y2="430" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="625" y="425" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="680" y="444" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">知行合一</text>
+  <!-- 底部说明 -->
+  <rect x="40" y="545" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">少年周恩来在课堂上立下"为中华之崛起而读书"的志向，此后一生鞠躬尽瘁，将誓言化为行动。</text>
+</svg>

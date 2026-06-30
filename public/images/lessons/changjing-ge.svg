@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="海边有帆船和军舰，山上有铜号和队旗，小朋友排着整齐的队伍">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="300" fill="#a8d0e8" opacity="0.25"/>
+  <!-- 太阳 -->
+  <circle cx="700" cy="80" r="30" fill="#f4b942" opacity="0.7"/>
+  <!-- 海面 -->
+  <path d="M0 300 Q200 290 400 300 T800 295 L800 400 L0 400 Z" fill="#a8d0e8" opacity="0.5"/>
+  <path d="M0 340 Q200 330 400 340 T800 335 L800 400 L0 400 Z" fill="#7ab8d8" opacity="0.5"/>
+  <!-- 海浪线 -->
+  <g stroke="#7ab8d8" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M50 320 Q80 315 110 320 T170 320"/>
+    <path d="M250 325 Q280 320 310 325 T370 325"/>
+    <path d="M450 318 Q480 313 510 318 T570 318"/>
+    <path d="M620 322 Q650 317 680 322 T740 322"/>
+  </g>
+  <!-- 军舰 -->
+  <g transform="translate(200,290)">
+    <path d="M-50 20 L50 20 L40 35 L-40 35 Z" fill="#8d5a36"/>
+    <rect x="-35" y="-5" width="70" height="25" fill="#c8843a"/>
+    <rect x="-20" y="-25" width="15" height="20" fill="#8d5a36"/>
+    <rect x="5" y="-30" width="15" height="25" fill="#8d5a36"/>
+    <rect x="-15" y="-40" width="10" height="15" fill="#7ab8d8"/>
+  </g>
+  <!-- 帆船 -->
+  <g transform="translate(550,300)">
+    <path d="M-30 15 L30 15 L22 28 L-22 28 Z" fill="#8d5a36"/>
+    <line x1="0" y1="15" x2="0" y2="-35" stroke="#8d5a36" stroke-width="3"/>
+    <path d="M0 -35 L0 5 L-25 5 Z" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+    <path d="M2 -30 L2 5 L22 5 Z" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+  </g>
+  <!-- 海滩 -->
+  <path d="M0 390 Q200 385 400 392 T800 388 L800 420 L0 420 Z" fill="#f4d4a8" opacity="0.7"/>
+  <!-- 山 -->
+  <path d="M0 400 L0 250 L120 180 L250 250 L250 400 Z" fill="#6a8d3f" opacity="0.6"/>
+  <path d="M500 400 L500 220 L620 160 L750 240 L800 200 L800 400 Z" fill="#4a6a2f" opacity="0.5"/>
+  <!-- 队旗 -->
+  <g transform="translate(100,200)">
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#8d5a36" stroke-width="3"/>
+    <path d="M0 0 L40 8 L0 16 Z" fill="#c84a3a"/>
+  </g>
+  <!-- 铜号 -->
+  <g transform="translate(620,220)">
+    <path d="M0 0 L25 -12 L25 12 Z" fill="#c8843a"/>
+    <rect x="-20" y="-5" width="20" height="10" rx="2" fill="#8d5a36"/>
+    <ellipse cx="25" cy="0" rx="4" ry="12" fill="#7a3b14" opacity="0.3"/>
+  </g>
+  <!-- 小朋友队伍 -->
+  <g transform="translate(350,380)">
+    <!-- 小朋友1 -->
+    <g transform="translate(-40,0)">
+      <ellipse cx="0" cy="20" rx="12" ry="15" fill="#c84a3a"/>
+      <circle cx="0" cy="0" r="12" fill="#f4d4a8"/>
+      <circle cx="-4" cy="-2" r="2" fill="#2d2a24"/>
+      <circle cx="4" cy="-2" r="2" fill="#2d2a24"/>
+      <path d="M-3 5 Q0 8 3 5" stroke="#2d2a24" stroke-width="1" fill="none"/>
+      <path d="M-5 35 L-7 55" stroke="#4a6a2f" stroke-width="4"/>
+      <path d="M5 35 L7 55" stroke="#4a6a2f" stroke-width="4"/>
+      <!-- 红领巾 -->
+      <path d="M-8 12 L0 20 L8 12 Z" fill="#c84a3a"/>
+    </g>
+    <!-- 小朋友2 -->
+    <g transform="translate(0,0)">
+      <ellipse cx="0" cy="20" rx="12" ry="15" fill="#7ab8d8"/>
+      <circle cx="0" cy="0" r="12" fill="#f4d4a8"/>
+      <circle cx="-4" cy="-2" r="2" fill="#2d2a24"/>
+      <circle cx="4" cy="-2" r="2" fill="#2d2a24"/>
+      <path d="M-3 5 Q0 8 3 5" stroke="#2d2a24" stroke-width="1" fill="none"/>
+      <path d="M-5 35 L-7 55" stroke="#4a6a2f" stroke-width="4"/>
+      <path d="M5 35 L7 55" stroke="#4a6a2f" stroke-width="4"/>
+      <path d="M-8 12 L0 20 L8 12 Z" fill="#c84a3a"/>
+    </g>
+    <!-- 小朋友3 -->
+    <g transform="translate(40,0)">
+      <ellipse cx="0" cy="20" rx="12" ry="15" fill="#6a8d3f"/>
+      <circle cx="0" cy="0" r="12" fill="#f4d4a8"/>
+      <circle cx="-4" cy="-2" r="2" fill="#2d2a24"/>
+      <circle cx="4" cy="-2" r="2" fill="#2d2a24"/>
+      <path d="M-3 5 Q0 8 3 5" stroke="#2d2a24" stroke-width="1" fill="none"/>
+      <path d="M-5 35 L-7 55" stroke="#4a6a2f" stroke-width="4"/>
+      <path d="M5 35 L7 55" stroke="#4a6a2f" stroke-width="4"/>
+      <path d="M-8 12 L0 20 L8 12 Z" fill="#c84a3a"/>
+    </g>
+  </g>
+  <!-- 量词标签 -->
+  <g font-family="serif" font-size="14" fill="#7a3b14" opacity="0.6">
+    <text x="200" y="260" text-anchor="middle">一艘</text>
+    <text x="550" y="270" text-anchor="middle">一条</text>
+    <text x="100" y="195" text-anchor="middle">一面</text>
+    <text x="620" y="210" text-anchor="middle">一把</text>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">场景歌</text>
+</svg>

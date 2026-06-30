@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="江边送别、月夜单于与墨梅清气的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古诗三首</text>
+  <text x="400" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">芙蓉楼送辛渐 · 塞下曲 · 墨梅</text>
+  <line x1="220" y1="95" x2="580" y2="95" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 芙蓉楼送别 -->
+  <rect x="60" y="130" width="200" height="200" fill="#9bb7c4" opacity="0.2"/>
+  <polygon points="120,200 160,160 200,200" fill="#5d4037"/>
+  <rect x="130" y="200" width="60" height="50" fill="#8a6d3b"/>
+  <path d="M 100 280 q 60 -20 120 0" stroke="#5d8aa8" stroke-width="3" fill="none"/>
+  <path d="M 220 250 l 30 0" stroke="#5d4037" stroke-width="3"/>
+  <polygon points="250,250 242,246 242,254" fill="#5d4037"/>
+  <text x="160" y="350" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">冰心玉壶</text>
+  <!-- 塞下曲：月夜单于 -->
+  <rect x="290" y="130" width="220" height="200" fill="#2c3e50" opacity="0.18"/>
+  <path d="M 340 170 a 20 20 0 1 0 20 20" stroke="#e8dca0" stroke-width="3" fill="none"/>
+  <path d="M 360 190 q 30 -8 60 0" stroke="#3a3a3a" stroke-width="2" fill="none"/>
+  <ellipse cx="440" cy="260" rx="24" ry="14" fill="#3a3a3a"/>
+  <polygon points="420,260 405,250 405,270" fill="#3a3a3a"/>
+  <line x1="430" y1="246" x2="430" y2="220" stroke="#3a3a3a" stroke-width="2"/>
+  <!-- 雪点 -->
+  <circle cx="380" cy="300" r="2" fill="#ffffff" stroke="#9bb7c4"/>
+  <circle cx="430" cy="310" r="2" fill="#ffffff" stroke="#9bb7c4"/>
+  <circle cx="470" cy="295" r="2" fill="#ffffff" stroke="#9bb7c4"/>
+  <text x="400" y="360" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">月黑雁飞</text>
+  <!-- 墨梅 -->
+  <rect x="540" y="130" width="200" height="200" fill="#f5efe0"/>
+  <line x1="580" y1="320" x2="620" y2="180" stroke="#3a3a3a" stroke-width="4"/>
+  <line x1="610" y1="230" x2="650" y2="210" stroke="#3a3a3a" stroke-width="3"/>
+  <circle cx="620" cy="200" r="9" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="640" cy="215" r="9" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="605" cy="225" r="9" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="625" cy="245" r="9" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  <text x="640" y="360" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">只留清气</text>
+  <line x1="100" y1="410" x2="700" y2="410" stroke="#7a3b14" stroke-width="1" opacity="0.3"/>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">冰心玉壶 · 大雪满弓刀 · 清气满乾坤</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">托物言志：清白 · 英勇 · 清高</text>
+</svg>

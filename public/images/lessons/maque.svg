@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一只老麻雀张开翅膀挡在猎狗面前，保护地上的一只小麻雀">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空/树林背景 -->
+  <rect x="0" y="0" width="800" height="380" fill="#e8f0e6"/>
+  <rect x="0" y="380" width="800" height="220" fill="#c8843a" opacity="0.3"/>
+  <!-- 远树 -->
+  <path d="M0 380 Q120 280 240 360 Q360 270 480 350 Q600 280 800 360 L800 400 L0 400 Z" fill="#4a6a2f" opacity="0.4"/>
+  <!-- 大树干 -->
+  <rect x="120" y="100" width="40" height="300" fill="#8d5a36" stroke="#7a3b14" stroke-width="3"/>
+  <path d="M140 100 Q90 80 60 60" stroke="#7a3b14" stroke-width="5" fill="none"/>
+  <path d="M140 100 Q190 75 230 50" stroke="#7a3b14" stroke-width="5" fill="none"/>
+  <!-- 树叶 -->
+  <ellipse cx="90" cy="70" rx="50" ry="35" fill="#6a8d3f"/>
+  <ellipse cx="200" cy="60" rx="55" ry="38" fill="#4a6a2f"/>
+  <!-- 地面草 -->
+  <path d="M0 420 Q400 405 800 420 L800 600 L0 600 Z" fill="#8d5a36" opacity="0.5"/>
+  <path d="M0 420 Q400 410 800 420 L800 460 L0 460 Z" fill="#6a8d3f" opacity="0.6"/>
+  <!-- 小麻雀（地上） -->
+  <ellipse cx="420" cy="470" rx="22" ry="16" fill="#8d5a36"/>
+  <circle cx="438" cy="464" r="11" fill="#8d5a36"/>
+  <path d="M448 464 l8 2 l-8 3 Z" fill="#c84a3a"/>
+  <circle cx="441" cy="462" r="2" fill="#7a3b14"/>
+  <path d="M412 472 q-10 4 -16 0" stroke="#4a6a2f" stroke-width="2" fill="none"/>
+  <!-- 小麻雀张嘴 -->
+  <path d="M446 460 l4 -3" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 老麻雀（挡在前面，张翅膀） -->
+  <ellipse cx="360" cy="430" rx="26" ry="20" fill="#6a5a4a"/>
+  <circle cx="338" cy="422" r="13" fill="#6a5a4a"/>
+  <path d="M328 422 l-8 2 l8 3 Z" fill="#c84a3a"/>
+  <circle cx="335" cy="420" r="2" fill="#7a3b14"/>
+  <!-- 张开的翅膀（像扇子） -->
+  <path d="M360 425 Q300 390 250 410 Q300 420 340 430 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M360 430 Q310 460 270 470 Q320 450 350 440 Z" fill="#6a5a4a" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 羽毛纹理 -->
+  <path d="M300 400 l10 8 M320 395 l8 10 M340 400 l4 10" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <!-- 尾巴竖起 -->
+  <path d="M380 420 q10 -20 6 -35" stroke="#6a5a4a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- 猎狗 -->
+  <ellipse cx="580" cy="450" rx="70" ry="35" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 狗头 -->
+  <ellipse cx="660" cy="430" rx="32" ry="28" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M680 410 q14 -8 18 4 q-12 4 -16 8 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 狗眼 -->
+  <circle cx="668" cy="424" r="3" fill="#7a3b14"/>
+  <!-- 狗嘴/牙 -->
+  <path d="M680 438 q10 4 14 0 l-4 6 l-6 -2 Z" fill="#ffffff" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 狗腿 -->
+  <rect x="530" y="470" width="12" height="40" fill="#8d5a36"/>
+  <rect x="560" y="475" width="12" height="38" fill="#8d5a36"/>
+  <rect x="610" y="475" width="12" height="38" fill="#8d5a36"/>
+  <rect x="635" y="470" width="12" height="40" fill="#8d5a36"/>
+  <!-- 狗尾巴 -->
+  <path d="M515 440 q-20 -10 -25 -30" stroke="#c8843a" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- 感叹/紧张线 -->
+  <path d="M300 380 l-8 -10 M320 370 l-4 -12 M340 372 l2 -12" stroke="#c84a3a" stroke-width="2" fill="none"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">麻 雀</text>
+</svg>

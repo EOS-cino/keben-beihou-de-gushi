@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="梁实秋散文世界插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：梁实秋的散文世界</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左侧：雅舍 -->
+  <g transform="translate(160, 230)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">雅舍小品</text>
+    <!-- 简陋房子 -->
+    <rect x="-55" y="0" width="110" height="65" fill="#e0c898" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-65 0 L0 -38 L65 0 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 茅草纹理 -->
+    <line x1="-45" y1="-8" x2="-35" y2="-24" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-25" y1="-18" x2="-15" y2="-32" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-5" y1="-22" x2="5" y2="-36" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="15" y1="-18" x2="25" y2="-32" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="35" y1="-8" x2="45" y2="-24" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 门 -->
+    <rect x="-15" y="25" width="30" height="40" fill="#7a3b14" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 窗 -->
+    <rect x="-42" y="15" width="18" height="18" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="24" y="15" width="18" height="18" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 月亮和竹影 -->
+    <circle cx="-50" cy="-55" r="12" fill="#f0e8c8" opacity="0.7"/>
+    <path d="M 45 -30 Q 55 -50 50 -70" fill="none" stroke="#2d6a4f" stroke-width="2" opacity="0.5"/>
+    <path d="M 48 -25 Q 60 -45 58 -68" fill="none" stroke="#2d6a4f" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- 中间：莎士比亚翻译 -->
+  <g transform="translate(400, 230)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">翻译莎翁全集</text>
+    <!-- 书堆 -->
+    <rect x="-45" y="10" width="90" height="14" fill="#4a90b8" stroke="#2a6080" stroke-width="1.5" rx="2"/>
+    <rect x="-42" y="-4" width="84" height="14" fill="#e07856" stroke="#a05030" stroke-width="1.5" rx="2"/>
+    <rect x="-40" y="-18" width="80" height="14" fill="#2d6a4f" stroke="#1a4a30" stroke-width="1.5" rx="2"/>
+    <rect x="-38" y="-32" width="76" height="14" fill="#e8a838" stroke="#a07820" stroke-width="1.5" rx="2"/>
+    <!-- 羽毛笔 -->
+    <path d="M 30 -50 Q 40 -65 35 -80" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M 35 -80 Q 38 -85 33 -88 Q 30 -82 35 -80" fill="#e8e8e8" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 沙漏（四十年） -->
+    <g transform="translate(-55, -20)">
+      <path d="M -10 -15 L 10 -15 L 10 -12 L 2 0 L 10 12 L 10 15 L -10 15 L -10 12 L -2 0 L -10 -12 Z" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M -8 -13 L 8 -13 L 2 -2 L -2 -2 Z" fill="#e8c868" opacity="0.7"/>
+      <line x1="0" y1="-2" x2="0" y2="8" stroke="#e8c868" stroke-width="1"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#c8843a">40个剧本 · 近40年</text>
+  </g>
+
+  <!-- 右侧：简洁文风 -->
+  <g transform="translate(640, 230)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">简洁文风</text>
+    <!-- 纸张 -->
+    <rect x="-45" y="-50" width="90" height="100" fill="#fff8e0" stroke="#7a3b14" stroke-width="2" rx="3"/>
+    <line x1="-35" y1="-35" x2="35" y2="-35" stroke="#c8843a" stroke-width="0.8"/>
+    <line x1="-35" y1="-25" x2="30" y2="-25" stroke="#c8843a" stroke-width="0.8"/>
+    <line x1="-35" y1="-15" x2="35" y2="-15" stroke="#c8843a" stroke-width="0.8"/>
+    <line x1="-35" y1="-5" x2="25" y2="-5" stroke="#c8843a" stroke-width="0.8"/>
+    <line x1="-35" y1="5" x2="35" y2="5" stroke="#c8843a" stroke-width="0.8"/>
+    <line x1="-35" y1="15" x2="20" y2="15" stroke="#c8843a" stroke-width="0.8"/>
+    <line x1="-35" y1="25" x2="32" y2="25" stroke="#c8843a" stroke-width="0.8"/>
+    <line x1="-35" y1="35" x2="28" y2="35" stroke="#c8843a" stroke-width="0.8"/>
+    <!-- 印章 -->
+    <rect x="20" y="30" width="16" height="16" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <text x="28" y="42" text-anchor="middle" font-family="serif" font-size="9" fill="#fff8e0">雅</text>
+  </g>
+
+  <!-- 下方：名句 -->
+  <g transform="translate(400, 420)">
+    <rect x="-250" y="0" width="500" height="55" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">"我爱鸟"——三个字开门见山，平淡中见真情</text>
+    <text x="0" y="46" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">苦中作乐的雅舍精神，四十年译莎的执着，简洁从容的文风</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">梁实秋：从一只鸟写到自由，从一间破屋写到乐观，平淡中见深意</text>
+</svg>

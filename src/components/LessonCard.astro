@@ -1,0 +1,45 @@
+---
+const { lesson } = Astro.props;
+const data = lesson.data;
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+
+// Difficulty: based on grade (1-6) + glossary count + body length
+const gradeNum = ["一年级","二年级","三年级","四年级","五年级","六年级"].indexOf(data.grade) + 1;
+const glossaryCount = data.glossary.length;
+const bodyLen = (lesson.body || "").replace(/[#\-*\[\]\(\)>]/g, "").replace(/\s+/g, "").length;
+// Score: grade weight 40%, glossary weight 30%, length weight 30%
+const glossaryScore = Math.min(glossaryCount / 10, 1); // 10+ terms = max
+const lengthScore = Math.min(bodyLen / 3000, 1); // 3000+ chars = max
+const difficultyScore = gradeNum * 0.4 + glossaryScore * 3 + lengthScore * 3; // 0.4~5.7 range
+const difficultyStars = Math.max(1, Math.min(5, Math.round(difficultyScore)));
+const difficultyLabels = ["入门", "轻松", "适中", "挑战", "进阶"];
+const difficultyLabel = difficultyLabels[difficultyStars - 1];
+---
+
+<article class="lesson-card" data-grade={data.grade} data-theme={data.theme} data-pinyin={lesson.slug.replace(/-/g, ' ')} data-slug={lesson.slug}>
+  <a href={withBase(`/lessons/${lesson.slug}/`)} class="card-image" aria-label={`阅读${data.title}`}>
+    <img src={withBase(data.image)} alt={data.imageAlt} loading="lazy" />
+    <span class="card-badge read-badge" aria-label="已读">已读</span>
+    <span class="card-badge bookmark-badge" aria-label="已收藏">★</span>
+    <span class="card-badge difficulty-badge" aria-label={`难度：${difficultyLabel}`}>
+      <span class="difficulty-stars">{"★".repeat(difficultyStars)}{"☆".repeat(5 - difficultyStars)}</span>
+      <span class="difficulty-label">{difficultyLabel}</span>
+    </span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row">
+      <span>{data.grade}</span>
+      <span>{data.volume}</span>
+      <span>{data.theme}</span>
+    </div>
+    <h3><a href={withBase(`/lessons/${lesson.slug}/`)}>《{data.title}》</a></h3>
+    <p>{data.summary}</p>
+    <a class="text-link card-link" href={withBase(`/lessons/${lesson.slug}/`)}>
+      读背后的故事
+      <svg class="link-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+</article>

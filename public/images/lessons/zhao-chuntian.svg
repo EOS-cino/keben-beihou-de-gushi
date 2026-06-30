@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="孩子们在田野里寻找春天的插画，嫩芽、桃花、小溪解冻">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">找春天</text>
+  <line x1="350" y1="56" x2="450" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 春天天空 -->
+  <rect x="0" y="80" width="800" height="240" fill="#d6ecf7" opacity="0.3"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="130" r="26" fill="#f4b942" opacity="0.8"/>
+  <!-- 云 -->
+  <ellipse cx="150" cy="120" rx="35" ry="13" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="175" cy="112" rx="25" ry="10" fill="#ffffff" opacity="0.7"/>
+
+  <!-- 远山 -->
+  <path d="M0 320 L100 220 L200 280 L320 200 L440 270 L560 210 L680 280 L800 240 L800 340 L0 340 Z" fill="#a8c8a8" opacity="0.4"/>
+
+  <!-- 田野/草地 -->
+  <rect x="0" y="320" width="800" height="280" fill="#c8e0a8" opacity="0.5"/>
+
+  <!-- 小溪 -->
+  <path d="M0 420 Q150 400 300 420 Q450 440 600 410 Q700 395 800 415" fill="none" stroke="#7ab8d8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M0 420 Q150 400 300 420 Q450 440 600 410 Q700 395 800 415" fill="none" stroke="#a8d0e8" stroke-width="4"/>
+  <!-- 水波 -->
+  <g stroke="#a8d0e8" stroke-width="1" opacity="0.6">
+    <path d="M100 415 Q120 412 140 415"/>
+    <path d="M350 425 Q370 422 390 425"/>
+    <path d="M600 405 Q620 402 640 405"/>
+  </g>
+  <text x="400" y="455" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">解冻的小溪叮叮咚咚——春天的琴声</text>
+
+  <!-- 柳树（左） -->
+  <g transform="translate(100,320)">
+    <rect x="-5" y="0" width="10" height="60" fill="#8d5a36"/>
+    <!-- 柳枝 -->
+    <g stroke="#6a8d3f" stroke-width="2" fill="none">
+      <path d="M0 10 Q-15 30 -20 60"/>
+      <path d="M0 10 Q-5 35 -8 65"/>
+      <path d="M0 10 Q10 30 15 60"/>
+      <path d="M0 10 Q20 35 25 65"/>
+    </g>
+    <!-- 嫩芽 -->
+    <g fill="#8da860">
+      <ellipse cx="-18" cy="55" rx="3" ry="2"/>
+      <ellipse cx="-7" cy="60" rx="3" ry="2"/>
+      <ellipse cx="14" cy="55" rx="3" ry="2"/>
+      <ellipse cx="24" cy="60" rx="3" ry="2"/>
+    </g>
+  </g>
+
+  <!-- 桃花树（右） -->
+  <g transform="translate(700,320)">
+    <rect x="-5" y="0" width="10" height="60" fill="#8d5a36"/>
+    <ellipse cx="0" cy="-10" rx="35" ry="30" fill="#e07856" opacity="0.6"/>
+    <ellipse cx="-15" cy="-20" rx="20" ry="18" fill="#e07856" opacity="0.7"/>
+    <ellipse cx="15" cy="-15" rx="22" ry="20" fill="#e07856" opacity="0.7"/>
+    <!-- 花朵 -->
+    <g fill="#f5a8a0">
+      <circle cx="-10" cy="-25" r="4"/>
+      <circle cx="5" cy="-30" r="4"/>
+      <circle cx="15" cy="-20" r="4"/>
+      <circle cx="-20" cy="-10" r="4"/>
+      <circle cx="10" cy="-5" r="4"/>
+    </g>
+    <g fill="#f4b942">
+      <circle cx="-10" cy="-25" r="1.5"/>
+      <circle cx="5" cy="-30" r="1.5"/>
+      <circle cx="15" cy="-20" r="1.5"/>
+    </g>
+  </g>
+
+  <!-- 小草（春天的眉毛） -->
+  <g stroke="#6a8d3f" stroke-width="2" fill="none">
+    <path d="M250 380 Q248 370 252 360"/>
+    <path d="M255 380 Q260 372 257 362"/>
+    <path d="M245 380 Q240 372 243 362"/>
+  </g>
+  <g fill="#8da860">
+    <ellipse cx="252" cy="360" rx="3" ry="8" transform="rotate(-10 252 360)"/>
+    <ellipse cx="257" cy="362" rx="3" ry="8" transform="rotate(10 257 362)"/>
+  </g>
+  <line x1="250" y1="355" x2="200" y2="330" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="155" y="315" width="80" height="22" fill="#fff6df" stroke="#c8843a" rx="3"/>
+  <text x="195" y="331" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">春天的眉毛</text>
+
+  <!-- 野花（春天的眼睛） -->
+  <g transform="translate(500,380)">
+    <circle cx="0" cy="0" r="6" fill="#e07856"/>
+    <circle cx="0" cy="0" r="3" fill="#f4b942"/>
+    <circle cx="15" cy="3" r="5" fill="#c84a3a"/>
+    <circle cx="15" cy="3" r="2" fill="#f4b942"/>
+  </g>
+  <line x1="510" y1="375" x2="560" y2="340" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="525" y="325" width="80" height="22" fill="#fff6df" stroke="#c8843a" rx="3"/>
+  <text x="565" y="341" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">春天的眼睛</text>
+
+  <!-- 孩子们 -->
+  <g transform="translate(350,400)">
+    <!-- 小明 -->
+    <g transform="translate(-30,0)">
+      <circle cx="0" cy="-35" r="12" fill="#e0c8a8"/>
+      <rect x="-8" y="-23" width="16" height="25" fill="#7ab8d8" rx="2"/>
+      <line x1="-8" y1="-15" x2="-16" y2="-5" stroke="#e0c8a8" stroke-width="3"/>
+      <line x1="8" y1="-15" x2="16" y2="-5" stroke="#e0c8a8" stroke-width="3"/>
+      <line x1="-4" y1="2" x2="-4" y2="20" stroke="#8d5a36" stroke-width="3"/>
+      <line x1="4" y1="2" x2="4" y2="20" stroke="#8d5a36" stroke-width="3"/>
+      <circle cx="-3" cy="-37" r="1.5" fill="#1a1a1a"/>
+      <circle cx="3" cy="-37" r="1.5" fill="#1a1a1a"/>
+      <path d="M-4 -30 Q0 -27 4 -30" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+    </g>
+    <!-- 小红 -->
+    <g transform="translate(10,0)">
+      <circle cx="0" cy="-35" r="12" fill="#e0c8a8"/>
+      <rect x="-8" y="-23" width="16" height="25" fill="#e07856" rx="2"/>
+      <line x1="-8" y1="-15" x2="-16" y2="-5" stroke="#e0c8a8" stroke-width="3"/>
+      <line x1="8" y1="-15" x2="16" y2="-5" stroke="#e0c8a8" stroke-width="3"/>
+      <line x1="-4" y1="2" x2="-4" y2="20" stroke="#8d5a36" stroke-width="3"/>
+      <line x1="4" y1="2" x2="4" y2="20" stroke="#8d5a36" stroke-width="3"/>
+      <circle cx="-3" cy="-37" r="1.5" fill="#1a1a1a"/>
+      <circle cx="3" cy="-37" r="1.5" fill="#1a1a1a"/>
+      <path d="M-4 -30 Q0 -27 4 -30" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+      <!-- 小辫子 -->
+      <ellipse cx="-10" cy="-38" rx="3" ry="6" fill="#1a1a1a"/>
+      <ellipse cx="10" cy="-38" rx="3" ry="6" fill="#1a1a1a"/>
+    </g>
+  </g>
+
+  <!-- 燕子 -->
+  <g transform="translate(550,160)">
+    <path d="M0 0 Q-8 -5 -15 0 Q-8 3 0 0 Q8 3 15 0 Q8 -5 0 0" fill="#2a2a2a"/>
+    <path d="M0 0 L-3 8 L3 8 Z" fill="#2a2a2a"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">看到了她，听到了她，闻到了她，触到了她——春天就在身边</text>
+</svg>

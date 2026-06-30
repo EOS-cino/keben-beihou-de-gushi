@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="人类进化历程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">人类的故事</text>
+  <line x1="310" y1="62" x2="490" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="200" fill="#d8c9a8"/>
+  <path d="M0 400 Q200 390 400 400 Q600 410 800 395 L800 420 L0 420 Z" fill="#8d5a36" opacity="0.2"/>
+
+  <!-- 进化时间线 -->
+  <line x1="80" y1="420" x2="720" y2="420" stroke="#8d5a36" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="720,420 708,413 708,427" fill="#8d5a36"/>
+
+  <!-- 阶段1：猿人（弯腰） -->
+  <g transform="translate(130, 330)">
+    <!-- 身体（前倾） -->
+    <path d="M-5 40 Q-15 20 -5 5 Q5 -5 15 5 Q25 20 20 40 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="10" cy="0" r="12" fill="#f0d0a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M0 -2 Q0 -12 10 -12 Q20 -12 20 -2" fill="#5a3a1a"/>
+    <circle cx="7" cy="0" r="1.5" fill="#2a2a2a"/>
+    <!-- 长臂垂地 -->
+    <path d="M-5 15 Q-20 35 -18 55" fill="none" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+    <!-- 腿（弯） -->
+    <path d="M15 40 Q10 55 5 65" fill="none" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+    <path d="M20 40 Q25 55 22 65" fill="none" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+    <!-- 木棍 -->
+    <line x1="-18" y1="55" x2="-25" y2="70" stroke="#5a3a1a" stroke-width="3"/>
+    <circle cx="130" cy="90" r="5" fill="#c84a3a"/>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">采集打猎</text>
+  </g>
+
+  <!-- 阶段2：用火 -->
+  <g transform="translate(310, 320)">
+    <!-- 人（半直立） -->
+    <path d="M0 50 L-3 15 Q0 5 10 5 Q20 5 18 15 L15 50 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="8" cy="0" r="11" fill="#f0d0a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M0 0 Q0 -10 8 -10 Q16 -10 16 0" fill="#5a3a1a"/>
+    <circle cx="5" cy="0" r="1.5" fill="#2a2a2a"/>
+    <!-- 手举火把 -->
+    <path d="M18 15 L30 -5" fill="none" stroke="#8d5a36" stroke-width="6" stroke-linecap="round"/>
+    <line x1="30" y1="-5" x2="30" y2="-20" stroke="#5a3a1a" stroke-width="3"/>
+    <path d="M30 -20 Q25 -30 30 -38 Q35 -30 30 -20" fill="#e07856"/>
+    <path d="M30 -25 Q27 -32 30 -36 Q33 -32 30 -25" fill="#c84a3a"/>
+    <!-- 腿 -->
+    <rect x="-2" y="50" width="6" height="20" fill="#8d5a36"/>
+    <rect x="10" y="50" width="6" height="20" fill="#8d5a36"/>
+    <circle cx="0" cy="100" r="5" fill="#c84a3a"/>
+    <text x="8" y="95" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">学会用火</text>
+  </g>
+
+  <!-- 阶段3：农耕 -->
+  <g transform="translate(490, 320)">
+    <path d="M0 50 L-3 15 Q0 5 10 5 Q20 5 18 15 L15 50 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <circle cx="8" cy="0" r="11" fill="#f0d0a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M0 0 Q0 -10 8 -10 Q16 -10 16 0" fill="#5a3a1a"/>
+    <circle cx="5" cy="0" r="1.5" fill="#2a2a2a"/>
+    <!-- 锄头 -->
+    <path d="M18 15 L35 25" fill="none" stroke="#6a8d3f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M35 25 L45 30 L40 35 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <rect x="-2" y="50" width="6" height="20" fill="#6a8d3f"/>
+    <rect x="10" y="50" width="6" height="20" fill="#6a8d3f"/>
+    <!-- 麦穗 -->
+    <g transform="translate(-30, 50)">
+      <line x1="0" y1="0" x2="0" y2="-20" stroke="#c8843a" stroke-width="2"/>
+      <ellipse cx="-3" cy="-8" rx="2" ry="4" fill="#e07856"/>
+      <ellipse cx="3" cy="-12" rx="2" ry="4" fill="#e07856"/>
+      <ellipse cx="-3" cy="-16" rx="2" ry="4" fill="#e07856"/>
+    </g>
+    <circle cx="0" cy="100" r="5" fill="#c84a3a"/>
+    <text x="8" y="95" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">定居农耕</text>
+  </g>
+
+  <!-- 阶段4：现代（火箭） -->
+  <g transform="translate(670, 300)">
+    <!-- 简笔现代人 -->
+    <path d="M-8 50 L-5 15 Q0 5 5 5 Q10 5 8 15 L5 50 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="10" fill="#f0d0a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M-8 0 Q-8 -10 0 -10 Q8 -10 8 0" fill="#2a2a2a"/>
+    <rect x="-5" y="50" width="4" height="18" fill="#5a3a1a"/>
+    <rect x="3" y="50" width="4" height="18" fill="#5a3a1a"/>
+    <!-- 火箭 -->
+    <g transform="translate(25, -40)">
+      <path d="M0 30 L0 0 Q0 -15 8 -15 Q16 -15 16 0 L16 30 Z" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M0 25 L-8 35 L0 30 Z" fill="#c84a3a"/>
+      <path d="M16 25 L24 35 L16 30 Z" fill="#c84a3a"/>
+      <circle cx="8" cy="5" r="3" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 火焰 -->
+      <path d="M4 30 Q8 42 8 30 M12 30 Q8 42 8 30" fill="#e07856"/>
+    </g>
+    <circle cx="0" cy="100" r="5" fill="#6a8d3f"/>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">飞向太空</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">从山洞里的火堆到飞出地球的火箭——人类走了三十万年</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="抗日英雄群像插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#8a2a1a">连珠小故事：抗日战争中的英雄群像</text>
+  <line x1="180" y1="62" x2="620" y2="62" stroke="#c44a3a" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心纪念碑 -->
+  <g>
+    <polygon points="370,500 430,500 420,200 380,200" fill="#8a8a8a" stroke="#4a4a4a" stroke-width="2"/>
+    <polygon points="380,200 420,200 400,170" fill="#6a6a6a" stroke="#4a4a4a" stroke-width="2"/>
+    <text x="400" y="320" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#fef9ed" writing-mode="tb">抗战英烈</text>
+    <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="13" fill="#fef9ed">永垂不朽</text>
+    <!-- 纪念碑底座 -->
+    <rect x="350" y="500" width="100" height="20" fill="#6a6a6a" stroke="#4a4a4a" stroke-width="2"/>
+  </g>
+
+  <!-- 三个英雄节点 -->
+  <!-- 节点1：狼牙山五壮士（左） -->
+  <g>
+    <line x1="370" y1="350" x2="200" y2="320" stroke="#c44a3a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <!-- 山峰 -->
+    <polygon points="120,420 180,280 240,420" fill="#7a6a5a" stroke="#4a3a2a" stroke-width="2"/>
+    <polygon points="150,360 180,280 210,360" fill="#8a7a6a"/>
+    <!-- 五个小人影 -->
+    <g fill="#4a6a4a">
+      <rect x="165" y="370" width="5" height="20"/>
+      <rect x="173" y="372" width="5" height="18"/>
+      <rect x="181" y="374" width="5" height="16"/>
+      <rect x="189" y="372" width="5" height="18"/>
+      <rect x="197" y="370" width="5" height="20"/>
+    </g>
+    <!-- 红旗 -->
+    <line x1="180" y1="280" x2="180" y2="250" stroke="#5a3a1a" stroke-width="2"/>
+    <path d="M180 250 L205 255 L200 268 L180 264 Z" fill="#c4282a"/>
+    <rect x="80" y="440" width="200" height="50" fill="#fff6df" stroke="#c44a3a" rx="6"/>
+    <text x="180" y="462" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#8a2a1a">狼牙山五壮士</text>
+    <text x="180" y="480" text-anchor="middle" font-family="serif" font-size="12" fill="#8a2a1a">跳崖殉国 · 掩护群众</text>
+  </g>
+
+  <!-- 节点2：杨靖宇（右上） -->
+  <g>
+    <line x1="430" y1="280" x2="580" y2="240" stroke="#c44a3a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <!-- 雪地 -->
+    <ellipse cx="620" cy="430" rx="80" ry="15" fill="#f0f0f0"/>
+    <!-- 雪花 -->
+    <g fill="#fff" stroke="#c8d8e8" stroke-width="0.5">
+      <circle cx="560" cy="180" r="3"/>
+      <circle cx="680" cy="200" r="3"/>
+      <circle cx="600" cy="160" r="2.5"/>
+      <circle cx="650" cy="180" r="2.5"/>
+    </g>
+    <!-- 杨靖宇（持枪身影） -->
+    <path d="M610 425 L612 350 L635 350 L637 425 Z" fill="#3a4a3a"/>
+    <circle cx="623" cy="335" r="14" fill="#f0d0a8"/>
+    <path d="M611 330 Q623 322 635 330 L635 326 Q623 318 611 326 Z" fill="#2a2a1a"/>
+    <!-- 军帽 -->
+    <path d="M611 326 L635 326 L633 316 L613 316 Z" fill="#3a4a3a"/>
+    <!-- 手持步枪 -->
+    <line x1="635" y1="360" x2="670" y2="340" stroke="#3a2a1a" stroke-width="3"/>
+    <rect x="665" y="335" width="12" height="5" fill="#3a2a1a"/>
+    <rect x="520" y="440" width="200" height="50" fill="#fff6df" stroke="#c44a3a" rx="6"/>
+    <text x="620" y="462" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#8a2a1a">杨靖宇</text>
+    <text x="620" y="480" text-anchor="middle" font-family="serif" font-size="12" fill="#8a2a1a">林海雪原 · 孤身奋战</text>
+  </g>
+
+  <!-- 节点3：赵一曼（右下） -->
+  <g>
+    <line x1="430" y1="450" x2="580" y2="430" stroke="#c44a3a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <!-- 赵一曼 -->
+    <path d="M620 425 L622 360 L645 360 L647 425 Z" fill="#5a4a6a"/>
+    <circle cx="633" cy="345" r="13" fill="#f0d0a8"/>
+    <!-- 发髻 -->
+    <ellipse cx="633" cy="334" rx="9" ry="7" fill="#2a2a1a"/>
+    <!-- 表情（坚毅） -->
+    <circle cx="629" cy="345" r="1.5" fill="#2a2a2a"/>
+    <circle cx="637" cy="345" r="1.5" fill="#2a2a2a"/>
+    <path d="M628 353 Q633 356 638 353" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 遗书 -->
+    <rect x="640" y="370" width="30" height="40" fill="#fff6df" stroke="#8a6a3a" stroke-width="1.5"/>
+    <line x1="645" y1="378" x2="665" y2="378" stroke="#8a6a3a" stroke-width="0.8"/>
+    <line x1="645" y1="385" x2="665" y2="385" stroke="#8a6a3a" stroke-width="0.8"/>
+    <line x1="645" y1="392" x2="660" y2="392" stroke="#8a6a3a" stroke-width="0.8"/>
+    <rect x="520" y="440" width="0" height="0"/>
+  </g>
+  <rect x="520" y="440" width="200" height="50" fill="#fff6df" stroke="#c44a3a" rx="6"/>
+  <text x="620" y="462" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#8a2a1a">赵一曼</text>
+  <text x="620" y="480" text-anchor="middle" font-family="serif" font-size="12" fill="#8a2a1a">坚贞不屈 · 留书遗子</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="15" fill="#8a2a1a">五壮士、杨靖宇、赵一曼——千千万万英雄组成了抗战的群像</text>
+</svg>

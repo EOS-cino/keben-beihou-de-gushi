@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="海底世界中各种鱼类、珊瑚、海藻和海洋生物的场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">海底世界</text>
+  <line x1="340" y1="58" x2="460" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 海水背景 -->
+  <rect x="0" y="72" width="800" height="460" fill="#7ab8d8" opacity="0.15"/>
+  <rect x="0" y="72" width="800" height="460" fill="#a8d0e8" opacity="0.1"/>
+
+  <!-- 海面波浪 -->
+  <path d="M0 80 Q100 72 200 80 Q300 72 400 80 Q500 72 600 80 Q700 72 800 80" fill="none" stroke="#7ab8d8" stroke-width="2" opacity="0.5"/>
+  <!-- 阳光穿透 -->
+  <path d="M200 80 L160 300" fill="none" stroke="#fff6df" stroke-width="3" opacity="0.2"/>
+  <path d="M500 80 L530 300" fill="none" stroke="#fff6df" stroke-width="3" opacity="0.2"/>
+  <path d="M650 80 L620 280" fill="none" stroke="#fff6df" stroke-width="2" opacity="0.15"/>
+
+  <!-- 深海发光鱼 -->
+  <g transform="translate(150, 200)">
+    <ellipse cx="0" cy="0" rx="18" ry="10" fill="#1a1a3a" opacity="0.6" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-12" cy="-2" r="6" fill="#1a1a3a" opacity="0.6" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M18 0 L26 -5 L26 5 Z" fill="#1a1a3a" opacity="0.6" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 发光"灯笼" -->
+    <line x1="-15" y1="-8" x2="-22" y2="-18" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-24" cy="-20" r="5" fill="#e07856" opacity="0.8"/>
+    <circle cx="-24" cy="-20" r="3" fill="#ffd700" opacity="0.6"/>
+    <circle cx="-14" cy="-3" r="1" fill="#fff"/>
+  </g>
+
+  <!-- 梭鱼（快速游动） -->
+  <g transform="translate(550, 180)">
+    <ellipse cx="0" cy="0" rx="30" ry="7" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M30 0 L40 -6 L40 6 Z" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-22" cy="-2" r="2" fill="#7a3b14"/>
+    <!-- 速度线 -->
+    <line x1="35" y1="-3" x2="48" y2="-3" stroke="#a8d0e8" stroke-width="1" opacity="0.5"/>
+    <line x1="35" y1="3" x2="48" y2="3" stroke="#a8d0e8" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- 乌贼（喷水后退） -->
+  <g transform="translate(350, 250)">
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#e07856" opacity="0.7" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-3" cy="-5" r="3" fill="#fff" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-3" cy="-5" r="1.5" fill="#7a3b14"/>
+    <!-- 触手 -->
+    <path d="M5 15 Q10 25 8 35" fill="none" stroke="#e07856" stroke-width="2" stroke-linecap="round"/>
+    <path d="M0 17 Q0 28 -3 38" fill="none" stroke="#e07856" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-5 15 Q-10 25 -8 35" fill="none" stroke="#e07856" stroke-width="2" stroke-linecap="round"/>
+    <!-- 喷水 -->
+    <path d="M-14 0 Q-25 -3 -35 0" fill="none" stroke="#a8d0e8" stroke-width="2" opacity="0.5"/>
+    <text x="-40" y="-10" font-family="serif" font-size="10" fill="#7a3b14">喷水</text>
+  </g>
+
+  <!-- 海参（慢爬） -->
+  <g transform="translate(200, 430)">
+    <ellipse cx="0" cy="0" rx="25" ry="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 疣足 -->
+    <circle cx="-15" cy="-6" r="2" fill="#8d5a36" stroke="#7a3b14" stroke-width="0.5"/>
+    <circle cx="-5" cy="-7" r="2" fill="#8d5a36" stroke="#7a3b14" stroke-width="0.5"/>
+    <circle cx="5" cy="-7" r="2" fill="#8d5a36" stroke="#7a3b14" stroke-width="0.5"/>
+    <circle cx="15" cy="-6" r="2" fill="#8d5a36" stroke="#7a3b14" stroke-width="0.5"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">每小时4米</text>
+  </g>
+
+  <!-- 珊瑚 -->
+  <g transform="translate(600, 400)">
+    <path d="M0 50 L0 10 M-10 50 L-10 20 M10 50 L10 15 M-5 50 L-5 5 M5 50 L5 12" fill="none" stroke="#c84a3a" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="8" r="3" fill="#e07856"/>
+    <circle cx="-10" cy="18" r="3" fill="#e07856"/>
+    <circle cx="10" cy="13" r="3" fill="#e07856"/>
+    <circle cx="-5" cy="3" r="3" fill="#e07856"/>
+    <circle cx="5" cy="10" r="3" fill="#e07856"/>
+  </g>
+
+  <!-- 海藻 -->
+  <g transform="translate(100, 380)">
+    <path d="M0 80 Q-5 50 0 20 Q5 0 -3 -20" fill="none" stroke="#6a8d3f" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 80 Q5 50 12 20 Q8 0 5 -15" fill="none" stroke="#4a6a2f" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-10 80 Q-15 50 -8 25" fill="none" stroke="#6a8d3f" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- 海底地面 -->
+  <path d="M0 480 Q200 470 400 475 Q600 480 800 470 L800 532 L0 532 Z" fill="#e0c898" opacity="0.5" stroke="#7a3b14" stroke-width="1"/>
+
+  <!-- 声音标注 -->
+  <g transform="translate(450, 140)">
+    <rect x="-60" y="-15" width="120" height="50" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">嗡嗡～啾啾～</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">汪汪～打鼾声</text>
+    <text x="0" y="32" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">海底窃窃私语</text>
+  </g>
+
+  <!-- 标注：发光鱼 -->
+  <line x1="130" y1="180" x2="80" y2="150" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="20" y="128" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="70" y="146" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">深海发光</text>
+
+  <!-- 标注：梭鱼 -->
+  <line x1="550" y1="170" x2="600" y2="130" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="560" y="108" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="615" y="126" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">梭鱼飞速游</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">海底真是个景色奇异、物产丰富的世界</text>
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">光线·声音·动物·植物·矿产——五个方面看海底</text>
+</svg>

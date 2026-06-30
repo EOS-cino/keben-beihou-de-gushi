@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="老屋和小动物们插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">总也倒不了的老屋</text>
+  <line x1="280" y1="58" x2="520" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="64" width="800" height="280" fill="#e8e0d0"/>
+  <!-- 月亮 -->
+  <circle cx="680" cy="120" r="22" fill="#f0e8c8" opacity="0.8"/>
+  <!-- 星星 -->
+  <g fill="#e8a838" opacity="0.6">
+    <circle cx="120" cy="100" r="2"/><circle cx="200" cy="130" r="1.5"/>
+    <circle cx="560" cy="90" r="2"/><circle cx="620" cy="150" r="1.5"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="380" width="800" height="180" fill="#b89868"/>
+  <path d="M0 380 Q200 370 400 380 Q600 390 800 378" fill="none" stroke="#a88858" stroke-width="2"/>
+
+  <!-- 老屋（歪斜） -->
+  <g transform="translate(400,360) rotate(-3)">
+    <!-- 屋顶 -->
+    <path d="M-130 -60 L0 -150 L130 -60 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 屋顶上的草 -->
+    <g stroke="#5a8a3a" stroke-width="2" fill="none">
+      <path d="M-80 -100 L-82 -115 M-50 -118 L-52 -133 M-20 -132 L-22 -147 M20 -132 L22 -147 M50 -118 L52 -133 M80 -100 L82 -115"/>
+    </g>
+    <!-- 墙体 -->
+    <rect x="-120" y="-60" width="240" height="120" fill="#d8b888" stroke="#8d5a36" stroke-width="2.5"/>
+    <!-- 砖缝 -->
+    <g stroke="#c8a878" stroke-width="1" opacity="0.6">
+      <line x1="-120" y1="-30" x2="120" y2="-30"/>
+      <line x1="-120" y1="0" x2="120" y2="0"/>
+      <line x1="-120" y1="30" x2="120" y2="30"/>
+      <line x1="-60" y1="-60" x2="-60" y2="-30"/>
+      <line x1="60" y1="-30" x2="60" y2="0"/>
+      <line x1="-60" y1="0" x2="-60" y2="30"/>
+      <line x1="60" y1="30" x2="60" y2="60"/>
+    </g>
+    <!-- 裂缝 -->
+    <path d="M-90 -50 L-85 -20 L-92 10 L-86 40" fill="none" stroke="#8d5a36" stroke-width="1.5"/>
+    <path d="M80 -40 L75 -10 L82 20" fill="none" stroke="#8d5a36" stroke-width="1.5"/>
+    <!-- 门 -->
+    <rect x="-25" y="-10" width="50" height="70" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <circle cx="15" cy="25" r="2.5" fill="#e8a838"/>
+    <!-- 窗户（破的） -->
+    <rect x="-100" y="-45" width="40" height="35" fill="#a8d8e8" stroke="#8d5a36" stroke-width="2" opacity="0.5"/>
+    <path d="M-100 -45 L-60 -10 M-60 -45 L-100 -10" stroke="#8d5a36" stroke-width="1" opacity="0.5"/>
+    <rect x="60" y="-45" width="40" height="35" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    <path d="M60 -45 L100 -10 M100 -45 L60 -10" stroke="#8d5a36" stroke-width="1"/>
+  </g>
+
+  <!-- 小猫（门口） -->
+  <g transform="translate(340,440)">
+    <ellipse cx="0" cy="0" rx="18" ry="12" fill="#e8a838"/>
+    <circle cx="14" cy="-10" r="10" fill="#e8a838"/>
+    <path d="M8 -17 L6 -25 L12 -19 Z M20 -17 L22 -25 L16 -19 Z" fill="#e8a838"/>
+    <circle cx="11" cy="-11" r="1.5" fill="#3d2817"/><circle cx="17" cy="-11" r="1.5" fill="#3d2817"/>
+    <path d="M-18 -2 L-28 -8" stroke="#e8a838" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-18 2 Q-25 5 -28 0" fill="none" stroke="#d88838" stroke-width="2"/>
+  </g>
+
+  <!-- 老母鸡（旁边） -->
+  <g transform="translate(480,445)">
+    <ellipse cx="0" cy="0" rx="18" ry="14" fill="#c8483a"/>
+    <circle cx="14" cy="-8" r="10" fill="#c8483a"/>
+    <path d="M8 -15 Q14 -22 20 -15 Q14 -10 8 -15" fill="#d4584a"/>
+    <path d="M24 -8 L30 -6 L24 -4 Z" fill="#e8a838"/>
+    <circle cx="16" cy="-9" r="1.5" fill="#3d2817"/>
+    <path d="M-15 5 L-20 12 M-10 8 L-12 14" stroke="#d4584a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- 小蜘蛛（墙角蛛网） -->
+  <g transform="translate(560,300)">
+    <!-- 蛛网 -->
+    <g stroke="#aaaab8" stroke-width="1" fill="none" opacity="0.7">
+      <line x1="0" y1="0" x2="0" y2="-40"/>
+      <line x1="0" y1="0" x2="35" y2="-20"/>
+      <line x1="0" y1="0" x2="35" y2="15"/>
+      <line x1="0" y1="0" x2="0" y2="35"/>
+      <line x1="0" y1="0" x2="-35" y2="15"/>
+      <line x1="0" y1="0" x2="-35" y2="-20"/>
+      <path d="M0 -35 A35 35 0 0 1 30 -18"/>
+      <path d="M30 -18 A35 35 0 0 1 30 13"/>
+      <path d="M0 32 A32 32 0 0 1 -30 13"/>
+      <path d="M-30 13 A32 32 0 0 1 -30 -18"/>
+    </g>
+    <!-- 蜘蛛 -->
+    <ellipse cx="0" cy="0" rx="6" ry="5" fill="#3d2817"/>
+    <circle cx="0" cy="-3" r="4" fill="#3d2817"/>
+    <g stroke="#3d2817" stroke-width="1.5" fill="none">
+      <path d="M-5 -2 L-12 -6 M5 -2 L12 -6"/>
+      <path d="M-5 2 L-12 6 M5 2 L12 6"/>
+    </g>
+  </g>
+
+  <!-- 标注：老屋 -->
+  <line x1="400" y1="280" x2="400" y2="230" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="350" y="200" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="219" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">老屋</text>
+
+  <!-- 标注：小猫躲雨 -->
+  <line x1="340" y1="440" x2="270" y2="470" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="180" y="455" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="230" y="474" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">小猫躲雨</text>
+
+  <!-- 标注：母鸡孵蛋 -->
+  <line x1="480" y1="445" x2="560" y2="475" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="540" y="460" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="595" y="479" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">母鸡孵蛋</text>
+
+  <!-- 标注：蜘蛛结网 -->
+  <line x1="560" y1="300" x2="640" y2="270" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="620" y="250" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="670" y="269" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">蜘蛛结网</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="548" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="573" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">老屋想倒下，小猫、母鸡、蜘蛛先后求助，善良的老屋一次次站住，总也倒不了。</text>
+</svg>

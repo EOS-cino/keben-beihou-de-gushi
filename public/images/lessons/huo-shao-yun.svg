@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="火烧云：天边的颜色大戏">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">火烧云</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">天烧起来了，颜色变来变去</text>
+  <rect x="80" y="130" width="640" height="200" rx="10" fill="#f0a850" opacity="0.6"/>
+  <rect x="80" y="130" width="640" height="60" rx="10" fill="#d8483a" opacity="0.5"/>
+  <rect x="80" y="270" width="640" height="60" rx="10" fill="#c8488a" opacity="0.4"/>
+  <g transform="translate(250,230)">
+    <path d="M-40,20 Q-30,-20 0,-15 Q30,-20 40,20 L30,35 L-30,35 Z" fill="#f6dca0" stroke="#c98a3a" stroke-width="2"/>
+    <line x1="-20" y1="-5" x2="-20" y2="25" stroke="#c98a3a" stroke-width="2"/>
+    <line x1="20" y1="-5" x2="20" y2="25" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="14" fill="#7a4a1a">马</text>
+  </g>
+  <g transform="translate(500,240)">
+    <ellipse cx="0" cy="10" rx="25" ry="15" fill="#e8b94a" stroke="#a8742a" stroke-width="2"/>
+    <circle cx="22" cy="0" r="10" fill="#e8b94a" stroke="#a8742a" stroke-width="2"/>
+    <line x1="-20" y1="20" x2="-22" y2="35" stroke="#a8742a" stroke-width="2"/>
+    <line x1="15" y1="20" x2="13" y2="35" stroke="#a8742a" stroke-width="2"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="14" fill="#7a4a1a">狗</text>
+  </g>
+  <text x="400" y="440" text-anchor="middle" font-family="serif" font-size="22" fill="#7a3b14">红彤彤 · 金灿灿 · 半紫半黄</text>
+  <text x="400" y="476" text-anchor="middle" font-family="serif" font-size="16" fill="#8a6a3a">一会儿像马，一会儿像狗</text>
+</svg>

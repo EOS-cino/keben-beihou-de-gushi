@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古诗三首：三种春天">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古诗三首</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">三种春光，一样欢欣</text>
+  <g transform="translate(140,300)">
+    <path d="M-50,50 L50,50 L40,-10 L-40,-10 Z" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <circle cx="-20" cy="0" r="8" fill="#e8b94a"/><circle cx="20" cy="10" r="7" fill="#fff"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">绝句·黄鹂</text>
+  </g>
+  <g transform="translate(400,300)">
+    <path d="M-50,40 Q0,30 50,40 L50,50 L-50,50 Z" fill="#7fb8d8" stroke="#2a5a7a" stroke-width="2"/>
+    <ellipse cx="-15" cy="30" rx="12" ry="8" fill="#fff"/><ellipse cx="20" cy="34" rx="10" ry="7" fill="#fff"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">春江·水鸭</text>
+  </g>
+  <g transform="translate(660,300)">
+    <path d="M-40,50 L40,50 L30,-20 L-30,-20 Z" fill="#5a8a3a" stroke="#3a6b2a" stroke-width="2"/>
+    <circle cx="0" cy="-10" r="6" fill="#e8b94a"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">三衢·绿阴</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">春江水暖鸭先知</text>
+</svg>

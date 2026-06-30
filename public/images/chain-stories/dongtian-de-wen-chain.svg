@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国人冬天取暖方式变迁的连珠故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#e07856">连珠小故事：中国人冬天的取暖变迁</text>
+  <line x1="170" y1="55" x2="630" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#7a7468">从火塘火盆，到汤婆子火炕，再到暖气空调</text>
+
+  <!-- 时间轴 -->
+  <line x1="100" y1="180" x2="700" y2="180" stroke="#c8943a" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 第一格：火塘（远古） -->
+  <g transform="translate(160 310)">
+    <rect x="-80" y="-110" width="160" height="200" fill="#fff6df" stroke="#e07856" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">火塘</text>
+    <!-- 火塘圆坑 -->
+    <ellipse cx="0" cy="30" rx="40" ry="12" fill="#5a4a2a"/>
+    <ellipse cx="0" cy="28" rx="36" ry="9" fill="#3a2a1a"/>
+    <!-- 火焰 -->
+    <path d="M-12 28 Q-8 10 -4 28 Q0 8 4 28 Q8 10 12 28" fill="#e07856" opacity="0.8"/>
+    <path d="M-6 28 Q-3 18 0 28 Q3 18 6 28" fill="#e8a838"/>
+    <!-- 围坐的人 -->
+    <g transform="translate(-45 10)">
+      <path d="M-7 20 Q-9 5 -4 -2 Q0 -6 4 -2 Q9 5 7 20 Z" fill="#2d6a4f"/>
+      <circle cx="0" cy="-8" r="6" fill="#f4d4a8"/>
+    </g>
+    <g transform="translate(45 10)">
+      <path d="M-7 20 Q-9 5 -4 -2 Q0 -6 4 -2 Q9 5 7 20 Z" fill="#4a90b8"/>
+      <circle cx="0" cy="-8" r="6" fill="#f4d4a8"/>
+    </g>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">一家人围火而坐</text>
+  </g>
+
+  <!-- 第二格：汤婆子（明清） -->
+  <g transform="translate(330 310)">
+    <rect x="-80" y="-110" width="160" height="200" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">汤婆子</text>
+    <!-- 汤婆子（扁壶） -->
+    <ellipse cx="0" cy="20" rx="32" ry="22" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="2"/>
+    <ellipse cx="0" cy="18" rx="28" ry="18" fill="#a88a5a"/>
+    <!-- 壶口 -->
+    <rect x="-5" y="-6" width="10" height="8" fill="#5a4a2a"/>
+    <circle cx="0" cy="-6" r="5" fill="#3a2a1a"/>
+    <!-- 热气 -->
+    <path d="M-3 -10 Q-1 -18 -3 -24" fill="none" stroke="#e07856" stroke-width="1.5" opacity="0.5"/>
+    <path d="M3 -10 Q5 -20 1 -28" fill="none" stroke="#e07856" stroke-width="1.5" opacity="0.5"/>
+    <!-- 被窝 -->
+    <path d="M-45 50 Q-30 45 0 45 Q30 45 45 50 L45 65 L-45 65 Z" fill="#e07856" opacity="0.4"/>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">塞进被窝的热水袋</text>
+  </g>
+
+  <!-- 第三格：火炕（北方） -->
+  <g transform="translate(500 310)">
+    <rect x="-80" y="-110" width="160" height="200" fill="#fff6df" stroke="#2d6a4f" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">火炕</text>
+    <!-- 炕（砖砌） -->
+    <rect x="-50" y="20" width="100" height="30" fill="#c8a878" stroke="#8a6a3a" stroke-width="1.5"/>
+    <g stroke="#8a6a3a" stroke-width="1" fill="none">
+      <line x1="-30" y1="20" x2="-30" y2="50"/>
+      <line x1="-10" y1="20" x2="-10" y2="50"/>
+      <line x1="10" y1="20" x2="10" y2="50"/>
+      <line x1="30" y1="20" x2="30" y2="50"/>
+    </g>
+    <!-- 烟道（箭头） -->
+    <path d="M-50 35 Q-65 35 -65 10 Q-65 -10 -45 -10" fill="none" stroke="#e07856" stroke-width="2" stroke-dasharray="3,2"/>
+    <!-- 灶台 -->
+    <rect x="-70" y="-15" width="20" height="35" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+    <ellipse cx="-60" cy="-15" rx="10" ry="3" fill="#e07856" opacity="0.6"/>
+    <!-- 躺着的人 -->
+    <ellipse cx="10" cy="14" rx="18" ry="6" fill="#4a90b8"/>
+    <circle cx="-10" cy="14" r="6" fill="#f4d4a8"/>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">烟火从炕里走过</text>
+  </g>
+
+  <!-- 第四格：暖气（现代） -->
+  <g transform="translate(650 310)">
+    <rect x="-80" y="-110" width="160" height="200" fill="#fff6df" stroke="#4a90b8" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">暖气</text>
+    <!-- 暖气片 -->
+    <g fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.2">
+      <rect x="-30" y="0" width="8" height="40" rx="2"/>
+      <rect x="-18" y="0" width="8" height="40" rx="2"/>
+      <rect x="-6" y="0" width="8" height="40" rx="2"/>
+      <rect x="6" y="0" width="8" height="40" rx="2"/>
+      <rect x="18" y="0" width="8" height="40" rx="2"/>
+    </g>
+    <!-- 管道 -->
+    <line x1="-30" y1="40" x2="-30" y2="55" stroke="#5a4a2a" stroke-width="3"/>
+    <line x1="26" y1="40" x2="26" y2="55" stroke="#5a4a2a" stroke-width="3"/>
+    <!-- 热气波纹 -->
+    <g fill="none" stroke="#e07856" stroke-width="1.5" opacity="0.6">
+      <path d="M-20 -8 Q-16 -16 -20 -22"/>
+      <path d="M0 -8 Q4 -16 0 -22"/>
+      <path d="M20 -8 Q16 -16 20 -22"/>
+    </g>
+    <!-- 温度计 -->
+    <g transform="translate(0 30)">
+      <rect x="-3" y="-20" width="6" height="20" rx="3" fill="#fef9ed" stroke="#8a6a3a"/>
+      <rect x="-2" y="-12" width="4" height="10" fill="#e07856"/>
+      <circle cx="0" cy="2" r="4" fill="#e07856"/>
+    </g>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">拧开关就暖和</text>
+  </g>
+
+  <!-- 底部：温度上升箭头 -->
+  <g transform="translate(400 470)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">取暖越来越方便，可围炉而坐的时光也少了</text>
+    <!-- 一家人围炉剪影 -->
+    <g transform="translate(0 30)" opacity="0.5">
+      <circle cx="-30" cy="0" r="6" fill="#2d6a4f"/>
+      <circle cx="0" cy="-2" r="6" fill="#e07856"/>
+      <circle cx="30" cy="0" r="6" fill="#4a90b8"/>
+      <ellipse cx="0" cy="14" rx="8" ry="3" fill="#e8a838" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="545" width="680" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">生活越来越舒服，有些温暖却要我们主动去找回</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="妈妈的手从年轻到粗糙的变化插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">妈妈的手</text>
+  <line x1="340" y1="56" x2="460" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——把光滑给了家</text>
+
+  <!-- 左：年轻时的手 -->
+  <g transform="translate(200, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#e8a838">年轻时</text>
+    <text x="0" y="-4" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">光滑·白净</text>
+    <!-- 手掌 -->
+    <g transform="translate(0, 40)">
+      <ellipse cx="0" cy="40" rx="35" ry="50" fill="#e07856" opacity="0.85" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 手指 -->
+      <rect x="-30" y="-20" width="12" height="50" rx="6" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-14" y="-30" width="12" height="60" rx="6" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="2" y="-32" width="12" height="62" rx="6" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="18" y="-22" width="12" height="52" rx="6" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 光滑标注 -->
+      <circle cx="-20" cy="20" r="3" fill="#fef9ed" opacity="0.8"/>
+      <text x="50" y="20" font-family="serif" font-size="10" fill="#e8a838">光滑</text>
+    </g>
+    <!-- 缝衣服的针线 -->
+    <g transform="translate(0, 130)">
+      <line x1="-20" y1="0" x2="20" y2="10" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="20" cy="10" r="2" fill="#fef9ed" stroke="#7a3b14" stroke-width="1"/>
+      <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">缝补又快又好</text>
+    </g>
+  </g>
+
+  <!-- 箭头 -->
+  <g transform="translate(400, 240)">
+    <path d="M-30 0 L30 0" stroke="#c8843a" stroke-width="3" fill="none"/>
+    <path d="M30 0 L22 -6 L22 6 Z" fill="#c8843a"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">日复一日操劳</text>
+  </g>
+
+  <!-- 右：现在的手 -->
+  <g transform="translate(600, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c84a3a">现在</text>
+    <text x="0" y="-4" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">粗糙·有茧</text>
+    <!-- 手掌 -->
+    <g transform="translate(0, 40)">
+      <ellipse cx="0" cy="40" rx="35" ry="50" fill="#e07856" opacity="0.7" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 手指（粗一些） -->
+      <rect x="-32" y="-18" width="14" height="50" rx="7" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-15" y="-28" width="14" height="60" rx="7" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="2" y="-30" width="14" height="62" rx="7" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="19" y="-20" width="14" height="52" rx="7" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 茧子 -->
+      <ellipse cx="-8" cy="30" rx="6" ry="4" fill="#c8843a" opacity="0.6"/>
+      <ellipse cx="8" cy="35" rx="5" ry="3" fill="#c8843a" opacity="0.6"/>
+      <!-- 裂口 -->
+      <path d="M15 20 L18 30" stroke="#c84a3a" stroke-width="1.5"/>
+      <text x="45" y="25" font-family="serif" font-size="9" fill="#c84a3a">茧子</text>
+      <text x="45" y="40" font-family="serif" font-size="9" fill="#c84a3a">裂口</text>
+    </g>
+    <!-- 做的事 -->
+    <g transform="translate(0, 130)">
+      <text x="-40" y="0" font-family="serif" font-size="9" fill="#7a3b14">做饭</text>
+      <text x="-10" y="0" font-family="serif" font-size="9" fill="#7a3b14">洗碗</text>
+      <text x="20" y="0" font-family="serif" font-size="9" fill="#7a3b14">拖地</text>
+      <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">掖被角·摸额头</text>
+    </g>
+  </g>
+
+  <!-- 底部：孩子握住手 -->
+  <g transform="translate(400, 460)">
+    <rect x="-300" y="0" width="600" height="100" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">长大后再握那双手</text>
+    <text x="0" y="52" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">摸到了一层硬硬的茧，忽然心疼起来</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">妈妈的手变粗糙，是因为她把光滑，都给了这个家</text>
+  </g>
+</svg>

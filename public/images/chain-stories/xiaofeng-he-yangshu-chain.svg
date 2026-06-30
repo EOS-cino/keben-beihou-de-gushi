@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="树木与风、种子传播插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：风帮了树什么忙</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="320" fill="#4a90b8" opacity="0.12"/>
+  <!-- 地面 -->
+  <rect x="0" y="440" width="800" height="160" fill="#2d6a4f" opacity="0.3"/>
+
+  <!-- 风的轨迹（贯穿全图） -->
+  <g fill="none" stroke="#4a90b8" stroke-width="3" stroke-linecap="round" opacity="0.45">
+    <path d="M40 180 Q200 170 360 185 Q500 195 640 180 Q720 175 760 185"/>
+    <path d="M60 230 Q220 222 380 235 Q520 245 700 230"/>
+    <path d="M80 280 Q240 274 400 286"/>
+  </g>
+
+  <!-- 区域1：蒲公英 -->
+  <g transform="translate(140, 300)">
+    <rect x="-3" y="0" width="6" height="60" fill="#2d6a4f"/>
+    <path d="M0 30 Q-15 25 -20 38 Q-10 42 0 35" fill="#2d6a4f"/>
+    <!-- 绒球 -->
+    <circle cx="0" cy="-5" r="28" fill="#f8f8f0" opacity="0.85"/>
+    <g stroke="#c8c8b8" stroke-width="1" opacity="0.8">
+      <line x1="0" y1="-5" x2="-22" y2="-20"/>
+      <line x1="0" y1="-5" x2="22" y2="-20"/>
+      <line x1="0" y1="-5" x2="-25" y2="0"/>
+      <line x1="0" y1="-5" x2="25" y2="0"/>
+      <line x1="0" y1="-5" x2="-18" y2="15"/>
+      <line x1="0" y1="-5" x2="18" y2="15"/>
+      <line x1="0" y1="-5" x2="0" y2="-30"/>
+    </g>
+    <!-- 飞散的小伞 -->
+    <g transform="translate(60, -40)">
+      <circle cx="0" cy="0" r="2.5" fill="#6a4220"/>
+      <g stroke="#c8c8b8" stroke-width="0.8">
+        <line x1="0" y1="0" x2="-5" y2="-7"/>
+        <line x1="0" y1="0" x2="5" y2="-7"/>
+        <line x1="0" y1="0" x2="0" y2="-9"/>
+      </g>
+    </g>
+    <g transform="translate(90, -20)">
+      <circle cx="0" cy="0" r="2.5" fill="#6a4220"/>
+      <g stroke="#c8c8b8" stroke-width="0.8">
+        <line x1="0" y1="0" x2="-5" y2="-7"/>
+        <line x1="0" y1="0" x2="5" y2="-7"/>
+        <line x1="0" y1="0" x2="0" y2="-9"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- 区域2：槭树带翅种子 -->
+  <g transform="translate(380, 300)">
+    <rect x="-4" y="0" width="8" height="55" fill="#6a4220"/>
+    <circle cx="0" cy="-15" r="22" fill="#2d6a4f" opacity="0.8"/>
+    <!-- 带翅种子 -->
+    <g transform="translate(30, -30)">
+      <ellipse cx="0" cy="0" rx="14" ry="5" fill="#e07856" opacity="0.7" stroke="#7a3b14" stroke-width="1" transform="rotate(-25)"/>
+      <ellipse cx="0" cy="0" rx="8" ry="3" fill="#6a4220" transform="rotate(-25)"/>
+    </g>
+    <g transform="translate(-35, -25)">
+      <ellipse cx="0" cy="0" rx="14" ry="5" fill="#e8a838" opacity="0.7" stroke="#7a3b14" stroke-width="1" transform="rotate(30)"/>
+      <ellipse cx="0" cy="0" rx="8" ry="3" fill="#6a4220" transform="rotate(30)"/>
+    </g>
+    <!-- 飞转的种子 -->
+    <g transform="translate(80, -60)">
+      <ellipse cx="0" cy="0" rx="10" ry="4" fill="#e07856" opacity="0.6" transform="rotate(-45)"/>
+    </g>
+    <g transform="translate(110, -40)">
+      <ellipse cx="0" cy="0" rx="10" ry="4" fill="#e8a838" opacity="0.6" transform="rotate(20)"/>
+    </g>
+  </g>
+
+  <!-- 区域3：松树风媒花 -->
+  <g transform="translate(620, 300)">
+    <rect x="-5" y="0" width="10" height="60" fill="#6a4220"/>
+    <path d="M0 -10 L-22 20 L22 20 Z" fill="#2d6a4f"/>
+    <path d="M0 -28 L-18 0 L18 0 Z" fill="#2d6a4f"/>
+    <!-- 飘散花粉 -->
+    <g fill="#e8a838" opacity="0.8">
+      <circle cx="35" cy="-20" r="2"/>
+      <circle cx="50" cy="-10" r="1.5"/>
+      <circle cx="45" cy="5" r="2"/>
+      <circle cx="60" cy="-25" r="1.5"/>
+      <circle cx="-40" cy="-15" r="2"/>
+      <circle cx="-55" cy="0" r="1.5"/>
+    </g>
+  </g>
+
+  <!-- 风的拟人小精灵 -->
+  <g transform="translate(450, 160)">
+    <circle cx="0" cy="0" r="22" fill="#4a90b8" opacity="0.3"/>
+    <circle cx="0" cy="0" r="15" fill="#a8d8e8" opacity="0.6"/>
+    <ellipse cx="-5" cy="-2" rx="2" ry="2.5" fill="#2d6a4f"/>
+    <ellipse cx="5" cy="-2" rx="2" ry="2.5" fill="#2d6a4f"/>
+    <path d="M-5 5 Q0 8 5 5" fill="none" stroke="#2d6a4f" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="-10" cy="3" r="5" fill="#a8d8e8" opacity="0.5"/>
+  </g>
+
+  <!-- 标注 -->
+  <rect x="70" y="380" width="140" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="140" y="399" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">蒲公英·小伞飞</text>
+
+  <rect x="310" y="380" width="140" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="380" y="399" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">槭树·带翅种</text>
+
+  <rect x="550" y="380" width="140" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="620" y="399" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">松树·风媒花</text>
+
+  <line x1="450" y1="138" x2="450" y2="108" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="395" y="80" width="110" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="450" y="98" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">风是快递员</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">风帮树送种子、传花粉、搬家——看不见的风，是树木最忠实的朋友。</text>
+</svg>

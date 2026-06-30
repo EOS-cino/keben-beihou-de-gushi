@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="犟龟：认准了路就不回头">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">犟龟</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">一步，一步，一直走</text>
+  <path d="M80,420 Q400,360 720,420" fill="none" stroke="#a88a4a" stroke-width="3" stroke-dasharray="4,6"/>
+  <g transform="translate(360,330)">
+    <ellipse cx="0" cy="40" rx="60" ry="34" fill="#8fb86a" stroke="#3a6b2a" stroke-width="3"/>
+    <ellipse cx="0" cy="20" rx="40" ry="26" fill="#a8c87a" stroke="#3a6b2a" stroke-width="3"/>
+    <circle cx="0" cy="6" r="16" fill="#cfe0a0" stroke="#3a6b2a" stroke-width="2"/>
+    <circle cx="-5" cy="4" r="2.5" fill="#3a2a1a"/><circle cx="5" cy="4" r="2.5" fill="#3a2a1a"/>
+    <path d="M-10,12 Q0,18 10,12" fill="none" stroke="#3a2a1a" stroke-width="2"/>
+    <line x1="-50" y1="60" x2="-70" y2="80" stroke="#3a6b2a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="50" y1="60" x2="70" y2="80" stroke="#3a6b2a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <circle cx="650" cy="300" r="26" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+  <text x="650" y="306" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">庆典</text>
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">“我的决定是不可改变的”</text>
+</svg>

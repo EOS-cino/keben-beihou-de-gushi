@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="月亮在散文和诗词里意象的连珠故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#4a5a6a">连珠小故事：月亮在散文和诗里的样子</text>
+  <line x1="160" y1="55" x2="640" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#7a7468">从李白的邀月，到苏轼的共婵娟，再到现代散文</text>
+
+  <!-- 夜空底色 -->
+  <rect x="0" y="100" width="800" height="280" fill="#4a90b8" opacity="0.08"/>
+
+  <!-- 左：李白邀月 -->
+  <g transform="translate(170 280)">
+    <rect x="-100" y="-90" width="200" height="200" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#8a5a14">李白·举杯邀月</text>
+    <!-- 月亮 -->
+    <circle cx="40" cy="-40" r="18" fill="#fef8e0" stroke="#e8a838" stroke-width="1.2" opacity="0.9"/>
+    <circle cx="35" cy="-45" r="3" fill="#e8d8a0" opacity="0.4"/>
+    <!-- 李白（举杯） -->
+    <g transform="translate(-10 30)">
+      <path d="M-16 30 Q-18 5 -10 -5 Q0 -10 10 -5 Q18 5 16 30 Z" fill="#e8a838"/>
+      <circle cx="0" cy="-20" r="12" fill="#f4d4a8"/>
+      <path d="M-12 -24 Q0 -34 12 -24 L12 -18 Q0 -14 -12 -18 Z" fill="#3a3a3a"/>
+      <!-- 酒杯 -->
+      <path d="M14 -8 L20 -18 L26 -8 Z" fill="#fef9ed" stroke="#8a5a14" stroke-width="1"/>
+      <line x1="20" y1="-18" x2="20" y2="-24" stroke="#8a5a14" stroke-width="1.5"/>
+      <!-- 影子（第三人） -->
+      <ellipse cx="-30" cy="20" rx="10" ry="14" fill="#3a3a3a" opacity="0.3"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">对影成三人</text>
+  </g>
+
+  <!-- 中：苏轼千里共婵娟 -->
+  <g transform="translate(400 280)">
+    <rect x="-100" y="-90" width="200" height="200" fill="#fff6df" stroke="#e07856" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#8a5a14">苏轼·千里共婵娟</text>
+    <!-- 满月 -->
+    <circle cx="0" cy="-40" r="22" fill="#fef8e0" stroke="#e8a838" stroke-width="1.2" opacity="0.9"/>
+    <circle cx="-6" cy="-46" r="4" fill="#e8d8a0" opacity="0.4"/>
+    <circle cx="6" cy="-36" r="3" fill="#e8d8a0" opacity="0.4"/>
+    <!-- 两个人隔月相望 -->
+    <g transform="translate(-45 30)">
+      <path d="M-12 25 Q-14 5 -8 -3 Q0 -7 8 -3 Q14 5 12 25 Z" fill="#2d6a4f"/>
+      <circle cx="0" cy="-14" r="9" fill="#f4d4a8"/>
+    </g>
+    <g transform="translate(45 30)">
+      <path d="M-12 25 Q-14 5 -8 -3 Q0 -7 8 -3 Q14 5 12 25 Z" fill="#4a90b8"/>
+      <circle cx="0" cy="-14" r="9" fill="#f4d4a8"/>
+    </g>
+    <!-- 月光连线 -->
+    <path d="M-45 16 Q0 -10 45 16" fill="none" stroke="#fef8e0" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">但愿人长久</text>
+  </g>
+
+  <!-- 右：现代散文 -->
+  <g transform="translate(630 280)">
+    <rect x="-100" y="-90" width="200" height="200" fill="#fff6df" stroke="#4a90b8" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#8a5a14">现代散文·月是故乡</text>
+    <!-- 弯月 -->
+    <path d="M30 -40 A20 20 0 1 0 30 -10 A14 14 0 1 1 30 -40 Z" fill="#fef8e0" stroke="#e8a838" stroke-width="1.2" opacity="0.9"/>
+    <!-- 窗与月光 -->
+    <rect x="-50" y="0" width="60" height="50" fill="none" stroke="#8a6a3a" stroke-width="2"/>
+    <line x1="-20" y1="0" x2="-20" y2="50" stroke="#8a6a3a" stroke-width="1.5"/>
+    <line x1="-50" y1="25" x2="10" y2="25" stroke="#8a6a3a" stroke-width="1.5"/>
+    <!-- 月光柱 -->
+    <path d="M-45 0 L-60 60 L0 60 L-15 0 Z" fill="#fef8e0" opacity="0.3"/>
+    <!-- 游子背影 -->
+    <g transform="translate(35 50)">
+      <path d="M-10 20 Q-12 2 -6 -4 Q0 -8 6 -4 Q12 2 10 20 Z" fill="#4a5a6a"/>
+      <circle cx="0" cy="-12" r="8" fill="#3a4a5a"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">月光是故乡的灯</text>
+  </g>
+
+  <!-- 连线 -->
+  <line x1="270" y1="280" x2="300" y2="280" stroke="#c8943a" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="500" y1="280" x2="530" y2="280" stroke="#c8943a" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- 底部：月亮意象总结 -->
+  <g transform="translate(400 480)">
+    <circle cx="0" cy="0" r="30" fill="#fef8e0" stroke="#e8a838" stroke-width="1.5" opacity="0.85"/>
+    <circle cx="-6" cy="-6" r="5" fill="#e8d8a0" opacity="0.4"/>
+    <circle cx="8" cy="4" r="3" fill="#e8d8a0" opacity="0.4"/>
+  </g>
+  <line x1="400" y1="450" x2="400" y2="430" stroke="#c8943a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="300" y="408" width="200" height="22" fill="#fff6df" stroke="#c8943a" rx="4"/>
+  <text x="400" y="424" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">月亮：团圆 · 思乡 · 真情</text>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="545" width="680" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">月亮是中国人心里最温柔的意象，装着团圆、思念与每一个安静的夜</text>
+</svg>

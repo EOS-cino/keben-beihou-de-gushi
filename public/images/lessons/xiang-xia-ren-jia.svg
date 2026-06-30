@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="瓜架、鸡群、鸭子与农家小院的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">乡下人家</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#3a7d44" stroke-width="2"/>
+  <!-- 瓜架 -->
+  <line x1="120" y1="180" x2="540" y2="180" stroke="#5d4037" stroke-width="4"/>
+  <line x1="140" y1="180" x2="140" y2="320" stroke="#5d4037" stroke-width="3"/>
+  <line x1="520" y1="180" x2="520" y2="320" stroke="#5d4037" stroke-width="3"/>
+  <path d="M 200 180 q 30 -30 60 0 q 30 -30 60 0 q 30 -30 60 0 q 30 -30 60 0" stroke="#3a7d44" stroke-width="2" fill="none"/>
+  <!-- 瓜 -->
+  <ellipse cx="240" cy="200" rx="22" ry="14" fill="#8a9a5b"/>
+  <ellipse cx="360" cy="205" rx="20" ry="13" fill="#d4a017"/>
+  <ellipse cx="460" cy="200" rx="22" ry="14" fill="#8a9a5b"/>
+  <!-- 花坛 -->
+  <circle cx="150" cy="380" r="14" fill="#e88aa8"/>
+  <circle cx="180" cy="375" r="14" fill="#c8a8e9"/>
+  <circle cx="210" cy="385" r="14" fill="#f0c419"/>
+  <line x1="150" y1="394" x2="150" y2="440" stroke="#3a7d44" stroke-width="2"/>
+  <line x1="180" y1="389" x2="180" y2="440" stroke="#3a7d44" stroke-width="2"/>
+  <line x1="210" y1="399" x2="210" y2="440" stroke="#3a7d44" stroke-width="2"/>
+  <!-- 鸡群 -->
+  <ellipse cx="340" cy="430" rx="26" ry="18" fill="#d4a017"/>
+  <circle cx="362" cy="420" r="10" fill="#d4a017"/>
+  <polygon points="372,420 380,422 372,424" fill="#c8553d"/>
+  <circle cx="364" cy="418" r="1.6" fill="#3a3a3a"/>
+  <ellipse cx="300" cy="445" rx="10" ry="8" fill="#f0c419"/>
+  <ellipse cx="320" cy="450" rx="8" ry="6" fill="#f0c419"/>
+  <!-- 鸭子在水里 -->
+  <path d="M 540 470 q 80 -8 160 0" stroke="#5d8aa8" stroke-width="3" fill="none"/>
+  <ellipse cx="600" cy="460" rx="26" ry="14" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.5"/>
+  <circle cx="620" cy="450" r="9" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.5"/>
+  <polygon points="629,450 636,452 629,454" fill="#c8553d"/>
+  <circle cx="622" cy="448" r="1.6" fill="#3a3a3a"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">瓜架花坛鸡与鸭，一道迷人风景</text>
+</svg>

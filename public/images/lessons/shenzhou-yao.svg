@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="神州大地山川插画：黄河、长江、长城、珠峰">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">神州谣</text>
+  <line x1="360" y1="56" x2="440" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="240" fill="#d6ecf7"/>
+  <!-- 远山 -->
+  <path d="M0 320 L100 200 L200 260 L320 180 L450 250 L580 200 L700 260 L800 230 L800 320 Z" fill="#8ab8a0" opacity="0.4"/>
+
+  <!-- 珠峰（右上） -->
+  <g transform="translate(650,200)">
+    <path d="M-60 120 L-20 0 L0 -40 L20 0 L60 120 Z" fill="#c8c8d8"/>
+    <path d="M-20 0 L0 -40 L20 0 L10 20 L-10 20 Z" fill="#ffffff"/>
+    <path d="M-30 30 L-20 0 L-10 30 Z" fill="#ffffff" opacity="0.8"/>
+    <path d="M10 30 L20 0 L30 30 Z" fill="#ffffff" opacity="0.8"/>
+    <!-- 雪线 -->
+    <path d="M-45 60 L-20 0 L0 -40 L20 0 L45 60" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- 长城（左中山脊上蜿蜒） -->
+  <g transform="translate(0,0)">
+    <!-- 山脊 -->
+    <path d="M0 320 L80 230 L160 270 L240 220 L320 280 L0 320 Z" fill="#6a8a5a" opacity="0.6"/>
+    <!-- 长城墙体 -->
+    <path d="M20 310 L80 240 L100 255 L160 280 L200 260 L240 225 L260 240" fill="none" stroke="#8a6a4a" stroke-width="6"/>
+    <!-- 城垛 -->
+    <g fill="#8a6a4a">
+      <rect x="75" y="237" width="6" height="8"/>
+      <rect x="95" y="252" width="6" height="8"/>
+      <rect x="155" y="277" width="6" height="8"/>
+      <rect x="195" y="257" width="6" height="8"/>
+      <rect x="235" y="222" width="6" height="8"/>
+    </g>
+    <!-- 烽火台 -->
+    <rect x="76" y="225" width="14" height="18" fill="#a88a6a"/>
+    <rect x="74" y="222" width="18" height="5" fill="#8a6a4a"/>
+  </g>
+
+  <!-- 黄河（左下，奔流） -->
+  <g transform="translate(0,0)">
+    <path d="M0 400 Q80 380 150 410 Q200 430 250 410 Q300 390 350 420" fill="none" stroke="#e8c840" stroke-width="14"/>
+    <path d="M0 400 Q80 380 150 410 Q200 430 250 410 Q300 390 350 420" fill="none" stroke="#f4d870" stroke-width="8"/>
+    <!-- 水花 -->
+    <g fill="#ffffff" opacity="0.7">
+      <circle cx="80" cy="385" r="3"/>
+      <circle cx="120" cy="395" r="2"/>
+      <circle cx="200" cy="420" r="3"/>
+      <circle cx="280" cy="400" r="2"/>
+    </g>
+  </g>
+
+  <!-- 长江（右下，涌动） -->
+  <g transform="translate(0,0)">
+    <path d="M400 440 Q480 420 550 450 Q620 470 700 440 Q750 425 800 445" fill="none" stroke="#4ab8c8" stroke-width="14"/>
+    <path d="M400 440 Q480 420 550 450 Q620 470 700 440 Q750 425 800 445" fill="none" stroke="#7ed0e0" stroke-width="8"/>
+    <!-- 波浪 -->
+    <g fill="#ffffff" opacity="0.6">
+      <circle cx="460" cy="430" r="3"/>
+      <circle cx="530" cy="445" r="2"/>
+      <circle cx="620" cy="460" r="3"/>
+      <circle cx="720" cy="435" r="2"/>
+    </g>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="470" width="800" height="130" fill="#c8e8a8" opacity="0.5"/>
+
+  <!-- 各民族小人（底部） -->
+  <g transform="translate(120,520)">
+    <circle cx="0" cy="-15" r="8" fill="#f0d0a8"/>
+    <rect x="-6" y="-7" width="12" height="15" fill="#c84030"/>
+    <rect x="-3" y="8" width="3" height="10" fill="#3a5a7a"/>
+    <rect x="1" y="8" width="3" height="10" fill="#3a5a7a"/>
+  </g>
+  <g transform="translate(220,520)">
+    <circle cx="0" cy="-15" r="8" fill="#f0d0a8"/>
+    <rect x="-6" y="-7" width="12" height="15" fill="#3a7a5a"/>
+    <rect x="-3" y="8" width="3" height="10" fill="#5a4a2a"/>
+    <rect x="1" y="8" width="3" height="10" fill="#5a4a2a"/>
+  </g>
+  <g transform="translate(320,520)">
+    <circle cx="0" cy="-15" r="8" fill="#f0d0a8"/>
+    <path d="M-6 -7 L-8 8 L8 8 L6 -7 Z" fill="#8848c8"/>
+    <rect x="-3" y="8" width="3" height="10" fill="#3a5a7a"/>
+    <rect x="1" y="8" width="3" height="10" fill="#3a5a7a"/>
+  </g>
+  <g transform="translate(420,520)">
+    <circle cx="0" cy="-15" r="8" fill="#f0d0a8"/>
+    <rect x="-6" y="-7" width="12" height="15" fill="#e88030"/>
+    <rect x="-3" y="8" width="3" height="10" fill="#3a5a7a"/>
+    <rect x="1" y="8" width="3" height="10" fill="#3a5a7a"/>
+  </g>
+  <g transform="translate(520,520)">
+    <circle cx="0" cy="-15" r="8" fill="#f0d0a8"/>
+    <rect x="-6" y="-7" width="12" height="15" fill="#4878c8"/>
+    <rect x="-3" y="8" width="3" height="10" fill="#3a5a7a"/>
+    <rect x="1" y="8" width="3" height="10" fill="#3a5a7a"/>
+  </g>
+  <g transform="translate(620,520)">
+    <circle cx="0" cy="-15" r="8" fill="#f0d0a8"/>
+    <rect x="-6" y="-7" width="12" height="15" fill="#5cb050"/>
+    <rect x="-3" y="8" width="3" height="10" fill="#3a5a7a"/>
+    <rect x="1" y="8" width="3" height="10" fill="#3a5a7a"/>
+  </g>
+
+  <!-- 标注：黄河 -->
+  <line x1="150" y1="405" x2="100" y2="360" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="50" y="345" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="90" y="363" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">黄河奔</text>
+
+  <!-- 标注：长江 -->
+  <line x1="550" y1="445" x2="600" y2="390" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="560" y="375" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="600" y="393" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">长江涌</text>
+
+  <!-- 标注：长城 -->
+  <line x1="160" y1="270" x2="220" y2="150" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="180" y="135" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="220" y="153" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">长城长</text>
+
+  <!-- 标注：珠峰 -->
+  <line x1="650" y1="170" x2="720" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="680" y="105" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="720" y="123" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">珠峰高</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">我神州，称中华，山川美，可入画。各民族，情谊浓，齐奋发，共繁荣</text>
+</svg>

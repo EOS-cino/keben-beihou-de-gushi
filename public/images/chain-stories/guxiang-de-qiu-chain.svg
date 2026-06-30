@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="郁达夫在北京看秋天的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="350" fill="#e8a838" opacity="0.08"/>
+  <!-- 远处胡同屋顶 -->
+  <g opacity="0.4">
+    <path d="M0 320 L60 280 L120 320 Z" fill="#8b6f47"/>
+    <path d="M100 320 L170 275 L240 320 Z" fill="#8b6f47"/>
+    <path d="M220 320 L290 285 L360 320 Z" fill="#8b6f47"/>
+    <rect x="0" y="320" width="120" height="40" fill="#a08560"/>
+    <rect x="100" y="320" width="140" height="40" fill="#a08560"/>
+    <rect x="220" y="320" width="140" height="40" fill="#a08560"/>
+  </g>
+  <!-- 槐树 -->
+  <g transform="translate(550 350)">
+    <rect x="-5" y="0" width="10" height="80" fill="#6b5535"/>
+    <path d="M0 -20 Q-30 -40 -55 -50" stroke="#6b5535" stroke-width="3" fill="none"/>
+    <path d="M0 -20 Q30 -40 55 -50" stroke="#6b5535" stroke-width="3" fill="none"/>
+    <path d="M0 -30 Q-20 -55 -35 -70" stroke="#6b5535" stroke-width="2.5" fill="none"/>
+    <path d="M0 -30 Q20 -55 35 -70" stroke="#6b5535" stroke-width="2.5" fill="none"/>
+    <circle cx="-45" cy="-50" r="20" fill="#e8a838" opacity="0.4"/>
+    <circle cx="45" cy="-50" r="20" fill="#e8a838" opacity="0.4"/>
+    <circle cx="-30" cy="-68" r="15" fill="#e07856" opacity="0.3"/>
+    <circle cx="30" cy="-68" r="15" fill="#e07856" opacity="0.3"/>
+    <circle cx="0" cy="-40" r="22" fill="#e8a838" opacity="0.35"/>
+  </g>
+  <!-- 飘落的树叶 -->
+  <g fill="#e8a838" opacity="0.6">
+    <ellipse cx="400" cy="150" rx="6" ry="3" transform="rotate(30 400 150)"/>
+    <ellipse cx="450" cy="200" rx="5" ry="3" transform="rotate(-20 450 200)"/>
+    <ellipse cx="380" cy="250" rx="6" ry="3" transform="rotate(45 380 250)"/>
+    <ellipse cx="500" cy="180" rx="5" ry="3" transform="rotate(-30 500 180)"/>
+  </g>
+  <g fill="#e07856" opacity="0.5">
+    <ellipse cx="420" cy="120" rx="5" ry="3" transform="rotate(15 420 120)"/>
+    <ellipse cx="480" cy="230" rx="6" ry="3" transform="rotate(-45 480 230)"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="360" width="800" height="240" fill="#dceee3"/>
+  <rect x="0" y="400" width="800" height="200" fill="#9fc8b4" opacity="0.3"/>
+  <!-- 落叶铺地 -->
+  <g fill="#e8a838" opacity="0.4">
+    <ellipse cx="100" cy="450" rx="8" ry="4" transform="rotate(30 100 450)"/>
+    <ellipse cx="200" cy="470" rx="7" ry="3" transform="rotate(-20 200 470)"/>
+    <ellipse cx="350" cy="460" rx="8" ry="4" transform="rotate(45 350 460)"/>
+    <ellipse cx="500" cy="480" rx="7" ry="3" transform="rotate(-30 500 480)"/>
+    <ellipse cx="650" cy="465" rx="8" ry="4" transform="rotate(15 650 465)"/>
+    <ellipse cx="700" cy="490" rx="7" ry="3" transform="rotate(-45 700 490)"/>
+  </g>
+  <g fill="#e07856" opacity="0.3">
+    <ellipse cx="150" cy="490" rx="7" ry="3" transform="rotate(20 150 490)"/>
+    <ellipse cx="400" cy="500" rx="8" ry="4" transform="rotate(-30 400 500)"/>
+    <ellipse cx="600" cy="510" rx="7" ry="3" transform="rotate(40 600 510)"/>
+  </g>
+  <!-- 郁达夫 -->
+  <g transform="translate(300 440)">
+    <!-- 长衫 -->
+    <path d="M-28 0 L-35 -90 L35 -90 L28 0 Z" fill="#2d6a4f"/>
+    <!-- 围巾 -->
+    <path d="M-20 -85 Q0 -75 20 -85" stroke="#e07856" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M15 -80 Q20 -60 15 -45" stroke="#e07856" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-108" r="18" fill="#f4d4a8"/>
+    <!-- 头发 -->
+    <path d="M-18 -116 Q0 -128 18 -116 L18 -108 Q0 -103 -18 -108 Z" fill="#333"/>
+    <!-- 眼镜 -->
+    <circle cx="-7" cy="-108" r="5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <circle cx="7" cy="-108" r="5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <line x1="-2" y1="-108" x2="2" y2="-108" stroke="#333" stroke-width="1"/>
+    <!-- 嘴 -->
+    <path d="M-3 -98 Q0 -95 3 -98" stroke="#333" stroke-width="1.5" fill="none"/>
+    <!-- 手背身后 -->
+    <path d="M-28 -60 L-35 -40" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M28 -60 L35 -40" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- 院墙 -->
+  <g fill="#d4c4a4" opacity="0.5">
+    <rect x="0" y="360" width="800" height="10"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#2d6a4f">连珠小故事：郁达夫笔下的故都的秋</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7a7468">他特意坐火车去北京，只为看一眼北方的秋天</text>
+</svg>

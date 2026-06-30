@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="雨来在河边的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">小英雄雨来</text>
+  <line x1="290" y1="56" x2="510" y2="56" stroke="#c9952e" stroke-width="3"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="65" width="800" height="220" fill="#c4dae8"/>
+
+  <!-- 远处芦苇荡 -->
+  <path d="M0 285 L800 285 L800 320 L0 320 Z" fill="#a8c070" opacity="0.6"/>
+
+  <!-- 还乡河 -->
+  <rect x="0" y="320" width="800" height="280" fill="#5a90b0"/>
+  <!-- 水波纹 -->
+  <g fill="none" stroke="#8ac0d8" stroke-width="2" opacity="0.7">
+    <path d="M0 350 Q50 345 100 350 Q150 355 200 350 Q250 345 300 350 Q350 355 400 350 Q450 345 500 350 Q550 355 600 350 Q650 345 700 350 Q750 355 800 350"/>
+    <path d="M0 390 Q60 385 120 390 Q180 395 240 390 Q300 385 360 390 Q420 395 480 390 Q540 385 600 390 Q660 395 720 390 Q780 385 800 390"/>
+    <path d="M0 430 Q50 425 100 430 Q150 435 200 430 Q250 425 300 430 Q350 435 400 430 Q450 425 500 430 Q550 435 600 430 Q650 425 700 430 Q750 435 800 430"/>
+    <path d="M0 470 Q60 465 120 470 Q180 475 240 470 Q300 465 360 470 Q420 475 480 470 Q540 465 600 470 Q660 475 720 470 Q780 465 800 470"/>
+    <path d="M0 510 Q50 505 100 510 Q150 515 200 510 Q250 505 300 510 Q350 515 400 510 Q450 505 500 510 Q550 515 600 510 Q650 505 700 510 Q750 515 800 510"/>
+    <path d="M0 550 Q60 545 120 550 Q180 555 240 550 Q300 545 360 550 Q420 555 480 550 Q540 545 600 550 Q660 555 720 550 Q780 545 800 550"/>
+  </g>
+  <text x="700" y="580" text-anchor="middle" font-family="serif" font-size="16" fill="#2a5070" font-weight="bold">还乡河</text>
+
+  <!-- 河岸 -->
+  <path d="M0 285 Q100 280 200 290 L200 330 L0 330 Z" fill="#a8c870" stroke="#7a9a4a" stroke-width="2"/>
+  <!-- 芦苇（左边岸上） -->
+  <g transform="translate(50, 260)">
+    <path d="M0 25 L-3 -15" stroke="#5a8a3a" stroke-width="2" fill="none"/>
+    <ellipse cx="-3" cy="-15" rx="3" ry="8" fill="#8aa86a"/>
+    <path d="M10 25 L8 -20" stroke="#5a8a3a" stroke-width="2" fill="none"/>
+    <ellipse cx="8" cy="-20" rx="3" ry="8" fill="#8aa86a"/>
+    <path d="M20 25 L22 -12" stroke="#5a8a3a" stroke-width="2" fill="none"/>
+    <ellipse cx="22" cy="-12" rx="3" ry="8" fill="#8aa86a"/>
+    <path d="M30 25 L28 -18" stroke="#5a8a3a" stroke-width="2" fill="none"/>
+    <ellipse cx="28" cy="-18" rx="3" ry="8" fill="#8aa86a"/>
+  </g>
+  <text x="70" y="250" text-anchor="middle" font-family="serif" font-size="13" fill="#5a6a3a">芦花村·芦苇荡</text>
+
+  <!-- 雨来（从水中探出头） -->
+  <g transform="translate(400, 400)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a3a1a">雨来</text>
+    <!-- 水面线 -->
+    <ellipse cx="0" cy="20" rx="50" ry="8" fill="#8ac0d8" opacity="0.6"/>
+    <!-- 头（从水里探出来） -->
+    <circle cx="0" cy="-10" r="28" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 湿头发（贴在头上） -->
+    <path d="M-25 -20 Q-15 -38 0 -38 Q15 -38 25 -20 Q20 -30 10 -35 Q0 -38 -10 -35 Q-20 -30 -25 -20" fill="#3a2a1a" stroke="#1a0a00" stroke-width="1.5"/>
+    <!-- 水珠从头发滴下 -->
+    <ellipse cx="-22" cy="-5" rx="2" ry="4" fill="#8ac0d8" opacity="0.8"/>
+    <ellipse cx="24" cy="0" rx="2" ry="4" fill="#8ac0d8" opacity="0.8"/>
+    <!-- 眼睛（机灵，笑） -->
+    <path d="M-12 -12 Q-8 -8 -4 -12" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M4 -12 Q8 -8 12 -12" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 鼻子 -->
+    <path d="M-2 -5 L0 0 L2 -5" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 嘴（笑） -->
+    <path d="M-6 5 Q0 12 6 5" fill="none" stroke="#5a3a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 脸颊（红润） -->
+    <circle cx="-15" cy="0" r="5" fill="#f4a090" opacity="0.5"/>
+    <circle cx="15" cy="0" r="5" fill="#f4a090" opacity="0.5"/>
+    <!-- 肩膀和水面下的身体（隐约可见） -->
+    <path d="M-20 15 Q-30 30 -25 45" fill="#8a6a3a" stroke="#5a3a1a" stroke-width="2" opacity="0.7"/>
+    <path d="M20 15 Q30 30 25 45" fill="#8a6a3a" stroke="#5a3a1a" stroke-width="2" opacity="0.7"/>
+    <!-- 水花 -->
+    <g stroke="#a8d0e8" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <path d="M-35 15 Q-45 5 -50 10"/>
+      <path d="M35 15 Q45 5 50 10"/>
+      <path d="M-25 25 Q-35 15 -40 20"/>
+      <path d="M25 25 Q35 15 40 20"/>
+      <path d="M0 25 Q-8 15 -12 18"/>
+      <path d="M0 25 Q8 15 12 18"/>
+    </g>
+  </g>
+
+  <!-- 雨来游泳的轨迹（从被枪击处游到芦苇丛） -->
+  <path d="M250 420 Q300 450 350 430 Q380 420 400 410" fill="none" stroke="#f4e060" stroke-width="2.5" stroke-dasharray="8,5" opacity="0.6"/>
+  <text x="300" y="465" text-anchor="middle" font-family="serif" font-size="12" fill="#8a6a3a" opacity="0.7">潜水逃脱路线</text>
+
+  <!-- 远处芦苇丛（雨来藏身处） -->
+  <g transform="translate(650, 350)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="12" fill="#5a6a3a">芦苇丛（藏身处）</text>
+    <path d="M-20 30 L-22 -10" stroke="#5a8a3a" stroke-width="2.5" fill="none"/>
+    <ellipse cx="-22" cy="-10" rx="3" ry="10" fill="#8aa86a"/>
+    <path d="M-5 30 L-7 -15" stroke="#5a8a3a" stroke-width="2.5" fill="none"/>
+    <ellipse cx="-7" cy="-15" rx="3" ry="10" fill="#8aa86a"/>
+    <path d="M10 30 L8 -8" stroke="#5a8a3a" stroke-width="2.5" fill="none"/>
+    <ellipse cx="8" cy="-8" rx="3" ry="10" fill="#8aa86a"/>
+    <path d="M25 30 L23 -12" stroke="#5a8a3a" stroke-width="2.5" fill="none"/>
+    <ellipse cx="23" cy="-12" rx="3" ry="10" fill="#8aa86a"/>
+    <path d="M-15 30 L-17 -5" stroke="#5a8a3a" stroke-width="2" fill="none"/>
+    <ellipse cx="-17" cy="-5" rx="2.5" ry="8" fill="#7a985a"/>
+    <path d="M18 30 L16 -3" stroke="#5a8a3a" stroke-width="2" fill="none"/>
+    <ellipse cx="16" cy="-3" rx="2.5" ry="8" fill="#7a985a"/>
+  </g>
+
+  <!-- 课本（雨来读的书，"我是中国人"） -->
+  <g transform="translate(130, 180)">
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">雨来读的书</text>
+    <!-- 书本 -->
+    <rect x="-40" y="0" width="80" height="55" fill="#fffdf7" stroke="#8a6a3a" stroke-width="2" rx="2"/>
+    <line x1="0" y1="0" x2="0" y2="55" stroke="#c4a070" stroke-width="1.5"/>
+    <!-- 文字（简化） -->
+    <line x1="-32" y1="12" x2="-8" y2="12" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-32" y1="20" x2="-8" y2="20" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-32" y1="28" x2="-12" y2="28" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="-32" y1="36" x2="-8" y2="36" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="8" y1="12" x2="32" y2="12" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="8" y1="20" x2="32" y2="20" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="8" y1="28" x2="28" y2="28" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="8" y1="36" x2="32" y2="36" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 标注 -->
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="12" fill="#c44a3a">"我们是中国人，</text>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="12" fill="#c44a3a">我们爱自己的祖国"</text>
+  </g>
+
+  <!-- 标注：好水性 -->
+  <g transform="translate(550, 200)">
+    <rect x="-60" y="0" width="120" height="50" rx="8" fill="#fffdf7" stroke="#c9952e" stroke-width="1.5" opacity="0.85"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a" font-weight="bold">好水性</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="11" fill="#7a5a2a">扎猛子·捉鱼虾</text>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="世说新语机智故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：世说新语中的机智故事</text>
+  <line x1="170" y1="62" x2="630" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心主题 -->
+  <rect x="250" y="95" width="300" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="400" y="120" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">《世说新语》· 捷悟与言语</text>
+  <text x="400" y="137" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">一千多则小故事·魏晋名士的智慧</text>
+
+  <!-- 三个故事节点 -->
+  <!-- 杨氏之子（左） -->
+  <g>
+    <line x1="310" y1="145" x2="160" y2="190" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="50" y="190" width="220" height="160" fill="#fff6df" stroke="#7ab8d8" rx="6"/>
+    <text x="160" y="212" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7ab8d8">杨氏之子</text>
+    <text x="160" y="228" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">九岁·以姓氏做文章</text>
+    <!-- 对话 -->
+    <rect x="65" y="240" width="90" height="30" fill="#fff" stroke="#6a8d3f" rx="4"/>
+    <text x="110" y="253" text-anchor="middle" font-family="serif" font-size="9" fill="#4a6a2f">杨梅=杨家果？</text>
+    <text x="110" y="264" text-anchor="middle" font-family="serif" font-size="8" fill="#6a8d3f">（孔君平问）</text>
+    <rect x="165" y="275" width="95" height="30" fill="#fff" stroke="#7ab8d8" rx="4"/>
+    <text x="212" y="288" text-anchor="middle" font-family="serif" font-size="9" fill="#4a6a2f">孔雀=孔家禽？</text>
+    <text x="212" y="299" text-anchor="middle" font-family="serif" font-size="8" fill="#7ab8d8">（杨子答）</text>
+    <text x="160" y="330" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">以其人之道还治其人之身</text>
+  </g>
+
+  <!-- 孔融（中） -->
+  <g>
+    <line x1="400" y1="145" x2="400" y2="190" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="290" y="190" width="220" height="160" fill="#fff6df" stroke="#6a8d3f" rx="6"/>
+    <text x="400" y="212" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#6a8d3f">孔融访李膺</text>
+    <text x="400" y="228" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">十岁·孔子与老子世交</text>
+    <!-- 对话 -->
+    <rect x="305" y="240" width="190" height="28" fill="#fff" stroke="#8d5a36" rx="4"/>
+    <text x="400" y="253" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">"小时了了，大未必佳"</text>
+    <text x="400" y="263" text-anchor="middle" font-family="serif" font-size="8" fill="#8d5a36">（陈韪说）</text>
+    <rect x="305" y="275" width="190" height="28" fill="#fff" stroke="#c84a3a" rx="4"/>
+    <text x="400" y="288" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">"想君小时，必当了了"</text>
+    <text x="400" y="298" text-anchor="middle" font-family="serif" font-size="8" fill="#c84a3a">（孔融回）</text>
+    <text x="400" y="330" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">拿对方的话反击回去</text>
+  </g>
+
+  <!-- 钟氏兄弟（右） -->
+  <g>
+    <line x1="490" y1="145" x2="640" y2="190" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="530" y="190" width="220" height="160" fill="#fff6df" stroke="#c8843a" rx="6"/>
+    <text x="640" y="212" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c8843a">钟氏兄弟偷酒</text>
+    <text x="640" y="228" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">偷喝药酒·一个拜一个不拜</text>
+    <!-- 对话 -->
+    <rect x="545" y="240" width="190" height="28" fill="#fff" stroke="#7ab8d8" rx="4"/>
+    <text x="640" y="253" text-anchor="middle" font-family="serif" font-size="9" fill="#7ab8d8">钟毓："酒以成礼，不敢不拜"</text>
+    <text x="640" y="263" text-anchor="middle" font-family="serif" font-size="8" fill="#7ab8d8">（讲礼）</text>
+    <rect x="545" y="275" width="190" height="28" fill="#fff" stroke="#c84a3a" rx="4"/>
+    <text x="640" y="288" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">钟会："偷本非礼，所以不拜"</text>
+    <text x="640" y="298" text-anchor="middle" font-family="serif" font-size="8" fill="#c84a3a">（偷就不讲礼）</text>
+    <text x="640" y="330" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">角度不同·同样聪明</text>
+  </g>
+
+  <!-- 底部总结 -->
+  <g>
+    <rect x="100" y="380" width="600" height="80" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="400" y="405" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">机智三要素</text>
+    <g>
+      <rect x="130" y="420" width="130" height="28" fill="#fff" stroke="#6a8d3f" rx="4"/>
+      <text x="195" y="438" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">反应快</text>
+      <rect x="290" y="420" width="130" height="28" fill="#fff" stroke="#7ab8d8" rx="4"/>
+      <text x="355" y="438" text-anchor="middle" font-family="serif" font-size="11" fill="#7ab8d8">逻辑巧</text>
+      <rect x="450" y="420" width="130" height="28" fill="#fff" stroke="#c84a3a" rx="4"/>
+      <text x="515" y="438" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">分寸好</text>
+    </g>
+    <text x="400" y="455" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">既聪明又有教养——这才是真正的"会说话"</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">魏晋名士爱"清谈"——比机智、比口才，孩子也能学怎样得体地应答</text>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="乡村小溪上搭石排列、人们走搭石的温馨场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">搭石</text>
+  <line x1="380" y1="58" x2="420" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 远山 -->
+  <path d="M0 200 Q150 150 300 180 Q500 140 700 170 L800 200 L800 250 L0 250 Z" fill="#6a8d3f" opacity="0.2"/>
+
+  <!-- 树木 -->
+  <g transform="translate(80, 200)">
+    <rect x="-3" y="0" width="6" height="40" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="0" cy="-5" rx="20" ry="25" fill="#6a8d3f" opacity="0.6" stroke="#4a6a2f" stroke-width="1"/>
+  </g>
+  <g transform="translate(720, 210)">
+    <rect x="-3" y="0" width="6" height="35" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="0" cy="-5" rx="18" ry="22" fill="#4a6a2f" opacity="0.5" stroke="#4a6a2f" stroke-width="1"/>
+  </g>
+
+  <!-- 小溪两岸 -->
+  <path d="M0 280 L800 280 L800 300 L0 300 Z" fill="#e0c898" opacity="0.5"/>
+  <path d="M0 440 L800 440 L800 460 L0 460 Z" fill="#e0c898" opacity="0.5"/>
+
+  <!-- 溪水 -->
+  <rect x="0" y="300" width="800" height="140" fill="#7ab8d8" opacity="0.25"/>
+  <!-- 水波纹 -->
+  <path d="M0 320 Q100 315 200 320 Q300 315 400 320 Q500 315 600 320 Q700 315 800 320" fill="none" stroke="#a8d0e8" stroke-width="1.5" opacity="0.5"/>
+  <path d="M0 360 Q100 355 200 360 Q300 355 400 360 Q500 355 600 360 Q700 355 800 360" fill="none" stroke="#a8d0e8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0 400 Q100 395 200 400 Q300 395 400 400 Q500 395 600 400 Q700 395 800 400" fill="none" stroke="#a8d0e8" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- 搭石（一排石头） -->
+  <g transform="translate(0, 370)">
+    <ellipse cx="200" cy="0" rx="28" ry="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="200" cy="-2" rx="24" ry="7" fill="#a0703f" opacity="0.6"/>
+    <ellipse cx="290" cy="0" rx="28" ry="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="290" cy="-2" rx="24" ry="7" fill="#a0703f" opacity="0.6"/>
+    <ellipse cx="380" cy="0" rx="28" ry="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="380" cy="-2" rx="24" ry="7" fill="#a0703f" opacity="0.6"/>
+    <ellipse cx="470" cy="0" rx="28" ry="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="470" cy="-2" rx="24" ry="7" fill="#a0703f" opacity="0.6"/>
+    <ellipse cx="560" cy="0" rx="28" ry="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="560" cy="-2" rx="24" ry="7" fill="#a0703f" opacity="0.6"/>
+  </g>
+
+  <!-- 走搭石的人1（年轻人背老人） -->
+  <g transform="translate(380, 340)">
+    <!-- 年轻人 -->
+    <ellipse cx="0" cy="10" rx="14" ry="18" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-12" r="10" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-3" cy="-13" r="1" fill="#7a3b14"/>
+    <circle cx="3" cy="-13" r="1" fill="#7a3b14"/>
+    <!-- 背上的老人 -->
+    <ellipse cx="0" cy="-20" rx="10" ry="12" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="0" cy="-32" r="8" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 老人白发 -->
+    <path d="M-6 -36 Q-8 -40 0 -41 Q8 -40 6 -36" fill="#fff" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-2" cy="-33" r="0.8" fill="#7a3b14"/>
+    <circle cx="2" cy="-33" r="0.8" fill="#7a3b14"/>
+    <path d="M-2 -28 Q0 -26 2 -28" fill="none" stroke="#7a3b14" stroke-width="0.8"/>
+    <!-- 手臂托住老人 -->
+    <path d="M-10 0 Q-15 -10 -12 -20" fill="none" stroke="#4a6a2f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M10 0 Q15 -10 12 -20" fill="none" stroke="#4a6a2f" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 走搭石的人2 -->
+  <g transform="translate(470, 345)">
+    <ellipse cx="0" cy="8" rx="12" ry="15" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-10" r="9" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-3" cy="-11" r="1" fill="#7a3b14"/>
+    <circle cx="3" cy="-11" r="1" fill="#7a3b14"/>
+    <!-- 抬脚走 -->
+    <path d="M-8 18 Q-12 22 -10 28" fill="none" stroke="#c84a3a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M8 18 Q14 20 16 15" fill="none" stroke="#c84a3a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- 走搭石的人3（对面走来，让路） -->
+  <g transform="translate(200, 345)">
+    <ellipse cx="0" cy="8" rx="12" ry="15" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-10" r="9" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-3" cy="-11" r="1" fill="#7a3b14"/>
+    <circle cx="3" cy="-11" r="1" fill="#7a3b14"/>
+    <!-- 招手让路 -->
+    <path d="M10 -5 Q18 -15 22 -20" fill="none" stroke="#c8843a" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="23" cy="-22" r="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 声音标注：嗒嗒嗒嗒 -->
+  <text x="400" y="310" text-anchor="middle" font-family="serif" font-size="14" fill="#7ab8d8" opacity="0.7">嗒嗒嗒嗒～</text>
+
+  <!-- 标注：搭石 -->
+  <line x1="290" y1="375" x2="290" y2="410" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="240" y="415" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="290" y="433" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">平整搭石</text>
+
+  <!-- 标注：背老人 -->
+  <line x1="380" y1="310" x2="340" y2="270" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="280" y="248" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="340" y="266" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">背老人过溪</text>
+
+  <!-- 标注：招手让路 -->
+  <line x1="210" y1="325" x2="160" y2="290" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="80" y="268" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="135" y="286" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">招手让路</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">搭石，构成了家乡的一道风景</text>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">一道道搭石，连着人与人之间的情谊</text>
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">为别人着想——最朴素的美德，最美的风景</text>
+</svg>

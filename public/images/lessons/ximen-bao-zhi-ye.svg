@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="西门豹站在河边插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">西门豹治邺</text>
+  <line x1="290" y1="56" x2="510" y2="56" stroke="#c9952e" stroke-width="3"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="65" width="800" height="200" fill="#d4e0ea"/>
+
+  <!-- 远山 -->
+  <path d="M0 265 L120 200 L250 265 Z" fill="#9ab0a0" opacity="0.6"/>
+  <path d="M200 265 L380 190 L560 265 Z" fill="#8aa090" opacity="0.6"/>
+  <path d="M450 265 L620 210 L800 265 Z" fill="#9ab0a0" opacity="0.6"/>
+
+  <!-- 河岸（近景地面） -->
+  <path d="M0 265 L800 265 L800 320 L0 320 Z" fill="#c4a070" stroke="#7a5a20" stroke-width="2"/>
+
+  <!-- 河水（漳河） -->
+  <rect x="0" y="320" width="800" height="280" fill="#6a9ab8"/>
+  <!-- 水波纹 -->
+  <g stroke="#8ab8d0" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M50 360 Q80 355 110 360 Q140 365 170 360"/>
+    <path d="M250 380 Q280 375 310 380 Q340 385 370 380"/>
+    <path d="M450 400 Q480 395 510 400 Q540 405 570 400"/>
+    <path d="M100 440 Q130 435 160 440 Q190 445 220 440"/>
+    <path d="M350 460 Q380 455 410 460 Q440 465 470 460"/>
+    <path d="M550 480 Q580 475 610 480 Q640 485 670 480"/>
+    <path d="M200 510 Q230 505 260 510 Q290 515 320 510"/>
+    <path d="M450 530 Q480 525 510 530 Q540 535 570 530"/>
+  </g>
+  <text x="700" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#3a5a70" font-weight="bold">漳 河</text>
+
+  <!-- 西门豹（站在河岸上） -->
+  <g transform="translate(250, 265)">
+    <!-- 标注 -->
+    <text x="0" y="-130" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a3a1a">西门豹</text>
+    <line x1="0" y1="-122" x2="0" y2="-108" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 帽子（官帽） -->
+    <path d="M-22 -95 L-28 -108 L28 -108 L22 -95 Z" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2"/>
+    <rect x="-25" y="-95" width="50" height="8" fill="#2a2a2a"/>
+    <!-- 脸 -->
+    <ellipse cx="0" cy="-78" rx="20" ry="24" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 眼睛（严肃） -->
+    <path d="M-10 -82 L-4 -82" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M4 -82 L10 -82" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 胡须 -->
+    <path d="M-8 -68 Q0 -58 8 -68" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+    <!-- 嘴 -->
+    <line x1="-5" y1="-72" x2="5" y2="-72" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 身体（官服） -->
+    <path d="M-25 -55 L-35 55 L35 55 L25 -55 Z" fill="#6a3a2a" stroke="#3a1a0a" stroke-width="2.5"/>
+    <!-- 衣领 -->
+    <path d="M-10 -55 L0 -35 L10 -55" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 腰带 -->
+    <rect x="-30" y="0" width="60" height="10" fill="#c9952e" stroke="#7a5a1a" stroke-width="1.5"/>
+    <!-- 手臂（指向河面） -->
+    <path d="M25 -40 L60 -10 L90 10" fill="none" stroke="#6a3a2a" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="92" cy="12" r="9" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 左手（背在身后） -->
+    <path d="M-25 -40 L-40 0" fill="none" stroke="#6a3a2a" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <!-- 对话气泡 -->
+  <path d="M360 150 Q360 120 400 120 L500 120 Q540 120 540 150 L540 185 Q540 200 525 200 L420 200 L400 215 L405 200 L375 200 Q360 200 360 185 Z" fill="#fffdf7" stroke="#5a3a1a" stroke-width="2"/>
+  <text x="450" y="148" text-anchor="middle" font-family="serif" font-size="14" fill="#5a3a1a">"新娘不漂亮，</text>
+  <text x="450" y="168" text-anchor="middle" font-family="serif" font-size="14" fill="#5a3a1a">麻烦巫婆去告诉河伯"</text>
+
+  <!-- 巫婆（被扔向河里） -->
+  <g transform="translate(550, 340)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#9a3a3a">巫婆</text>
+    <!-- 头 -->
+    <circle cx="0" cy="-20" r="16" fill="#d4a8a8" stroke="#7a3a3a" stroke-width="2"/>
+    <!-- 乱发 -->
+    <path d="M-16 -25 Q-20 -40 -10 -35 M16 -25 Q20 -40 10 -35 M0 -36 Q-5 -45 5 -45" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <!-- 眼睛（惊恐） -->
+    <circle cx="-6" cy="-22" r="3" fill="#fff" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="6" cy="-22" r="3" fill="#fff" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="-6" cy="-22" r="1.5" fill="#1a1a1a"/>
+    <circle cx="6" cy="-22" r="1.5" fill="#1a1a1a"/>
+    <!-- 嘴（张大惊叫） -->
+    <ellipse cx="0" cy="-12" rx="4" ry="6" fill="#6a2a2a"/>
+    <!-- 身体（花衣服） -->
+    <path d="M-18 -5 L-15 30 L15 30 L18 -5 Z" fill="#c44a6a" stroke="#7a2a3a" stroke-width="2"/>
+    <!-- 花纹 -->
+    <circle cx="-8" cy="10" r="3" fill="#f4d4a8"/>
+    <circle cx="6" cy="5" r="3" fill="#f4d4a8"/>
+    <circle cx="0" cy="20" r="3" fill="#f4d4a8"/>
+    <!-- 手臂（挥舞） -->
+    <path d="M-18 0 L-35 -15" fill="none" stroke="#c44a6a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M18 0 L35 -10" fill="none" stroke="#c44a6a" stroke-width="8" stroke-linecap="round"/>
+    <!-- 水花 -->
+    <g stroke="#a8d0e8" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <path d="M-30 35 Q-35 25 -40 30"/>
+      <path d="M30 35 Q35 25 40 30"/>
+      <path d="M-20 40 Q-25 30 -30 35"/>
+      <path d="M20 40 Q25 30 30 35"/>
+      <path d="M0 38 Q-5 28 -10 32"/>
+      <path d="M0 38 Q5 28 10 32"/>
+    </g>
+  </g>
+
+  <!-- 官绅（跪地求饶） -->
+  <g transform="translate(120, 300)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">官绅（磕头求饶）</text>
+    <!-- 跪着的身体 -->
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#4a4a6a" stroke="#2a2a3a" stroke-width="2"/>
+    <!-- 头（低着） -->
+    <ellipse cx="0" cy="-20" rx="14" ry="12" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 帽子 -->
+    <path d="M-14 -25 L14 -25 L10 -32 L-10 -32 Z" fill="#2a2a2a"/>
+    <!-- 手（抱头） -->
+    <path d="M-14 -18 L-20 -25 M14 -18 L20 -25" fill="none" stroke="#5a3a1a" stroke-width="3" stroke-linecap="round"/>
+    <!-- 汗滴 -->
+    <ellipse cx="-18" cy="-15" rx="3" ry="5" fill="#8ab8d0" opacity="0.8"/>
+    <ellipse cx="18" cy="-12" rx="3" ry="5" fill="#8ab8d0" opacity="0.8"/>
+  </g>
+
+  <!-- 围观百姓 -->
+  <g transform="translate(680, 290)">
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">百姓围观</text>
+    <!-- 百姓1 -->
+    <circle cx="-15" cy="-20" r="10" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M-22 -25 L-8 -25 L-5 -18 L-25 -18 Z" fill="#7a5a3a"/>
+    <path d="M-25 -10 L-25 25 L-5 25 L-5 -10 Z" fill="#8a7a5a"/>
+    <!-- 百姓2 -->
+    <circle cx="15" cy="-15" r="10" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M8 -20 L22 -20 L25 -13 L5 -13 Z" fill="#6a4a2a"/>
+    <path d="M5 -5 L5 30 L25 30 L25 -5 Z" fill="#7a6a4a"/>
+  </g>
+</svg>

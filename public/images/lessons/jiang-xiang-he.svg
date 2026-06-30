@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="廉颇负荆请罪插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">将相和 · 廉颇负荆请罪</text>
+  <line x1="220" y1="62" x2="580" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 远山 -->
+  <path d="M0 470 L120 380 L240 440 L360 360 L480 430 L600 370 L720 440 L800 400 L800 600 L0 600 Z" fill="#d8c9a8" opacity="0.6"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+  <path d="M0 500 Q400 490 800 500" fill="none" stroke="#c4a86a" stroke-width="2"/>
+
+  <!-- 蔺相如的府邸 -->
+  <!-- 院墙 -->
+  <rect x="470" y="360" width="300" height="160" fill="#f0e0c0" stroke="#a87842" stroke-width="3"/>
+  <!-- 屋顶 -->
+  <path d="M450 360 L620 280 L790 360 Z" fill="#8a4a28" stroke="#5a2e16" stroke-width="2"/>
+  <path d="M620 280 L620 250 L640 250 L640 280" fill="#8a4a28"/>
+  <!-- 屋脊装饰 -->
+  <rect x="600" y="248" width="40" height="8" fill="#5a2e16"/>
+  <!-- 大门 -->
+  <rect x="580" y="400" width="80" height="120" fill="#a83828" stroke="#5a1e16" stroke-width="3"/>
+  <line x1="620" y1="400" x2="620" y2="520" stroke="#5a1e16" stroke-width="2"/>
+  <circle cx="608" cy="460" r="5" fill="#f4c842"/>
+  <circle cx="632" cy="460" r="5" fill="#f4c842"/>
+  <!-- 门匾 -->
+  <rect x="560" y="372" width="120" height="22" fill="#7a3b14" rx="3"/>
+  <text x="620" y="388" text-anchor="middle" font-family="serif" font-size="14" fill="#fef9ed">蔺府</text>
+
+  <!-- 蔺相如（从门中走出，伸手扶） -->
+  <!-- 身体 -->
+  <path d="M535 510 L545 420 L585 420 L595 510 Z" fill="#2e5a8a"/>
+  <!-- 衣袖展开（伸手扶人） -->
+  <path d="M545 430 L470 470 L475 485 L550 455 Z" fill="#3a6ba0"/>
+  <!-- 头 -->
+  <circle cx="565" cy="400" r="20" fill="#f0d0a8"/>
+  <!-- 帽子 -->
+  <path d="M545 392 Q565 372 585 392 L585 384 Q565 366 545 384 Z" fill="#1e3a5a"/>
+  <rect x="555" y="372" width="20" height="14" fill="#1e3a5a"/>
+  <!-- 胡须 -->
+  <path d="M558 414 Q565 424 572 414" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+  <!-- 表情（惊讶/感动） -->
+  <circle cx="558" cy="399" r="2" fill="#2a2a2a"/>
+  <circle cx="572" cy="399" r="2" fill="#2a2a2a"/>
+  <path d="M560 408 Q565 411 570 408" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+
+  <!-- 廉颇（跪地，背荆条） -->
+  <!-- 跪姿身体（前倾） -->
+  <path d="M300 510 L340 440 L390 440 L370 510 Z" fill="#6a4a2a"/>
+  <!-- 头（低垂） -->
+  <circle cx="395" cy="430" r="20" fill="#f0d0a8"/>
+  <!-- 头巾 -->
+  <path d="M378 422 Q395 408 412 422 L412 416 Q395 404 378 416 Z" fill="#4a3020"/>
+  <!-- 白发胡须（老将） -->
+  <path d="M388 444 Q395 452 402 444" fill="none" stroke="#cccccc" stroke-width="2"/>
+  <path d="M386 425 Q395 432 404 425" fill="none" stroke="#dddddd" stroke-width="1.5"/>
+  <!-- 背上的荆条（多根带刺枝条） -->
+  <g stroke="#5a3a1a" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M320 445 Q300 410 290 380"/>
+    <path d="M335 442 Q325 405 320 370"/>
+    <path d="M350 440 Q350 400 355 365"/>
+    <path d="M365 442 Q375 405 385 372"/>
+  </g>
+  <!-- 荆条上的刺 -->
+  <g stroke="#3a2a14" stroke-width="1.5">
+    <line x1="305" y1="420" x2="300" y2="415"/>
+    <line x1="312" y1="400" x2="307" y2="395"/>
+    <line x1="328" y1="415" x2="323" y2="410"/>
+    <line x1="350" y1="395" x2="345" y2="390"/>
+    <line x1="370" y1="410" x2="365" y2="405"/>
+  </g>
+  <!-- 跪着的腿 -->
+  <path d="M300 510 Q330 525 370 510" fill="#5a3a1a"/>
+  <ellipse cx="335" cy="515" rx="40" ry="10" fill="#4a2a14"/>
+
+  <!-- 文字标注 -->
+  <line x1="395" y1="395" x2="395" y2="330" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="345" y="305" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="395" y="323" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">廉颇（负荆）</text>
+
+  <line x1="565" y1="375" x2="565" y2="330" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="515" y="305" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="565" y="323" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">蔺相如</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">老将廉颇背着荆条登门请罪，蔺相如出门相迎，二人结为生死之交</text>
+</svg>

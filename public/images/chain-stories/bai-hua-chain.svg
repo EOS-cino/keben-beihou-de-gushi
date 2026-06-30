@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从俄罗斯白桦到天山雪松的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：俄罗斯白桦 -->
+  <circle cx="170" cy="300" r="110" fill="#9bb7c4" opacity="0.3" stroke="#5d8aa8" stroke-width="3"/>
+  <rect x="164" y="265" width="12" height="60" fill="#f5efe0" stroke="#9bb7c4" stroke-width="1.5"/>
+  <line x1="166" y1="280" x2="174" y2="280" stroke="#3a3a3a" stroke-width="1.5"/>
+  <line x1="166" y1="295" x2="174" y2="295" stroke="#3a3a3a" stroke-width="1.5"/>
+  <line x1="166" y1="310" x2="174" y2="310" stroke="#3a3a3a" stroke-width="1.5"/>
+  <ellipse cx="158" cy="268" rx="8" ry="5" fill="#ffffff" stroke="#9bb7c4"/>
+  <ellipse cx="182" cy="268" rx="8" ry="5" fill="#ffffff" stroke="#9bb7c4"/>
+  <text x="170" y="345" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">俄罗斯白桦</text>
+  <text x="170" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">白与静·清气</text>
+  <!-- 右珠：天山雪松 -->
+  <circle cx="630" cy="300" r="110" fill="#3a7d44" opacity="0.3" stroke="#1e4d2b" stroke-width="3"/>
+  <polygon points="630,265 610,300 650,300" fill="#1e4d2b"/>
+  <polygon points="630,280 600,320 660,320" fill="#2d6a4f"/>
+  <polygon points="630,295 590,335 670,335" fill="#3a7d44"/>
+  <rect x="626" y="335" width="8" height="12" fill="#5d4037"/>
+  <circle cx="620" cy="270" r="2" fill="#ffffff" stroke="#9bb7c4"/>
+  <circle cx="640" cy="275" r="2" fill="#ffffff" stroke="#9bb7c4"/>
+  <text x="630" y="345" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">天山雪松</text>
+  <text x="630" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">直与韧·骨气</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">俄罗斯白桦，天山雪松</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">一棵树常常不只是树，住着一种精神</text>
+</svg>

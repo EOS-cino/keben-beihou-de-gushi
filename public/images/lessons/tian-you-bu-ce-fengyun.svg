@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各种天气现象和气象观测的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">天有不测风云</text>
+  <line x1="300" y1="58" x2="500" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 四种天气现象 -->
+  <!-- 1 晴天 -->
+  <rect x="30" y="80" width="180" height="180" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" opacity="0.6"/>
+  <text x="120" y="108" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">晴</text>
+  <g transform="translate(120,180)">
+    <circle cx="0" cy="0" r="28" fill="#e8a838"/>
+    <g stroke="#e8a838" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-40" x2="0" y2="-50"/>
+      <line x1="0" y1="40" x2="0" y2="50"/>
+      <line x1="-40" y1="0" x2="-50" y2="0"/>
+      <line x1="40" y1="0" x2="50" y2="0"/>
+      <line x1="-28" y1="-28" x2="-36" y2="-36"/>
+      <line x1="28" y1="-28" x2="36" y2="-36"/>
+      <line x1="-28" y1="28" x2="-36" y2="36"/>
+      <line x1="28" y1="28" x2="36" y2="36"/>
+    </g>
+  </g>
+
+  <!-- 2 雨 -->
+  <rect x="220" y="80" width="180" height="180" rx="8" fill="#d8e0e8" opacity="0.5"/>
+  <text x="310" y="108" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">雨</text>
+  <g transform="translate(310,170)">
+    <ellipse cx="0" cy="0" rx="40" ry="20" fill="#8d8d8d"/>
+    <ellipse cx="-20" cy="-8" rx="22" ry="16" fill="#a0a0a0"/>
+    <ellipse cx="20" cy="-8" rx="22" ry="16" fill="#a0a0a0"/>
+  </g>
+  <g stroke="#7ab8d8" stroke-width="2" stroke-linecap="round">
+    <line x1="280" y1="200" x2="275" y2="220"/>
+    <line x1="300" y1="205" x2="295" y2="225"/>
+    <line x1="320" y1="200" x2="315" y2="220"/>
+    <line x1="340" y1="205" x2="335" y2="225"/>
+  </g>
+
+  <!-- 3 风 -->
+  <rect x="410" y="80" width="180" height="180" rx="8" fill="#e8f0e6" opacity="0.5"/>
+  <text x="500" y="108" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">风</text>
+  <g fill="none" stroke="#6a8d3f" stroke-width="3" stroke-linecap="round">
+    <path d="M440 160 Q480 150 520 160 Q540 165 560 155"/>
+    <path d="M440 185 Q490 175 540 185 Q560 190 575 180"/>
+    <path d="M440 210 Q470 200 500 210"/>
+  </g>
+  <!-- 被风吹弯的树 -->
+  <rect x="555" y="200" width="5" height="40" fill="#8d5a36"/>
+  <path d="M557 200 Q540 185 535 170" fill="none" stroke="#6a8d3f" stroke-width="3"/>
+
+  <!-- 4 雪 -->
+  <rect x="600" y="80" width="170" height="180" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" opacity="0.6"/>
+  <text x="685" y="108" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">雪</text>
+  <g transform="translate(685,170)">
+    <ellipse cx="0" cy="0" rx="36" ry="18" fill="#b8b8b8"/>
+    <ellipse cx="-18" cy="-6" rx="20" ry="14" fill="#c8c8c8"/>
+  </g>
+  <g fill="#a8d0e8">
+    <circle cx="640" cy="210" r="3"/>
+    <circle cx="665" cy="220" r="3"/>
+    <circle cx="690" cy="212" r="3"/>
+    <circle cx="715" cy="222" r="3"/>
+    <circle cx="735" cy="215" r="3"/>
+  </g>
+
+  <!-- 下半：观测手段 -->
+  <text x="400" y="300" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#3a6a9a">人类怎样观测天气</text>
+
+  <!-- 古代：谚语 -->
+  <rect x="30" y="320" width="240" height="180" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" opacity="0.6"/>
+  <text x="150" y="348" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">古代：看云看动物</text>
+  <!-- 朝霞 -->
+  <g transform="translate(80,400)">
+    <rect x="-30" y="0" width="60" height="30" fill="#8d5a36" opacity="0.4"/>
+    <path d="M-30 0 Q0 -20 30 0" fill="#e07856" opacity="0.5"/>
+    <circle cx="0" cy="-10" r="10" fill="#e8a838" opacity="0.7"/>
+  </g>
+  <text x="80" y="455" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">朝霞不出门</text>
+  <!-- 燕子低飞 -->
+  <g transform="translate(200,400)">
+    <path d="M-10 0 Q-5 -6 0 0 Q5 -6 10 0" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-6 4 Q0 -2 6 4" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+  <text x="200" y="455" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">燕子低飞要下雨</text>
+
+  <!-- 现代：卫星 -->
+  <rect x="290" y="320" width="240" height="180" rx="8" fill="#d8e0e8" opacity="0.5"/>
+  <text x="410" y="348" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">现代：卫星和雷达</text>
+  <!-- 卫星 -->
+  <g transform="translate(360,410)">
+    <circle cx="0" cy="0" r="14" fill="#a8d0e8" stroke="#4a8aaa" stroke-width="1.5"/>
+    <rect x="-26" y="-5" width="14" height="10" rx="2" fill="#6a8d3f"/>
+    <rect x="12" y="-5" width="14" height="10" rx="2" fill="#6a8d3f"/>
+    <line x1="0" y1="14" x2="0" y2="26" stroke="#8d8d8d" stroke-width="2"/>
+    <path d="M-5 26 L0 32 L5 26" fill="none" stroke="#8d8d8d" stroke-width="2"/>
+  </g>
+  <text x="360" y="465" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">气象卫星</text>
+  <!-- 雷达 -->
+  <g transform="translate(460,410)">
+    <ellipse cx="0" cy="10" rx="20" ry="6" fill="#8d8d8d"/>
+    <rect x="-3" y="-15" width="6" height="25" fill="#8d8d8d"/>
+    <path d="M-3 -15 Q-16 -25 -22 -15" fill="none" stroke="#7ab8d8" stroke-width="3"/>
+    <path d="M3 -15 Q16 -25 22 -15" fill="none" stroke="#7ab8d8" stroke-width="3"/>
+  </g>
+  <text x="460" y="465" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">气象雷达</text>
+
+  <!-- 超级计算机 -->
+  <rect x="550" y="320" width="220" height="180" rx="8" fill="#e8f0e6" opacity="0.5"/>
+  <text x="660" y="348" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">计算：超级计算机</text>
+  <g transform="translate(660,410)">
+    <rect x="-40" y="-25" width="80" height="50" rx="4" fill="#3a4a6a" stroke="#7a3b14" stroke-width="1.5"/>
+    <g fill="#6a8d3f">
+      <rect x="-34" y="-18" width="8" height="8"/>
+      <rect x="-22" y="-18" width="8" height="8"/>
+      <rect x="-10" y="-18" width="8" height="8"/>
+      <rect x="2" y="-18" width="8" height="8"/>
+      <rect x="14" y="-18" width="8" height="8"/>
+      <rect x="26" y="-18" width="8" height="8"/>
+    </g>
+    <g fill="#e8a838">
+      <rect x="-34" y="-6" width="8" height="8"/>
+      <rect x="-22" y="-6" width="8" height="8"/>
+      <rect x="-10" y="-6" width="8" height="8"/>
+      <rect x="2" y="-6" width="8" height="8"/>
+      <rect x="14" y="-6" width="8" height="8"/>
+      <rect x="26" y="-6" width="8" height="8"/>
+    </g>
+    <rect x="-34" y="6" width="68" height="14" rx="2" fill="#a8d0e8"/>
+  </g>
+  <text x="660" y="465" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">算出未来天气</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">天气虽说不测，但有了观测、计算和预报，人类正把不测变成可测。</text>
+</svg>

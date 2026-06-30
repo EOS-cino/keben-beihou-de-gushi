@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="人类登月历程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">人类登月的故事</text>
+  <line x1="290" y1="58" x2="510" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 时间轴主线 -->
+  <line x1="60" y1="120" x2="740" y2="120" stroke="#c8843a" stroke-width="3"/>
+  <!-- 时间轴箭头 -->
+  <path d="M740 120 L730 114 L730 126 Z" fill="#c8843a"/>
+
+  <!-- 节点1：1957 人造卫星 -->
+  <circle cx="100" cy="120" r="10" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="100" y1="130" x2="100" y2="170" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <rect x="50" y="170" width="100" height="70" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="100" y="190" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">1957年</text>
+  <text x="100" y="208" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">第一颗</text>
+  <text x="100" y="224" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">人造卫星</text>
+  <!-- 小卫星图标 -->
+  <circle cx="100" cy="100" r="6" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="106" y1="100" x2="116" y2="94" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="106" y1="100" x2="116" y2="106" stroke="#7a3b14" stroke-width="1"/>
+
+  <!-- 节点2：1961 加加林进入太空 -->
+  <circle cx="260" cy="120" r="10" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="260" y1="130" x2="260" y2="170" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <rect x="210" y="170" width="100" height="70" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="260" y="190" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">1961年</text>
+  <text x="260" y="208" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">加加林</text>
+  <text x="260" y="224" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">进入太空</text>
+  <!-- 火箭图标 -->
+  <path d="M260 100 L256 108 L256 114 L264 114 L264 108 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+  <path d="M256 114 L252 118 L256 118 Z" fill="#7a3b14"/>
+  <path d="M264 114 L268 118 L264 118 Z" fill="#7a3b14"/>
+
+  <!-- 节点3：1969 阿波罗11号登月 -->
+  <circle cx="440" cy="120" r="12" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="440" y1="132" x2="440" y2="170" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <rect x="380" y="170" width="120" height="80" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+  <text x="440" y="192" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c84a3a">1969年7月</text>
+  <text x="440" y="212" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">阿波罗11号</text>
+  <text x="440" y="228" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">首次登月成功</text>
+  <text x="440" y="244" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">★ 里程碑</text>
+  <!-- 月球图标 -->
+  <circle cx="440" cy="95" r="10" fill="#d8d8c8" stroke="#7a3b14" stroke-width="1.5"/>
+  <circle cx="436" cy="92" r="2" fill="#b8b8a8" opacity="0.6"/>
+  <circle cx="444" cy="97" r="1.5" fill="#b8b8a8" opacity="0.6"/>
+
+  <!-- 节点4：1972 最后一次阿波罗登月 -->
+  <circle cx="620" cy="120" r="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="620" y1="130" x2="620" y2="170" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <rect x="570" y="170" width="100" height="70" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="620" y="190" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">1972年</text>
+  <text x="620" y="208" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">最后一次</text>
+  <text x="620" y="224" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">阿波罗登月</text>
+  <!-- 脚印图标 -->
+  <ellipse cx="620" cy="100" rx="4" ry="7" fill="#8a8a8a" transform="rotate(-10 620 100)"/>
+
+  <!-- 下半部分：登月飞行路线图 -->
+  <text x="400" y="290" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#3a6a9a">阿波罗11号飞行路线</text>
+
+  <!-- 地球 -->
+  <circle cx="120" cy="400" r="45" fill="#4a8aba" stroke="#3a6a8a" stroke-width="2"/>
+  <path d="M95 385 Q110 378 125 388 Q135 395 125 402 Q110 400 95 392 Z" fill="#6a8d3f" opacity="0.8"/>
+  <path d="M100 410 Q115 405 130 412 Q128 420 115 418 Z" fill="#6a8d3f" opacity="0.8"/>
+  <ellipse cx="105" cy="385" rx="12" ry="8" fill="#a8d0e8" opacity="0.4"/>
+  <text x="120" y="470" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">地球</text>
+
+  <!-- 飞行路线（虚线弧） -->
+  <path d="M165 380 Q280 300 400 340 Q520 300 635 380" fill="none" stroke="#c8843a" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- 飞行方向箭头1 -->
+  <path d="M250 335 L260 330 L258 340 Z" fill="#c8843a"/>
+  <!-- 飞行方向箭头2 -->
+  <path d="M550 335 L540 330 L542 340 Z" fill="#c8843a"/>
+
+  <!-- 中间标注：飞行3天 -->
+  <rect x="350" y="300" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="319" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">飞行约3天</text>
+
+  <!-- 月球 -->
+  <circle cx="680" cy="400" r="38" fill="#d8d8c8" stroke="#8a8a7a" stroke-width="2"/>
+  <!-- 月球环形山 -->
+  <ellipse cx="670" cy="390" rx="8" ry="4" fill="#b8b8a8" opacity="0.6"/>
+  <ellipse cx="690" cy="395" rx="6" ry="3" fill="#b8b8a8" opacity="0.6"/>
+  <ellipse cx="675" cy="410" rx="5" ry="3" fill="#b8b8a8" opacity="0.6"/>
+  <ellipse cx="695" cy="415" rx="4" ry="2" fill="#b8b8a8" opacity="0.5"/>
+  <text x="680" y="465" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">月球</text>
+
+  <!-- 距离标注 -->
+  <line x1="165" y1="460" x2="642" y2="460" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="400" y="478" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">约38万公里</text>
+
+  <!-- 关键数据框 -->
+  <rect x="40" y="500" width="220" height="80" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="150" y="520" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">登月关键数据</text>
+  <text x="55" y="540" font-family="serif" font-size="12" fill="#7a3b14">飞行时间：8天多</text>
+  <text x="55" y="556" font-family="serif" font-size="12" fill="#7a3b14">登月人数：共12人</text>
+  <text x="55" y="572" font-family="serif" font-size="12" fill="#7a3b14">月岩样本：382公斤</text>
+
+  <!-- 名言框 -->
+  <rect x="290" y="500" width="470" height="80" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="525" y="522" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">阿姆斯特朗的名言</text>
+  <text x="525" y="544" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">"这是个人的一小步，</text>
+  <text x="525" y="562" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">却是人类的一大步。"</text>
+  <text x="525" y="576" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">——1969年7月20日</text>
+</svg>

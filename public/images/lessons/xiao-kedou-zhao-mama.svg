@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="蝌蚪在水中游、青蛙在荷叶上的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">小蝌蚪找妈妈</text>
+
+  <!-- 天空区域 -->
+  <rect x="0" y="60" width="800" height="180" fill="#d6ecf7"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="120" r="32" fill="#f4b942"/>
+  <circle cx="680" cy="120" r="42" fill="#f4b942" opacity="0.3"/>
+  <!-- 云朵 -->
+  <ellipse cx="150" cy="110" rx="45" ry="18" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="185" cy="100" rx="35" ry="15" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="500" cy="140" rx="50" ry="20" fill="#ffffff" opacity="0.8"/>
+
+  <!-- 水面 -->
+  <rect x="0" y="240" width="800" height="360" fill="#7ec0db"/>
+  <!-- 水波纹 -->
+  <path d="M0 270 Q100 260 200 270 T400 270 T600 270 T800 270" fill="none" stroke="#a8d4e8" stroke-width="3"/>
+  <path d="M0 300 Q120 290 240 300 T480 300 T720 300 T800 300" fill="none" stroke="#a8d4e8" stroke-width="2" opacity="0.6"/>
+
+  <!-- 远处荷叶 -->
+  <ellipse cx="120" cy="320" rx="70" ry="22" fill="#4a9d5e" opacity="0.7"/>
+  <ellipse cx="650" cy="340" rx="60" ry="18" fill="#4a9d5e" opacity="0.6"/>
+
+  <!-- 主荷叶（青蛙站的地方） -->
+  <ellipse cx="500" cy="380" rx="130" ry="38" fill="#3d8b4e"/>
+  <ellipse cx="500" cy="375" rx="125" ry="34" fill="#5cb070"/>
+  <!-- 荷叶纹理 -->
+  <path d="M500 375 L440 360 M500 375 L560 360 M500 375 L430 380 M500 375 L570 380" stroke="#3d8b4e" stroke-width="2"/>
+
+  <!-- 荷花 -->
+  <g transform="translate(620,330)">
+    <ellipse cx="0" cy="0" rx="8" ry="25" fill="#f8c8d8" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="0" rx="8" ry="25" fill="#f4a8c0" transform="rotate(0)"/>
+    <ellipse cx="0" cy="0" rx="8" ry="25" fill="#f8c8d8" transform="rotate(30)"/>
+    <circle cx="0" cy="0" r="8" fill="#f4b942"/>
+  </g>
+
+  <!-- 青蛙妈妈 -->
+  <g transform="translate(490,340)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="20" rx="48" ry="32" fill="#6ab04c"/>
+    <ellipse cx="0" cy="15" rx="44" ry="28" fill="#7cc85a"/>
+    <!-- 后腿 -->
+    <ellipse cx="-38" cy="35" rx="20" ry="12" fill="#5a9d3e" transform="rotate(-20 -38 35)"/>
+    <ellipse cx="38" cy="35" rx="20" ry="12" fill="#5a9d3e" transform="rotate(20 38 35)"/>
+    <!-- 前腿 -->
+    <ellipse cx="-25" cy="40" rx="8" ry="16" fill="#6ab04c"/>
+    <ellipse cx="25" cy="40" rx="8" ry="16" fill="#6ab04c"/>
+    <!-- 头部 -->
+    <ellipse cx="0" cy="-8" rx="36" ry="26" fill="#7cc85a"/>
+    <!-- 眼睛凸起 -->
+    <circle cx="-16" cy="-22" r="14" fill="#7cc85a"/>
+    <circle cx="16" cy="-22" r="14" fill="#7cc85a"/>
+    <!-- 眼白 -->
+    <circle cx="-16" cy="-22" r="9" fill="#ffffff"/>
+    <circle cx="16" cy="-22" r="9" fill="#ffffff"/>
+    <!-- 瞳孔 -->
+    <circle cx="-16" cy="-20" r="5" fill="#1a1a1a"/>
+    <circle cx="16" cy="-20" r="5" fill="#1a1a1a"/>
+    <!-- 嘴巴 -->
+    <path d="M-18 5 Q0 14 18 5" fill="none" stroke="#3d6b28" stroke-width="3" stroke-linecap="round"/>
+    <!-- 肚子 -->
+    <ellipse cx="0" cy="25" rx="30" ry="18" fill="#c8e8a8" opacity="0.6"/>
+  </g>
+  <text x="500" y="430" text-anchor="middle" font-size="14" fill="#2d5a1a" font-family="sans-serif" font-weight="bold">青蛙妈妈</text>
+
+  <!-- 小蝌蚪们 -->
+  <g transform="translate(180,420)">
+    <ellipse cx="0" cy="0" rx="18" ry="13" fill="#2a2a2a"/>
+    <ellipse cx="0" cy="-3" rx="14" ry="9" fill="#3a3a3a"/>
+    <path d="M16 0 Q35 -8 50 2 Q40 4 16 5" fill="#2a2a2a"/>
+    <circle cx="-6" cy="-3" r="3" fill="#ffffff" opacity="0.7"/>
+    <circle cx="6" cy="-3" r="3" fill="#ffffff" opacity="0.7"/>
+  </g>
+  <text x="180" y="455" text-anchor="middle" font-size="13" fill="#1a3a5a" font-family="sans-serif">小蝌蚪</text>
+
+  <g transform="translate(280,470)">
+    <ellipse cx="0" cy="0" rx="16" ry="11" fill="#2a2a2a"/>
+    <ellipse cx="0" cy="-2" rx="12" ry="8" fill="#3a3a3a"/>
+    <path d="M14 0 Q30 6 44 -2 Q34 -4 14 4" fill="#2a2a2a"/>
+    <circle cx="-5" cy="-2" r="2.5" fill="#ffffff" opacity="0.7"/>
+    <circle cx="5" cy="-2" r="2.5" fill="#ffffff" opacity="0.7"/>
+  </g>
+
+  <g transform="translate(340,400)">
+    <ellipse cx="0" cy="0" rx="15" ry="10" fill="#2a2a2a"/>
+    <path d="M13 0 Q28 -5 40 3 Q30 5 13 3" fill="#2a2a2a"/>
+    <circle cx="-5" cy="-2" r="2.5" fill="#ffffff" opacity="0.7"/>
+    <circle cx="4" cy="-2" r="2.5" fill="#ffffff" opacity="0.7"/>
+  </g>
+
+  <!-- 水草 -->
+  <path d="M60 600 Q70 520 60 460 Q50 420 65 380" fill="none" stroke="#2d7a3e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M80 600 Q90 540 75 480 Q65 440 85 400" fill="none" stroke="#3d8b4e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M740 600 Q730 530 745 470 Q755 430 735 390" fill="none" stroke="#2d7a3e" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- 气泡 -->
+  <circle cx="230" cy="500" r="5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="250" cy="520" r="3" fill="#ffffff" opacity="0.4"/>
+  <circle cx="400" cy="510" r="4" fill="#ffffff" opacity="0.4"/>
+</svg>

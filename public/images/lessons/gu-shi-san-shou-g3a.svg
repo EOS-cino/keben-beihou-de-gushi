@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古诗三首：三种秋天">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古诗三首</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">同一片秋色，三种心境</text>
+  <g transform="translate(140,300)">
+    <path d="M-50,50 L0,-50 L50,50 Z" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <circle cx="-10" cy="0" r="10" fill="#c0392b"/><circle cx="15" cy="20" r="9" fill="#c0392b"/><circle cx="-20" cy="25" r="8" fill="#c0392b"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">山行·红枫</text>
+  </g>
+  <g transform="translate(400,300)">
+    <circle cx="-20" cy="0" r="18" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <circle cx="20" cy="10" r="16" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">赠刘景文·橙橘</text>
+  </g>
+  <g transform="translate(660,300)">
+    <rect x="-40" y="20" width="80" height="30" fill="#5a3a1a" stroke="#3a2a1a" stroke-width="2"/>
+    <circle cx="0" cy="0" r="14" fill="#fbe9a8" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">夜书所见·秋灯</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">霜叶红于二月花</text>
+</svg>

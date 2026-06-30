@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="象形文字从图画到汉字的演变插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">象形文字怎么来的</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">从图画到汉字，每个字都是一幅画</text>
+
+  <!-- 四列：日 月 山 川 -->
+  <!-- 日 -->
+  <g transform="translate(140,180)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">日</text>
+    <!-- 实物 -->
+    <rect x="-50" y="0" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <circle cx="0" cy="40" r="25" fill="#f4b942"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">太阳</text>
+    <!-- 甲骨文 -->
+    <rect x="-50" y="120" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <circle cx="0" cy="160" r="22" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+    <circle cx="0" cy="160" r="3" fill="#7a3b14"/>
+    <text x="0" y="220" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">甲骨文</text>
+    <!-- 楷书 -->
+    <rect x="-50" y="240" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="295" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#7a3b14">日</text>
+    <text x="0" y="340" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">楷书</text>
+    <!-- 箭头 -->
+    <path d="M0 82 L0 116 M0 202 L0 236" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 月 -->
+  <g transform="translate(330,180)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">月</text>
+    <rect x="-50" y="0" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <path d="M15 20 Q-20 25 -20 40 Q-20 55 15 60 Q-2 48 -2 40 Q-2 32 15 20 Z" fill="#fef9ed" stroke="#7ab8d8" stroke-width="2"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">月亮</text>
+    <rect x="-50" y="120" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <path d="M15 140 Q-18 145 -18 160 Q-18 175 15 180 Q0 170 0 160 Q0 150 15 140 Z" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+    <line x1="2" y1="152" x2="2" y2="168" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="220" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">甲骨文</text>
+    <rect x="-50" y="240" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="295" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#7a3b14">月</text>
+    <text x="0" y="340" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">楷书</text>
+    <path d="M0 82 L0 116 M0 202 L0 236" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 山 -->
+  <g transform="translate(520,180)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">山</text>
+    <rect x="-50" y="0" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <path d="M-35 70 L-15 30 L0 50 L15 20 L35 70 Z" fill="#6a8d3f" opacity="0.6"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">山峰</text>
+    <rect x="-50" y="120" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <path d="M-30 190 L-15 150 L0 175 L15 145 L30 190" fill="none" stroke="#7a3b14" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="0" y="220" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">甲骨文</text>
+    <rect x="-50" y="240" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="295" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#7a3b14">山</text>
+    <text x="0" y="340" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">楷书</text>
+    <path d="M0 82 L0 116 M0 202 L0 236" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 川 -->
+  <g transform="translate(680,180)">
+    <text x="-10" y="-20" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">川</text>
+    <rect x="-50" y="0" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <path d="M-25 20 Q-15 40 -25 60 M0 15 Q10 40 0 65 M25 20 Q15 40 25 60" fill="none" stroke="#7ab8d8" stroke-width="3"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">河流</text>
+    <rect x="-50" y="120" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <line x1="-20" y1="140" x2="-20" y2="180" stroke="#7a3b14" stroke-width="2.5"/>
+    <line x1="0" y1="140" x2="0" y2="180" stroke="#7a3b14" stroke-width="2.5"/>
+    <line x1="20" y1="140" x2="20" y2="180" stroke="#7a3b14" stroke-width="2.5"/>
+    <text x="0" y="220" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">甲骨文</text>
+    <rect x="-50" y="240" width="100" height="80" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="295" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#7a3b14">川</text>
+    <text x="0" y="340" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">楷书</text>
+    <path d="M0 82 L0 116 M0 202 L0 236" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="80" y="540" width="640" height="45" rx="8" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">传说仓颉看动物脚印得到灵感，照着万物画出了最早的文字</text>
+</svg>

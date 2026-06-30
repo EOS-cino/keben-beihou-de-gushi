@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="少先队员佩戴红领巾敬礼">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">热爱中国共产党</text>
+  <rect x="100" y="120" width="600" height="280" rx="10" fill="#fff" stroke="#8d5a36" stroke-width="3"/>
+  <rect x="320" y="140" width="160" height="100" fill="#c84a3a"/>
+  <polygon points="345,155 350,170 365,170 353,180 358,195 345,186 332,195 337,180 325,170 340,170" fill="#e07856"/>
+  <polygon points="375,165 378,175 388,175 380,182 383,192 375,186 367,192 370,182 362,175 372,175" fill="#e07856"/>
+  <polygon points="400,165 403,175 413,175 405,182 408,192 400,186 392,192 395,182 387,175 397,175" fill="#e07856"/>
+  <polygon points="425,165 428,175 438,175 430,182 433,192 425,186 417,192 420,182 412,175 422,175" fill="#e07856"/>
+  <polygon points="450,165 453,175 463,175 455,182 458,192 450,186 442,192 445,182 437,175 447,175" fill="#e07856"/>
+  <circle cx="300" cy="340" r="35" fill="#e07856"/>
+  <rect x="275" y="370" width="50" height="70" rx="8" fill="#fff" stroke="#8d5a36" stroke-width="2"/>
+  <polygon points="300,370 280,410 300,400 320,410" fill="#c84a3a"/>
+  <path d="M335 380 L380 340 L385 345 L340 385z" fill="#e07856"/>
+  <rect x="335" y="375" width="8" height="45" rx="3" fill="#e07856" transform="rotate(-30 339 397)"/>
+  <circle cx="500" cy="340" r="35" fill="#c8843a"/>
+  <rect x="475" y="370" width="50" height="70" rx="8" fill="#fff" stroke="#8d5a36" stroke-width="2"/>
+  <polygon points="500,370 480,410 500,400 520,410" fill="#c84a3a"/>
+  <path d="M465 380 L420 340 L415 345 L460 385z" fill="#c8843a"/>
+  <text x="400" y="500" text-anchor="middle" font-family="serif" font-size="22" fill="#7a3b14">红领巾是红旗的一角</text>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="18" fill="#4a6a2f">少先队员心向党</text>
+</svg>

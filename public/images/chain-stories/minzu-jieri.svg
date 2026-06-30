@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国少数民族节日插画：火把节、那达慕等">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">中国少数民族的节日</text>
+  <text x="400" y="66" text-anchor="middle" font-family="serif" font-size="14" fill="#6b6557">五十六个民族，五十六种节日，共同装扮中华文化的花园</text>
+
+  <!-- 1. 傣族·泼水节 -->
+  <g transform="translate(150,200)">
+    <rect x="-100" y="-80" width="200" height="150" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">傣族·泼水节</text>
+    <text x="0" y="-44" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">4月中旬·傣历新年</text>
+    <!-- 泼水图 -->
+    <g transform="translate(0,10)">
+      <!-- 银碗 -->
+      <ellipse cx="-15" cy="10" rx="14" ry="5" fill="#d0d0d8"/>
+      <!-- 水花 -->
+      <g fill="#4ab8c8" opacity="0.7">
+        <circle cx="5" cy="5" r="3"/>
+        <circle cx="18" cy="-2" r="2.5"/>
+        <circle cx="28" cy="-10" r="2"/>
+        <circle cx="35" cy="-18" r="1.5"/>
+        <circle cx="0" cy="0" r="2"/>
+      </g>
+      <!-- 人物剪影 -->
+      <g transform="translate(-25,-5)">
+        <circle cx="0" cy="-8" r="5" fill="#f0d0a8"/>
+        <path d="M-5 -3 L-7 15 L7 15 L5 -3 Z" fill="#e84080"/>
+      </g>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">互相泼水·祝福新年</text>
+  </g>
+
+  <!-- 2. 彝族·火把节 -->
+  <g transform="translate(400,200)">
+    <rect x="-100" y="-80" width="200" height="150" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">彝族·火把节</text>
+    <text x="0" y="-44" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">农历六月二十四</text>
+    <!-- 火把图 -->
+    <g transform="translate(0,15)">
+      <!-- 火把杆 -->
+      <rect x="-3" y="0" width="6" height="25" fill="#8a5a30"/>
+      <!-- 火焰 -->
+      <path d="M-8 0 Q-5 -15 0 -20 Q5 -15 8 0 Q5 -8 0 -10 Q-5 -8 -8 0 Z" fill="#e84030"/>
+      <path d="M-4 -3 Q-2 -12 0 -16 Q2 -12 4 -3 Q2 -8 0 -8 Q-2 -8 -4 -3 Z" fill="#f4b942"/>
+      <!-- 第二个火把 -->
+      <g transform="translate(-25,5)">
+        <rect x="-2" y="0" width="4" height="20" fill="#8a5a30"/>
+        <path d="M-5 0 Q-3 -10 0 -14 Q3 -10 5 0 Z" fill="#e88030"/>
+      </g>
+      <g transform="translate(25,5)">
+        <rect x="-2" y="0" width="4" height="20" fill="#8a5a30"/>
+        <path d="M-5 0 Q-3 -10 0 -14 Q3 -10 5 0 Z" fill="#e88030"/>
+      </g>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">点燃火把·驱虫祈丰</text>
+  </g>
+
+  <!-- 3. 蒙古族·那达慕 -->
+  <g transform="translate(650,200)">
+    <rect x="-100" y="-80" width="200" height="150" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">蒙古族·那达慕</text>
+    <text x="0" y="-44" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">七八月·草原盛会</text>
+    <!-- 赛马图 -->
+    <g transform="translate(0,15)">
+      <!-- 马 -->
+      <ellipse cx="0" cy="0" rx="18" ry="8" fill="#8a5a30"/>
+      <circle cx="15" cy="-5" r="7" fill="#8a5a30"/>
+      <path d="M18 -10 L22 -18 L20 -8" fill="#6a4a20"/>
+      <rect x="-12" y="6" width="3" height="12" fill="#6a4a20"/>
+      <rect x="-5" y="6" width="3" height="12" fill="#6a4a20"/>
+      <rect x="8" y="6" width="3" height="12" fill="#6a4a20"/>
+      <rect x="14" y="6" width="3" height="12" fill="#6a4a20"/>
+      <!-- 骑手 -->
+      <circle cx="0" cy="-12" r="5" fill="#f0d0a8"/>
+      <rect x="-4" y="-8" width="8" height="8" fill="#3a7a5a"/>
+      <!-- 速度线 -->
+      <line x1="-25" y1="-5" x2="-18" y2="-5" stroke="#8a8a8a" stroke-width="1.5"/>
+      <line x1="-28" y1="0" x2="-20" y2="0" stroke="#8a8a8a" stroke-width="1.5"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">摔跤·赛马·射箭</text>
+  </g>
+
+  <!-- 4. 藏族·雪顿节 -->
+  <g transform="translate(150,420)">
+    <rect x="-100" y="-65" width="200" height="130" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-45" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">藏族·雪顿节</text>
+    <text x="0" y="-29" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">藏历六月底·酸奶宴</text>
+    <!-- 藏戏面具 -->
+    <g transform="translate(0,15)">
+      <ellipse cx="0" cy="0" rx="18" ry="22" fill="#f4d840"/>
+      <ellipse cx="0" cy="-5" rx="14" ry="16" fill="#e8c820"/>
+      <!-- 眼睛 -->
+      <ellipse cx="-6" cy="-5" rx="3" ry="4" fill="#ffffff"/>
+      <ellipse cx="6" cy="-5" rx="3" ry="4" fill="#ffffff"/>
+      <circle cx="-6" cy="-4" r="1.5" fill="#1a1a1a"/>
+      <circle cx="6" cy="-4" r="1.5" fill="#1a1a1a"/>
+      <!-- 嘴 -->
+      <path d="M-5 5 Q0 10 5 5" fill="#e84030"/>
+      <!-- 装饰 -->
+      <path d="M-18 -15 Q0 -25 18 -15" fill="none" stroke="#e84030" stroke-width="2"/>
+    </g>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">喝酸奶·看藏戏</text>
+  </g>
+
+  <!-- 5. 壮族·三月三 -->
+  <g transform="translate(400,420)">
+    <rect x="-100" y="-65" width="200" height="130" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-45" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">壮族·三月三</text>
+    <text x="0" y="-29" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">农历三月初三·歌节</text>
+    <!-- 对歌图 -->
+    <g transform="translate(0,15)">
+      <!-- 左边人 -->
+      <g transform="translate(-18,0)">
+        <circle cx="0" cy="-8" r="6" fill="#f0d0a8"/>
+        <path d="M-6 -3 L-8 12 L8 12 L6 -3 Z" fill="#5cb050"/>
+      </g>
+      <!-- 右边人 -->
+      <g transform="translate(18,0)">
+        <circle cx="0" cy="-8" r="6" fill="#f0d0a8"/>
+        <path d="M-6 -3 L-8 12 L8 12 L6 -3 Z" fill="#e84030"/>
+      </g>
+      <!-- 音符 -->
+      <text x="0" y="-15" text-anchor="middle" font-size="14" fill="#7a3b14">♪♫</text>
+    </g>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">青年对歌·以歌传情</text>
+  </g>
+
+  <!-- 6. 苗族·苗年 -->
+  <g transform="translate(650,420)">
+    <rect x="-100" y="-65" width="200" height="130" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-45" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">苗族·苗年</text>
+    <text x="0" y="-29" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">秋收后·庆丰收</text>
+    <!-- 芦笙 -->
+    <g transform="translate(0,15)">
+      <!-- 芦笙管 -->
+      <rect x="-3" y="-20" width="3" height="30" fill="#8a6a4a"/>
+      <rect x="2" y="-15" width="3" height="25" fill="#8a6a4a"/>
+      <rect x="-8" y="-10" width="3" height="20" fill="#8a6a4a"/>
+      <rect x="7" y="-8" width="3" height="18" fill="#8a6a4a"/>
+      <!-- 葫芦 -->
+      <ellipse cx="0" cy="12" rx="10" ry="8" fill="#c89030"/>
+      <!-- 银饰 -->
+      <g transform="translate(-25,-5)">
+        <circle cx="0" cy="-8" r="5" fill="#f0d0a8"/>
+        <path d="M-5 -3 L-7 12 L7 12 L5 -3 Z" fill="#4878c8"/>
+        <circle cx="0" cy="-12" r="3" fill="#e8e8f0"/>
+      </g>
+    </g>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#6b6557">吹芦笙·跳铜鼓舞</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">每个民族的节日都和它的历史、信仰、生活环境紧密相连——多元一体，共同繁荣</text>
+</svg>

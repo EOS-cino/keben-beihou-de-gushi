@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一只蟋蟀站在精心修整的洞穴门口，洞口有倾斜的通道">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="340" fill="#e8f0e6"/>
+  <!-- 草地 -->
+  <path d="M0 340 Q400 320 800 340 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.5"/>
+  <path d="M0 380 Q400 360 800 380 L800 600 L0 600 Z" fill="#8d5a36" opacity="0.4"/>
+  <!-- 土坡 -->
+  <path d="M250 460 Q400 380 600 470 L600 600 L250 600 Z" fill="#c8843a"/>
+  <path d="M250 460 Q400 380 600 470 L600 490 Q400 410 250 480 Z" fill="#8d5a36" opacity="0.5"/>
+  <!-- 草丛 -->
+  <path d="M100 380 q5 -20 0 -30 M115 380 q5 -22 -2 -32 M130 380 q5 -18 2 -28" stroke="#4a6a2f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M680 390 q5 -20 0 -30 M695 390 q5 -22 -2 -32 M710 390 q5 -18 2 -28" stroke="#4a6a2f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M60 420 q5 -18 0 -26 M75 420 q5 -20 -2 -28" stroke="#6a8d3f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 蟋蟀住宅洞口（倾斜通道） -->
+  <path d="M380 440 Q400 410 420 440 L425 470 Q400 460 375 470 Z" fill="#5a3a1f" stroke="#7a3b14" stroke-width="3"/>
+  <ellipse cx="400" cy="445" rx="22" ry="10" fill="#3a2a14"/>
+  <!-- 倾斜通道示意 -->
+  <path d="M400 445 Q410 470 405 500" stroke="#7a3b14" stroke-width="2" fill="none" stroke-dasharray="4 4" opacity="0.6"/>
+  <!-- 平台 -->
+  <ellipse cx="400" cy="475" rx="50" ry="10" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 蟋蟀 -->
+  <ellipse cx="460" cy="455" rx="20" ry="14" fill="#6a5a3a" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="446" cy="450" r="10" fill="#6a5a3a" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 触角 -->
+  <path d="M442 442 q-6 -16 -2 -28 M448 440 q0 -16 6 -26" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <!-- 眼睛 -->
+  <circle cx="443" cy="449" r="1.5" fill="#7a3b14"/>
+  <!-- 蟋蟀腿 -->
+  <path d="M470 462 q14 6 22 -4" stroke="#7a3b14" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M475 465 q16 10 26 4" stroke="#7a3b14" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M455 466 q-4 10 -8 16" stroke="#7a3b14" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- 蟋蟀翅膀 -->
+  <path d="M465 450 q8 -2 12 4" stroke="#8d5a36" stroke-width="3" fill="none"/>
+  <!-- 小土堆（挖出的土） -->
+  <path d="M340 470 q-10 8 -4 16 q8 -2 8 -10 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M455 478 q10 6 4 14 q-8 -2 -8 -8 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="90" r="30" fill="#f4d97a"/>
+  <!-- 音符（蟋蟀弹琴） -->
+  <text x="500" y="420" font-family="serif" font-size="20" fill="#7a3b14">♪</text>
+  <text x="520" y="405" font-family="serif" font-size="16" fill="#c84a3a">♫</text>
+  <!-- 标注：住宅 -->
+  <rect x="540" y="430" width="90" height="24" rx="4" fill="#ffffff" stroke="#7a3b14" stroke-width="1.5"/>
+  <text x="585" y="447" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">蟋蟀的住宅</text>
+  <path d="M540 442 l-115 8" stroke="#7a3b14" stroke-width="1.5" fill="none" stroke-dasharray="3 3"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">蟋蟀的住宅</text>
+</svg>

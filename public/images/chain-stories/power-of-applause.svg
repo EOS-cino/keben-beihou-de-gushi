@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一双手拍出掌声，周围飞出音符和光芒">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景光晕 -->
+  <circle cx="400" cy="280" r="220" fill="#f4d97a" opacity="0.15"/>
+  <circle cx="400" cy="280" r="160" fill="#e07856" opacity="0.1"/>
+  <!-- 光芒线 -->
+  <path d="M400 80 L400 40 M520 130 L550 100 M280 130 L250 100 M580 280 L620 280 M220 280 L180 280 M520 430 L550 460 M280 430 L250 460" stroke="#f4d97a" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <!-- 左手 -->
+  <ellipse cx="340" cy="280" rx="55" ry="42" fill="#e8c9a0" stroke="#7a3b14" stroke-width="3" transform="rotate(-15 340 280)"/>
+  <!-- 手指（左） -->
+  <ellipse cx="300" cy="250" rx="8" ry="20" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(-20 300 250)"/>
+  <ellipse cx="318" cy="240" rx="8" ry="22" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(-12 318 240)"/>
+  <ellipse cx="338" cy="236" rx="8" ry="24" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(-5 338 236)"/>
+  <ellipse cx="358" cy="240" rx="8" ry="22" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(5 358 240)"/>
+  <!-- 拇指（左） -->
+  <ellipse cx="375" cy="285" rx="10" ry="18" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(40 375 285)"/>
+  <!-- 右手 -->
+  <ellipse cx="460" cy="280" rx="55" ry="42" fill="#e8c9a0" stroke="#7a3b14" stroke-width="3" transform="rotate(15 460 280)"/>
+  <!-- 手指（右） -->
+  <ellipse cx="500" cy="250" rx="8" ry="20" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(20 500 250)"/>
+  <ellipse cx="482" cy="240" rx="8" ry="22" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(12 482 240)"/>
+  <ellipse cx="462" cy="236" rx="8" ry="24" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(5 462 236)"/>
+  <ellipse cx="442" cy="240" rx="8" ry="22" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(-5 442 240)"/>
+  <!-- 拇指（右） -->
+  <ellipse cx="425" cy="285" rx="10" ry="18" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2" transform="rotate(-40 425 285)"/>
+  <!-- 撞击点光芒 -->
+  <circle cx="400" cy="280" r="14" fill="#ffffff" opacity="0.8"/>
+  <path d="M400 250 l0 -20 M400 310 l0 20 M370 280 l-20 0 M430 280 l20 0 M380 260 l-14 -14 M420 260 l14 -14 M380 300 l-14 14 M420 300 l14 14" stroke="#f4d97a" stroke-width="3" stroke-linecap="round"/>
+  <!-- 掌声符号 -->
+  <text x="200" y="200" font-family="serif" font-size="28" fill="#c84a3a">啪</text>
+  <text x="580" y="200" font-family="serif" font-size="28" fill="#c84a3a">啪</text>
+  <text x="180" y="380" font-family="serif" font-size="24" fill="#e07856">啪</text>
+  <text x="600" y="380" font-family="serif" font-size="24" fill="#e07856">啪</text>
+  <!-- 音符 -->
+  <text x="250" y="150" font-family="serif" font-size="26" fill="#7ab8d8">♪</text>
+  <text x="540" y="150" font-family="serif" font-size="26" fill="#7ab8d8">♫</text>
+  <text x="160" y="320" font-family="serif" font-size="22" fill="#6a8d3f">♪</text>
+  <text x="620" y="320" font-family="serif" font-size="22" fill="#6a8d3f">♫</text>
+  <!-- 心形（温暖） -->
+  <path d="M400 420 q-12 -14 -24 -4 q-4 12 24 28 q28 -16 24 -28 q-12 -10 -24 4 Z" fill="#c84a3a" opacity="0.7"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">掌声的力量</text>
+</svg>

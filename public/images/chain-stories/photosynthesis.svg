@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="光合作用原理和叶绿体工作的示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">光合作用的奥秘</text>
+  <line x1="290" y1="58" x2="510" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 公式 -->
+  <rect x="150" y="80" width="500" height="50" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" opacity="0.8"/>
+  <text x="400" y="112" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">水 + 二氧化碳 ──(阳光+叶绿素)──▶ 糖 + 氧气</text>
+
+  <!-- 左：输入 -->
+  <text x="120" y="170" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#3a6a9a">输入</text>
+
+  <!-- 阳光 -->
+  <g transform="translate(120,220)">
+    <circle cx="0" cy="0" r="22" fill="#e8a838"/>
+    <g stroke="#e8a838" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="-30" x2="0" y2="-38"/>
+      <line x1="0" y1="30" x2="0" y2="38"/>
+      <line x1="-30" y1="0" x2="-38" y2="0"/>
+      <line x1="30" y1="0" x2="38" y2="0"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">阳光</text>
+  </g>
+
+  <!-- 水 -->
+  <g transform="translate(120,310)">
+    <path d="M-15 -15 Q-20 5 -10 20 Q0 25 10 20 Q20 5 15 -15 Q0 -25 -15 -15 Z" fill="#7ab8d8" stroke="#4a8aaa" stroke-width="1.5"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">水</text>
+  </g>
+
+  <!-- 二氧化碳 -->
+  <g transform="translate(120,400)">
+    <circle cx="0" cy="0" r="18" fill="#8d8d7a" opacity="0.5" stroke="#6a6a5a" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="11" fill="#fff6df">CO₂</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">二氧化碳</text>
+  </g>
+
+  <!-- 箭头进入 -->
+  <g stroke="#7a3b14" stroke-width="2" fill="none">
+    <path d="M160 220 L240 270"/>
+    <path d="M160 310 L240 300"/>
+    <path d="M160 400 L240 330"/>
+  </g>
+
+  <!-- 中：叶子（加工厂） -->
+  <g transform="translate(400,300)">
+    <!-- 叶子外形 -->
+    <path d="M-90 0 Q-60 -50 0 -40 Q60 -50 90 0 Q60 50 0 40 Q-60 50 -90 0 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 叶绿体（工厂） -->
+    <g fill="#4a6a2f" opacity="0.7">
+      <ellipse cx="-30" cy="-10" rx="18" ry="10"/>
+      <ellipse cx="20" cy="5" rx="18" ry="10"/>
+      <ellipse cx="-10" cy="20" rx="15" ry="8"/>
+    </g>
+    <!-- 内部颗粒 -->
+    <g fill="#7aa84f">
+      <circle cx="-35" cy="-12" r="3"/>
+      <circle cx="-25" cy="-8" r="3"/>
+      <circle cx="15" cy="3" r="3"/>
+      <circle cx="25" cy="7" r="3"/>
+      <circle cx="-13" cy="18" r="3"/>
+      <circle cx="-7" cy="22" r="3"/>
+    </g>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">叶子=食品加工厂</text>
+  </g>
+
+  <!-- 箭头输出 -->
+  <g stroke="#7a3b14" stroke-width="2" fill="none">
+    <path d="M500 280 L580 240"/>
+    <path d="M500 320 L580 360"/>
+  </g>
+
+  <!-- 右：输出 -->
+  <text x="660" y="170" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#3a6a9a">输出</text>
+
+  <!-- 糖（养料） -->
+  <g transform="translate(660,240)">
+    <rect x="-20" y="-15" width="40" height="30" rx="4" fill="#e8a838" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="12" fill="#fff6df">糖</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">养料（养植物）</text>
+  </g>
+
+  <!-- 氧气 -->
+  <g transform="translate(660,360)">
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#7ab8d8" stroke-width="2.5"/>
+    <circle cx="12" cy="-12" r="10" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="10" fill="#7ab8d8">O₂</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">氧气（养世界）</text>
+  </g>
+
+  <!-- 发现历程 -->
+  <rect x="60" y="450" width="680" height="70" rx="8" fill="#e8f0e6" stroke="#6a8d3f" stroke-width="1.5" opacity="0.6"/>
+  <text x="400" y="475" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a6a2f">科学家接力了两百多年才揭开秘密</text>
+  <text x="400" y="498" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">海尔蒙特（植物不吃土）→ 普利斯特里（植物净化空气）→ 英格豪斯（需要阳光和绿叶）</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="540" width="720" height="36" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="563" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">水+二氧化碳，在阳光和叶绿素帮助下变成糖和氧气——这就是光合作用。</text>
+</svg>

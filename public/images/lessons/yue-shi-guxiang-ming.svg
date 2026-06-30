@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="故乡苇坑明月与异国他乡月亮对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">月是故乡明</text>
+  <line x1="320" y1="58" x2="480" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左右分割线 -->
+  <line x1="400" y1="80" x2="400" y2="540" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- ===== 左侧：故乡苇坑明月 ===== -->
+  <!-- 夜空 -->
+  <rect x="0" y="80" width="400" height="280" fill="#1a1a3a" opacity="0.15"/>
+  <!-- 星星 -->
+  <circle cx="60" cy="120" r="1.5" fill="#f0e8a0" opacity="0.8"/>
+  <circle cx="120" cy="100" r="1" fill="#f0e8a0" opacity="0.6"/>
+  <circle cx="200" cy="130" r="1.5" fill="#f0e8a0" opacity="0.7"/>
+  <circle cx="280" cy="110" r="1" fill="#f0e8a0" opacity="0.6"/>
+  <circle cx="340" cy="140" r="1.5" fill="#f0e8a0" opacity="0.8"/>
+  <circle cx="90" cy="160" r="1" fill="#f0e8a0" opacity="0.5"/>
+  <circle cx="250" cy="170" r="1" fill="#f0e8a0" opacity="0.5"/>
+
+  <!-- 故乡的月亮（大而亮） -->
+  <circle cx="120" cy="200" r="40" fill="#fef8e0" stroke="#c8a848" stroke-width="2"/>
+  <circle cx="110" cy="190" r="6" fill="#e8d8a0" opacity="0.5"/>
+  <circle cx="130" cy="210" r="4" fill="#e8d8a0" opacity="0.4"/>
+  <!-- 月光 -->
+  <circle cx="120" cy="200" r="50" fill="none" stroke="#fef8e0" stroke-width="1" opacity="0.3"/>
+  <circle cx="120" cy="200" r="58" fill="none" stroke="#fef8e0" stroke-width="1" opacity="0.15"/>
+
+  <!-- 苇坑（水面） -->
+  <rect x="0" y="340" width="400" height="160" fill="#3a5a6a" opacity="0.3"/>
+  <!-- 水中月影 -->
+  <ellipse cx="120" cy="380" rx="30" ry="8" fill="#fef8e0" opacity="0.4"/>
+  <!-- 涟漪 -->
+  <ellipse cx="120" cy="380" rx="40" ry="10" fill="none" stroke="#a8c8c8" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="120" cy="385" rx="55" ry="13" fill="none" stroke="#a8c8c8" stroke-width="1" opacity="0.3"/>
+  <!-- 水波纹 -->
+  <path d="M0 420 Q50 415 100 420 Q150 415 200 420 Q250 415 300 420 Q350 415 400 420" fill="none" stroke="#a8c8c8" stroke-width="1" opacity="0.3"/>
+
+  <!-- 芦苇 -->
+  <g transform="translate(30, 340)">
+    <line x1="0" y1="0" x2="-3" y2="-50" stroke="#8a7a4a" stroke-width="2"/>
+    <ellipse cx="-3" cy="-50" rx="3" ry="10" fill="#c8a858" stroke="#8a7a4a" stroke-width="1"/>
+    <line x1="10" y1="0" x2="8" y2="-45" stroke="#8a7a4a" stroke-width="2"/>
+    <ellipse cx="8" cy="-45" rx="3" ry="9" fill="#c8a858" stroke="#8a7a4a" stroke-width="1"/>
+    <line x1="20" y1="0" x2="22" y2="-55" stroke="#8a7a4a" stroke-width="2"/>
+    <ellipse cx="22" cy="-55" rx="3" ry="11" fill="#c8a858" stroke="#8a7a4a" stroke-width="1"/>
+  </g>
+  <g transform="translate(340, 340)">
+    <line x1="0" y1="0" x2="2" y2="-48" stroke="#8a7a4a" stroke-width="2"/>
+    <ellipse cx="2" cy="-48" rx="3" ry="10" fill="#c8a858" stroke="#8a7a4a" stroke-width="1"/>
+    <line x1="15" y1="0" x2="12" y2="-52" stroke="#8a7a4a" stroke-width="2"/>
+    <ellipse cx="12" cy="-52" rx="3" ry="10" fill="#c8a858" stroke="#8a7a4a" stroke-width="1"/>
+    <line x1="30" y1="0" x2="32" y2="-45" stroke="#8a7a4a" stroke-width="2"/>
+    <ellipse cx="32" cy="-45" rx="3" ry="9" fill="#c8a858" stroke="#8a7a4a" stroke-width="1"/>
+  </g>
+
+  <!-- 小时候的作者（躺在坑边） -->
+  <g transform="translate(260, 360)">
+    <ellipse cx="0" cy="0" rx="25" ry="6" fill="#6a8a4a" opacity="0.5"/>
+    <!-- 身体（躺着） -->
+    <path d="M -20 -3 Q -10 -5 0 -4 Q 15 -3 25 -2" fill="none" stroke="#3a5a8a" stroke-width="8" stroke-linecap="round"/>
+    <!-- 头 -->
+    <circle cx="-22" cy="-5" r="7" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M -28 -7 Q -26 -13 -22 -13 Q -18 -13 -16 -7" fill="#3a3a3a"/>
+  </g>
+
+  <!-- 左侧标签 -->
+  <rect x="120" y="85" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4" opacity="0.9"/>
+  <text x="170" y="102" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">故乡苇坑</text>
+
+  <!-- ===== 右侧：异国他乡 ===== -->
+  <!-- 夜空 -->
+  <rect x="400" y="80" width="400" height="280" fill="#2a2a4a" opacity="0.12"/>
+
+  <!-- 异国的月亮（小而远） -->
+  <circle cx="620" cy="160" r="22" fill="#e8e8d0" stroke="#a8a888" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="615" cy="155" r="3" fill="#c8c8b0" opacity="0.4"/>
+
+  <!-- 高山月亮（右上） -->
+  <path d="M400 340 L460 220 L500 270 L540 200 L580 260 L620 230 L660 280 L720 240 L800 270 L800 360 L400 360 Z" fill="#7a7a6a" opacity="0.3"/>
+
+  <!-- 大海（右下） -->
+  <rect x="400" y="340" width="400" height="160" fill="#3a4a6a" opacity="0.2"/>
+  <!-- 海面月光 -->
+  <path d="M580 350 L660 350 L640 420 L600 420 Z" fill="#e8e8d0" opacity="0.15"/>
+  <!-- 海浪 -->
+  <path d="M400 380 Q450 375 500 380 Q550 375 600 380 Q650 375 700 380 Q750 375 800 380" fill="none" stroke="#6a8aaa" stroke-width="1" opacity="0.4"/>
+  <path d="M400 410 Q450 405 500 410 Q550 405 600 410 Q650 405 700 410 Q750 405 800 410" fill="none" stroke="#6a8aaa" stroke-width="1" opacity="0.3"/>
+
+  <!-- 异国建筑（哥特式尖塔） -->
+  <g transform="translate(480, 280)">
+    <rect x="-15" y="0" width="30" height="60" fill="#8a7a6a" stroke="#7a3b14" stroke-width="1.5" opacity="0.6"/>
+    <path d="M -15 0 L 0 -25 L 15 0" fill="#8a7a6a" stroke="#7a3b14" stroke-width="1.5" opacity="0.6"/>
+    <rect x="-4" y="20" width="8" height="20" fill="#3a3a4a" opacity="0.5"/>
+  </g>
+
+  <!-- 长大的作者（望月思乡） -->
+  <g transform="translate(700, 360)">
+    <!-- 身体 -->
+    <path d="M -14 50 Q -16 20 -10 5 Q -5 0 0 0 Q 5 0 10 5 Q 16 20 14 50" fill="#4a4a5a" stroke="#7a3b14" stroke-width="1.5" opacity="0.7"/>
+    <!-- 头（仰头望月） -->
+    <circle cx="0" cy="-10" r="11" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5" opacity="0.8"/>
+    <path d="M -11 -12 Q -9 -22 0 -23 Q 9 -22 11 -12" fill="#3a3a3a" stroke="#7a3b14" stroke-width="1" opacity="0.7"/>
+    <circle cx="-4" cy="-10" r="1.5" fill="#7a3b14"/>
+    <circle cx="4" cy="-10" r="1.5" fill="#7a3b14"/>
+    <path d="M -3 -3 Q 0 -1 3 -3" fill="none" stroke="#7a3b14" stroke-width="1" opacity="0.7"/>
+  </g>
+
+  <!-- 右侧标签 -->
+  <rect x="580" y="85" width="120" height="24" fill="#fff6df" stroke="#c8843a" rx="4" opacity="0.9"/>
+  <text x="640" y="102" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">异国他乡</text>
+
+  <!-- 标注：故乡明月 -->
+  <line x1="120" y1="160" x2="80" y2="130" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="20" y="108" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="75" y="126" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">故乡明月</text>
+
+  <!-- 标注：水中月影 -->
+  <line x1="120" y1="390" x2="80" y2="430" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="20" y="420" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="75" y="438" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">水中月影</text>
+
+  <!-- 标注：异国月亮 -->
+  <line x1="620" y1="138" x2="680" y2="110" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="650" y="88" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="705" y="106" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">异国月亮</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">走遍世界看遍月亮，最想念的还是故乡苇坑里那一轮——月是故乡明</text>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="三位古代诗人面对山水写诗的场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古诗三首</text>
+  <line x1="350" y1="58" x2="450" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 三栏背景 -->
+  <rect x="30" y="80" width="240" height="430" rx="10" fill="#e8f0e6" opacity="0.5"/>
+  <rect x="280" y="80" width="240" height="430" rx="10" fill="#d8e0e8" opacity="0.5"/>
+  <rect x="530" y="80" width="240" height="430" rx="10" fill="#fff6df" opacity="0.6"/>
+
+  <!-- 第一栏：王维 空山 -->
+  <text x="150" y="110" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">王维·空山</text>
+  <!-- 远山 -->
+  <path d="M50 280 Q90 200 130 250 Q170 190 210 270 Q250 220 270 280 L270 360 L50 360 Z" fill="#6a8d3f" opacity="0.4"/>
+  <!-- 树林 -->
+  <rect x="90" y="280" width="6" height="80" fill="#8d5a36"/>
+  <path d="M70 280 Q93 240 116 280 Z" fill="#4a6a2f"/>
+  <rect x="180" y="270" width="6" height="90" fill="#8d5a36"/>
+  <path d="M160 270 Q183 225 206 270 Z" fill="#4a6a2f"/>
+  <!-- 青苔上的夕阳光束 -->
+  <path d="M120 200 L160 340 L130 340 Z" fill="#e8a838" opacity="0.3"/>
+  <!-- 地面青苔 -->
+  <rect x="50" y="340" width="220" height="20" fill="#6a8d3f" opacity="0.5"/>
+  <!-- 声波（人语） -->
+  <g fill="none" stroke="#7a3b14" stroke-width="1.5" opacity="0.4">
+    <path d="M200 230 Q215 225 230 230"/>
+    <path d="M195 220 Q215 212 235 220"/>
+  </g>
+  <text x="215" y="208" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14" opacity="0.6">人语响</text>
+  <!-- 王维小人 -->
+  <g transform="translate(150,330)">
+    <circle cx="0" cy="-30" r="8" fill="#e8c4a0"/>
+    <path d="M-12 -22 L-12 0 L12 0 L12 -22 Z" fill="#8d5a36"/>
+    <rect x="-6" y="0" width="5" height="14" fill="#3a4a6a"/>
+    <rect x="1" y="0" width="5" height="14" fill="#3a4a6a"/>
+  </g>
+  <text x="150" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">以动衬静</text>
+
+  <!-- 第二栏：李白 瀑布 -->
+  <text x="400" y="110" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">李白·瀑布</text>
+  <!-- 香炉峰 -->
+  <path d="M310 280 Q340 180 370 250 Q400 170 430 250 Q460 180 490 280 L490 360 L310 360 Z" fill="#8d5a36" opacity="0.5"/>
+  <!-- 紫烟 -->
+  <ellipse cx="370" cy="200" rx="30" ry="14" fill="#a890c8" opacity="0.4"/>
+  <ellipse cx="430" cy="190" rx="26" ry="12" fill="#a890c8" opacity="0.4"/>
+  <!-- 太阳 -->
+  <circle cx="490" cy="150" r="18" fill="#e8a838"/>
+  <g stroke="#e8a838" stroke-width="2" stroke-linecap="round">
+    <line x1="490" y1="124" x2="490" y2="116"/>
+    <line x1="516" y1="150" x2="524" y2="150"/>
+    <line x1="472" y1="132" x2="466" y2="126"/>
+  </g>
+  <!-- 瀑布 -->
+  <path d="M385 250 L375 360 L415 360 L405 250 Z" fill="#a8d0e8" opacity="0.8"/>
+  <path d="M390 260 L388 350 M395 255 L395 355 M400 260 L402 350" stroke="#fff6df" stroke-width="2" opacity="0.7"/>
+  <!-- 水花 -->
+  <g fill="#fff6df">
+    <circle cx="380" cy="358" r="4"/>
+    <circle cx="410" cy="360" r="3"/>
+    <circle cx="395" cy="365" r="3"/>
+  </g>
+  <!-- 银河标注 -->
+  <text x="400" y="240" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14" opacity="0.7">疑是银河落九天</text>
+  <!-- 李白小人 -->
+  <g transform="translate(330,340)">
+    <circle cx="0" cy="-30" r="8" fill="#e8c4a0"/>
+    <path d="M-12 -22 L-12 0 L12 0 L12 -22 Z" fill="#c84a3a"/>
+    <rect x="-6" y="0" width="5" height="14" fill="#3a4a6a"/>
+    <rect x="1" y="0" width="5" height="14" fill="#3a4a6a"/>
+    <!-- 举手指 -->
+    <path d="M12 -18 L24 -28" stroke="#e8c4a0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">夸张想象</text>
+
+  <!-- 第三栏：苏轼 庐山 -->
+  <text x="650" y="110" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">苏轼·庐山</text>
+  <!-- 横看（山岭） -->
+  <path d="M550 250 Q600 220 650 245 Q700 220 750 250 L750 290 L550 290 Z" fill="#8d5a36" opacity="0.5"/>
+  <text x="650" y="310" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">横看：岭</text>
+  <!-- 侧看（山峰） -->
+  <path d="M620 200 L650 150 L680 200 Z" fill="#a8703a" opacity="0.6"/>
+  <text x="650" y="190" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">侧看：峰</text>
+  <!-- 眼睛（不同角度） -->
+  <g transform="translate(580,360)">
+    <ellipse cx="0" cy="0" rx="14" ry="9" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#7a3b14"/>
+  </g>
+  <g transform="translate(720,360)">
+    <ellipse cx="0" cy="0" rx="14" ry="9" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#7a3b14"/>
+  </g>
+  <path d="M594 360 Q650 380 706 360" fill="none" stroke="#c84a3a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- 苏轼小人 -->
+  <g transform="translate(650,400)">
+    <circle cx="0" cy="-30" r="8" fill="#e8c4a0"/>
+    <path d="M-12 -22 L-12 0 L12 0 L12 -22 Z" fill="#6a8d3f"/>
+    <rect x="-6" y="0" width="5" height="14" fill="#3a4a6a"/>
+    <rect x="1" y="0" width="5" height="14" fill="#3a4a6a"/>
+  </g>
+  <text x="650" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">换角度看</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">王维写静、李白写猛、苏轼写理——同一片山水，三位诗人写出三种味道。</text>
+</svg>

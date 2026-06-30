@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="月相变化与古人赏月习俗插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：月亮为什么一直在变脸</text>
+  <line x1="150" y1="55" x2="650" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 月相循环 -->
+  <g transform="translate(400 220)">
+    <!-- 朔 -->
+    <g transform="translate(-220 0)">
+      <circle cx="0" cy="0" r="22" fill="#5a5048" opacity="0.3" stroke="#8a8a8a" stroke-width="1.5"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">朔(初一)</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#c8843a">看不见</text>
+    </g>
+    <!-- 蛾眉月 -->
+    <g transform="translate(-110 0)">
+      <circle cx="0" cy="0" r="22" fill="#fef9ed" stroke="#8a8a8a" stroke-width="1.5"/>
+      <path d="M0 -22 A22 22 0 0 1 0 22 A14 22 0 0 0 0 -22 Z" fill="#5a5048" opacity="0.5"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">蛾眉月</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#c8843a">初三四</text>
+    </g>
+    <!-- 上弦 -->
+    <g transform="translate(0 0)">
+      <circle cx="0" cy="0" r="22" fill="#fef9ed" stroke="#8a8a8a" stroke-width="1.5"/>
+      <path d="M0 -22 A22 22 0 0 1 0 22 Z" fill="#5a5048" opacity="0.5"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">上弦月</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#c8843a">初七八</text>
+    </g>
+    <!-- 满月 -->
+    <g transform="translate(110 0)">
+      <circle cx="0" cy="0" r="22" fill="#fef9ed" stroke="#e8a838" stroke-width="2"/>
+      <circle cx="-6" cy="-6" r="3" fill="#e8e0c8" opacity="0.6"/>
+      <circle cx="4" cy="4" r="2" fill="#e8e0c8" opacity="0.5"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">望(满月)</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#c8843a">十五十六</text>
+    </g>
+    <!-- 下弦 -->
+    <g transform="translate(220 0)">
+      <circle cx="0" cy="0" r="22" fill="#fef9ed" stroke="#8a8a8a" stroke-width="1.5"/>
+      <path d="M0 -22 A22 22 0 0 0 0 22 Z" fill="#5a5048" opacity="0.5"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">下弦月</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#c8843a">廿二三</text>
+    </g>
+  </g>
+
+  <!-- 原理示意：日地月 -->
+  <g transform="translate(400 360)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">月亮不发光，只反射太阳光</text>
+    <!-- 太阳 -->
+    <circle cx="-160" cy="0" r="18" fill="#e8a838"/>
+    <g stroke="#e8a838" stroke-width="1.5" opacity="0.5">
+      <line x1="-160" y1="-24" x2="-160" y2="-30"/>
+      <line x1="-160" y1="24" x2="-160" y2="30"/>
+      <line x1="-184" y1="0" x2="-190" y2="0"/>
+      <line x1="-136" y1="0" x2="-130" y2="0"/>
+    </g>
+    <text x="-160" y="40" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">太阳</text>
+    <!-- 地球 -->
+    <circle cx="0" cy="0" r="12" fill="#4a90b8"/>
+    <text x="0" y="32" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">地球</text>
+    <!-- 月亮轨道 -->
+    <ellipse cx="0" cy="0" rx="60" ry="20" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5" stroke-dasharray="3 3"/>
+    <!-- 月亮 -->
+    <circle cx="60" cy="0" r="6" fill="#fef9ed" stroke="#8a8a8a" stroke-width="1"/>
+    <text x="60" y="22" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">月亮</text>
+    <!-- 光线 -->
+    <g stroke="#e8a838" stroke-width="1" opacity="0.5">
+      <line x1="-142" y1="0" x2="54" y2="0"/>
+    </g>
+  </g>
+
+  <!-- 中秋框 -->
+  <g transform="translate(400 440)">
+    <rect x="-200" y="0" width="400" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="6"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">农历跟着月亮走——中秋在八月十五，因为那天月亮最圆</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="500" width="700" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.85"/>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">月亮转一圈约二十九天半，被太阳照亮的部分时多时少，就有了月相变化。</text>
+  <text x="400" y="552" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a">我们永远只看到月亮的同一面——它被地球"潮汐锁定"了。</text>
+</svg>

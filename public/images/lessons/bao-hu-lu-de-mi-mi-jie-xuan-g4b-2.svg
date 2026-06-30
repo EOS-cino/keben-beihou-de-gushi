@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="少年王葆与发光宝葫芦的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">宝葫芦的秘密</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#d4a017" stroke-width="2"/>
+  <!-- 光芒 -->
+  <circle cx="400" cy="300" r="150" fill="#f0c419" opacity="0.15"/>
+  <circle cx="400" cy="300" r="110" fill="#f0c419" opacity="0.2"/>
+  <!-- 宝葫芦 -->
+  <ellipse cx="400" cy="340" rx="80" ry="90" fill="#8a9a5b" stroke="#5d4037" stroke-width="3"/>
+  <ellipse cx="400" cy="240" rx="46" ry="50" fill="#8a9a5b" stroke="#5d4037" stroke-width="3"/>
+  <!-- 葫芦腰 -->
+  <ellipse cx="400" cy="290" rx="30" ry="10" fill="#5d4037" opacity="0.3"/>
+  <!-- 葫芦口/盖 -->
+  <rect x="386" y="180" width="28" height="16" rx="3" fill="#5d4037"/>
+  <ellipse cx="400" cy="180" rx="14" ry="5" fill="#3a3a3a"/>
+  <!-- 葫芦叶 -->
+  <path d="M 320 250 q -40 -20 -30 -60 q 30 10 40 40 z" fill="#3a7d44"/>
+  <path d="M 480 250 q 40 -20 30 -60 q -30 10 -40 40 z" fill="#3a7d44"/>
+  <!-- 高光 -->
+  <ellipse cx="375" cy="220" rx="10" ry="16" fill="#ffffff" opacity="0.5"/>
+  <!-- 闪光星 -->
+  <path d="M 250 200 l 4 10 l 10 4 l -10 4 l -4 10 l -4 -10 l -10 -4 l 10 -4 z" fill="#f0c419"/>
+  <path d="M 560 250 l 3 8 l 8 3 l -8 3 l -3 8 l -3 -8 l -8 -3 l 8 -3 z" fill="#f0c419"/>
+  <path d="M 540 380 l 3 8 l 8 3 l -8 3 l -3 8 l -3 -8 l -8 -3 l 8 -3 z" fill="#f0c419"/>
+  <path d="M 230 380 l 3 8 l 8 3 l -8 3 l -3 8 l -3 -8 l -8 -3 l 8 -3 z" fill="#f0c419"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">心想事成的葫芦，是福还是祸？</text>
+</svg>

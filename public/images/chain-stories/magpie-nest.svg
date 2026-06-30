@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="喜鹊筑巢结构和过程的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">连珠小故事：喜鹊的巢是什么样的</text>
+  <line x1="170" y1="55" x2="630" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左侧：喜鹊窝剖面图 -->
+  <g transform="translate(200, 300)">
+    <text x="0" y="-130" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">巢的结构（剖面）</text>
+    <!-- 树枝外壳 -->
+    <path d="M-80 60 Q-90 -40 -50 -70 Q0 -85 50 -70 Q90 -40 80 60 Q50 70 0 70 Q-50 70 -80 60 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 树枝纹理 -->
+    <line x1="-60" y1="-30" x2="-30" y2="-10" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-40" y1="-50" x2="-10" y2="-30" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="20" y1="-55" x2="50" y2="-35" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="40" y1="-20" x2="65" y2="0" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-55" y1="20" x2="-25" y2="40" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="30" y1="30" x2="55" y2="50" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 泥巴层 -->
+    <path d="M-60 50 Q-65 -25 -35 -50 Q0 -60 35 -50 Q65 -25 60 50 Q35 55 0 55 Q-35 55 -60 50 Z" fill="#a8825a" stroke="#7a5a3a" stroke-width="1.5"/>
+    <!-- 草和羽毛（内层） -->
+    <ellipse cx="0" cy="20" rx="45" ry="30" fill="#d8c898" stroke="#c8843a" stroke-width="1.5"/>
+    <ellipse cx="0" cy="20" rx="35" ry="22" fill="#f0e8c8"/>
+    <!-- 羽毛 -->
+    <path d="M-15 10 Q-20 5 -18 20" fill="none" stroke="#c8843a" stroke-width="1.5"/>
+    <path d="M10 25 Q15 20 13 35" fill="none" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 入口（侧面） -->
+    <ellipse cx="55" cy="-10" rx="15" ry="12" fill="#3a2a1a" stroke="#5a3a1a" stroke-width="2"/>
+    <text x="80" y="-10" font-family="serif" font-size="11" fill="#7a3b14">入口</text>
+    <!-- 蛋 -->
+    <ellipse cx="-8" cy="20" rx="6" ry="8" fill="#f0e0c0" stroke="#c8843a" stroke-width="1"/>
+    <ellipse cx="8" cy="22" rx="6" ry="8" fill="#f0e0c0" stroke="#c8843a" stroke-width="1"/>
+    <!-- 标注线 -->
+    <line x1="-70" y1="-40" x2="-120" y2="-80" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="-130" y="-85" text-anchor="end" font-family="serif" font-size="11" fill="#7a3b14">粗树枝</text>
+    <line x1="-50" y1="0" x2="-120" y2="0" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="-130" y="5" text-anchor="end" font-family="serif" font-size="11" fill="#7a3b14">泥巴层</text>
+    <line x1="-20" y1="20" x2="-120" y2="60" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="-130" y="65" text-anchor="end" font-family="serif" font-size="11" fill="#7a3b14">草和羽毛</text>
+  </g>
+
+  <!-- 右侧：筑巢过程 -->
+  <g transform="translate(560, 200)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">筑巢过程</text>
+    <!-- 步骤1：搭外壳 -->
+    <g transform="translate(0, 0)">
+      <circle cx="-60" cy="0" r="12" fill="#c84a3a"/>
+      <text x="-60" y="4" text-anchor="middle" font-family="serif" font-size="12" fill="#fff8e0">1</text>
+      <text x="-40" y="4" font-family="serif" font-size="12" fill="#7a3b14">搭粗树枝外壳</text>
+      <!-- 小图 -->
+      <g transform="translate(60, 0)">
+        <path d="M-15 10 Q-18 -10 -8 -15 Q0 -18 8 -15 Q18 -10 15 10 Q8 12 0 12 Q-8 12 -15 10 Z" fill="none" stroke="#8d5a36" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- 步骤2：铺泥巴 -->
+    <g transform="translate(0, 50)">
+      <circle cx="-60" cy="0" r="12" fill="#c8843a"/>
+      <text x="-60" y="4" text-anchor="middle" font-family="serif" font-size="12" fill="#fff8e0">2</text>
+      <text x="-40" y="4" font-family="serif" font-size="12" fill="#7a3b14">铺泥巴做内壁</text>
+      <g transform="translate(60, 0)">
+        <path d="M-15 10 Q-18 -10 -8 -15 Q0 -18 8 -15 Q18 -10 15 10 Q8 12 0 12 Q-8 12 -15 10 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+        <path d="M-10 8 Q-12 -6 -5 -10 Q0 -12 5 -10 Q12 -6 10 8 Q5 10 0 10 Q-5 10 -10 8 Z" fill="#a8825a"/>
+      </g>
+    </g>
+    <!-- 步骤3：垫草羽 -->
+    <g transform="translate(0, 100)">
+      <circle cx="-60" cy="0" r="12" fill="#6a8d3f"/>
+      <text x="-60" y="4" text-anchor="middle" font-family="serif" font-size="12" fill="#fff8e0">3</text>
+      <text x="-40" y="4" font-family="serif" font-size="12" fill="#7a3b14">垫草和羽毛</text>
+      <g transform="translate(60, 0)">
+        <path d="M-15 10 Q-18 -10 -8 -15 Q0 -18 8 -15 Q18 -10 15 10 Q8 12 0 12 Q-8 12 -15 10 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+        <ellipse cx="0" cy="3" rx="8" ry="6" fill="#f0e8c8"/>
+      </g>
+    </g>
+    <!-- 步骤4：搭屋顶 -->
+    <g transform="translate(0, 150)">
+      <circle cx="-60" cy="0" r="12" fill="#7ab8d8"/>
+      <text x="-60" y="4" text-anchor="middle" font-family="serif" font-size="12" fill="#fff8e0">4</text>
+      <text x="-40" y="4" font-family="serif" font-size="12" fill="#7a3b14">搭拱形屋顶</text>
+      <g transform="translate(60, 0)">
+        <path d="M-15 10 Q-18 -10 -8 -15 Q0 -18 8 -15 Q18 -10 15 10 Q8 12 0 12 Q-8 12 -15 10 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+        <path d="M-16 -5 Q0 -25 16 -5" fill="none" stroke="#8d5a36" stroke-width="2"/>
+        <ellipse cx="10" cy="-8" rx="4" ry="3" fill="#3a2a1a"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="510" width="700" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">喜鹊的巢像一座带"门"的小房子：粗树枝做壳、泥巴做壁、草羽做垫，</text>
+  <text x="400" y="558" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">顶上还有拱形屋顶挡雨，是鸟界的建筑奇迹。</text>
+</svg>

@@ -1,0 +1,2112 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import LessonCard from "../../components/LessonCard.astro";
+import { getLessonAuthors, authorSlug } from "../../data/authors";
+
+export async function getStaticPaths() {
+  const allLessons = (await getCollection("lessons")).sort((a, b) => {
+    const gradeOrder = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"];
+    const ga = gradeOrder.indexOf(a.data.grade);
+    const gb = gradeOrder.indexOf(b.data.grade);
+    if (ga !== gb) return ga - gb;
+    return a.data.volume.localeCompare(b.data.volume, "zh-CN");
+  });
+
+  return allLessons.map((lesson, i) => {
+    // Enhanced related lessons: score by multiple dimensions
+    const scored = allLessons
+      .filter((l) => l.slug !== lesson.slug)
+      .map((l) => {
+        let score = 0;
+        const reasons: string[] = [];
+
+        // Same author (highest weight, but skip generic "佚名")
+        const lessonAuthors = new Set(getLessonAuthors(lesson.data.author));
+        const lAuthors = new Set(getLessonAuthors(l.data.author));
+        const hasSharedAuthor = [...lessonAuthors].some((a) => lAuthors.has(a));
+        if (hasSharedAuthor) {
+          score += 10;
+          reasons.push("same-author");
+        }
+
+        // Same theme (high weight)
+        if (l.data.theme === lesson.data.theme) {
+          score += 6;
+          reasons.push("same-theme");
+        }
+
+        // Same era (medium weight)
+        if (l.data.era === lesson.data.era) {
+          score += 4;
+          reasons.push("same-era");
+        }
+
+        // Same grade but different lesson (medium weight)
+        if (l.data.grade === lesson.data.grade) {
+          score += 3;
+          reasons.push("same-grade");
+        }
+
+        return { lesson: l, score, reasons };
+      })
+      .filter((item) => item.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 4);
+
+    return {
+      params: { slug: lesson.slug },
+      props: {
+        lesson,
+        prev: allLessons[i - 1] || null,
+        next: allLessons[i + 1] || null,
+        related: scored,
+      },
+    };
+  });
+}
+
+const { lesson, prev, next, related } = Astro.props;
+const { Content } = await render(lesson);
+const data = lesson.data;
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+
+const reasonLabels: Record<string, string> = {
+  "same-author": "同作者",
+  "same-theme": "同主题",
+  "same-era": "同时代",
+  "same-grade": "同年级",
+};
+
+// Reading time estimation (Chinese: ~300 chars/min)
+const bodyText = lesson.body || "";
+const charCount = bodyText.replace(/[#\-*\[\]\(\)>]/g, "").replace(/\s+/g, "").length;
+const readingMinutes = Math.max(1, Math.round(charCount / 300));
+
+// Parse authors for display and linking
+const lessonAuthors = getLessonAuthors(data.author);
+
+// JSON-LD Article structured data
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: `《${data.title}》背后的故事`,
+  description: data.summary,
+  author: lessonAuthors.map((a) => ({ "@type": "Person", name: a })),
+  articleSection: data.grade,
+  keywords: [data.theme, data.grade, data.author, data.era].join(", "),
+  inLanguage: "zh-CN",
+  image: withBase(data.image),
+};
+---
+
+<BaseLayout
+  title={`《${data.title}》背后的故事 - 课文背后的故事`}
+  description={data.summary}
+  ogImage={data.image}
+  ogType="article"
+  jsonLd={articleJsonLd}
+>
+  <div class="reading-progress" id="readingProgress"></div>
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="面包屑导航">
+    <a href={withBase("/")}>首页</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href={withBase("/lessons/")}>课文库</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href={withBase("/lessons/")} class="breadcrumb-grade">{data.grade}</a>
+    <span class="breadcrumb-sep">›</span>
+    <span class="breadcrumb-current">《{data.title}》</span>
+  </nav>
+
+  <article class="lesson-detail">
+    <header class="lesson-hero">
+      <div class="lesson-hero-text">
+        <a class="back-link" href={withBase("/lessons/")}>← 返回课文库</a>
+        <p class="eyebrow">{data.grade} · {data.volume} · {data.theme}</p>
+        <h1>《{data.title}》<br />背后的故事</h1>
+        <p class="lesson-subtitle">{data.subtitle}</p>
+        <div class="meta-list">
+          <span>作者：{lessonAuthors.map((a, i) => (
+            <Fragment>{i > 0 && "、"}<a href={withBase(`/authors/${authorSlug(a)}/`)}>{a}</a></Fragment>
+          ))}</span>
+          <span>时代：{data.era}</span>
+          <span>约 {charCount} 字 · {readingMinutes} 分钟</span>
+        </div>
+      </div>
+      <div class="lesson-hero-image">
+        <img src={withBase(data.image)} alt={data.imageAlt} />
+      </div>
+    </header>
+
+    <aside class="notice">
+      <span class="notice-icon">📌</span>
+      本页不转载现行教材全文，只提供原创导读、背景故事与延伸阅读。正式学习时请回到课本原文。
+    </aside>
+
+    <section class="story-gallery" aria-label="课文插图">
+      <figure>
+        <img src={withBase(data.image)} alt={data.imageAlt} />
+        <figcaption>课文现场</figcaption>
+      </figure>
+      <figure>
+        <img src={withBase(data.chainImage)} alt={data.chainImageAlt} />
+        <figcaption>{data.chainCaption}</figcaption>
+      </figure>
+    </section>
+
+    <div class="lesson-layout" data-slug={lesson.slug}>
+      <div class="article-body">
+        <!-- Reading toolbar: font size + bookmark -->
+        <div class="reading-toolbar">
+          <div class="font-size-control">
+            <span class="toolbar-label">字号</span>
+            <button class="font-btn" data-size="small" type="button" aria-label="小号字体">A</button>
+            <button class="font-btn active" data-size="medium" type="button" aria-label="标准字体">A</button>
+            <button class="font-btn" data-size="large" type="button" aria-label="大号字体">A</button>
+          </div>
+          <button class="pinyin-toggle" id="pinyinToggle" type="button" aria-label="开启/关闭拼音" aria-pressed="false">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span>拼音</span>
+          </button>
+          <button class="bookmark-btn" id="bookmarkBtn" type="button" aria-label="收藏课文" data-slug={lesson.slug}>
+            <svg class="bookmark-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            <span class="bookmark-text">收藏</span>
+          </button>
+          <button class="share-btn" id="shareBtn" type="button" aria-label="分享课文">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            <span>分享</span>
+          </button>
+        </div>
+        <!-- Share dropdown -->
+        <div class="share-dropdown" id="shareDropdown" hidden>
+          <button class="share-item" data-share="copy" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            复制链接
+          </button>
+          <button class="share-item" data-share="weibo" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M10.098 20c-4.038 0-7.32-2.011-7.32-4.5 0-2.49 3.282-4.5 7.32-4.5 4.037 0 7.32 2.01 7.32 4.5 0 2.489-3.283 4.5-7.32 4.5zM17.5 14.5c-.276 0-.5.224-.5.5 0 1.381-1.119 2.5-2.5 2.5-.276 0-.5.224-.5.5s.224.5.5.5c1.93 0 3.5-1.57 3.5-3.5 0-.276-.224-.5-.5-.5z"/></svg>
+            微博
+          </button>
+          <button class="share-item" data-share="wechat" type="button">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8.691 2C4.768 2 1.5 4.671 1.5 7.97c0 1.882 1.058 3.563 2.711 4.677L3.5 14.5l2.5-1.25c.685.17 1.43.27 2.2.27h.25a5.5 5.5 0 0 1-.2-1.5c0-3.314 3.134-6 7-6 .25 0 .5.01.74.04C15.65 4.31 12.48 2 8.691 2zm-2.5 3.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm5 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM15.5 8c-3.314 0-6 2.462-6 5.5s2.686 5.5 6 5.5c.685 0 1.346-.094 1.964-.268L19.5 20l-.5-1.75c1.5-1.062 2.5-2.688 2.5-4.75 0-3.038-2.686-5.5-6-5.5zm-2 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm4 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+            微信
+          </button>
+          <div class="share-qr" id="shareQr" hidden>
+            <canvas id="qrCanvas"></canvas>
+            <p>用微信扫一扫</p>
+          </div>
+        </div>
+        <!-- Table of contents -->
+        <nav class="lesson-toc" id="lessonToc" aria-label="文章目录">
+          <span class="toc-label">目录</span>
+          <ul class="toc-list"></ul>
+        </nav>
+        <!-- Audio reading toolbar -->
+        <div class="audio-toolbar" id="audioToolbar">
+          <div class="audio-toolbar-info">
+            <span class="audio-icon">🔊</span>
+            <span class="audio-label">朗读本文</span>
+          </div>
+          <div class="audio-controls">
+            <button class="audio-btn audio-play" id="audioPlay" type="button" aria-label="播放朗读">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              <span>播放</span>
+            </button>
+            <button class="audio-btn audio-pause" id="audioPause" type="button" aria-label="暂停朗读" hidden>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+              <span>暂停</span>
+            </button>
+            <button class="audio-btn audio-stop" id="audioStop" type="button" aria-label="停止朗读">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h12v12H6z"/></svg>
+              <span>停止</span>
+            </button>
+            <div class="audio-speed">
+              <label for="audioSpeed">语速</label>
+              <select id="audioSpeed">
+                <option value="0.75">0.75x</option>
+                <option value="1" selected>1x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+              </select>
+            </div>
+          </div>
+          <span class="audio-status" id="audioStatus">点击播放，AI 朗读课文故事</span>
+        </div>
+
+        {/* Read-along recording mode */}
+        <div class="readalong-toolbar" id="readalongToolbar">
+          <div class="readalong-info">
+            <span class="readalong-icon">🎤</span>
+            <span class="readalong-label">我来读</span>
+          </div>
+          <div class="readalong-controls">
+            <button class="readalong-btn" id="readalongRecord" type="button" aria-label="开始录音">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="10"/></svg>
+              <span>开始录音</span>
+            </button>
+            <button class="readalong-btn" id="readalongStop" type="button" hidden>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>
+              <span>停止</span>
+            </button>
+            <button class="readalong-btn" id="readalongPlay" type="button" hidden>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              <span>回放</span>
+            </button>
+            <button class="readalong-btn readalong-checkin" id="readalongCheckin" type="button" hidden>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              <span>打卡</span>
+            </button>
+          </div>
+          <span class="readalong-status" id="readalongStatus">朗读课文，录音后回放对比</span>
+        </div>
+
+        {/* Add note floating button (appears when text is selected) */}
+        <button class="add-note-fab" id="addNoteFab" type="button" hidden>
+          📝 添加笔记
+        </button>
+        <div class="story-content" id="storyContent">
+          <Content />
+        </div>
+      </div>
+      <aside class="side-panel">
+        <section class="side-card fun-fact-card">
+          <h2><span class="side-icon">💡</span> 有趣冷知识</h2>
+          <p>{data.funFact}</p>
+        </section>
+
+        {/* Knowledge Graph */}
+        <section class="side-card knowledge-graph-card">
+          <h2><span class="side-icon">🕸️</span> 知识图谱</h2>
+          <div class="kg-container" id="kgContainer"
+            data-title={data.title}
+            data-author={lessonAuthors.join("、")}
+            data-era={data.era}
+            data-theme={data.theme}
+            data-grade={data.grade}
+            data-related={JSON.stringify(related.slice(0, 3).map((r: any) => ({ title: r.lesson.data.title, slug: r.lesson.slug, reason: r.reasons[0] })))}
+          >
+            <svg class="kg-svg" id="kgSvg" viewBox="0 0 280 240" aria-label="课文知识图谱"></svg>
+          </div>
+        </section>
+
+        {/* Reading Notes */}
+        <section class="side-card notes-card" id="notesCard">
+          <h2><span class="side-icon">📝</span> 我的笔记</h2>
+          <p class="notes-hint">选中正文中的文字，点击"添加笔记"按钮记录你的想法。</p>
+          <div class="notes-list" id="notesList"></div>
+        </section>
+
+        {/* Note Modal */}
+        <div class="note-modal-overlay" id="noteModalOverlay" hidden>
+          <div class="note-modal">
+            <h3 class="note-modal-title">添加笔记</h3>
+            <p class="note-modal-quote" id="noteModalQuote"></p>
+            <textarea class="note-modal-input" id="noteModalInput" placeholder="写下你的想法..." rows="4"></textarea>
+            <div class="note-modal-actions">
+              <button class="note-modal-cancel" id="noteModalCancel" type="button">取消</button>
+              <button class="note-modal-save" id="noteModalSave" type="button">保存笔记</button>
+            </div>
+          </div>
+        </div>
+
+        <section class="side-card questions-card">
+          <h2><span class="side-icon">🤔</span> 想一想</h2>
+          <ol>
+            {data.questions.map((question) => <li>{question}</li>)}
+          </ol>
+        </section>
+        <section class="side-card takeaways-card">
+          <h2><span class="side-icon">✨</span> 我学到了</h2>
+          <ul>
+            {data.takeaways.map((item) => <li>{item}</li>)}
+          </ul>
+        </section>
+
+        {/* Background Knowledge */}
+        <section class="side-card background-card" id="backgroundCard" data-era={data.era} data-theme={data.theme} data-title={data.title}>
+          <h2><span class="side-icon">🏛️</span> 背景知识</h2>
+          <div class="background-content" id="backgroundContent">
+            <p class="background-loading">正在加载背景知识…</p>
+          </div>
+        </section>
+
+        {/* Writing Inspiration */}
+        <section class="side-card writing-card" id="writingCard" data-theme={data.theme} data-title={data.title} data-grade={data.grade}>
+          <h2><span class="side-icon">✏️</span> 仿写小练笔</h2>
+          <div class="writing-content" id="writingContent">
+            <p class="writing-loading">正在准备写作提示…</p>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <section class="glossary">
+      <div class="section-heading compact-heading">
+        <div>
+          <p class="eyebrow">照顾小读者</p>
+          <h2>生字词小字典</h2>
+        </div>
+        <p>正文里遇到这些词，可以先看拼音，再读解释。</p>
+      </div>
+      <div class="glossary-grid">
+        {data.glossary.map((item) => (
+          <article class="glossary-card">
+            <h3>
+              <ruby>{item.term}<rt>{item.pinyin}</rt></ruby>
+            </h3>
+            <p>{item.meaning}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <!-- Interactive quiz module -->
+    <section class="interactive-quiz" id="interactiveQuiz" data-glossary={JSON.stringify(data.glossary)} data-questions={JSON.stringify(data.questions)}>
+      <div class="section-heading compact-heading">
+        <div>
+          <p class="eyebrow">动手练一练</p>
+          <h2>互动小课堂</h2>
+        </div>
+        <p>听写生字词，或做个小测试，看看你记住了多少。</p>
+      </div>
+
+      <div class="quiz-tabs" role="tablist" aria-label="练习模式">
+        <button class="quiz-tab active" role="tab" aria-selected="true" data-mode="dictation" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          生字词听写
+        </button>
+        <button class="quiz-tab" role="tab" aria-selected="false" data-mode="match" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          词义匹配
+        </button>
+        <button class="quiz-tab" role="tab" aria-selected="false" data-mode="discuss" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          读后思考
+        </button>
+        <button class="quiz-tab" role="tab" aria-selected="false" data-mode="fillblank" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          填空题
+        </button>
+        <button class="quiz-tab" role="tab" aria-selected="false" data-mode="ordering" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          排序题
+        </button>
+        <button class="quiz-tab" role="tab" aria-selected="false" data-mode="truefalse" type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          判断题
+        </button>
+      </div>
+
+      <!-- Dictation mode -->
+      <div class="quiz-panel active" id="panelDictation" role="tabpanel">
+        <div class="quiz-start-screen" id="dictStart">
+          <p class="quiz-intro">点击"开始听写"，AI 会朗读每个生字词。请根据读音写出对应的汉字，写完一个词点击"下一个"。</p>
+          <button class="quiz-start-btn" id="dictStartBtn" type="button">开始听写</button>
+        </div>
+        <div class="quiz-play-screen" id="dictPlay" hidden>
+          <div class="quiz-progress">
+            <span id="dictProgress">第 1 / 4 题</span>
+            <span class="quiz-score" id="dictScore">得分：0</span>
+          </div>
+          <div class="dictation-item">
+            <button class="dict-play-btn" id="dictPlayBtn" type="button" aria-label="重新播放读音">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+              再听一遍
+            </button>
+            <div class="dict-input-area">
+              <label for="dictInput">写出你听到的词语：</label>
+              <input type="text" id="dictInput" class="dict-input" placeholder="在这里输入汉字" autocomplete="off" />
+            </div>
+            <div class="dict-feedback" id="dictFeedback"></div>
+            <div class="quiz-actions">
+              <button class="quiz-check-btn" id="dictCheckBtn" type="button">提交答案</button>
+              <button class="quiz-next-btn" id="dictNextBtn" type="button" hidden>下一个 →</button>
+            </div>
+          </div>
+        </div>
+        <div class="quiz-result-screen" id="dictResult" hidden>
+          <h3 class="quiz-result-title">听写完成！</h3>
+          <p class="quiz-result-score" id="dictResultScore"></p>
+          <div class="quiz-result-detail" id="dictResultDetail"></div>
+          <button class="quiz-restart-btn" id="dictRestartBtn" type="button">再练一次</button>
+        </div>
+      </div>
+
+      <!-- Match mode -->
+      <div class="quiz-panel" id="panelMatch" role="tabpanel" hidden>
+        <div class="quiz-start-screen" id="matchStart">
+          <p class="quiz-intro">看释义，选出正确的词语。一共 5 道题，看看你能答对几道！</p>
+          <button class="quiz-start-btn" id="matchStartBtn" type="button">开始测试</button>
+        </div>
+        <div class="quiz-play-screen" id="matchPlay" hidden>
+          <div class="quiz-progress">
+            <span id="matchProgress">第 1 / 5 题</span>
+            <span class="quiz-score" id="matchScore">得分：0</span>
+          </div>
+          <div class="match-question" id="matchQuestion"></div>
+          <div class="match-options" id="matchOptions"></div>
+          <div class="match-feedback" id="matchFeedback"></div>
+          <div class="quiz-actions">
+            <button class="quiz-next-btn" id="matchNextBtn" type="button" hidden>下一题 →</button>
+          </div>
+        </div>
+        <div class="quiz-result-screen" id="matchResult" hidden>
+          <h3 class="quiz-result-title">测试完成！</h3>
+          <p class="quiz-result-score" id="matchResultScore"></p>
+          <div class="quiz-result-detail" id="matchResultDetail"></div>
+          <button class="quiz-restart-btn" id="matchRestartBtn" type="button">再测一次</button>
+        </div>
+      </div>
+
+      <!-- Discuss mode -->
+      <div class="quiz-panel" id="panelDiscuss" role="tabpanel" hidden>
+        <div class="discuss-intro">
+          <p>读完这篇课文背后的故事，和同学或爸爸妈妈聊一聊这些问题吧。点击问题可以翻转看提示。</p>
+        </div>
+        <div class="discuss-list" id="discussList"></div>
+      </div>
+
+      <!-- Fill-in-the-blank mode -->
+      <div class="quiz-panel" id="panelFillblank" role="tabpanel" hidden>
+        <div class="quiz-start-screen" id="fbStart">
+          <p class="quiz-intro">从课文故事中选取关键句，挖掉一个词，你能填对吗？一共 5 道题。</p>
+          <button class="quiz-start-btn" id="fbStartBtn" type="button">开始填空</button>
+        </div>
+        <div class="quiz-play-screen" id="fbPlay" hidden>
+          <div class="quiz-progress">
+            <span id="fbProgress">第 1 / 5 题</span>
+            <span class="quiz-score" id="fbScore">得分：0</span>
+          </div>
+          <div class="fillblank-question" id="fbQuestion"></div>
+          <div class="fillblank-options" id="fbOptions"></div>
+          <div class="fillblank-feedback" id="fbFeedback"></div>
+          <div class="quiz-actions">
+            <button class="quiz-next-btn" id="fbNextBtn" type="button" hidden>下一题 →</button>
+          </div>
+        </div>
+        <div class="quiz-result-screen" id="fbResult" hidden>
+          <h3 class="quiz-result-title">填空完成！</h3>
+          <p class="quiz-result-score" id="fbResultScore"></p>
+          <button class="quiz-restart-btn" id="fbRestartBtn" type="button">再练一次</button>
+        </div>
+      </div>
+
+      <!-- Ordering mode -->
+      <div class="quiz-panel" id="panelOrdering" role="tabpanel" hidden>
+        <div class="quiz-start-screen" id="ordStart">
+          <p class="quiz-intro">把打乱的句子按正确顺序排列，考验你的逻辑思维！</p>
+          <button class="quiz-start-btn" id="ordStartBtn" type="button">开始排序</button>
+        </div>
+        <div class="quiz-play-screen" id="ordPlay" hidden>
+          <div class="quiz-progress">
+            <span id="ordProgress">第 1 / 3 题</span>
+            <span class="quiz-score" id="ordScore">得分：0</span>
+          </div>
+          <div class="ordering-instruction">点击句子，按正确顺序排列：</div>
+          <div class="ordering-list" id="ordList"></div>
+          <div class="ordering-feedback" id="ordFeedback"></div>
+          <div class="quiz-actions">
+            <button class="quiz-check-btn" id="ordCheckBtn" type="button">检查顺序</button>
+            <button class="quiz-next-btn" id="ordNextBtn" type="button" hidden>下一题 →</button>
+          </div>
+        </div>
+        <div class="quiz-result-screen" id="ordResult" hidden>
+          <h3 class="quiz-result-title">排序完成！</h3>
+          <p class="quiz-result-score" id="ordResultScore"></p>
+          <button class="quiz-restart-btn" id="ordRestartBtn" type="button">再练一次</button>
+        </div>
+      </div>
+
+      <!-- True/False mode -->
+      <div class="quiz-panel" id="panelTruefalse" role="tabpanel" hidden>
+        <div class="quiz-start-screen" id="tfStart">
+          <p class="quiz-intro">判断下面的说法是否正确，看看你对课文理解多少！一共 5 道题。</p>
+          <button class="quiz-start-btn" id="tfStartBtn" type="button">开始判断</button>
+        </div>
+        <div class="quiz-play-screen" id="tfPlay" hidden>
+          <div class="quiz-progress">
+            <span id="tfProgress">第 1 / 5 题</span>
+            <span class="quiz-score" id="tfScore">得分：0</span>
+          </div>
+          <div class="truefalse-question" id="tfQuestion"></div>
+          <div class="truefalse-options" id="tfOptions">
+            <button class="tf-btn tf-true" id="tfTrue" type="button">✓ 正确</button>
+            <button class="tf-btn tf-false" id="tfFalse" type="button">✗ 错误</button>
+          </div>
+          <div class="truefalse-feedback" id="tfFeedback"></div>
+          <div class="quiz-actions">
+            <button class="quiz-next-btn" id="tfNextBtn" type="button" hidden>下一题 →</button>
+          </div>
+        </div>
+        <div class="quiz-result-screen" id="tfResult" hidden>
+          <h3 class="quiz-result-title">判断完成！</h3>
+          <p class="quiz-result-score" id="tfResultScore"></p>
+          <button class="quiz-restart-btn" id="tfRestartBtn" type="button">再练一次</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sources">
+      <h2><span class="side-icon">📚</span> 资料来源</h2>
+      <ul>
+        {data.sources.map((source) => (
+          <li><a href={source.url} target="_blank" rel="noreferrer">{source.name}</a></li>
+        ))}
+      </ul>
+    </section>
+
+    <nav class="lesson-nav" aria-label="课文导航">
+      {prev && (
+        <a class="nav-card nav-prev" href={withBase(`/lessons/${prev.slug}/`)}>
+          <span class="nav-label">← 上一篇</span>
+          <span class="nav-title">《{prev.data.title}》</span>
+          <span class="nav-meta">{prev.data.grade} · {prev.data.theme}</span>
+        </a>
+      )}
+      {next && (
+        <a class="nav-card nav-next" href={withBase(`/lessons/${next.slug}/`)}>
+          <span class="nav-label">下一篇 →</span>
+          <span class="nav-title">《{next.data.title}》</span>
+          <span class="nav-meta">{next.data.grade} · {next.data.theme}</span>
+        </a>
+      )}
+    </nav>
+
+    {related.length > 0 && (
+      <section class="related-lessons">
+        <div class="section-heading compact-heading">
+          <div>
+            <p class="eyebrow">继续探索</p>
+            <h2>相关课文故事</h2>
+          </div>
+          <p>按作者、时代、主题和年级智能关联，形成知识网络。</p>
+        </div>
+        <div class="card-grid">
+          {related.map((item) => (
+            <div class="related-card-wrapper">
+              <LessonCard lesson={item.lesson} />
+              <p class="related-reason">
+                {item.reasons.map((r) => (
+                  <span class={`related-tag ${r}`}>{reasonLabels[r]}</span>
+                ))}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+
+  <script>
+    import { pinyin } from "pinyin-pro";
+
+    // === Pinyin Toggle ===
+    const PINYIN_KEY = "ketang-pinyin-enabled";
+    const pinyinToggle = document.getElementById("pinyinToggle");
+    const storyContent = document.getElementById("storyContent");
+    let originalHTML = "";
+    let pinyinActive = false;
+
+    if (storyContent) {
+      originalHTML = storyContent.innerHTML;
+    }
+
+    function applyPinyin() {
+      if (!storyContent || !originalHTML) return;
+      const walker = document.createTreeWalker(storyContent, NodeFilter.SHOW_TEXT, {
+        acceptNode: (node) => {
+          const parent = node.parentElement;
+          if (!parent) return NodeFilter.FILTER_REJECT;
+          // Skip elements that shouldn't have pinyin
+          const skipTags = ["RUBY", "RT", "SCRIPT", "STYLE", "CODE", "PRE"];
+          if (skipTags.includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+          if (parent.closest("ruby")) return NodeFilter.FILTER_REJECT;
+          // Only process text with Chinese characters
+          if (/[\u4e00-\u9fff]/.test(node.textContent)) return NodeFilter.FILTER_ACCEPT;
+          return NodeFilter.FILTER_REJECT;
+        },
+      });
+
+      const textNodes: Text[] = [];
+      let node: Node | null;
+      while ((node = walker.nextNode())) textNodes.push(node as Text);
+
+      for (const textNode of textNodes) {
+        const text = textNode.textContent;
+        if (!text) continue;
+        const frag = document.createDocumentFragment();
+        // Split by Chinese characters vs non-Chinese
+        const parts = text.split(/([\u4e00-\u9fff]+)/);
+        for (const part of parts) {
+          if (!part) continue;
+          if (/[\u4e00-\u9fff]/.test(part)) {
+            // Convert each Chinese character to ruby
+            const chars = [...part];
+            for (const char of chars) {
+              const ruby = document.createElement("ruby");
+              ruby.className = "pinyin-ruby";
+              ruby.textContent = char;
+              const rt = document.createElement("rt");
+              const py = pinyin(char, { toneType: "symbol", type: "array" });
+              rt.textContent = Array.isArray(py) && py[0] ? py[0] : "";
+              ruby.appendChild(rt);
+              frag.appendChild(ruby);
+            }
+          } else {
+            frag.appendChild(document.createTextNode(part));
+          }
+        }
+        textNode.parentNode?.replaceChild(frag, textNode);
+      }
+      pinyinActive = true;
+      updateTocText();
+    }
+
+    function removePinyin() {
+      if (!storyContent) return;
+      storyContent.innerHTML = originalHTML;
+      pinyinActive = false;
+      updateTocText();
+    }
+
+    function updatePinyinToggle() {
+      if (!pinyinToggle) return;
+      pinyinToggle.setAttribute("aria-pressed", String(pinyinActive));
+      pinyinToggle.classList.toggle("active", pinyinActive);
+    }
+
+    // Update TOC link text to match current heading text (without pinyin)
+    function updateTocText() {
+      const tocLinks = document.querySelectorAll<HTMLAnchorElement>(".toc-list a[data-toc-for]");
+      tocLinks.forEach((link) => {
+        const headingId = link.dataset.tocFor;
+        if (!headingId) return;
+        const heading = document.getElementById(headingId);
+        if (!heading) return;
+        const clone = heading.cloneNode(true) as HTMLElement;
+        clone.querySelectorAll("rt").forEach((rt) => rt.remove());
+        link.textContent = clone.textContent || "";
+      });
+    }
+
+    if (pinyinToggle) {
+      pinyinToggle.addEventListener("click", () => {
+        if (pinyinActive) {
+          removePinyin();
+        } else {
+          applyPinyin();
+        }
+        localStorage.setItem(PINYIN_KEY, String(pinyinActive));
+        updatePinyinToggle();
+      });
+
+      // Restore preference on load
+      const savedPinyin = localStorage.getItem(PINYIN_KEY) === "true";
+      if (savedPinyin) {
+        applyPinyin();
+        updatePinyinToggle();
+      }
+    }
+
+    // === Reading progress bar ===
+    const progress = document.getElementById("readingProgress");
+    if (progress) {
+      let scrollTicking = false;
+      window.addEventListener("scroll", () => {
+        if (!scrollTicking) {
+          requestAnimationFrame(() => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+            progress.style.width = pct + "%";
+            scrollTicking = false;
+          });
+          scrollTicking = true;
+        }
+      });
+    }
+
+    // === Table of contents ===
+    const tocList = document.querySelector(".toc-list");
+    const articleBody = document.querySelector(".article-body");
+    if (tocList && articleBody) {
+      const headings = [...articleBody.querySelectorAll("h2")];
+      if (headings.length > 0) {
+        headings.forEach((h, i) => {
+          if (!h.id) h.id = `section-${i}`;
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.href = `#${h.id}`;
+          // Clone and remove rt to get clean text without pinyin annotations
+          const clone = h.cloneNode(true) as HTMLElement;
+          clone.querySelectorAll("rt").forEach((rt) => rt.remove());
+          a.textContent = clone.textContent || "";
+          a.dataset.tocFor = h.id;
+          a.addEventListener("click", (e) => {
+            e.preventDefault();
+            h.scrollIntoView({ behavior: "smooth", block: "start" });
+            [...tocList.querySelectorAll("a")].forEach((link) => link.classList.remove("active"));
+            a.classList.add("active");
+          });
+          li.appendChild(a);
+          tocList.appendChild(li);
+        });
+
+        // Highlight current section on scroll
+        let tocTicking = false;
+        window.addEventListener("scroll", () => {
+          if (!tocTicking) {
+            requestAnimationFrame(() => {
+              const scrollY = window.scrollY + 120;
+              let activeIdx = 0;
+              headings.forEach((h, i) => {
+                if (h.offsetTop <= scrollY) activeIdx = i;
+              });
+              [...tocList.querySelectorAll("a")].forEach((link, i) => {
+                link.classList.toggle("active", i === activeIdx);
+              });
+              tocTicking = false;
+            });
+            tocTicking = true;
+          }
+        });
+      } else {
+        const tocNav = document.getElementById("lessonToc");
+        if (tocNav) tocNav.hidden = true;
+      }
+    }
+
+    // === Font size adjustment ===
+    const fontBtns = [...document.querySelectorAll<HTMLButtonElement>(".font-btn")];
+    const articleBodyEl = document.querySelector<HTMLElement>(".article-body");
+    const FONT_KEY = "ketang-font-size";
+    const savedFont = localStorage.getItem(FONT_KEY);
+    if (savedFont && articleBodyEl) {
+      articleBodyEl.classList.add(`font-${savedFont}`);
+      fontBtns.forEach((b) => b.classList.toggle("active", b.dataset.size === savedFont));
+    }
+    fontBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const size = btn.dataset.size;
+        if (!size || !articleBodyEl) return;
+        articleBodyEl.classList.remove("font-small", "font-medium", "font-large");
+        articleBodyEl.classList.add(`font-${size}`);
+        localStorage.setItem(FONT_KEY, size);
+        fontBtns.forEach((b) => b.classList.toggle("active", b === btn));
+      });
+    });
+
+    // === Reading tracking + bookmark ===
+    const lessonLayout = document.querySelector<HTMLElement>(".lesson-layout");
+    const lessonSlug = lessonLayout?.dataset.slug || "";
+    const READ_KEY = "ketang-read-lessons";
+    const BOOKMARK_KEY = "ketang-bookmarked-lessons";
+    const bookmarkBtn = document.getElementById("bookmarkBtn");
+
+    // Mark as read + save timestamp
+    if (lessonSlug) {
+      try {
+        const readList = JSON.parse(localStorage.getItem(READ_KEY) || "[]");
+        if (!readList.includes(lessonSlug)) {
+          readList.push(lessonSlug);
+          localStorage.setItem(READ_KEY, JSON.stringify(readList));
+        }
+        // Save read timestamp for dashboard history
+        const timestamps = JSON.parse(localStorage.getItem("ketang-read-timestamps") || "{}");
+        timestamps[lessonSlug] = Date.now();
+        localStorage.setItem("ketang-read-timestamps", JSON.stringify(timestamps));
+      } catch {}
+    }
+
+    // Bookmark toggle
+    function getBookmarks(): string[] {
+      try {
+        return JSON.parse(localStorage.getItem(BOOKMARK_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function updateBookmarkBtn() {
+      if (!bookmarkBtn) return;
+      const bookmarks = getBookmarks();
+      const isBookmarked = bookmarks.includes(lessonSlug);
+      bookmarkBtn.classList.toggle("bookmarked", isBookmarked);
+      const textEl = bookmarkBtn.querySelector(".bookmark-text");
+      if (textEl) textEl.textContent = isBookmarked ? "已收藏" : "收藏";
+      const iconEl = bookmarkBtn.querySelector(".bookmark-icon");
+      if (iconEl) {
+        iconEl.setAttribute("fill", isBookmarked ? "currentColor" : "none");
+      }
+    }
+
+    if (bookmarkBtn) {
+      bookmarkBtn.addEventListener("click", () => {
+        let bookmarks = getBookmarks();
+        if (bookmarks.includes(lessonSlug)) {
+          bookmarks = bookmarks.filter((s) => s !== lessonSlug);
+        } else {
+          bookmarks.push(lessonSlug);
+        }
+        localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+        updateBookmarkBtn();
+      });
+      updateBookmarkBtn();
+    }
+
+    // === Share functionality ===
+    const shareBtn = document.getElementById("shareBtn");
+    const shareDropdown = document.getElementById("shareDropdown");
+    const shareItems = [...document.querySelectorAll<HTMLButtonElement>(".share-item")];
+    const shareQr = document.getElementById("shareQr");
+    const qrCanvas = document.getElementById("qrCanvas") as HTMLCanvasElement | null;
+
+    if (shareBtn && shareDropdown) {
+      shareBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        shareDropdown.hidden = !shareDropdown.hidden;
+      });
+      document.addEventListener("click", (e) => {
+        if (!shareDropdown.contains(e.target as Node) && e.target !== shareBtn) {
+          shareDropdown.hidden = true;
+        }
+      });
+
+      shareItems.forEach((item) => {
+        item.addEventListener("click", () => {
+          const type = item.dataset.share;
+          const url = window.location.href;
+          const title = document.title;
+
+          if (type === "copy") {
+            navigator.clipboard.writeText(url).then(() => {
+              item.textContent = "✓ 已复制";
+              setTimeout(() => {
+                shareDropdown.hidden = true;
+              }, 800);
+            }).catch(() => {
+              const input = document.createElement("input");
+              input.value = url;
+              document.body.appendChild(input);
+              input.select();
+              document.execCommand("copy");
+              document.body.removeChild(input);
+              item.textContent = "✓ 已复制";
+              setTimeout(() => { shareDropdown.hidden = true; }, 800);
+            });
+          } else if (type === "weibo") {
+            window.open(`https://service.weibo.com/share/share.php?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`, "_blank", "width=600,height=500");
+          } else if (type === "wechat") {
+            // Generate QR code using a simple inline QR library via API
+            if (shareQr && qrCanvas) {
+              shareQr.hidden = false;
+              const img = new Image();
+              img.crossOrigin = "anonymous";
+              img.onload = () => {
+                const ctx = qrCanvas.getContext("2d");
+                if (ctx) {
+                  qrCanvas.width = 160;
+                  qrCanvas.height = 160;
+                  ctx.drawImage(img, 0, 0, 160, 160);
+                }
+              };
+              img.src = `https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(url)}`;
+              qrCanvas.innerHTML = "";
+              const tempImg = document.createElement("img");
+              tempImg.src = img.src;
+              tempImg.style.width = "160px";
+              tempImg.style.height = "160px";
+              tempImg.style.borderRadius = "8px";
+              qrCanvas.replaceWith(tempImg);
+            }
+          }
+        });
+      });
+    }
+    const audioPlay = document.getElementById("audioPlay");
+    const audioPause = document.getElementById("audioPause");
+    const audioStop = document.getElementById("audioStop");
+    const audioSpeed = document.getElementById("audioSpeed") as HTMLSelectElement | null;
+    const audioStatus = document.getElementById("audioStatus");
+
+    let synth: SpeechSynthesis | null = null;
+    let utterances: SpeechSynthesisUtterance[] = [];
+    let currentUtterIdx = 0;
+    let isPlaying = false;
+    let audioRate = 1;
+
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      synth = window.speechSynthesis;
+    }
+
+    function getArticleParagraphs(): string[] {
+      const body = document.querySelector(".article-body");
+      if (!body) return [];
+      const blocks = [...body.querySelectorAll("h2, p, li, blockquote")];
+      return blocks
+        .map((el) => {
+          // Clone to extract text without <rt> pinyin annotations
+          const clone = el.cloneNode(true) as HTMLElement;
+          clone.querySelectorAll("rt").forEach((rt) => rt.remove());
+          return clone.textContent?.trim() || "";
+        })
+        .filter((t) => t.length > 2)
+        .filter((t) => !t.includes("点击播放"));
+    }
+
+    function pickChineseVoice(): SpeechSynthesisVoice | null {
+      if (!synth) return null;
+      const voices = synth.getVoices();
+      return (
+        voices.find((v) => v.lang === "zh-CN") ||
+        voices.find((v) => v.lang.startsWith("zh")) ||
+        voices.find((v) => v.lang === "cmn-Hans-CN") ||
+        null
+      );
+    }
+
+    function clearAudio() {
+      if (synth) synth.cancel();
+      utterances = [];
+      currentUtterIdx = 0;
+      isPlaying = false;
+    }
+
+    function highlightParagraph(idx: number) {
+      const body = document.querySelector(".article-body");
+      if (!body) return;
+      const blocks = [...body.querySelectorAll("h2, p, li, blockquote")];
+      blocks.forEach((el, i) => {
+        el.classList.toggle("audio-highlight", i === idx);
+      });
+    }
+
+    function startAudio() {
+      if (!synth) {
+        if (audioStatus) audioStatus.textContent = "抱歉，你的浏览器不支持语音朗读";
+        return;
+      }
+      clearAudio();
+      const paragraphs = getArticleParagraphs();
+      if (paragraphs.length === 0) return;
+      const voice = pickChineseVoice();
+
+      paragraphs.forEach((text, idx) => {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = "zh-CN";
+        u.rate = audioRate;
+        if (voice) u.voice = voice;
+        u.onstart = () => {
+          currentUtterIdx = idx;
+          highlightParagraph(idx);
+          const total = paragraphs.length;
+          if (audioStatus) audioStatus.textContent = `正在朗读 ${idx + 1} / ${total}`;
+        };
+        u.onend = () => {
+          if (idx === paragraphs.length - 1) {
+            isPlaying = false;
+            if (audioPlay) (audioPlay as HTMLElement).hidden = false;
+            if (audioPause) (audioPause as HTMLElement).hidden = true;
+            if (audioStatus) audioStatus.textContent = "朗读完成";
+            highlightParagraph(-1);
+          }
+        };
+        utterances.push(u);
+      });
+
+      isPlaying = true;
+      if (audioPlay) (audioPlay as HTMLElement).hidden = true;
+      if (audioPause) (audioPause as HTMLElement).hidden = false;
+      utterances.forEach((u) => synth!.speak(u));
+    }
+
+    if (audioPlay) {
+      audioPlay.addEventListener("click", () => {
+        if (synth && synth.paused && utterances.length > 0) {
+          synth.resume();
+          isPlaying = true;
+          (audioPlay as HTMLElement).hidden = true;
+          if (audioPause) (audioPause as HTMLElement).hidden = false;
+        } else {
+          startAudio();
+        }
+      });
+    }
+
+    if (audioPause) {
+      audioPause.addEventListener("click", () => {
+        if (synth) synth.pause();
+        isPlaying = false;
+        (audioPause as HTMLElement).hidden = true;
+        if (audioPlay) (audioPlay as HTMLElement).hidden = false;
+        if (audioStatus) audioStatus.textContent = "已暂停，点击播放继续";
+      });
+    }
+
+    if (audioStop) {
+      audioStop.addEventListener("click", () => {
+        clearAudio();
+        if (audioPlay) (audioPlay as HTMLElement).hidden = false;
+        if (audioPause) (audioPause as HTMLElement).hidden = true;
+        if (audioStatus) audioStatus.textContent = "已停止";
+        highlightParagraph(-1);
+      });
+    }
+
+    if (audioSpeed) {
+      audioSpeed.addEventListener("change", () => {
+        audioRate = parseFloat(audioSpeed.value);
+        if (isPlaying) {
+          const wasPlaying = true;
+          clearAudio();
+          if (wasPlaying) startAudio();
+        }
+      });
+    }
+
+    // Preload voices
+    if (synth && synth.getVoices().length === 0) {
+      synth.addEventListener("voiceschanged", () => {}, { once: true });
+    }
+
+    // === Interactive Quiz Module ===
+    const quizSection = document.getElementById("interactiveQuiz");
+    const glossaryData: { term: string; pinyin: string; meaning: string }[] = quizSection
+      ? JSON.parse(quizSection.dataset.glossary || "[]")
+      : [];
+    const questionsData: string[] = quizSection
+      ? JSON.parse(quizSection.dataset.questions || "[]")
+      : [];
+    if (quizSection) {
+
+      // --- Tab switching ---
+      const quizTabs = [...document.querySelectorAll<HTMLButtonElement>(".quiz-tab")];
+      const quizPanels = [...document.querySelectorAll<HTMLElement>(".quiz-panel")];
+      quizTabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const mode = tab.dataset.mode;
+          quizTabs.forEach((t) => {
+            t.classList.toggle("active", t === tab);
+            t.setAttribute("aria-selected", t === tab ? "true" : "false");
+          });
+          quizPanels.forEach((panel) => {
+            panel.hidden = panel.id !== `panel${mode ? mode.charAt(0).toUpperCase() + mode.slice(1) : ""}`;
+          });
+        });
+      });
+
+      // --- Shared TTS for dictation ---
+      function speakTerm(term: string) {
+        if (!synth) return;
+        synth.cancel();
+        const u = new SpeechSynthesisUtterance(term);
+        u.lang = "zh-CN";
+        u.rate = 0.8;
+        const voice = pickChineseVoice();
+        if (voice) u.voice = voice;
+        synth.speak(u);
+      }
+
+      // --- Dictation mode ---
+      const dictStart = document.getElementById("dictStart");
+      const dictPlay = document.getElementById("dictPlay");
+      const dictResult = document.getElementById("dictResult");
+      const dictStartBtn = document.getElementById("dictStartBtn");
+      const dictPlayBtn = document.getElementById("dictPlayBtn");
+      const dictInput = document.getElementById("dictInput") as HTMLInputElement | null;
+      const dictFeedback = document.getElementById("dictFeedback");
+      const dictCheckBtn = document.getElementById("dictCheckBtn");
+      const dictNextBtn = document.getElementById("dictNextBtn");
+      const dictProgress = document.getElementById("dictProgress");
+      const dictScore = document.getElementById("dictScore");
+      const dictResultScore = document.getElementById("dictResultScore");
+      const dictResultDetail = document.getElementById("dictResultDetail");
+      const dictRestartBtn = document.getElementById("dictRestartBtn");
+
+      let dictItems: typeof glossaryData = [];
+      let dictIdx = 0;
+      let dictScoreVal = 0;
+      let dictResults: { term: string; pinyin: string; answer: string; correct: boolean }[] = [];
+
+      function shuffleArr<T>(arr: T[]): T[] {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+      }
+
+      function startDictation() {
+        dictItems = shuffleArr(glossaryData).slice(0, Math.min(6, glossaryData.length));
+        dictIdx = 0;
+        dictScoreVal = 0;
+        dictResults = [];
+        if (dictStart) dictStart.hidden = true;
+        if (dictResult) dictResult.hidden = true;
+        if (dictPlay) (dictPlay as HTMLElement).hidden = false;
+        loadDictItem();
+      }
+
+      function loadDictItem() {
+        if (dictIdx >= dictItems.length) {
+          finishDictation();
+          return;
+        }
+        const item = dictItems[dictIdx];
+        if (dictProgress) dictProgress.textContent = `第 ${dictIdx + 1} / ${dictItems.length} 题`;
+        if (dictScore) dictScore.textContent = `得分：${dictScoreVal}`;
+        if (dictInput) {
+          dictInput.value = "";
+          dictInput.disabled = false;
+          dictInput.focus();
+        }
+        if (dictFeedback) dictFeedback.innerHTML = "";
+        if (dictCheckBtn) (dictCheckBtn as HTMLElement).hidden = false;
+        if (dictNextBtn) (dictNextBtn as HTMLElement).hidden = true;
+        speakTerm(item.term);
+      }
+
+      if (dictStartBtn) dictStartBtn.addEventListener("click", startDictation);
+      if (dictPlayBtn) dictPlayBtn.addEventListener("click", () => {
+        if (dictIdx < dictItems.length) speakTerm(dictItems[dictIdx].term);
+      });
+
+      if (dictCheckBtn && dictInput) dictCheckBtn.addEventListener("click", () => {
+        const item = dictItems[dictIdx];
+        const answer = dictInput.value.trim();
+        const correct = answer === item.term;
+        if (correct) dictScoreVal++;
+        dictResults.push({ term: item.term, pinyin: item.pinyin, answer, correct });
+        if (dictFeedback) {
+          dictFeedback.className = `dict-feedback ${correct ? "correct" : "incorrect"}`;
+          dictFeedback.innerHTML = correct
+            ? `<span class="feedback-icon">✅</span> 答对了！「${item.term}」（${item.pinyin}）`
+            : `<span class="feedback-icon">❌</span> 正确答案是「<strong>${item.term}</strong>」（${item.pinyin}）`;
+        }
+        dictInput.disabled = true;
+        (dictCheckBtn as HTMLElement).hidden = true;
+        if (dictNextBtn) (dictNextBtn as HTMLElement).hidden = false;
+      });
+
+      if (dictNextBtn) dictNextBtn.addEventListener("click", () => {
+        dictIdx++;
+        loadDictItem();
+      });
+
+      if (dictInput) dictInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && !(dictInput as HTMLInputElement).disabled) {
+          dictCheckBtn?.click();
+        }
+      });
+
+      function finishDictation() {
+        if (dictPlay) (dictPlay as HTMLElement).hidden = true;
+        if (dictResult) (dictResult as HTMLElement).hidden = false;
+        const total = dictItems.length;
+        if (dictResultScore) {
+          const pct = Math.round((dictScoreVal / total) * 100);
+          let praise = "继续加油！";
+          if (pct >= 90) praise = "太棒了！";
+          else if (pct >= 70) praise = "很不错！";
+          else if (pct >= 50) praise = "有进步！";
+          dictResultScore.textContent = `${dictScoreVal} / ${total} 分（${praise}）`;
+        }
+        if (dictResultDetail) {
+          dictResultDetail.innerHTML = dictResults.map((r) => `
+            <div class="result-row ${r.correct ? "correct" : "incorrect"}">
+              <span class="result-term">${r.term}</span>
+              <span class="result-pinyin">${r.pinyin}</span>
+              <span class="result-your">你写的：${r.answer || "（空）"}</span>
+              <span class="result-mark">${r.correct ? "✅" : "❌"}</span>
+            </div>
+          `).join("");
+        }
+        if (synth) synth.cancel();
+      }
+
+      if (dictRestartBtn) dictRestartBtn.addEventListener("click", () => {
+        if (dictResult) dictResult.hidden = true;
+        if (dictStart) (dictStart as HTMLElement).hidden = false;
+      });
+
+      // --- Match mode ---
+      const matchStart = document.getElementById("matchStart");
+      const matchPlay = document.getElementById("matchPlay");
+      const matchResult = document.getElementById("matchResult");
+      const matchStartBtn = document.getElementById("matchStartBtn");
+      const matchQuestion = document.getElementById("matchQuestion");
+      const matchOptions = document.getElementById("matchOptions");
+      const matchFeedback = document.getElementById("matchFeedback");
+      const matchNextBtn = document.getElementById("matchNextBtn");
+      const matchProgress = document.getElementById("matchProgress");
+      const matchScore = document.getElementById("matchScore");
+      const matchResultScore = document.getElementById("matchResultScore");
+      const matchResultDetail = document.getElementById("matchResultDetail");
+      const matchRestartBtn = document.getElementById("matchRestartBtn");
+
+      let matchQuestions: { term: string; meaning: string; options: string[] }[] = [];
+      let matchIdx = 0;
+      let matchScoreVal = 0;
+      let matchAnswered = false;
+      let matchResults: { term: string; yourAnswer: string; correct: boolean }[] = [];
+
+      function buildMatchQuestions() {
+        const shuffled = shuffleArr(glossaryData);
+        const count = Math.min(5, shuffled.length);
+        return shuffled.slice(0, count).map((item) => {
+          const wrongOptions = shuffleArr(
+            glossaryData.filter((g) => g.term !== item.term)
+          )
+            .slice(0, 3)
+            .map((g) => g.term);
+          return {
+            term: item.term,
+            meaning: item.meaning,
+            options: shuffleArr([item.term, ...wrongOptions]),
+          };
+        });
+      }
+
+      function startMatch() {
+        matchQuestions = buildMatchQuestions();
+        matchIdx = 0;
+        matchScoreVal = 0;
+        matchResults = [];
+        if (matchStart) matchStart.hidden = true;
+        if (matchResult) matchResult.hidden = true;
+        if (matchPlay) (matchPlay as HTMLElement).hidden = false;
+        loadMatchQuestion();
+      }
+
+      function loadMatchQuestion() {
+        if (matchIdx >= matchQuestions.length) {
+          finishMatch();
+          return;
+        }
+        matchAnswered = false;
+        const q = matchQuestions[matchIdx];
+        if (matchProgress) matchProgress.textContent = `第 ${matchIdx + 1} / ${matchQuestions.length} 题`;
+        if (matchScore) matchScore.textContent = `得分：${matchScoreVal}`;
+        if (matchQuestion) {
+          matchQuestion.innerHTML = `<p class="match-prompt">下列哪个词语的意思是：</p><p class="match-meaning">${q.meaning}</p>`;
+        }
+        if (matchOptions) {
+          matchOptions.innerHTML = q.options
+            .map(
+              (opt, i) =>
+                `<button class="match-option" data-option="${opt}" type="button"><span class="option-letter">${String.fromCharCode(65 + i)}</span> ${opt}</button>`
+            )
+            .join("");
+          [...matchOptions.querySelectorAll<HTMLButtonElement>(".match-option")].forEach((btn) => {
+            btn.addEventListener("click", () => selectMatchAnswer(btn));
+          });
+        }
+        if (matchFeedback) matchFeedback.innerHTML = "";
+        if (matchNextBtn) (matchNextBtn as HTMLElement).hidden = true;
+      }
+
+      function selectMatchAnswer(btn: HTMLButtonElement) {
+        if (matchAnswered) return;
+        matchAnswered = true;
+        const q = matchQuestions[matchIdx];
+        const selected = btn.dataset.option || "";
+        const correct = selected === q.term;
+        if (correct) matchScoreVal++;
+        matchResults.push({ term: q.term, yourAnswer: selected, correct });
+        [...(matchOptions?.querySelectorAll<HTMLButtonElement>(".match-option") || [])].forEach((b) => {
+          b.disabled = true;
+          if (b.dataset.option === q.term) {
+            b.classList.add("correct");
+          } else if (b === btn) {
+            b.classList.add("incorrect");
+          }
+        });
+        if (matchFeedback) {
+          matchFeedback.className = `match-feedback ${correct ? "correct" : "incorrect"}`;
+          matchFeedback.innerHTML = correct
+            ? `<span class="feedback-icon">✅</span> 答对了！`
+            : `<span class="feedback-icon">❌</span> 正确答案是「<strong>${q.term}</strong>」`;
+        }
+        if (matchNextBtn) (matchNextBtn as HTMLElement).hidden = false;
+      }
+
+      if (matchStartBtn) matchStartBtn.addEventListener("click", startMatch);
+      if (matchNextBtn) matchNextBtn.addEventListener("click", () => {
+        matchIdx++;
+        loadMatchQuestion();
+      });
+
+      function finishMatch() {
+        if (matchPlay) (matchPlay as HTMLElement).hidden = true;
+        if (matchResult) (matchResult as HTMLElement).hidden = false;
+        const total = matchQuestions.length;
+        if (matchResultScore) {
+          const pct = Math.round((matchScoreVal / total) * 100);
+          let praise = "继续加油！";
+          if (pct >= 90) praise = "太棒了！";
+          else if (pct >= 70) praise = "很不错！";
+          else if (pct >= 50) praise = "有进步！";
+          matchResultScore.textContent = `${matchScoreVal} / ${total} 分（${praise}）`;
+        }
+        if (matchResultDetail) {
+          matchResultDetail.innerHTML = matchResults.map((r) => `
+            <div class="result-row ${r.correct ? "correct" : "incorrect"}">
+              <span class="result-term">${r.term}</span>
+              <span class="result-your">你选的：${r.yourAnswer}</span>
+              <span class="result-mark">${r.correct ? "✅" : "❌"}</span>
+            </div>
+          `).join("");
+        }
+      }
+
+      if (matchRestartBtn) matchRestartBtn.addEventListener("click", () => {
+        if (matchResult) matchResult.hidden = true;
+        if (matchStart) (matchStart as HTMLElement).hidden = false;
+      });
+
+      // --- Discuss mode ---
+      const discussList = document.getElementById("discussList");
+      if (discussList) {
+        discussList.innerHTML = questionsData
+          .map(
+            (q, i) => `
+          <details class="discuss-item">
+            <summary class="discuss-question">
+              <span class="discuss-num">${i + 1}</span>
+              <span>${q}</span>
+              <svg class="discuss-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </summary>
+            <div class="discuss-hint">
+              <p>💡 展开讨论提示：试着从课文中找到关键词句来回答这个问题。也可以和同学互相说说自己的想法，看看答案有什么不同。</p>
+            </div>
+          </details>
+        `
+          )
+          .join("");
+      }
+    }
+
+    // === Fill-in-the-blank quiz ===
+    const fbData = (function() {
+      const sentences: { text: string; blank: string; options: string[] }[] = [];
+      // Create fill-blank from glossary: meaning is the question, term is the answer
+      for (const g of glossaryData) {
+        if (g.meaning.length > 5) {
+          const text = `根据释义选出正确的词语："＿＿＿"：${g.meaning}`;
+          const distractors = glossaryData.filter(x => x.term !== g.term).slice(0, 3).map(x => x.term);
+          if (distractors.length >= 2) {
+            const options = shuffle([g.term, ...distractors]);
+            sentences.push({ text, blank: g.term, options });
+          }
+        }
+      }
+      // Also try to find glossary terms in article body and create sentence-based questions
+      const paragraphs = getArticleParagraphs();
+      for (const g of glossaryData) {
+        for (const p of paragraphs) {
+          if (p.includes(g.term) && p.length > 20 && p.length < 120) {
+            const text = p.replace(g.term, "＿＿＿");
+            const distractors = glossaryData.filter(x => x.term !== g.term).slice(0, 3).map(x => x.term);
+            if (distractors.length >= 2) {
+              const options = shuffle([g.term, ...distractors]);
+              sentences.push({ text, blank: g.term, options });
+              break; // Only one sentence per term
+            }
+          }
+        }
+      }
+      return shuffle(sentences).slice(0, 5);
+    })();
+
+    function shuffle<T>(arr: T[]): T[] {
+      return [...arr].sort(() => Math.random() - 0.5);
+    }
+
+    let fbIdx = 0, fbScoreVal = 0;
+    const fbStartBtn = document.getElementById("fbStartBtn");
+    const fbStart = document.getElementById("fbStart");
+    const fbPlay = document.getElementById("fbPlay");
+    const fbResult = document.getElementById("fbResult");
+    const fbQuestion = document.getElementById("fbQuestion");
+    const fbOptions = document.getElementById("fbOptions");
+    const fbFeedback = document.getElementById("fbFeedback");
+    const fbNextBtn = document.getElementById("fbNextBtn");
+    const fbProgress = document.getElementById("fbProgress");
+    const fbScore = document.getElementById("fbScore");
+    const fbResultScore = document.getElementById("fbResultScore");
+    const fbRestartBtn = document.getElementById("fbRestartBtn");
+
+    function renderFbQuestion() {
+      if (!fbData || fbData.length === 0 || fbIdx >= fbData.length) {
+        showFbResult();
+        return;
+      }
+      const q = fbData[fbIdx];
+      if (fbProgress) fbProgress.textContent = `第 ${fbIdx + 1} / ${fbData.length} 题`;
+      if (fbScore) fbScore.textContent = `得分：${fbScoreVal}`;
+      if (fbQuestion) fbQuestion.innerHTML = `<p class="fillblank-text">${q.text}</p>`;
+      if (fbOptions) {
+        fbOptions.innerHTML = q.options.map((opt) => `<button class="fb-option" type="button">${opt}</button>`).join("");
+        fbOptions.querySelectorAll<HTMLButtonElement>(".fb-option").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const selected = btn.textContent || "";
+            const correct = selected === q.blank;
+            if (fbFeedback) {
+              fbFeedback.innerHTML = correct
+                ? `<p class="feedback-correct">✓ 答对了！</p>`
+                : `<p class="feedback-wrong">✗ 正确答案是：${q.blank}</p>`;
+            }
+            if (correct) fbScoreVal++;
+            fbOptions.querySelectorAll("button").forEach((b) => b.disabled = true);
+            if (fbNextBtn) (fbNextBtn as HTMLElement).hidden = false;
+          });
+        });
+      }
+      if (fbNextBtn) (fbNextBtn as HTMLElement).hidden = true;
+    }
+
+    function showFbResult() {
+      if (fbPlay) (fbPlay as HTMLElement).hidden = true;
+      if (fbResult) (fbResult as HTMLElement).hidden = false;
+      if (fbResultScore) fbResultScore.textContent = `你答对了 ${fbScoreVal} / ${fbData.length} 题！`;
+    }
+
+    if (fbStartBtn) {
+      fbStartBtn.addEventListener("click", () => {
+        if (!fbData || fbData.length === 0) return;
+        if (fbStart) (fbStart as HTMLElement).hidden = true;
+        if (fbPlay) (fbPlay as HTMLElement).hidden = false;
+        fbIdx = 0; fbScoreVal = 0;
+        renderFbQuestion();
+      });
+    }
+    if (fbNextBtn) {
+      fbNextBtn.addEventListener("click", () => {
+        fbIdx++;
+        if (fbFeedback) fbFeedback.innerHTML = "";
+        renderFbQuestion();
+      });
+    }
+    if (fbRestartBtn) {
+      fbRestartBtn.addEventListener("click", () => {
+        if (fbResult) (fbResult as HTMLElement).hidden = true;
+        if (fbStart) (fbStart as HTMLElement).hidden = false;
+        fbIdx = 0; fbScoreVal = 0;
+      });
+    }
+
+    // === Ordering quiz ===
+    // Build ordering questions from story content paragraphs
+    const ordData = (function() {
+      const paragraphs = getArticleParagraphs().filter((t) => t.length > 20 && t.length < 100);
+      const questions: { correct: string[]; shuffled: string[] }[] = [];
+      // Group consecutive short paragraphs into sets of 3-4
+      for (let i = 0; i < paragraphs.length && questions.length < 3; i += 3) {
+        const group = paragraphs.slice(i, i + 3);
+        if (group.length >= 3) {
+          questions.push({ correct: [...group], shuffled: shuffle(group) });
+        }
+      }
+      return questions;
+    })();
+
+    let ordIdx = 0, ordScoreVal = 0;
+    let ordSelectedOrder: string[] = [];
+    const ordStartBtn = document.getElementById("ordStartBtn");
+    const ordStart = document.getElementById("ordStart");
+    const ordPlay = document.getElementById("ordPlay");
+    const ordResult = document.getElementById("ordResult");
+    const ordList = document.getElementById("ordList");
+    const ordFeedback = document.getElementById("ordFeedback");
+    const ordCheckBtn = document.getElementById("ordCheckBtn");
+    const ordNextBtn = document.getElementById("ordNextBtn");
+    const ordProgress = document.getElementById("ordProgress");
+    const ordScore = document.getElementById("ordScore");
+    const ordResultScore = document.getElementById("ordResultScore");
+    const ordRestartBtn = document.getElementById("ordRestartBtn");
+
+    function renderOrdQuestion() {
+      if (!ordData || ordData.length === 0 || ordIdx >= ordData.length) {
+        showOrdResult();
+        return;
+      }
+      const q = ordData[ordIdx];
+      ordSelectedOrder = [];
+      if (ordProgress) ordProgress.textContent = `第 ${ordIdx + 1} / ${ordData.length} 题`;
+      if (ordScore) ordScore.textContent = `得分：${ordScoreVal}`;
+      if (ordList) {
+        ordList.innerHTML = q.shuffled.map((text, i) => `
+          <div class="ord-item" data-text="${text.replace(/"/g, '&quot;')}" data-orig-idx="${i}">
+            <span class="ord-num">${i + 1}</span>
+            <span class="ord-text">${text}</span>
+          </div>
+        `).join("");
+        ordList.querySelectorAll<HTMLElement>(".ord-item").forEach((item) => {
+          item.addEventListener("click", () => {
+            const text = item.dataset.text || "";
+            if (item.classList.contains("selected")) {
+              item.classList.remove("selected");
+              ordSelectedOrder = ordSelectedOrder.filter((t) => t !== text);
+            } else {
+              item.classList.add("selected");
+              ordSelectedOrder.push(text);
+            }
+            // Update order numbers
+            const selected = ordList.querySelectorAll(".ord-item.selected");
+            selected.forEach((el, i) => {
+              const num = el.querySelector(".ord-num");
+              if (num) num.textContent = String(i + 1);
+            });
+            const unselected = ordList.querySelectorAll(".ord-item:not(.selected)");
+            unselected.forEach((el) => {
+              const num = el.querySelector(".ord-num");
+              if (num) num.textContent = "?";
+            });
+          });
+        });
+      }
+      if (ordFeedback) ordFeedback.innerHTML = "";
+      if (ordCheckBtn) (ordCheckBtn as HTMLElement).hidden = false;
+      if (ordNextBtn) (ordNextBtn as HTMLElement).hidden = true;
+    }
+
+    function showOrdResult() {
+      if (ordPlay) (ordPlay as HTMLElement).hidden = true;
+      if (ordResult) (ordResult as HTMLElement).hidden = false;
+      if (ordResultScore) ordResultScore.textContent = `你排对了 ${ordScoreVal} / ${ordData.length} 题！`;
+    }
+
+    if (ordStartBtn) {
+      ordStartBtn.addEventListener("click", () => {
+        if (!ordData || ordData.length === 0) return;
+        if (ordStart) (ordStart as HTMLElement).hidden = true;
+        if (ordPlay) (ordPlay as HTMLElement).hidden = false;
+        ordIdx = 0; ordScoreVal = 0;
+        renderOrdQuestion();
+      });
+    }
+    if (ordCheckBtn) {
+      ordCheckBtn.addEventListener("click", () => {
+        const q = ordData[ordIdx];
+        const correct = ordSelectedOrder.every((t, i) => t === q.correct[i]);
+        if (ordFeedback) {
+          ordFeedback.innerHTML = correct
+            ? `<p class="feedback-correct">✓ 顺序完全正确！</p>`
+            : `<p class="feedback-wrong">✗ 正确顺序是：${q.correct.map((t, i) => `${i + 1}. ${t.slice(0, 30)}…`).join("<br>")}</p>`;
+        }
+        if (correct) ordScoreVal++;
+        if (ordCheckBtn) (ordCheckBtn as HTMLElement).hidden = true;
+        if (ordNextBtn) (ordNextBtn as HTMLElement).hidden = false;
+      });
+    }
+    if (ordNextBtn) {
+      ordNextBtn.addEventListener("click", () => {
+        ordIdx++;
+        renderOrdQuestion();
+      });
+    }
+    if (ordRestartBtn) {
+      ordRestartBtn.addEventListener("click", () => {
+        if (ordResult) (ordResult as HTMLElement).hidden = true;
+        if (ordStart) (ordStart as HTMLElement).hidden = false;
+        ordIdx = 0; ordScoreVal = 0;
+      });
+    }
+
+    // === True/False quiz ===
+    const tfData = (function() {
+      const statements: { text: string; correct: boolean; explanation: string }[] = [];
+      // Generate from takeaways (all true)
+      const takeawayItems = JSON.parse(quizSection.dataset.questions || "[]") as string[];
+      // Generate from glossary (true statements)
+      for (const g of glossaryData.slice(0, 3)) {
+        statements.push({
+          text: `"${g.term}"的意思是${g.meaning}`,
+          correct: true,
+          explanation: `正确。"${g.term}"的释义来自课文生字词表。`,
+        });
+        // Create a false version by swapping meaning
+        const otherG = glossaryData.find((x) => x.term !== g.term);
+        if (otherG) {
+          statements.push({
+            text: `"${g.term}"的意思是${otherG.meaning}`,
+            correct: false,
+            explanation: `错误。"${g.term}"的意思应该是${g.meaning}，不是${otherG.meaning}。`,
+          });
+        }
+      }
+      // Generate from funFact (true)
+      const funFactEl = document.querySelector(".fun-fact-card p");
+      if (funFactEl && funFactEl.textContent) {
+        statements.push({
+          text: funFactEl.textContent.trim().slice(0, 60) + "…",
+          correct: true,
+          explanation: "正确。这是课文中提到的冷知识。",
+        });
+      }
+      return shuffle(statements).slice(0, 5);
+    })();
+
+    let tfIdx = 0, tfScoreVal = 0;
+    const tfStartBtn = document.getElementById("tfStartBtn");
+    const tfStart = document.getElementById("tfStart");
+    const tfPlay = document.getElementById("tfPlay");
+    const tfResult = document.getElementById("tfResult");
+    const tfQuestion = document.getElementById("tfQuestion");
+    const tfTrueBtn = document.getElementById("tfTrue") as HTMLButtonElement | null;
+    const tfFalseBtn = document.getElementById("tfFalse") as HTMLButtonElement | null;
+    const tfFeedback = document.getElementById("tfFeedback");
+    const tfNextBtn = document.getElementById("tfNextBtn");
+    const tfProgress = document.getElementById("tfProgress");
+    const tfScore = document.getElementById("tfScore");
+    const tfResultScore = document.getElementById("tfResultScore");
+    const tfRestartBtn = document.getElementById("tfRestartBtn");
+
+    function renderTfQuestion() {
+      if (!tfData || tfData.length === 0 || tfIdx >= tfData.length) {
+        showTfResult();
+        return;
+      }
+      const q = tfData[tfIdx];
+      if (tfProgress) tfProgress.textContent = `第 ${tfIdx + 1} / ${tfData.length} 题`;
+      if (tfScore) tfScore.textContent = `得分：${tfScoreVal}`;
+      if (tfQuestion) tfQuestion.innerHTML = `<p class="tf-text">${q.text}</p>`;
+      if (tfTrueBtn) { tfTrueBtn.disabled = false; tfTrueBtn.classList.remove("correct", "wrong"); }
+      if (tfFalseBtn) { tfFalseBtn.disabled = false; tfFalseBtn.classList.remove("correct", "wrong"); }
+      if (tfFeedback) tfFeedback.innerHTML = "";
+      if (tfNextBtn) (tfNextBtn as HTMLElement).hidden = true;
+    }
+
+    function showTfResult() {
+      if (tfPlay) (tfPlay as HTMLElement).hidden = true;
+      if (tfResult) (tfResult as HTMLElement).hidden = false;
+      if (tfResultScore) tfResultScore.textContent = `你答对了 ${tfScoreVal} / ${tfData.length} 题！`;
+    }
+
+    function answerTf(answer: boolean) {
+      const q = tfData[tfIdx];
+      const correct = answer === q.correct;
+      if (correct) tfScoreVal++;
+      if (tfTrueBtn) { tfTrueBtn.disabled = true; if (q.correct) tfTrueBtn.classList.add("correct"); }
+      if (tfFalseBtn) { tfFalseBtn.disabled = true; if (!q.correct) tfFalseBtn.classList.add("correct"); }
+      if (!correct) {
+        if (answer && tfTrueBtn) tfTrueBtn.classList.add("wrong");
+        if (!answer && tfFalseBtn) tfFalseBtn.classList.add("wrong");
+      }
+      if (tfFeedback) {
+        tfFeedback.innerHTML = `<p class="${correct ? "feedback-correct" : "feedback-wrong"}">${correct ? "✓ " : "✗ "}${q.explanation}</p>`;
+      }
+      if (tfNextBtn) (tfNextBtn as HTMLElement).hidden = false;
+    }
+
+    if (tfStartBtn) {
+      tfStartBtn.addEventListener("click", () => {
+        if (!tfData || tfData.length === 0) return;
+        if (tfStart) (tfStart as HTMLElement).hidden = true;
+        if (tfPlay) (tfPlay as HTMLElement).hidden = false;
+        tfIdx = 0; tfScoreVal = 0;
+        renderTfQuestion();
+      });
+    }
+    if (tfTrueBtn) tfTrueBtn.addEventListener("click", () => answerTf(true));
+    if (tfFalseBtn) tfFalseBtn.addEventListener("click", () => answerTf(false));
+    if (tfNextBtn) {
+      tfNextBtn.addEventListener("click", () => {
+        tfIdx++;
+        renderTfQuestion();
+      });
+    }
+    if (tfRestartBtn) {
+      tfRestartBtn.addEventListener("click", () => {
+        if (tfResult) (tfResult as HTMLElement).hidden = true;
+        if (tfStart) (tfStart as HTMLElement).hidden = false;
+        tfIdx = 0; tfScoreVal = 0;
+      });
+    }
+
+    // === Background Knowledge & Writing Inspiration ===
+    const backgroundCard = document.getElementById("backgroundCard");
+    const backgroundContent = document.getElementById("backgroundContent");
+    const writingCard = document.getElementById("writingCard");
+    const writingContent = document.getElementById("writingContent");
+
+    // Background knowledge data by era
+    const eraBackgrounds: Record<string, { title: string; content: string }> = {
+      "唐代": { title: "唐代社会", content: "唐代是中国诗歌的黄金时代，交通虽发达但远行仍需数月。游子在外思念故乡是常见的文学主题，因为当时通讯困难，一封信可能要几个月才能送达。" },
+      "宋代": { title: "宋代文化", content: "宋代重文轻武，文人地位很高。词是宋代最流行的文学形式，市井文化繁荣，出现了夜市和茶馆。" },
+      "清代": { title: "清代背景", content: "清代是中国最后一个封建王朝，前期国力强盛，后期面临西方列强的挑战，社会新旧交替。" },
+      "近代": { title: "近代中国", content: "近代中国面临千古未有之大变局，西方思想涌入，新旧文化碰撞。许多作家用笔记录时代变迁。" },
+      "现代": { title: "现代生活", content: "现代作家关注日常生活和人物内心世界，用朴实的语言描写普通人的故事和情感。" },
+      "战国": { title: "战国时代", content: "战国时期诸侯争霸，百家争鸣。许多寓言故事产生于这个时期，用来比喻人生道理。" },
+      "古代": { title: "古代生活", content: "古代没有现代科技，人们通过观察自然来认识世界。许多流传至今的故事蕴含着朴素的生活智慧。" },
+      "先秦": { title: "先秦文明", content: "先秦时期是中国文明的奠基时代，诸子百家争鸣，奠定了中国传统思想的基础。" },
+      "明代": { title: "明代社会", content: "明代小说繁荣，四大名著中的三部成书于此时期。市民文化发展，通俗文学兴起。" },
+    };
+
+    if (backgroundCard && backgroundContent) {
+      const era = backgroundCard.dataset.era || "";
+      let bg = eraBackgrounds[era];
+      if (!bg) {
+        // Try partial match
+        for (const key of Object.keys(eraBackgrounds)) {
+          if (era.includes(key) || key.includes(era)) { bg = eraBackgrounds[key]; break; }
+        }
+      }
+      if (bg) {
+        backgroundContent.innerHTML = `
+          <h3 class="bg-title">${bg.title}</h3>
+          <p class="bg-text">${bg.content}</p>
+        `;
+      } else {
+        backgroundContent.innerHTML = `
+          <p class="bg-text">这篇课文的时代背景是"${era}"。每个时代都有独特的社会风貌和文化特点，值得进一步探索。</p>
+        `;
+      }
+    }
+
+    // Writing inspiration data by theme
+    const writingPrompts: Record<string, string[]> = {
+      "诗词": [
+        "试着模仿这首诗的格式，写一首关于你身边的风景或心情的小诗，哪怕只有四句也好。",
+        "古人写诗喜欢用自然景物表达感情，你也试试用一个景物（比如月亮、风、雨）来表达一种心情。",
+      ],
+      "散文": [
+        "课文用优美的语言描写了风景，你也试着描写一处你喜欢的风景，用上比喻或拟人的手法。",
+        "选一个你熟悉的地方，用文字『画』出它的样子，让读者仿佛身临其境。",
+      ],
+      "故事": [
+        "如果故事有一个不同的结局，你会怎么写？试着续写或改编这个故事。",
+        "想象你是故事中的主角，用第一人称『我』来重写最精彩的那一段。",
+      ],
+      "人物": [
+        "课文写了一个人物的故事，你也试着写写身边一个让你印象深刻的人，用具体的事例来展现他/她的特点。",
+        "如果你能采访课文中的人物，你会问什么问题？写下三个问题和你想象的回答。",
+      ],
+      "自然": [
+        "课文带你了解了自然的奥秘，选一种你感兴趣的动植物，写一段观察日记。",
+        "用『假如我是……』开头，以课文中的自然事物为角色，写一段想象的故事。",
+      ],
+    };
+
+    if (writingCard && writingContent) {
+      const theme = writingCard.dataset.theme || "";
+      const grade = writingCard.dataset.grade || "";
+      let prompts = writingPrompts[theme];
+      if (!prompts) {
+        // Default prompts
+        prompts = [
+          `读完这篇课文，你有什么感受？试着写一段读后感，不少于三句话。`,
+          `模仿课文的写作手法，写一段关于你生活中类似经历的小短文。`,
+        ];
+      }
+      const gradePrefix = ["一年级","二年级"].includes(grade) ? "（小朋友可以口述，请爸爸妈妈帮忙记录）" : "";
+      writingContent.innerHTML = `
+        <p class="writing-hint">${gradePrefix}</p>
+        <div class="writing-prompts">
+          ${prompts.map((p, i) => `
+            <div class="writing-prompt" data-idx="${i}">
+              <span class="writing-prompt-num">${i + 1}</span>
+              <p>${p}</p>
+            </div>
+          `).join("")}
+        </div>
+        <button class="writing-copy-btn" id="writingCopyBtn" type="button">复制提示</button>
+      `;
+      const copyBtn = document.getElementById("writingCopyBtn");
+      if (copyBtn) {
+        copyBtn.addEventListener("click", () => {
+          const text = prompts.join("\n\n");
+          navigator.clipboard.writeText(text).then(() => {
+            copyBtn.textContent = "✓ 已复制";
+            setTimeout(() => { copyBtn.textContent = "复制提示"; }, 2000);
+          }).catch(() => {
+            copyBtn.textContent = "✓ 已复制";
+            setTimeout(() => { copyBtn.textContent = "复制提示"; }, 2000);
+          });
+        });
+      }
+    }
+
+    // === Knowledge Graph ===
+    const kgContainer = document.getElementById("kgContainer");
+    const kgSvg = document.getElementById("kgSvg");
+    if (kgContainer && kgSvg) {
+      const title = kgContainer.dataset.title || "";
+      const author = kgContainer.dataset.author || "";
+      const era = kgContainer.dataset.era || "";
+      const theme = kgContainer.dataset.theme || "";
+      const grade = kgContainer.dataset.grade || "";
+      const related: { title: string; slug: string; reason: string }[] = JSON.parse(kgContainer.dataset.related || "[]");
+
+      // Center node = current lesson
+      const cx = 140, cy = 120;
+      // Surrounding nodes
+      const nodes = [
+        { label: author, type: "author", x: 60, y: 50, color: "#e8a838" },
+        { label: era, type: "era", x: 220, y: 50, color: "#e07856" },
+        { label: theme, type: "theme", x: 60, y: 190, color: "#2d6a4f" },
+        { label: grade, type: "grade", x: 220, y: 190, color: "#4a90b8" },
+      ];
+      related.slice(0, 3).forEach((r, i) => {
+        const angle = (-30 + i * 30) * Math.PI / 180;
+        nodes.push({
+          label: r.title.length > 5 ? r.title.slice(0, 4) + "…" : r.title,
+          type: "related",
+          x: cx + Math.cos(angle) * 105,
+          y: cy + 30 + Math.sin(angle) * 80,
+          color: "#9b6dd7",
+        });
+      });
+
+      let svgContent = "";
+      // Lines from center to each node
+      nodes.forEach((n) => {
+        svgContent += `<line x1="${cx}" y1="${cy}" x2="${n.x}" y2="${n.y}" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="3,3" />`;
+      });
+      // Center node
+      svgContent += `<circle cx="${cx}" cy="${cy}" r="32" fill="var(--green)" stroke="var(--green-dark)" stroke-width="2" />`;
+      const shortTitle = title.length > 4 ? title.slice(0, 3) + "…" : title;
+      svgContent += `<text x="${cx}" y="${cy - 2}" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">${shortTitle}</text>`;
+      svgContent += `<text x="${cx}" y="${cy + 12}" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="8">课文</text>`;
+      // Surrounding nodes
+      nodes.forEach((n) => {
+        const r = n.type === "related" ? 22 : 26;
+        svgContent += `<circle cx="${n.x}" cy="${n.y}" r="${r}" fill="${n.color}" opacity="0.15" stroke="${n.color}" stroke-width="1.5" />`;
+        const fontSize = n.label.length > 4 ? 8 : 9;
+        const dy = n.label.length > 4 ? -2 : 3;
+        if (n.label.length > 5) {
+          const part1 = n.label.slice(0, Math.ceil(n.label.length / 2));
+          const part2 = n.label.slice(Math.ceil(n.label.length / 2));
+          svgContent += `<text x="${n.x}" y="${n.y - 2}" text-anchor="middle" fill="var(--ink)" font-size="${fontSize}" font-weight="600">${part1}</text>`;
+          svgContent += `<text x="${n.x}" y="${n.y + 9}" text-anchor="middle" fill="var(--ink)" font-size="${fontSize}" font-weight="600">${part2}</text>`;
+        } else {
+          svgContent += `<text x="${n.x}" y="${n.y + dy}" text-anchor="middle" fill="var(--ink)" font-size="${fontSize}" font-weight="600">${n.label}</text>`;
+        }
+      });
+      kgSvg.innerHTML = svgContent;
+    }
+
+    // === Reading Notes ===
+    const NOTES_KEY = "ketang-reading-notes";
+    const addNoteFab = document.getElementById("addNoteFab");
+    const notesList = document.getElementById("notesList");
+    const articleBodyEl2 = document.querySelector<HTMLElement>(".article-body");
+
+    function getNotes(): { slug: string; selectedText: string; note: string; timestamp: number }[] {
+      try { return JSON.parse(localStorage.getItem(NOTES_KEY) || "[]"); } catch { return []; }
+    }
+    function saveNotes(notes: typeof getNotes) {
+      localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
+    }
+
+    function renderNotes() {
+      if (!notesList) return;
+      const notes = getNotes().filter((n) => n.slug === lessonSlug);
+      if (notes.length === 0) {
+        notesList.innerHTML = '<p class="notes-empty">还没有笔记，选中正文文字来添加吧。</p>';
+        return;
+      }
+      notesList.innerHTML = notes.map((n, i) => `
+        <div class="note-item" data-idx="${i}">
+          <p class="note-quote">"${n.selectedText.length > 40 ? n.selectedText.slice(0, 40) + '…' : n.selectedText}"</p>
+          <p class="note-text">${n.note}</p>
+          <button class="note-delete" data-idx="${i}" type="button">删除</button>
+        </div>
+      `).join("");
+      notesList.querySelectorAll<HTMLButtonElement>(".note-delete").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const idx = parseInt(btn.dataset.idx || "0");
+          const allNotes = getNotes();
+          const slugNotes = allNotes.filter((n) => n.slug === lessonSlug);
+          const noteToDelete = slugNotes[idx];
+          const newNotes = allNotes.filter((n) => n !== noteToDelete);
+          saveNotes(newNotes);
+          renderNotes();
+        });
+      });
+    }
+    renderNotes();
+
+    // Show FAB when text is selected in article body
+    if (articleBodyEl2 && addNoteFab) {
+      articleBodyEl2.addEventListener("mouseup", () => {
+        const sel = window.getSelection();
+        if (sel && sel.toString().trim().length > 2) {
+          addNoteFab.hidden = false;
+        } else {
+          addNoteFab.hidden = true;
+        }
+      });
+      articleBodyEl2.addEventListener("touchend", () => {
+        const sel = window.getSelection();
+        if (sel && sel.toString().trim().length > 2) {
+          addNoteFab.hidden = false;
+        }
+      });
+    }
+
+    if (addNoteFab) {
+      const noteModalOverlay = document.getElementById("noteModalOverlay");
+      const noteModalQuote = document.getElementById("noteModalQuote");
+      const noteModalInput = document.getElementById("noteModalInput") as HTMLTextAreaElement | null;
+      const noteModalCancel = document.getElementById("noteModalCancel");
+      const noteModalSave = document.getElementById("noteModalSave");
+      let pendingSelectedText = "";
+
+      function openNoteModal(selectedText: string) {
+        if (!noteModalOverlay || !noteModalQuote || !noteModalInput) return;
+        pendingSelectedText = selectedText;
+        noteModalQuote.textContent = selectedText.length > 60 ? selectedText.slice(0, 60) + "…" : selectedText;
+        noteModalInput.value = "";
+        noteModalOverlay.hidden = false;
+        setTimeout(() => noteModalInput.focus(), 50);
+      }
+      function closeNoteModal() {
+        if (!noteModalOverlay) return;
+        noteModalOverlay.hidden = true;
+        pendingSelectedText = "";
+      }
+
+      addNoteFab.addEventListener("click", () => {
+        const sel = window.getSelection();
+        if (!sel || sel.toString().trim().length < 2) return;
+        const selectedText = sel.toString().trim();
+        openNoteModal(selectedText);
+      });
+
+      if (noteModalCancel) {
+        noteModalCancel.addEventListener("click", () => {
+          closeNoteModal();
+          addNoteFab.hidden = true;
+          window.getSelection()?.removeAllRanges();
+        });
+      }
+      if (noteModalSave && noteModalInput) {
+        noteModalSave.addEventListener("click", () => {
+          const note = noteModalInput.value.trim() || "（标记）";
+          const notes = getNotes();
+          notes.push({ slug: lessonSlug, selectedText: pendingSelectedText, note, timestamp: Date.now() });
+          saveNotes(notes);
+          renderNotes();
+          closeNoteModal();
+          addNoteFab.hidden = true;
+          window.getSelection()?.removeAllRanges();
+        });
+      }
+      if (noteModalOverlay) {
+        noteModalOverlay.addEventListener("click", (e) => {
+          if (e.target === noteModalOverlay) {
+            closeNoteModal();
+            addNoteFab.hidden = true;
+            window.getSelection()?.removeAllRanges();
+          }
+        });
+      }
+    }
+
+    // === Read-along recording ===
+    const readalongRecord = document.getElementById("readalongRecord");
+    const readalongStop = document.getElementById("readalongStop");
+    const readalongPlay = document.getElementById("readalongPlay");
+    const readalongCheckin = document.getElementById("readalongCheckin");
+    const readalongStatus = document.getElementById("readalongStatus");
+
+    let mediaRecorder: MediaRecorder | null = null;
+    let audioChunks: Blob[] = [];
+    let recordedAudio: HTMLAudioElement | null = null;
+
+    if (readalongRecord && navigator.mediaDevices) {
+      readalongRecord.addEventListener("click", async () => {
+        try {
+          const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+          audioChunks = [];
+          mediaRecorder = new MediaRecorder(stream);
+          mediaRecorder.ondataavailable = (e) => { audioChunks.push(e.data); };
+          mediaRecorder.onstop = () => {
+            const blob = new Blob(audioChunks, { type: "audio/webm" });
+            const url = URL.createObjectURL(blob);
+            recordedAudio = new Audio(url);
+            stream.getTracks().forEach((t) => t.stop());
+          };
+          mediaRecorder.start();
+          (readalongRecord as HTMLElement).hidden = true;
+          (readalongStop as HTMLElement).hidden = false;
+          if (readalongStatus) readalongStatus.textContent = "录音中…朗读课文吧！";
+        } catch {
+          if (readalongStatus) readalongStatus.textContent = "无法访问麦克风，请检查权限";
+        }
+      });
+    }
+
+    if (readalongStop) {
+      readalongStop.addEventListener("click", () => {
+        if (mediaRecorder && mediaRecorder.state !== "inactive") mediaRecorder.stop();
+        (readalongStop as HTMLElement).hidden = true;
+        (readalongRecord as HTMLElement).hidden = false;
+        (readalongPlay as HTMLElement).hidden = false;
+        (readalongCheckin as HTMLElement).hidden = false;
+        if (readalongStatus) readalongStatus.textContent = "录音完成！点回放听听，满意就打卡";
+      });
+    }
+
+    if (readalongPlay) {
+      readalongPlay.addEventListener("click", () => {
+        if (recordedAudio) {
+          recordedAudio.play();
+          if (readalongStatus) readalongStatus.textContent = "回放中…";
+        }
+      });
+    }
+
+    if (readalongCheckin) {
+      readalongCheckin.addEventListener("click", () => {
+        const CHECKIN_KEY = "ketang-readalong-checkins";
+        try {
+          const checkins = JSON.parse(localStorage.getItem(CHECKIN_KEY) || "[]");
+          const today = new Date().toDateString();
+          if (!checkins.includes(today)) {
+            checkins.push(today);
+            localStorage.setItem(CHECKIN_KEY, JSON.stringify(checkins));
+          }
+        } catch {}
+        if (readalongStatus) readalongStatus.textContent = `✅ 打卡成功！已朗读 ${getCheckinCount()} 天`;
+        (readalongCheckin as HTMLElement).hidden = true;
+      });
+    }
+
+    function getCheckinCount(): number {
+      try {
+        return JSON.parse(localStorage.getItem("ketang-readalong-checkins") || "[]").length;
+      } catch { return 0; }
+    }
+
+    // === Scroll position memory ===
+    const SCROLL_KEY = `ketang-scroll-${lessonSlug}`;
+    // Restore on load
+    window.addEventListener("load", () => {
+      const saved = localStorage.getItem(SCROLL_KEY);
+      if (saved) {
+        const y = parseInt(saved);
+        if (y > 100) {
+          setTimeout(() => window.scrollTo({ top: y, behavior: "smooth" }), 300);
+        }
+      }
+    });
+
+    // Save on scroll (debounced)
+    let scrollSaveTicking = false;
+    window.addEventListener("scroll", () => {
+      if (!scrollSaveTicking) {
+        requestAnimationFrame(() => {
+          localStorage.setItem(SCROLL_KEY, String(window.scrollY));
+          scrollSaveTicking = false;
+        });
+        scrollSaveTicking = true;
+      }
+    });
+  </script>
+</BaseLayout>

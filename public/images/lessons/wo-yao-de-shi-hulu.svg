@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="葫芦藤上长着小葫芦、叶子上爬满蚜虫的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">我要的是葫芦</text>
+  <line x1="300" y1="56" x2="500" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="200" fill="#d6ecf7" opacity="0.3"/>
+  <!-- 太阳 -->
+  <circle cx="700" cy="130" r="22" fill="#f4b942" opacity="0.8"/>
+
+  <!-- 篱笆 -->
+  <g stroke="#8d5a36" stroke-width="3">
+    <line x1="50" y1="500" x2="50" y2="350"/>
+    <line x1="150" y1="500" x2="150" y2="350"/>
+    <line x1="650" y1="500" x2="650" y2="350"/>
+    <line x1="750" y1="500" x2="750" y2="350"/>
+    <line x1="30" y1="400" x2="770" y2="400"/>
+    <line x1="30" y1="450" x2="770" y2="450"/>
+  </g>
+
+  <!-- 葫芦藤（主藤） -->
+  <path d="M100 480 Q200 350 350 300 Q500 280 650 320 Q700 340 700 380" fill="none" stroke="#6a8d3f" stroke-width="4"/>
+
+  <!-- 叶子1（有蚜虫） -->
+  <g transform="translate(250,340)">
+    <path d="M0 0 Q-30 -20 -35 0 Q-30 20 0 15 Q30 20 35 0 Q30 -20 0 0" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <line x1="-35" y1="0" x2="35" y2="0" stroke="#4a6a2f" stroke-width="1"/>
+    <!-- 蚜虫 -->
+    <g fill="#8d7a4a">
+      <circle cx="-15" cy="-5" r="2.5"/>
+      <circle cx="-8" cy="3" r="2.5"/>
+      <circle cx="-20" cy="8" r="2.5"/>
+      <circle cx="5" cy="-8" r="2.5"/>
+      <circle cx="12" cy="2" r="2.5"/>
+      <circle cx="-5" cy="10" r="2.5"/>
+      <circle cx="18" cy="-3" r="2.5"/>
+      <circle cx="-12" cy="12" r="2.5"/>
+    </g>
+    <!-- 标注 -->
+    <line x1="0" y1="-20" x2="0" y2="-50" stroke="#c84a3a" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="-30" y="-70" width="60" height="22" fill="#fff6df" stroke="#c84a3a" rx="3"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">蚜虫！</text>
+  </g>
+
+  <!-- 叶子2（枯黄） -->
+  <g transform="translate(450,310)">
+    <path d="M0 0 Q-28 -18 -32 0 Q-28 18 0 13 Q28 18 32 0 Q28 -18 0 0" fill="#c8a848" stroke="#8d7a3a" stroke-width="1.5"/>
+    <line x1="-32" y1="0" x2="32" y2="0" stroke="#8d7a3a" stroke-width="1"/>
+    <!-- 枯斑 -->
+    <ellipse cx="-10" cy="3" rx="8" ry="5" fill="#8d7a3a" opacity="0.4"/>
+    <ellipse cx="12" cy="-2" rx="6" ry="4" fill="#8d7a3a" opacity="0.4"/>
+  </g>
+
+  <!-- 叶子3 -->
+  <g transform="translate(580,330)">
+    <path d="M0 0 Q-25 -15 -30 0 Q-25 15 0 12 Q25 15 30 0 Q25 -15 0 0" fill="#8da860" stroke="#4a6a2f" stroke-width="1.5"/>
+  </g>
+
+  <!-- 小葫芦1（挂在藤上） -->
+  <g transform="translate(380,370)">
+    <path d="M0 0 Q-3 -8 0 -12 Q-12 -15 -14 -5 Q-16 5 -12 15 Q-6 22 0 22 Q6 22 12 15 Q16 5 14 -5 Q12 -15 0 -12 Q3 -8 0 0" fill="#a8c860" stroke="#6a8d3f" stroke-width="2"/>
+    <ellipse cx="-5" cy="0" rx="3" ry="5" fill="#c8e090" opacity="0.5"/>
+  </g>
+
+  <!-- 小葫芦2（正在掉落） -->
+  <g transform="translate(520,420)">
+    <path d="M0 0 Q-3 -8 0 -12 Q-12 -15 -14 -5 Q-16 5 -12 15 Q-6 22 0 22 Q6 22 12 15 Q16 5 14 -5 Q12 -15 0 -12 Q3 -8 0 0" fill="#c8a848" stroke="#8d7a3a" stroke-width="2"/>
+    <!-- 掉落箭头 -->
+    <path d="M0 30 L0 50" stroke="#c84a3a" stroke-width="2" stroke-dasharray="3,2" marker-end="url(#arrHu1)"/>
+  </g>
+
+  <!-- 已落的葫芦 -->
+  <g transform="translate(200,490)">
+    <path d="M0 0 Q-3 -6 0 -9 Q-9 -11 -10 -3 Q-12 5 -8 11 Q-4 16 0 16 Q4 16 8 11 Q12 5 10 -3 Q9 -11 0 -9 Q3 -6 0 0" fill="#8d7a3a" stroke="#6a5a2a" stroke-width="1.5" opacity="0.7"/>
+  </g>
+  <g transform="translate(300,495)">
+    <path d="M0 0 Q-3 -6 0 -9 Q-9 -11 -10 -3 Q-12 5 -8 11 Q-4 16 0 16 Q4 16 8 11 Q12 5 10 -3 Q9 -11 0 -9 Q3 -6 0 0" fill="#8d7a3a" stroke="#6a5a2a" stroke-width="1.5" opacity="0.7"/>
+  </g>
+
+  <!-- 种葫芦人 -->
+  <g transform="translate(120,440)">
+    <circle cx="0" cy="-30" r="12" fill="#e0c8a8"/>
+    <rect x="-8" y="-18" width="16" height="25" fill="#8d5a36" rx="2"/>
+    <line x1="-8" y1="-10" x2="-18" y2="0" stroke="#e0c8a8" stroke-width="3"/>
+    <line x1="8" y1="-10" x2="18" y2="0" stroke="#e0c8a8" stroke-width="3"/>
+    <line x1="-4" y1="7" x2="-4" y2="25" stroke="#8d5a36" stroke-width="3"/>
+    <line x1="4" y1="7" x2="4" y2="25" stroke="#8d5a36" stroke-width="3"/>
+    <!-- 惊讶表情 -->
+    <circle cx="-4" cy="-32" r="1.5" fill="#1a1a1a"/>
+    <circle cx="4" cy="-32" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="0" cy="-26" rx="2" ry="3" fill="#1a1a1a"/>
+  </g>
+
+  <!-- 对话气泡 -->
+  <rect x="50" y="200" width="160" height="40" fill="#fff6df" stroke="#c8843a" rx="6"/>
+  <text x="130" y="218" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"我要的是葫芦"</text>
+  <text x="130" y="233" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"叶子上的虫怕什么？"</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">叶子是植物的"工厂"，叶子坏了葫芦也长不好——事物之间相互联系</text>
+
+  <defs>
+    <marker id="arrHu1" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto">
+      <path d="M0 0 L4 6 L8 0 Z" fill="#c84a3a"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一战中的普通人生活插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：一战中的普通人的故事</text>
+  <line x1="170" y1="62" x2="630" y2="62" stroke="#8d5a36" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心主题 -->
+  <rect x="250" y="95" width="300" height="50" fill="#fff6df" stroke="#8d5a36" stroke-width="2" rx="8"/>
+  <text x="400" y="120" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">1914-1918 · 战争没有赢家</text>
+  <text x="400" y="137" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">约1700万人死亡</text>
+
+  <!-- 三个故事节点 -->
+  <!-- 阵亡通知书（左） -->
+  <g>
+    <line x1="320" y1="145" x2="160" y2="190" stroke="#8d5a36" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="60" y="190" width="200" height="150" fill="#fff6df" stroke="#c84a3a" rx="6"/>
+    <text x="160" y="212" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">阵亡通知书</text>
+    <!-- 信封 -->
+    <rect x="100" y="225" width="120" height="70" fill="#fff" stroke="#8d5a36" stroke-width="1.5" rx="2"/>
+    <path d="M100 225 L160 260 L220 225" fill="none" stroke="#8d5a36" stroke-width="1.5"/>
+    <!-- 黑边 -->
+    <rect x="100" y="225" width="120" height="70" fill="none" stroke="#c84a3a" stroke-width="3" rx="2" opacity="0.5"/>
+    <text x="160" y="280" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">阵亡通知</text>
+    <text x="160" y="315" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">每封信=一个家庭破碎</text>
+    <!-- 悲伤的母亲 -->
+    <g transform="translate(160 340)">
+      <circle cx="0" cy="0" r="8" fill="#f0d0a8"/>
+      <path d="M-8 -3 Q0 -12 8 -3" fill="#8d8a7a"/>
+      <path d="M-5 2 Q0 5 5 2" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- 凡尔登"绞肉机"（中） -->
+  <g>
+    <line x1="400" y1="145" x2="400" y2="190" stroke="#8d5a36" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="300" y="190" width="200" height="150" fill="#fff6df" stroke="#5a3a1a" rx="6"/>
+    <text x="400" y="212" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#5a3a1a">凡尔登战役</text>
+    <!-- 战壕剪影 -->
+    <g>
+      <rect x="320" y="240" width="160" height="40" fill="#6a6a5a" opacity="0.4"/>
+      <path d="M320 240 L340 225 L360 240 L380 225 L400 240 L420 225 L440 240 L460 225 L480 240" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+      <!-- 铁丝网 -->
+      <g stroke="#8d8a7a" stroke-width="1" opacity="0.5">
+        <line x1="325" y1="235" x2="475" y2="235"/>
+        <line x1="335" y1="230" x2="335" y2="240"/>
+        <line x1="375" y1="230" x2="375" y2="240"/>
+        <line x1="415" y1="230" x2="415" y2="240"/>
+        <line x1="455" y1="230" x2="455" y2="240"/>
+      </g>
+    </g>
+    <text x="400" y="300" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">10个月·70万人伤亡</text>
+    <text x="400" y="318" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">被称为"绞肉机"</text>
+  </g>
+
+  <!-- 后方饥饿（右） -->
+  <g>
+    <line x1="480" y1="145" x2="640" y2="190" stroke="#8d5a36" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="540" y="190" width="200" height="150" fill="#fff6df" stroke="#c8843a" rx="6"/>
+    <text x="640" y="212" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c8843a">后方的饥饿</text>
+    <!-- 配给票 -->
+    <g>
+      <rect x="570" y="225" width="50" height="35" fill="#fff" stroke="#8d5a36" stroke-width="1" rx="2"/>
+      <text x="595" y="240" text-anchor="middle" font-family="serif" font-size="8" fill="#8d5a36">面包票</text>
+      <text x="595" y="252" text-anchor="middle" font-family="serif" font-size="8" fill="#c84a3a">100g</text>
+      <rect x="630" y="225" width="50" height="35" fill="#fff" stroke="#8d5a36" stroke-width="1" rx="2"/>
+      <text x="655" y="240" text-anchor="middle" font-family="serif" font-size="8" fill="#8d5a36">糖票</text>
+      <text x="655" y="252" text-anchor="middle" font-family="serif" font-size="8" fill="#c84a3a">50g</text>
+    </g>
+    <!-- 萝卜 -->
+    <g transform="translate(640 285)">
+      <ellipse cx="0" cy="0" rx="10" ry="14" fill="#c8843a"/>
+      <path d="M-3 -14 L0 -20 L3 -14" fill="#6a8d3f"/>
+    </g>
+    <text x="640" y="315" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">"萝卜冬天"</text>
+    <text x="640" y="332" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">德国饥荒·只能吃萝卜</text>
+  </g>
+
+  <!-- 底部数据 -->
+  <g>
+    <rect x="100" y="380" width="600" height="80" fill="#fff6df" stroke="#8d5a36" stroke-width="1.5" rx="8"/>
+    <text x="400" y="405" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">一战的代价</text>
+    <g>
+      <text x="200" y="430" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">军人死亡：约1000万</text>
+      <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">平民死亡：约700万</text>
+      <text x="600" y="430" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">受伤：约2000万</text>
+    </g>
+    <text x="400" y="450" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">"结束一切战争的战争"——可仅仅20年后，二战又爆发了</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">每一个普通人的伤痛，都是战争最真实的代价</text>
+</svg>

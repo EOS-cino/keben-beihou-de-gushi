@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="月亮与思乡之情">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：月亮为什么常和思乡有关</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 夜空底色 -->
+  <rect x="0" y="70" width="800" height="400" fill="#2a3a5a" opacity="0.12"/>
+
+  <!-- 星星 -->
+  <g fill="#7a3b14" opacity="0.35">
+    <circle cx="100" cy="120" r="1.5"/>
+    <circle cx="180" cy="100" r="1"/>
+    <circle cx="250" cy="130" r="1.5"/>
+    <circle cx="450" cy="95" r="1"/>
+    <circle cx="500" cy="90" r="1.5"/>
+    <circle cx="680" cy="140" r="1"/>
+    <circle cx="720" cy="100" r="1.5"/>
+    <circle cx="350" cy="105" r="1"/>
+    <circle cx="550" cy="120" r="1"/>
+  </g>
+
+  <!-- 明月 -->
+  <circle cx="600" cy="180" r="62" fill="#fef0c8" stroke="#c8843a" stroke-width="2"/>
+  <circle cx="585" cy="170" r="10" fill="#e8d8b0" opacity="0.6"/>
+  <circle cx="615" cy="195" r="8" fill="#e8d8b0" opacity="0.6"/>
+  <circle cx="600" cy="200" r="5" fill="#e8d8b0" opacity="0.5"/>
+  <circle cx="600" cy="180" r="78" fill="none" stroke="#fef0c8" stroke-width="2" opacity="0.3"/>
+  <circle cx="600" cy="180" r="92" fill="none" stroke="#fef0c8" stroke-width="1" opacity="0.15"/>
+  <!-- 月光投射 -->
+  <path d="M 575 242 L 560 350 L 640 350 L 625 242 Z" fill="#fef0c8" opacity="0.08"/>
+
+  <!-- 远山 -->
+  <path d="M 0 450 Q 100 420 200 440 Q 300 460 400 435 Q 500 415 600 440 Q 700 460 800 440 L 800 500 L 0 500 Z" fill="#a0907a" opacity="0.3"/>
+
+  <!-- 地面 -->
+  <path d="M 0 450 L 800 450 L 800 500 L 0 500 Z" fill="#d4c0a0" opacity="0.5"/>
+
+  <!-- 思乡之人 -->
+  <g transform="translate(250, 350)">
+    <path d="M -15 100 Q -18 60 -15 30 Q -12 10 0 5 Q 12 10 15 30 Q 18 60 15 100" fill="#5a4a3a" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-10" r="18" fill="#e8c4a0" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-6" cy="-15" r="2" fill="#7a3b14"/>
+    <circle cx="6" cy="-15" r="2" fill="#7a3b14"/>
+    <path d="M -3 -3 Q 0 -1 3 -3" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M -16 -15 Q -18 -28 0 -30 Q 18 -28 16 -15" fill="#3a2010" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手臂指向月亮 -->
+    <path d="M 15 30 Q 50 10 80 -20 Q 90 -30 85 -40" fill="none" stroke="#5a4a3a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="85" cy="-42" r="6" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M -15 30 Q -25 50 -20 70" fill="none" stroke="#5a4a3a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- 石头/岩石 -->
+  <ellipse cx="250" cy="460" rx="40" ry="12" fill="#a08060" stroke="#7a3b14" stroke-width="1.5"/>
+
+  <!-- 远方故乡轮廓 -->
+  <g transform="translate(80, 400)" opacity="0.55">
+    <rect x="0" y="30" width="35" height="25" fill="#8a6a4a" stroke="#7a3b14" stroke-width="1"/>
+    <polygon points="0,30 17,10 35,30" fill="#6a4a2a" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="40" y="35" width="30" height="20" fill="#8a6a4a" stroke="#7a3b14" stroke-width="1"/>
+    <polygon points="40,35 55,18 70,35" fill="#6a4a2a" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="80" y="20" width="20" height="35" fill="#7a5a3a" stroke="#7a3b14" stroke-width="1"/>
+    <polygon points="75,20 90,5 105,20" fill="#6a4a2a" stroke="#7a3b14" stroke-width="1"/>
+    <polygon points="78,10 90,0 102,10" fill="#6a4a2a" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 亮灯的窗户 -->
+    <rect x="8" y="38" width="6" height="8" fill="#f0c040" opacity="0.7"/>
+    <rect x="22" y="38" width="6" height="8" fill="#f0c040" opacity="0.7"/>
+    <rect x="48" y="42" width="5" height="7" fill="#f0c040" opacity="0.7"/>
+    <rect x="85" y="30" width="5" height="8" fill="#f0c040" opacity="0.7"/>
+  </g>
+
+  <!-- 标注：明月 -->
+  <line x1="600" y1="180" x2="700" y2="120" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="660" y="90" width="120" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="720" y="110" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">明月</text>
+
+  <!-- 标注：思乡之人 -->
+  <line x1="250" y1="340" x2="150" y2="280" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="70" y="250" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="140" y="270" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">思乡之人</text>
+
+  <!-- 标注：远方故乡 -->
+  <line x1="130" y1="430" x2="100" y2="490" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="25" y="490" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="95" y="510" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">远方故乡</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">同一轮明月下，游子望月思念远方故乡——月亮寄托着中国人最深的乡愁。</text>
+</svg>

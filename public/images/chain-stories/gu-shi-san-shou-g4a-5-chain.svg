@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从李清照思项羽到林则徐销烟的气节故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：李清照思项羽 -->
+  <circle cx="170" cy="300" r="110" fill="#e88aa8" opacity="0.3" stroke="#a83232" stroke-width="3"/>
+  <path d="M 140 280 q 30 -14 60 0" stroke="#5d8aa8" stroke-width="3" fill="none"/>
+  <circle cx="170" cy="285" r="14" fill="#3a3a3a"/>
+  <rect x="164" y="299" width="12" height="22" fill="#3a3a3a"/>
+  <text x="170" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">李清照·项羽</text>
+  <text x="170" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">不肯过江东</text>
+  <!-- 右珠：林则徐销烟 -->
+  <circle cx="630" cy="300" r="110" fill="#8fb996" opacity="0.3" stroke="#3a7d44" stroke-width="3"/>
+  <path d="M 600 270 q 30 -14 60 0" stroke="#3a3a3a" stroke-width="2" fill="none" opacity="0.6"/>
+  <rect x="615" y="285" width="30" height="14" rx="3" fill="#5d4037"/>
+  <path d="M 620 285 q 4 -16 10 -10 q 6 -16 10 -8" stroke="#9bb7c4" stroke-width="2" fill="none"/>
+  <text x="630" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">林则徐销烟</text>
+  <text x="630" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">不避祸福</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">李清照思项羽，林则徐销烟</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">气节不分男女时代，是心里守着的那条线</text>
+</svg>

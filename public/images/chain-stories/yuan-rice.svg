@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="袁隆平在稻田中观察稻穗">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：袁隆平和一粒米</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="280" fill="#c4d8e8" opacity="0.2"/>
+  <!-- 稻田背景 -->
+  <rect x="0" y="350" width="800" height="200" fill="#e8d068" opacity="0.4"/>
+
+  <!-- 太阳 -->
+  <circle cx="680" cy="130" r="28" fill="#f0c040" opacity="0.6" stroke="#c8843a" stroke-width="1"/>
+  <circle cx="680" cy="130" r="18" fill="#f0d060" opacity="0.5"/>
+
+  <!-- 远山 -->
+  <path d="M 0 350 Q 150 280 300 320 Q 450 290 600 330 Q 700 310 800 340 L 800 360 L 0 360 Z" fill="#a0907a" opacity="0.3"/>
+
+  <!-- 稻田中的稻株（前排） -->
+  <g opacity="0.6">
+    <g transform="translate(50, 400)"><path d="M 0 0 L -3 -25 M 0 0 L 0 -28 M 0 0 L 3 -25" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-3" cy="-25" rx="2" ry="6" fill="#d4a848"/><ellipse cx="0" cy="-28" rx="2" ry="7" fill="#d4a848"/><ellipse cx="3" cy="-25" rx="2" ry="6" fill="#d4a848"/></g>
+    <g transform="translate(120, 410)"><path d="M 0 0 L -3 -25 M 0 0 L 0 -28 M 0 0 L 3 -25" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-3" cy="-25" rx="2" ry="6" fill="#d4a848"/><ellipse cx="0" cy="-28" rx="2" ry="7" fill="#d4a848"/><ellipse cx="3" cy="-25" rx="2" ry="6" fill="#d4a848"/></g>
+    <g transform="translate(190, 400)"><path d="M 0 0 L -3 -25 M 0 0 L 0 -28 M 0 0 L 3 -25" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-3" cy="-25" rx="2" ry="6" fill="#d4a848"/><ellipse cx="0" cy="-28" rx="2" ry="7" fill="#d4a848"/><ellipse cx="3" cy="-25" rx="2" ry="6" fill="#d4a848"/></g>
+    <g transform="translate(600, 410)"><path d="M 0 0 L -3 -25 M 0 0 L 0 -28 M 0 0 L 3 -25" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-3" cy="-25" rx="2" ry="6" fill="#d4a848"/><ellipse cx="0" cy="-28" rx="2" ry="7" fill="#d4a848"/><ellipse cx="3" cy="-25" rx="2" ry="6" fill="#d4a848"/></g>
+    <g transform="translate(680, 400)"><path d="M 0 0 L -3 -25 M 0 0 L 0 -28 M 0 0 L 3 -25" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-3" cy="-25" rx="2" ry="6" fill="#d4a848"/><ellipse cx="0" cy="-28" rx="2" ry="7" fill="#d4a848"/><ellipse cx="3" cy="-25" rx="2" ry="6" fill="#d4a848"/></g>
+    <g transform="translate(750, 415)"><path d="M 0 0 L -3 -25 M 0 0 L 0 -28 M 0 0 L 3 -25" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-3" cy="-25" rx="2" ry="6" fill="#d4a848"/><ellipse cx="0" cy="-28" rx="2" ry="7" fill="#d4a848"/><ellipse cx="3" cy="-25" rx="2" ry="6" fill="#d4a848"/></g>
+    <g transform="translate(80, 460)"><path d="M 0 0 L -4 -30 M 0 0 L 0 -33 M 0 0 L 4 -30" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-4" cy="-30" rx="2.5" ry="7" fill="#d4a848"/><ellipse cx="0" cy="-33" rx="2.5" ry="8" fill="#d4a848"/><ellipse cx="4" cy="-30" rx="2.5" ry="7" fill="#d4a848"/></g>
+    <g transform="translate(160, 465)"><path d="M 0 0 L -4 -30 M 0 0 L 0 -33 M 0 0 L 4 -30" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-4" cy="-30" rx="2.5" ry="7" fill="#d4a848"/><ellipse cx="0" cy="-33" rx="2.5" ry="8" fill="#d4a848"/><ellipse cx="4" cy="-30" rx="2.5" ry="7" fill="#d4a848"/></g>
+    <g transform="translate(620, 460)"><path d="M 0 0 L -4 -30 M 0 0 L 0 -33 M 0 0 L 4 -30" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-4" cy="-30" rx="2.5" ry="7" fill="#d4a848"/><ellipse cx="0" cy="-33" rx="2.5" ry="8" fill="#d4a848"/><ellipse cx="4" cy="-30" rx="2.5" ry="7" fill="#d4a848"/></g>
+    <g transform="translate(710, 465)"><path d="M 0 0 L -4 -30 M 0 0 L 0 -33 M 0 0 L 4 -30" stroke="#c8a040" stroke-width="2" stroke-linecap="round"/><ellipse cx="-4" cy="-30" rx="2.5" ry="7" fill="#d4a848"/><ellipse cx="0" cy="-33" rx="2.5" ry="8" fill="#d4a848"/><ellipse cx="4" cy="-30" rx="2.5" ry="7" fill="#d4a848"/></g>
+  </g>
+
+  <!-- 袁隆平人物 -->
+  <g transform="translate(400, 280)">
+    <path d="M -25 120 Q -28 70 -25 40 Q -20 20 0 15 Q 20 20 25 40 Q 28 70 25 120" fill="#8a8a8a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 草帽 -->
+    <ellipse cx="0" cy="-8" rx="38" ry="8" fill="#d4a868" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M -25 -8 Q -25 -25 0 -28 Q 25 -25 25 -8" fill="#c89858" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="#e8c4a0" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M -12 -5 Q -8 -3 -4 -5" fill="none" stroke="#7a3b14" stroke-width="0.8" opacity="0.5"/>
+    <path d="M 4 -5 Q 8 -3 12 -5" fill="none" stroke="#7a3b14" stroke-width="0.8" opacity="0.5"/>
+    <circle cx="-7" cy="-2" r="2" fill="#7a3b14"/>
+    <circle cx="7" cy="-2" r="2" fill="#7a3b14"/>
+    <!-- 眼镜 -->
+    <circle cx="-7" cy="-2" r="6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="7" cy="-2" r="6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="-1" y1="-2" x2="1" y2="-2" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M -6 10 Q 0 14 6 10" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手持稻穗的手臂 -->
+    <path d="M 25 40 Q 60 20 90 -10" fill="none" stroke="#8a8a8a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="90" cy="-12" r="7" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M -25 40 Q -40 60 -35 90" fill="none" stroke="#8a8a8a" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- 手中的稻穗 -->
+  <g transform="translate(495, 265)">
+    <path d="M 0 0 Q 5 -20 0 -40 Q -5 -60 0 -80" fill="none" stroke="#a08020" stroke-width="2"/>
+    <ellipse cx="-6" cy="-10" rx="3" ry="8" fill="#e8c840" stroke="#7a3b14" stroke-width="1" transform="rotate(-20 -6 -10)"/>
+    <ellipse cx="6" cy="-15" rx="3" ry="8" fill="#e8c840" stroke="#7a3b14" stroke-width="1" transform="rotate(20 6 -15)"/>
+    <ellipse cx="-7" cy="-25" rx="3" ry="8" fill="#e8c840" stroke="#7a3b14" stroke-width="1" transform="rotate(-20 -7 -25)"/>
+    <ellipse cx="7" cy="-30" rx="3" ry="8" fill="#e8c840" stroke="#7a3b14" stroke-width="1" transform="rotate(20 7 -30)"/>
+    <ellipse cx="-6" cy="-40" rx="3" ry="7" fill="#e8c840" stroke="#7a3b14" stroke-width="1" transform="rotate(-20 -6 -40)"/>
+    <ellipse cx="6" cy="-45" rx="3" ry="7" fill="#e8c840" stroke="#7a3b14" stroke-width="1" transform="rotate(20 6 -45)"/>
+    <ellipse cx="0" cy="-55" rx="3" ry="6" fill="#e8c840" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 放大的一粒米 -->
+  <g transform="translate(400, 440)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#f0c040" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#f0c040" stroke-width="1" opacity="0.2"/>
+    <ellipse cx="0" cy="0" rx="10" ry="16" fill="#fef8e0" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="-2" cy="-3" rx="4" ry="8" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <!-- 标注：袁隆平 -->
+  <line x1="400" y1="280" x2="300" y2="180" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="230" y="150" width="130" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="295" y="170" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">袁隆平</text>
+
+  <!-- 标注：稻穗 -->
+  <line x1="495" y1="240" x2="580" y2="180" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="540" y="150" width="120" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="600" y="170" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">稻穗</text>
+
+  <!-- 标注：一粒米 -->
+  <line x1="410" y1="440" x2="500" y2="490" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="450" y="490" width="120" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="510" y="510" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">一粒米</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">袁隆平毕生扎根稻田，从一粒种子到满仓金黄——每一粒米都凝聚着汗水与智慧。</text>
+</svg>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="乌鸦、陶罐和小石子插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">乌鸦喝水</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="240" fill="#e8f0d8"/>
+  <!-- 远山 -->
+  <path d="M0 320 L80 260 L160 300 L260 240 L360 290 L460 250 L560 285 L660 245 L760 280 L800 265 L800 360 L0 360 Z" fill="#c8d8b0" opacity="0.5"/>
+
+  <!-- 太阳 -->
+  <circle cx="700" cy="140" r="30" fill="#f4c842" stroke="#d8a820" stroke-width="2"/>
+  <g stroke="#f4c842" stroke-width="3" stroke-linecap="round">
+    <line x1="700" y1="95" x2="700" y2="80"/>
+    <line x1="655" y1="140" x2="640" y2="140"/>
+    <line x1="745" y1="140" x2="760" y2="140"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="320" width="800" height="280" fill="#d8c8a0"/>
+  <path d="M0 340 Q200 335 400 340 T800 340" fill="none" stroke="#b8a880" stroke-width="2"/>
+  <!-- 草丛 -->
+  <g stroke="#6a8a3a" stroke-width="2" fill="none">
+    <path d="M50 350 L48 335 L52 338"/>
+    <path d="M120 355 L118 340 L122 343"/>
+    <path d="M650 350 L648 335 L652 338"/>
+    <path d="M730 355 L728 340 L732 343"/>
+  </g>
+
+  <!-- 瓶子（细颈陶罐） -->
+  <!-- 瓶身阴影 -->
+  <ellipse cx="400" cy="520" rx="70" ry="12" fill="#a88858" opacity="0.3"/>
+  <!-- 瓶身 -->
+  <path d="M360 510 Q355 500 358 470 L360 420 Q355 410 360 400 L370 380 L370 360 L375 350 L425 350 L430 360 L430 380 L440 400 Q445 410 440 420 L442 470 Q445 500 440 510 Z" fill="#c87838" stroke="#8a4818" stroke-width="3"/>
+  <!-- 瓶身纹理 -->
+  <path d="M360 440 Q400 435 440 440" fill="none" stroke="#a85828" stroke-width="1.5"/>
+  <path d="M358 470 Q400 465 442 470" fill="none" stroke="#a85828" stroke-width="1.5"/>
+  <path d="M358 490 Q400 485 442 490" fill="none" stroke="#a85828" stroke-width="1.5"/>
+  <!-- 瓶口 -->
+  <ellipse cx="400" cy="350" rx="25" ry="6" fill="#8a4818" stroke="#5a2808" stroke-width="2"/>
+  <ellipse cx="400" cy="350" rx="22" ry="4" fill="#6a3808"/>
+  <!-- 瓶颈 -->
+  <path d="M375 350 L370 380 L430 380 L425 350" fill="#c87838" stroke="#8a4818" stroke-width="2"/>
+
+  <!-- 瓶中的水（水位上升） -->
+  <path d="M362 460 Q400 455 438 460 L440 470 Q445 500 440 510 L360 510 Q355 500 358 470 Z" fill="#4a8ab0" opacity="0.7"/>
+  <ellipse cx="400" cy="460" rx="38" ry="6" fill="#6ab8d0"/>
+  <!-- 水面波纹 -->
+  <path d="M370 458 Q385 455 400 458 Q415 461 430 458" fill="none" stroke="#8ac8e0" stroke-width="1.5"/>
+
+  <!-- 瓶中的石子（已投入的） -->
+  <g>
+    <circle cx="385" cy="475" r="8" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="400" cy="480" r="9" fill="#8a8a8a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="415" cy="475" r="8" fill="#a0a0a0" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="390" cy="490" r="7" fill="#8a8a8a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="405" cy="495" r="8" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="395" cy="505" r="7" fill="#a0a0a0" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="412" cy="503" r="6" fill="#8a8a8a" stroke="#6a6a6a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 水位线标注（虚线表示水位上升） -->
+  <line x1="340" y1="460" x2="460" y2="460" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+  <path d="M340 460 L330 455 L330 465 Z" fill="#c8843a"/>
+  <text x="310" y="464" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">水位↑</text>
+
+  <!-- 乌鸦（站在瓶口旁，叼着石子） -->
+  <!-- 身体 -->
+  <ellipse cx="280" cy="340" rx="40" ry="28" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- 头 -->
+  <circle cx="320" cy="320" r="20" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- 眼睛 -->
+  <circle cx="328" cy="316" r="4" fill="#f4c842" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="329" cy="316" r="2" fill="#2a2a2a"/>
+  <!-- 喙（叼着石子） -->
+  <path d="M335 322 L360 318 L360 325 L335 328 Z" fill="#e8a838" stroke="#c88820" stroke-width="1.5"/>
+  <!-- 喙中的石子 -->
+  <circle cx="362" cy="321" r="6" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1.5"/>
+  <!-- 翅膀 -->
+  <path d="M260 330 Q240 320 230 340 Q245 345 265 340" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="2"/>
+  <!-- 翅膀羽毛 -->
+  <path d="M250 335 L240 345 M255 338 L248 348 M260 340 L255 350" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+  <!-- 腿 -->
+  <line x1="270" y1="365" x2="265" y2="395" stroke="#8a6a30" stroke-width="3"/>
+  <line x1="290" y1="365" x2="295" y2="395" stroke="#8a6a30" stroke-width="3"/>
+  <!-- 爪子 -->
+  <path d="M265 395 L258 400 M265 395 L272 400" fill="none" stroke="#8a6a30" stroke-width="2"/>
+  <path d="M295 395 L288 400 M295 395 L302 400" fill="none" stroke="#8a6a30" stroke-width="2"/>
+  <!-- 尾巴 -->
+  <path d="M245 340 L220 345 L225 355 L245 350" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="2"/>
+
+  <!-- 地上的石子堆（待投入的） -->
+  <g>
+    <ellipse cx="500" cy="510" rx="40" ry="12" fill="#a88858" opacity="0.3"/>
+    <circle cx="490" cy="500" r="9" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="510" cy="505" r="8" fill="#8a8a8a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="500" cy="490" r="7" fill="#a0a0a0" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="520" cy="495" r="8" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="475" cy="505" r="7" fill="#8a8a8a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="530" cy="505" r="6" fill="#a0a0a0" stroke="#6a6a6a" stroke-width="1.5"/>
+    <circle cx="490" cy="488" r="6" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 石子投入轨迹（虚线弧） -->
+  <path d="M360 322 Q380 300 400 340" fill="none" stroke="#c8843a" stroke-width="2" stroke-dasharray="5,4" opacity="0.6"/>
+
+  <!-- 乌鸦标注 -->
+  <line x1="280" y1="310" x2="280" y2="270" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="235" y="245" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="280" y="263" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">乌鸦</text>
+
+  <!-- 瓶子标注 -->
+  <line x1="400" y1="350" x2="400" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="285" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="303" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">水瓶</text>
+
+  <!-- 石子标注 -->
+  <line x1="500" y1="485" x2="500" y2="450" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="455" y="425" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="500" y="443" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">小石子</text>
+
+  <!-- 水面标注 -->
+  <line x1="440" y1="460" x2="490" y2="440" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="495" y="427" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="540" y="445" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">水面升高</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">乌鸦口渴找水喝，瓶高水浅够不着，便衔石子投入瓶中，水位升高终解渴</text>
+</svg>

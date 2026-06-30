@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="西湖碧荷连天、荷花映日的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">晓出净慈寺送林子方</text>
+  <line x1="230" y1="62" x2="570" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="180" fill="#a8d0e8" opacity="0.4"/>
+  <!-- 朝阳 -->
+  <circle cx="680" cy="140" r="45" fill="#f4a838" opacity="0.8"/>
+  <circle cx="680" cy="140" r="30" fill="#f4c842"/>
+  <!-- 阳光射线 -->
+  <g stroke="#f4c842" stroke-width="2" opacity="0.5" stroke-linecap="round">
+    <line x1="680" y1="80" x2="680" y2="65"/>
+    <line x1="680" y1="200" x2="680" y2="215"/>
+    <line x1="620" y1="140" x2="605" y2="140"/>
+    <line x1="740" y1="140" x2="755" y2="140"/>
+    <line x1="638" y1="98" x2="627" y2="87"/>
+    <line x1="722" y1="98" x2="733" y2="87"/>
+    <line x1="638" y1="182" x2="627" y2="193"/>
+    <line x1="722" y1="182" x2="733" y2="193"/>
+  </g>
+
+  <!-- 净慈寺（远景） -->
+  <g transform="translate(80, 180)" opacity="0.6">
+    <rect x="0" y="50" width="120" height="35" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-10 50 L60 10 L130 50 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="50" y="85" width="20" height="30" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="20" y="60" width="15" height="15" fill="#7a3b14"/>
+    <rect x="85" y="60" width="15" height="15" fill="#7a3b14"/>
+  </g>
+
+  <!-- 西湖水面 -->
+  <rect x="0" y="260" width="800" height="340" fill="#a8d0e8" opacity="0.5"/>
+  <!-- 水波纹 -->
+  <path d="M0 290 Q100 285 200 290 T400 290 T600 290 T800 290" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+  <path d="M0 320 Q100 315 200 320 T400 320 T600 320 T800 320" fill="none" stroke="#7ab8d8" stroke-width="2" opacity="0.7"/>
+
+  <!-- 荷叶（接天莲叶无穷碧） -->
+  <ellipse cx="100" cy="380" rx="55" ry="18" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="100" cy="375" rx="50" ry="14" fill="#6a8d3f"/>
+  <path d="M100 375 L100 362" stroke="#3a5a1f" stroke-width="1.5"/>
+
+  <ellipse cx="220" cy="420" rx="60" ry="20" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="220" cy="415" rx="55" ry="16" fill="#6a8d3f"/>
+  <path d="M220 415 L220 400" stroke="#3a5a1f" stroke-width="1.5"/>
+
+  <ellipse cx="350" cy="390" rx="58" ry="19" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="350" cy="385" rx="53" ry="15" fill="#6a8d3f"/>
+  <path d="M350 385 L350 370" stroke="#3a5a1f" stroke-width="1.5"/>
+
+  <ellipse cx="480" cy="430" rx="62" ry="21" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="480" cy="425" rx="57" ry="17" fill="#6a8d3f"/>
+  <path d="M480 425 L480 408" stroke="#3a5a1f" stroke-width="1.5"/>
+
+  <ellipse cx="610" cy="395" rx="56" ry="18" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="610" cy="390" rx="51" ry="14" fill="#6a8d3f"/>
+  <path d="M610 390 L610 376" stroke="#3a5a1f" stroke-width="1.5"/>
+
+  <ellipse cx="720" cy="440" rx="58" ry="19" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="720" cy="435" rx="53" ry="15" fill="#6a8d3f"/>
+  <path d="M720 435 L720 420" stroke="#3a5a1f" stroke-width="1.5"/>
+
+  <ellipse cx="160" cy="470" rx="50" ry="16" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="160" cy="466" rx="45" ry="12" fill="#6a8d3f"/>
+
+  <ellipse cx="400" cy="475" rx="55" ry="18" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="400" cy="471" rx="50" ry="14" fill="#6a8d3f"/>
+
+  <ellipse cx="560" cy="480" rx="52" ry="17" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+  <ellipse cx="560" cy="476" rx="47" ry="13" fill="#6a8d3f"/>
+
+  <!-- 荷花（映日荷花别样红） -->
+  <!-- 盛开的荷花1 -->
+  <g transform="translate(280, 360)">
+    <path d="M0 0 Q-12 -20 -8 -35 Q0 -25 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q12 -20 8 -35 Q0 -25 0 0" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q-18 -10 -22 -25 Q-8 -18 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q18 -10 22 -25 Q8 -18 0 0" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q0 -25 -3 -38 Q3 -30 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-5" rx="6" ry="4" fill="#f4c842"/>
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+
+  <!-- 盛开的荷花2 -->
+  <g transform="translate(540, 370)">
+    <path d="M0 0 Q-12 -20 -8 -35 Q0 -25 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q12 -20 8 -35 Q0 -25 0 0" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q-18 -10 -22 -25 Q-8 -18 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q18 -10 22 -25 Q8 -18 0 0" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q0 -25 -3 -38 Q3 -30 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-5" rx="6" ry="4" fill="#f4c842"/>
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+
+  <!-- 花苞 -->
+  <g transform="translate(150, 350)">
+    <path d="M0 0 Q-6 -15 -4 -25 Q0 -20 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q6 -15 4 -25 Q0 -20 0 0" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="25" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <g transform="translate(660, 355)">
+    <path d="M0 0 Q-6 -15 -4 -25 Q0 -20 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 0 Q6 -15 4 -25 Q0 -20 0 0" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="25" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+
+  <!-- 标注：接天莲叶 -->
+  <line x1="350" y1="385" x2="350" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="280" y="285" width="140" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="350" y="303" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">接天莲叶无穷碧</text>
+
+  <!-- 标注：映日荷花 -->
+  <line x1="280" y1="330" x2="200" y2="250" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="120" y="225" width="140" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="190" y="243" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">映日荷花别样红</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">毕竟西湖六月中，风光不与四时同。接天莲叶无穷碧，映日荷花别样红</text>
+</svg>

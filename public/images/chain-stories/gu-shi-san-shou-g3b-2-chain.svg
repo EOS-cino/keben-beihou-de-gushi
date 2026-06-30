@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：诗人眼里的三种春光">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：诗人眼里的三种春光</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">走进春天的诗花园</text>
+  <g transform="translate(150,300)">
+    <rect x="-40" y="-40" width="80" height="90" rx="6" fill="#fbe9a8" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#a8742a">慵懒</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="14" fill="#a8742a">春晓·孟浩然</text>
+  </g>
+  <g transform="translate(320,300)">
+    <rect x="-40" y="-40" width="80" height="90" rx="6" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#3a6b2a">顽强</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="14" fill="#3a6b2a">春草·白居易</text>
+  </g>
+  <g transform="translate(490,300)">
+    <rect x="-40" y="-40" width="80" height="90" rx="6" fill="#7fb8d8" stroke="#2a5a7a" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#2a5a7a">及时</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="14" fill="#2a5a7a">春雨·杜甫</text>
+  </g>
+  <g transform="translate(660,300)">
+    <rect x="-40" y="-40" width="80" height="90" rx="6" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">灵动</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">春水·苏轼</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">每一首，都是春天的一种心情</text>
+</svg>

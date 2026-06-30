@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="夜空繁星与孩子用望远镜观星">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 夜空 -->
+  <rect x="0" y="0" width="800" height="440" fill="#2d4a68" opacity="0.55"/>
+  <rect x="0" y="0" width="800" height="440" fill="#1a2a48" opacity="0.3"/>
+  <!-- 银河 -->
+  <path d="M0 200 Q200 160 400 200 Q600 240 800 180 L800 320 Q600 280 400 320 Q200 360 0 300 Z" fill="#fef9ed" opacity="0.08"/>
+  <path d="M0 240 Q200 210 400 240 Q600 270 800 220" stroke="#fef9ed" stroke-width="40" fill="none" opacity="0.05" stroke-linecap="round"/>
+  <!-- 星星 -->
+  <g fill="#fef9ed">
+    <circle cx="100" cy="80" r="2"/>
+    <circle cx="180" cy="120" r="1.5"/>
+    <circle cx="240" cy="60" r="2.5"/>
+    <circle cx="320" cy="100" r="1.5"/>
+    <circle cx="500" cy="70" r="2"/>
+    <circle cx="580" cy="130" r="1.5"/>
+    <circle cx="680" cy="80" r="2"/>
+    <circle cx="720" cy="150" r="1.5"/>
+    <circle cx="60" cy="180" r="1.5"/>
+    <circle cx="140" cy="220" r="2"/>
+    <circle cx="380" cy="200" r="1.5"/>
+    <circle cx="460" cy="240" r="2"/>
+    <circle cx="620" cy="220" r="1.5"/>
+    <circle cx="700" cy="270" r="2"/>
+    <circle cx="280" cy="280" r="1.5"/>
+  </g>
+  <!-- 亮星(眨眼) -->
+  <g fill="#e8a838">
+    <circle cx="200" cy="150" r="3.5"/>
+    <circle cx="200" cy="150" r="6" opacity="0.3"/>
+    <circle cx="540" cy="110" r="3"/>
+    <circle cx="540" cy="110" r="5" opacity="0.3"/>
+    <circle cx="650" cy="260" r="3.5"/>
+    <circle cx="650" cy="260" r="6" opacity="0.3"/>
+  </g>
+  <!-- 星座连线 -->
+  <g stroke="#e8a838" stroke-width="1" opacity="0.5" fill="none">
+    <line x1="200" y1="150" x2="320" y2="100"/>
+    <line x1="320" y1="100" x2="460" y2="240"/>
+    <line x1="460" y1="240" x2="540" y2="110"/>
+  </g>
+  <!-- 星光旅程(虚线) -->
+  <g stroke="#e8a838" stroke-width="1.5" opacity="0.4" stroke-dasharray="4 6" fill="none">
+    <path d="M540 110 Q400 200 280 360"/>
+  </g>
+  <text x="560" y="100" font-family="serif" font-size="11" fill="#e8a838" opacity="0.8">织女星 25光年</text>
+  <!-- 远山 -->
+  <path d="M0 400 Q200 360 400 390 Q600 365 800 395 L800 440 L0 440 Z" fill="#2d6a4f" opacity="0.5"/>
+  <!-- 地面 -->
+  <rect x="0" y="420" width="800" height="180" fill="#2d6a4f" opacity="0.3"/>
+  <!-- 孩子 + 望远镜 -->
+  <g transform="translate(280 400)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="50" rx="34" ry="28" fill="#e07856"/>
+    <!-- 头(仰望) -->
+    <circle cx="0" cy="0" r="20" fill="#f0d0a8"/>
+    <path d="M-18 -4 Q-20 -24 0 -26 Q20 -24 18 -4 Q14 -16 0 -18 Q-14 -16 -18 -4 Z" fill="#3a2a1a"/>
+    <!-- 眼睛向上 -->
+    <circle cx="-6" cy="-4" r="1.5" fill="#2a2a2a"/>
+    <circle cx="6" cy="-4" r="1.5" fill="#2a2a2a"/>
+    <!-- 望远镜 -->
+    <g transform="translate(20 -10) rotate(-35)">
+      <rect x="0" y="-7" width="44" height="14" rx="4" fill="#8d6f47"/>
+      <rect x="38" y="-10" width="12" height="20" rx="3" fill="#5a3a1a"/>
+      <rect x="-4" y="-9" width="10" height="18" rx="3" fill="#5a3a1a"/>
+    </g>
+    <!-- 手 -->
+    <circle cx="22" cy="10" r="7" fill="#f0d0a8"/>
+    <!-- 腿 -->
+    <ellipse cx="-14" cy="86" rx="12" ry="9" fill="#4a90b8"/>
+    <ellipse cx="14" cy="86" rx="12" ry="9" fill="#4a90b8"/>
+  </g>
+  <!-- 爸爸(指点) -->
+  <g transform="translate(420 410)" opacity="0.85">
+    <ellipse cx="0" cy="46" rx="30" ry="24" fill="#2d6a4f"/>
+    <circle cx="0" cy="0" r="18" fill="#f0d0a8"/>
+    <path d="M-16 -6 Q0 -22 16 -6 Z" fill="#5a3a1a"/>
+    <circle cx="-5" cy="-2" r="1.5" fill="#2a2a2a"/>
+    <circle cx="5" cy="-2" r="1.5" fill="#2a2a2a"/>
+    <path d="M-4 6 Q0 8 4 6" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <!-- 指向天空的手 -->
+    <path d="M22 14 Q40 0 52 -16" stroke="#f0d0a8" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#fef9ed">星星的约会</text>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="16" fill="#fef9ed" opacity="0.9">抬头看星星，其实是在看宇宙的过去</text>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="14" fill="#e8a838" opacity="0.85">那束光走了几十亿年，才落进你的眼睛</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="书包从古代书箱到现代书包的变迁插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">书包的历史变迁</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">从沉重的书箱到轻便的双肩包</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="330" x2="720" y2="330" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="720,330 710,324 710,336" fill="#c8843a"/>
+
+  <!-- 古代书箱 -->
+  <g transform="translate(150,200)">
+    <rect x="-60" y="-50" width="120" height="100" rx="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-60" y="-50" width="120" height="20" rx="6" fill="#7a3b14"/>
+    <!-- 锁扣 -->
+    <rect x="-8" y="-35" width="16" height="12" rx="2" fill="#c8843a"/>
+    <!-- 竹简 -->
+    <g stroke="#c8843a" stroke-width="1.5">
+      <line x1="-40" y1="-10" x2="40" y2="-10"/>
+      <line x1="-40" y1="0" x2="40" y2="0"/>
+      <line x1="-40" y1="10" x2="40" y2="10"/>
+      <line x1="-40" y1="20" x2="40" y2="20"/>
+    </g>
+    <!-- 背带 -->
+    <path d="M-50 -50 Q-70 -80 -30 -90" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M50 -50 Q70 -80 30 -90" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">书箱</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">古代·竹简时代</text>
+    <text x="0" y="116" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">能装几十斤</text>
+    <circle cx="0" cy="130" r="4" fill="#c8843a"/>
+  </g>
+
+  <!-- 布包 -->
+  <g transform="translate(330,200)">
+    <path d="M-55 -40 L-55 50 Q-55 60 -45 60 L45 60 Q55 60 55 50 L55 -40 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <path d="M-55 -40 Q-55 -50 -45 -50 L45 -50 Q55 -50 55 -40" fill="#4a6a2f"/>
+    <!-- 口绳 -->
+    <path d="M-45 -45 Q0 -55 45 -45" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 背带 -->
+    <path d="M-40 -50 Q-60 -90 0 -95 Q60 -90 40 -50" fill="none" stroke="#4a6a2f" stroke-width="3"/>
+    <!-- 书本 -->
+    <rect x="-25" y="0" width="50" height="40" rx="2" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#c8843a" stroke-width="1"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">布书包</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">近代·爷爷奶奶</text>
+    <text x="0" y="116" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">一块布缝成</text>
+    <circle cx="0" cy="130" r="4" fill="#c8843a"/>
+  </g>
+
+  <!-- 铁皮铅笔盒时代 -->
+  <g transform="translate(510,200)">
+    <path d="M-55 -40 L-55 50 Q-55 60 -45 60 L45 60 Q55 60 55 50 L55 -40 Z" fill="#c84a3a" stroke="#8d5a36" stroke-width="2"/>
+    <path d="M-55 -40 Q-55 -50 -45 -50 L45 -50 Q55 -50 55 -40" fill="#8d5a36"/>
+    <path d="M-40 -50 Q-60 -90 0 -95 Q60 -90 40 -50" fill="none" stroke="#8d5a36" stroke-width="3"/>
+    <!-- 铁皮铅笔盒 -->
+    <rect x="-35" y="5" width="70" height="35" rx="3" fill="#7ab8d8" stroke="#4a8ab8" stroke-width="1.5"/>
+    <line x1="-35" y1="12" x2="35" y2="12" stroke="#4a8ab8" stroke-width="1"/>
+    <circle cx="0" cy="22" r="4" fill="#f4b942"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">帆布包</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">父母小时候</text>
+    <text x="0" y="116" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">配铁皮铅笔盒</text>
+    <circle cx="0" cy="130" r="4" fill="#c8843a"/>
+  </g>
+
+  <!-- 现代书包 -->
+  <g transform="translate(680,200)">
+    <rect x="-55" y="-50" width="110" height="110" rx="18" fill="#e07856" stroke="#c84a3a" stroke-width="2"/>
+    <path d="M-55 -50 Q-55 -60 -45 -60 L45 -60 Q55 -60 55 -50 L55 -35 L-55 -35 Z" fill="#c84a3a"/>
+    <line x1="-45" y1="-35" x2="45" y2="-35" stroke="#8d5a36" stroke-width="1.5"/>
+    <circle cx="0" cy="-35" r="5" fill="#f4b942" stroke="#8d5a36" stroke-width="1"/>
+    <rect x="-30" y="-10" width="60" height="50" rx="8" fill="#c84a3a"/>
+    <!-- 反光条 -->
+    <rect x="-50" y="48" width="100" height="6" fill="#f4b942" opacity="0.7"/>
+    <!-- 背带 -->
+    <path d="M-40 -60 Q-65 -95 0 -100 Q65 -95 40 -60" fill="none" stroke="#c84a3a" stroke-width="4"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">双肩包</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">现在·我们的</text>
+    <text x="0" y="116" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">多层·减负·反光</text>
+    <circle cx="0" cy="130" r="4" fill="#c84a3a"/>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="80" y="460" width="640" height="100" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="490" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">书包越来越轻便，越来越聪明</text>
+  <text x="400" y="515" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">从竹简书箱到减负双肩包，变化的是样子</text>
+  <text x="400" y="538" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">不变的是里面装着的书本、文具和对学习的期待</text>
+</svg>

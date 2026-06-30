@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从艾青写绿到梵高画向日葵的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：艾青写绿 -->
+  <circle cx="170" cy="300" r="110" fill="#3a7d44" opacity="0.3" stroke="#3a7d44" stroke-width="3"/>
+  <ellipse cx="155" cy="290" rx="14" ry="8" fill="#1e4d2b"/>
+  <ellipse cx="185" cy="290" rx="14" ry="8" fill="#6b8e7f"/>
+  <ellipse cx="170" cy="300" rx="14" ry="8" fill="#8fb996"/>
+  <path d="M 150 305 q 20 -8 40 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.6"/>
+  <text x="170" y="340" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">艾青·绿</text>
+  <text x="170" y="363" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">用字写颜色</text>
+  <!-- 右珠：梵高向日葵 -->
+  <circle cx="630" cy="300" r="110" fill="#d4a017" opacity="0.3" stroke="#b5651d" stroke-width="3"/>
+  <circle cx="630" cy="290" r="14" fill="#8a4b14"/>
+  <path d="M 630 276 l 0 -14 M 644 290 l 14 -6 M 630 304 l 0 14 M 616 290 l -14 -6 M 642 280 l 12 -10 M 642 300 l 12 10 M 618 280 l -12 -10 M 618 300 l -12 10" stroke="#f0c419" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="630" cy="290" r="6" fill="#5d4037"/>
+  <text x="630" y="340" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">梵高·向日葵</text>
+  <text x="630" y="363" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">用颜料写颜色</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">艾青写绿，梵高画向日葵</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">让颜色开口说话，藏着情绪与生命</text>
+</svg>

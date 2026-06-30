@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="破除迷信插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">破除迷信与科学思维</text>
+  <line x1="250" y1="56" x2="550" y2="56" stroke="#c9952e" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8a6a3a">——迷信怕的就是"较真"两个字</text>
+
+  <!-- 中间分割线（左：迷信，右：科学） -->
+  <line x1="400" y1="100" x2="400" y2="560" stroke="#c9952e" stroke-width="3" stroke-dasharray="10,6"/>
+
+  <!-- 左侧：迷信 -->
+  <g transform="translate(200, 300)">
+    <text x="0" y="-130" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#9a3a3a">迷 信</text>
+    <!-- 迷信的"河伯"形象（模糊、恐怖） -->
+    <g transform="translate(0, -50)">
+      <!-- 雾气 -->
+      <ellipse cx="0" cy="0" rx="60" ry="50" fill="#d4d4d4" opacity="0.5"/>
+      <ellipse cx="-20" cy="-10" rx="30" ry="25" fill="#e4e4e4" opacity="0.4"/>
+      <!-- 河伯（模糊的怪物轮廓） -->
+      <ellipse cx="0" cy="-10" rx="35" ry="25" fill="#6a5a7a" opacity="0.6"/>
+      <!-- 眼睛（发光，恐怖） -->
+      <circle cx="-12" cy="-15" r="5" fill="#f4a020" opacity="0.8"/>
+      <circle cx="12" cy="-15" r="5" fill="#f4a020" opacity="0.8"/>
+      <circle cx="-12" cy="-15" r="2" fill="#fff"/>
+      <circle cx="12" cy="-15" r="2" fill="#fff"/>
+      <!-- 嘴 -->
+      <path d="M-15 0 Q0 10 15 0" fill="none" stroke="#3a2a3a" stroke-width="2"/>
+    </g>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3a3a">"河伯发怒了！"</text>
+    <!-- 恐惧的人们 -->
+    <g transform="translate(0, 70)">
+      <!-- 跪着的人1 -->
+      <ellipse cx="-30" cy="10" rx="15" ry="8" fill="#8a7a5a"/>
+      <circle cx="-30" cy="-5" r="8" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+      <path d="M-38 -10 L-30 -15 L-22 -10" fill="#5a4a3a"/>
+      <!-- 跪着的人2 -->
+      <ellipse cx="30" cy="10" rx="15" ry="8" fill="#8a7a5a"/>
+      <circle cx="30" cy="-5" r="8" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+      <path d="M22 -10 L30 -15 L38 -10" fill="#5a4a3a"/>
+    </g>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="12" fill="#9a3a3a">恐惧 · 盲从 · 被骗</text>
+  </g>
+
+  <!-- 右侧：科学 -->
+  <g transform="translate(600, 300)">
+    <text x="0" y="-130" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#3a6a3a">科 学</text>
+    <!-- 科学的解释（水循环/自然现象） -->
+    <g transform="translate(0, -50)">
+      <!-- 太阳 -->
+      <circle cx="-40" cy="-20" r="15" fill="#f4b942" stroke="#e0a020" stroke-width="2"/>
+      <!-- 蒸发箭头 -->
+      <path d="M-30 -25 Q-20 -40 -10 -35" fill="none" stroke="#6a9ab8" stroke-width="2" marker-end="url(#arrowS)"/>
+      <!-- 云 -->
+      <ellipse cx="10" cy="-35" rx="25" ry="10" fill="#d4d4d4" opacity="0.8"/>
+      <ellipse cx="20" cy="-38" rx="18" ry="8" fill="#e4e4e4" opacity="0.8"/>
+      <!-- 雨滴 -->
+      <line x1="0" y1="-25" x2="-2" y2="-15" stroke="#6a9ab8" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="-25" x2="8" y2="-15" stroke="#6a9ab8" stroke-width="2" stroke-linecap="round"/>
+      <line x1="20" y1="-25" x2="18" y2="-15" stroke="#6a9ab8" stroke-width="2" stroke-linecap="round"/>
+      <!-- 河流 -->
+      <path d="M-30 15 Q0 10 30 15" fill="none" stroke="#6a9ab8" stroke-width="4" stroke-linecap="round"/>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#3a6a8a">河水泛滥=自然现象</text>
+    </g>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="13" fill="#3a6a3a">"原来是自然规律！"</text>
+    <!-- 观察的人 -->
+    <g transform="translate(0, 70)">
+      <!-- 站着的人（拿放大镜） -->
+      <circle cx="0" cy="-5" r="8" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+      <path d="M-6 -10 Q0 -16 6 -10" fill="#3a2a1a"/>
+      <path d="M-8 3 L-10 25 L10 25 L8 3 Z" fill="#4a6a3a" stroke="#2a4a1a" stroke-width="1.5"/>
+      <!-- 放大镜 -->
+      <circle cx="15" cy="10" r="6" fill="none" stroke="#5a3a1a" stroke-width="2"/>
+      <line x1="20" y1="15" x2="25" y2="20" stroke="#5a3a1a" stroke-width="2"/>
+    </g>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="12" fill="#3a6a3a">观察 · 思考 · 验证</text>
+  </g>
+
+  <defs>
+    <marker id="arrowS" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#6a9ab8"/>
+    </marker>
+  </defs>
+
+  <!-- 底部：历史人物 -->
+  <g transform="translate(130, 520)">
+    <circle cx="0" cy="-15" r="10" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M-8 -20 Q0 -28 8 -20" fill="#3a2a1a"/>
+    <path d="M-10 -5 L-12 15 L12 15 L10 -5 Z" fill="#5a4a3a"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#5a3a1a">张衡·地动仪</text>
+  </g>
+  <g transform="translate(280, 520)">
+    <circle cx="0" cy="-15" r="10" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M-8 -20 Q0 -28 8 -20" fill="#5a4a3a"/>
+    <path d="M-10 -5 L-12 15 L12 15 L10 -5 Z" fill="#4a5a3a"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#5a3a1a">李时珍·本草纲目</text>
+  </g>
+  <g transform="translate(520, 520)">
+    <circle cx="0" cy="-15" r="10" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M-8 -20 Q0 -28 8 -20" fill="#7a5a3a"/>
+    <path d="M-10 -5 L-12 15 L12 15 L10 -5 Z" fill="#3a4a5a"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#5a3a1a">富兰克林·雷电实验</text>
+  </g>
+  <g transform="translate(670, 520)">
+    <circle cx="0" cy="-15" r="10" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M-8 -20 Q0 -28 8 -20" fill="#3a2a1a"/>
+    <path d="M-10 -5 L-12 15 L12 15 L10 -5 Z" fill="#5a3a2a"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#5a3a1a">西门豹·破河伯</text>
+  </g>
+
+  <!-- VS 标记 -->
+  <g transform="translate(400, 250)">
+    <circle cx="0" cy="0" r="25" fill="#fffdf7" stroke="#c9952e" stroke-width="3"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#c9952e">VS</text>
+  </g>
+</svg>

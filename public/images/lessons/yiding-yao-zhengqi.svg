@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="童第周在实验室做实验、刻苦钻研的场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">一定要争气</text>
+  <line x1="330" y1="58" x2="470" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左半：少年路灯下读书 -->
+  <g transform="translate(0, 80)">
+    <rect x="30" y="10" width="350" height="220" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="205" y="35" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">少年：路灯下苦读</text>
+    <!-- 夜空 -->
+    <rect x="40" y="45" width="330" height="120" fill="#1a1a3a" opacity="0.1"/>
+    <!-- 路灯 -->
+    <line x1="120" y1="50" x2="120" y2="150" stroke="#7a3b14" stroke-width="3"/>
+    <circle cx="120" cy="50" r="12" fill="#e07856" opacity="0.7" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 灯光 -->
+    <path d="M120 60 L90 120 L150 120 Z" fill="#e07856" opacity="0.15"/>
+    <!-- 蹲着读书的少年 -->
+    <g transform="translate(120, 165)">
+      <ellipse cx="0" cy="10" rx="18" ry="12" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-10" r="10" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-3" cy="-11" r="1" fill="#7a3b14"/>
+      <circle cx="3" cy="-11" r="1" fill="#7a3b14"/>
+      <!-- 手捧书 -->
+      <rect x="-12" y="0" width="24" height="14" fill="#fff6df" stroke="#7a3b14" stroke-width="1"/>
+      <line x1="-8" y1="5" x2="8" y2="5" stroke="#7a3b14" stroke-width="0.5"/>
+      <line x1="-8" y1="9" x2="8" y2="9" stroke="#7a3b14" stroke-width="0.5"/>
+    </g>
+    <!-- 嘲笑的同学 -->
+    <g transform="translate(280, 160)">
+      <ellipse cx="0" cy="10" rx="14" ry="10" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-8" r="8" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-3 -10 Q0 -12 3 -10" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-4 -5 L4 -5" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="205" y="215" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">从倒数第一到正数第一</text>
+  </g>
+
+  <!-- 右半：实验室做实验 -->
+  <g transform="translate(400, 80)">
+    <rect x="0" y="10" width="370" height="220" rx="8" fill="#fff6df" stroke="#6a8d3f" stroke-width="1.5"/>
+    <text x="185" y="35" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">留学：实验室争气</text>
+    <!-- 实验台 -->
+    <rect x="20" y="150" width="330" height="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="25" y="160" width="6" height="50" fill="#8d5a36"/>
+    <rect x="339" y="160" width="6" height="50" fill="#8d5a36"/>
+    <!-- 显微镜 -->
+    <g transform="translate(100, 110)">
+      <rect x="-8" y="30" width="16" height="12" fill="#7a3b14"/>
+      <rect x="-5" y="10" width="10" height="22" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="5" r="8" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-3" y="-8" width="6" height="15" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <ellipse cx="0" cy="-10" rx="6" ry="3" fill="#7a3b14"/>
+    </g>
+    <!-- 童第周（弯腰看显微镜） -->
+    <g transform="translate(200, 90)">
+      <ellipse cx="0" cy="30" rx="20" ry="25" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-15" cy="15" r="14" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-18" cy="14" r="1.5" fill="#7a3b14"/>
+      <path d="M-12 20 Q-8 22 -5 20" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 眼镜 -->
+      <circle cx="-18" cy="14" r="4" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 手持玻璃针 -->
+      <path d="M-10 35 Q-30 45 -50 50" fill="none" stroke="#c84a3a" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-50" y1="50" x2="-65" y2="55" stroke="#a8d0e8" stroke-width="1.5"/>
+    </g>
+    <!-- 培养皿 -->
+    <ellipse cx="280" cy="148" rx="20" ry="6" fill="#a8d0e8" opacity="0.5" stroke="#7a3b14" stroke-width="1"/>
+    <text x="185" y="215" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">用自己磨的针完成高难度实验</text>
+  </g>
+
+  <!-- 底部：争气精神 -->
+  <g transform="translate(0, 330)">
+    <rect x="60" y="0" width="680" height="220" rx="10" fill="#fff6df" stroke="#c84a3a" stroke-width="2"/>
+    <text x="400" y="32" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">童第周的"争气"之路</text>
+
+    <!-- 三个阶段 -->
+    <g transform="translate(150, 70)">
+      <circle cx="0" cy="0" r="22" fill="#c84a3a" opacity="0.8"/>
+      <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fff">17岁</text>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">才上中学</text>
+      <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">倒数第一</text>
+    </g>
+    <path d="M185 70 L255 70" stroke="#c8843a" stroke-width="2" fill="none" marker-end="url(#ar2)"/>
+
+    <g transform="translate(290, 70)">
+      <circle cx="0" cy="0" r="22" fill="#6a8d3f" opacity="0.8"/>
+      <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fff">苦读</text>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">拼命追赶</text>
+      <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">正数第一</text>
+    </g>
+    <path d="M325 70 L395 70" stroke="#c8843a" stroke-width="2" fill="none" marker-end="url(#ar2)"/>
+
+    <g transform="translate(430, 70)">
+      <circle cx="0" cy="0" r="22" fill="#7ab8d8" opacity="0.8"/>
+      <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fff">留学</text>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">被人看不起</text>
+      <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">决心争气</text>
+    </g>
+    <path d="M465 70 L535 70" stroke="#c8843a" stroke-width="2" fill="none" marker-end="url(#ar2)"/>
+
+    <g transform="translate(570, 70)">
+      <circle cx="0" cy="0" r="22" fill="#c8843a" opacity="0.8"/>
+      <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fff">成功</text>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">世界级成果</text>
+      <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">为国争光</text>
+    </g>
+
+    <!-- 名言 -->
+    <rect x="120" y="140" width="560" height="50" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="400" y="172" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">"外国人能做到的，中国人也能做到！"</text>
+  </g>
+
+  <defs>
+    <marker id="ar2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从农村穷孩子到世界级科学家——一定要争气</text>
+</svg>

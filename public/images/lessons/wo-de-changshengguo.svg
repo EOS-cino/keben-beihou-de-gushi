@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="书本和长生果花生的比喻插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">我的"长生果"</text>
+  <line x1="300" y1="60" x2="500" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左边：花生（长生果）滋养身体 -->
+  <g>
+    <rect x="40" y="90" width="340" height="460" fill="#f5ecd8" stroke="#e8a838" stroke-width="2.5" rx="10"/>
+    <text x="210" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#c8843a" font-weight="bold">花生·滋养身体</text>
+
+    <!-- 花生植株 -->
+    <rect x="200" y="280" width="8" height="60" fill="#2d6a4f"/>
+    <ellipse cx="190" cy="265" rx="15" ry="10" fill="#2d6a4f" stroke="#1a4a3a" stroke-width="1.5"/>
+    <ellipse cx="215" cy="270" rx="14" ry="9" fill="#3a7a5f" stroke="#1a4a3a" stroke-width="1.5"/>
+    <!-- 花生叶 -->
+    <path d="M180 260 q-8 -6 -4 -14 q8 -2 8 8 Z" fill="#2d6a4f" stroke="#1a4a3a" stroke-width="1"/>
+    <path d="M225 265 q8 -6 4 -14 q-8 -2 -8 8 Z" fill="#3a7a5f" stroke="#1a4a3a" stroke-width="1"/>
+
+    <!-- 花生果实（地下） -->
+    <rect x="140" y="340" width="140" height="100" fill="#d8c8a8" stroke="#8d6a4a" stroke-width="2" rx="6" opacity="0.5"/>
+    <text x="210" y="360" text-anchor="middle" font-family="serif" font-size="11" fill="#8d6a4a">地下结果</text>
+    <!-- 花生壳 -->
+    <g>
+      <ellipse cx="170" cy="390" rx="22" ry="14" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M148 390 q22 4 44 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+      <path d="M170 376 L170 404" stroke="#7a3b14" stroke-width="1"/>
+      <ellipse cx="215" cy="400" rx="20" ry="12" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M195 400 q20 3 40 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+      <ellipse cx="250" cy="390" rx="18" ry="11" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M232 390 q18 3 36 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    </g>
+
+    <!-- 花生仁（剥开的） -->
+    <g transform="translate(150 440)">
+      <ellipse cx="0" cy="0" rx="10" ry="7" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="15" cy="0" rx="10" ry="7" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="30" cy="0" rx="10" ry="7" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+
+    <!-- 箭头 -->
+    <path d="M210 480 L210 510" stroke="#e8a838" stroke-width="3" fill="none" marker-end="url(#ar4)"/>
+    <text x="210" y="530" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">身体健康</text>
+  </g>
+
+  <!-- 中间等号 -->
+  <text x="400" y="320" text-anchor="middle" font-family="serif" font-size="40" fill="#7a3b14" font-weight="bold">=</text>
+
+  <!-- 右边：书滋养心灵 -->
+  <g>
+    <rect x="420" y="90" width="340" height="460" fill="#f5ecd8" stroke="#2d6a4f" stroke-width="2.5" rx="10"/>
+    <text x="590" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#2d6a4f" font-weight="bold">书·滋养心灵</text>
+
+    <!-- 书堆 -->
+    <g>
+      <rect x="510" y="340" width="140" height="25" fill="#e07856" stroke="#7a3b14" stroke-width="2" rx="2"/>
+      <rect x="515" y="315" width="135" height="25" fill="#4a90b8" stroke="#7a3b14" stroke-width="2" rx="2"/>
+      <rect x="520" y="290" width="130" height="25" fill="#2d6a4f" stroke="#7a3b14" stroke-width="2" rx="2"/>
+      <rect x="525" y="265" width="125" height="25" fill="#e8a838" stroke="#7a3b14" stroke-width="2" rx="2"/>
+      <!-- 书名 -->
+      <text x="580" y="357" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">童话</text>
+      <text x="582" y="332" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">散文</text>
+      <text x="585" y="307" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">小说</text>
+      <text x="587" y="282" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">诗歌</text>
+    </g>
+
+    <!-- 书页飞出（变成种子发芽） -->
+    <g>
+      <!-- 飞出的书页 -->
+      <rect x="650" y="270" width="30" height="20" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5" transform="rotate(20 665 280)"/>
+      <rect x="470" y="250" width="25" height="18" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5" transform="rotate(-15 482 259)"/>
+      <!-- 发芽 -->
+      <rect x="580" y="230" width="6" height="35" fill="#2d6a4f"/>
+      <ellipse cx="570" cy="235" rx="10" ry="6" fill="#3a7a5f" stroke="#1a4a3a" stroke-width="1" transform="rotate(-30 570 235)"/>
+      <ellipse cx="596" cy="232" rx="10" ry="6" fill="#3a7a5f" stroke="#1a4a3a" stroke-width="1" transform="rotate(30 596 232)"/>
+    </g>
+
+    <!-- 箭头 -->
+    <path d="M590 480 L590 510" stroke="#2d6a4f" stroke-width="3" fill="none" marker-end="url(#ar5)"/>
+    <text x="590" y="530" text-anchor="middle" font-family="serif" font-size="13" fill="#2d6a4f">精神长青</text>
+  </g>
+
+  <defs>
+    <marker id="ar4" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#e8a838"/>
+    </marker>
+    <marker id="ar5" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#2d6a4f"/>
+    </marker>
+  </defs>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">花生滋养身体，书滋养心灵——书是人类的长生果</text>
+</svg>

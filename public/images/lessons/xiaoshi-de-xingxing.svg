@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="城市灯光让星星消失的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">消失的星星</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——星星没有消失，是被灯光"遮住"了</text>
+
+  <!-- 左半：乡下（满天繁星） -->
+  <rect x="0" y="90" width="390" height="510" fill="#1a1a3a"/>
+  <text x="195" y="115" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fef9ed">乡下夜空</text>
+  <!-- 满天星星 -->
+  <g fill="#fef9ed">
+    <circle cx="30" cy="140" r="1.5"/>
+    <circle cx="60" cy="155" r="2"/>
+    <circle cx="90" cy="135" r="1"/>
+    <circle cx="120" cy="160" r="1.5"/>
+    <circle cx="150" cy="145" r="2"/>
+    <circle cx="180" cy="155" r="1"/>
+    <circle cx="210" cy="140" r="1.5"/>
+    <circle cx="240" cy="160" r="2"/>
+    <circle cx="270" cy="145" r="1"/>
+    <circle cx="300" cy="155" r="1.5"/>
+    <circle cx="330" cy="140" r="2"/>
+    <circle cx="360" cy="160" r="1"/>
+    <circle cx="20" cy="180" r="1.5"/>
+    <circle cx="50" cy="195" r="1"/>
+    <circle cx="80" cy="185" r="2"/>
+    <circle cx="110" cy="200" r="1"/>
+    <circle cx="140" cy="190" r="1.5"/>
+    <circle cx="170" cy="205" r="2"/>
+    <circle cx="200" cy="195" r="1"/>
+    <circle cx="230" cy="210" r="1.5"/>
+    <circle cx="260" cy="200" r="1"/>
+    <circle cx="290" cy="215" r="2"/>
+    <circle cx="320" cy="205" r="1"/>
+    <circle cx="350" cy="220" r="1.5"/>
+    <circle cx="370" cy="210" r="1"/>
+    <circle cx="40" cy="240" r="1"/>
+    <circle cx="70" cy="250" r="1.5"/>
+    <circle cx="100" cy="245" r="1"/>
+    <circle cx="130" cy="260" r="2"/>
+    <circle cx="160" cy="250" r="1"/>
+    <circle cx="190" cy="265" r="1.5"/>
+    <circle cx="220" cy="255" r="1"/>
+    <circle cx="250" cy="270" r="2"/>
+    <circle cx="280" cy="260" r="1"/>
+    <circle cx="310" cy="275" r="1.5"/>
+    <circle cx="340" cy="265" r="1"/>
+    <circle cx="365" cy="280" r="1.5"/>
+  </g>
+  <!-- 银河 -->
+  <path d="M50 150 Q195 220 360 170" fill="none" stroke="#fef9ed" stroke-width="15" opacity="0.15"/>
+  <path d="M50 150 Q195 220 360 170" fill="none" stroke="#a8d0e8" stroke-width="8" opacity="0.1"/>
+  <!-- 亮星 -->
+  <circle cx="100" cy="170" r="3" fill="#fef9ed"/>
+  <circle cx="100" cy="170" r="6" fill="#fef9ed" opacity="0.2"/>
+  <circle cx="280" cy="180" r="3" fill="#e07856"/>
+  <circle cx="280" cy="180" r="6" fill="#e07856" opacity="0.2"/>
+  <!-- 山的剪影 -->
+  <path d="M0 350 Q100 280 200 320 Q300 270 390 310 L390 400 L0 400 Z" fill="#1a1a2a"/>
+  <!-- 草地 -->
+  <rect x="0" y="400" width="390" height="200" fill="#2a2a3a"/>
+  <text x="195" y="440" text-anchor="middle" font-family="serif" font-size="13" fill="#6a8d3f">能看到约2000-3000颗星</text>
+  <text x="195" y="465" text-anchor="middle" font-family="serif" font-size="11" fill="#7ab8d8">银河清晰可见</text>
+
+  <!-- 右半：城市（星星消失） -->
+  <rect x="410" y="90" width="390" height="510" fill="#3a3a2a"/>
+  <rect x="410" y="90" width="390" height="250" fill="#4a4a3a" opacity="0.5"/>
+  <text x="605" y="115" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c8843a">城市夜空</text>
+  <!-- 寥寥几颗星 -->
+  <circle cx="480" cy="140" r="2" fill="#fef9ed" opacity="0.5"/>
+  <circle cx="650" cy="135" r="1.5" fill="#fef9ed" opacity="0.4"/>
+  <circle cx="720" cy="160" r="2" fill="#fef9ed" opacity="0.5"/>
+  <!-- 城市灯光辉光 -->
+  <ellipse cx="605" cy="300" rx="200" ry="80" fill="#c8843a" opacity="0.2"/>
+  <ellipse cx="605" cy="320" rx="180" ry="60" fill="#e07856" opacity="0.15"/>
+
+  <!-- 城市建筑 -->
+  <rect x="430" y="280" width="40" height="120" fill="#7a3b14" stroke="#5a2a14" stroke-width="1.5"/>
+  <rect x="480" y="250" width="50" height="150" fill="#8d5a36" stroke="#5a2a14" stroke-width="1.5"/>
+  <rect x="540" y="270" width="35" height="130" fill="#7a3b14" stroke="#5a2a14" stroke-width="1.5"/>
+  <rect x="585" y="230" width="45" height="170" fill="#8d5a36" stroke="#5a2a14" stroke-width="1.5"/>
+  <rect x="640" y="260" width="40" height="140" fill="#7a3b14" stroke="#5a2a14" stroke-width="1.5"/>
+  <rect x="690" y="280" width="50" height="120" fill="#8d5a36" stroke="#5a2a14" stroke-width="1.5"/>
+  <rect x="750" y="290" width="35" height="110" fill="#7a3b14" stroke="#5a2a14" stroke-width="1.5"/>
+
+  <!-- 窗户灯光 -->
+  <g fill="#e07856">
+    <rect x="438" y="295" width="6" height="8"/>
+    <rect x="450" y="295" width="6" height="8"/>
+    <rect x="438" y="315" width="6" height="8"/>
+    <rect x="455" y="320" width="6" height="8"/>
+    <rect x="438" y="345" width="6" height="8"/>
+    <rect x="490" y="265" width="6" height="8"/>
+    <rect x="505" y="265" width="6" height="8"/>
+    <rect x="490" y="290" width="6" height="8"/>
+    <rect x="510" y="295" width="6" height="8"/>
+    <rect x="490" y="320" width="6" height="8"/>
+    <rect x="510" y="325" width="6" height="8"/>
+    <rect x="490" y="355" width="6" height="8"/>
+    <rect x="548" y="285" width="6" height="8"/>
+    <rect x="560" y="285" width="6" height="8"/>
+    <rect x="548" y="310" width="6" height="8"/>
+    <rect x="562" y="315" width="6" height="8"/>
+    <rect x="548" y="345" width="6" height="8"/>
+    <rect x="595" y="245" width="6" height="8"/>
+    <rect x="610" y="245" width="6" height="8"/>
+    <rect x="595" y="270" width="6" height="8"/>
+    <rect x="615" y="275" width="6" height="8"/>
+    <rect x="595" y="300" width="6" height="8"/>
+    <rect x="615" y="305" width="6" height="8"/>
+    <rect x="595" y="335" width="6" height="8"/>
+    <rect x="615" y="340" width="6" height="8"/>
+    <rect x="595" y="370" width="6" height="8"/>
+    <rect x="650" y="275" width="6" height="8"/>
+    <rect x="665" y="275" width="6" height="8"/>
+    <rect x="650" y="305" width="6" height="8"/>
+    <rect x="665" y="310" width="6" height="8"/>
+    <rect x="650" y="340" width="6" height="8"/>
+    <rect x="700" y="295" width="6" height="8"/>
+    <rect x="715" y="295" width="6" height="8"/>
+    <rect x="700" y="325" width="6" height="8"/>
+    <rect x="720" y="330" width="6" height="8"/>
+    <rect x="700" y="360" width="6" height="8"/>
+    <rect x="758" y="305" width="6" height="8"/>
+    <rect x="770" y="305" width="6" height="8"/>
+    <rect x="758" y="335" width="6" height="8"/>
+    <rect x="770" y="340" width="6" height="8"/>
+  </g>
+
+  <!-- 霓虹灯招牌 -->
+  <rect x="490" y="240" width="30" height="8" fill="#c84a3a" opacity="0.8"/>
+  <rect x="595" y="220" width="25" height="8" fill="#7ab8d8" opacity="0.8"/>
+  <rect x="650" y="250" width="20" height="8" fill="#e07856" opacity="0.8"/>
+
+  <!-- 路灯 -->
+  <g stroke="#c8843a" stroke-width="2" fill="none">
+    <line x1="460" y1="400" x2="460" y2="370"/>
+    <circle cx="460" cy="368" r="4" fill="#e07856"/>
+    <line x1="700" y1="400" x2="700" y2="370"/>
+    <circle cx="700" cy="368" r="4" fill="#e07856"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="410" y="400" width="390" height="200" fill="#5a4a3a"/>
+  <text x="605" y="440" text-anchor="middle" font-family="serif" font-size="13" fill="#e07856">只能看到十几颗星</text>
+  <text x="605" y="465" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">银河完全看不见</text>
+
+  <!-- 对比箭头 -->
+  <g transform="translate(400, 350)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="20" fill="#c84a3a">VS</text>
+  </g>
+
+  <!-- 底部标注 -->
+  <g transform="translate(400, 575)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">光污染：人造灯光"淹没"了星光——合理用灯，保护星空</text>
+  </g>
+</svg>

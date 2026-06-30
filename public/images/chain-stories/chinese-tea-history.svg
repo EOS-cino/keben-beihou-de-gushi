@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国茶的历史插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">中国茶的历史</text>
+  <line x1="300" y1="56" x2="500" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——从药用到饮品，几千年的故事</text>
+
+  <!-- 时间轴 -->
+  <line x1="60" y1="300" x2="740" y2="300" stroke="#c8843a" stroke-width="3"/>
+  <circle cx="120" cy="300" r="8" fill="#6a8d3f"/>
+  <circle cx="280" cy="300" r="8" fill="#c8843a"/>
+  <circle cx="440" cy="300" r="8" fill="#e07856"/>
+  <circle cx="580" cy="300" r="8" fill="#8d5a36"/>
+  <circle cx="700" cy="300" r="8" fill="#7ab8d8"/>
+
+  <!-- 商周：药用 -->
+  <g transform="translate(120, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#6a8d3f">商周</text>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">药用·当菜吃</text>
+    <!-- 药碗 -->
+    <g transform="translate(0, 50)">
+      <path d="M-15 0 L15 0 L12 20 L-12 20 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="0" rx="15" ry="4" fill="#6a8d3f" opacity="0.5"/>
+      <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">加葱·姜·盐</text>
+      <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">煮着吃</text>
+    </g>
+  </g>
+
+  <!-- 唐代：陆羽《茶经》 -->
+  <g transform="translate(280, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#c8843a">唐代</text>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">陆羽写《茶经》</text>
+    <!-- 书 -->
+    <g transform="translate(0, 50)">
+      <rect x="-18" y="0" width="36" height="25" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <text x="0" y="17" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">茶经</text>
+      <!-- 人物 -->
+      <circle cx="0" cy="40" r="6" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">"茶圣"陆羽</text>
+      <text x="0" y="73" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">讲究水·火候·茶具</text>
+    </g>
+  </g>
+
+  <!-- 宋代：点茶 -->
+  <g transform="translate(440, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#e07856">宋代</text>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">点茶·斗茶</text>
+    <!-- 茶碗+茶筅 -->
+    <g transform="translate(0, 50)">
+      <ellipse cx="0" cy="15" rx="18" ry="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-18 15 L-12 30 L12 30 L18 15" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 泡沫 -->
+      <ellipse cx="0" cy="13" rx="14" ry="4" fill="#fef9ed" opacity="0.7"/>
+      <!-- 茶筅 -->
+      <line x1="10" y1="5" x2="20" y2="-10" stroke="#7a3b14" stroke-width="2"/>
+      <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">碾成粉→热水冲搅</text>
+      <text x="0" y="61" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">比谁泡沫好看</text>
+      <text x="0" y="74" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">→传到日本=抹茶</text>
+    </g>
+  </g>
+
+  <!-- 明代：泡茶 -->
+  <g transform="translate(580, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#8d5a36">明代</text>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">废饼茶→散茶</text>
+    <!-- 茶壶 -->
+    <g transform="translate(0, 50)">
+      <ellipse cx="0" cy="15" rx="18" ry="12" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-18 10 Q-28 5 -25 15" fill="none" stroke="#c8843a" stroke-width="4" stroke-linecap="round"/>
+      <path d="M18 10 Q28 5 25 15" fill="none" stroke="#c8843a" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="0" cy="3" rx="8" ry="3" fill="#7a3b14"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">朱元璋下令</text>
+      <text x="0" y="53" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">直接用热水泡</text>
+      <text x="0" y="66" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">=今天的泡茶方式</text>
+    </g>
+  </g>
+
+  <!-- 近代：出口世界 -->
+  <g transform="translate(700, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7ab8d8">近代</text>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">茶叶出口世界</text>
+    <g transform="translate(0, 50)">
+      <!-- 船 -->
+      <path d="M-20 15 L20 15 L15 25 L-15 25 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="0" y1="15" x2="0" y2="-5" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M0 -5 L10 5 L0 5 Z" fill="#fef9ed" stroke="#7a3b14" stroke-width="1"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">传到欧洲</text>
+      <text x="0" y="53" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">英国人爱喝茶</text>
+      <text x="0" y="66" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">→下午茶文化</text>
+    </g>
+  </g>
+
+  <!-- 六大茶类 -->
+  <g transform="translate(400, 400)">
+    <rect x="-340" y="0" width="680" height="150" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">中国六大茶类（按发酵程度分）</text>
+    <g transform="translate(-250, 50)">
+      <rect x="-40" y="0" width="80" height="35" rx="5" fill="#6a8d3f" opacity="0.3" stroke="#6a8d3f" stroke-width="1.5"/>
+      <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">绿茶</text>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">不发酵·龙井</text>
+    </g>
+    <g transform="translate(-100, 50)">
+      <rect x="-40" y="0" width="80" height="35" rx="5" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+      <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">白茶</text>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">微发酵</text>
+    </g>
+    <g transform="translate(50, 50)">
+      <rect x="-40" y="0" width="80" height="35" rx="5" fill="#c8843a" opacity="0.3" stroke="#c8843a" stroke-width="1.5"/>
+      <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">乌龙茶</text>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">半发酵·铁观音</text>
+    </g>
+    <g transform="translate(200, 50)">
+      <rect x="-40" y="0" width="80" height="35" rx="5" fill="#c84a3a" opacity="0.3" stroke="#c84a3a" stroke-width="1.5"/>
+      <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">红茶</text>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">全发酵·祁门</text>
+    </g>
+    <g transform="translate(-175, 100)">
+      <rect x="-40" y="0" width="80" height="35" rx="5" fill="#e07856" opacity="0.2" stroke="#e07856" stroke-width="1.5"/>
+      <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="11" fill="#e07856">黄茶</text>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">轻发酵</text>
+    </g>
+    <g transform="translate(125, 100)">
+      <rect x="-40" y="0" width="80" height="35" rx="5" fill="#7a3b14" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+      <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">黑茶</text>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">后发酵·普洱</text>
+    </g>
+    <text x="0" y="145" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">世界上所有的茶，追根溯源，都来自中国的茶树</text>
+  </g>
+</svg>

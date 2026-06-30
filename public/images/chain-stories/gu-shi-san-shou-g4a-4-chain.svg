@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从苏轼题壁到王安石推敲绿字的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：苏轼题壁 -->
+  <circle cx="170" cy="300" r="110" fill="#8a9a5b" opacity="0.3" stroke="#6b8e7f" stroke-width="3"/>
+  <rect x="140" y="265" width="60" height="40" fill="#f5efe0" stroke="#5d4037" stroke-width="2"/>
+  <line x1="155" y1="280" x2="185" y2="280" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="155" y1="290" x2="180" y2="290" stroke="#3a3a3a" stroke-width="2"/>
+  <text x="170" y="335" text-anchor="middle" font-family="serif" font-size="22" font-weight="bold" fill="#7a3b14">苏轼题壁</text>
+  <text x="170" y="362" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">山中看不清</text>
+  <!-- 右珠：王安石炼字 -->
+  <circle cx="630" cy="300" r="110" fill="#8fb996" opacity="0.35" stroke="#3a7d44" stroke-width="3"/>
+  <text x="630" y="285" text-anchor="middle" font-family="serif" font-size="34" font-weight="bold" fill="#3a7d44">绿</text>
+  <text x="600" y="280" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">到过入满</text>
+  <line x1="600" y1="286" x2="610" y2="266" stroke="#c8553d" stroke-width="1.5"/>
+  <text x="630" y="335" text-anchor="middle" font-family="serif" font-size="22" font-weight="bold" fill="#7a3b14">王安石炼字</text>
+  <text x="630" y="362" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">一个字活全诗</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">苏轼题壁，和王安石一起炼字</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">好文章是改出来的，多读几遍换个词试试</text>
+</svg>

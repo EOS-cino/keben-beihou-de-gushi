@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="夕阳江面、庐山群峰与梅雪相映的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古诗三首</text>
+  <text x="400" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">暮江吟 · 题西林壁 · 雪梅</text>
+  <line x1="220" y1="95" x2="580" y2="95" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 暮江吟：夕阳江面 -->
+  <circle cx="130" cy="180" r="30" fill="#e8a04e"/>
+  <rect x="60" y="200" width="160" height="50" fill="#c8553d" opacity="0.4"/>
+  <rect x="60" y="250" width="160" height="50" fill="#9bb7c4" opacity="0.5"/>
+  <text x="140" y="330" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">暮江吟</text>
+  <!-- 题西林壁：庐山 -->
+  <polygon points="320,310 360,170 400,310" fill="#8a9a5b" opacity="0.8"/>
+  <polygon points="380,310 430,140 480,310" fill="#6b8e7f"/>
+  <polygon points="450,310 490,180 530,310" fill="#8a9a5b" opacity="0.8"/>
+  <text x="425" y="340" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">题西林壁</text>
+  <!-- 雪梅：梅与雪 -->
+  <rect x="600" y="180" width="160" height="140" fill="#e8eef2"/>
+  <line x1="640" y1="320" x2="660" y2="200" stroke="#5d4037" stroke-width="3"/>
+  <circle cx="650" cy="240" r="6" fill="#c8553d"/>
+  <circle cx="665" cy="220" r="6" fill="#c8553d"/>
+  <circle cx="645" cy="270" r="6" fill="#c8553d"/>
+  <circle cx="700" cy="210" r="3" fill="#ffffff" stroke="#9bb7c4"/>
+  <circle cx="720" cy="240" r="3" fill="#ffffff" stroke="#9bb7c4"/>
+  <circle cx="680" cy="270" r="3" fill="#ffffff" stroke="#9bb7c4"/>
+  <text x="680" y="350" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">雪梅</text>
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#7a3b14" stroke-width="1" opacity="0.3"/>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">横看成岭侧成峰，梅雪争春未肯降</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">写景 · 说理 · 比较</text>
+</svg>

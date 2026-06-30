@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="盲从与独立思考对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">为什么不能盲从</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">别人说的不一定对，大家都做的也不一定对</text>
+
+  <!-- 左：盲从 -->
+  <g>
+    <rect x="40" y="100" width="350" height="430" rx="12" fill="#fef0d8" opacity="0.6"/>
+    <text x="215" y="130" text-anchor="middle" font-family="serif" font-size="18" fill="#c84a3a" font-weight="bold">盲从：不问就跟着跑</text>
+
+    <!-- 一群人盲目跟着跑 -->
+    <g transform="translate(215,230)">
+      <!-- 第一个 -->
+      <g transform="translate(-90,0)">
+        <ellipse cx="0" cy="10" rx="12" ry="16" fill="#8d5a36"/>
+        <circle cx="0" cy="-12" r="10" fill="#f0c8a0"/>
+        <circle cx="-3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <circle cx="3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <ellipse cx="0" cy="-6" rx="2" ry="2.5" fill="#1a1a1a"/>
+        <path d="M-20 -5 L-13 -5 M-22 0 L-15 0" stroke="#8d5a36" stroke-width="1.5" opacity="0.5"/>
+      </g>
+      <!-- 第二个 -->
+      <g transform="translate(-45,5)">
+        <ellipse cx="0" cy="10" rx="12" ry="16" fill="#8d5a36"/>
+        <circle cx="0" cy="-12" r="10" fill="#f0c8a0"/>
+        <circle cx="-3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <circle cx="3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <ellipse cx="0" cy="-6" rx="2" ry="2.5" fill="#1a1a1a"/>
+      </g>
+      <!-- 第三个 -->
+      <g transform="translate(0,0)">
+        <ellipse cx="0" cy="10" rx="12" ry="16" fill="#8d5a36"/>
+        <circle cx="0" cy="-12" r="10" fill="#f0c8a0"/>
+        <circle cx="-3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <circle cx="3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <ellipse cx="0" cy="-6" rx="2" ry="2.5" fill="#1a1a1a"/>
+      </g>
+      <!-- 第四个 -->
+      <g transform="translate(45,5)">
+        <ellipse cx="0" cy="10" rx="12" ry="16" fill="#8d5a36"/>
+        <circle cx="0" cy="-12" r="10" fill="#f0c8a0"/>
+        <circle cx="-3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <circle cx="3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <ellipse cx="0" cy="-6" rx="2" ry="2.5" fill="#1a1a1a"/>
+      </g>
+      <!-- 第五个 -->
+      <g transform="translate(90,0)">
+        <ellipse cx="0" cy="10" rx="12" ry="16" fill="#8d5a36"/>
+        <circle cx="0" cy="-12" r="10" fill="#f0c8a0"/>
+        <circle cx="-3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <circle cx="3" cy="-12" r="1.5" fill="#1a1a1a"/>
+        <ellipse cx="0" cy="-6" rx="2" ry="2.5" fill="#1a1a1a"/>
+      </g>
+      <!-- 问号：不知道为什么跑 -->
+      <text x="-90" y="-30" text-anchor="middle" font-family="serif" font-size="20" fill="#c84a3a" font-weight="bold">?</text>
+      <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="20" fill="#c84a3a" font-weight="bold">?</text>
+      <text x="90" y="-30" text-anchor="middle" font-family="serif" font-size="20" fill="#c84a3a" font-weight="bold">?</text>
+    </g>
+
+    <!-- 盲从的后果 -->
+    <g font-family="serif" font-size="13" fill="#7a3b14">
+      <circle cx="70" cy="330" r="4" fill="#c84a3a"/>
+      <text x="82" y="334">不问原因就跟着做</text>
+      <circle cx="70" cy="360" r="4" fill="#c84a3a"/>
+      <text x="82" y="364">错误越传越广</text>
+      <circle cx="70" cy="390" r="4" fill="#c84a3a"/>
+      <text x="82" y="394">真相被埋没</text>
+      <circle cx="70" cy="420" r="4" fill="#c84a3a"/>
+      <text x="82" y="424">白跑一趟闹笑话</text>
+    </g>
+    <text x="215" y="490" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a" font-weight="bold">"大地是平的"错了几千年</text>
+    <text x="215" y="510" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">就是大家都这么说，没人验证</text>
+  </g>
+
+  <!-- 右：独立思考 -->
+  <g>
+    <rect x="410" y="100" width="350" height="430" rx="12" fill="#fef0d8" opacity="0.6"/>
+    <text x="585" y="130" text-anchor="middle" font-family="serif" font-size="18" fill="#6a8d3f" font-weight="bold">独立思考：先问为什么</text>
+
+    <!-- 一个人停下来思考 -->
+    <g transform="translate(585,230)">
+      <ellipse cx="0" cy="10" rx="14" ry="18" fill="#4a6a2f"/>
+      <circle cx="0" cy="-15" r="12" fill="#f0c8a0"/>
+      <!-- 思考的眼 -->
+      <circle cx="-4" cy="-15" r="2" fill="#1a1a1a"/>
+      <circle cx="4" cy="-15" r="2" fill="#1a1a1a"/>
+      <path d="M-3 -8 Q0 -6 3 -8" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 手摸下巴 -->
+      <line x1="10" y1="0" x2="6" y2="-5" stroke="#f0c8a0" stroke-width="4" stroke-linecap="round"/>
+      <!-- 思考气泡 -->
+      <circle cx="25" cy="-35" r="5" fill="#fef9ed" stroke="#6a8d3f" stroke-width="1.5"/>
+      <ellipse cx="45" cy="-50" rx="25" ry="15" fill="#fef9ed" stroke="#6a8d3f" stroke-width="1.5"/>
+      <text x="45" y="-46" text-anchor="middle" font-family="serif" font-size="12" fill="#6a8d3f" font-weight="bold">为什么？</text>
+    </g>
+
+    <!-- 独立思考的好处 -->
+    <g font-family="serif" font-size="13" fill="#7a3b14">
+      <circle cx="440" cy="330" r="4" fill="#6a8d3f"/>
+      <text x="452" y="334">先弄清楚再行动</text>
+      <circle cx="440" cy="360" r="4" fill="#6a8d3f"/>
+      <text x="452" y="364">不被谣言带偏</text>
+      <circle cx="440" cy="390" r="4" fill="#6a8d3f"/>
+      <text x="452" y="394">发现事情的真相</text>
+      <circle cx="440" cy="420" r="4" fill="#6a8d3f"/>
+      <text x="452" y="424">像野牛一样不慌</text>
+    </g>
+    <text x="585" y="490" text-anchor="middle" font-family="serif" font-size="14" fill="#6a8d3f" font-weight="bold">麦哲伦绕地球一圈</text>
+    <text x="585" y="510" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">亲自验证，证明大地是圆的</text>
+  </g>
+</svg>

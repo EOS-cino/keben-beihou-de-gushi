@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="传统游戏陀螺的历史插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">传统游戏的故事</text>
+  <line x1="300" y1="60" x2="500" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 时间轴主线 -->
+  <line x1="80" y1="320" x2="720" y2="320" stroke="#c8843a" stroke-width="4"/>
+  <circle cx="150" cy="320" r="10" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="350" cy="320" r="10" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="550" cy="320" r="10" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="700" cy="320" r="10" fill="#2d6a4f" stroke="#7a3b14" stroke-width="2"/>
+
+  <!-- 节点1：新石器时代石陀螺 -->
+  <g>
+    <rect x="70" y="120" width="160" height="170" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="6"/>
+    <text x="150" y="145" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">四千年前</text>
+    <!-- 石陀螺 -->
+    <ellipse cx="150" cy="200" rx="30" ry="12" fill="#8d8d8d" stroke="#5a5a5a" stroke-width="2"/>
+    <path d="M120 200 L150 250 L180 200 Z" fill="#a0a0a0" stroke="#5a5a5a" stroke-width="2"/>
+    <ellipse cx="150" cy="195" rx="26" ry="8" fill="#8d8d8d"/>
+    <!-- 石器纹理 -->
+    <circle cx="140" cy="198" r="2" fill="#5a5a5a"/>
+    <circle cx="160" cy="202" r="2" fill="#5a5a5a"/>
+    <text x="150" y="275" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">山西夏县出土</text>
+    <text x="150" y="290" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">石制陀螺</text>
+  </g>
+
+  <!-- 节点2：宋代宫廷千千 -->
+  <g>
+    <rect x="270" y="120" width="160" height="170" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="6"/>
+    <text x="350" y="145" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">宋代宫廷</text>
+    <!-- 象牙陀螺（白色精致） -->
+    <ellipse cx="350" cy="200" rx="28" ry="10" fill="#fff8e8" stroke="#c8a868" stroke-width="2"/>
+    <path d="M322 200 L350 245 L378 200 Z" fill="#fff0d0" stroke="#c8a868" stroke-width="2"/>
+    <ellipse cx="350" cy="195" rx="24" ry="7" fill="#fff8e8"/>
+    <!-- 装饰花纹 -->
+    <path d="M340 198 q10 -4 20 0" stroke="#c8a868" stroke-width="1" fill="none"/>
+    <text x="350" y="275" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">宫女比赛"千千"</text>
+    <text x="350" y="290" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">看谁转得久</text>
+  </g>
+
+  <!-- 节点3：民间木陀螺 -->
+  <g>
+    <rect x="470" y="120" width="160" height="170" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="6"/>
+    <text x="550" y="145" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">民间童年</text>
+    <!-- 木陀螺+鞭子 -->
+    <ellipse cx="540" cy="200" rx="26" ry="9" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M514 200 L540 240 L566 200 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="540" cy="195" rx="22" ry="6" fill="#c8843a"/>
+    <!-- 鞭子 -->
+    <path d="M566 200 q20 10 30 30 q5 10 -5 15" stroke="#5a3a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="550" y="275" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">又叫"抽汉奸"</text>
+    <text x="550" y="290" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">冬天冰面最爱</text>
+  </g>
+
+  <!-- 节点4：今天的陀螺 -->
+  <g>
+    <rect x="620" y="120" width="140" height="170" fill="#fff6df" stroke="#2d6a4f" stroke-width="2" rx="6"/>
+    <text x="690" y="145" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">今天</text>
+    <!-- 发光陀螺 -->
+    <ellipse cx="690" cy="200" rx="28" ry="10" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M662 200 L690 245 L718 200 Z" fill="#6ab0d8" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="690" cy="195" rx="24" ry="7" fill="#4a90b8"/>
+    <!-- 发光效果 -->
+    <circle cx="690" cy="195" r="4" fill="#ffffff" opacity="0.8"/>
+    <path d="M690 180 L690 170 M675 190 L665 185 M705 190 L715 185" stroke="#e8a838" stroke-width="2" stroke-linecap="round"/>
+    <text x="690" y="275" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">发光陀螺、指尖陀螺</text>
+  </g>
+
+  <!-- 其他传统游戏图标（底部） -->
+  <g>
+    <!-- 毽子 -->
+    <ellipse cx="130" cy="460" rx="14" ry="6" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M120 458 L110 440 M130 456 L130 435 M140 458 L150 440" stroke="#e8a838" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="130" y="490" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">踢毽子</text>
+
+    <!-- 铁环 -->
+    <circle cx="300" cy="455" r="20" fill="none" stroke="#5a5a5a" stroke-width="4"/>
+    <path d="M320 455 q15 5 20 15" stroke="#5a3a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="300" y="490" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">滚铁环</text>
+
+    <!-- 风筝 -->
+    <path d="M470 440 L500 410 L530 440 L500 470 Z" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M500 470 L500 500 M500 490 L490 495 M500 485 L510 490" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <text x="500" y="520" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">放风筝</text>
+
+    <!-- 弹弓 -->
+    <path d="M650 430 L640 460 M670 430 L680 460" stroke="#5a3a1a" stroke-width="3" fill="none"/>
+    <path d="M640 460 Q660 475 680 460" stroke="#8d5a36" stroke-width="2" fill="none"/>
+    <line x1="660" y1="430" x2="660" y2="415" stroke="#5a3a1a" stroke-width="3"/>
+    <text x="660" y="490" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">弹弓子</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">从四千年前的石陀螺到今天的发光陀螺</text>
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">简单的游戏里，藏着几千年都没变过的童年快乐</text>
+</svg>

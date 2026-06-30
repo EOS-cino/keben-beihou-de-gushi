@@ -1,0 +1,20 @@
+{
+  "name": "课文背后的故事",
+  "short_name": "课文故事",
+  "description": "面向小学生的语文课文背景故事网站，用故事、人物和时代背景激发阅读兴趣。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfaf3",
+  "theme_color": "#2d6a4f",
+  "orientation": "portrait-primary",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "books", "kids"]
+}

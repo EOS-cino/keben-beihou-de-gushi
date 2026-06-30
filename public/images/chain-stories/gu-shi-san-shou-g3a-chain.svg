@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：诗人眼里的三种秋色">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：诗人眼里的三种秋色</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">一场秋天的“画展”</text>
+  <g transform="translate(150,300)">
+    <rect x="-40" y="-40" width="80" height="90" fill="#cfe6c0" stroke="#5a8a3a" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#3a6b2a">清静</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="14" fill="#3a6b2a">王维</text>
+  </g>
+  <g transform="translate(320,300)">
+    <rect x="-40" y="-40" width="80" height="90" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">豪迈</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">刘禹锡</text>
+  </g>
+  <g transform="translate(490,300)">
+    <rect x="-40" y="-40" width="80" height="90" fill="#9aa8c0" stroke="#3a4a6a" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#3a4a6a">萧瑟</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="14" fill="#3a4a6a">马致远</text>
+  </g>
+  <g transform="translate(660,300)">
+    <rect x="-40" y="-40" width="80" height="90" fill="#c0392b" stroke="#7a1a1a" stroke-width="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#fff">热烈</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">杜牧</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">是看风景的人，给秋染上颜色</text>
+</svg>

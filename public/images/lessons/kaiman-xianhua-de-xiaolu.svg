@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一条开满鲜花的小路插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">开满鲜花的小路</text>
+  <line x1="270" y1="62" x2="530" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="260" fill="#a8d0e8" opacity="0.4"/>
+  <!-- 太阳 -->
+  <circle cx="120" cy="140" r="40" fill="#f4c842" opacity="0.8"/>
+  <circle cx="120" cy="140" r="28" fill="#f4a838"/>
+
+  <!-- 远山 -->
+  <path d="M0 320 L120 250 L240 290 L380 230 L520 280 L660 240 L800 290 L800 360 L0 360 Z" fill="#6a8d3f" opacity="0.4"/>
+
+  <!-- 草地 -->
+  <rect x="0" y="340" width="800" height="260" fill="#6a8d3f" opacity="0.35"/>
+
+  <!-- 小路 -->
+  <path d="M400 600 Q380 480 360 420 Q340 380 320 360 Q300 350 280 350" fill="none" stroke="#c8843a" stroke-width="60" stroke-linecap="round" opacity="0.6"/>
+  <path d="M400 600 Q380 480 360 420 Q340 380 320 360 Q300 350 280 350" fill="none" stroke="#d8b878" stroke-width="50" stroke-linecap="round"/>
+
+  <!-- 小屋 -->
+  <rect x="560" y="280" width="140" height="100" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M550 280 L630 220 L710 280 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="610" y="320" width="40" height="60" fill="#7a3b14"/>
+  <rect x="575" y="305" width="25" height="25" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+  <rect x="660" y="305" width="25" height="25" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+
+  <!-- 鲜花 - 路两旁 -->
+  <!-- 红花 -->
+  <g>
+    <circle cx="300" cy="400" r="12" fill="#c84a3a"/>
+    <circle cx="300" cy="400" r="5" fill="#f4c842"/>
+    <line x1="300" y1="412" x2="300" y2="445" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="460" cy="470" r="12" fill="#c84a3a"/>
+    <circle cx="460" cy="470" r="5" fill="#f4c842"/>
+    <line x1="460" y1="482" x2="460" y2="515" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <!-- 黄花 -->
+  <g>
+    <circle cx="340" cy="440" r="11" fill="#f4c842"/>
+    <circle cx="340" cy="440" r="4" fill="#7a3b14"/>
+    <line x1="340" y1="451" x2="340" y2="480" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="500" cy="520" r="11" fill="#f4c842"/>
+    <circle cx="500" cy="520" r="4" fill="#7a3b14"/>
+    <line x1="500" y1="531" x2="500" y2="560" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <!-- 粉花 -->
+  <g>
+    <circle cx="280" cy="470" r="11" fill="#e07856"/>
+    <circle cx="280" cy="470" r="4" fill="#f4c842"/>
+    <line x1="280" y1="481" x2="280" y2="510" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="420" cy="500" r="11" fill="#e07856"/>
+    <circle cx="420" cy="500" r="4" fill="#f4c842"/>
+    <line x1="420" y1="511" x2="420" y2="540" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <!-- 蓝花 -->
+  <g>
+    <circle cx="520" cy="430" r="11" fill="#7ab8d8"/>
+    <circle cx="520" cy="430" r="4" fill="#f4c842"/>
+    <line x1="520" y1="441" x2="520" y2="470" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="380" cy="530" r="11" fill="#7ab8d8"/>
+    <circle cx="380" cy="530" r="4" fill="#f4c842"/>
+    <line x1="380" y1="541" x2="380" y2="570" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <!-- 紫花 -->
+  <g>
+    <circle cx="240" cy="430" r="11" fill="#a878d8"/>
+    <circle cx="240" cy="430" r="4" fill="#f4c842"/>
+    <line x1="240" y1="441" x2="240" y2="470" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="560" cy="490" r="11" fill="#a878d8"/>
+    <circle cx="560" cy="490" r="4" fill="#f4c842"/>
+    <line x1="560" y1="501" x2="560" y2="530" stroke="#4a6a2f" stroke-width="3"/>
+  </g>
+
+  <!-- 草丛 -->
+  <path d="M200 560 Q205 540 210 560 M215 565 Q220 545 225 565" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+  <path d="M600 560 Q605 540 610 560 M615 565 Q620 545 625 565" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+
+  <!-- 鼹鼠先生 -->
+  <ellipse cx="430" cy="430" rx="22" ry="16" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <circle cx="450" cy="422" r="13" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <circle cx="446" cy="420" r="2" fill="#2a2a2a"/>
+  <circle cx="454" cy="420" r="2" fill="#2a2a2a"/>
+  <path d="M448 426 Q451 428 454 426" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 鼹鼠标注 -->
+  <line x1="440" y1="410" x2="440" y2="370" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="395" y="345" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="440" y="363" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">鼹鼠先生</text>
+
+  <!-- 花路标注 -->
+  <line x1="340" y1="430" x2="200" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="140" y="175" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="200" y="193" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">开满鲜花</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">花籽撒在小路上，春天一到，开满鲜花，这是长颈鹿大叔寄来的美好礼物</text>
+</svg>

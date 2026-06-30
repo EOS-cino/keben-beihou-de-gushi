@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="孙中山在私塾中向先生提问的求学场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">不懂就要问</text>
+  <line x1="340" y1="58" x2="460" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 私塾屋顶 -->
+  <path d="M100 130 L400 80 L700 130 L680 150 L400 105 L120 150 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M120 150 L400 105 L680 150" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+
+  <!-- 墙壁 -->
+  <rect x="120" y="150" width="560" height="380" fill="#f0e0c8" stroke="#7a3b14" stroke-width="2"/>
+
+  <!-- 窗户 -->
+  <rect x="160" y="180" width="80" height="90" fill="#a8d0e8" opacity="0.4" stroke="#7a3b14" stroke-width="1.5"/>
+  <line x1="200" y1="180" x2="200" y2="270" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="160" y1="225" x2="240" y2="225" stroke="#7a3b14" stroke-width="1"/>
+  <rect x="560" y="180" width="80" height="90" fill="#a8d0e8" opacity="0.4" stroke="#7a3b14" stroke-width="1.5"/>
+  <line x1="600" y1="180" x2="600" y2="270" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="560" y1="225" x2="640" y2="225" stroke="#7a3b14" stroke-width="1"/>
+
+  <!-- 书法挂轴 -->
+  <rect x="360" y="170" width="80" height="120" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+  <text x="400" y="210" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">学</text>
+  <text x="400" y="240" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">问</text>
+  <text x="400" y="270" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a">之道</text>
+
+  <!-- 先生（讲台后） -->
+  <g transform="translate(400, 340)">
+    <!-- 桌子 -->
+    <rect x="-80" y="40" width="160" height="12" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-75" y="52" width="8" height="50" fill="#8d5a36"/>
+    <rect x="67" y="52" width="8" height="50" fill="#8d5a36"/>
+    <!-- 戒尺 -->
+    <rect x="-60" y="34" width="50" height="6" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 书 -->
+    <rect x="20" y="30" width="35" height="10" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 身体 -->
+    <path d="M-30 40 Q-35 0 -30 -30 Q0 -40 30 -30 Q35 0 30 40 Z" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-50" r="20" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 帽子 -->
+    <path d="M-18 -55 Q-18 -72 0 -74 Q18 -72 18 -55" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-55" rx="22" ry="4" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 胡子 -->
+    <path d="M-8 -42 Q0 -35 8 -42" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 眼睛（惊讶） -->
+    <circle cx="-7" cy="-52" r="2.5" fill="#fff" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="7" cy="-52" r="2.5" fill="#fff" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-7" cy="-52" r="1" fill="#7a3b14"/>
+    <circle cx="7" cy="-52" r="1" fill="#7a3b14"/>
+    <!-- 嘴（微张） -->
+    <ellipse cx="0" cy="-43" rx="3" ry="2" fill="#7a3b14"/>
+  </g>
+
+  <!-- 孙中山（站起来提问） -->
+  <g transform="translate(200, 380)">
+    <!-- 身体（站立） -->
+    <path d="M-20 60 Q-25 20 -20 -10 Q0 -20 20 -10 Q25 20 20 60 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-25" r="16" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 辫子 -->
+    <path d="M14 -20 Q20 -10 18 5" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <!-- 眼睛（坚定） -->
+    <circle cx="-5" cy="-27" r="1.5" fill="#7a3b14"/>
+    <circle cx="5" cy="-27" r="1.5" fill="#7a3b14"/>
+    <!-- 嘴（说话） -->
+    <ellipse cx="0" cy="-19" rx="2.5" ry="2" fill="#7a3b14"/>
+    <!-- 手举书 -->
+    <path d="M-15 0 Q-30 -10 -35 -25" fill="none" stroke="#c84a3a" stroke-width="6" stroke-linecap="round"/>
+    <rect x="-45" y="-35" width="22" height="16" fill="#fff6df" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="-40" y1="-30" x2="-28" y2="-30" stroke="#7a3b14" stroke-width="0.5"/>
+    <line x1="-40" y1="-26" x2="-28" y2="-26" stroke="#7a3b14" stroke-width="0.5"/>
+    <!-- 另一只手（指书） -->
+    <path d="M15 0 Q25 -5 30 -15" fill="none" stroke="#c84a3a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="31" cy="-17" r="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 其他学生（低头念书） -->
+  <g transform="translate(600, 400)">
+    <ellipse cx="0" cy="20" rx="25" ry="30" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-15" r="14" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-12 -10 Q-12 -25 0 -27 Q12 -25 12 -10" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 低头眼睛 -->
+    <path d="M-6 -14 Q-4 -12 -2 -14" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M2 -14 Q4 -12 6 -14" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 书 -->
+    <rect x="-18" y="15" width="36" height="12" fill="#fff6df" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <g transform="translate(670, 410)">
+    <ellipse cx="0" cy="20" rx="22" ry="28" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-12" r="13" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-15" y="12" width="30" height="10" fill="#fff6df" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 对话气泡 -->
+  <path d="M180 330 Q160 300 175 280 Q200 265 230 275 Q245 260 260 270 Q275 285 265 305 Q275 325 255 335 Q220 345 195 340 Z" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="215" y="300" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">先生，这段话</text>
+  <text x="215" y="318" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">是什么意思？</text>
+
+  <!-- 标注：学问学问 -->
+  <rect x="250" y="500" width="300" height="36" fill="#fff6df" stroke="#c8843a" rx="6"/>
+  <text x="400" y="524" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">学问学问，不懂就要问</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">孙中山在私塾里壮着胆子提问——好问，是学习的第一步</text>
+</svg>

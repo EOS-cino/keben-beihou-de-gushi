@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="颐和园长廊和昆明湖插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">颐和园</text>
+  <line x1="330" y1="62" x2="470" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="200" fill="#e8f0f8" opacity="0.3"/>
+  <!-- 远山（西山） -->
+  <path d="M0 250 L80 190 L160 220 L260 170 L360 210 L460 180 L560 215 L660 185 L760 210 L800 200 L800 280 L0 280 Z" fill="#b8c8c0" opacity="0.4"/>
+
+  <!-- 万寿山和佛香阁 -->
+  <g transform="translate(550, 0)">
+    <!-- 山 -->
+    <path d="M-100 280 L-50 150 L0 100 L50 150 L100 280 Z" fill="#c8dcc8" stroke="#7a3b14" stroke-width="2" opacity="0.6"/>
+    <!-- 佛香阁 -->
+    <g transform="translate(0, 120)">
+      <!-- 基座 -->
+      <rect x="-35" y="40" width="70" height="15" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+      <!-- 一层 -->
+      <rect x="-30" y="15" width="60" height="25" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 屋顶 -->
+      <path d="M-38 15 L0 -5 L38 15 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 二层 -->
+      <rect x="-25" y="-15" width="50" height="12" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-32 -15 L0 -30 L32 -15 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 顶层 -->
+      <rect x="-18" y="-35" width="36" height="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-22 -35 L0 -48 L22 -35 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 尖顶 -->
+      <line x1="0" y1="-48" x2="0" y2="-58" stroke="#7a3b14" stroke-width="2"/>
+      <circle cx="0" cy="-58" r="3" fill="#e8a838"/>
+    </g>
+    <!-- 树 -->
+    <circle cx="-70" cy="220" r="15" fill="#2d6a4f" opacity="0.6"/>
+    <circle cx="70" cy="225" r="12" fill="#3d8a5f" opacity="0.6"/>
+    <circle cx="-80" cy="240" r="10" fill="#2d6a4f" opacity="0.5"/>
+  </g>
+
+  <!-- 昆明湖 -->
+  <rect x="0" y="350" width="800" height="120" fill="#a8d0e8" opacity="0.4"/>
+  <rect x="0" y="350" width="800" height="120" fill="#7ab8d8" opacity="0.2"/>
+  <!-- 水波纹 -->
+  <path d="M0 380 Q100 375 200 380 Q300 385 400 380 Q500 375 600 380 Q700 385 800 380" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0 410 Q120 405 240 410 Q360 415 480 410 Q600 405 720 410 Q780 412 800 410" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+  <!-- 倒影 -->
+  <rect x="500" y="350" width="100" height="40" fill="#e07856" opacity="0.1"/>
+
+  <!-- 长廊 -->
+  <g transform="translate(200, 350)">
+    <!-- 廊顶 -->
+    <path d="M-120 0 L-130 -15 L130 -15 L120 0 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-130 -15 L0 -25 L130 -15" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 柱子 -->
+    <rect x="-115" y="0" width="6" height="40" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="-80" y="0" width="6" height="40" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="-40" y="0" width="6" height="40" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="0" y="0" width="6" height="40" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="40" y="0" width="6" height="40" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="80" y="0" width="6" height="40" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="110" y="0" width="6" height="40" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 栏杆 -->
+    <rect x="-120" y="35" width="240" height="5" fill="#c84030" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 彩画（梁上） -->
+    <rect x="-115" y="-12" width="30" height="10" fill="#4a90b8" opacity="0.5"/>
+    <rect x="-80" y="-12" width="35" height="10" fill="#e07856" opacity="0.5"/>
+    <rect x="-40" y="-12" width="40" height="10" fill="#2d6a4f" opacity="0.5"/>
+    <rect x="5" y="-12" width="35" height="10" fill="#e8a838" opacity="0.5"/>
+    <rect x="45" y="-12" width="35" height="10" fill="#4a90b8" opacity="0.5"/>
+    <rect x="85" y="-12" width="30" height="10" fill="#e07856" opacity="0.5"/>
+  </g>
+
+  <!-- 十七孔桥 -->
+  <g transform="translate(500, 430)">
+    <!-- 桥面 -->
+    <path d="M-100 0 Q-60 -20 0 -25 Q60 -20 100 0" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M-100 0 Q-60 -20 0 -25 Q60 -20 100 0 L100 5 Q60 -15 0 -20 Q-60 -15 -100 5 Z" fill="#d4a574" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 桥洞 -->
+    <path d="M-90 0 Q-85 -12 -75 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-70 0 Q-65 -14 -55 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-50 0 Q-45 -16 -35 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-30 0 Q-25 -18 -15 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-10 0 Q-5 -20 5 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M10 0 Q15 -20 25 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M30 0 Q35 -18 45 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M50 0 Q55 -16 65 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M70 0 Q75 -14 85 0" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 栏杆上的小石狮 -->
+    <circle cx="-60" cy="-18" r="2" fill="#7a3b14"/>
+    <circle cx="-20" cy="-24" r="2" fill="#7a3b14"/>
+    <circle cx="20" cy="-24" r="2" fill="#7a3b14"/>
+    <circle cx="60" cy="-18" r="2" fill="#7a3b14"/>
+  </g>
+
+  <!-- 标注：长廊 -->
+  <line x1="200" y1="335" x2="150" y2="290" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="90" y="268" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="140" y="285" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">长廊·彩画</text>
+
+  <!-- 标注：佛香阁 -->
+  <line x1="550" y1="120" x2="620" y2="90" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="590" y="68" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="640" y="85" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">佛香阁</text>
+
+  <!-- 标注：十七孔桥 -->
+  <line x1="500" y1="415" x2="430" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="350" y="358" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="375" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">十七孔桥</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">长廊、万寿山、昆明湖、十七孔桥——移步换景，走进皇家园林的巧妙设计</text>
+</svg>

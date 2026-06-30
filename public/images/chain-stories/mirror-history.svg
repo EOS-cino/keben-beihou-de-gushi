@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="镜子发展历史插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：镜子的历史</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 时间线 -->
+  <line x1="80" y1="300" x2="720" y2="300" stroke="#8d5a36" stroke-width="3"/>
+
+  <!-- 阶段1：水面（公元前6000年） -->
+  <g>
+    <circle cx="120" cy="300" r="8" fill="#7ab8d8"/>
+    <rect x="60" y="160" width="120" height="120" fill="#fff6df" stroke="#7ab8d8" rx="6"/>
+    <text x="120" y="180" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7ab8d8">水面</text>
+    <text x="120" y="194" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">公元前6000年</text>
+    <!-- 水盆 -->
+    <ellipse cx="120" cy="240" rx="35" ry="8" fill="#7ab8d8" opacity="0.5"/>
+    <path d="M85 235 Q85 255 120 258 Q155 255 155 235" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 倒影 -->
+    <ellipse cx="120" cy="245" rx="10" ry="6" fill="#8d5a36" opacity="0.2"/>
+    <text x="120" y="275" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">"鉴"=盛水盆</text>
+  </g>
+
+  <!-- 阶段2：黑曜石镜 -->
+  <g>
+    <circle cx="280" cy="300" r="8" fill="#5a3a1a"/>
+    <rect x="220" y="160" width="120" height="120" fill="#fff6df" stroke="#5a3a1a" rx="6"/>
+    <text x="280" y="180" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#5a3a1a">黑曜石镜</text>
+    <text x="280" y="194" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">土耳其出土</text>
+    <!-- 黑曜石 -->
+    <ellipse cx="280" cy="240" rx="28" ry="22" fill="#2a2a2a" stroke="#5a3a1a" stroke-width="2"/>
+    <ellipse cx="275" cy="235" rx="15" ry="10" fill="#3a3a3a" opacity="0.5"/>
+    <text x="280" y="275" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">火山玻璃打磨</text>
+  </g>
+
+  <!-- 阶段3：铜镜 -->
+  <g>
+    <circle cx="440" cy="300" r="8" fill="#c8843a"/>
+    <rect x="380" y="160" width="120" height="120" fill="#fff6df" stroke="#c8843a" rx="6"/>
+    <text x="440" y="180" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#c8843a">铜镜</text>
+    <text x="440" y="194" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">商周至清代·两千年</text>
+    <!-- 铜镜 -->
+    <circle cx="440" cy="240" r="25" fill="#c8843a" stroke="#8d5a36" stroke-width="2"/>
+    <circle cx="440" cy="240" r="18" fill="#d49a4a"/>
+    <g fill="none" stroke="#8d5a36" stroke-width="1" opacity="0.5">
+      <circle cx="440" cy="240" r="12"/>
+      <circle cx="440" cy="240" r="6"/>
+    </g>
+    <circle cx="440" cy="240" r="3" fill="#8d5a36"/>
+    <text x="440" y="275" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">需常打磨·照不清</text>
+  </g>
+
+  <!-- 阶段4：威尼斯玻璃镜 -->
+  <g>
+    <circle cx="600" cy="300" r="8" fill="#a8d0e8"/>
+    <rect x="540" y="160" width="120" height="120" fill="#fff6df" stroke="#a8d0e8" rx="6"/>
+    <text x="600" y="180" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#7ab8d8">玻璃镜</text>
+    <text x="600" y="194" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">15世纪·威尼斯</text>
+    <!-- 玻璃镜 -->
+    <rect x="575" y="220" width="50" height="40" fill="#e8f0f8" stroke="#7ab8d8" stroke-width="2" rx="2"/>
+    <path d="M580 225 L595 225 L585 240 L575 240 Z" fill="#fff" opacity="0.5"/>
+    <text x="600" y="275" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">贴锡箔·比黄金贵</text>
+  </g>
+
+  <!-- 阶段5：镀银镜 -->
+  <g>
+    <circle cx="720" cy="300" r="8" fill="#6a8d3f"/>
+    <rect x="660" y="340" width="120" height="120" fill="#fff6df" stroke="#6a8d3f" rx="6"/>
+    <text x="720" y="360" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#4a6a2f">镀银镜</text>
+    <text x="720" y="374" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">1835年·李比希</text>
+    <!-- 现代镜 -->
+    <rect x="690" y="385" width="60" height="50" fill="#e8f0f8" stroke="#8d5a36" stroke-width="2" rx="2"/>
+    <path d="M695 390 L715 390 L700 410 L685 410 Z" fill="#fff" opacity="0.5"/>
+    <!-- 银层示意 -->
+    <rect x="690" y="430" width="60" height="5" fill="#c8c8c8"/>
+    <text x="720" y="455" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">便宜·走进千家万户</text>
+  </g>
+
+  <!-- 时间标注 -->
+  <text x="120" y="330" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">BC6000</text>
+  <text x="280" y="330" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">BC6000</text>
+  <text x="440" y="330" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">BC1500</text>
+  <text x="600" y="330" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">1500年代</text>
+
+  <!-- 底部名言 -->
+  <g>
+    <rect x="100" y="400" width="500" height="56" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="350" y="422" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">以铜为镜，可以正衣冠</text>
+    <text x="350" y="440" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">以古为镜，可以知兴替；以人为镜，可以明得失</text>
+    <text x="350" y="455" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">——唐太宗李世民</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从水面到黑曜石到铜镜到玻璃镀银——镜子越来越清楚，人类越来越智慧</text>
+</svg>

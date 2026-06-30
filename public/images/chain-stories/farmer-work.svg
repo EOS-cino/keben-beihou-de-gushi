@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="守株待兔与勤劳耕作对比">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：等待和劳动的区别</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <line x1="400" y1="80" x2="400" y2="520" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.5"/>
+
+  <!-- 左侧：守株待兔 -->
+  <rect x="0" y="450" width="400" height="70" fill="#c8b890" opacity="0.4"/>
+  <path d="M 0 460 Q 50 455 100 460 Q 150 465 200 458 Q 250 452 300 460 Q 350 465 400 458" fill="none" stroke="#a08060" stroke-width="1" opacity="0.3"/>
+
+  <!-- 树桩 -->
+  <g transform="translate(180, 420)">
+    <ellipse cx="0" cy="0" rx="35" ry="12" fill="#8b6914" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-30" y="0" width="60" height="35" fill="#a08060" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="28" ry="9" fill="none" stroke="#7a3b14" stroke-width="1" opacity="0.4"/>
+    <ellipse cx="0" cy="0" rx="20" ry="6" fill="none" stroke="#7a3b14" stroke-width="1" opacity="0.4"/>
+    <ellipse cx="0" cy="0" rx="12" ry="4" fill="none" stroke="#7a3b14" stroke-width="1" opacity="0.4"/>
+    <line x1="-25" y1="5" x2="-25" y2="30" stroke="#7a3b14" stroke-width="0.8" opacity="0.3"/>
+    <line x1="-10" y1="5" x2="-10" y2="30" stroke="#7a3b14" stroke-width="0.8" opacity="0.3"/>
+    <line x1="10" y1="5" x2="10" y2="30" stroke="#7a3b14" stroke-width="0.8" opacity="0.3"/>
+    <line x1="25" y1="5" x2="25" y2="30" stroke="#7a3b14" stroke-width="0.8" opacity="0.3"/>
+  </g>
+  <!-- 枯树枝 -->
+  <path d="M 180 420 L 180 380 M 180 395 L 165 375 M 180 390 L 195 370 M 180 400 L 155 390 M 180 400 L 205 388" fill="none" stroke="#7a3b14" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 等待的农夫 -->
+  <g transform="translate(100, 380)">
+    <path d="M -15 70 Q -20 40 -15 20 Q -10 5 0 0 Q 10 5 15 20 Q 20 40 15 70" fill="#8b6914" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-15" r="16" fill="#e8c4a0" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="-25" rx="28" ry="6" fill="#d4a868" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M -18 -25 Q -18 -35 0 -37 Q 18 -35 18 -25" fill="#c89858" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M -8 -17 Q -5 -15 -2 -17" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M 2 -17 Q 5 -15 8 -17" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="-3" y1="-8" x2="3" y2="-8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M -15 25 Q -25 35 -20 50" fill="none" stroke="#8b6914" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 15 25 Q 25 35 20 50" fill="none" stroke="#8b6914" stroke-width="8" stroke-linecap="round"/>
+    <path d="M -10 70 L -20 90 L -15 95" fill="none" stroke="#3a2010" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 10 70 L 20 90 L 25 95" fill="none" stroke="#3a2010" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 兔子没来标志 -->
+  <g transform="translate(265, 400)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#c8504a" stroke-width="2.5"/>
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="#c8504a" stroke-width="2.5"/>
+    <ellipse cx="0" cy="2" rx="8" ry="6" fill="#e0d0c0" opacity="0.4" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="-4" cy="-5" rx="2" ry="5" fill="#e0d0c0" opacity="0.4"/>
+    <ellipse cx="4" cy="-5" rx="2" ry="5" fill="#e0d0c0" opacity="0.4"/>
+  </g>
+  <text x="265" y="435" text-anchor="middle" font-size="12" fill="#c8504a" font-family="serif">兔子没来</text>
+
+  <!-- 右侧：勤劳耕种 -->
+  <rect x="400" y="440" width="400" height="80" fill="#a0c060" opacity="0.3"/>
+  <path d="M 420 460 Q 500 455 580 460 Q 660 465 740 458" fill="none" stroke="#7a5a3a" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 420 480 Q 500 475 580 480 Q 660 485 740 478" fill="none" stroke="#7a5a3a" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- 茂盛庄稼 -->
+  <g>
+    <g transform="translate(450, 440)"><path d="M 0 0 L -2 -20 M 0 0 L 0 -25 M 0 0 L 2 -20" stroke="#5a8a3a" stroke-width="2" stroke-linecap="round"/><ellipse cx="0" cy="-25" rx="3" ry="6" fill="#6a9a4a" stroke="#7a3b14" stroke-width="0.5"/></g>
+    <g transform="translate(490, 440)"><path d="M 0 0 L -2 -20 M 0 0 L 0 -25 M 0 0 L 2 -20" stroke="#5a8a3a" stroke-width="2" stroke-linecap="round"/><ellipse cx="0" cy="-25" rx="3" ry="6" fill="#6a9a4a" stroke="#7a3b14" stroke-width="0.5"/></g>
+    <g transform="translate(530, 440)"><path d="M 0 0 L -2 -20 M 0 0 L 0 -25 M 0 0 L 2 -20" stroke="#5a8a3a" stroke-width="2" stroke-linecap="round"/><ellipse cx="0" cy="-25" rx="3" ry="6" fill="#6a9a4a" stroke="#7a3b14" stroke-width="0.5"/></g>
+    <g transform="translate(680, 440)"><path d="M 0 0 L -2 -20 M 0 0 L 0 -25 M 0 0 L 2 -20" stroke="#5a8a3a" stroke-width="2" stroke-linecap="round"/><ellipse cx="0" cy="-25" rx="3" ry="6" fill="#6a9a4a" stroke="#7a3b14" stroke-width="0.5"/></g>
+    <g transform="translate(720, 440)"><path d="M 0 0 L -2 -20 M 0 0 L 0 -25 M 0 0 L 2 -20" stroke="#5a8a3a" stroke-width="2" stroke-linecap="round"/><ellipse cx="0" cy="-25" rx="3" ry="6" fill="#6a9a4a" stroke="#7a3b14" stroke-width="0.5"/></g>
+    <g transform="translate(760, 440)"><path d="M 0 0 L -2 -20 M 0 0 L 0 -25 M 0 0 L 2 -20" stroke="#5a8a3a" stroke-width="2" stroke-linecap="round"/><ellipse cx="0" cy="-25" rx="3" ry="6" fill="#6a9a4a" stroke="#7a3b14" stroke-width="0.5"/></g>
+  </g>
+
+  <!-- 劳作的农夫 -->
+  <g transform="translate(600, 370)">
+    <path d="M -15 70 Q -25 40 -20 15 Q -15 0 -5 -5 Q 5 0 15 15 Q 25 40 20 70" fill="#5a7a3a" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-20" r="16" fill="#e8c4a0" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="-30" rx="28" ry="6" fill="#d4a868" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M -18 -30 Q -18 -40 0 -42 Q 18 -40 18 -30" fill="#c89858" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-5" cy="-20" r="2" fill="#7a3b14"/>
+    <circle cx="5" cy="-20" r="2" fill="#7a3b14"/>
+    <path d="M -4 -10 Q 0 -8 4 -10" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="-18" cy="-18" rx="2" ry="4" fill="#6db3d4" opacity="0.7"/>
+    <path d="M -15 15 Q -30 25 -40 40" fill="none" stroke="#5a7a3a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 15 15 Q 30 25 35 35" fill="none" stroke="#5a7a3a" stroke-width="8" stroke-linecap="round"/>
+    <line x1="-40" y1="40" x2="20" y2="55" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M 15 50 L 30 45 L 35 60 L 20 62 Z" fill="#a0a0a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M -10 70 L -15 95" stroke="#3a2010" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 10 70 L 15 95" stroke="#3a2010" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 丰收篮子 -->
+  <g transform="translate(730, 430)">
+    <path d="M -15 0 L -12 25 L 12 25 L 15 0" fill="#d4a868" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="15" ry="4" fill="#c89858" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-2" rx="12" ry="3" fill="#e8c840" opacity="0.8"/>
+    <circle cx="-5" cy="-4" r="2" fill="#e8c840"/>
+    <circle cx="3" cy="-5" r="2" fill="#e8c840"/>
+    <circle cx="7" cy="-3" r="2" fill="#e8c840"/>
+  </g>
+
+  <!-- 标注：空等无获 -->
+  <line x1="100" y1="380" x2="80" y2="280" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="15" y="250" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="85" y="270" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">空等无获</text>
+
+  <!-- 标注：勤劳耕种 -->
+  <line x1="600" y1="370" x2="560" y2="280" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="485" y="250" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="555" y="270" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">勤劳耕种</text>
+
+  <!-- 标注：丰收 -->
+  <line x1="730" y1="430" x2="700" y2="500" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="630" y="500" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="700" y="520" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">丰收</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">守株待兔终将空手而归，勤劳耕种方能迎来丰收——等待与劳动，结局截然不同。</text>
+</svg>

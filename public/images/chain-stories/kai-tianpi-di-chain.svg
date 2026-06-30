@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各民族创世神话对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：世界怎样开始</text>
+  <line x1="220" y1="55" x2="580" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 三段分隔线 -->
+  <line x1="267" y1="80" x2="267" y2="520" stroke="#e8a838" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.4"/>
+  <line x1="533" y1="80" x2="533" y2="520" stroke="#e8a838" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.4"/>
+
+  <!-- 区域底色 -->
+  <rect x="10" y="80" width="247" height="380" fill="#e8a838" opacity="0.08"/>
+  <rect x="277" y="80" width="246" height="380" fill="#4a90b8" opacity="0.08"/>
+  <rect x="543" y="80" width="247" height="380" fill="#2d6a4f" opacity="0.08"/>
+
+  <!-- 第一区：盘古开天（中国） -->
+  <g transform="translate(133, 280)">
+    <!-- 混沌蛋 -->
+    <ellipse cx="0" cy="0" rx="60" ry="75" fill="none" stroke="#7a3b14" stroke-width="2" stroke-dasharray="4,3" opacity="0.4"/>
+    <!-- 天 -->
+    <path d="M -55 -20 Q 0 -60 55 -20 Q 55 -35 0 -50 Q -55 -35 -55 -20 Z" fill="#4a90b8" opacity="0.4" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 地 -->
+    <path d="M -55 30 Q 0 70 55 30 Q 55 45 0 60 Q -55 45 -55 30 Z" fill="#c8a878" opacity="0.5" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 巨人 -->
+    <path d="M -12 40 Q -15 5 -12 -25 Q -8 -40 0 -43 Q 8 -40 12 -25 Q 15 5 12 40" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-55" r="16" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-5" cy="-57" r="2" fill="#7a3b14"/>
+    <circle cx="5" cy="-57" r="2" fill="#7a3b14"/>
+    <path d="M -12 -25 Q -30 -50 -25 -75" fill="none" stroke="#e07856" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 12 -25 Q 30 -15 25 15" fill="none" stroke="#e07856" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 第二区：北欧尤弥尔 -->
+  <g transform="translate(400, 280)">
+    <!-- 冰原 -->
+    <ellipse cx="0" cy="80" rx="75" ry="22" fill="#4a90b8" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 巨人 -->
+    <path d="M -18 80 Q -22 30 -18 -10 Q -14 -30 0 -35 Q 14 -30 18 -10 Q 22 30 18 80" fill="#2d6a4f" opacity="0.6" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-50" r="18" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-6" cy="-52" r="2" fill="#7a3b14"/>
+    <circle cx="6" cy="-52" r="2" fill="#7a3b14"/>
+    <path d="M -5 -42 Q 0 -38 5 -42" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 化生：山、海、天 -->
+    <path d="M -55 60 L -40 40 L -25 60 Z" fill="#6a4220" opacity="0.6"/>
+    <text x="-40" y="78" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">山</text>
+    <path d="M 25 65 Q 35 60 45 65 Q 50 68 45 72 Q 35 75 25 72 Z" fill="#4a90b8" opacity="0.5"/>
+    <text x="40" y="82" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">海</text>
+    <!-- 雪花 -->
+    <g stroke="#4a90b8" stroke-width="1.5" opacity="0.6">
+      <line x1="-40" y1="-70" x2="-40" y2="-85"/>
+      <line x1="-45" y1="-75" x2="-35" y2="-75"/>
+      <line x1="40" y1="-65" x2="40" y2="-80"/>
+      <line x1="35" y1="-72" x2="45" y2="-72"/>
+    </g>
+  </g>
+
+  <!-- 第三区：印度金蛋 -->
+  <g transform="translate(666, 280)">
+    <!-- 金蛋 -->
+    <ellipse cx="0" cy="20" rx="55" ry="70" fill="#e8a838" opacity="0.5" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="20" rx="40" ry="55" fill="#e8a838" opacity="0.4" stroke="#c88820" stroke-width="1.5"/>
+    <!-- 裂缝 -->
+    <path d="M 0 -45 Q -5 0 0 45 Q 5 80 0 90" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 光芒 -->
+    <g stroke="#e8a838" stroke-width="2" opacity="0.6">
+      <line x1="0" y1="-55" x2="0" y2="-70"/>
+      <line x1="-50" y1="-20" x2="-65" y2="-25"/>
+      <line x1="50" y1="-20" x2="65" y2="-25"/>
+      <line x1="-40" y1="60" x2="-52" y2="70"/>
+      <line x1="40" y1="60" x2="52" y2="70"/>
+    </g>
+    <!-- 飞出的神鸟/光 -->
+    <path d="M 0 -45 Q 20 -60 35 -70 Q 25 -55 15 -50" fill="#e07856" opacity="0.7" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 标注 -->
+  <rect x="73" y="120" width="120" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="133" y="139" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">中国·盘古</text>
+
+  <rect x="340" y="120" width="120" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="400" y="139" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">北欧·尤弥尔</text>
+
+  <rect x="606" y="120" width="120" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="666" y="139" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">印度·金蛋</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">不同文明用各自的方式想象世界起源——神话用想象讲"为什么"，科学用证据讲"怎么样"。</text>
+</svg>

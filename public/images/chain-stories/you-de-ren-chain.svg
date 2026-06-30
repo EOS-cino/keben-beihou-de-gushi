@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="臧克家与鲁迅插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：臧克家与鲁迅</text>
+  <line x="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左侧：臧克家·农民诗人 -->
+  <g transform="translate(170, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">臧克家·农民诗人</text>
+    <!-- 臧克家 -->
+    <g transform="translate(0, -40)">
+      <circle cx="0" cy="0" r="16" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M-10 -6 Q0 -14 10 -6" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+      <circle cx="-5" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <circle cx="5" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <path d="M-3 5 Q0 7 3 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-16 16 L-20 55 L20 55 L16 16 Z" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 老马 -->
+    <g transform="translate(-30, 30)">
+      <ellipse cx="0" cy="0" rx="18" ry="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="-18" cy="-3" rx="7" ry="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-22 -8 L-24 -12 L-20 -10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-15 -8 L-13 -12 L-11 -8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <line x1="-10" y1="8" x2="-10" y2="18" stroke="#5a4a2a" stroke-width="2.5"/>
+      <line x1="-3" y1="8" x2="-3" y2="18" stroke="#5a4a2a" stroke-width="2.5"/>
+      <line x1="8" y1="8" x2="8" y2="18" stroke="#5a4a2a" stroke-width="2.5"/>
+      <line x1="15" y1="8" x2="15" y2="18" stroke="#5a4a2a" stroke-width="2.5"/>
+      <!-- 低头 -->
+      <path d="M-22 2 Q-26 5 -24 8" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"总得叫大车装个够"</text>
+    <text x="0" y="76" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"它横竖不说一句话"</text>
+    <text x="0" y="93" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">——老马即农民</text>
+  </g>
+
+  <!-- 中间：鲁迅精神 -->
+  <g transform="translate(400, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#c84a3a">鲁迅精神</text>
+    <!-- 名句 -->
+    <rect x="-100" y="-60" width="200" height="55" fill="#fff6df" stroke="#c84a3a" stroke-width="2" rx="6"/>
+    <text x="0" y="-40" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">横眉冷对千夫指</text>
+    <text x="0" y="-22" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">俯首甘为孺子牛</text>
+    <!-- 两面 -->
+    <g transform="translate(-50, 15)">
+      <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#e07856">对敌人</text>
+      <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#e07856">横眉怒目</text>
+      <text x="0" y="33" text-anchor="middle" font-family="serif" font-size="11" fill="#e07856">勇敢战斗</text>
+    </g>
+    <line x1="0" y1="10" x2="0" y2="40" stroke="#c8843a" stroke-width="1.5"/>
+    <g transform="translate(50, 15)">
+      <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#2d6a4f">对人民</text>
+      <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">俯首为牛</text>
+      <text x="0" y="33" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">甘心奉献</text>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">灵柩覆盖"民族魂"</text>
+  </g>
+
+  <!-- 右侧：纪念与传承 -->
+  <g transform="translate(630, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">纪念与传承</text>
+    <!-- 鲁迅像 -->
+    <g transform="translate(0, -40)">
+      <circle cx="0" cy="0" r="16" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 鲁迅标志性的胡子 -->
+      <path d="M-8 4 Q-6 10 -4 8" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+      <path d="M8 4 Q6 10 4 8" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+      <path d="M-4 6 Q0 8 4 6" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+      <circle cx="-5" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <circle cx="5" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <path d="M-16 16 L-20 55 L20 55 L16 16 Z" fill="#4a4060" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 笔（武器） -->
+    <line x1="15" y1="20" x2="25" y2="5" stroke="#7a3b14" stroke-width="2.5"/>
+    <path d="M25 5 L28 0 L30 3 L27 8 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">1936年逝世</text>
+    <text x="0" y="56" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">十三年后</text>
+    <text x="0" y="72" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">臧克家写诗纪念</text>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">"他还活着"</text>
+  </g>
+
+  <!-- 下方：核心精神 -->
+  <g transform="translate(400, 430)">
+    <rect x="-280" y="0" width="560" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">臧克家学鲁迅的精神：关注底层人民，批判社会不公</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">鲁迅用笔做武器，臧克家用诗写农民——都是"俯身为人民"的人</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">臧克家与鲁迅：一个写诗纪念，一个用笔战斗——都是为人民活着的人</text>
+</svg>

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="后羿拉弓射日的神话场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">羿射九日</text>
+  <line x="320" y1="56" x2="480" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空（被烤红） -->
+  <rect x="0" y="80" width="800" height="300" fill="#f5d8a8" opacity="0.5"/>
+  <!-- 热浪 -->
+  <g stroke="#e07856" stroke-width="1.5" stroke-linecap="round" opacity="0.3">
+    <path d="M100 150 Q105 140 100 130"/>
+    <path d="M300 140 Q305 130 300 120"/>
+    <path d="M600 150 Q605 140 600 130"/>
+  </g>
+
+  <!-- 十个太阳（九个被射落+一个留下） -->
+  <!-- 太阳1-3（被射落，带箭） -->
+  <g transform="translate(120,140)">
+    <circle cx="0" cy="0" r="20" fill="#e07856" opacity="0.5"/>
+    <circle cx="0" cy="0" r="15" fill="#c84a3a" opacity="0.4"/>
+    <!-- 箭 -->
+    <line x1="-25" y1="-10" x2="15" y2="5" stroke="#8d5a36" stroke-width="2"/>
+    <path d="M15 5 L10 0 M15 5 L10 10" stroke="#8d5a36" stroke-width="1.5" fill="none"/>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">射落</text>
+  </g>
+  <g transform="translate(220,110)">
+    <circle cx="0" cy="0" r="20" fill="#e07856" opacity="0.5"/>
+    <circle cx="0" cy="0" r="15" fill="#c84a3a" opacity="0.4"/>
+    <line x1="-25" y1="5" x2="15" y2="-5" stroke="#8d5a36" stroke-width="2"/>
+    <path d="M15 -5 L10 -10 M15 -5 L10 0" stroke="#8d5a36" stroke-width="1.5" fill="none"/>
+  </g>
+  <g transform="translate(320,130)">
+    <circle cx="0" cy="0" r="20" fill="#e07856" opacity="0.5"/>
+    <circle cx="0" cy="0" r="15" fill="#c84a3a" opacity="0.4"/>
+    <line x1="-25" y1="-8" x2="15" y2="8" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+  <!-- 太阳4-6（被射落） -->
+  <g transform="translate(420,120)">
+    <circle cx="0" cy="0" r="20" fill="#e07856" opacity="0.5"/>
+    <circle cx="0" cy="0" r="15" fill="#c84a3a" opacity="0.4"/>
+    <line x1="-25" y1="8" x2="15" y2="-3" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+  <g transform="translate(520,140)">
+    <circle cx="0" cy="0" r="20" fill="#e07856" opacity="0.5"/>
+    <circle cx="0" cy="0" r="15" fill="#c84a3a" opacity="0.4"/>
+    <line x1="-25" y1="-5" x2="15" y2="5" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+  <g transform="translate(620,110)">
+    <circle cx="0" cy="0" r="20" fill="#e07856" opacity="0.5"/>
+    <circle cx="0" cy="0" r="15" fill="#c84a3a" opacity="0.4"/>
+    <line x1="-25" y1="5" x2="15" y2="-5" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+  <!-- 太阳7-9（被射落） -->
+  <g transform="translate(170,210)">
+    <circle cx="0" cy="0" r="18" fill="#e07856" opacity="0.4"/>
+    <circle cx="0" cy="0" r="13" fill="#c84a3a" opacity="0.3"/>
+    <line x1="-22" y1="-5" x2="12" y2="5" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+  <g transform="translate(280,220)">
+    <circle cx="0" cy="0" r="18" fill="#e07856" opacity="0.4"/>
+    <circle cx="0" cy="0" r="13" fill="#c84a3a" opacity="0.3"/>
+    <line x1="-22" y1="5" x2="12" y2="-5" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+  <g transform="translate(560,220)">
+    <circle cx="0" cy="0" r="18" fill="#e07856" opacity="0.4"/>
+    <circle cx="0" cy="0" r="13" fill="#c84a3a" opacity="0.3"/>
+    <line x1="-22" y1="-5" x2="12" y2="5" stroke="#8d5a36" stroke-width="2"/>
+  </g>
+
+  <!-- 留下的太阳（明亮） -->
+  <g transform="translate(700,170)">
+    <circle cx="0" cy="0" r="30" fill="#f4b942" opacity="0.3"/>
+    <circle cx="0" cy="0" r="22" fill="#f4b942"/>
+    <g stroke="#f4b942" stroke-width="2.5" stroke-linecap="round">
+      <line x1="0" y1="-30" x2="0" y2="-38"/>
+      <line x1="0" y1="30" x2="0" y2="38"/>
+      <line x1="-30" y1="0" x2="-38" y2="0"/>
+      <line x1="30" y1="0" x2="38" y2="0"/>
+      <line x1="-21" y1="-21" x2="-27" y2="-27"/>
+      <line x1="21" y1="-21" x2="27" y2="-27"/>
+      <line x1="-21" y1="21" x2="-27" y2="27"/>
+      <line x1="21" y1="21" x2="27" y2="27"/>
+    </g>
+    <rect x="-35" y="45" width="70" height="22" fill="#e8f5d8" stroke="#6a8d3f" rx="3"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">留下一个</text>
+  </g>
+
+  <!-- 大山 -->
+  <path d="M0 400 L100 300 L200 380 L300 320 L400 390 L500 330 L600 380 L700 310 L800 380 L800 500 L0 500 Z" fill="#a89888" opacity="0.5"/>
+
+  <!-- 烤焦的大地 -->
+  <rect x="0" y="400" width="800" height="200" fill="#c8a878" opacity="0.4"/>
+  <!-- 枯树 -->
+  <g stroke="#6a4a2a" stroke-width="3" fill="none">
+    <path d="M100 450 L100 400 M100 420 L85 410 M100 415 L115 405"/>
+    <path d="M700 450 L700 400 M700 420 L685 410 M700 415 L715 405"/>
+  </g>
+
+  <!-- 后羿 -->
+  <g transform="translate(400,430)">
+    <!-- 身体 -->
+    <rect x="-12" y="-15" width="24" height="35" fill="#8d5a36" rx="3"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-28" r="11" fill="#e0c8a8"/>
+    <!-- 头巾 -->
+    <path d="M-11 -32 Q0 -40 11 -32" fill="#c84a3a"/>
+    <!-- 眼睛（坚定） -->
+    <circle cx="-4" cy="-28" r="1.5" fill="#1a1a1a"/>
+    <circle cx="4" cy="-28" r="1.5" fill="#1a1a1a"/>
+    <!-- 腿 -->
+    <line x1="-6" y1="20" x2="-8" y2="45" stroke="#8d5a36" stroke-width="4" stroke-linecap="round"/>
+    <line x1="6" y1="20" x2="10" y2="45" stroke="#8d5a36" stroke-width="4" stroke-linecap="round"/>
+    <!-- 弓（拉开） -->
+    <g transform="translate(-20,-10)">
+      <path d="M0 -25 Q-15 0 0 25" fill="none" stroke="#8d5a36" stroke-width="3"/>
+      <line x1="0" y1="-25" x2="15" y2="0" stroke="#c0c0c0" stroke-width="1.5"/>
+      <line x1="0" y1="25" x2="15" y2="0" stroke="#c0c0c0" stroke-width="1.5"/>
+      <!-- 箭 -->
+      <line x1="15" y1="0" x2="40" y2="-5" stroke="#8d5a36" stroke-width="2"/>
+      <path d="M40 -5 L35 -10 M40 -5 L35 0" fill="none" stroke="#8d5a36" stroke-width="1.5"/>
+    </g>
+    <!-- 手臂拉弓 -->
+    <line x1="-12" y1="-8" x2="-20" y2="-10" stroke="#e0c8a8" stroke-width="3.5"/>
+    <line x1="12" y1="-8" x2="20" y2="-12" stroke="#e0c8a8" stroke-width="3.5"/>
+  </g>
+
+  <!-- 射箭轨迹 -->
+  <path d="M380 418 Q500 300 680 180" fill="none" stroke="#c84a3a" stroke-width="2" stroke-dasharray="5,3" opacity="0.5"/>
+
+  <!-- 底部说明 -->
+  <rect x="100" y="520" width="600" height="55" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+  <text x="400" y="543" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">后羿射下九个太阳，留下一个照耀大地</text>
+  <text x="400" y="563" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">十个太多，零个太少，一个刚刚好——做事要有分寸</text>
+</svg>

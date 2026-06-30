@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="天气预报从观测到预报的制作流程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">天气预报是怎么做的</text>
+  <line x1="270" y1="58" x2="530" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 流程线 -->
+  <line x1="120" y1="300" x2="680" y2="300" stroke="#c8843a" stroke-width="3"/>
+  <path d="M672 292 L684 300 L672 308" fill="none" stroke="#c8843a" stroke-width="3"/>
+
+  <!-- 步骤1：观测 -->
+  <circle cx="160" cy="300" r="12" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+  <text x="160" y="280" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">第一步</text>
+  <text x="160" y="332" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">观测</text>
+  <!-- 气象站 -->
+  <g transform="translate(160,180)">
+    <rect x="-20" y="20" width="40" height="40" fill="#8d8d8d"/>
+    <rect x="-4" y="0" width="8" height="20" fill="#8d8d8d"/>
+    <!-- 风向标 -->
+    <path d="M0 -5 L20 -15 L16 -5 L20 5 Z" fill="#c84a3a"/>
+    <circle cx="0" cy="-5" r="3" fill="#8d8d8d"/>
+    <!-- 温度计 -->
+    <rect x="-30" y="10" width="6" height="30" rx="2" fill="#fff6df" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-27" cy="42" r="5" fill="#c84a3a"/>
+  </g>
+  <text x="160" y="240" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">地面气象站</text>
+  <!-- 气球 -->
+  <g transform="translate(160,120)">
+    <ellipse cx="0" cy="0" rx="12" ry="14" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="0" y1="14" x2="0" y2="30" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <text x="160" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">气象气球</text>
+
+  <!-- 步骤2：计算 -->
+  <circle cx="400" cy="300" r="12" fill="#e8a838" stroke="#c8843a" stroke-width="2"/>
+  <text x="400" y="280" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">第二步</text>
+  <text x="400" y="332" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">计算</text>
+  <!-- 超级计算机 -->
+  <g transform="translate(400,180)">
+    <rect x="-44" y="-20" width="88" height="50" rx="4" fill="#3a4a6a" stroke="#7a3b14" stroke-width="1.5"/>
+    <g fill="#6a8d3f">
+      <rect x="-38" y="-14" width="8" height="8"/>
+      <rect x="-26" y="-14" width="8" height="8"/>
+      <rect x="-14" y="-14" width="8" height="8"/>
+      <rect x="-2" y="-14" width="8" height="8"/>
+      <rect x="10" y="-14" width="8" height="8"/>
+      <rect x="22" y="-14" width="8" height="8"/>
+    </g>
+    <g fill="#e8a838">
+      <rect x="-38" y="-2" width="8" height="8"/>
+      <rect x="-26" y="-2" width="8" height="8"/>
+      <rect x="-14" y="-2" width="8" height="8"/>
+      <rect x="-2" y="-2" width="8" height="8"/>
+      <rect x="10" y="-2" width="8" height="8"/>
+      <rect x="22" y="-2" width="8" height="8"/>
+    </g>
+    <rect x="-38" y="10" width="76" height="14" rx="2" fill="#a8d0e8"/>
+  </g>
+  <text x="400" y="240" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">超级计算机</text>
+  <!-- 地球网格 -->
+  <g transform="translate(400,120)">
+    <circle cx="0" cy="0" r="22" fill="#a8d0e8" stroke="#4a8aaa" stroke-width="1.5"/>
+    <g stroke="#4a8aaa" stroke-width="1" fill="none">
+      <ellipse cx="0" cy="0" rx="22" ry="8"/>
+      <ellipse cx="0" cy="0" rx="8" ry="22"/>
+      <line x1="-22" y1="0" x2="22" y2="0"/>
+    </g>
+  </g>
+  <text x="400" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">把地球分格算</text>
+
+  <!-- 步骤3：发布 -->
+  <circle cx="640" cy="300" r="12" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+  <text x="640" y="280" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">第三步</text>
+  <text x="640" y="332" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">发布</text>
+  <!-- 天气地图 -->
+  <g transform="translate(640,180)">
+    <rect x="-44" y="-26" width="88" height="52" rx="4" fill="#fff6df" stroke="#4a8aaa" stroke-width="1.5"/>
+    <!-- 地图轮廓 -->
+    <path d="M-30 -10 Q-10 -18 10 -8 Q25 -12 30 0 Q20 12 0 10 Q-20 14 -30 -10 Z" fill="#6a8d3f" opacity="0.4"/>
+    <!-- 晴和雨标记 -->
+    <circle cx="-15" cy="-2" r="5" fill="#e8a838"/>
+    <g stroke="#7ab8d8" stroke-width="1.5">
+      <line x1="15" y1="0" x2="13" y2="6"/>
+      <line x1="20" y1="0" x2="18" y2="6"/>
+    </g>
+    <ellipse cx="18" cy="-4" rx="8" ry="5" fill="#8d8d8d"/>
+  </g>
+  <text x="640" y="240" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">天气地图</text>
+  <!-- 手机 -->
+  <g transform="translate(640,120)">
+    <rect x="-12" y="-20" width="24" height="40" rx="4" fill="#3a4a6a" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="-9" y="-15" width="18" height="26" rx="1" fill="#a8d0e8"/>
+    <circle cx="0" cy="16" r="2" fill="#fff6df"/>
+  </g>
+  <text x="640" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">手机APP</text>
+
+  <!-- 数据流箭头 -->
+  <g fill="#7ab8d8" opacity="0.6">
+    <path d="M200 180 Q280 160 340 180 L335 175 L345 180 L335 185 Z"/>
+  </g>
+  <g fill="#e07856" opacity="0.6">
+    <path d="M460 180 Q540 160 600 180 L595 175 L605 180 L595 185 Z"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="400" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="425" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">观测收集数据 → 计算机算出变化 → 发布给大家看，三步做出天气预报。</text>
+
+  <!-- 补充：蝴蝶效应 -->
+  <rect x="120" y="460" width="560" height="50" rx="6" fill="#e8f0e6" stroke="#6a8d3f" stroke-width="1" opacity="0.6"/>
+  <text x="400" y="482" text-anchor="middle" font-family="serif" font-size="13" fill="#4a6a2f">小提示：大气太复杂，一点点小变化都可能引起连锁反应，</text>
+  <text x="400" y="500" text-anchor="middle" font-family="serif" font-size="13" fill="#4a6a2f">所以天气预报永远在追求更准，但不敢说绝对准。</text>
+</svg>

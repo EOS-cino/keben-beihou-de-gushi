@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="不同领域的英雄人物群像插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">英雄</text>
+  <line x1="350" y1="62" x2="450" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 背景光晕 -->
+  <circle cx="400" cy="320" r="220" fill="#f5d9a8" opacity="0.25"/>
+
+  <!-- 左：战士 -->
+  <g transform="translate(160, 280)">
+    <!-- 身体（军装） -->
+    <path d="M-25 40 L-20 120 L20 120 L25 40 Z" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="0" cy="20" r="18" fill="#f0d0a8"/>
+    <!-- 军帽 -->
+    <path d="M-18 18 Q-18 2 0 2 Q18 2 18 18 Z" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+    <rect x="-6" y="8" width="12" height="5" fill="#c84a3a"/>
+    <!-- 五星 -->
+    <text x="0" y="13" text-anchor="middle" font-size="8" fill="#fef9ed">★</text>
+    <!-- 眼睛 -->
+    <circle cx="-6" cy="22" r="2" fill="#2a2a2a"/>
+    <circle cx="6" cy="22" r="2" fill="#2a2a2a"/>
+    <!-- 领章 -->
+    <rect x="-12" y="40" width="8" height="5" fill="#c84a3a"/>
+    <rect x="4" y="40" width="8" height="5" fill="#c84a3a"/>
+    <!-- 底座 -->
+    <ellipse cx="0" cy="125" rx="35" ry="8" fill="#8d5a36" opacity="0.3"/>
+    <text x="0" y="155" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">戍边战士</text>
+  </g>
+
+  <!-- 中：医生 -->
+  <g transform="translate(400, 270)">
+    <!-- 白大褂 -->
+    <path d="M-28 45 L-22 120 L22 120 L28 45 Z" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 听诊器 -->
+    <path d="M-10 50 Q-15 70 -8 85" fill="none" stroke="#3a5a78" stroke-width="2"/>
+    <circle cx="-8" cy="88" r="5" fill="#3a5a78"/>
+    <!-- 头 -->
+    <circle cx="0" cy="22" r="18" fill="#f0d0a8"/>
+    <!-- 口罩 -->
+    <path d="M-14 22 Q-14 32 0 34 Q14 32 14 22" fill="#a8d0e8" stroke="#7ab8d8" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="-6" cy="20" r="2" fill="#2a2a2a"/>
+    <circle cx="6" cy="20" r="2" fill="#2a2a2a"/>
+    <!-- 头发 -->
+    <path d="M-18 18 Q-18 4 0 4 Q18 4 18 18" fill="#2a2a2a"/>
+    <!-- 十字标志 -->
+    <rect x="-5" y="60" width="10" height="3" fill="#c84a3a"/>
+    <rect x="-1.5" y="56" width="3" height="10" fill="#c84a3a"/>
+    <ellipse cx="0" cy="125" rx="35" ry="8" fill="#8d5a36" opacity="0.3"/>
+    <text x="0" y="155" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">逆行医生</text>
+  </g>
+
+  <!-- 右：科学家 -->
+  <g transform="translate(640, 280)">
+    <!-- 实验服 -->
+    <path d="M-25 40 L-20 120 L20 120 L25 40 Z" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="0" cy="20" r="18" fill="#f0d0a8"/>
+    <!-- 眼镜 -->
+    <circle cx="-6" cy="22" r="5" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="6" cy="22" r="5" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-1" y1="22" x2="1" y2="22" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 头发 -->
+    <path d="M-18 18 Q-18 2 0 2 Q18 2 18 18 Q10 8 0 8 Q-10 8 -18 18" fill="#5a3a1a"/>
+    <!-- 手持试管 -->
+    <path d="M22 55 L35 40" fill="none" stroke="#f0d0a8" stroke-width="6" stroke-linecap="round"/>
+    <rect x="33" y="25" width="8" height="20" rx="2" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="37" cy="28" rx="3" ry="2" fill="#7ab8d8"/>
+    <ellipse cx="0" cy="125" rx="35" ry="8" fill="#8d5a36" opacity="0.3"/>
+    <text x="0" y="155" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">科研学者</text>
+  </g>
+
+  <!-- 顶部连接：星光 -->
+  <g fill="#e07856" opacity="0.7">
+    <path d="M160 200 L162 210 L168 212 L162 214 L160 224 L158 214 L152 212 L158 210 Z" transform="scale(0.7) translate(70, 80)"/>
+    <path d="M400 180 L402 192 L410 194 L402 196 L400 208 L398 196 L390 194 L398 192 Z" transform="scale(0.7) translate(170, 70)"/>
+    <path d="M640 200 L642 210 L648 212 L642 214 L640 224 L638 214 L632 212 L638 210 Z" transform="scale(0.7) translate(270, 80)"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="80" y="500" width="640" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8" opacity="0.85"/>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">英雄不一定要拿枪——</text>
+  <text x="400" y="550" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">在别人需要时挺身而出、坚守奉献，就是英雄</text>
+</svg>

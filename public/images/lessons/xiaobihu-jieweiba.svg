@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小壁虎在墙上找尾巴插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">小壁虎借尾巴</text>
+  <line x1="240" y1="62" x2="560" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 砖墙背景 -->
+  <rect x="0" y="80" width="800" height="440" fill="#e8d8b8"/>
+  <!-- 砖缝 -->
+  <g stroke="#c8b898" stroke-width="1.5">
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="220" x2="800" y2="220"/>
+    <line x1="0" y1="290" x2="800" y2="290"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="0" y1="430" x2="800" y2="430"/>
+  </g>
+  <g stroke="#c8b898" stroke-width="1.5">
+    <line x1="80" y1="80" x2="80" y2="150"/>
+    <line x1="200" y1="80" x2="200" y2="150"/>
+    <line x1="320" y1="80" x2="320" y2="150"/>
+    <line x1="440" y1="80" x2="440" y2="150"/>
+    <line x1="560" y1="80" x2="560" y2="150"/>
+    <line x1="680" y1="80" x2="680" y2="150"/>
+    <line x1="140" y1="150" x2="140" y2="220"/>
+    <line x1="260" y1="150" x2="260" y2="220"/>
+    <line x1="380" y1="150" x2="380" y2="220"/>
+    <line x1="500" y1="150" x2="500" y2="220"/>
+    <line x1="620" y1="150" x2="620" y2="220"/>
+    <line x1="740" y1="150" x2="740" y2="220"/>
+    <line x1="80" y1="220" x2="80" y2="290"/>
+    <line x1="200" y1="220" x2="200" y2="290"/>
+    <line x1="320" y1="220" x2="320" y2="290"/>
+    <line x1="440" y1="220" x2="440" y2="290"/>
+    <line x1="560" y1="220" x2="560" y2="290"/>
+    <line x1="680" y1="220" x2="680" y2="290"/>
+    <line x1="140" y1="290" x2="140" y2="360"/>
+    <line x1="260" y1="290" x2="260" y2="360"/>
+    <line x1="380" y1="290" x2="380" y2="360"/>
+    <line x1="500" y1="290" x2="500" y2="360"/>
+    <line x1="620" y1="290" x2="620" y2="360"/>
+    <line x1="740" y1="290" x2="740" y2="360"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="520" width="800" height="80" fill="#c8a878"/>
+
+  <!-- 小壁虎（主角，断尾，在墙上爬行） -->
+  <!-- 身体 -->
+  <ellipse cx="200" cy="250" rx="35" ry="14" fill="#8a9a6a" stroke="#5a6a3a" stroke-width="2"/>
+  <!-- 头 -->
+  <ellipse cx="235" cy="245" rx="16" ry="12" fill="#8a9a6a" stroke="#5a6a3a" stroke-width="2"/>
+  <!-- 眼睛 -->
+  <circle cx="240" cy="242" r="4" fill="#fff8e0" stroke="#5a6a3a" stroke-width="1"/>
+  <circle cx="241" cy="242" r="2" fill="#2a2a2a"/>
+  <!-- 嘴 -->
+  <path d="M243 248 Q248 250 250 247" fill="none" stroke="#5a6a3a" stroke-width="1.5"/>
+  <!-- 四条腿（壁虎脚，有吸盘） -->
+  <ellipse cx="180" cy="265" rx="8" ry="4" fill="#7a8a5a" stroke="#5a6a3a" stroke-width="1.5"/>
+  <circle cx="172" cy="268" r="4" fill="#9aaa7a"/>
+  <ellipse cx="215" cy="265" rx="8" ry="4" fill="#7a8a5a" stroke="#5a6a3a" stroke-width="1.5"/>
+  <circle cx="222" cy="268" r="4" fill="#9aaa7a"/>
+  <ellipse cx="180" cy="235" rx="8" ry="4" fill="#7a8a5a" stroke="#5a6a3a" stroke-width="1.5"/>
+  <circle cx="172" cy="232" r="4" fill="#9aaa7a"/>
+  <ellipse cx="215" cy="235" rx="8" ry="4" fill="#7a8a5a" stroke="#5a6a3a" stroke-width="1.5"/>
+  <circle cx="222" cy="232" r="4" fill="#9aaa7a"/>
+  <!-- 断尾处（尾巴断了，只剩一小截） -->
+  <ellipse cx="168" cy="250" rx="8" ry="6" fill="#8a9a6a" stroke="#5a6a3a" stroke-width="2"/>
+  <!-- 断面 -->
+  <ellipse cx="162" cy="250" rx="4" ry="5" fill="#e87858" stroke="#c85838" stroke-width="1.5"/>
+  <!-- 身上斑点 -->
+  <g fill="#6a7a4a">
+    <circle cx="195" cy="248" r="2"/>
+    <circle cx="210" cy="252" r="2"/>
+    <circle cx="205" cy="245" r="1.5"/>
+  </g>
+
+  <!-- 断掉的尾巴（在地上扭动） -->
+  <path d="M150 530 Q140 525 135 535 Q130 545 140 540" fill="none" stroke="#8a9a6a" stroke-width="8" stroke-linecap="round"/>
+  <!-- 扭动效果线 -->
+  <g stroke="#c8a860" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M125 530 Q120 525 118 530"/>
+    <path d="M145 520 Q142 515 140 520"/>
+  </g>
+
+  <!-- 老牛（壁虎去向老牛借尾巴） -->
+  <!-- 身体 -->
+  <ellipse cx="500" cy="380" rx="55" ry="35" fill="#a87838" stroke="#6a4818" stroke-width="2.5"/>
+  <!-- 头 -->
+  <ellipse cx="560" cy="365" rx="28" ry="22" fill="#a87838" stroke="#6a4818" stroke-width="2.5"/>
+  <!-- 牛角 -->
+  <path d="M548 348 Q540 335 535 330" fill="none" stroke="#e8d8b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M572 348 Q580 335 585 330" fill="none" stroke="#e8d8b8" stroke-width="5" stroke-linecap="round"/>
+  <!-- 眼睛 -->
+  <circle cx="555" cy="360" r="3" fill="#2a2a2a"/>
+  <!-- 鼻子 -->
+  <ellipse cx="580" cy="372" rx="6" ry="4" fill="#6a4818"/>
+  <!-- 嘴 -->
+  <path d="M575 378 Q580 382 585 378" fill="none" stroke="#6a4818" stroke-width="1.5"/>
+  <!-- 耳朵 -->
+  <ellipse cx="540" cy="355" rx="6" ry="8" fill="#9a6828" stroke="#6a4818" stroke-width="1.5"/>
+  <!-- 腿 -->
+  <rect x="465" y="405" width="14" height="30" fill="#9a6828" stroke="#6a4818" stroke-width="2" rx="3"/>
+  <rect x="495" y="410" width="14" height="25" fill="#9a6828" stroke="#6a4818" stroke-width="2" rx="3"/>
+  <rect x="525" y="405" width="14" height="30" fill="#9a6828" stroke="#6a4818" stroke-width="2" rx="3"/>
+  <rect x="545" y="410" width="14" height="25" fill="#9a6828" stroke="#6a4818" stroke-width="2" rx="3"/>
+  <!-- 牛尾巴（甩赶蝇子） -->
+  <path d="M445 380 Q410 375 400 390 Q395 395 405 398" fill="none" stroke="#a87838" stroke-width="6" stroke-linecap="round"/>
+  <!-- 末端毛 -->
+  <ellipse cx="403" cy="397" rx="6" ry="4" fill="#9a6828"/>
+
+  <!-- 燕子（壁虎去向燕子借尾巴） -->
+  <!-- 身体 -->
+  <ellipse cx="680" cy="180" rx="20" ry="14" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- 头 -->
+  <circle cx="695" cy="175" r="12" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- 眼睛 -->
+  <circle cx="698" cy="172" r="2.5" fill="#f4c842"/>
+  <circle cx="698" cy="172" r="1.5" fill="#2a2a2a"/>
+  <!-- 嘴（尖喙） -->
+  <path d="M705 175 L715 173 L705 178 Z" fill="#e8a838" stroke="#c88820" stroke-width="1"/>
+  <!-- 翅膀（展开飞行） -->
+  <path d="M670 175 Q640 155 620 165 Q635 180 665 180" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M680 170 Q700 145 730 155 Q715 175 690 175" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- 燕尾（剪刀形） -->
+  <path d="M665 188 L645 210 L660 195" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M672 190 L680 215 L675 195" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- 小壁虎标注 -->
+  <line x1="200" y1="230" x2="200" y2="195" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="145" y="170" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="200" y="188" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">小壁虎（断尾）</text>
+
+  <!-- 断尾标注 -->
+  <line x1="140" y1="530" x2="140" y2="500" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="85" y="475" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="140" y="493" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">断掉的尾巴</text>
+
+  <!-- 老牛标注 -->
+  <line x1="500" y1="345" x2="500" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="445" y="285" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="500" y="303" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">老牛（赶蝇尾）</text>
+
+  <!-- 燕子标注 -->
+  <line x1="680" y1="155" x2="680" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="625" y="95" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="680" y="113" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">燕子（剪刀尾）</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">小壁虎断尾后四处借尾巴，最终发现自己长出了新尾巴</text>
+</svg>

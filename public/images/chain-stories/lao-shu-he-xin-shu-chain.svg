@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="自然界新老交替与传承的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">森林里的新老交替</text>
+  <line x1="220" y1="56" x2="580" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——老树倒下，托起新的生命</text>
+
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="200" fill="#6a8d3f" opacity="0.25"/>
+  <path d="M0 400 Q200 390 400 400 Q600 410 800 400 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.3"/>
+
+  <!-- 母树（活着的大树） -->
+  <g transform="translate(180, 400)">
+    <path d="M-20 0 Q-25 -60 -18 -140 Q-15 -170 -10 -190 L10 -190 Q15 -170 18 -140 Q25 -60 20 0 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="-15" cy="-200" rx="40" ry="32" fill="#2d6a4f" opacity="0.85"/>
+    <ellipse cx="15" cy="-210" rx="35" ry="30" fill="#4a6a2f" opacity="0.85"/>
+    <ellipse cx="0" cy="-220" rx="30" ry="28" fill="#2d6a4f" opacity="0.8"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#2d6a4f">母树</text>
+    <text x="0" y="46" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">活着·在地下喂孩子</text>
+  </g>
+
+  <!-- 倒下的老树（保姆木） -->
+  <g transform="translate(400, 450)">
+    <rect x="-80" y="-12" width="160" height="24" rx="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 蘑菇 -->
+    <g transform="translate(-40, -18)">
+      <ellipse cx="0" cy="0" rx="8" ry="5" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-2" y="0" width="4" height="6" fill="#fef9ed"/>
+    </g>
+    <g transform="translate(20, -20)">
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-1.5" y="0" width="3" height="5" fill="#fef9ed"/>
+    </g>
+    <!-- 苔藓 -->
+    <ellipse cx="-60" cy="-10" rx="10" ry="4" fill="#4a6a2f" opacity="0.6"/>
+    <ellipse cx="50" cy="-12" rx="12" ry="5" fill="#4a6a2f" opacity="0.6"/>
+    <!-- 新树苗长在倒木上 -->
+    <g transform="translate(0, -14)">
+      <rect x="-2" y="-30" width="4" height="30" fill="#6a8d3f"/>
+      <ellipse cx="0" cy="-35" rx="12" ry="10" fill="#2d6a4f"/>
+      <ellipse cx="-5" cy="-40" rx="8" ry="7" fill="#4a6a2f"/>
+    </g>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">保姆木（nurse log）</text>
+    <text x="0" y="44" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">腐烂后变肥料·新苗扎在上面</text>
+  </g>
+
+  <!-- 地下菌丝网络 -->
+  <g transform="translate(0, 470)">
+    <text x="620" y="0" font-family="serif" font-size="11" font-weight="bold" fill="#c84a3a">地下菌丝网络</text>
+    <path d="M180 30 Q250 50 340 40 Q430 30 520 50 Q580 60 640 45" fill="none" stroke="#c8843a" stroke-width="1.5" opacity="0.6" stroke-dasharray="3,2"/>
+    <path d="M180 30 Q220 60 300 55 Q380 50 460 65 Q540 70 640 55" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5" stroke-dasharray="2,2"/>
+    <path d="M180 30 Q260 70 380 65 Q500 60 640 70" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.4" stroke-dasharray="2,2"/>
+    <!-- 节点 -->
+    <circle cx="180" cy="30" r="4" fill="#c84a3a"/>
+    <circle cx="340" cy="40" r="3" fill="#e8a838"/>
+    <circle cx="520" cy="50" r="3" fill="#e8a838"/>
+    <circle cx="640" cy="45" r="4" fill="#c84a3a"/>
+    <!-- 养分传递箭头 -->
+    <text x="260" y="50" font-family="serif" font-size="9" fill="#c84a3a">养分→</text>
+  </g>
+
+  <!-- 新小树（右） -->
+  <g transform="translate(640, 400)">
+    <rect x="-5" y="-100" width="10" height="100" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-110" rx="22" ry="20" fill="#4a6a2f" opacity="0.85"/>
+    <ellipse cx="-8" cy="-118" rx="14" ry="12" fill="#6a8d3f" opacity="0.8"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">小树</text>
+    <text x="0" y="34" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">站在老树肩膀上</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 540)">
+    <rect x="-320" y="0" width="640" height="50" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">老树倒下，养分留在新树身上 · 新树不是从零开始</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">新老不是竞争，而是老的用一辈子，托起新的</text>
+  </g>
+</svg>

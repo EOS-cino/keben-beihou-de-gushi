@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小狗学叫">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小狗学叫</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">不会叫的小狗，该学谁？</text>
+  <g transform="translate(230,300)">
+    <ellipse cx="0" cy="40" rx="60" ry="34" fill="#d8a868" stroke="#7a4a1a" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="34" ry="28" fill="#e8c098" stroke="#7a4a1a" stroke-width="3"/>
+    <circle cx="-10" cy="-4" r="3" fill="#3a2a1a"/><circle cx="10" cy="-4" r="3" fill="#3a2a1a"/>
+    <path d="M-8,12 q8,8 16,0" fill="none" stroke="#3a2a1a" stroke-width="2"/>
+    <path d="M30,2 l34,-6 -2,18 z" fill="#e8c098" stroke="#7a4a1a" stroke-width="2"/>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">小狗</text>
+  </g>
+  <g transform="translate(560,290)">
+    <ellipse cx="0" cy="20" rx="30" ry="26" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <path d="M-6,-2 L-12,-22 L2,-6 Z" fill="#c0392b" stroke="#7a1a1a" stroke-width="2"/>
+    <path d="M6,-2 L12,-22 L-2,-6 Z" fill="#c0392b" stroke="#7a1a1a" stroke-width="2"/>
+    <circle cx="-8" cy="14" r="2.5" fill="#3a2a1a"/><circle cx="8" cy="14" r="2.5" fill="#3a2a1a"/>
+    <path d="M-6,26 L6,26 L0,36 Z" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="18" fill="#c98a3a">公鸡·喔喔</text>
+  </g>
+  <text x="400" y="500" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">故事没写完，结尾你来猜</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="浓雾笼罩着城市，高楼和树木只露出模糊的影子，一个小男孩在雾中张望">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 雾的背景层（多层叠加） -->
+  <rect x="0" y="0" width="800" height="600" fill="#e8e4dc" opacity="0.5"/>
+  <rect x="0" y="100" width="800" height="400" fill="#d8d4cc" opacity="0.4"/>
+  <rect x="0" y="200" width="800" height="300" fill="#c8c4bc" opacity="0.3"/>
+  <!-- 模糊的城市建筑（被雾遮住） -->
+  <g opacity="0.25">
+    <rect x="80" y="250" width="80" height="200" fill="#8d5a36"/>
+    <rect x="180" y="200" width="70" height="250" fill="#7a3b14"/>
+    <rect x="270" y="280" width="60" height="170" fill="#8d5a36"/>
+    <rect x="450" y="220" width="75" height="230" fill="#7a3b14"/>
+    <rect x="545" y="260" width="65" height="190" fill="#8d5a36"/>
+    <rect x="630" y="190" width="80" height="260" fill="#7a3b14"/>
+    <!-- 窗户 -->
+    <g fill="#f4b942" opacity="0.5">
+      <rect x="95" y="270" width="12" height="15"/>
+      <rect x="115" y="270" width="12" height="15"/>
+      <rect x="95" y="300" width="12" height="15"/>
+      <rect x="195" y="220" width="12" height="15"/>
+      <rect x="215" y="220" width="12" height="15"/>
+      <rect x="195" y="250" width="12" height="15"/>
+      <rect x="465" y="240" width="12" height="15"/>
+      <rect x="485" y="240" width="12" height="15"/>
+      <rect x="645" y="210" width="12" height="15"/>
+      <rect x="665" y="210" width="12" height="15"/>
+      <rect x="685" y="210" width="12" height="15"/>
+    </g>
+  </g>
+  <!-- 模糊的树 -->
+  <g opacity="0.2">
+    <rect x="370" y="320" width="10" height="130" fill="#8d5a36"/>
+    <circle cx="375" cy="310" r="35" fill="#6a8d3f"/>
+    <rect x="730" y="330" width="8" height="120" fill="#8d5a36"/>
+    <circle cx="734" cy="320" r="28" fill="#6a8d3f"/>
+  </g>
+  <!-- 雾的飘动效果（白色半透明形状） -->
+  <g fill="#ffffff" opacity="0.5">
+    <ellipse cx="150" cy="200" rx="120" ry="30"/>
+    <ellipse cx="400" cy="180" rx="150" ry="35"/>
+    <ellipse cx="650" cy="220" rx="130" ry="30"/>
+    <ellipse cx="100" cy="320" rx="100" ry="25"/>
+    <ellipse cx="350" cy="340" rx="140" ry="30"/>
+    <ellipse cx="600" cy="330" rx="120" ry="28"/>
+    <ellipse cx="200" cy="420" rx="110" ry="25"/>
+    <ellipse cx="500" cy="430" rx="130" ry="28"/>
+    <ellipse cx="700" cy="420" rx="100" ry="25"/>
+  </g>
+  <g fill="#ffffff" opacity="0.3">
+    <ellipse cx="250" cy="260" rx="100" ry="20"/>
+    <ellipse cx="550" cy="270" rx="120" ry="22"/>
+    <ellipse cx="300" cy="380" rx="110" ry="20"/>
+    <ellipse cx="600" cy="390" rx="100" ry="20"/>
+  </g>
+  <!-- 小男孩在雾中张望 -->
+  <g transform="translate(400,420)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="40" rx="22" ry="30" fill="#7ab8d8"/>
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="22" fill="#f4d4a8"/>
+    <!-- 头发 -->
+    <path d="M-20 -8 Q-22 -22 0 -24 Q22 -22 20 -8" fill="#2d2a24"/>
+    <!-- 眼睛（张望） -->
+    <ellipse cx="-8" cy="0" rx="3" ry="4" fill="#2d2a24"/>
+    <ellipse cx="8" cy="0" rx="3" ry="4" fill="#2d2a24"/>
+    <circle cx="-7" cy="-1" r="1" fill="#ffffff"/>
+    <circle cx="9" cy="-1" r="1" fill="#ffffff"/>
+    <!-- 嘴（惊讶） -->
+    <ellipse cx="0" cy="12" rx="3" ry="4" fill="#7a3b14"/>
+    <!-- 手臂（伸出去摸雾） -->
+    <path d="M-18 25 L-35 15" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M18 25 L35 15" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+    <!-- 腿 -->
+    <path d="M-10 68 L-12 95" stroke="#4a6a2f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M10 68 L12 95" stroke="#4a6a2f" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <!-- 地面 -->
+  <path d="M0 500 Q200 495 400 500 T800 498 L800 600 L0 600 Z" fill="#d8d4cc" opacity="0.4"/>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">雾在哪里</text>
+</svg>

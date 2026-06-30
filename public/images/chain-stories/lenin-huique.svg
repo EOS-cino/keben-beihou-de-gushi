@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="列宁在公园长椅旁仰望树枝上的灰雀">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#e8f0e6"/>
+  <!-- 地面 -->
+  <path d="M0 420 Q400 400 800 420 L800 600 L0 600 Z" fill="#c8843a" opacity="0.35"/>
+  <path d="M0 470 Q400 450 800 470 L800 600 L0 600 Z" fill="#8d5a36" opacity="0.3"/>
+  <!-- 白桦树 -->
+  <rect x="470" y="100" width="36" height="340" fill="#f3ece0" stroke="#7a3b14" stroke-width="3"/>
+  <path d="M474 160 q14 6 28 0 M474 230 q14 6 28 0 M474 300 q14 6 28 0" stroke="#7a3b14" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- 树枝 -->
+  <path d="M488 140 Q430 110 380 130" stroke="#7a3b14" stroke-width="5" fill="none"/>
+  <path d="M488 180 Q540 160 580 175" stroke="#7a3b14" stroke-width="4" fill="none"/>
+  <!-- 灰雀在枝头 -->
+  <ellipse cx="400" cy="128" rx="18" ry="13" fill="#6a8d3f"/>
+  <circle cx="416" cy="123" r="8" fill="#6a8d3f"/>
+  <path d="M423 122 l7 2 l-7 3 Z" fill="#c84a3a"/>
+  <ellipse cx="396" cy="131" rx="9" ry="7" fill="#e07856"/>
+  <circle cx="418" cy="121" r="1.5" fill="#7a3b14"/>
+  <!-- 长椅 -->
+  <rect x="180" y="430" width="200" height="12" fill="#8d5a36"/>
+  <rect x="190" y="442" width="10" height="50" fill="#8d5a36"/>
+  <rect x="360" y="442" width="10" height="50" fill="#8d5a36"/>
+  <rect x="180" y="410" width="200" height="10" fill="#8d5a36"/>
+  <rect x="185" y="395" width="10" height="20" fill="#8d5a36"/>
+  <rect x="365" y="395" width="10" height="20" fill="#8d5a36"/>
+  <!-- 列宁（仰望） -->
+  <ellipse cx="280" cy="370" rx="24" ry="28" fill="#e8c9a0"/>
+  <!-- 秃顶+胡须 -->
+  <path d="M256 360 q24 -22 48 0 q-24 -8 -48 0 Z" fill="#a89888"/>
+  <path d="M266 388 q14 16 28 0 q-14 8 -28 0 Z" fill="#7a3b14"/>
+  <!-- 眼睛向上看 -->
+  <circle cx="272" cy="368" r="2" fill="#7a3b14"/>
+  <circle cx="288" cy="368" r="2" fill="#7a3b14"/>
+  <path d="M270 362 q4 -3 8 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <!-- 大衣 -->
+  <path d="M252 398 q28 -8 56 0 l14 80 l-84 0 Z" fill="#4a6a2f"/>
+  <path d="M280 398 l0 75" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 仰望视线 -->
+  <path d="M290 350 q40 -40 100 -50" stroke="#c84a3a" stroke-width="2" fill="none" stroke-dasharray="5 5" opacity="0.6"/>
+  <!-- 雪花 -->
+  <circle cx="120" cy="100" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="620" cy="80" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="700" cy="180" r="2" fill="#ffffff" opacity="0.7"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">列宁和灰雀</text>
+</svg>

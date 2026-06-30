@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="庭院水缸与石头插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">司马光砸缸</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 远处院墙 -->
+  <rect x="0" y="100" width="800" height="200" fill="#e8d8b8"/>
+  <!-- 墙顶瓦片 -->
+  <path d="M0 100 L800 100" stroke="#8a6a3a" stroke-width="4"/>
+  <g fill="#8a6a3a">
+    <rect x="20" y="95" width="30" height="10"/>
+    <rect x="80" y="95" width="30" height="10"/>
+    <rect x="140" y="95" width="30" height="10"/>
+    <rect x="200" y="95" width="30" height="10"/>
+    <rect x="260" y="95" width="30" height="10"/>
+    <rect x="320" y="95" width="30" height="10"/>
+    <rect x="380" y="95" width="30" height="10"/>
+    <rect x="440" y="95" width="30" height="10"/>
+    <rect x="500" y="95" width="30" height="10"/>
+    <rect x="560" y="95" width="30" height="10"/>
+    <rect x="620" y="95" width="30" height="10"/>
+    <rect x="680" y="95" width="30" height="10"/>
+    <rect x="740" y="95" width="30" height="10"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="300" width="800" height="300" fill="#d8c8a8"/>
+  <path d="M0 320 Q200 315 400 320 T800 320" fill="none" stroke="#b8a888" stroke-width="2"/>
+
+  <!-- 大水缸 -->
+  <!-- 缸身 -->
+  <path d="M250 280 Q240 290 245 320 L255 460 Q260 480 280 480 L420 480 Q440 480 445 460 L455 320 Q460 290 450 280 Z" fill="#8a4a28" stroke="#5a2a10" stroke-width="3"/>
+  <!-- 缸口边缘 -->
+  <ellipse cx="350" cy="280" rx="100" ry="18" fill="#6a3a18" stroke="#5a2a10" stroke-width="3"/>
+  <ellipse cx="350" cy="280" rx="90" ry="14" fill="#4a2a10"/>
+  <!-- 缸身纹路 -->
+  <path d="M250 320 Q350 315 450 320" fill="none" stroke="#6a3a18" stroke-width="2"/>
+  <path d="M255 380 Q350 375 445 380" fill="none" stroke="#6a3a18" stroke-width="2"/>
+  <path d="M258 430 Q350 425 442 430" fill="none" stroke="#6a3a18" stroke-width="2"/>
+  <!-- 缸上的裂纹（被砸处） -->
+  <path d="M440 300 L430 340 L445 370 L425 400" fill="none" stroke="#3a1a08" stroke-width="2.5"/>
+  <path d="M430 340 L415 350" fill="none" stroke="#3a1a08" stroke-width="2"/>
+  <path d="M445 370 L460 375" fill="none" stroke="#3a1a08" stroke-width="2"/>
+
+  <!-- 水从缸中流出 -->
+  <path d="M440 310 Q450 340 445 380 Q440 410 450 440" fill="none" stroke="#6ab8d8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M435 315 Q430 350 440 390 Q445 420 435 445" fill="none" stroke="#8ac8e0" stroke-width="6" stroke-linecap="round"/>
+  <!-- 水花 -->
+  <g fill="#a8d0e8">
+    <circle cx="460" cy="380" r="6"/>
+    <circle cx="425" cy="395" r="5"/>
+    <circle cx="470" cy="410" r="7"/>
+    <circle cx="420" cy="425" r="5"/>
+    <circle cx="465" cy="445" r="6"/>
+  </g>
+  <!-- 地上积水 -->
+  <ellipse cx="450" cy="475" rx="60" ry="12" fill="#8ac8e0" opacity="0.6"/>
+
+  <!-- 缸中水面 -->
+  <ellipse cx="350" cy="285" rx="88" ry="12" fill="#6ab8d8"/>
+
+  <!-- 大石头（司马光用来砸缸的） -->
+  <ellipse cx="540" cy="470" rx="45" ry="18" fill="#8a8a8a" opacity="0.3"/>
+  <path d="M510 460 Q500 440 515 425 Q530 415 555 420 Q575 425 575 445 Q575 460 560 465 Z" fill="#9a9a9a" stroke="#6a6a6a" stroke-width="2.5"/>
+  <path d="M520 445 Q530 440 545 442" fill="none" stroke="#7a7a7a" stroke-width="1.5"/>
+  <path d="M525 455 Q540 450 555 453" fill="none" stroke="#7a7a7a" stroke-width="1.5"/>
+
+  <!-- 司马光（举起石头准备砸） -->
+  <!-- 身体 -->
+  <path d="M590 510 L595 420 L635 420 L640 510 Z" fill="#2e5a8a"/>
+  <!-- 头 -->
+  <circle cx="615" cy="400" r="20" fill="#f0d0a8"/>
+  <!-- 头巾 -->
+  <path d="M595 396 Q615 376 635 396 L635 388 Q615 370 595 388 Z" fill="#c84030"/>
+  <rect x="605" y="380" width="20" height="12" fill="#c84030"/>
+  <!-- 眼睛（坚定） -->
+  <circle cx="608" cy="400" r="2.5" fill="#2a2a2a"/>
+  <circle cx="622" cy="400" r="2.5" fill="#2a2a2a"/>
+  <!-- 眉毛 -->
+  <line x1="603" y1="394" x2="612" y2="396" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="618" y1="396" x2="627" y2="394" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- 嘴 -->
+  <path d="M609 410 Q615 413 621 410" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 手臂（举起石头） -->
+  <path d="M595 435 L555 420" fill="none" stroke="#2e5a8a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="553" cy="418" r="8" fill="#f0d0a8"/>
+  <path d="M635 435 L570 415" fill="none" stroke="#2e5a8a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="568" cy="413" r="8" fill="#f0d0a8"/>
+
+  <!-- 落水小孩（从缸口爬出） -->
+  <circle cx="350" cy="270" r="14" fill="#f0d0a8"/>
+  <path d="M338 270 Q350 258 362 270 L362 264 Q350 254 338 264 Z" fill="#2a2a2a"/>
+  <circle cx="345" cy="270" r="2" fill="#2a2a2a"/>
+  <circle cx="355" cy="270" r="2" fill="#2a2a2a"/>
+  <path d="M346 278 Q350 281 354 278" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 小孩手臂（攀住缸沿） -->
+  <path d="M338 275 L320 285" fill="none" stroke="#c84030" stroke-width="6" stroke-linecap="round"/>
+  <path d="M362 275 L380 285" fill="none" stroke="#c84030" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- 其他惊慌的小孩（远处） -->
+  <circle cx="140" cy="380" r="12" fill="#f0d0a8"/>
+  <path d="M130 380 Q140 370 150 380 L150 375 Q140 367 130 375 Z" fill="#2a2a2a"/>
+  <circle cx="136" cy="380" r="1.5" fill="#2a2a2a"/>
+  <circle cx="144" cy="380" r="1.5" fill="#2a2a2a"/>
+  <path d="M130 392 L135 405 L145 405 L150 392 Z" fill="#c84030"/>
+  <!-- 惊慌的手臂 -->
+  <path d="M135 398 L120 385" fill="none" stroke="#c84030" stroke-width="5" stroke-linecap="round"/>
+  <path d="M145 398 L160 385" fill="none" stroke="#c84030" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- 水缸标注 -->
+  <line x1="350" y1="262" x2="350" y2="220" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="305" y="195" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="350" y="213" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">大水缸</text>
+
+  <!-- 石头标注 -->
+  <line x1="540" y1="415" x2="540" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="495" y="355" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="540" y="373" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">大石</text>
+
+  <!-- 司马光标注 -->
+  <line x1="615" y1="375" x2="615" y2="335" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="570" y="310" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="615" y="328" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">司马光</text>
+
+  <!-- 水流标注 -->
+  <line x1="450" y1="380" x2="490" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="495" y="367" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="535" y="385" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">水流出</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">同伴落入水缸，司马光临危不乱，搬石砸缸救出落水儿童</text>
+</svg>

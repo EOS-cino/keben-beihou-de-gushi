@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="汉字天从甲骨文到楷书的演变插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">汉字"天"的演变</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">从甲骨文到楷书，"天"字里一直藏着一个人</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="320" x2="720" y2="320" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="720,320 710,314 710,326" fill="#c8843a"/>
+
+  <!-- 甲骨文 -->
+  <g transform="translate(140,200)">
+    <rect x="-60" y="-70" width="120" height="180" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 大脑袋的人 -->
+    <circle cx="0" cy="-40" r="22" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M0 -18 L0 30 M-20 0 L20 0 M0 30 L-15 60 M0 30 L15 60" stroke="#7a3b14" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">甲骨文</text>
+    <text x="0" y="150" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">大脑袋的人</text>
+    <circle cx="0" cy="120" r="4" fill="#c8843a"/>
+  </g>
+
+  <!-- 金文 -->
+  <g transform="translate(310,200)">
+    <rect x="-60" y="-70" width="120" height="180" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 一横+人 -->
+    <line x1="-25" y1="-45" x2="25" y2="-45" stroke="#7a3b14" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-25" r="14" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+    <path d="M0 -11 L0 35 M-22 5 L22 5 M0 35 L-15 65 M0 35 L15 65" stroke="#7a3b14" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">金文</text>
+    <text x="0" y="150" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">头顶一横</text>
+    <circle cx="0" cy="120" r="4" fill="#c8843a"/>
+  </g>
+
+  <!-- 小篆 -->
+  <g transform="translate(480,200)">
+    <rect x="-60" y="-70" width="120" height="180" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 小篆天 -->
+    <line x1="-22" y1="-48" x2="22" y2="-48" stroke="#7a3b14" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M0 -48 L0 40" stroke="#7a3b14" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M-28 -10 Q0 -20 28 -10" stroke="#7a3b14" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M0 40 Q-12 50 -18 68" stroke="#7a3b14" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M0 40 Q12 50 18 68" stroke="#7a3b14" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">小篆</text>
+    <text x="0" y="150" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">线条圆润</text>
+    <circle cx="0" cy="120" r="4" fill="#c8843a"/>
+  </g>
+
+  <!-- 楷书 -->
+  <g transform="translate(650,200)">
+    <rect x="-60" y="-70" width="120" height="180" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="80" font-weight="bold" fill="#7a3b14">天</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">楷书</text>
+    <text x="0" y="150" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">今天的写法</text>
+    <circle cx="0" cy="120" r="4" fill="#c84a3a"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="80" y="440" width="640" height="120" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">"天"字里藏着一个"大"字</text>
+  <text x="400" y="498" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">古人用"站立的人头顶天空"来造"天"字</text>
+  <text x="400" y="522" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">上面一横是天空，下面"大"是张开手脚的人</text>
+  <text x="400" y="546" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">所以"天"字一直带着"人顶天立地"的意思</text>
+</svg>

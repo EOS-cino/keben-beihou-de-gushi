@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="孙中山求学与革命的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">孙中山的求学路</text>
+  <line x1="320" y1="58" x2="480" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 时间轴主线 -->
+  <line x1="80" y1="300" x2="720" y2="300" stroke="#c8843a" stroke-width="3"/>
+  <path d="M720 300 L710 293 L710 307 Z" fill="#c8843a"/>
+
+  <!-- 节点1：私塾读书 -->
+  <g transform="translate(150, 300)">
+    <circle cx="0" cy="0" r="12" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-70" y="-110" width="140" height="80" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">私塾读书</text>
+    <text x="0" y="-68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">广东香山老家</text>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">读《三字经》</text>
+    <!-- 小图标：书本 -->
+    <rect x="-12" y="-42" width="24" height="16" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">不懂就要问</text>
+  </g>
+
+  <!-- 节点2：檀香山求学 -->
+  <g transform="translate(330, 300)">
+    <circle cx="0" cy="0" r="12" fill="#6a8d3f" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-70" y="-110" width="140" height="80" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">檀香山求学</text>
+    <text x="0" y="-68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">意奥兰尼学校</text>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">学英语、数学</text>
+    <!-- 小图标：船 -->
+    <path d="M-15 -38 L15 -38 L12 -30 L-12 -30 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="0" y1="-48" x2="0" y2="-38" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 -46 L8 -40 L0 -40 Z" fill="#fff6df" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">眼界大开</text>
+  </g>
+
+  <!-- 节点3：香港学医 -->
+  <g transform="translate(510, 300)">
+    <circle cx="0" cy="0" r="12" fill="#7ab8d8" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-70" y="-110" width="140" height="80" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-88" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">香港学医</text>
+    <text x="0" y="-68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">西医书院</text>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">第一名毕业</text>
+    <!-- 小图标：十字 -->
+    <rect x="-4" y="-44" width="8" height="20" fill="#c84a3a"/>
+    <rect x="-10" y="-38" width="20" height="8" fill="#c84a3a"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">治病救人</text>
+  </g>
+
+  <!-- 节点4：革命领袖 -->
+  <g transform="translate(680, 300)">
+    <circle cx="0" cy="0" r="12" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-65" y="40" width="130" height="80" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">革命领袖</text>
+    <text x="0" y="82" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">提出三民主义</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">辛亥革命</text>
+    <!-- 小图标：旗帜 -->
+    <line x1="0" y1="30" x2="0" y2="8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M0 8 L20 12 L0 18 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 底部名言 -->
+  <g transform="translate(0, 470)">
+    <rect x="100" y="0" width="600" height="90" rx="10" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="400" y="30" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">孙中山的名言</text>
+    <text x="400" y="58" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">"我一生的嗜好，除了革命，就是读书。"</text>
+    <text x="400" y="80" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">"我一天不读书，就不能够生活。"</text>
+  </g>
+
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从私塾里好问的男孩，到博览群书的革命领袖——学习改变命运</text>
+</svg>

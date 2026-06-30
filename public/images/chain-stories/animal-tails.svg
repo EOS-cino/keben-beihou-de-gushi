@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="不同动物尾巴用途对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">动物尾巴的不同用途</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">每种尾巴都是为生活"量身定做"的</text>
+
+  <!-- 四个用途卡片 -->
+  <!-- 卡片1：猴子尾巴当手 -->
+  <g transform="translate(110,180)">
+    <rect x="-90" y="-30" width="180" height="160" rx="12" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">当"第五只手"</text>
+    <!-- 猴子简笔画 -->
+    <g transform="translate(0,55)">
+      <line x1="-40" y1="-30" x2="40" y2="-35" stroke="#7a3b14" stroke-width="4"/>
+      <circle cx="0" cy="0" r="18" fill="#8d5a36"/>
+      <circle cx="0" cy="-22" r="13" fill="#8d5a36"/>
+      <circle cx="-4" cy="-23" r="2" fill="#fef9ed"/>
+      <circle cx="4" cy="-23" r="2" fill="#fef9ed"/>
+      <!-- 尾巴卷住树枝捡东西 -->
+      <path d="M14 5 Q40 20 50 0 Q55 -15 45 -20 Q40 -5 30 8" fill="none" stroke="#8d5a36" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="50" cy="-18" r="5" fill="#e07856"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">能缠树枝、捡东西</text>
+  </g>
+
+  <!-- 卡片2：松鼠尾巴当降落伞/被子 -->
+  <g transform="translate(310,180)">
+    <rect x="-90" y="-30" width="180" height="160" rx="12" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">当"降落伞"</text>
+    <g transform="translate(0,55)">
+      <!-- 树 -->
+      <line x1="-50" y1="40" x2="-50" y2="-40" stroke="#7a3b14" stroke-width="5"/>
+      <!-- 松鼠跳下，尾巴张开 -->
+      <ellipse cx="10" cy="0" rx="14" ry="16" fill="#c8843a"/>
+      <circle cx="10" cy="-18" r="10" fill="#c8843a"/>
+      <path d="M22 -5 Q55 -25 50 -55 Q30 -50 18 -20" fill="#e0a050"/>
+      <!-- 下方箭头表示下落 -->
+      <path d="M10 25 L10 40 M6 35 L10 40 L14 35" fill="none" stroke="#c84a3a" stroke-width="2"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">跳树时保持平衡</text>
+  </g>
+
+  <!-- 卡片3：牛马尾巴赶虫 -->
+  <g transform="translate(510,180)">
+    <rect x="-90" y="-30" width="180" height="160" rx="12" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">当"拂尘"赶虫</text>
+    <g transform="translate(0,55)">
+      <ellipse cx="-10" cy="0" rx="22" ry="16" fill="#8d5a36"/>
+      <circle cx="-25" cy="-12" r="12" fill="#8d5a36"/>
+      <circle cx="-28" cy="-14" r="2" fill="#fef9ed"/>
+      <!-- 尾巴甩动 -->
+      <path d="M12 5 Q35 15 45 -5 Q40 0 30 8" fill="none" stroke="#8d5a36" stroke-width="4" stroke-linecap="round"/>
+      <!-- 末端毛 -->
+      <ellipse cx="45" cy="-5" rx="6" ry="4" fill="#5a2a10"/>
+      <!-- 苍蝇 -->
+      <circle cx="50" cy="-15" r="3" fill="#1a1a1a"/>
+      <line x1="50" y1="-18" x2="48" y2="-22" stroke="#1a1a1a" stroke-width="1"/>
+      <line x1="50" y1="-18" x2="52" y2="-22" stroke="#1a1a1a" stroke-width="1"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">甩来甩去赶苍蝇</text>
+  </g>
+
+  <!-- 卡片4：壁虎尾巴自断逃生 -->
+  <g transform="translate(690,180)">
+    <rect x="-90" y="-30" width="180" height="160" rx="12" fill="#fef0d8" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="15" fill="#c84a3a" font-weight="bold">自断逃生</text>
+    <g transform="translate(0,55)">
+      <!-- 壁虎身体（无尾） -->
+      <ellipse cx="-15" cy="0" rx="18" ry="10" fill="#6a8d3f"/>
+      <circle cx="-30" cy="-5" r="9" fill="#6a8d3f"/>
+      <circle cx="-33" cy="-7" r="2" fill="#fef9ed"/>
+      <!-- 腿 -->
+      <line x1="-10" y1="8" x2="-8" y2="18" stroke="#6a8d3f" stroke-width="3"/>
+      <line x1="-20" y1="8" x2="-22" y2="18" stroke="#6a8d3f" stroke-width="3"/>
+      <!-- 断掉的尾巴在扭动 -->
+      <path d="M5 0 Q20 -5 25 5 Q20 10 10 8" fill="#6a8d3f"/>
+      <!-- 闪电表示断开 -->
+      <path d="M-2 -3 L4 -8 L2 -2 L8 -7" fill="none" stroke="#c84a3a" stroke-width="2"/>
+    </g>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">断尾吸引敌人，自己逃走</text>
+  </g>
+
+  <!-- 底部：狗摇尾巴传信息 -->
+  <rect x="60" y="400" width="680" height="150" rx="12" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">尾巴还能传递信息</text>
+  <g transform="translate(220,490)">
+    <!-- 高兴的狗 摇尾巴 -->
+    <ellipse cx="0" cy="0" rx="24" ry="16" fill="#c8843a"/>
+    <circle cx="-22" cy="-8" r="12" fill="#c8843a"/>
+    <circle cx="-26" cy="-10" r="2" fill="#1a1a1a"/>
+    <path d="M-30 -2 L-34 -2" stroke="#1a1a1a" stroke-width="1.5"/>
+    <!-- 尾巴翘起摇 -->
+    <path d="M22 -5 Q40 -20 35 -35" fill="none" stroke="#c8843a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M35 -35 Q30 -40 38 -38" fill="none" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="13" fill="#6a8d3f">摇尾巴=高兴</text>
+  </g>
+  <g transform="translate(580,490)">
+    <!-- 害怕的狗 夹尾巴 -->
+    <ellipse cx="0" cy="0" rx="24" ry="16" fill="#8d5a36"/>
+    <circle cx="-22" cy="-8" r="12" fill="#8d5a36"/>
+    <circle cx="-26" cy="-10" r="2" fill="#1a1a1a"/>
+    <!-- 尾巴夹在腿间 -->
+    <path d="M22 8 Q35 15 28 25" fill="none" stroke="#8d5a36" stroke-width="5" stroke-linecap="round"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">夹尾巴=害怕</text>
+  </g>
+  <path d="M340 490 L460 490" stroke="#c8843a" stroke-width="2" stroke-dasharray="5,4"/>
+</svg>

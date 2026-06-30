@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="胡萝卜先生的长胡子">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">胡萝卜先生的长胡子</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">一根胡子，帮了许多人</text>
+  <g transform="translate(180,260)">
+    <path d="M-26,30 Q-30,-20 0,-30 Q30,-20 26,30 Z" fill="#e88a3a" stroke="#a85a2a" stroke-width="2"/>
+    <path d="M-14,-30 q6,-14 14,0 q8,-14 14,0" fill="#5a8a3a" stroke="#3a6b2a" stroke-width="2"/>
+    <circle cx="-6" cy="-6" r="2" fill="#3a2a1a"/><circle cx="6" cy="-6" r="2" fill="#3a2a1a"/>
+    <path d="M-6,6 q6,4 12,0" fill="none" stroke="#3a2a1a" stroke-width="2"/>
+  </g>
+  <path d="M180,290 Q300,330 420,300 Q540,270 660,310" fill="none" stroke="#5a3a1a" stroke-width="3" stroke-dasharray="2,4"/>
+  <g transform="translate(420,280)">
+    <path d="M0,0 L0,-50 L-20,-40 L0,-30" fill="#c0392b" stroke="#7a1a1a" stroke-width="2"/>
+  </g>
+  <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">一物多用，串起一条街的温暖</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="二十四节气中小雪的由来与习俗插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：小雪节气是怎么来的</text>
+  <line x1="150" y1="55" x2="650" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左：圭表测影 -->
+  <g transform="translate(180 230)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">圭表测影</text>
+    <text x="0" y="-32" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">立杆量影定节气</text>
+    <!-- 杆 -->
+    <rect x="-3" y="-20" width="6" height="50" fill="#5a3a1a"/>
+    <!-- 影子 -->
+    <ellipse cx="20" cy="30" rx="24" ry="4" fill="#5a3a1a" opacity="0.4"/>
+    <!-- 地面 -->
+    <line x1="-40" y1="30" x2="50" y2="30" stroke="#8d6f47" stroke-width="2"/>
+    <!-- 太阳 -->
+    <circle cx="-50" cy="-30" r="12" fill="#e8a838" opacity="0.8"/>
+    <text x="0" y="52" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">影最长=冬至</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">影最短=夏至</text>
+  </g>
+
+  <!-- 中：二十四节气环 -->
+  <g transform="translate(400 230)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">二十四节气</text>
+    <text x="0" y="-62" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">中国的第五大发明</text>
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#c8843a" stroke-width="2"/>
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5"/>
+    <!-- 冬季节气高亮 -->
+    <g font-family="serif" font-size="9" fill="#7a3b14">
+      <text x="0" y="-62" text-anchor="middle">立冬</text>
+      <text x="44" y="-32">小雪</text>
+      <text x="62" y="4">大雪</text>
+      <text x="44" y="38">冬至</text>
+      <text x="0" y="68" text-anchor="middle">小寒</text>
+      <text x="-44" y="38">大寒</text>
+      <text x="-62" y="4">立春</text>
+      <text x="-44" y="-32">雨水</text>
+    </g>
+    <!-- 小雪标记 -->
+    <circle cx="44" cy="-32" r="14" fill="#4a90b8" opacity="0.3"/>
+    <circle cx="44" cy="-32" r="4" fill="#4a90b8"/>
+    <!-- 雪花 -->
+    <g transform="translate(44 -32)" stroke="#4a90b8" stroke-width="1">
+      <line x1="-6" y1="0" x2="6" y2="0"/>
+      <line x1="0" y1="-6" x2="0" y2="6"/>
+    </g>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a" font-weight="bold">冬六气</text>
+  </g>
+
+  <!-- 右：各地习俗 -->
+  <g transform="translate(620 230)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">各地习俗</text>
+    <text x="0" y="-32" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">顺应时节未雨绸缪</text>
+    <!-- 腌菜坛 -->
+    <g transform="translate(-30 10)">
+      <ellipse cx="0" cy="20" rx="14" ry="5" fill="#5a3a1a"/>
+      <path d="M-14 20 Q-14 -6 0 -6 Q14 -6 14 20 Z" fill="#8d5a36"/>
+      <ellipse cx="0" cy="-6" rx="14" ry="4" fill="#3a2210"/>
+      <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">南方腌菜</text>
+    </g>
+    <!-- 糍粑 -->
+    <g transform="translate(30 14)">
+      <ellipse cx="0" cy="6" rx="12" ry="8" fill="#f4e4c4" stroke="#8d5a36" stroke-width="1.5"/>
+      <ellipse cx="-4" cy="2" rx="5" ry="3" fill="#e8a838" opacity="0.6"/>
+      <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">做糍粑</text>
+    </g>
+  </g>
+
+  <!-- 三候 -->
+  <g transform="translate(400 400)">
+    <rect x="-260" y="0" width="520" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <text x="-180" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">一候虹藏不见</text>
+    <line x1="-90" y1="10" x2="-90" y2="40" stroke="#c8843a" stroke-width="1"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">二候天气上升</text>
+    <line x1="90" y1="10" x2="90" y2="40" stroke="#c8843a" stroke-width="1"/>
+    <text x="180" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">三候闭塞成冬</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">小雪三候</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="480" width="700" height="90" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.85"/>
+  <text x="400" y="508" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">两千多年前，祖先用圭表测影，把一年分成二十四段。</text>
+  <text x="400" y="532" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">小雪是冬天的第二个节气，天冷到可能下雪，却还不是大雪。</text>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a">它的雪常常"落地就化"——冬天，真的到门口了。</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古代诗人用不同角度观察和描写风景的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">古代诗人怎么写风景</text>
+  <line x1="270" y1="58" x2="530" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 六种写景方法，三列两行 -->
+  <!-- 1 王维：写声音 -->
+  <rect x="30" y="80" width="240" height="200" rx="8" fill="#e8f0e6" opacity="0.6"/>
+  <text x="150" y="108" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">王维：写声音</text>
+  <!-- 山 -->
+  <path d="M50 240 Q90 180 130 220 Q170 175 210 235 L210 270 L50 270 Z" fill="#6a8d3f" opacity="0.4"/>
+  <!-- 声波 -->
+  <g fill="none" stroke="#7a3b14" stroke-width="2" opacity="0.5">
+    <path d="M120 200 Q140 195 160 200"/>
+    <path d="M115 190 Q140 183 165 190"/>
+    <path d="M110 180 Q140 171 170 180"/>
+  </g>
+  <text x="150" y="160" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">空山但闻人语响</text>
+
+  <!-- 2 李白：写想象 -->
+  <rect x="280" y="80" width="240" height="200" rx="8" fill="#d8e0e8" opacity="0.6"/>
+  <text x="400" y="108" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">李白：写想象</text>
+  <!-- 瀑布+银河 -->
+  <path d="M380 150 L372 270 L428 270 L420 150 Z" fill="#a8d0e8" opacity="0.8"/>
+  <!-- 星星（银河） -->
+  <g fill="#e8a838">
+    <circle cx="320" cy="140" r="2"/>
+    <circle cx="340" cy="125" r="2.5"/>
+    <circle cx="470" cy="135" r="2"/>
+    <circle cx="490" cy="150" r="2.5"/>
+    <circle cx="360" cy="115" r="1.5"/>
+    <circle cx="450" cy="120" r="1.5"/>
+  </g>
+  <text x="400" y="160" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">疑是银河落九天</text>
+
+  <!-- 3 苏轼：写道理 -->
+  <rect x="530" y="80" width="240" height="200" rx="8" fill="#fff6df" opacity="0.7"/>
+  <text x="650" y="108" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">苏轼：写道理</text>
+  <!-- 横看岭 -->
+  <path d="M550 230 Q600 210 650 225 Q700 210 750 230 L750 270 L550 270 Z" fill="#8d5a36" opacity="0.4"/>
+  <!-- 侧看峰 -->
+  <path d="M625 200 L650 160 L675 200 Z" fill="#a8703a" opacity="0.5"/>
+  <text x="650" y="150" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">横岭侧峰各不同</text>
+
+  <!-- 4 杜甫：抠细节 -->
+  <rect x="30" y="300" width="240" height="200" rx="8" fill="#fff6df" opacity="0.7"/>
+  <text x="150" y="328" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">杜甫：抠细节</text>
+  <!-- 春雨细丝 -->
+  <g stroke="#7ab8d8" stroke-width="1.5" opacity="0.7">
+    <line x1="70" y1="350" x2="66" y2="400"/>
+    <line x1="90" y1="345" x2="86" y2="395"/>
+    <line x1="110" y1="350" x2="106" y2="400"/>
+    <line x1="190" y1="345" x2="186" y2="395"/>
+    <line x1="210" y1="350" x2="206" y2="400"/>
+    <line x1="230" y1="345" x2="226" y2="395"/>
+  </g>
+  <!-- 嫩芽 -->
+  <path d="M140 470 Q145 440 150 470" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+  <path d="M160 470 Q165 445 170 470" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+  <text x="150" y="430" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">润物细无声</text>
+
+  <!-- 5 白居易：玩颜色 -->
+  <rect x="280" y="300" width="240" height="200" rx="8" fill="#d8e0e8" opacity="0.6"/>
+  <text x="400" y="328" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">白居易：玩颜色</text>
+  <!-- 江面半红半绿 -->
+  <rect x="300" y="380" width="100" height="60" fill="#6a8d3f" opacity="0.5"/>
+  <rect x="400" y="380" width="100" height="60" fill="#e07856" opacity="0.5"/>
+  <!-- 夕阳 -->
+  <circle cx="490" cy="360" r="14" fill="#e8a838"/>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">半江瑟瑟半江红</text>
+
+  <!-- 6 杨万里：用拟人 -->
+  <rect x="530" y="300" width="240" height="200" rx="8" fill="#e8f0e6" opacity="0.6"/>
+  <text x="650" y="328" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">杨万里：用拟人</text>
+  <!-- 小荷尖角 -->
+  <path d="M640 470 Q650 410 660 470 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+  <!-- 蜻蜓 -->
+  <g transform="translate(660,400)">
+    <ellipse cx="0" cy="0" rx="8" ry="3" fill="#c84a3a"/>
+    <ellipse cx="-2" cy="-6" rx="10" ry="4" fill="#a8d0e8" opacity="0.7" transform="rotate(-20 -2 -6)"/>
+    <ellipse cx="2" cy="-6" rx="10" ry="4" fill="#a8d0e8" opacity="0.7" transform="rotate(20 2 -6)"/>
+    <circle cx="7" cy="-1" r="2" fill="#7a3b14"/>
+  </g>
+  <text x="650" y="445" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">蜻蜓立上头</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">写声音、写想象、写道理、抠细节、玩颜色、用拟人——写景的方法有很多种。</text>
+</svg>

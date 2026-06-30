@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="蝴蝶蜕变四个阶段的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">连珠小故事：蝴蝶的蜕变过程</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <defs>
+    <marker id="arr4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#c8843a"/>
+    </marker>
+  </defs>
+
+  <!-- 四个阶段横向排列 -->
+  <!-- 阶段1：卵 -->
+  <g transform="translate(120, 250)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">第一阶段：卵</text>
+    <!-- 叶子背面 -->
+    <path d="M-50 30 Q-25 -5 0 0 Q25 -5 50 30 Q25 45 0 40 Q-25 45 -50 30 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <path d="M-50 30 L50 30" fill="none" stroke="#4a6a2f" stroke-width="1.5"/>
+    <!-- 卵（叶背） -->
+    <ellipse cx="-15" cy="20" rx="4" ry="5" fill="#f0e0c0" stroke="#c8843a" stroke-width="1"/>
+    <ellipse cx="-5" cy="22" rx="4" ry="5" fill="#f0e0c0" stroke="#c8843a" stroke-width="1"/>
+    <ellipse cx="8" cy="20" rx="4" ry="5" fill="#f0e0c0" stroke="#c8843a" stroke-width="1"/>
+    <ellipse cx="18" cy="23" rx="4" ry="5" fill="#f0e0c0" stroke="#c8843a" stroke-width="1"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">蝴蝶妈妈产在叶背</text>
+  </g>
+
+  <path d="M195 250 L235 250" fill="none" stroke="#c8843a" stroke-width="2.5" marker-end="url(#arr4)"/>
+
+  <!-- 阶段2：幼虫（毛虫） -->
+  <g transform="translate(320, 250)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">第二阶段：幼虫</text>
+    <!-- 叶子 -->
+    <path d="M-55 35 Q-28 0 0 5 Q28 0 55 35 Q28 50 0 45 Q-28 50 -55 35 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 毛虫（能吃阶段） -->
+    <g transform="translate(0, 20)">
+      <ellipse cx="-25" cy="0" rx="9" ry="10" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <ellipse cx="-12" cy="0" rx="9" ry="10" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <ellipse cx="1" cy="0" rx="9" ry="10" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <ellipse cx="14" cy="0" rx="9" ry="10" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <ellipse cx="27" cy="0" rx="10" ry="11" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+      <!-- 头 -->
+      <circle cx="27" cy="-1" r="10" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="1.5"/>
+      <circle cx="31" cy="-3" r="2" fill="#ffffff"/>
+      <circle cx="32" cy="-3" r="1" fill="#2a2a2a"/>
+      <!-- 嘴（吃叶子） -->
+      <path d="M34 2 Q37 4 36 6" fill="#3a5a1f"/>
+    </g>
+    <!-- 蜕皮标记 -->
+    <text x="-40" y="-10" font-family="serif" font-size="10" fill="#c8843a">蜕4-5次皮</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">不停吃叶，体重增千倍</text>
+  </g>
+
+  <path d="M395 250 L435 250" fill="none" stroke="#c8843a" stroke-width="2.5" marker-end="url(#arr4)"/>
+
+  <!-- 阶段3：蛹 -->
+  <g transform="translate(520, 250)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">第三阶段：蛹</text>
+    <!-- 树枝 -->
+    <line x1="-40" y1="-30" x2="40" y2="-30" stroke="#8d5a36" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="-30" x2="0" y2="-10" stroke="#8d5a36" stroke-width="3"/>
+    <!-- 蛹 -->
+    <g transform="translate(0, 20)">
+      <ellipse cx="0" cy="0" rx="22" ry="35" fill="#8d7a4a" stroke="#5a4a2a" stroke-width="2.5"/>
+      <!-- 蛹的纹理 -->
+      <path d="M-18 -15 Q0 -12 18 -15" fill="none" stroke="#5a4a2a" stroke-width="1" opacity="0.5"/>
+      <path d="M-20 0 Q0 3 20 0" fill="none" stroke="#5a4a2a" stroke-width="1" opacity="0.5"/>
+      <path d="M-18 15 Q0 18 18 15" fill="none" stroke="#5a4a2a" stroke-width="1" opacity="0.5"/>
+      <!-- 内部变化（虚影翅膀） -->
+      <ellipse cx="-8" cy="-5" rx="6" ry="12" fill="#e07856" opacity="0.2"/>
+      <ellipse cx="8" cy="-5" rx="6" ry="12" fill="#e07856" opacity="0.2"/>
+    </g>
+    <!-- 丝线 -->
+    <line x1="0" y1="-10" x2="0" y2="-30" stroke="#d8c898" stroke-width="1.5"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">体内组织重建</text>
+  </g>
+
+  <path d="M595 250 L635 250" fill="none" stroke="#c8843a" stroke-width="2.5" marker-end="url(#arr4)"/>
+
+  <!-- 阶段4：成虫（蝴蝶） -->
+  <g transform="translate(720, 250)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">第四阶段：成虫</text>
+    <!-- 花朵 -->
+    <g transform="translate(0, 45)">
+      <circle cx="0" cy="0" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="0" r="3" fill="#f4c842"/>
+    </g>
+    <!-- 蝴蝶 -->
+    <g transform="translate(0, 0)">
+      <ellipse cx="0" cy="0" rx="4" ry="22" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="1.5"/>
+      <circle cx="0" cy="-24" r="6" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="1.5"/>
+      <circle cx="-2" cy="-25" r="1.5" fill="#ffffff"/>
+      <circle cx="2" cy="-25" r="1.5" fill="#ffffff"/>
+      <!-- 触角 -->
+      <path d="M-2 -29 Q-6 -36 -9 -38" fill="none" stroke="#4a6a2f" stroke-width="1.5"/>
+      <path d="M2 -29 Q6 -36 9 -38" fill="none" stroke="#4a6a2f" stroke-width="1.5"/>
+      <!-- 翅膀 -->
+      <ellipse cx="-20" cy="-8" rx="18" ry="14" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+      <ellipse cx="-18" cy="10" rx="14" ry="11" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+      <ellipse cx="20" cy="-8" rx="18" ry="14" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+      <ellipse cx="18" cy="10" rx="14" ry="11" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 花纹 -->
+      <circle cx="-20" cy="-8" r="4" fill="#f4c842"/>
+      <circle cx="20" cy="-8" r="4" fill="#f4c842"/>
+    </g>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">展翅飞翔吸花蜜</text>
+  </g>
+
+  <!-- 下方：完全变态发育说明 -->
+  <g transform="translate(400, 430)">
+    <rect x="-250" y="0" width="500" height="55" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">完全变态发育</text>
+    <text x="0" y="42" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">卵 → 幼虫 → 蛹 → 成虫，四个阶段像换了四次"身份"</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="510" width="700" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">从卵到毛虫，从毛虫到蛹，从蛹到蝴蝶——每一次变化都像一次"重生"，</text>
+  <text x="400" y="558" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">是耐心和时间，让笨笨的小毛虫完成了这场神奇的蜕变。</text>
+</svg>

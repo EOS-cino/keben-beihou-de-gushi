@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="石猴发现水帘洞插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#8a5a14">猴王出世 · 水帘洞</text>
+  <line x1="240" y1="62" x2="560" y2="62" stroke="#c8943a" stroke-width="2"/>
+
+  <!-- 远山 -->
+  <path d="M0 470 L100 360 L200 430 L350 330 L500 420 L650 350 L800 430 L800 600 L0 600 Z" fill="#c8b898" opacity="0.5"/>
+
+  <!-- 山体（花果山） -->
+  <path d="M250 500 L280 300 L350 200 L450 200 L520 300 L550 500 Z" fill="#8a7a5a" stroke="#5a4a2a" stroke-width="2"/>
+  <!-- 山体纹理 -->
+  <g stroke="#6a5a3a" stroke-width="1.5" fill="none">
+    <path d="M300 400 L340 380 L380 410"/>
+    <path d="M420 390 L460 370 L500 400"/>
+    <path d="M330 320 L370 300"/>
+    <path d="M430 320 L470 300"/>
+  </g>
+  <!-- 山上树木 -->
+  <g fill="#4a7a3a">
+    <circle cx="310" cy="290" r="12"/>
+    <circle cx="490" cy="290" r="12"/>
+    <circle cx="400" cy="210" r="10"/>
+  </g>
+
+  <!-- 水帘洞洞口 -->
+  <path d="M360 460 Q360 360 400 340 Q440 360 440 460 Z" fill="#2a2a2a"/>
+  <!-- 洞内（隐约可见石桌石凳） -->
+  <ellipse cx="400" cy="430" rx="30" ry="12" fill="#5a4a3a"/>
+  <rect x="385" y="410" width="30" height="20" fill="#6a5a4a" rx="3"/>
+
+  <!-- 瀑布（水帘） -->
+  <path d="M358 345 L358 470 Q400 460 442 470 L442 345 Z" fill="#a0d0e8" opacity="0.7"/>
+  <!-- 水流线条 -->
+  <g stroke="#7ab8d8" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M370 350 L370 465"/>
+    <path d="M385 348 L385 465"/>
+    <path d="M400 346 L400 465"/>
+    <path d="M415 348 L415 465"/>
+    <path d="M430 350 L430 465"/>
+  </g>
+  <!-- 水花 -->
+  <g fill="#c8e8f8" opacity="0.8">
+    <circle cx="360" cy="470" r="4"/>
+    <circle cx="375" cy="475" r="3"/>
+    <circle cx="425" cy="475" r="3"/>
+    <circle cx="440" cy="470" r="4"/>
+  </g>
+
+  <!-- 石猴（跳入瀑布的瞬间） -->
+  <g>
+    <!-- 身体（跳跃姿态） -->
+    <ellipse cx="400" cy="320" rx="18" ry="22" fill="#8a6a3a" transform="rotate(-15 400 320)"/>
+    <!-- 头 -->
+    <circle cx="412" cy="300" r="16" fill="#a07a4a"/>
+    <!-- 脸（心形猴脸） -->
+    <path d="M412 295 Q404 302 412 312 Q420 302 412 295 Z" fill="#f0d0a8"/>
+    <!-- 眼睛 -->
+    <circle cx="408" cy="300" r="2.5" fill="#2a2a2a"/>
+    <circle cx="416" cy="300" r="2.5" fill="#2a2a2a"/>
+    <!-- 嘴 -->
+    <path d="M409 307 Q412 310 415 307" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 耳朵 -->
+    <circle cx="398" cy="298" r="5" fill="#8a6a3a"/>
+    <circle cx="426" cy="298" r="5" fill="#8a6a3a"/>
+    <!-- 手臂（前伸） -->
+    <path d="M390 312 L370 300 L372 292 L395 305 Z" fill="#8a6a3a"/>
+    <path d="M418 312 L438 300 L436 292 L415 305 Z" fill="#8a6a3a"/>
+    <!-- 尾巴 -->
+    <path d="M388 330 Q370 340 365 355" fill="none" stroke="#8a6a3a" stroke-width="6" stroke-linecap="round"/>
+    <!-- 金光（眼睛射出） -->
+    <g stroke="#f4d842" stroke-width="2" opacity="0.8">
+      <line x1="408" y1="298" x2="390" y2="280"/>
+      <line x1="416" y1="298" x2="434" y2="280"/>
+    </g>
+  </g>
+
+  <!-- 众猴（在瀑布外观望） -->
+  <g>
+    <!-- 猴1（左） -->
+    <ellipse cx="180" cy="470" rx="14" ry="18" fill="#8a6a3a"/>
+    <circle cx="180" cy="450" r="11" fill="#a07a4a"/>
+    <path d="M180 447 Q174 452 180 458 Q186 452 180 447 Z" fill="#f0d0a8"/>
+    <circle cx="177" cy="450" r="1.5" fill="#2a2a2a"/>
+    <circle cx="183" cy="450" r="1.5" fill="#2a2a2a"/>
+    <!-- 猴2（右） -->
+    <ellipse cx="620" cy="470" rx="14" ry="18" fill="#8a6a3a"/>
+    <circle cx="620" cy="450" r="11" fill="#a07a4a"/>
+    <path d="M620 447 Q614 452 620 458 Q626 452 620 447 Z" fill="#f0d0a8"/>
+    <circle cx="617" cy="450" r="1.5" fill="#2a2a2a"/>
+    <circle cx="623" cy="450" r="1.5" fill="#2a2a2a"/>
+    <!-- 猴3 -->
+    <ellipse cx="220" cy="490" rx="12" ry="15" fill="#8a6a3a"/>
+    <circle cx="220" cy="475" r="9" fill="#a07a4a"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 文字标注 -->
+  <line x1="412" y1="284" x2="412" y2="240" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="350" y="215" width="120" height="26" fill="#fff6df" stroke="#c8943a" rx="4"/>
+  <text x="410" y="233" text-anchor="middle" font-family="serif" font-size="15" fill="#8a5a14">石猴（纵身一跃）</text>
+
+  <line x1="400" y1="400" x2="500" y2="380" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="490" y="365" width="100" height="26" fill="#fff6df" stroke="#c8943a" rx="4"/>
+  <text x="540" y="383" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">水帘洞口</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="16" fill="#8a5a14">石猴纵身跳入瀑布，发现水帘洞，被众猴拜为美猴王</text>
+</svg>

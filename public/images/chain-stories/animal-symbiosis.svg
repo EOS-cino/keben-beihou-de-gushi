@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="不同动物之间互助共生的关系插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">动物界的互助关系</text>
+  <line x1="280" y1="58" x2="520" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 四个共生例子 -->
+  <!-- 1 犀牛和鸟 -->
+  <rect x="30" y="80" width="350" height="200" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" opacity="0.6"/>
+  <text x="60" y="108" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">犀牛 ↔ 犀牛鸟</text>
+  <g transform="translate(150,200)">
+    <ellipse cx="0" cy="0" rx="60" ry="30" fill="#8d8d7a" stroke="#6a6a5a" stroke-width="1.5"/>
+    <ellipse cx="55" cy="-5" rx="24" ry="20" fill="#8d8d7a" stroke="#6a6a5a" stroke-width="1.5"/>
+    <path d="M62 -22 L72 -42 L68 -20 Z" fill="#d8d0c0" stroke="#8d8d7a" stroke-width="1.5"/>
+    <rect x="-40" y="22" width="12" height="24" fill="#8d8d7a"/>
+    <rect x="20" y="22" width="12" height="24" fill="#8d8d7a"/>
+  </g>
+  <g transform="translate(120,165)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="8" cy="-2" r="5" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M13 -2 L18 -1 L13 1 Z" fill="#c84a3a"/>
+  </g>
+  <text x="280" y="180" font-family="serif" font-size="12" fill="#7a3b14">鸟啄虫</text>
+  <text x="280" y="200" font-family="serif" font-size="12" fill="#7a3b14">犀牛给食物</text>
+  <path d="M260 185 L240 185" stroke="#c84a3a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- 2 清洁鱼和大鱼 -->
+  <rect x="420" y="80" width="350" height="200" rx="8" fill="#d8e0e8" opacity="0.5"/>
+  <text x="450" y="108" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">清洁鱼 ↔ 大鱼</text>
+  <!-- 大鱼 -->
+  <g transform="translate(560,200)">
+    <ellipse cx="0" cy="0" rx="60" ry="28" fill="#7ab8d8" stroke="#4a8aaa" stroke-width="1.5"/>
+    <path d="M60 0 L80 -16 L80 16 Z" fill="#7ab8d8" stroke="#4a8aaa" stroke-width="1.5"/>
+    <circle cx="-40" cy="-8" r="4" fill="#7a3b14"/>
+    <!-- 张开的嘴 -->
+    <path d="M-60 -4 L-72 -8 L-72 8 L-60 4 Z" fill="#3a4a6a"/>
+  </g>
+  <!-- 清洁鱼 -->
+  <g transform="translate(480,200)">
+    <ellipse cx="0" cy="0" rx="12" ry="6" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M12 0 L20 -5 L20 5 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <text x="680" y="180" font-family="serif" font-size="12" fill="#7a3b14">清洁鱼吃虫</text>
+  <text x="680" y="200" font-family="serif" font-size="12" fill="#7a3b14">大鱼给清洁</text>
+
+  <!-- 3 小丑鱼和海葵 -->
+  <rect x="30" y="300" width="350" height="200" rx="8" fill="#e8f0e6" opacity="0.6"/>
+  <text x="60" y="328" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">小丑鱼 ↔ 海葵</text>
+  <!-- 海葵 -->
+  <g transform="translate(150,420)">
+    <ellipse cx="0" cy="40" rx="40" ry="12" fill="#c84a3a" opacity="0.4"/>
+    <g stroke="#c84a3a" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M-30 40 Q-35 10 -40 -10"/>
+      <path d="M-15 40 Q-18 5 -22 -18"/>
+      <path d="M0 40 Q0 0 0 -22"/>
+      <path d="M15 40 Q18 5 22 -18"/>
+      <path d="M30 40 Q35 10 40 -10"/>
+    </g>
+  </g>
+  <!-- 小丑鱼 -->
+  <g transform="translate(150,400)">
+    <ellipse cx="0" cy="0" rx="16" ry="9" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-16 0 L-26 -8 L-26 8 Z" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-4" y="-9" width="4" height="18" fill="#fff6df"/>
+    <rect x="6" y="-9" width="4" height="18" fill="#fff6df"/>
+    <circle cx="8" cy="-3" r="2" fill="#7a3b14"/>
+  </g>
+  <text x="280" y="400" font-family="serif" font-size="12" fill="#7a3b14">海葵保护鱼</text>
+  <text x="280" y="420" font-family="serif" font-size="12" fill="#7a3b14">鱼带回食物</text>
+
+  <!-- 4 蚂蚁和蚜虫 -->
+  <rect x="420" y="300" width="350" height="200" rx="8" fill="#fff6df" opacity="0.6"/>
+  <text x="450" y="328" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">蚂蚁 ↔ 蚜虫</text>
+  <!-- 嫩枝 -->
+  <path d="M500 470 Q540 420 580 440" fill="none" stroke="#6a8d3f" stroke-width="3"/>
+  <ellipse cx="540" cy="418" rx="10" ry="6" fill="#6a8d3f"/>
+  <!-- 蚜虫 -->
+  <g fill="#7aa84f" stroke="#4a6a2f" stroke-width="1">
+    <ellipse cx="530" cy="430" rx="5" ry="4"/>
+    <ellipse cx="545" cy="425" rx="5" ry="4"/>
+    <ellipse cx="555" cy="438" rx="5" ry="4"/>
+  </g>
+  <!-- 蚂蚁 -->
+  <g transform="translate(580,460)" fill="#3a2a1a" stroke="#7a3b14" stroke-width="1">
+    <circle cx="-12" cy="0" r="4"/>
+    <circle cx="-4" cy="0" r="5"/>
+    <ellipse cx="4" cy="0" rx="7" ry="5"/>
+    <line x1="-16" y1="2" x2="-22" y2="6" stroke-width="1.5"/>
+    <line x1="0" y1="4" x2="-4" y2="10" stroke-width="1.5"/>
+    <line x1="8" y1="4" x2="12" y2="10" stroke-width="1.5"/>
+  </g>
+  <!-- 蜜露 -->
+  <g fill="#e8a838">
+    <circle cx="548" cy="418" r="2"/>
+    <circle cx="558" cy="432" r="2"/>
+  </g>
+  <text x="680" y="400" font-family="serif" font-size="12" fill="#7a3b14">蚂蚁保护蚜虫</text>
+  <text x="680" y="420" font-family="serif" font-size="12" fill="#7a3b14">蚜虫给蜜露</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">一个出力气，一个出本事——大自然里到处是互相帮忙的好搭档。</text>
+</svg>

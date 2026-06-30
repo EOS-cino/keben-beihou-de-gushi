@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天物候现象示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">春天的物候现象</text>
+  <line x1="300" y1="56" x2="500" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 中心标题 -->
+  <text x="400" y="100" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">立春后万物复苏，物候标志有哪些？</text>
+
+  <!-- 四个象限 -->
+
+  <!-- 左上：植物萌发 -->
+  <g transform="translate(200,220)">
+    <rect x="-100" y="-80" width="200" height="160" fill="#e8f5d8" stroke="#6a8d3f" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a6a2f">植物萌发</text>
+    <!-- 小草 -->
+    <g stroke="#6a8d3f" stroke-width="2" fill="none">
+      <path d="M-40 30 Q-38 10 -34 -5"/>
+      <path d="M-35 30 Q-30 15 -27 0"/>
+      <path d="M-45 30 Q-50 15 -47 0"/>
+    </g>
+    <g fill="#8da860">
+      <ellipse cx="-34" cy="-5" rx="3" ry="8"/>
+      <ellipse cx="-27" cy="0" rx="3" ry="7"/>
+      <ellipse cx="-47" cy="0" rx="3" ry="7"/>
+    </g>
+    <!-- 嫩芽 -->
+    <g transform="translate(20,20)">
+      <path d="M0 10 Q-2 -5 0 -15" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+      <ellipse cx="-5" cy="-5" rx="4" ry="7" fill="#8da860" transform="rotate(-30 -5 -5)"/>
+      <ellipse cx="5" cy="-8" rx="4" ry="7" fill="#8da860" transform="rotate(30 5 -8)"/>
+    </g>
+    <!-- 花 -->
+    <g transform="translate(50,10)">
+      <circle cx="0" cy="0" r="6" fill="#e07856"/>
+      <circle cx="0" cy="0" r="3" fill="#f4b942"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">小草出土·嫩芽生长</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">桃花杏花开放</text>
+  </g>
+
+  <!-- 右上：动物苏醒 -->
+  <g transform="translate(600,220)">
+    <rect x="-100" y="-80" width="200" height="160" fill="#fff0e0" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">动物苏醒</text>
+    <!-- 燕子 -->
+    <g transform="translate(-40,-20)">
+      <path d="M0 0 Q-8 -5 -15 0 Q-8 3 0 0 Q8 3 15 0 Q8 -5 0 0" fill="#2a2a2a"/>
+      <path d="M0 0 L-3 6 L3 6 Z" fill="#2a2a2a"/>
+    </g>
+    <text x="-40" y="15" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">候鸟北归</text>
+    <!-- 青蛙 -->
+    <g transform="translate(30,10)">
+      <ellipse cx="0" cy="5" rx="14" ry="10" fill="#6ab04c"/>
+      <circle cx="-5" cy="-5" r="5" fill="#6ab04c"/>
+      <circle cx="5" cy="-5" r="5" fill="#6ab04c"/>
+      <circle cx="-5" cy="-6" r="2" fill="#1a1a1a"/>
+      <circle cx="5" cy="-6" r="2" fill="#1a1a1a"/>
+    </g>
+    <text x="30" y="30" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">冬眠动物苏醒</text>
+    <!-- 蝴蝶 -->
+    <g transform="translate(-20,30)">
+      <ellipse cx="-5" cy="0" rx="5" ry="3" fill="#e07856"/>
+      <ellipse cx="5" cy="0" rx="5" ry="3" fill="#e07856"/>
+      <ellipse cx="0" cy="0" rx="1.5" ry="4" fill="#2a2a2a"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">燕子筑巢·青蛙鸣叫</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">昆虫活跃</text>
+  </g>
+
+  <!-- 左下：冰雪消融 -->
+  <g transform="translate(200,440)">
+    <rect x="-100" y="-80" width="200" height="160" fill="#e0f0f8" stroke="#7ab8d8" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#3a6a8a">冰雪消融</text>
+    <!-- 小溪 -->
+    <path d="M-60 20 Q-30 15 0 20 Q30 25 60 20" fill="none" stroke="#7ab8d8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-60 20 Q-30 15 0 20 Q30 25 60 20" fill="none" stroke="#a8d0e8" stroke-width="2"/>
+    <!-- 冰块碎裂 -->
+    <g fill="#c8e0f0" stroke="#7ab8d8" stroke-width="1">
+      <polygon points="-50,10 -40,5 -35,15 -45,18"/>
+      <polygon points="40,10 50,5 55,15 45,18"/>
+    </g>
+    <!-- 水滴 -->
+    <g fill="#7ab8d8">
+      <ellipse cx="-20" cy="0" rx="2" ry="4"/>
+      <ellipse cx="15" cy="-5" rx="2" ry="4"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">溪流解冻·叮咚作响</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">春雨绵绵润万物</text>
+  </g>
+
+  <!-- 右下：春暖花开 -->
+  <g transform="translate(600,440)">
+    <rect x="-100" y="-80" width="200" height="160" fill="#f5e0d8" stroke="#c84a3a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c84a3a">春暖花开</text>
+    <!-- 桃花 -->
+    <g transform="translate(-30,0)">
+      <circle cx="0" cy="0" r="8" fill="#e07856"/>
+      <circle cx="-7" cy="-5" r="6" fill="#f5a8a0"/>
+      <circle cx="7" cy="-5" r="6" fill="#f5a8a0"/>
+      <circle cx="-5" cy="6" r="6" fill="#f5a8a0"/>
+      <circle cx="5" cy="6" r="6" fill="#f5a8a0"/>
+      <circle cx="0" cy="0" r="3" fill="#f4b942"/>
+    </g>
+    <!-- 迎春花 -->
+    <g transform="translate(30,5)">
+      <circle cx="0" cy="0" r="6" fill="#f4b942"/>
+      <circle cx="-8" cy="3" r="5" fill="#f4d042"/>
+      <circle cx="8" cy="3" r="5" fill="#f4d042"/>
+      <circle cx="0" cy="-8" r="5" fill="#f4d042"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">迎春→桃花→杏花→梨花</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">花信风依次开放</text>
+  </g>
+
+  <!-- 底部：节气 -->
+  <rect x="100" y="540" width="600" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">春季节气：立春 → 雨水 → 惊蛰 → 春分 → 清明 → 谷雨</text>
+</svg>

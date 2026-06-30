@@ -1,0 +1,616 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const lessons = await getCollection("lessons");
+const gradeOrder = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"];
+
+const gradeStats = gradeOrder.map((grade) => {
+  const gradeLessons = lessons.filter((l) => l.data.grade === grade);
+  return {
+    grade,
+    total: gradeLessons.length,
+    slugs: gradeLessons.map((l) => l.slug),
+  };
+});
+
+const allSlugs = lessons.map((l) => l.slug);
+const totalLessons = lessons.length;
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+---
+
+<BaseLayout title="阅读仪表盘 - 课文背后的故事" description="查看你的阅读进度、收藏列表和成就徽章">
+  <section class="page-hero compact">
+    <p class="eyebrow">我的阅读</p>
+    <h1>阅读仪表盘</h1>
+    <p>这里记录了你读过的每一篇课文故事，看看你探索了多少文字背后的世界。</p>
+  </section>
+
+  <section class="dashboard" id="dashboard">
+    <!-- Overview stats -->
+    <div class="dash-overview" id="dashOverview">
+      <div class="dash-stat-card">
+        <div class="dash-stat-icon">📖</div>
+        <div class="dash-stat-num" id="statRead">0</div>
+        <div class="dash-stat-label">已读课文</div>
+        <div class="dash-stat-sub" id="statReadPct">0%</div>
+      </div>
+      <div class="dash-stat-card">
+        <div class="dash-stat-icon">⭐</div>
+        <div class="dash-stat-num" id="statBookmark">0</div>
+        <div class="dash-stat-label">收藏课文</div>
+        <div class="dash-stat-sub">点击下方管理</div>
+      </div>
+      <div class="dash-stat-card">
+        <div class="dash-stat-icon">🏅</div>
+        <div class="dash-stat-num" id="statBadges">0</div>
+        <div class="dash-stat-label">获得徽章</div>
+        <div class="dash-stat-sub" id="statBadgesSub">继续阅读解锁更多</div>
+      </div>
+      <div class="dash-stat-card">
+        <div class="dash-stat-icon">🔥</div>
+        <div class="dash-stat-num" id="statStreak">0</div>
+        <div class="dash-stat-label">阅读等级</div>
+        <div class="dash-stat-sub" id="statStreakSub">初出茅庐</div>
+      </div>
+    </div>
+
+    <!-- Daily reading goal & streak -->
+    <div class="dash-goal-section">
+      <div class="dash-section-head">
+        <h2>每日阅读目标</h2>
+      </div>
+      <div class="dash-goal-card">
+        <div class="dash-goal-setter">
+          <button class="goal-adjust" id="goalDec" type="button" aria-label="减少目标">−</button>
+          <span class="goal-num" id="goalNum">1</span>
+          <span class="goal-unit">篇 / 天</span>
+          <button class="goal-adjust" id="goalInc" type="button" aria-label="增加目标">+</button>
+        </div>
+        <div class="dash-streak">
+          <span class="streak-icon">🔥</span>
+          <span class="streak-num" id="streakNum">0</span>
+          <span class="streak-label">连续打卡天数</span>
+        </div>
+        <div class="dash-today-status" id="todayStatus">今日已读 0 / 1 篇</div>
+      </div>
+    </div>
+
+    <!-- Reading progress bar -->
+    <div class="dash-progress-section">
+      <div class="dash-section-head">
+        <h2>整体进度</h2>
+        <span class="dash-progress-text" id="overallProgressText">0 / {totalLessons}</span>
+      </div>
+      <div class="dash-progress-bar">
+        <div class="dash-progress-fill" id="overallProgressFill" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Grade completion -->
+    <div class="dash-grade-section">
+      <div class="dash-section-head">
+        <h2>各年级完成率</h2>
+      </div>
+      <div class="dash-grade-grid" id="gradeGrid">
+        {gradeStats.map((gs) => (
+          <div class="dash-grade-item" data-grade={gs.grade} data-total={gs.total} data-slugs={gs.slugs.join(",")}>
+            <div class="dash-grade-header">
+              <span class="dash-grade-name">{gs.grade}</span>
+              <span class="dash-grade-count"><span class="dash-grade-done">0</span> / {gs.total}</span>
+            </div>
+            <div class="dash-grade-bar">
+              <div class="dash-grade-fill" style="width: 0%"></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Achievement badges -->
+    <div class="dash-badges-section">
+      <div class="dash-section-head">
+        <h2>阅读成就</h2>
+      </div>
+      <div class="dash-badges-grid" id="badgesGrid">
+        <div class="badge-item locked" data-badge="first-step">
+          <div class="badge-icon">👣</div>
+          <div class="badge-name">初出茅庐</div>
+          <div class="badge-desc">阅读第一篇课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="ten-lessons">
+          <div class="badge-icon">📚</div>
+          <div class="badge-name">小书虫</div>
+          <div class="badge-desc">阅读 10 篇课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="fifty-lessons">
+          <div class="badge-icon">🐛</div>
+          <div class="badge-name">书海漫游</div>
+          <div class="badge-desc">阅读 50 篇课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="hundred-lessons">
+          <div class="badge-icon">🦋</div>
+          <div class="badge-name">博览群书</div>
+          <div class="badge-desc">阅读 100 篇课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="grade-one">
+          <div class="badge-icon">🌱</div>
+          <div class="badge-name">一年级达人</div>
+          <div class="badge-desc">读完一年级全部课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="grade-two">
+          <div class="badge-icon">🌿</div>
+          <div class="badge-name">二年级达人</div>
+          <div class="badge-desc">读完二年级全部课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="grade-three">
+          <div class="badge-icon">🌳</div>
+          <div class="badge-name">三年级达人</div>
+          <div class="badge-desc">读完三年级全部课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="grade-four">
+          <div class="badge-icon">🏔️</div>
+          <div class="badge-name">四年级达人</div>
+          <div class="badge-desc">读完四年级全部课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="grade-five">
+          <div class="badge-icon">🌊</div>
+          <div class="badge-name">五年级达人</div>
+          <div class="badge-desc">读完五年级全部课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="grade-six">
+          <div class="badge-icon">🚀</div>
+          <div class="badge-name">六年级达人</div>
+          <div class="badge-desc">读完六年级全部课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="collector">
+          <div class="badge-icon">⭐</div>
+          <div class="badge-name">收藏家</div>
+          <div class="badge-desc">收藏 10 篇课文</div>
+        </div>
+        <div class="badge-item locked" data-badge="all-done">
+          <div class="badge-icon">👑</div>
+          <div class="badge-name">满腹经纶</div>
+          <div class="badge-desc">读完全部 {totalLessons} 篇课文</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bookmark management -->
+    <div class="dash-bookmarks-section">
+      <div class="dash-section-head">
+        <h2>我的收藏</h2>
+        <button class="dash-clear-btn" id="clearBookmarksBtn" type="button" hidden>清空收藏</button>
+      </div>
+      <div class="dash-bookmarks-list" id="bookmarksList">
+        <div class="dash-empty" id="bookmarksEmpty">
+          <span class="dash-empty-icon">📭</span>
+          <p>还没有收藏任何课文</p>
+          <a href={withBase("/lessons/")} class="button secondary">去课文库看看</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reading history -->
+    <div class="dash-history-section">
+      <div class="dash-section-head">
+        <h2>最近阅读</h2>
+        <button class="dash-clear-btn" id="clearHistoryBtn" type="button" hidden>清除记录</button>
+      </div>
+      <div class="dash-history-list" id="historyList">
+        <div class="dash-empty" id="historyEmpty">
+          <span class="dash-empty-icon">📝</span>
+          <p>还没有阅读记录</p>
+          <a href={withBase("/lessons/")} class="button secondary">开始阅读</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reading notes -->
+    <div class="dash-notes-section">
+      <div class="dash-section-head">
+        <h2>我的笔记</h2>
+      </div>
+      <div class="dash-notes-list" id="dashNotesList">
+        <div class="dash-empty" id="dashNotesEmpty">
+          <span class="dash-empty-icon">🗒️</span>
+          <p>还没有笔记</p>
+          <a href={withBase("/lessons/")} class="button secondary">去课文里做笔记</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- All lessons data for client-side rendering -->
+    <script type="application/json" id="lessonsData" set:html={JSON.stringify(
+      lessons.map((l) => ({
+        slug: l.slug,
+        title: l.data.title,
+        grade: l.data.grade,
+        theme: l.data.theme,
+        author: l.data.author,
+        image: l.data.image,
+        imageAlt: l.data.imageAlt,
+        summary: l.data.summary,
+      }))
+    )} />
+  </section>
+</BaseLayout>
+
+<script>
+  const READ_KEY = "ketang-read-lessons";
+  const BOOKMARK_KEY = "ketang-bookmarked-lessons";
+  const READ_TIME_KEY = "ketang-read-timestamps";
+
+  function getStoredList(key: string): string[] {
+    try { return JSON.parse(localStorage.getItem(key) || "[]"); } catch { return []; }
+  }
+  function getStoredObject(key: string): Record<string, number> {
+    try { return JSON.parse(localStorage.getItem(key) || "{}"); } catch { return {}; }
+  }
+
+  const lessonsData = JSON.parse(document.getElementById("lessonsData")?.textContent || "[]") as any[];
+  const lessonMap = new Map<string, any>(lessonsData.map((l: any) => [l.slug, l]));
+
+  const readList = getStoredList(READ_KEY);
+  const bookmarkList = getStoredList(BOOKMARK_KEY);
+  const readTimestamps = getStoredObject(READ_TIME_KEY);
+
+  const totalLessons = lessonsData.length;
+  const readSet = new Set(readList);
+  const bookmarkSet = new Set(bookmarkList);
+
+  // --- Overview stats ---
+  const readCount = readSet.size;
+  const bookmarkCount = bookmarkSet.size;
+
+  document.getElementById("statRead")!.textContent = String(readCount);
+  document.getElementById("statReadPct")!.textContent = `${Math.round((readCount / totalLessons) * 100)}%`;
+  document.getElementById("statBookmark")!.textContent = String(bookmarkCount);
+
+  // Reading level
+  const levels = [
+    { min: 0, name: "初出茅庐" },
+    { min: 10, name: "渐入佳境" },
+    { min: 30, name: "小有所成" },
+    { min: 60, name: "饱读诗书" },
+    { min: 100, name: "学富五车" },
+    { min: 200, name: "满腹经纶" },
+  ];
+  let currentLevel = levels[0];
+  for (const lv of levels) {
+    if (readCount >= lv.min) currentLevel = lv;
+  }
+  document.getElementById("statStreak")!.textContent = String(readCount);
+  document.getElementById("statStreakSub")!.textContent = currentLevel.name;
+
+  // --- Overall progress ---
+  const overallPct = Math.round((readCount / totalLessons) * 100);
+  document.getElementById("overallProgressText")!.textContent = `${readCount} / ${totalLessons}`;
+  (document.getElementById("overallProgressFill") as HTMLElement)!.style.width = `${overallPct}%`;
+
+  // --- Grade completion ---
+  const gradeItems = [...document.querySelectorAll<HTMLElement>(".dash-grade-item")];
+  let unlockedBadges = 0;
+  gradeItems.forEach((item) => {
+    const grade = item.dataset.grade || "";
+    const total = parseInt(item.dataset.total || "0");
+    const slugs = (item.dataset.slugs || "").split(",");
+    const done = slugs.filter((s) => readSet.has(s)).length;
+    const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+
+    item.querySelector(".dash-grade-done")!.textContent = String(done);
+    (item.querySelector(".dash-grade-fill") as HTMLElement)!.style.width = `${pct}%`;
+
+    // Check grade badge
+    if (done === total && total > 0) {
+      const badgeId = `grade-${["one", "two", "three", "four", "five", "six"][gradeOrder.indexOf(grade)]}`;
+      const badge = document.querySelector(`[data-badge="${badgeId}"]`);
+      if (badge) {
+        badge.classList.remove("locked");
+        badge.classList.add("unlocked");
+        unlockedBadges++;
+      }
+    }
+  });
+
+  // --- Achievement badges ---
+  const badgeChecks: Record<string, boolean> = {
+    "first-step": readCount >= 1,
+    "ten-lessons": readCount >= 10,
+    "fifty-lessons": readCount >= 50,
+    "hundred-lessons": readCount >= 100,
+    "collector": bookmarkCount >= 10,
+    "all-done": readCount >= totalLessons,
+  };
+
+  for (const [badgeId, unlocked] of Object.entries(badgeChecks)) {
+    if (unlocked) {
+      const badge = document.querySelector(`[data-badge="${badgeId}"]`);
+      if (badge && badge.classList.contains("locked")) {
+        badge.classList.remove("locked");
+        badge.classList.add("unlocked");
+        unlockedBadges++;
+      }
+    }
+  }
+
+  // Count all unlocked (including grade badges already processed)
+  const allUnlocked = document.querySelectorAll(".badge-item.unlocked");
+  document.getElementById("statBadges")!.textContent = String(allUnlocked.length);
+  if (allUnlocked.length > 0) {
+    document.getElementById("statBadgesSub")!.textContent = `已解锁 ${allUnlocked.length} 个成就`;
+  }
+
+  // Helper for grade order
+  function getGradeIndex(grade: string): number {
+    return ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"].indexOf(grade);
+  }
+
+  // --- Bookmarks list ---
+  const bookmarksList = document.getElementById("bookmarksList")!;
+  const bookmarksEmpty = document.getElementById("bookmarksEmpty")!;
+  const clearBookmarksBtn = document.getElementById("clearBookmarksBtn")!;
+
+  function renderBookmarks() {
+    const currentBookmarks = getStoredList(BOOKMARK_KEY);
+    if (currentBookmarks.length === 0) {
+      bookmarksEmpty.hidden = false;
+      (clearBookmarksBtn as HTMLElement).hidden = true;
+      bookmarksList.querySelectorAll(".dash-bookmark-item").forEach((el) => el.remove());
+      return;
+    }
+    bookmarksEmpty.hidden = true;
+    (clearBookmarksBtn as HTMLElement).hidden = false;
+    bookmarksList.querySelectorAll(".dash-bookmark-item").forEach((el) => el.remove());
+
+    currentBookmarks.forEach((slug) => {
+      const lesson = lessonMap.get(slug);
+      if (!lesson) return;
+      const item = document.createElement("div");
+      item.className = "dash-bookmark-item";
+      item.innerHTML = `
+        <a href="/lessons/${slug}/" class="dash-bookmark-link">
+          <img src="${lesson.image}" alt="${lesson.imageAlt}" loading="lazy" />
+          <div class="dash-bookmark-info">
+            <strong>《${lesson.title}》</strong>
+            <span>${lesson.grade} · ${lesson.theme} · ${lesson.author}</span>
+          </div>
+        </a>
+        <button class="dash-remove-btn" data-slug="${slug}" type="button" aria-label="取消收藏">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      `;
+      bookmarksList.appendChild(item);
+    });
+
+    bookmarksList.querySelectorAll<HTMLButtonElement>(".dash-remove-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const slug = btn.dataset.slug || "";
+        let bookmarks = getStoredList(BOOKMARK_KEY);
+        bookmarks = bookmarks.filter((s) => s !== slug);
+        localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+        renderBookmarks();
+        document.getElementById("statBookmark")!.textContent = String(bookmarks.length);
+      });
+    });
+  }
+
+  renderBookmarks();
+
+  (clearBookmarksBtn as HTMLElement).addEventListener("click", () => {
+    if (confirm("确定要清空所有收藏吗？")) {
+      localStorage.removeItem(BOOKMARK_KEY);
+      renderBookmarks();
+      document.getElementById("statBookmark")!.textContent = "0";
+    }
+  });
+
+  // --- Reading history ---
+  const historyList = document.getElementById("historyList")!;
+  const historyEmpty = document.getElementById("historyEmpty")!;
+  const clearHistoryBtn = document.getElementById("clearHistoryBtn")!;
+
+  function renderHistory() {
+    const timestamps = getStoredObject(READ_TIME_KEY);
+    const entries = Object.entries(timestamps)
+      .sort(([, a], [, b]) => (b as number) - (a as number))
+      .slice(0, 20);
+
+    if (entries.length === 0) {
+      historyEmpty.hidden = false;
+      (clearHistoryBtn as HTMLElement).hidden = true;
+      return;
+    }
+    historyEmpty.hidden = true;
+    (clearHistoryBtn as HTMLElement).hidden = false;
+    historyList.querySelectorAll(".dash-history-item").forEach((el) => el.remove());
+
+    entries.forEach(([slug, ts]) => {
+      const lesson = lessonMap.get(slug);
+      if (!lesson) return;
+      const date = new Date(ts as number);
+      const dateStr = `${date.getMonth() + 1}月${date.getDate()}日 ${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
+      const item = document.createElement("div");
+      item.className = "dash-history-item";
+      item.innerHTML = `
+        <a href="/lessons/${slug}/" class="dash-history-link">
+          <span class="dash-history-time">${dateStr}</span>
+          <span class="dash-history-title">《${lesson.title}》</span>
+          <span class="dash-history-grade">${lesson.grade}</span>
+        </a>
+      `;
+      historyList.appendChild(item);
+    });
+  }
+
+  renderHistory();
+
+  (clearHistoryBtn as HTMLElement).addEventListener("click", () => {
+    if (confirm("确定要清除所有阅读记录吗？")) {
+      localStorage.removeItem(READ_KEY);
+      localStorage.removeItem(READ_TIME_KEY);
+      location.reload();
+    }
+  });
+
+  // === Daily reading goal & streak ===
+  const GOAL_KEY = "ketang-daily-goal";
+  const goalNumEl = document.getElementById("goalNum")!;
+  const streakNumEl = document.getElementById("streakNum")!;
+  const todayStatusEl = document.getElementById("todayStatus")!;
+  const goalDecBtn = document.getElementById("goalDec")!;
+  const goalIncBtn = document.getElementById("goalInc")!;
+
+  function loadGoalData(): { goal: number } {
+    try {
+      const data = JSON.parse(localStorage.getItem(GOAL_KEY) || "{}");
+      const g = typeof data.goal === "number" ? data.goal : 1;
+      return { goal: Math.min(5, Math.max(1, g)) };
+    } catch {
+      return { goal: 1 };
+    }
+  }
+  function saveGoalData(goal: number, streak: number) {
+    localStorage.setItem(GOAL_KEY, JSON.stringify({ goal, streak }));
+  }
+
+  function dayKeyFromDate(d: Date): string {
+    return `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
+  }
+
+  function getTodayReadCount(timestamps: Record<string, number>): number {
+    const todayKey = dayKeyFromDate(new Date());
+    let count = 0;
+    Object.values(timestamps).forEach((ts) => {
+      if (dayKeyFromDate(new Date(ts)) === todayKey) count++;
+    });
+    return count;
+  }
+
+  // Consecutive days: count backwards from today (with one-day grace
+  // so the streak isn't broken before today's first read).
+  function calcStreak(timestamps: Record<string, number>): number {
+    const days = new Set<string>();
+    Object.values(timestamps).forEach((ts) => {
+      days.add(dayKeyFromDate(new Date(ts)));
+    });
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const cursor = new Date(today);
+    if (!days.has(dayKeyFromDate(cursor))) {
+      cursor.setDate(cursor.getDate() - 1);
+      if (!days.has(dayKeyFromDate(cursor))) return 0;
+    }
+    let streak = 0;
+    while (days.has(dayKeyFromDate(cursor))) {
+      streak++;
+      cursor.setDate(cursor.getDate() - 1);
+    }
+    return streak;
+  }
+
+  let goalData = loadGoalData();
+  const todayReadCount = getTodayReadCount(readTimestamps);
+  const currentStreak = calcStreak(readTimestamps);
+
+  function renderGoal() {
+    goalNumEl.textContent = String(goalData.goal);
+    streakNumEl.textContent = String(currentStreak);
+    const done = todayReadCount >= goalData.goal;
+    if (done) {
+      todayStatusEl.textContent = `今日已读 ${todayReadCount} / ${goalData.goal} 篇 ✅`;
+      todayStatusEl.classList.add("done");
+    } else {
+      todayStatusEl.textContent = `今日已读 ${todayReadCount} / ${goalData.goal} 篇`;
+      todayStatusEl.classList.remove("done");
+    }
+  }
+  renderGoal();
+  saveGoalData(goalData.goal, currentStreak);
+
+  (goalDecBtn as HTMLElement).addEventListener("click", () => {
+    if (goalData.goal > 1) {
+      goalData.goal--;
+      saveGoalData(goalData.goal, currentStreak);
+      renderGoal();
+    }
+  });
+  (goalIncBtn as HTMLElement).addEventListener("click", () => {
+    if (goalData.goal < 5) {
+      goalData.goal++;
+      saveGoalData(goalData.goal, currentStreak);
+      renderGoal();
+    }
+  });
+
+  // === Reading notes ===
+  const NOTES_KEY = "ketang-reading-notes";
+  const dashNotesList = document.getElementById("dashNotesList")!;
+  const dashNotesEmpty = document.getElementById("dashNotesEmpty")!;
+
+  interface ReadingNote {
+    slug: string;
+    selectedText: string;
+    note: string;
+    timestamp: number;
+  }
+
+  function getNotes(): ReadingNote[] {
+    try { return JSON.parse(localStorage.getItem(NOTES_KEY) || "[]"); } catch { return []; }
+  }
+  function saveNotes(notes: ReadingNote[]) {
+    localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
+  }
+  function escapeHtml(str: string): string {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function renderDashNotes() {
+    dashNotesList.querySelectorAll(".dash-note-item").forEach((el) => el.remove());
+    const notes = getNotes();
+    if (notes.length === 0) {
+      dashNotesEmpty.hidden = false;
+      return;
+    }
+    dashNotesEmpty.hidden = true;
+
+    const sorted = [...notes].sort((a, b) => b.timestamp - a.timestamp);
+    sorted.forEach((n) => {
+      const lesson = lessonMap.get(n.slug);
+      const title = lesson ? lesson.title : n.slug;
+      const grade = lesson ? lesson.grade : "";
+      const d = new Date(n.timestamp);
+      const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+      const item = document.createElement("div");
+      item.className = "dash-note-item";
+      item.innerHTML = `
+        <blockquote class="dash-note-quote">“${escapeHtml(n.selectedText)}”</blockquote>
+        <p class="dash-note-text">${escapeHtml(n.note)}</p>
+        <div class="dash-note-meta">
+          <a href="/lessons/${encodeURIComponent(n.slug)}/" class="dash-note-source">《${escapeHtml(title)}》${grade ? ` · ${escapeHtml(grade)}` : ""}</a>
+          <span class="dash-note-time">${dateStr}</span>
+          <button class="dash-note-delete" type="button" data-ts="${n.timestamp}" data-slug="${escapeHtml(n.slug)}">删除</button>
+        </div>
+      `;
+      dashNotesList.appendChild(item);
+    });
+
+    dashNotesList.querySelectorAll<HTMLButtonElement>(".dash-note-delete").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const ts = parseInt(btn.dataset.ts || "0", 10);
+        const slug = btn.dataset.slug || "";
+        const remaining = getNotes().filter((n) => !(n.timestamp === ts && n.slug === slug));
+        saveNotes(remaining);
+        renderDashNotes();
+      });
+    });
+  }
+  renderDashNotes();
+</script>

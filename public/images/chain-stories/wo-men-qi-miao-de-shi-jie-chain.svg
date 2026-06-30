@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：世界奇妙的角落">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：世界奇妙的角落</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">大处有大奇妙，小处有小惊喜</text>
+  <g transform="translate(150,280)">
+    <g transform="rotate(0)">
+      <line x1="0" y1="0" x2="0" y2="-25" stroke="#a8d8e8" stroke-width="3"/>
+      <line x1="0" y1="0" x2="22" y2="-12" stroke="#a8d8e8" stroke-width="3"/>
+      <line x1="0" y1="0" x2="22" y2="12" stroke="#a8d8e8" stroke-width="3"/>
+      <line x1="0" y1="0" x2="0" y2="25" stroke="#a8d8e8" stroke-width="3"/>
+      <line x1="0" y1="0" x2="-22" y2="12" stroke="#a8d8e8" stroke-width="3"/>
+      <line x1="0" y1="0" x2="-22" y2="-12" stroke="#a8d8e8" stroke-width="3"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="13" fill="#5a8fa3">雪花·六芒</text>
+  </g>
+  <g transform="translate(330,280)">
+    <circle cx="0" cy="0" r="22" fill="#d8483a" opacity="0.5" stroke="#a8482a" stroke-width="1"/>
+    <ellipse cx="0" cy="0" rx="22" ry="10" fill="none" stroke="#a8482a" stroke-width="1"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="13" fill="#a8482a">木星·红斑</text>
+  </g>
+  <g transform="translate(510,280)">
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#c8e8f0" stroke="#5a8fa3" stroke-width="2" opacity="0.7"/>
+    <line x1="-8" y1="-10" x2="8" y2="-10" stroke="#5a8fa3" stroke-width="1"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="13" fill="#5a8fa3">深海·水母</text>
+  </g>
+  <g transform="translate(670,280)">
+    <path d="M-10,30 L-5,-20 L0,-25 L5,-20 L10,30 Z" fill="#e8d8b8" stroke="#a8742a" stroke-width="1"/>
+    <line x1="0" y1="-25" x2="0" y2="-35" stroke="#a8742a" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="13" fill="#a8742a">洞穴·石笋</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">擦亮眼睛，到处都是宝藏</text>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="燕子在屋檐下筑巢育雏的场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">燕子筑巢</text>
+  <line x1="350" y1="58" x2="450" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 房屋屋檐 -->
+  <rect x="0" y="72" width="800" height="20" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M0 92 L100 130 L700 130 L800 92 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+  <rect x="100" y="130" width="600" height="30" fill="#f0e0c8" stroke="#7a3b14" stroke-width="1.5"/>
+
+  <!-- 燕巢1（左） -->
+  <g transform="translate(220, 160)">
+    <!-- 巢（半个碗形） -->
+    <path d="M-35 0 Q-40 25 -25 40 Q0 48 25 40 Q40 25 35 0 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 巢口 -->
+    <ellipse cx="0" cy="5" rx="28" ry="8" fill="#5a3a1a"/>
+    <!-- 雏鸟们 -->
+    <g transform="translate(-10, 5)">
+      <ellipse cx="0" cy="0" rx="10" ry="8" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-8" r="6" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-2" cy="-9" r="1.5" fill="#fff"/>
+      <circle cx="2" cy="-9" r="1.5" fill="#fff"/>
+      <!-- 张嘴要吃 -->
+      <ellipse cx="0" cy="-5" rx="3" ry="2.5" fill="#c84a3a"/>
+    </g>
+    <g transform="translate(10, 5)">
+      <ellipse cx="0" cy="0" rx="10" ry="8" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-8" r="6" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-2" cy="-9" r="1.5" fill="#fff"/>
+      <circle cx="2" cy="-9" r="1.5" fill="#fff"/>
+      <ellipse cx="0" cy="-5" rx="3" ry="2.5" fill="#c84a3a"/>
+    </g>
+    <!-- 成鸟喂食 -->
+    <g transform="translate(0, -25)">
+      <ellipse cx="0" cy="0" rx="14" ry="6" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-10" cy="-2" r="6" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M14 0 L24 -4 M14 0 L24 4" stroke="#1a1a1a" stroke-width="2"/>
+      <path d="M-2 -3 Q-8 -12 -14 -8" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M2 -3 Q8 -12 14 -8" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 嘴里叼着虫子 -->
+      <path d="M-16 -2 L-22 -3" stroke="#6a8d3f" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- 燕巢2（右，正在筑） -->
+  <g transform="translate(560, 160)">
+    <!-- 半成品巢 -->
+    <path d="M-25 0 Q-30 15 -20 25 Q0 30 20 25 Q30 15 25 0 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2" opacity="0.8"/>
+    <!-- 燕子衔泥 -->
+    <g transform="translate(0, -30)">
+      <ellipse cx="0" cy="0" rx="14" ry="6" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-10" cy="-2" r="6" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M14 0 L24 -4 M14 0 L24 4" stroke="#1a1a1a" stroke-width="2"/>
+      <path d="M-2 -3 Q-8 -12 -14 -8" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M2 -3 Q8 -12 14 -8" fill="#1a1a1a" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 嘴里叼着泥球 -->
+      <circle cx="-17" cy="-1" r="3" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- 三个原因卡片 -->
+  <g transform="translate(0, 280)">
+    <!-- 原因1：遮风挡雨 -->
+    <g transform="translate(130, 0)">
+      <rect x="-90" y="0" width="180" height="130" rx="8" fill="#fff6df" stroke="#7ab8d8" stroke-width="2"/>
+      <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">遮风挡雨</text>
+      <!-- 雨滴 -->
+      <line x1="-30" y1="40" x2="-35" y2="55" stroke="#7ab8d8" stroke-width="2"/>
+      <line x1="-15" y1="45" x2="-20" y2="60" stroke="#7ab8d8" stroke-width="2"/>
+      <line x1="10" y1="42" x2="5" y2="57" stroke="#7ab8d8" stroke-width="2"/>
+      <!-- 屋檐挡雨 -->
+      <path d="M-40 70 L40 70 L35 75 L-35 75 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+      <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">屋檐下避雨</text>
+      <text x="0" y="112" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">泥巢不被冲坏</text>
+    </g>
+
+    <!-- 原因2：安全 -->
+    <g transform="translate(400, 0)">
+      <rect x="-90" y="0" width="180" height="130" rx="8" fill="#fff6df" stroke="#6a8d3f" stroke-width="2"/>
+      <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">安全可靠</text>
+      <!-- 蛇（被挡在外面） -->
+      <path d="M-40 60 Q-30 55 -20 60 Q-10 65 0 60 Q10 55 20 60" fill="none" stroke="#6a8d3f" stroke-width="4"/>
+      <circle cx="22" cy="59" r="3" fill="#6a8d3f"/>
+      <!-- 禁止符号 -->
+      <circle cx="35" cy="55" r="10" fill="none" stroke="#c84a3a" stroke-width="2"/>
+      <line x1="28" y1="48" x2="42" y2="62" stroke="#c84a3a" stroke-width="2"/>
+      <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">蛇和猫够不到</text>
+      <text x="0" y="112" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">蛋和雏鸟最安全</text>
+    </g>
+
+    <!-- 原因3：选和睦人家 -->
+    <g transform="translate(670, 0)">
+      <rect x="-90" y="0" width="180" height="130" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+      <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">选和睦人家</text>
+      <!-- 笑脸房子 -->
+      <rect x="-25" y="40" width="50" height="35" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-30 40 L0 25 L30 40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-8" cy="52" r="2" fill="#7a3b14"/>
+      <circle cx="8" cy="52" r="2" fill="#7a3b14"/>
+      <path d="M-5 60 Q0 64 5 60" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">安静和睦的家</text>
+      <text x="0" y="112" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">燕子才来筑巢</text>
+    </g>
+  </g>
+
+  <!-- 筑巢过程 -->
+  <g transform="translate(0, 440)">
+    <rect x="60" y="0" width="680" height="100" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="400" y="25" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">筑巢过程：一口一口衔泥，来回上千次</text>
+    <text x="180" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">衔泥巴 + 草茎 + 唾液</text>
+    <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">→ 一点一点粘上去</text>
+    <text x="620" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">→ 十几天建成半个碗</text>
+    <text x="400" y="82" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">里面铺上柔软的羽毛和干草，既暖和又舒服</text>
+  </g>
+
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">燕子在屋檐下筑巢——人与自然和谐相处的智慧</text>
+</svg>

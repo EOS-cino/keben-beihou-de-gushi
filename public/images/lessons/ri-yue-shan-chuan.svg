@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="日月山川自然风景配象形文字的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">日月山川</text>
+
+  <!-- 天空 -->
+  <rect x="40" y="80" width="720" height="240" fill="#a8d0e8" opacity="0.2"/>
+
+  <!-- 日 -->
+  <g transform="translate(180,200)">
+    <circle r="55" fill="#f4b942" opacity="0.85"/>
+    <g stroke="#f4b942" stroke-width="3" opacity="0.6">
+      <line x1="0" y1="-70" x2="0" y2="-82"/>
+      <line x1="0" y1="70" x2="0" y2="82"/>
+      <line x1="-70" y1="0" x2="-82" y2="0"/>
+      <line x1="70" y1="0" x2="82" y2="0"/>
+      <line x1="-50" y1="-50" x2="-58" y2="-58"/>
+      <line x1="50" y1="50" x2="58" y2="58"/>
+      <line x1="50" y1="-50" x2="58" y2="-58"/>
+      <line x1="-50" y1="50" x2="-58" y2="58"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#7a3b14">日</text>
+  </g>
+
+  <!-- 月 -->
+  <g transform="translate(620,200)">
+    <path d="M20 -50 Q-45 -45 -45 0 Q-45 45 20 50 Q-20 30 -20 0 Q-20 -30 20 -50 Z" fill="#fef9ed" stroke="#7ab8d8" stroke-width="2.5"/>
+    <text x="-10" y="100" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#7a3b14">月</text>
+  </g>
+
+  <!-- 山 -->
+  <g transform="translate(400,340)">
+    <!-- 远山 -->
+    <path d="M-180 80 L-100 -20 L-40 50 L20 -50 L90 40 L160 -10 L180 80 Z" fill="#6a8d3f" opacity="0.3"/>
+    <!-- 近山 -->
+    <path d="M-160 80 L-80 -40 L-20 50 L40 -70 L110 30 L160 80 Z" fill="#4a6a2f" opacity="0.5"/>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#7a3b14">山</text>
+  </g>
+
+  <!-- 川（河流） -->
+  <g transform="translate(400,490)">
+    <path d="M-200 30 Q-120 10 -60 25 Q0 40 60 20 Q140 5 200 25" fill="none" stroke="#7ab8d8" stroke-width="4" opacity="0.7"/>
+    <path d="M-200 50 Q-120 30 -60 45 Q0 60 60 40 Q140 25 200 45" fill="none" stroke="#a8d0e8" stroke-width="4" opacity="0.7"/>
+    <path d="M-200 70 Q-120 50 -60 65 Q0 80 60 60 Q140 45 200 65" fill="none" stroke="#7ab8d8" stroke-width="4" opacity="0.7"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#7a3b14">川</text>
+  </g>
+
+  <!-- 象形字标注 -->
+  <text x="180" y="320" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">圆圈中间一点</text>
+  <text x="620" y="320" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">弯弯的月牙</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">三个尖尖的山峰</text>
+  <text x="400" y="580" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">三条流淌的水线</text>
+</svg>

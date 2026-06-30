@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="星座连线与神话插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：星座是怎么来的</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="30" y="80" width="740" height="440" fill="#1a2a4a" rx="8"/>
+  <rect x="30" y="80" width="740" height="440" fill="#2a3a5a" opacity="0.4" rx="8"/>
+
+  <!-- 散落小星 -->
+  <g fill="#fef9ed" opacity="0.6">
+    <circle cx="80" cy="120" r="1"/>
+    <circle cx="150" cy="140" r="1.5"/>
+    <circle cx="220" cy="110" r="1"/>
+    <circle cx="300" cy="130" r="1"/>
+    <circle cx="500" cy="120" r="1.5"/>
+    <circle cx="600" cy="140" r="1"/>
+    <circle cx="700" cy="120" r="1"/>
+    <circle cx="100" cy="250" r="1"/>
+    <circle cx="400" cy="260" r="1"/>
+    <circle cx="650" cy="280" r="1.5"/>
+    <circle cx="120" cy="400" r="1"/>
+    <circle cx="350" cy="420" r="1"/>
+    <circle cx="600" cy="440" r="1"/>
+    <circle cx="720" cy="400" r="1.5"/>
+  </g>
+
+  <!-- 左：北斗七星 -->
+  <g transform="translate(60, 130)">
+    <text x="80" y="-5" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856">北斗七星（中国）</text>
+    <!-- 连线 -->
+    <g stroke="#c8843a" stroke-width="1.5" fill="none" opacity="0.7">
+      <line x1="20" y1="60" x2="60" y2="40"/>
+      <line x1="60" y1="40" x2="100" y2="50"/>
+      <line x1="100" y1="50" x2="140" y2="35"/>
+      <line x1="140" y1="35" x2="160" y2="65"/>
+      <line x1="160" y1="65" x2="130" y2="90"/>
+      <line x1="130" y1="90" x2="80" y2="85"/>
+    </g>
+    <!-- 星 -->
+    <g fill="#fef9ed">
+      <circle cx="20" cy="60" r="4"/>
+      <circle cx="60" cy="40" r="4"/>
+      <circle cx="100" cy="50" r="4"/>
+      <circle cx="140" cy="35" r="4"/>
+      <circle cx="160" cy="65" r="4"/>
+      <circle cx="130" cy="90" r="4"/>
+      <circle cx="80" cy="85" r="4"/>
+    </g>
+    <!-- 勺子标注 -->
+    <text x="40" y="80" font-family="serif" font-size="10" fill="#a8d0e8">勺口</text>
+    <!-- 指北极星 -->
+    <line x1="20" y1="60" x2="0" y2="30" stroke="#e07856" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <circle cx="0" cy="30" r="5" fill="#e07856"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="10" fill="#e07856">北极星</text>
+  </g>
+
+  <!-- 中：猎户座 -->
+  <g transform="translate(300, 150)">
+    <text x="80" y="-5" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856">猎户座（希腊）</text>
+    <!-- 连线 -->
+    <g stroke="#c8843a" stroke-width="1.5" fill="none" opacity="0.7">
+      <!-- 腰带三星 -->
+      <line x1="60" y1="80" x2="80" y2="85"/>
+      <line x1="80" y1="85" x2="100" y2="90"/>
+      <!-- 身体 -->
+      <line x1="40" y1="40" x2="60" y2="80"/>
+      <line x1="120" y1="40" x2="100" y2="90"/>
+      <line x1="40" y1="40" x2="120" y2="40"/>
+      <line x1="60" y1="80" x2="50" y2="130"/>
+      <line x1="100" y1="90" x2="110" y2="130"/>
+      <!-- 弓 -->
+      <path d="M30 50 Q10 80 30 120" fill="none" stroke="#c8843a" stroke-width="1.5" opacity="0.5"/>
+    </g>
+    <!-- 星 -->
+    <g fill="#fef9ed">
+      <circle cx="40" cy="40" r="4"/>
+      <circle cx="120" cy="40" r="4"/>
+      <circle cx="60" cy="80" r="3.5"/>
+      <circle cx="80" cy="85" r="3.5"/>
+      <circle cx="100" cy="90" r="3.5"/>
+      <circle cx="50" cy="130" r="4"/>
+      <circle cx="110" cy="130" r="4"/>
+    </g>
+    <text x="80" y="105" text-anchor="middle" font-family="serif" font-size="9" fill="#a8d0e8">腰带三星</text>
+  </g>
+
+  <!-- 右：牛郎织女 -->
+  <g transform="translate(540, 130)">
+    <text x="90" y="-5" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856">牛郎织女（中国）</text>
+    <!-- 银河 -->
+    <path d="M40 30 Q60 80 40 140 Q90 100 80 50" fill="none" stroke="#a8d0e8" stroke-width="8" opacity="0.2"/>
+    <!-- 织女星 -->
+    <circle cx="30" cy="40" r="5" fill="#fef9ed"/>
+    <path d="M30 32 L30 48 M22 40 L38 40" stroke="#fef9ed" stroke-width="1" opacity="0.5"/>
+    <text x="30" y="25" text-anchor="middle" font-family="serif" font-size="10" fill="#a8d0e8">织女</text>
+    <!-- 牛郎星 -->
+    <circle cx="150" cy="120" r="5" fill="#fef9ed"/>
+    <path d="M150 112 L150 128 M142 120 L158 120" stroke="#fef9ed" stroke-width="1" opacity="0.5"/>
+    <text x="150" y="140" text-anchor="middle" font-family="serif" font-size="10" fill="#a8d0e8">牛郎</text>
+    <!-- 鹊桥虚线 -->
+    <path d="M35 45 Q90 70 145 115" fill="none" stroke="#e07856" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+    <text x="90" y="85" text-anchor="middle" font-family="serif" font-size="9" fill="#e07856">鹊桥</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="42" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">星星不会自己组成图案——是人类用想象，把它们连成了故事。</text>
+</svg>

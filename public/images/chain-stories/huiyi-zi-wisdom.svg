@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="会意字造字智慧插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">会意字的造字智慧</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">每个会意字都是一幅画、一个故事</text>
+
+  <!-- 休：人靠树 -->
+  <g transform="translate(150,200)">
+    <rect x="-70" y="-80" width="140" height="200" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 树 -->
+    <rect x="-5" y="0" width="10" height="70" fill="#7a3b14"/>
+    <ellipse cx="0" cy="-10" rx="28" ry="30" fill="#6a8d3f"/>
+    <!-- 人靠树 -->
+    <g transform="translate(-15,20)">
+      <circle cx="0" cy="-30" r="10" fill="#f4c8a0"/>
+      <path d="M0 -20 L0 20 M0 -10 L-15 0 M0 -10 L12 -5 M0 20 L-8 50 M0 20 L8 50" stroke="#f4c8a0" stroke-width="5" stroke-linecap="round" fill="none"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">休</text>
+    <text x="0" y="125" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">人靠在树上</text>
+    <text x="0" y="142" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">=休息</text>
+  </g>
+
+  <!-- 看：手搭眼 -->
+  <g transform="translate(330,200)">
+    <rect x="-70" y="-80" width="140" height="200" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <ellipse cx="0" cy="20" rx="30" ry="18" fill="#fef9ed" stroke="#8d5a36" stroke-width="2"/>
+    <circle cx="0" cy="20" r="8" fill="#3a2a1a"/>
+    <circle cx="3" cy="17" r="3" fill="#fef9ed"/>
+    <!-- 手搭额 -->
+    <path d="M-35 -5 Q-20 -15 20 -10 Q30 -8 35 -5" fill="none" stroke="#f4c8a0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-30 -5 L-30 10 M-15 -8 L-15 8 M0 -10 L0 5 M15 -9 L15 6 M30 -6 L30 8" stroke="#f4c8a0" stroke-width="4" stroke-linecap="round"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">看</text>
+    <text x="0" y="125" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">手搭在眼睛上</text>
+    <text x="0" y="142" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">=远望</text>
+  </g>
+
+  <!-- 采：手在树上 -->
+  <g transform="translate(510,200)">
+    <rect x="-70" y="-80" width="140" height="200" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 树 -->
+    <rect x="-5" y="-10" width="10" height="80" fill="#7a3b14"/>
+    <ellipse cx="-15" cy="-20" rx="18" ry="15" fill="#6a8d3f"/>
+    <ellipse cx="15" cy="-25" rx="16" ry="14" fill="#6a8d3f"/>
+    <!-- 果实 -->
+    <circle cx="-15" cy="-20" r="4" fill="#c84a3a"/>
+    <circle cx="15" cy="-25" r="4" fill="#c84a3a"/>
+    <!-- 手 -->
+    <g transform="translate(-15,-35)">
+      <path d="M0 0 L-8 -8 M5 0 L5 -10 M10 0 L12 -10 M15 0 L18 -8" stroke="#f4c8a0" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <ellipse cx="7" cy="3" rx="12" ry="6" fill="#f4c8a0"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">采</text>
+    <text x="0" y="125" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">手在树上摘</text>
+    <text x="0" y="142" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">=采摘</text>
+  </g>
+
+  <!-- 武：止戈 -->
+  <g transform="translate(690,200)">
+    <rect x="-70" y="-80" width="140" height="200" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 戈（兵器） -->
+    <line x1="0" y1="-30" x2="0" y2="50" stroke="#8d5a36" stroke-width="4"/>
+    <path d="M0 -30 L20 -35 L15 -20 L0 -15" fill="#c8843a" stroke="#8d5a36" stroke-width="1.5"/>
+    <!-- 止（停止手势） -->
+    <g transform="translate(-25,10)">
+      <path d="M0 0 L0 -15 M-8 -5 L8 -5 M-6 -10 L6 -10" stroke="#c84a3a" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">武</text>
+    <text x="0" y="125" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">止+戈</text>
+    <text x="0" y="142" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">制止兵器=和平</text>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="80" y="450" width="640" height="120" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="478" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">古人观察生活、思考道理，才想出这些巧妙的组合</text>
+  <text x="400" y="505" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">"信"：人说话要算数=信用</text>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">"歪"：不正就是歪</text>
+  <text x="400" y="551" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">"卡"：不上不下就是卡</text>
+</svg>

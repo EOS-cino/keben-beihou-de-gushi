@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="皇家园林故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">连珠小故事：皇家园林的故事</text>
+  <line x1="180" y1="62" x2="620" y2="62" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 园林1：圆明园（废墟） -->
+  <g transform="translate(180, 200)">
+    <rect x="-80" y="-55" width="160" height="150" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8" opacity="0.8"/>
+    <text x="0" y="-38" text-anchor="middle" font-size="13" font-weight="bold" fill="#7a3b14" font-family="serif">圆明园</text>
+    <!-- 残柱 -->
+    <rect x="-25" y="0" width="10" height="40" fill="#d4c8a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-5" y="-10" width="10" height="50" fill="#d4c8a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="15" y="5" width="10" height="35" fill="#d4c8a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 断梁 -->
+    <path d="M-25 0 L5 -10" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 火焰 -->
+    <path d="M-20 -5 Q-15 -15 -10 -5 Q-5 -20 0 -5 Q5 -15 10 -5" fill="none" stroke="#e07856" stroke-width="2" opacity="0.5"/>
+    <text x="0" y="65" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">"万园之园"的遗憾</text>
+    <text x="0" y="80" text-anchor="middle" font-size="9" fill="#e07856" font-family="serif">1860年毁于大火</text>
+  </g>
+
+  <!-- 园林2：颐和园 -->
+  <g transform="translate(400, 200)">
+    <rect x="-80" y="-55" width="160" height="150" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8" opacity="0.8"/>
+    <text x="0" y="-38" text-anchor="middle" font-size="13" font-weight="bold" fill="#7a3b14" font-family="serif">颐和园</text>
+    <!-- 佛香阁（简笔） -->
+    <g transform="translate(0, 20)">
+      <rect x="-20" y="10" width="40" height="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-18" y="-5" width="36" height="15" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-22 -5 L0 -18 L22 -5" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-12" y="-25" width="24" height="8" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-16 -25 L0 -35 L16 -25" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <!-- 湖水 -->
+    <ellipse cx="0" cy="50" rx="50" ry="8" fill="#a8d0e8" opacity="0.5"/>
+    <text x="0" y="65" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">现存最大皇家园林</text>
+    <text x="0" y="80" text-anchor="middle" font-size="9" fill="#2d6a4f" font-family="serif">长廊·万寿山·昆明湖</text>
+  </g>
+
+  <!-- 园林3：避暑山庄 -->
+  <g transform="translate(620, 200)">
+    <rect x="-80" y="-55" width="160" height="150" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8" opacity="0.8"/>
+    <text x="0" y="-38" text-anchor="middle" font-size="13" font-weight="bold" fill="#7a3b14" font-family="serif">避暑山庄</text>
+    <!-- 山 -->
+    <path d="M-40 40 L-20 0 L0 10 L20 -10 L40 40 Z" fill="#c8dcc8" stroke="#7a3b14" stroke-width="1.5" opacity="0.6"/>
+    <!-- 湖 -->
+    <ellipse cx="-15" cy="45" rx="20" ry="5" fill="#a8d0e8" opacity="0.5"/>
+    <!-- 殿 -->
+    <rect x="10" y="25" width="25" height="15" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M8 25 L22 15 L37 25" fill="#e8a838" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="65" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">皇帝夏天避暑</text>
+    <text x="0" y="80" text-anchor="middle" font-size="9" fill="#4a90b8" font-family="serif">山·湖·草原·森林</text>
+  </g>
+
+  <!-- 园林设计智慧 -->
+  <g transform="translate(400, 420)">
+    <text x="0" y="-15" text-anchor="middle" font-size="15" font-weight="bold" fill="#7a3b14" font-family="serif">皇家园林的智慧</text>
+    <line x1="-80" y1="-5" x2="80" y2="-5" stroke="#c8843a" stroke-width="1.5"/>
+
+    <!-- 借景 -->
+    <g transform="translate(-150, 20)">
+      <rect x="-55" y="-12" width="110" height="45" fill="#2d6a4f" opacity="0.1" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+      <text x="0" y="3" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">借景</text>
+      <text x="0" y="20" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">把远山借进画面</text>
+    </g>
+
+    <!-- 虽由人作 -->
+    <g transform="translate(0, 20)">
+      <rect x="-55" y="-12" width="110" height="45" fill="#e8a838" opacity="0.1" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+      <text x="0" y="3" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">宛自天开</text>
+      <text x="0" y="20" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">人工造如天然</text>
+    </g>
+
+    <!-- 水利 -->
+    <g transform="translate(150, 20)">
+      <rect x="-55" y="-12" width="110" height="45" fill="#4a90b8" opacity="0.1" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+      <text x="0" y="3" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">水利功能</text>
+      <text x="0" y="20" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">昆明湖=水库</text>
+    </g>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">皇家园林不只是好看——借景、造景、水利，处处藏着中国古典建筑的智慧。</text>
+</svg>

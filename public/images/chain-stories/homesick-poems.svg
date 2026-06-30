@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古代思乡诗中月亮鸿雁和故乡的意象插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">古代的思乡诗</text>
+  <line x1="300" y1="58" x2="500" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 三个意象分区 -->
+  <!-- 1 月亮：李白静夜思 -->
+  <rect x="30" y="80" width="240" height="420" rx="8" fill="#3a4a6a" opacity="0.12"/>
+  <text x="150" y="110" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">月亮</text>
+  <text x="150" y="130" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">李白《静夜思》</text>
+  <!-- 月亮 -->
+  <circle cx="150" cy="220" r="40" fill="#f0e8c8" stroke="#c8b888" stroke-width="2"/>
+  <circle cx="140" cy="212" r="7" fill="#e0d8b8" opacity="0.6"/>
+  <circle cx="160" cy="230" r="5" fill="#e0d8b8" opacity="0.5"/>
+  <!-- 床前月光 -->
+  <rect x="80" y="320" width="140" height="60" rx="4" fill="#8d5a36" opacity="0.3"/>
+  <path d="M90 320 L120 380 M110 320 L140 380 M130 320 L160 380" stroke="#fff6df" stroke-width="2" opacity="0.5"/>
+  <!-- 游子低头 -->
+  <g transform="translate(150,300)">
+    <circle cx="0" cy="0" r="12" fill="#e8c4a0"/>
+    <path d="M-10 12 L-14 50 L14 50 L10 12 Z" fill="#5a3a1a"/>
+  </g>
+  <text x="150" y="420" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">举头望明月</text>
+  <text x="150" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">低头思故乡</text>
+
+  <!-- 2 鸿雁：王维忆兄弟 -->
+  <rect x="280" y="80" width="240" height="420" rx="8" fill="#e8f0e6" opacity="0.5"/>
+  <text x="400" y="110" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">鸿雁</text>
+  <text x="400" y="130" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">王维忆兄弟</text>
+  <!-- 大雁南飞（人字形） -->
+  <g fill="#7a3b14">
+    <g transform="translate(400,200)">
+      <path d="M0 0 L-8 -4 L-8 4 Z"/>
+      <path d="M-14 -8 L-20 -12 L-20 -6 Z"/>
+      <path d="M-14 8 L-20 12 L-20 6 Z"/>
+      <path d="M-26 -16 L-32 -20 L-32 -14 Z"/>
+      <path d="M-26 16 L-32 20 L-32 14 Z"/>
+    </g>
+  </g>
+  <!-- 飞行轨迹 -->
+  <path d="M340 220 Q400 180 460 220" fill="none" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <!-- 登高的人 -->
+  <g transform="translate(400,340)">
+    <!-- 山 -->
+    <path d="M-60 60 L0 -10 L60 60 Z" fill="#8d5a36" opacity="0.4"/>
+    <!-- 人 -->
+    <circle cx="0" cy="-20" r="8" fill="#e8c4a0"/>
+    <path d="M-7 -12 L-10 20 L10 20 L7 -12 Z" fill="#6a8d3f"/>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">每逢佳节</text>
+  <text x="400" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">倍思亲</text>
+
+  <!-- 3 近乡：宋之问渡汉江 -->
+  <rect x="530" y="80" width="240" height="420" rx="8" fill="#d8e0e8" opacity="0.5"/>
+  <text x="650" y="110" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">近乡</text>
+  <text x="650" y="130" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">宋之问《渡汉江》</text>
+  <!-- 江水 -->
+  <rect x="550" y="280" width="200" height="80" fill="#5a8aaa" opacity="0.5"/>
+  <g stroke="#7ab8d8" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M560 300 Q600 295 640 300"/>
+    <path d="M660 320 Q700 315 740 320"/>
+  </g>
+  <!-- 小船 -->
+  <g transform="translate(650,290)">
+    <path d="M-30 10 Q0 20 30 10 L25 16 L-25 16 Z" fill="#8d5a36"/>
+    <rect x="-1" y="-20" width="2" height="30" fill="#8d5a36"/>
+    <path d="M1 -18 L18 -8 L1 0 Z" fill="#c8843a" opacity="0.8"/>
+  </g>
+  <!-- 岸边家乡（虚影） -->
+  <g opacity="0.5">
+    <rect x="560" y="240" width="30" height="30" fill="#c8843a"/>
+    <path d="M555 240 L575 220 L595 240 Z" fill="#8d5a36"/>
+    <rect x="700" y="240" width="30" height="30" fill="#c8843a"/>
+    <path d="M695 240 L715 220 L735 240 Z" fill="#8d5a36"/>
+  </g>
+  <text x="650" y="400" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">近乡情更怯</text>
+  <text x="650" y="418" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">不敢问来人</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">月亮、鸿雁、近乡——同一种乡愁，古人用不同的意象，写出不同的味道。</text>
+</svg>

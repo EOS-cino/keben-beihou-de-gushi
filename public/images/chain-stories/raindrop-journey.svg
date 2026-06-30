@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="雨滴从云中落下汇入河流大海">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">雨滴的旅行</text>
+  <ellipse cx="200" cy="110" rx="60" ry="25" fill="#a8d0e8" opacity="0.4"/>
+  <ellipse cx="500" cy="100" rx="80" ry="30" fill="#a8d0e8" opacity="0.3"/>
+  <ellipse cx="650" cy="120" rx="50" ry="20" fill="#a8d0e8" opacity="0.35"/>
+  <text x="400" y="155" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">1. 海水蒸发变成云</text>
+  <line x1="180" y1="145" x2="175" y2="190" stroke="#7ab8d8" stroke-width="2"/>
+  <ellipse cx="173" cy="193" rx="3" ry="5" fill="#7ab8d8"/>
+  <line x1="220" y1="145" x2="215" y2="190" stroke="#7ab8d8" stroke-width="2"/>
+  <ellipse cx="213" cy="193" rx="3" ry="5" fill="#7ab8d8"/>
+  <line x1="480" y1="140" x2="475" y2="185" stroke="#7ab8d8" stroke-width="2"/>
+  <ellipse cx="473" cy="188" rx="3" ry="5" fill="#7ab8d8"/>
+  <line x1="520" y1="140" x2="515" y2="185" stroke="#7ab8d8" stroke-width="2"/>
+  <ellipse cx="513" cy="188" rx="3" ry="5" fill="#7ab8d8"/>
+  <line x1="630" y1="145" x2="625" y2="190" stroke="#7ab8d8" stroke-width="2"/>
+  <ellipse cx="623" cy="193" rx="3" ry="5" fill="#7ab8d8"/>
+  <line x1="670" y1="145" x2="665" y2="190" stroke="#7ab8d8" stroke-width="2"/>
+  <ellipse cx="663" cy="193" rx="3" ry="5" fill="#7ab8d8"/>
+  <text x="400" y="220" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">2. 云变重 雨滴落下来</text>
+  <path d="M150 250c20-10 40-12 60-5 10 4 15 10 10 18-5 8-15 10-25 8-15-3-25-10-30-18-2-3 0-3 0-3z" fill="#6a8d3f" opacity="0.25"/>
+  <path d="M550 240c20-10 40-12 60-5 10 4 15 10 10 18-5 8-15 10-25 8-15-3-25-10-30-18-2-3 0-3 0-3z" fill="#4a6a2f" opacity="0.25"/>
+  <path d="M170 270 Q180 300 175 330" stroke="#7ab8d8" stroke-width="3" fill="none"/>
+  <path d="M210 270 Q220 300 215 330" stroke="#7ab8d8" stroke-width="3" fill="none"/>
+  <path d="M580 260 Q590 290 585 320" stroke="#7ab8d8" stroke-width="3" fill="none"/>
+  <path d="M620 260 Q630 290 625 320" stroke="#7ab8d8" stroke-width="3" fill="none"/>
+  <text x="400" y="300" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">3. 雨水落到山上</text>
+  <path d="M100 360 Q200 350 300 365 Q400 380 500 365 Q600 350 700 360" stroke="#7ab8d8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M100 360 Q200 350 300 365 Q400 380 500 365 Q600 350 700 360" stroke="#a8d0e8" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <text x="400" y="400" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">4. 汇成小溪 流入大河</text>
+  <path d="M0 460 Q100 450 200 460 Q300 470 400 460 Q500 450 600 460 Q700 470 800 460 L800 600 L0 600z" fill="#7ab8d8" opacity="0.3"/>
+  <path d="M0 480 Q100 470 200 480 Q300 490 400 480 Q500 470 600 480 Q700 490 800 480 L800 600 L0 600z" fill="#a8d0e8" opacity="0.4"/>
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">5. 大河流进大海</text>
+  <path d="M300 530 Q350 520 400 530 Q450 540 500 530" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M550 540 Q600 530 650 540" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">水在天上和地上不停转圈 永远不会停</text>
+</svg>

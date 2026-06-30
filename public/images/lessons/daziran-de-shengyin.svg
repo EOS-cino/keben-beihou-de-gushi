@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="大自然中风声、水声和动物声交织的美妙场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">大自然的声音</text>
+  <line x1="320" y1="58" x2="480" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="200" fill="#a8d0e8" opacity="0.25"/>
+
+  <!-- 云朵 -->
+  <ellipse cx="120" cy="120" rx="40" ry="14" fill="#fff" opacity="0.6"/>
+  <ellipse cx="600" cy="100" rx="45" ry="15" fill="#fff" opacity="0.6"/>
+
+  <!-- 树林（风的演奏家） -->
+  <g transform="translate(150, 200)">
+    <rect x="-4" y="40" width="8" height="80" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="0" cy="20" rx="35" ry="40" fill="#6a8d3f" opacity="0.7" stroke="#4a6a2f" stroke-width="1"/>
+    <!-- 风的音符 -->
+    <text x="30" y="0" font-family="serif" font-size="18" fill="#7ab8d8" opacity="0.7">~</text>
+    <text x="45" y="-15" font-family="serif" font-size="14" fill="#7ab8d8" opacity="0.6">~</text>
+    <text x="-40" y="-10" font-family="serif" font-size="16" fill="#7ab8d8" opacity="0.6">~</text>
+  </g>
+  <g transform="translate(250, 220)">
+    <rect x="-3" y="30" width="6" height="60" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="0" cy="15" rx="28" ry="32" fill="#4a6a2f" opacity="0.7" stroke="#4a6a2f" stroke-width="1"/>
+  </g>
+
+  <!-- 小溪（水的音乐家） -->
+  <path d="M0 350 Q100 340 200 350 Q300 360 400 345 Q500 335 600 350 Q700 360 800 345" fill="none" stroke="#7ab8d8" stroke-width="20" opacity="0.4"/>
+  <path d="M0 350 Q100 340 200 350 Q300 360 400 345 Q500 335 600 350 Q700 360 800 345" fill="none" stroke="#a8d0e8" stroke-width="3" opacity="0.6"/>
+  <!-- 水滴音符 -->
+  <circle cx="180" cy="340" r="3" fill="#7ab8d8" opacity="0.7"/>
+  <circle cx="320" cy="345" r="2.5" fill="#7ab8d8" opacity="0.6"/>
+  <circle cx="480" cy="335" r="3" fill="#7ab8d8" opacity="0.7"/>
+
+  <!-- 鸟（动物歌手） -->
+  <g transform="translate(550, 160)">
+    <ellipse cx="0" cy="0" rx="14" ry="10" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-12" cy="-4" r="7" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-19 -4 L-25 -2 L-19 0" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-13" cy="-6" r="1.5" fill="#7a3b14"/>
+    <!-- 翅膀 -->
+    <path d="M0 -5 Q10 -15 18 -8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 叫声 -->
+    <text x="15" y="-20" font-family="serif" font-size="13" fill="#7a3b14">叽叽</text>
+    <text x="15" y="-5" font-family="serif" font-size="13" fill="#7a3b14">喳喳</text>
+  </g>
+
+  <!-- 青蛙 -->
+  <g transform="translate(120, 360)">
+    <ellipse cx="0" cy="0" rx="16" ry="11" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <circle cx="-8" cy="-8" r="5" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <circle cx="8" cy="-8" r="5" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <circle cx="-8" cy="-8" r="2" fill="#7a3b14"/>
+    <circle cx="8" cy="-8" r="2" fill="#7a3b14"/>
+    <path d="M-6 2 Q0 6 6 2" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="20" y="-15" font-family="serif" font-size="13" fill="#7a3b14">呱呱</text>
+  </g>
+
+  <!-- 蟋蟀 -->
+  <g transform="translate(680, 380)">
+    <ellipse cx="0" cy="0" rx="12" ry="7" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-8 -3 Q-12 -8 -8 -12" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M8 -3 Q12 -8 8 -12" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-8" cy="-2" r="1.5" fill="#7a3b14"/>
+    <text x="-15" y="-18" font-family="serif" font-size="13" fill="#7a3b14">唧唧</text>
+  </g>
+
+  <!-- 三个音乐家标注 -->
+  <!-- 风的演奏家 -->
+  <rect x="40" y="430" width="220" height="50" rx="6" fill="#fff6df" stroke="#6a8d3f" stroke-width="1.5"/>
+  <text x="150" y="452" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">风的演奏家</text>
+  <text x="150" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">沙沙沙～哗哗哗～</text>
+
+  <!-- 水的音乐家 -->
+  <rect x="290" y="430" width="220" height="50" rx="6" fill="#fff6df" stroke="#7ab8d8" stroke-width="1.5"/>
+  <text x="400" y="452" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">水的音乐家</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">叮咚～哗啦～轰隆～</text>
+
+  <!-- 动物歌手 -->
+  <rect x="540" y="430" width="220" height="50" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="650" y="452" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">动物歌手</text>
+  <text x="650" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">叽叽～呱呱～唧唧～</text>
+
+  <!-- 总起句 -->
+  <rect x="150" y="510" width="500" height="44" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+  <text x="400" y="538" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">大自然有许多美妙的声音</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">风、水、动物——大自然是最伟大的音乐家</text>
+</svg>

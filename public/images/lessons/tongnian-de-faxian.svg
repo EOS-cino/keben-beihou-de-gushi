@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="男孩趴在窗边思考生命奥秘的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">童年的发现 · 九岁的秘密</text>
+  <line x1="250" y1="62" x2="550" y2="62" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="0" y="70" width="800" height="350" fill="#fef9ed"/>
+  <!-- 星星 -->
+  <g fill="#f4c842" opacity="0.7">
+    <circle cx="100" cy="120" r="2"/>
+    <circle cx="200" cy="100" r="1.5"/>
+    <circle cx="350" cy="110" r="2"/>
+    <circle cx="500" cy="95" r="1.5"/>
+    <circle cx="650" cy="130" r="2"/>
+    <circle cx="720" cy="100" r="1.5"/>
+    <circle cx="150" cy="160" r="1.5"/>
+    <circle cx="600" cy="170" r="2"/>
+  </g>
+  <!-- 月亮 -->
+  <circle cx="680" cy="140" r="28" fill="#fff6df" stroke="#c8a83a" stroke-width="1.5"/>
+
+  <!-- 窗户 -->
+  <rect x="100" y="90" width="280" height="280" fill="#a8d0e8" opacity="0.3" stroke="#8d5a36" stroke-width="4" rx="4"/>
+  <line x1="240" y1="90" x2="240" y2="370" stroke="#8d5a36" stroke-width="3"/>
+  <line x1="100" y1="230" x2="380" y2="230" stroke="#8d5a36" stroke-width="3"/>
+
+  <!-- 窗外：飞鸟/梦境飞翔 -->
+  <g fill="#4a6a2f" opacity="0.5">
+    <path d="M130 150 Q140 145 150 150 Q145 155 140 153 Q135 155 130 150 Z"/>
+    <path d="M170 180 Q180 175 190 180 Q185 185 180 183 Q175 185 170 180 Z"/>
+    <path d="M280 140 Q290 135 300 140 Q295 145 290 143 Q285 145 280 140 Z"/>
+  </g>
+  <!-- 梦中飞翔的小人剪影 -->
+  <g fill="#7ab8d8" opacity="0.4">
+    <ellipse cx="200" cy="280" rx="6" ry="10"/>
+    <path d="M194 278 L180 270 M206 278 L220 270" stroke="#7ab8d8" stroke-width="2" opacity="0.4"/>
+    <path d="M196 290 L190 300 M204 290 L210 300" stroke="#7ab8d8" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <!-- 男孩（趴在窗台思考） -->
+  <g>
+    <!-- 窗台 -->
+    <rect x="90" y="370" width="300" height="15" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 身体（趴着） -->
+    <path d="M180 370 L175 340 Q175 330 190 328 L280 328 Q295 330 295 340 L290 370 Z" fill="#7ab8d8"/>
+    <!-- 手臂（托腮） -->
+    <path d="M200 340 L195 320 L210 318 L215 338 Z" fill="#f0d0a8"/>
+    <path d="M270 340 L275 320 L260 318 L255 338 Z" fill="#f0d0a8"/>
+    <!-- 头 -->
+    <circle cx="235" cy="310" r="24" fill="#f0d0a8"/>
+    <!-- 头发 -->
+    <path d="M213 305 Q235 288 257 305 L257 312 L213 312 Z" fill="#5a3a1a"/>
+    <!-- 眼睛（望窗外，思考） -->
+    <circle cx="228" cy="312" r="2" fill="#2a2a2a"/>
+    <circle cx="245" cy="312" r="2" fill="#2a2a2a"/>
+    <!-- 嘴（微张，在想） -->
+    <ellipse cx="237" cy="322" rx="3" ry="2" fill="#7a3b14"/>
+    <!-- 思考气泡 -->
+    <g>
+      <circle cx="320" cy="280" r="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+      <circle cx="335" cy="265" r="6" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+      <ellipse cx="370" cy="240" rx="50" ry="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+      <text x="370" y="235" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">人为什么会</text>
+      <text x="370" y="252" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">在梦里飞呢？</text>
+    </g>
+  </g>
+
+  <!-- 右侧：思考链条 -->
+  <g>
+    <!-- 鸟 -->
+    <ellipse cx="550" cy="200" rx="25" ry="15" fill="#6a8d3f"/>
+    <ellipse cx="535" cy="195" rx="10" ry="8" fill="#6a8d3f"/>
+    <circle cx="530" cy="193" r="4" fill="#f0d0a8"/>
+    <circle cx="529" cy="192" r="1.5" fill="#2a2a2a"/>
+    <path d="M525 195 L520 197 L525 198" fill="#c8843a"/>
+    <!-- 翅膀 -->
+    <path d="M550 195 Q565 180 575 195 Q565 200 550 200" fill="#4a6a2f"/>
+    <text x="550" y="235" text-anchor="middle" font-family="serif" font-size="12" fill="#4a6a2f">鸟会飞</text>
+
+    <!-- 箭头 -->
+    <path d="M550 245 L550 270" stroke="#8d5a36" stroke-width="2" stroke-dasharray="4,3"/>
+    <path d="M545 265 L550 275 L555 265" fill="none" stroke="#8d5a36" stroke-width="2"/>
+
+    <!-- 蝌蚪/胚胎 -->
+    <g>
+      <ellipse cx="550" cy="300" rx="18" ry="12" fill="#7ab8d8"/>
+      <path d="M568 300 Q580 305 585 315" stroke="#7ab8d8" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <circle cx="545" cy="297" r="2" fill="#2a2a2a"/>
+    </g>
+    <text x="550" y="335" text-anchor="middle" font-family="serif" font-size="12" fill="#7ab8d8">像蝌蚪？</text>
+
+    <!-- 箭头 -->
+    <path d="M550 345 L550 370" stroke="#8d5a36" stroke-width="2" stroke-dasharray="4,3"/>
+    <path d="M545 365 L550 375 L555 365" fill="none" stroke="#8d5a36" stroke-width="2"/>
+
+    <!-- 婴儿 -->
+    <g>
+      <ellipse cx="550" cy="405" rx="15" ry="18" fill="#f0d0a8"/>
+      <circle cx="545" cy="400" r="1.5" fill="#2a2a2a"/>
+      <circle cx="555" cy="400" r="1.5" fill="#2a2a2a"/>
+      <path d="M546 408 Q550 411 554 408" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 襁褓 -->
+      <path d="M535 415 Q550 425 565 415 L565 440 L535 440 Z" fill="#c84a3a"/>
+    </g>
+    <text x="550" y="465" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">变成人！</text>
+
+    <!-- 感叹 -->
+    <text x="620" y="405" font-family="serif" font-size="24" fill="#c8843a">!</text>
+  </g>
+
+  <!-- 地面/地板 -->
+  <rect x="0" y="490" width="800" height="110" fill="#e8d9b8"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">九岁的脑袋里，装着整个生命的秘密</text>
+</svg>

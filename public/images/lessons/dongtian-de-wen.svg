@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="奶奶在炉边给孩子焐手的亲情插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#e07856">冬天的温</text>
+  <line x1="354" y1="60" x2="446" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 窗外雪夜 -->
+  <rect x="60" y="90" width="240" height="180" fill="#4a6a8a" opacity="0.25"/>
+  <rect x="60" y="90" width="240" height="180" fill="none" stroke="#8a6a3a" stroke-width="3"/>
+  <line x1="180" y1="90" x2="180" y2="270" stroke="#8a6a3a" stroke-width="2"/>
+  <line x1="60" y1="180" x2="300" y2="180" stroke="#8a6a3a" stroke-width="2"/>
+  <!-- 雪花 -->
+  <g fill="#fef9ed">
+    <circle cx="100" cy="120" r="2"/>
+    <circle cx="140" cy="150" r="1.5"/>
+    <circle cx="220" cy="130" r="2"/>
+    <circle cx="260" cy="160" r="1.5"/>
+    <circle cx="110" cy="200" r="1.5"/>
+    <circle cx="250" cy="220" r="2"/>
+    <circle cx="200" cy="240" r="1.5"/>
+    <circle cx="150" cy="230" r="1.5"/>
+  </g>
+  <!-- 窗外月亮 -->
+  <circle cx="250" cy="120" r="14" fill="#fef8e0" opacity="0.7"/>
+
+  <!-- 墙面 -->
+  <rect x="0" y="270" width="800" height="240" fill="#f0e0c8"/>
+  <rect x="0" y="510" width="800" height="90" fill="#e8d4b0"/>
+
+  <!-- 煤炉 -->
+  <g transform="translate(400 420)">
+    <!-- 炉身 -->
+    <path d="M -45 0 L -50 -90 L 50 -90 L 45 0 Z" fill="#5a4a3a" stroke="#3a2a1a" stroke-width="2"/>
+    <!-- 炉口 -->
+    <ellipse cx="0" cy="-90" rx="50" ry="12" fill="#3a2a1a"/>
+    <ellipse cx="0" cy="-92" rx="42" ry="9" fill="#e07856" opacity="0.8"/>
+    <!-- 火光 -->
+    <ellipse cx="0" cy="-88" rx="30" ry="6" fill="#e8a838" opacity="0.7"/>
+    <ellipse cx="0" cy="-86" rx="18" ry="4" fill="#fef8d0" opacity="0.7"/>
+    <!-- 炉腿 -->
+    <rect x="-40" y="0" width="10" height="20" fill="#3a2a1a"/>
+    <rect x="30" y="0" width="10" height="20" fill="#3a2a1a"/>
+    <!-- 烟囱 -->
+    <rect x="-8" y="-140" width="16" height="55" fill="#5a4a3a" stroke="#3a2a1a" stroke-width="1.5"/>
+    <!-- 热气 -->
+    <path d="M-4 -148 Q-2 -165 0 -175 Q2 -160 4 -148" fill="none" stroke="#fef9ed" stroke-width="1.5" opacity="0.5"/>
+    <path d="M0 -148 Q2 -170 -2 -185" fill="none" stroke="#fef9ed" stroke-width="1.2" opacity="0.4"/>
+    <!-- 炉上水壶 -->
+    <ellipse cx="-30" cy="-100" rx="18" ry="6" fill="#8a6a3a"/>
+    <path d="M-48 -100 L-44 -118 L-16 -118 L-12 -100 Z" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+    <ellipse cx="-30" cy="-118" rx="16" ry="4" fill="#5a4a2a"/>
+    <path d="M-48 -112 Q-58 -110 -58 -100" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+  </g>
+
+  <!-- 烤红薯（炉边） -->
+  <g transform="translate(340 440)">
+    <ellipse cx="0" cy="0" rx="18" ry="10" fill="#8a4a2a" stroke="#5a2a1a" stroke-width="1.5"/>
+    <path d="M-12 -6 Q0 0 12 -6" fill="none" stroke="#3a1a0a" stroke-width="1"/>
+    <!-- 热气 -->
+    <path d="M-4 -10 Q-2 -20 0 -28" fill="none" stroke="#e8a838" stroke-width="1.5" opacity="0.6"/>
+    <path d="M4 -10 Q6 -22 2 -32" fill="none" stroke="#e8a838" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- 奶奶（右侧，坐着） -->
+  <g transform="translate(560 400)">
+    <!-- 身体 -->
+    <path d="M-30 70 Q-34 20 -24 0 Q-12 -8 0 -8 Q12 -8 24 0 Q34 20 30 70 Z" fill="#2d6a4f" stroke="#1a4a3a" stroke-width="1.5"/>
+    <!-- 围裙 -->
+    <path d="M-20 30 Q0 25 20 30 L18 70 L-18 70 Z" fill="#e8a838" opacity="0.7"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-28" r="18" fill="#f4d4a8"/>
+    <!-- 头发（白） -->
+    <path d="M-18 -32 Q0 -48 18 -32 L18 -24 Q0 -20 -18 -24 Z" fill="#e8e8e8"/>
+    <!-- 髻 -->
+    <circle cx="0" cy="-46" r="7" fill="#e8e8e8"/>
+    <!-- 眼睛（弯弯笑） -->
+    <path d="M-8 -28 Q-5 -25 -2 -28" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+    <path d="M2 -28 Q5 -25 8 -28" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+    <!-- 皱纹 -->
+    <path d="M-10 -20 Q0 -18 10 -20" fill="none" stroke="#c8a878" stroke-width="0.8"/>
+    <!-- 嘴（笑） -->
+    <path d="M-4 -18 Q0 -14 4 -18" fill="none" stroke="#8a4a3a" stroke-width="1.5"/>
+    <!-- 手（伸出焐） -->
+    <path d="M-24 -2 Q-44 10 -52 28" fill="none" stroke="#2d6a4f" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-54" cy="30" r="6" fill="#f4d4a8" stroke="#c8a878" stroke-width="1"/>
+  </g>
+
+  <!-- 小男孩（被焐手） -->
+  <g transform="translate(500 470)">
+    <path d="M-22 30 Q-24 8 -14 -2 Q0 -6 14 -2 Q24 8 22 30 Z" fill="#4a90b8" stroke="#3a7090" stroke-width="1.5"/>
+    <circle cx="0" cy="-18" r="14" fill="#f4d4a8"/>
+    <path d="M-14 -22 Q0 -32 14 -22 L14 -16 Q0 -12 -14 -16 Z" fill="#3a3a3a"/>
+    <!-- 红脸蛋（暖） -->
+    <circle cx="-7" cy="-14" r="3" fill="#e07856" opacity="0.5"/>
+    <circle cx="7" cy="-14" r="3" fill="#e07856" opacity="0.5"/>
+    <!-- 眼 -->
+    <path d="M-6 -18 Q-4 -16 -2 -18" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <path d="M2 -18 Q4 -16 6 -18" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+    <!-- 笑嘴 -->
+    <path d="M-3 -12 Q0 -9 3 -12" fill="none" stroke="#8a4a3a" stroke-width="1.5"/>
+    <!-- 手（被焐） -->
+    <path d="M-14 0 Q-30 8 -44 22" fill="none" stroke="#4a90b8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="-46" cy="24" r="5" fill="#f4d4a8"/>
+  </g>
+
+  <!-- 暖意光圈 -->
+  <circle cx="470" cy="420" r="120" fill="#e8a838" opacity="0.06"/>
+  <circle cx="470" cy="420" r="80" fill="#e07856" opacity="0.08"/>
+
+  <!-- 标注 -->
+  <line x1="340" y1="430" x2="270" y2="400" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="150" y="384" width="120" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="210" y="402" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">烫手的烤红薯</text>
+
+  <line x1="510" y1="494" x2="600" y2="510" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="560" y="500" width="140" height="26" fill="#fff6df" stroke="#e07856" rx="4"/>
+  <text x="630" y="518" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">奶奶焐热的小手</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#e07856">炉火正红，奶奶的手焐热了整个冬天</text>
+</svg>

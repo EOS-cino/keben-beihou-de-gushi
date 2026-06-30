@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春节放鞭炮驱赶年兽的传说插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">连珠小故事：春节为什么要放鞭炮</text>
+  <line x1="160" y1="55" x2="640" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 夜空 -->
+  <rect x="0" y="70" width="800" height="300" fill="#3a3a5a" opacity="0.15"/>
+
+  <!-- 左侧：年兽（被吓跑） -->
+  <g transform="translate(180, 280)">
+    <text x="0" y="-100" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">年兽</text>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="20" rx="55" ry="35" fill="#7a3b14" stroke="#5a2a0a" stroke-width="2"/>
+    <!-- 头 -->
+    <ellipse cx="-45" cy="0" rx="30" ry="28" fill="#7a3b14" stroke="#5a2a0a" stroke-width="2"/>
+    <!-- 眼睛（害怕） -->
+    <ellipse cx="-55" cy="-5" rx="6" ry="8" fill="#ffffff"/>
+    <circle cx="-55" cy="-3" r="3" fill="#2a2a2a"/>
+    <!-- 嘴（张开嚎叫） -->
+    <ellipse cx="-65" cy="8" rx="8" ry="10" fill="#5a2a0a"/>
+    <!-- 牙齿 -->
+    <polygon points="-70,2 -67,10 -64,2" fill="#ffffff"/>
+    <polygon points="-62,2 -59,10 -56,2" fill="#ffffff"/>
+    <!-- 角 -->
+    <path d="M-55 -20 Q-60 -35 -50 -38" fill="#5a2a0a" stroke="#3a1a00" stroke-width="1.5"/>
+    <path d="M-40 -22 Q-45 -38 -35 -40" fill="#5a2a0a" stroke="#3a1a00" stroke-width="1.5"/>
+    <!-- 腿（逃跑状） -->
+    <path d="M-20 50 L-25 80" fill="none" stroke="#7a3b14" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-5 50 L0 82" fill="none" stroke="#7a3b14" stroke-width="8" stroke-linecap="round"/>
+    <path d="M20 50 L28 80" fill="none" stroke="#7a3b14" stroke-width="8" stroke-linecap="round"/>
+    <path d="M35 50 L45 78" fill="none" stroke="#7a3b14" stroke-width="8" stroke-linecap="round"/>
+    <!-- 尾巴 -->
+    <path d="M50 10 Q70 0 75 -20" fill="none" stroke="#7a3b14" stroke-width="6" stroke-linecap="round"/>
+    <!-- 害怕的汗滴 -->
+    <ellipse cx="-30" cy="-15" rx="3" ry="6" fill="#a8d0e8" opacity="0.7"/>
+  </g>
+
+  <!-- 中间：鞭炮（红纸、火光、响声） -->
+  <g transform="translate(420, 250)">
+    <text x="0" y="-40" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">鞭炮</text>
+    <!-- 鞭炮串 -->
+    <g>
+      <rect x="-20" y="-20" width="14" height="40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+      <rect x="-4" y="-15" width="14" height="40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+      <rect x="12" y="-20" width="14" height="40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+      <rect x="-20" y="25" width="14" height="40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+      <rect x="-4" y="30" width="14" height="40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+      <rect x="12" y="25" width="14" height="40" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+      <!-- 引线 -->
+      <path d="M-13 -20 Q-5 -35 5 -30" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    </g>
+    <!-- 火花 -->
+    <g fill="#f4c842">
+      <circle cx="5" cy="-32" r="4"/>
+      <circle cx="0" cy="-38" r="3"/>
+      <circle cx="10" cy="-36" r="2.5"/>
+    </g>
+    <g fill="#e07856">
+      <circle cx="-2" cy="-30" r="2"/>
+      <circle cx="8" cy="-30" r="2"/>
+    </g>
+    <!-- 响声符号 -->
+    <text x="40" y="0" font-family="serif" font-size="24" font-weight="bold" fill="#c84a3a">噼</text>
+    <text x="40" y="25" font-family="serif" font-size="24" font-weight="bold" fill="#c84a3a">啪</text>
+    <text x="-55" y="10" font-family="serif" font-size="20" font-weight="bold" fill="#e07856">砰！</text>
+  </g>
+
+  <!-- 右侧：红纸/春联/红灯笼 -->
+  <g transform="translate(640, 250)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">红纸红灯</text>
+    <!-- 灯笼 -->
+    <ellipse cx="0" cy="0" rx="30" ry="25" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-12" y="-28" width="24" height="6" fill="#f4c842" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-12" y="24" width="24" height="6" fill="#f4c842" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="0" y1="-28" x2="0" y2="-50" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="0" y1="30" x2="0" y2="50" stroke="#f4c842" stroke-width="2"/>
+    <line x1="-5" y1="50" x2="-8" y2="60" stroke="#f4c842" stroke-width="1.5"/>
+    <line x1="0" y1="50" x2="0" y2="62" stroke="#f4c842" stroke-width="1.5"/>
+    <line x1="5" y1="50" x2="8" y2="60" stroke="#f4c842" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="18" fill="#f4c842">福</text>
+    <!-- 春联 -->
+    <rect x="-50" y="70" width="14" height="70" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="36" y="70" width="14" height="70" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="-43" y="110" font-family="serif" font-size="12" fill="#f4c842" writing-mode="tb">春</text>
+    <text x="43" y="110" font-family="serif" font-size="12" fill="#f4c842" writing-mode="tb">福</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="510" width="700" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">传说年兽怕红色、怕火光、怕响声，人们贴红纸、点火堆、烧竹子把它吓跑，</text>
+  <text x="400" y="558" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">后来烧竹子变成了放鞭炮，这就是过年放鞭炮的由来。</text>
+</svg>

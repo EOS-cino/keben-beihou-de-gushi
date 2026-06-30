@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="枣核大小的孩子牵着牛回家插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">枣核</text>
+  <line x1="350" y1="62" x2="450" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空 -->
+  <rect x="0" y="70" width="800" height="350" fill="#3a4a5a" opacity="0.1"/>
+  <!-- 月亮 -->
+  <circle cx="680" cy="130" r="35" fill="#fef9ed" stroke="#e8a838" stroke-width="2" opacity="0.8"/>
+  <circle cx="670" cy="125" r="8" fill="#e8d5b0" opacity="0.5"/>
+  <circle cx="690" cy="140" r="5" fill="#e8d5b0" opacity="0.4"/>
+  <!-- 星星 -->
+  <path d="M120 120 L123 113 L126 120 L133 123 L126 126 L123 133 L120 126 L113 123 Z" fill="#e8a838" opacity="0.6"/>
+  <path d="M250 100 L252 95 L254 100 L259 102 L254 104 L252 109 L250 104 L245 102 Z" fill="#e8a838" opacity="0.5"/>
+  <path d="M550 90 L553 83 L556 90 L563 93 L556 96 L553 103 L550 96 L543 93 Z" fill="#e8a838" opacity="0.5"/>
+
+  <!-- 远处县衙（背景） -->
+  <g transform="translate(650, 250)" opacity="0.4">
+    <rect x="-60" y="0" width="120" height="100" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M-70 0 L0 -50 L70 0 Z" fill="#5a3a1a"/>
+    <rect x="-15" y="40" width="30" height="60" fill="#3a2a1a"/>
+  </g>
+
+  <!-- 乡间小路 -->
+  <path d="M50 500 Q200 480 400 470 Q600 460 750 450" fill="none" stroke="#c8b890" stroke-width="40" opacity="0.5"/>
+
+  <!-- 草地 -->
+  <ellipse cx="400" cy="560" rx="500" ry="70" fill="#c8dcc8" opacity="0.4"/>
+
+  <!-- 牛 -->
+  <g transform="translate(450, 380)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="70" ry="40" fill="#e8d5b0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 花斑 -->
+    <ellipse cx="-15" cy="-10" rx="18" ry="12" fill="#8d5a36" opacity="0.6"/>
+    <ellipse cx="20" cy="5" rx="15" ry="10" fill="#8d5a36" opacity="0.6"/>
+    <!-- 头 -->
+    <ellipse cx="-65" cy="-15" rx="28" ry="25" fill="#e8d5b0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 角 -->
+    <path d="M-80 -35 Q-85 -45 -78 -48" fill="none" stroke="#7a3b14" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-55 -38 Q-50 -48 -57 -50" fill="none" stroke="#7a3b14" stroke-width="3" stroke-linecap="round"/>
+    <!-- 眼睛 -->
+    <circle cx="-70" cy="-18" r="4" fill="#2a2a2a"/>
+    <!-- 鼻子 -->
+    <ellipse cx="-85" cy="-8" rx="8" ry="6" fill="#d4a574" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-88" cy="-10" r="1.5" fill="#2a2a2a"/>
+    <circle cx="-82" cy="-10" r="1.5" fill="#2a2a2a"/>
+    <!-- 耳朵 -->
+    <ellipse cx="-75" cy="-30" rx="8" ry="5" fill="#e8d5b0" stroke="#7a3b14" stroke-width="1.5" transform="rotate(-30 -75 -30)"/>
+    <!-- 腿 -->
+    <rect x="-40" y="35" width="14" height="40" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+    <rect x="-10" y="35" width="14" height="40" fill="#e8d5b0" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+    <rect x="20" y="35" width="14" height="40" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+    <rect x="45" y="35" width="14" height="40" fill="#e8d5b0" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+    <!-- 尾巴 -->
+    <path d="M70 -5 Q90 5 85 25" fill="none" stroke="#7a3b14" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="85" cy="28" rx="5" ry="4" fill="#8d5a36"/>
+    <!-- 绳子 -->
+    <path d="M-85 -5 Q-110 10 -130 25" fill="none" stroke="#5a3a1a" stroke-width="2"/>
+  </g>
+
+  <!-- 驴（跟在牛后面） -->
+  <g transform="translate(620, 400)">
+    <ellipse cx="0" cy="0" rx="45" ry="28" fill="#a8a0a0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头 -->
+    <ellipse cx="-40" cy="-10" rx="20" ry="18" fill="#a8a0a0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 长耳朵 -->
+    <path d="M-48 -25 L-50 -42 L-44 -28" fill="#a8a0a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-38 -28 L-36 -45 L-32 -30" fill="#a8a0a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-45" cy="-12" r="3" fill="#2a2a2a"/>
+    <!-- 腿 -->
+    <rect x="-25" y="25" width="10" height="35" fill="#8a8a8a" rx="2"/>
+    <rect x="-5" y="25" width="10" height="35" fill="#a8a0a0" rx="2"/>
+    <rect x="15" y="25" width="10" height="35" fill="#8a8a8a" rx="2"/>
+    <rect x="30" y="25" width="10" height="35" fill="#a8a0a0" rx="2"/>
+  </g>
+
+  <!-- 枣核（小小的孩子，牵着牛绳） -->
+  <g transform="translate(310, 410)">
+    <!-- 放大圈（示意很小） -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#e07856" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+    <!-- 枣核小人 -->
+    <circle cx="0" cy="-12" r="8" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头发 -->
+    <path d="M-7 -18 Q-5 -24 0 -25 Q5 -24 7 -18" fill="#3a2a1a"/>
+    <!-- 眼睛（坚定） -->
+    <circle cx="-3" cy="-12" r="1.5" fill="#2a2a2a"/>
+    <circle cx="3" cy="-12" r="1.5" fill="#2a2a2a"/>
+    <!-- 嘴（微笑） -->
+    <path d="M-2 -7 Q0 -5 2 -7" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 身体 -->
+    <path d="M-6 -4 L-8 15 L8 15 L6 -4" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手臂（牵绳） -->
+    <path d="M6 0 L20 -5" fill="none" stroke="#f0d0a8" stroke-width="4" stroke-linecap="round"/>
+    <!-- 腿 -->
+    <rect x="-5" y="14" width="4" height="12" fill="#4a90b8" rx="1"/>
+    <rect x="1" y="14" width="4" height="12" fill="#4a90b8" rx="1"/>
+  </g>
+
+  <!-- 标注：枣核 -->
+  <line x1="310" y1="395" x2="250" y2="340" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="195" y="315" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="245" y="333" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">枣核（很小）</text>
+
+  <!-- 标注：牛和驴 -->
+  <line x1="500" y1="370" x2="560" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="510" y="290" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="560" y="308" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">夺回的牛驴</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">枣核虽然只有枣核那么大，却靠聪明勇敢帮乡亲们夺回了牛驴</text>
+</svg>

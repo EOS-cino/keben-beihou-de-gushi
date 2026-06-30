@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="山冈、松树和古典小说场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">景阳冈打虎</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="200" fill="#f0e8d0"/>
+  <!-- 远山 -->
+  <path d="M0 280 L100 200 L200 250 L320 180 L440 240 L560 190 L680 250 L800 210 L800 320 L0 320 Z" fill="#d8c8a8" opacity="0.5"/>
+  <path d="M0 320 L80 260 L180 300 L280 250 L380 290 L480 260 L580 300 L680 270 L800 300 L800 380 L0 380 Z" fill="#c8b898" opacity="0.6"/>
+
+  <!-- 山冈地面 -->
+  <path d="M0 380 Q200 360 400 380 T800 380 L800 600 L0 600 Z" fill="#c8a878"/>
+  <!-- 地面纹理 -->
+  <path d="M0 420 Q150 410 300 420 T600 420 T800 420" fill="none" stroke="#a88858" stroke-width="2"/>
+  <path d="M0 460 Q200 450 400 460 T800 460" fill="none" stroke="#a88858" stroke-width="2"/>
+  <!-- 草丛 -->
+  <g stroke="#6a8a3a" stroke-width="2" fill="none">
+    <path d="M50 420 L48 405 L52 408 L50 400"/>
+    <path d="M120 430 L118 415 L122 418 L120 410"/>
+    <path d="M650 420 L648 405 L652 408 L650 400"/>
+    <path d="M720 430 L718 415 L722 418 L720 410"/>
+  </g>
+
+  <!-- 松树（左侧） -->
+  <!-- 树干 -->
+  <path d="M100 500 Q105 400 110 300 Q108 250 115 200" fill="none" stroke="#6a4220" stroke-width="14" stroke-linecap="round"/>
+  <!-- 树枝 -->
+  <path d="M110 280 Q90 260 70 250" fill="none" stroke="#6a4220" stroke-width="6" stroke-linecap="round"/>
+  <path d="M112 240 Q135 225 155 220" fill="none" stroke="#6a4220" stroke-width="6" stroke-linecap="round"/>
+  <!-- 松针树冠 -->
+  <ellipse cx="95" cy="220" rx="35" ry="25" fill="#3a6a3a" stroke="#2a4a2a" stroke-width="1.5"/>
+  <ellipse cx="130" cy="200" rx="40" ry="28" fill="#4a7a4a" stroke="#2a4a2a" stroke-width="1.5"/>
+  <ellipse cx="80" cy="245" rx="30" ry="22" fill="#3a6a3a" stroke="#2a4a2a" stroke-width="1.5"/>
+  <ellipse cx="150" cy="230" rx="32" ry="24" fill="#4a7a4a" stroke="#2a4a2a" stroke-width="1.5"/>
+
+  <!-- 酒旗（远处小店标志） -->
+  <line x1="200" y1="280" x2="200" y2="340" stroke="#6a4220" stroke-width="3"/>
+  <path d="M200 290 L250 295 L250 320 L200 315 Z" fill="#c84030" stroke="#8a2010" stroke-width="1.5"/>
+  <text x="225" y="312" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">酒</text>
+
+  <!-- 老虎（扑向武松） -->
+  <!-- 身体 -->
+  <ellipse cx="520" cy="440" rx="90" ry="45" fill="#d4882a" stroke="#a8601a" stroke-width="2"/>
+  <!-- 头部 -->
+  <circle cx="440" cy="410" r="38" fill="#d4882a" stroke="#a8601a" stroke-width="2"/>
+  <!-- 耳朵 -->
+  <circle cx="420" cy="382" r="10" fill="#b8701a" stroke="#8a5010" stroke-width="1.5"/>
+  <circle cx="460" cy="382" r="10" fill="#b8701a" stroke="#8a5010" stroke-width="1.5"/>
+  <circle cx="420" cy="382" r="5" fill="#d4a050"/>
+  <circle cx="460" cy="382" r="5" fill="#d4a050"/>
+  <!-- 眼睛（凶猛） -->
+  <ellipse cx="428" cy="405" rx="6" ry="4" fill="#f4c842" stroke="#2a2a2a" stroke-width="1.5"/>
+  <ellipse cx="452" cy="405" rx="6" ry="4" fill="#f4c842" stroke="#2a2a2a" stroke-width="1.5"/>
+  <circle cx="428" cy="406" r="2.5" fill="#2a2a2a"/>
+  <circle cx="452" cy="406" r="2.5" fill="#2a2a2a"/>
+  <!-- 鼻子 -->
+  <path d="M435 418 Q440 422 445 418 Q443 425 440 425 Q437 425 435 418" fill="#5a2a1a"/>
+  <!-- 嘴（张开咆哮） -->
+  <path d="M425 428 Q440 440 455 428 Q455 438 440 442 Q425 438 425 428" fill="#5a1a10" stroke="#3a1008" stroke-width="1.5"/>
+  <!-- 獠牙 -->
+  <polygon points="432,430 436,440 438,430" fill="#fff8e0" stroke="#c8a860" stroke-width="1"/>
+  <polygon points="444,430 448,440 450,430" fill="#fff8e0" stroke="#c8a860" stroke-width="1"/>
+  <!-- 王字纹 -->
+  <line x1="432" y1="388" x2="448" y2="388" stroke="#5a2a10" stroke-width="2.5"/>
+  <line x1="440" y1="384" x2="440" y2="395" stroke="#5a2a10" stroke-width="2.5"/>
+  <line x1="435" y1="392" x2="445" y2="392" stroke="#5a2a10" stroke-width="2"/>
+  <!-- 身上条纹 -->
+  <g stroke="#8a5010" stroke-width="3" fill="none">
+    <path d="M490 410 Q495 425 490 440"/>
+    <path d="M520 405 Q525 425 520 445"/>
+    <path d="M550 410 Q555 425 550 440"/>
+    <path d="M580 415 Q585 430 580 445"/>
+  </g>
+  <!-- 腿 -->
+  <rect x="470" y="470" width="20" height="35" fill="#b8701a" stroke="#8a5010" stroke-width="2" rx="3"/>
+  <rect x="510" y="475" width="20" height="30" fill="#b8701a" stroke="#8a5010" stroke-width="2" rx="3"/>
+  <rect x="560" y="470" width="20" height="35" fill="#b8701a" stroke="#8a5010" stroke-width="2" rx="3"/>
+  <!-- 尾巴 -->
+  <path d="M605 435 Q640 420 650 395 Q655 385 645 380" fill="none" stroke="#d4882a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M605 435 Q640 420 650 395 Q655 385 645 380" fill="none" stroke="#8a5010" stroke-width="2"/>
+
+  <!-- 武松（骑虎挥拳） -->
+  <!-- 身体 -->
+  <path d="M540 420 L535 370 L575 370 L580 420 Z" fill="#8a3020"/>
+  <!-- 头 -->
+  <circle cx="557" cy="352" r="20" fill="#f0d0a8"/>
+  <!-- 头巾 -->
+  <path d="M537 348 Q557 328 577 348 L577 340 Q557 322 537 340 Z" fill="#c84030"/>
+  <rect x="547" y="332" width="20" height="12" fill="#c84030"/>
+  <!-- 眼睛（怒目） -->
+  <ellipse cx="550" cy="352" rx="3" ry="2.5" fill="#2a2a2a"/>
+  <ellipse cx="564" cy="352" rx="3" ry="2.5" fill="#2a2a2a"/>
+  <!-- 眉毛（怒） -->
+  <line x1="545" y1="346" x2="553" y2="348" stroke="#2a2a2a" stroke-width="2.5"/>
+  <line x1="561" y1="348" x2="569" y2="346" stroke="#2a2a2a" stroke-width="2.5"/>
+  <!-- 嘴 -->
+  <path d="M551 362 Q557 365 563 362" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 手臂（高举拳头） -->
+  <path d="M540 380 L510 340" fill="none" stroke="#8a3020" stroke-width="10" stroke-linecap="round"/>
+  <!-- 拳头 -->
+  <circle cx="508" cy="335" r="12" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+  <!-- 另一只手按住虎头 -->
+  <path d="M575 385 L510 410" fill="none" stroke="#8a3020" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="508" cy="412" r="10" fill="#f0d0a8"/>
+
+  <!-- 武松标注 -->
+  <line x1="557" y1="325" x2="557" y2="280" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="512" y="255" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="557" y="273" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">武松</text>
+
+  <!-- 老虎标注 -->
+  <line x1="440" y1="375" x2="440" y2="330" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="395" y="305" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="440" y="323" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">猛虎</text>
+
+  <!-- 山冈标注 -->
+  <line x1="300" y1="480" x2="300" y2="520" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="255" y="525" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="300" y="543" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">景阳冈</text>
+
+  <!-- 松树标注 -->
+  <line x1="110" y1="195" x2="110" y2="155" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="65" y="130" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="110" y="148" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">古松</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">武松酒过三巡上景阳冈，赤手空拳打死猛虎，为民除害</text>
+</svg>

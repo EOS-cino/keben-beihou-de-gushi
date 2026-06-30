@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="阿波罗11号登月看到地球升起的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 太空背景 -->
+  <rect x="0" y="0" width="800" height="600" fill="#1a1a2e" opacity="0.85"/>
+  <!-- 星星 -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="50" cy="80" r="1.5"/>
+    <circle cx="120" cy="50" r="1"/>
+    <circle cx="200" cy="90" r="1.5"/>
+    <circle cx="280" cy="40" r="1"/>
+    <circle cx="350" cy="70" r="1.5"/>
+    <circle cx="500" cy="50" r="1"/>
+    <circle cx="580" cy="80" r="1.5"/>
+    <circle cx="680" cy="40" r="1"/>
+    <circle cx="750" cy="90" r="1.5"/>
+    <circle cx="80" cy="200" r="1"/>
+    <circle cx="180" cy="250" r="1.5"/>
+    <circle cx="700" cy="200" r="1"/>
+    <circle cx="600" cy="250" r="1.5"/>
+    <circle cx="50" cy="350" r="1"/>
+    <circle cx="750" cy="350" r="1.5"/>
+  </g>
+  <!-- 月球表面 -->
+  <path d="M0 450 Q200 400 400 420 Q600 400 800 440 L800 600 L0 600 Z" fill="#9a9a8a" opacity="0.6"/>
+  <path d="M0 480 Q200 440 400 460 Q600 440 800 470 L800 600 L0 600 Z" fill="#7a7a6a" opacity="0.5"/>
+  <!-- 陨石坑 -->
+  <g fill="#6a6a5a" opacity="0.4">
+    <ellipse cx="150" cy="490" rx="30" ry="8"/>
+    <ellipse cx="400" cy="500" rx="40" ry="10"/>
+    <ellipse cx="650" cy="490" rx="25" ry="7"/>
+  </g>
+  <!-- 地球升起 -->
+  <g transform="translate(550 200)">
+    <circle cx="0" cy="0" r="70" fill="#4a90b8" opacity="0.8"/>
+    <!-- 大陆 -->
+    <path d="M-30 -20 Q-20 -30 -5 -25 Q10 -20 15 -10 Q10 0 -5 -5 Q-20 -5 -30 -20 Z" fill="#2d6a4f" opacity="0.7"/>
+    <path d="M10 15 Q25 10 35 20 Q30 30 15 30 Q5 25 10 15 Z" fill="#2d6a4f" opacity="0.7"/>
+    <path d="M-35 10 Q-25 5 -15 15 Q-20 25 -30 20 Z" fill="#2d6a4f" opacity="0.6"/>
+    <!-- 云 -->
+    <g fill="#ffffff" opacity="0.4">
+      <ellipse cx="-10" cy="-35" rx="20" ry="8"/>
+      <ellipse cx="20" cy="25" rx="15" ry="6"/>
+      <ellipse cx="-25" cy="30" rx="12" ry="5"/>
+    </g>
+    <!-- 光晕 -->
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#4a90b8" stroke-width="2" opacity="0.3"/>
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#4a90b8" stroke-width="1" opacity="0.2"/>
+  </g>
+  <!-- 宇航员 -->
+  <g transform="translate(250 450)">
+    <!-- 身体 -->
+    <rect x="-20" y="-50" width="40" height="50" rx="5" fill="#ffffff" opacity="0.9"/>
+    <!-- 背包 -->
+    <rect x="-25" y="-55" width="50" height="45" rx="5" fill="#cccccc" opacity="0.5"/>
+    <!-- 头盔 -->
+    <circle cx="0" cy="-70" r="18" fill="#ffffff" opacity="0.9"/>
+    <!-- 面罩 -->
+    <ellipse cx="0" cy="-70" rx="12" ry="14" fill="#1a1a2e" opacity="0.7"/>
+    <ellipse cx="-3" cy="-73" rx="4" ry="6" fill="#4a90b8" opacity="0.5"/>
+    <!-- 腿 -->
+    <rect x="-15" y="0" width="12" height="25" fill="#ffffff" opacity="0.9"/>
+    <rect x="3" y="0" width="12" height="25" fill="#ffffff" opacity="0.9"/>
+    <!-- 手指向地球 -->
+    <path d="M20 -35 Q40 -50 55 -70" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+    <path d="M-20 -35 L-30 -20" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+    <!-- 国旗 -->
+    <line x1="-30" y1="-20" x2="-30" y2="-80" stroke="#cccccc" stroke-width="2"/>
+    <path d="M-30 -80 L-5 -75 L-5 -60 L-30 -65 Z" fill="#e07856" opacity="0.8"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#e8a838">连珠小故事：人类第一次踩上月亮</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#cccccc">从月球回望，地球是一颗蓝白相间的宝石</text>
+</svg>

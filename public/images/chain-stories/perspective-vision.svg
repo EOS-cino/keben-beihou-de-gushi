@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="不同视角看世界的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">视角与认知：从井底到太空</text>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#6b6557" font-family="sans-serif">视野每扩大一步，对世界的认识就深一层</text>
+
+  <!-- 三个视角面板 -->
+  <!-- 面板1：井底之蛙视角 -->
+  <g transform="translate(0,90)">
+    <rect x="30" y="0" width="230" height="220" rx="10" fill="#f0e8d8" stroke="#8d6a3d" stroke-width="2"/>
+    <text x="145" y="25" text-anchor="middle" font-size="14" fill="#2d2a24" font-family="sans-serif" font-weight="bold">① 井底视角</text>
+    <!-- 井壁 -->
+    <path d="M60 50 Q60 120 80 180 L210 180 Q230 120 230 50 Z" fill="#3a3a2e"/>
+    <!-- 井口看到的小圆天 -->
+    <ellipse cx="145" cy="50" rx="70" ry="14" fill="#a8d4f0"/>
+    <!-- 青蛙 -->
+    <g transform="translate(145,160)">
+      <ellipse cx="0" cy="0" rx="18" ry="12" fill="#6ab04c"/>
+      <circle cx="-6" cy="-8" r="6" fill="#7cc85a"/>
+      <circle cx="6" cy="-8" r="6" fill="#7cc85a"/>
+      <circle cx="-6" cy="-9" r="2.5" fill="#1a1a1a"/>
+      <circle cx="6" cy="-9" r="2.5" fill="#1a1a1a"/>
+    </g>
+    <text x="145" y="205" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">天 = 井口大小</text>
+  </g>
+
+  <!-- 面板2：地面视角（地心说） -->
+  <g transform="translate(285,90)">
+    <rect x="0" y="0" width="230" height="220" rx="10" fill="#e8f0d8" stroke="#4a7a3a" stroke-width="2"/>
+    <text x="115" y="25" text-anchor="middle" font-size="14" fill="#2d2a24" font-family="sans-serif" font-weight="bold">② 地面视角</text>
+    <!-- 地球在中心 -->
+    <circle cx="115" cy="120" r="28" fill="#4a8ab8"/>
+    <circle cx="115" cy="120" r="24" fill="#5a9ac8"/>
+    <!-- 大陆 -->
+    <path d="M100 115 Q115 108 130 115 Q125 125 115 128 Q105 125 100 115" fill="#4a8a4a"/>
+    <text x="115" y="165" text-anchor="middle" font-size="10" fill="#2d5a8a" font-family="sans-serif">地球</text>
+    <!-- 太阳绕地球转（轨道） -->
+    <ellipse cx="115" cy="120" rx="70" ry="55" fill="none" stroke="#e8a040" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- 太阳 -->
+    <circle cx="180" cy="100" r="12" fill="#f4b942"/>
+    <text x="180" y="85" text-anchor="middle" font-size="10" fill="#8d6a3d" font-family="sans-serif">太阳</text>
+    <!-- 月亮 -->
+    <circle cx="55" cy="135" r="8" fill="#e8e0c8"/>
+    <text x="55" y="155" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">月亮</text>
+    <text x="115" y="205" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">地心说：太阳绕地球转</text>
+  </g>
+
+  <!-- 面板3：太空视角（日心说） -->
+  <g transform="translate(540,90)">
+    <rect x="0" y="0" width="230" height="220" rx="10" fill="#d8e8f0" stroke="#4a6a8a" stroke-width="2"/>
+    <text x="115" y="25" text-anchor="middle" font-size="14" fill="#2d2a24" font-family="sans-serif" font-weight="bold">③ 太空视角</text>
+    <!-- 太阳在中心 -->
+    <circle cx="115" cy="120" r="22" fill="#f4b942"/>
+    <circle cx="115" cy="120" r="28" fill="#f4b942" opacity="0.3"/>
+    <text x="115" y="155" text-anchor="middle" font-size="10" fill="#8d6a3d" font-family="sans-serif">太阳</text>
+    <!-- 地球轨道 -->
+    <ellipse cx="115" cy="120" rx="65" ry="50" fill="none" stroke="#5a8ac8" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- 地球 -->
+    <circle cx="178" cy="110" r="9" fill="#4a8ab8"/>
+    <path d="M173 108 Q178 105 183 108 Q181 113 178 114 Q175 113 173 108" fill="#4a8a4a"/>
+    <text x="178" y="95" text-anchor="middle" font-size="10" fill="#2d5a8a" font-family="sans-serif">地球</text>
+    <!-- 火星轨道 -->
+    <ellipse cx="115" cy="120" rx="90" ry="70" fill="none" stroke="#c88a5a" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+    <text x="115" y="205" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">日心说：地球绕太阳转</text>
+  </g>
+
+  <!-- 箭头连接 -->
+  <path d="M265 200 L280 200" stroke="#8d6a3d" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+  <path d="M520 200 L535 200" stroke="#8d6a3d" stroke-width="3" fill="none" marker-end="url(#arr2)"/>
+
+  <!-- 下方：人类认知发展时间线 -->
+  <g transform="translate(0,350)">
+    <text x="400" y="20" text-anchor="middle" font-size="16" fill="#2d2a24" font-family="sans-serif" font-weight="bold">人类"跳出井口"的历程</text>
+
+    <!-- 时间线 -->
+    <line x1="80" y1="80" x2="720" y2="80" stroke="#8d6a3d" stroke-width="3"/>
+
+    <!-- 节点1 -->
+    <circle cx="120" cy="80" r="8" fill="#6ab04c"/>
+    <text x="120" y="60" text-anchor="middle" font-size="11" fill="#2d2a24" font-family="sans-serif" font-weight="bold">古代</text>
+    <text x="120" y="105" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">肉眼观天</text>
+    <text x="120" y="120" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">地心说</text>
+
+    <!-- 节点2 -->
+    <circle cx="300" cy="80" r="8" fill="#5a8ac8"/>
+    <text x="300" y="60" text-anchor="middle" font-size="11" fill="#2d2a24" font-family="sans-serif" font-weight="bold">16世纪</text>
+    <text x="300" y="105" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">哥白尼</text>
+    <text x="300" y="120" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">日心说</text>
+
+    <!-- 节点3 -->
+    <circle cx="480" cy="80" r="8" fill="#e8a040"/>
+    <text x="480" y="60" text-anchor="middle" font-size="11" fill="#2d2a24" font-family="sans-serif" font-weight="bold">17世纪</text>
+    <text x="480" y="105" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">望远镜</text>
+    <text x="480" y="120" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">看见更远</text>
+
+    <!-- 节点4 -->
+    <circle cx="660" cy="80" r="8" fill="#c88a5a"/>
+    <text x="660" y="60" text-anchor="middle" font-size="11" fill="#2d2a24" font-family="sans-serif" font-weight="bold">20世纪</text>
+    <text x="660" y="105" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">飞向太空</text>
+    <text x="660" y="120" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">回望地球</text>
+  </g>
+
+  <!-- 底部总结 -->
+  <text x="400" y="560" text-anchor="middle" font-size="13" fill="#6b6557" font-family="sans-serif">每一次视野的扩大，都伴随着认知的飞跃</text>
+
+  <defs>
+    <marker id="arr2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#8d6a3d"/>
+    </marker>
+  </defs>
+</svg>

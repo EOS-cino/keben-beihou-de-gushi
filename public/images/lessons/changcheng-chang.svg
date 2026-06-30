@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="长城蜿蜒在山脊上的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="350" fill="#4a90b8" opacity="0.08"/>
+  <!-- 远山层1 -->
+  <path d="M0 280 Q100 180 250 240 Q400 160 550 220 Q700 180 800 250 L800 350 L0 350 Z" fill="#dceee3" opacity="0.5"/>
+  <!-- 远山层2 -->
+  <path d="M0 320 Q150 250 300 290 Q450 240 600 280 Q700 260 800 300 L800 380 L0 380 Z" fill="#9fc8b4" opacity="0.4"/>
+  <!-- 近山 -->
+  <path d="M0 380 Q120 300 280 350 Q400 310 520 360 Q650 320 800 370 L800 500 L0 500 Z" fill="#2d6a4f" opacity="0.3"/>
+  <!-- 长城 -->
+  <g fill="#e07856" opacity="0.8">
+    <!-- 长城沿山脊蜿蜒 -->
+    <path d="M50 420 Q120 360 200 380 Q280 350 350 370 Q430 340 500 360 Q580 330 650 350 Q720 340 780 360 L780 375 Q720 355 650 365 Q580 345 500 375 Q430 355 350 385 Q280 365 200 395 Q120 375 50 435 Z"/>
+  </g>
+  <!-- 长城墙体细节 -->
+  <g fill="#c06540" opacity="0.6">
+    <!-- 城墙顶部锯齿 -->
+    <rect x="80" y="375" width="8" height="8"/>
+    <rect x="100" y="372" width="8" height="8"/>
+    <rect x="140" y="368" width="8" height="8"/>
+    <rect x="160" y="370" width="8" height="8"/>
+    <rect x="220" y="365" width="8" height="8"/>
+    <rect x="240" y="362" width="8" height="8"/>
+    <rect x="300" y="360" width="8" height="8"/>
+    <rect x="320" y="358" width="8" height="8"/>
+    <rect x="380" y="355" width="8" height="8"/>
+    <rect x="400" y="353" width="8" height="8"/>
+    <rect x="460" y="355" width="8" height="8"/>
+    <rect x="480" y="353" width="8" height="8"/>
+    <rect x="540" y="350" width="8" height="8"/>
+    <rect x="560" y="348" width="8" height="8"/>
+    <rect x="620" y="350" width="8" height="8"/>
+    <rect x="640" y="348" width="8" height="8"/>
+    <rect x="700" y="350" width="8" height="8"/>
+    <rect x="720" y="352" width="8" height="8"/>
+  </g>
+  <!-- 烽火台1 -->
+  <g transform="translate(200 360)">
+    <rect x="-15" y="-35" width="30" height="35" fill="#e07856"/>
+    <rect x="-18" y="-40" width="36" height="8" fill="#c06540"/>
+    <rect x="-18" y="-44" width="8" height="6" fill="#c06540"/>
+    <rect x="-4" y="-44" width="8" height="6" fill="#c06540"/>
+    <rect x="10" y="-44" width="8" height="6" fill="#c06540"/>
+  </g>
+  <!-- 烽火台2 -->
+  <g transform="translate(450 345)">
+    <rect x="-15" y="-35" width="30" height="35" fill="#e07856"/>
+    <rect x="-18" y="-40" width="36" height="8" fill="#c06540"/>
+    <rect x="-18" y="-44" width="8" height="6" fill="#c06540"/>
+    <rect x="-4" y="-44" width="8" height="6" fill="#c06540"/>
+    <rect x="10" y="-44" width="8" height="6" fill="#c06540"/>
+  </g>
+  <!-- 烽火台3 -->
+  <g transform="translate(670 348)">
+    <rect x="-15" y="-35" width="30" height="35" fill="#e07856"/>
+    <rect x="-18" y="-40" width="36" height="8" fill="#c06540"/>
+    <rect x="-18" y="-44" width="8" height="6" fill="#c06540"/>
+    <rect x="-4" y="-44" width="8" height="6" fill="#c06540"/>
+    <rect x="10" y="-44" width="8" height="6" fill="#c06540"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#9fc8b4" opacity="0.3"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="100" r="30" fill="#e8a838" opacity="0.6"/>
+  <!-- 飞鸟 -->
+  <g fill="none" stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <path d="M300 120 Q305 115 310 120 Q315 115 320 120"/>
+    <path d="M350 100 Q355 95 360 100 Q365 95 370 100"/>
+    <path d="M250 140 Q255 135 260 140 Q265 135 270 140"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#2d6a4f">长城长</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7a7468">从山海关到嘉峪关，那道弯弯曲曲的墙</text>
+</svg>

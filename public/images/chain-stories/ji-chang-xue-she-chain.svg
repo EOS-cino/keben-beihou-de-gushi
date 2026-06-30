@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从纪昌学射到卖油翁的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：纪昌学射 -->
+  <circle cx="170" cy="300" r="110" fill="#8a6d3b" opacity="0.25" stroke="#b5651d" stroke-width="3"/>
+  <path d="M 145 285 q 40 -40 80 0" stroke="#5d4037" stroke-width="4" fill="none"/>
+  <line x1="170" y1="265" x2="170" y2="305" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="185" y1="285" x2="215" y2="285" stroke="#7a3b14" stroke-width="2"/>
+  <polygon points="215,285 207,281 207,289" fill="#7a3b14"/>
+  <text x="170" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">纪昌学射</text>
+  <text x="170" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">练眼五年</text>
+  <!-- 右珠：卖油翁 -->
+  <circle cx="630" cy="300" r="110" fill="#8fb996" opacity="0.3" stroke="#3a7d44" stroke-width="3"/>
+  <ellipse cx="615" cy="290" rx="14" ry="8" fill="#5d4037"/>
+  <rect x="613" y="286" width="4" height="20" fill="#5d4037"/>
+  <ellipse cx="645" cy="315" rx="10" ry="6" fill="#d4a017"/>
+  <path d="M 615 306 q 30 -16 30 9" stroke="#d4a017" stroke-width="2" fill="none"/>
+  <text x="630" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">卖油翁</text>
+  <text x="630" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">手熟而已</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">纪昌学射，遇见卖油翁</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">熟能生巧，功夫在平时</text>
+</svg>

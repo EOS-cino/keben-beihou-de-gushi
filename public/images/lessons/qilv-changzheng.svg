@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="红军长征路线、雪山草地、五岭乌蒙金沙大渡岷山插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">七律·长征</text>
+  <line x1="330" y1="58" x2="470" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="200" fill="#e8e8f0" opacity="0.3"/>
+
+  <!-- 长征路线（虚线） -->
+  <path d="M100 450 Q200 380 280 400 Q350 350 420 320 Q500 280 560 250 Q640 220 700 180" fill="none" stroke="#c84030" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+
+  <!-- 起点：江西 -->
+  <g transform="translate(100, 450)">
+    <circle cx="0" cy="0" r="8" fill="#c84030" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#c84030" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- 五岭（细浪） -->
+  <g transform="translate(250, 400)">
+    <path d="M -30 20 Q -20 5 -10 15 Q 0 0 10 12 Q 20 -5 30 15" fill="none" stroke="#8a7a60" stroke-width="2"/>
+    <path d="M -25 25 Q -15 12 -5 20 Q 5 8 15 18 Q 25 5 30 18" fill="none" stroke="#9a8a70" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- 乌蒙（泥丸） -->
+  <g transform="translate(380, 340)">
+    <ellipse cx="0" cy="10" rx="35" ry="20" fill="#9a8870" stroke="#7a6a50" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="-10" cy="5" r="6" fill="#a89880" stroke="#7a6a50" stroke-width="1"/>
+    <circle cx="8" cy="8" r="5" fill="#a89880" stroke="#7a6a50" stroke-width="1"/>
+    <circle cx="0" cy="0" r="4" fill="#a89880" stroke="#7a6a50" stroke-width="1"/>
+  </g>
+
+  <!-- 金沙江（云崖暖） -->
+  <g transform="translate(490, 300)">
+    <!-- 悬崖 -->
+    <path d="M -25 30 L -25 -15 L -15 -20 L -10 -15 L -10 30 Z" fill="#8a7a60" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M 10 30 L 10 -10 L 20 -18 L 25 -10 L 25 30 Z" fill="#8a7a60" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 江水 -->
+    <path d="M -25 30 Q 0 35 25 30" fill="none" stroke="#4a8aaa" stroke-width="3"/>
+    <path d="M -20 35 Q 0 40 20 35" fill="none" stroke="#6aaaca" stroke-width="2" opacity="0.6"/>
+    <!-- 暖色光 -->
+    <circle cx="0" cy="0" r="12" fill="#f0a848" opacity="0.15"/>
+  </g>
+
+  <!-- 大渡河泸定桥（铁索寒） -->
+  <g transform="translate(580, 250)">
+    <!-- 两岸 -->
+    <rect x="-30" y="10" width="15" height="25" fill="#8a7a60" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="15" y="10" width="15" height="25" fill="#8a7a60" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 铁索 -->
+    <line x1="-15" y1="12" x2="15" y2="12" stroke="#5a5a5a" stroke-width="1.5"/>
+    <line x1="-15" y1="16" x2="15" y2="16" stroke="#5a5a5a" stroke-width="1.5"/>
+    <line x1="-15" y1="20" x2="15" y2="20" stroke="#5a5a5a" stroke-width="1.5"/>
+    <!-- 水流 -->
+    <path d="M -30 38 Q 0 42 30 38" fill="none" stroke="#4a8aaa" stroke-width="2.5"/>
+    <!-- 寒色 -->
+    <circle cx="0" cy="15" r="14" fill="#4a8aaa" opacity="0.1"/>
+  </g>
+
+  <!-- 岷山千里雪 -->
+  <g transform="translate(700, 180)">
+    <!-- 雪山 -->
+    <path d="M -40 40 L -20 -10 L 0 -25 L 20 -10 L 40 40 Z" fill="#e8e8f0" stroke="#b8c8d8" stroke-width="2"/>
+    <!-- 雪线 -->
+    <path d="M -30 15 L -20 -10 L -10 0 L 0 -25 L 10 0 L 20 -10 L 30 15" fill="none" stroke="#c8d8e8" stroke-width="1.5"/>
+    <!-- 终点旗 -->
+    <line x1="0" y1="-25" x2="0" y2="-45" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M0 -43 L15 -38 L0 -33" fill="#c84030" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 红军队伍（行进中） -->
+  <g transform="translate(350, 430)">
+    <!-- 战士1 -->
+    <g transform="translate(0, 0)">
+      <path d="M -5 15 Q -6 5 -4 -2 Q 0 -4 4 -2 Q 6 5 5 15" fill="#8a3a2a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-6" r="5" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M -5 -8 Q -4 -14 0 -15 Q 4 -14 5 -8" fill="#3a3a3a"/>
+      <!-- 红五星帽 -->
+      <path d="M0 -15 L2 -11 L5 -11 L3 -9 L4 -6 L0 -8 L-4 -6 L-3 -9 L-5 -11 L-2 -11 Z" fill="#c84030" stroke="#7a3b14" stroke-width="0.5"/>
+    </g>
+    <!-- 战士2 -->
+    <g transform="translate(-15, 3)">
+      <path d="M -4 12 Q -5 3 -3 -2 Q 0 -3 3 -2 Q 5 3 4 12" fill="#8a3a2a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-5" r="4.5" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M -4.5 -7 Q -3.5 -12 0 -13 Q 3.5 -12 4.5 -7" fill="#3a3a3a"/>
+      <path d="M0 -13 L1.5 -10 L4 -10 L2.5 -8 L3 -6 L0 -7 L-3 -6 L-2.5 -8 L-4 -10 L-1.5 -10 Z" fill="#c84030"/>
+    </g>
+    <!-- 战士3 -->
+    <g transform="translate(-30, 6)">
+      <path d="M -4 10 Q -5 2 -3 -2 Q 0 -3 3 -2 Q 5 2 4 10" fill="#8a3a2a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-4" r="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M -4 -6 Q -3 -11 0 -12 Q 3 -11 4 -6" fill="#3a3a3a"/>
+      <path d="M0 -12 L1.5 -9 L3.5 -9 L2 -7 L2.5 -5 L0 -6 L-2.5 -5 L-2 -7 L-3.5 -9 L-1.5 -9 Z" fill="#c84030"/>
+    </g>
+  </g>
+
+  <!-- 标注：五岭（细浪） -->
+  <line x1="250" y1="385" x2="200" y2="340" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="140" y="318" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="200" y="336" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">五岭腾细浪</text>
+
+  <!-- 标注：乌蒙（泥丸） -->
+  <line x1="380" y1="325" x2="380" y2="280" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="320" y="258" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="380" y="276" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">乌蒙走泥丸</text>
+
+  <!-- 标注：金沙江 -->
+  <line x1="490" y1="285" x2="490" y2="240" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="430" y="218" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="490" y="236" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">金沙云崖暖</text>
+
+  <!-- 标注：大渡桥 -->
+  <line x1="580" y1="235" x2="580" y2="190" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="520" y="168" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="580" y="186" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">大渡铁索寒</text>
+
+  <!-- 标注：岷山雪 -->
+  <line x1="700" y1="155" x2="700" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="640" y="98" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="700" y="116" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">岷山千里雪</text>
+
+  <!-- 标注：红军 -->
+  <line x1="340" y1="425" x2="280" y2="460" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="220" y="450" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="270" y="468" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">红军队伍</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">红军不怕远征难，万水千山只等闲——二万五千里长征路，革命乐观主义铸丰碑</text>
+</svg>

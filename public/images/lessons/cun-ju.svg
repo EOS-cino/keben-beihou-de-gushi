@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天的乡村，杨柳依依，几个孩子放学后在田野里放风筝">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="350" fill="#a8d0e8" opacity="0.2"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="80" r="30" fill="#f4b942" opacity="0.6"/>
+  <!-- 远山 -->
+  <path d="M0 350 L0 280 L120 230 L250 270 L380 240 L500 270 L620 250 L750 280 L800 260 L800 350 Z" fill="#6a8d3f" opacity="0.3"/>
+  <path d="M0 350 L0 320 L150 290 L300 310 L450 295 L600 315 L750 300 L800 310 L800 350 Z" fill="#4a6a2f" opacity="0.2"/>
+  <!-- 草地/田野 -->
+  <path d="M0 380 Q200 370 400 380 T800 375 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.4"/>
+  <path d="M0 430 Q200 420 400 430 T800 425 L800 600 L0 600 Z" fill="#4a6a2f" opacity="0.3"/>
+  <!-- 杨柳 -->
+  <g transform="translate(120,380)">
+    <rect x="-6" y="-80" width="12" height="80" fill="#8d5a36"/>
+    <!-- 柳枝 -->
+    <g stroke="#6a8d3f" stroke-width="2" fill="none">
+      <path d="M0 -75 Q-15 -50 -20 -10"/>
+      <path d="M0 -75 Q-10 -50 -12 -5"/>
+      <path d="M0 -75 Q5 -50 8 -10"/>
+      <path d="M0 -75 Q15 -50 18 -5"/>
+      <path d="M0 -75 Q-20 -55 -28 -20"/>
+      <path d="M0 -75 Q20 -55 28 -20"/>
+    </g>
+    <!-- 柳叶 -->
+    <g fill="#7ba84a" opacity="0.7">
+      <ellipse cx="-18" cy="-30" rx="3" ry="8" transform="rotate(-30 -18 -30)"/>
+      <ellipse cx="-12" cy="-15" rx="3" ry="8" transform="rotate(-20 -12 -15)"/>
+      <ellipse cx="8" cy="-20" rx="3" ry="8" transform="rotate(20 8 -20)"/>
+      <ellipse cx="18" cy="-30" rx="3" ry="8" transform="rotate(30 18 -30)"/>
+      <ellipse cx="-25" cy="-40" rx="3" ry="8" transform="rotate(-40 -25 -40)"/>
+      <ellipse cx="25" cy="-40" rx="3" ry="8" transform="rotate(40 25 -40)"/>
+    </g>
+    <!-- 树冠 -->
+    <ellipse cx="0" cy="-80" rx="25" ry="15" fill="#6a8d3f" opacity="0.6"/>
+  </g>
+  <!-- 堤岸 -->
+  <path d="M50 400 Q200 395 400 400 Q600 405 750 400" stroke="#8d5a36" stroke-width="3" fill="none" opacity="0.3"/>
+  <!-- 小河 -->
+  <path d="M0 410 Q200 405 400 410 Q600 415 800 410 L800 430 Q600 425 400 430 Q200 425 0 430 Z" fill="#a8d0e8" opacity="0.4"/>
+  <!-- 风筝（蝴蝶形） -->
+  <g transform="translate(550,120)">
+    <!-- 风筝线 -->
+    <path d="M0 0 Q-20 50 -40 120 Q-60 180 -80 250" stroke="#7a3b14" stroke-width="1" fill="none" opacity="0.5"/>
+    <!-- 蝴蝶风筝身体 -->
+    <ellipse cx="-15" cy="-5" rx="18" ry="22" fill="#c84a3a" transform="rotate(-20 -15 -5)"/>
+    <ellipse cx="15" cy="-5" rx="18" ry="22" fill="#c84a3a" transform="rotate(20 15 -5)"/>
+    <ellipse cx="-12" cy="15" rx="12" ry="15" fill="#e07856" transform="rotate(-20 -12 15)"/>
+    <ellipse cx="12" cy="15" rx="12" ry="15" fill="#e07856" transform="rotate(20 12 15)"/>
+    <rect x="-2" y="-10" width="4" height="30" fill="#7a3b14"/>
+    <!-- 飘带 -->
+    <path d="M0 20 Q-5 40 -3 60 Q-8 80 -2 100" stroke="#f4b942" stroke-width="3" fill="none"/>
+    <path d="M0 20 Q5 40 3 60 Q8 80 2 100" stroke="#f4b942" stroke-width="3" fill="none"/>
+  </g>
+  <!-- 孩子们放风筝 -->
+  <g transform="translate(470,400)">
+    <!-- 孩子1（拽线） -->
+    <g transform="translate(0,0)">
+      <ellipse cx="0" cy="30" rx="15" ry="20" fill="#c84a3a"/>
+      <circle cx="0" cy="0" r="15" fill="#f4d4a8"/>
+      <path d="M-12 -5 Q-15 -15 -8 -18" stroke="#2d2a24" stroke-width="3" fill="none"/>
+      <path d="M12 -5 Q15 -15 8 -18" stroke="#2d2a24" stroke-width="3" fill="none"/>
+      <circle cx="-5" cy="2" r="2" fill="#2d2a24"/>
+      <circle cx="5" cy="2" r="2" fill="#2d2a24"/>
+      <path d="M-4 8 Q0 11 4 8" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+      <!-- 手举高拽线 -->
+      <path d="M12 18 L30 -5" stroke="#f4d4a8" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-12 18 L-20 35" stroke="#f4d4a8" stroke-width="5" stroke-linecap="round"/>
+      <!-- 腿（跑） -->
+      <path d="M-6 48 L-10 70" stroke="#4a6a2f" stroke-width="6"/>
+      <path d="M6 48 L15 68" stroke="#4a6a2f" stroke-width="6"/>
+    </g>
+    <!-- 孩子2（跟着跑） -->
+    <g transform="translate(-60,10)">
+      <ellipse cx="0" cy="30" rx="14" ry="18" fill="#7ab8d8"/>
+      <circle cx="0" cy="0" r="14" fill="#f4d4a8"/>
+      <path d="M-10 -5 Q-13 -14 -6 -16" stroke="#2d2a24" stroke-width="3" fill="none"/>
+      <path d="M10 -5 Q13 -14 6 -16" stroke="#2d2a24" stroke-width="3" fill="none"/>
+      <circle cx="-4" cy="2" r="2" fill="#2d2a24"/>
+      <circle cx="4" cy="2" r="2" fill="#2d2a24"/>
+      <path d="M-4 8 Q0 11 4 8" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+      <path d="M10 18 L20 30" stroke="#f4d4a8" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-10 18 L-18 32" stroke="#f4d4a8" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-5 46 L-8 66" stroke="#4a6a2f" stroke-width="6"/>
+      <path d="M5 46 L12 64" stroke="#4a6a2f" stroke-width="6"/>
+    </g>
+  </g>
+  <!-- 小花 -->
+  <g fill="#e07856" opacity="0.6">
+    <circle cx="200" cy="500" r="4"/>
+    <circle cx="350" cy="510" r="3"/>
+    <circle cx="600" cy="500" r="4"/>
+    <circle cx="700" cy="515" r="3"/>
+  </g>
+  <g fill="#f4b942" opacity="0.6">
+    <circle cx="250" cy="520" r="4"/>
+    <circle cx="650" cy="525" r="3"/>
+  </g>
+  <!-- 燕子 -->
+  <g transform="translate(300,130)" opacity="0.5">
+    <path d="M0 0 Q-12 -5 -24 -1 Q-12 2 0 0 Q12 2 24 -1 Q12 -5 0 0" fill="#2d2a24"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">村居</text>
+</svg>

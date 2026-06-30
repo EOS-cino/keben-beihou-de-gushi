@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="克雷洛夫寓言世界插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">连珠小故事：克雷洛夫的寓言世界</text>
+  <line x1="200" y1="62" x2="600" y2="62" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 中心：克雷洛夫 -->
+  <g transform="translate(400, 320)">
+    <circle cx="0" cy="0" r="50" fill="#e8a838" opacity="0.15" stroke="#e8a838" stroke-width="2"/>
+    <!-- 人物 -->
+    <circle cx="0" cy="-15" r="16" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-16 -22 Q-10 -32 0 -32 Q10 -32 16 -22" fill="#3a2a1a"/>
+    <circle cx="-5" cy="-15" r="2" fill="#2a2a2a"/>
+    <circle cx="5" cy="-15" r="2" fill="#2a2a2a"/>
+    <path d="M-4 -6 Q0 -3 4 -6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 身体 -->
+    <path d="M-12 0 L-15 35 L15 35 L12 0" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 书 -->
+    <rect x="-10" y="15" width="20" height="15" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="0" y1="15" x2="0" y2="30" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="55" text-anchor="middle" font-size="13" font-weight="bold" fill="#7a3b14" font-family="serif">克雷洛夫</text>
+  </g>
+
+  <!-- 寓言1：狐狸和葡萄 -->
+  <g transform="translate(160, 180)">
+    <rect x="-75" y="-55" width="150" height="140" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8" opacity="0.8"/>
+    <text x="0" y="-38" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">狐狸和葡萄</text>
+    <!-- 葡萄架 -->
+    <line x1="-30" y1="20" x2="-30" y2="-15" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="30" y1="20" x2="30" y2="-15" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="-30" y1="-15" x2="30" y2="-15" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 葡萄 -->
+    <circle cx="-10" cy="-8" r="4" fill="#6a3a6a"/>
+    <circle cx="-3" cy="-6" r="4" fill="#6a3a6a"/>
+    <circle cx="4" cy="-8" r="4" fill="#6a3a6a"/>
+    <circle cx="-6" cy="-2" r="4" fill="#5a2a5a"/>
+    <circle cx="2" cy="-2" r="4" fill="#5a2a5a"/>
+    <!-- 狐狸 -->
+    <g transform="translate(0, 30)">
+      <ellipse cx="0" cy="0" rx="15" ry="10" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-12 -5 L-16 -12 L-10 -8" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M12 -5 L16 -12 L10 -8" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-5" cy="-3" r="2" fill="#2a2a2a"/>
+      <circle cx="5" cy="-3" r="2" fill="#2a2a2a"/>
+      <!-- 仰头看 -->
+      <path d="M0 -8 L0 -15" fill="none" stroke="#7a3b14" stroke-width="1" stroke-dasharray="2,2"/>
+    </g>
+    <text x="0" y="70" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">酸葡萄心理</text>
+  </g>
+
+  <!-- 寓言2：天鹅梭子鱼和虾 -->
+  <g transform="translate(640, 180)">
+    <rect x="-75" y="-55" width="150" height="140" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8" opacity="0.8"/>
+    <text x="0" y="-38" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">天鹅·鱼·虾</text>
+    <!-- 天鹅（向上飞） -->
+    <g transform="translate(-30, -10)">
+      <ellipse cx="0" cy="0" rx="10" ry="6" fill="#ffffff" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M8 -2 L15 -8 L8 0" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-5 -3 L-12 -12 L-3 -5" fill="#ffffff" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M0 0 L0 8" fill="none" stroke="#7a3b14" stroke-width="1" stroke-dasharray="2,2"/>
+    </g>
+    <!-- 鱼（向下钻） -->
+    <g transform="translate(0, 15)">
+      <ellipse cx="0" cy="0" rx="10" ry="5" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-10 0 L-15 -4 L-15 4" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M0 3 L0 10" fill="none" stroke="#7a3b14" stroke-width="1" stroke-dasharray="2,2"/>
+    </g>
+    <!-- 虾（后退） -->
+    <g transform="translate(30, 10)">
+      <path d="M0 0 Q5 -5 10 0 Q5 5 0 0" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M0 0 L-8 5" fill="none" stroke="#7a3b14" stroke-width="1" stroke-dasharray="2,2"/>
+    </g>
+    <!-- 车 -->
+    <g transform="translate(0, 35)">
+      <rect x="-8" y="-3" width="16" height="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-5" cy="6" r="3" fill="#5a3a1a"/>
+      <circle cx="5" cy="6" r="3" fill="#5a3a1a"/>
+    </g>
+    <text x="0" y="70" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">方向不同白费力</text>
+  </g>
+
+  <!-- 寓言3：橡树和芦苇 -->
+  <g transform="translate(160, 430)">
+    <rect x="-75" y="-50" width="150" height="120" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8" opacity="0.8"/>
+    <text x="0" y="-33" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">橡树和芦苇</text>
+    <!-- 橡树（断了） -->
+    <g transform="translate(-30, 10)">
+      <rect x="-4" y="-25" width="8" height="30" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-30" rx="15" ry="10" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 断裂 -->
+      <path d="M-4 -5 L4 0 L-4 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M4 0 L15 8" fill="none" stroke="#8d5a36" stroke-width="3"/>
+    </g>
+    <!-- 芦苇（弯腰） -->
+    <g transform="translate(25, 15)">
+      <path d="M0 15 Q-5 0 -3 -15" fill="none" stroke="#2d6a4f" stroke-width="2"/>
+      <ellipse cx="-3" cy="-15" rx="2" ry="6" fill="#3d8a5f"/>
+      <path d="M0 15 Q3 5 8 -5" fill="none" stroke="#2d6a4f" stroke-width="2"/>
+      <ellipse cx="8" cy="-5" rx="2" ry="5" fill="#3d8a5f"/>
+    </g>
+    <!-- 风 -->
+    <path d="M-60 -10 Q-40 -15 -20 -10" fill="none" stroke="#4a90b8" stroke-width="1.5" opacity="0.4"/>
+    <path d="M-55 0 Q-35 -5 -15 0" fill="none" stroke="#4a90b8" stroke-width="1.5" opacity="0.4"/>
+    <text x="0" y="55" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">柔软比刚硬更韧</text>
+  </g>
+
+  <!-- 寓言4：池子与河流 -->
+  <g transform="translate(640, 430)">
+    <rect x="-75" y="-50" width="150" height="120" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8" opacity="0.8"/>
+    <text x="0" y="-33" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">池子与河流</text>
+    <!-- 池子（干涸） -->
+    <ellipse cx="-25" cy="15" rx="20" ry="8" fill="#8a7a5a" opacity="0.4"/>
+    <ellipse cx="-25" cy="13" rx="15" ry="5" fill="#2d6a4f" opacity="0.3"/>
+    <!-- 河流（流动） -->
+    <path d="M5 20 Q15 15 25 20 Q35 25 45 20" fill="none" stroke="#4a90b8" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+    <path d="M5 20 Q15 15 25 20 Q35 25 45 20" fill="none" stroke="#7ab8d8" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <text x="0" y="55" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">安逸衰退·奋斗长青</text>
+  </g>
+
+  <!-- 连接线 -->
+  <line x1="235" y1="180" x2="355" y2="290" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+  <line x1="565" y1="180" x2="445" y2="290" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+  <line x1="235" y1="430" x2="355" y2="350" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+  <line x1="565" y1="430" x2="445" y2="350" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="35" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="568" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">克雷洛夫用最小的故事讲最大的道理，让孩子在笑声中明白人生的选择。</text>
+</svg>

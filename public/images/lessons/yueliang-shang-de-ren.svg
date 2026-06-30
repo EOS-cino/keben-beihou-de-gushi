@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="宇航员站在月球表面插旗插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">月亮上的人</text>
+  <line x1="330" y1="58" x2="470" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 太空背景（黑色） -->
+  <rect x="0" y="64" width="800" height="360" fill="#1a1a2e"/>
+  <!-- 星星 -->
+  <g fill="#fff6df">
+    <circle cx="80" cy="100" r="1.5"/>
+    <circle cx="150" cy="130" r="1"/>
+    <circle cx="220" cy="90" r="1.5"/>
+    <circle cx="300" cy="120" r="1"/>
+    <circle cx="500" cy="100" r="1.5"/>
+    <circle cx="580" cy="130" r="1"/>
+    <circle cx="650" cy="90" r="1.5"/>
+    <circle cx="720" cy="120" r="1"/>
+    <circle cx="120" cy="180" r="1"/>
+    <circle cx="680" cy="180" r="1"/>
+    <circle cx="60" cy="220" r="1.5"/>
+    <circle cx="740" cy="220" r="1"/>
+    <circle cx="180" cy="250" r="1"/>
+    <circle cx="620" cy="250" r="1"/>
+    <circle cx="100" cy="300" r="1"/>
+    <circle cx="700" cy="300" r="1.5"/>
+  </g>
+
+  <!-- 远处地球（蓝色弹珠） -->
+  <circle cx="640" cy="160" r="32" fill="#4a8aba" stroke="#3a6a8a" stroke-width="1.5"/>
+  <!-- 地球大陆 -->
+  <path d="M625 150 Q635 145 645 152 Q650 158 642 162 Q635 160 625 155 Z" fill="#6a8d3f" opacity="0.8"/>
+  <path d="M630 168 Q640 165 650 170 Q648 176 638 174 Z" fill="#6a8d3f" opacity="0.8"/>
+  <path d="M620 165 Q625 170 622 175" fill="#6a8d3f" opacity="0.6"/>
+  <!-- 地球高光 -->
+  <ellipse cx="630" cy="150" rx="10" ry="6" fill="#a8d0e8" opacity="0.4"/>
+
+  <!-- 标注：地球 -->
+  <line x1="640" y1="192" x2="640" y2="220" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="600" y="222" width="80" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="640" y="241" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">地球</text>
+
+  <!-- 月球表面（灰色弧形地平线） -->
+  <path d="M0 380 Q200 360 400 375 Q600 365 800 380 L800 540 L0 540 Z" fill="#8a8a8a"/>
+  <path d="M0 380 Q200 360 400 375 Q600 365 800 380" fill="none" stroke="#6a6a6a" stroke-width="2"/>
+  <!-- 月球尘土纹理 -->
+  <path d="M0 400 Q200 385 400 395 Q600 388 800 400 L800 540 L0 540 Z" fill="#9a9a9a"/>
+  <!-- 环形山 -->
+  <ellipse cx="120" cy="440" rx="28" ry="10" fill="#7a7a7a" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="120" cy="438" rx="24" ry="7" fill="#8a8a8a"/>
+  <ellipse cx="680" cy="460" rx="22" ry="8" fill="#7a7a7a" stroke="#6a6a6a" stroke-width="1.5"/>
+  <ellipse cx="680" cy="458" rx="18" ry="5" fill="#8a8a8a"/>
+  <ellipse cx="250" cy="490" rx="16" ry="6" fill="#7a7a7a" stroke="#6a6a6a" stroke-width="1"/>
+  <ellipse cx="550" cy="500" rx="14" ry="5" fill="#7a7a7a" stroke="#6a6a6a" stroke-width="1"/>
+
+  <!-- 小石头 -->
+  <ellipse cx="200" cy="420" rx="6" ry="4" fill="#6a6a6a"/>
+  <ellipse cx="600" cy="425" rx="5" ry="3" fill="#6a6a6a"/>
+  <ellipse cx="350" cy="430" rx="4" ry="3" fill="#7a7a7a"/>
+
+  <!-- 宇航员 -->
+  <!-- 宇航服身体 -->
+  <ellipse cx="380" cy="410" rx="38" ry="48" fill="#e8e8e8" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- 背包（生命维持系统） -->
+  <rect x="348" y="375" width="64" height="55" rx="6" fill="#c8c8c8" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- 胸前控制面板 -->
+  <rect x="362" y="400" width="36" height="20" rx="3" fill="#5a5a6a" stroke="#3a3a4a" stroke-width="1.5"/>
+  <circle cx="370" cy="410" r="2" fill="#e07856"/>
+  <circle cx="380" cy="410" r="2" fill="#6a8d3f"/>
+  <circle cx="390" cy="410" r="2" fill="#a8d0e8"/>
+  <!-- 头盔 -->
+  <circle cx="380" cy="345" r="28" fill="#d8d8d8" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- 头盔面罩（金色反光） -->
+  <ellipse cx="380" cy="348" rx="20" ry="22" fill="#c8a838" opacity="0.7"/>
+  <ellipse cx="374" cy="340" rx="8" ry="10" fill="#e8c858" opacity="0.5"/>
+  <!-- 手臂 -->
+  <path d="M345 390 Q320 400 310 425" stroke="#e8e8e8" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M415 390 Q440 395 445 420" stroke="#e8e8e8" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <!-- 手套 -->
+  <circle cx="310" cy="428" r="9" fill="#d8d8d8" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="445" cy="423" r="9" fill="#d8d8d8" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- 腿 -->
+  <path d="M365 455 L358 500" stroke="#e8e8e8" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <path d="M395 455 L402 500" stroke="#e8e8e8" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <!-- 靴子 -->
+  <ellipse cx="356" cy="508" rx="12" ry="7" fill="#5a5a5a" stroke="#3a3a3a" stroke-width="1.5"/>
+  <ellipse cx="404" cy="508" rx="12" ry="7" fill="#5a5a5a" stroke="#3a3a3a" stroke-width="1.5"/>
+
+  <!-- 脚印（旁边） -->
+  <g fill="#6a6a6a" opacity="0.6">
+    <ellipse cx="290" cy="490" rx="5" ry="8" transform="rotate(-15 290 490)"/>
+    <ellipse cx="310" cy="475" rx="5" ry="8" transform="rotate(-10 310 475)"/>
+  </g>
+
+  <!-- 美国国旗（旗杆+旗子） -->
+  <line x1="475" y1="350" x2="475" y2="510" stroke="#7a3b14" stroke-width="3"/>
+  <!-- 旗子（无风飘扬状，因为月球没风，但阿波罗用横杆撑开） -->
+  <rect x="475" y="350" width="80" height="50" fill="#c84a3a" stroke="#8a3a2a" stroke-width="1"/>
+  <!-- 旗子条纹 -->
+  <rect x="475" y="358" width="80" height="6" fill="#fff6df"/>
+  <rect x="475" y="370" width="80" height="6" fill="#fff6df"/>
+  <rect x="475" y="382" width="80" height="6" fill="#fff6df"/>
+  <rect x="475" y="394" width="80" height="6" fill="#fff6df"/>
+  <!-- 旗子左上角蓝块 -->
+  <rect x="475" y="350" width="32" height="28" fill="#3a4a8a"/>
+  <g fill="#fff6df">
+    <circle cx="483" cy="358" r="1.5"/>
+    <circle cx="491" cy="358" r="1.5"/>
+    <circle cx="499" cy="358" r="1.5"/>
+    <circle cx="483" cy="366" r="1.5"/>
+    <circle cx="491" cy="366" r="1.5"/>
+    <circle cx="499" cy="366" r="1.5"/>
+    <circle cx="483" cy="374" r="1.5"/>
+    <circle cx="491" cy="374" r="1.5"/>
+    <circle cx="499" cy="374" r="1.5"/>
+  </g>
+  <!-- 横杆撑开旗子 -->
+  <line x1="475" y1="350" x2="555" y2="350" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- 标注：宇航员 -->
+  <line x1="345" y1="410" x2="260" y2="400" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="170" y="382" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="220" y="401" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">宇航员</text>
+
+  <!-- 标注：国旗 -->
+  <line x1="515" y1="375" x2="560" y2="340" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="545" y="318" width="90" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="590" y="337" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">国旗</text>
+
+  <!-- 标注：环形山 -->
+  <line x1="120" y1="440" x2="80" y2="470" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="30" y="470" width="90" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="75" y="489" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">环形山</text>
+
+  <!-- 标注：脚印 -->
+  <line x1="300" y1="485" x2="250" y2="520" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="200" y="510" width="80" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="240" y="529" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">脚印</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="548" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="573" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">1969年7月20日，人类第一次踏上月球。黑色天穹下，灰色尘土上，脚印与国旗记录着这一大步。</text>
+</svg>

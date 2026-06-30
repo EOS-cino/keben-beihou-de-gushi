@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="爱迪生发明电灯的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">爱迪生试了多少次灯丝</text>
+  <line x1="200" y1="56" x2="600" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——"我没有失败，只是发现了一万种行不通的方法"</text>
+
+  <!-- 爱迪生 -->
+  <g transform="translate(150, 200)">
+    <circle cx="0" cy="0" r="18" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-14 -8 Q0 -20 14 -8" fill="#7a3b14"/>
+    <circle cx="-5" cy="0" r="2" fill="#7a3b14"/>
+    <circle cx="5" cy="0" r="2" fill="#7a3b14"/>
+    <path d="M-4 8 Q0 11 4 8" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <ellipse cx="0" cy="30" rx="20" ry="25" fill="#4a4a4a" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#7a3b14">爱迪生</text>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">试了上千种材料</text>
+  </g>
+
+  <!-- 试验材料堆 -->
+  <g transform="translate(380, 160)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">试过的材料</text>
+    <!-- 材料堆 -->
+    <g transform="translate(0, 30)">
+      <rect x="-60" y="0" width="25" height="15" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <text x="-47" y="11" text-anchor="middle" font-family="serif" font-size="7" fill="#fef9ed">棉线</text>
+      <rect x="-30" y="5" width="25" height="15" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+      <text x="-17" y="16" text-anchor="middle" font-family="serif" font-size="7" fill="#fef9ed">麻绳</text>
+      <rect x="0" y="0" width="25" height="15" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+      <text x="13" y="11" text-anchor="middle" font-family="serif" font-size="7" fill="#fef9ed">纸条</text>
+      <rect x="30" y="5" width="25" height="15" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <text x="43" y="16" text-anchor="middle" font-family="serif" font-size="7" fill="#fef9ed">胡子</text>
+      <rect x="-45" y="25" width="25" height="15" fill="#7a3b14" stroke="#7a3b14" stroke-width="1"/>
+      <text x="-32" y="36" text-anchor="middle" font-family="serif" font-size="7" fill="#fef9ed">铂丝</text>
+      <rect x="-15" y="25" width="25" height="15" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+      <text x="-2" y="36" text-anchor="middle" font-family="serif" font-size="7" fill="#fef9ed">木头</text>
+      <rect x="15" y="25" width="25" height="15" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+      <text x="28" y="36" text-anchor="middle" font-family="serif" font-size="7" fill="#fef9ed">竹丝</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">上千种……</text>
+    </g>
+  </g>
+
+  <!-- 成功的灯泡 -->
+  <g transform="translate(620, 200)">
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#2d6a4f">1879年成功</text>
+    <!-- 灯泡 -->
+    <ellipse cx="0" cy="10" rx="28" ry="35" fill="#fef9ed" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 灯丝（碳化棉线） -->
+    <path d="M-8 10 Q-4 0 0 10 Q4 20 8 10" fill="none" stroke="#e8a838" stroke-width="2.5"/>
+    <path d="M-6 12 Q-3 4 0 12 Q3 20 6 12" fill="none" stroke="#e07856" stroke-width="1.5"/>
+    <!-- 螺纹 -->
+    <rect x="-10" y="42" width="20" height="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="-10" y1="46" x2="10" y2="46" stroke="#7a3b14" stroke-width="0.5"/>
+    <line x1="-10" y1="49" x2="10" y2="49" stroke="#7a3b14" stroke-width="0.5"/>
+    <!-- 光芒 -->
+    <line x1="-38" y1="5" x2="-45" y2="0" stroke="#e8a838" stroke-width="2" opacity="0.8"/>
+    <line x1="38" y1="5" x2="45" y2="0" stroke="#e8a838" stroke-width="2" opacity="0.8"/>
+    <line x1="0" y1="-30" x2="0" y2="-38" stroke="#e8a838" stroke-width="2" opacity="0.8"/>
+    <line x1="-30" y1="-20" x2="-36" y2="-26" stroke="#e8a838" stroke-width="1.5" opacity="0.6"/>
+    <line x1="30" y1="-20" x2="36" y2="-26" stroke="#e8a838" stroke-width="1.5" opacity="0.6"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="10" fill="#2d6a4f">碳化棉线·亮了40小时</text>
+  </g>
+
+  <!-- 箭头连接 -->
+  <path d="M250 200 Q300 180 330 200" fill="none" stroke="#c84a3a" stroke-width="2" stroke-dasharray="4,3"/>
+  <path d="M470 200 Q520 180 560 200" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 400)">
+    <rect x="-320" y="0" width="640" height="150" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">发明不是灵光一闪，是无数次"试了不行，再换一种"</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">试了上千种材料 · 棉线、麻绳、纸条、木头、朋友的胡子……</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">最后找到碳化棉线 · 亮了40多小时 · 后来改用竹丝亮1200小时</text>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">"天才是百分之一的灵感，加百分之九十九的汗水。"</text>
+    <text x="0" y="132" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">如果他在第九百九十九次放弃，就永远不会有第一千次的成功</text>
+  </g>
+</svg>

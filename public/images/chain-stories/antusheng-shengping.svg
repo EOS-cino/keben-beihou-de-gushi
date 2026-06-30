@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="安徒生生平与童话创作插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：安徒生的童话世界</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 背景装饰：书本 -->
+  <rect x="40" y="470" width="720" height="90" fill="#f0e8d8" opacity="0.4"/>
+  <line x1="40" y1="470" x2="760" y2="470" stroke="#c8843a" stroke-width="1" opacity="0.5"/>
+
+  <!-- 左侧：安徒生人物 -->
+  <g transform="translate(180, 250)">
+    <!-- 身体 -->
+    <path d="M -30 140 Q -33 80 -28 45 Q -20 25 0 20 Q 20 25 28 45 Q 33 80 30 140" fill="#4a5a7a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 领结 -->
+    <path d="M -8 28 L -14 35 L -8 42 L -2 35 Z M 8 28 L 14 35 L 8 42 L 2 35 Z" fill="#7a3b14"/>
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="22" fill="#e8c4a0" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头发 -->
+    <path d="M -22 -5 Q -20 -22 0 -24 Q 20 -22 22 -5" fill="#6a4a2a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="-7" cy="-2" r="2" fill="#7a3b14"/>
+    <circle cx="7" cy="-2" r="2" fill="#7a3b14"/>
+    <!-- 鼻子 -->
+    <path d="M 0 0 L -2 8 L 2 8 Z" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 嘴 -->
+    <path d="M -5 13 Q 0 16 5 13" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手臂拿书 -->
+    <path d="M 28 45 Q 50 55 60 80" fill="none" stroke="#4a5a7a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="60" cy="82" r="6" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 安徒生手中的书 -->
+  <g transform="translate(240, 330)">
+    <rect x="0" y="0" width="50" height="38" fill="#d8a868" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="25" y1="0" x2="25" y2="38" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="8" y1="10" x2="20" y2="10" stroke="#7a3b14" stroke-width="0.8"/>
+    <line x1="8" y1="16" x2="20" y2="16" stroke="#7a3b14" stroke-width="0.8"/>
+    <line x1="30" y1="10" x2="42" y2="10" stroke="#7a3b14" stroke-width="0.8"/>
+    <line x1="30" y1="16" x2="42" y2="16" stroke="#7a3b14" stroke-width="0.8"/>
+  </g>
+
+  <!-- 右侧：童话角色群 -->
+  <!-- 丑小鸭变天鹅 -->
+  <g transform="translate(450, 200)">
+    <ellipse cx="0" cy="0" rx="20" ry="14" fill="#fff" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="18" cy="-8" r="10" fill="#fff" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M 26 -10 L 34 -8 L 26 -5 Z" fill="#f0a020" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="20" cy="-10" r="1.5" fill="#7a3b14"/>
+    <!-- 翅膀 -->
+    <path d="M -5 -5 Q -15 -15 -20 -5 Q -10 0 -5 -5" fill="#f0f0f0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 水波 -->
+    <path d="M -25 18 Q -15 15 -5 18 Q 5 15 15 18 Q 25 15 30 18" fill="none" stroke="#7a3b14" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- 卖火柴的小女孩 -->
+  <g transform="translate(580, 220)">
+    <!-- 身体 -->
+    <path d="M -15 80 Q -18 40 -12 20 Q -8 10 0 8 Q 8 10 12 20 Q 18 40 15 80" fill="#8a6a5a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-5" r="14" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头发 -->
+    <path d="M -14 -8 Q -12 -20 0 -22 Q 12 -20 14 -8" fill="#c8a060" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-5" cy="-5" r="1.5" fill="#7a3b14"/>
+    <circle cx="5" cy="-5" r="1.5" fill="#7a3b14"/>
+    <path d="M -4 3 Q 0 5 4 3" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 火柴与火焰 -->
+    <line x1="15" y1="30" x2="25" y2="20" stroke="#8a6a3a" stroke-width="2"/>
+    <path d="M 25 20 Q 23 10 27 5 Q 30 10 28 18 Q 26 15 25 20" fill="#f0a020" stroke="#c86020" stroke-width="1"/>
+  </g>
+
+  <!-- 豌豆花 -->
+  <g transform="translate(680, 250)">
+    <path d="M 0 30 Q -2 10 0 -10" fill="none" stroke="#5a8a3a" stroke-width="2"/>
+    <ellipse cx="-8" cy="5" rx="8" ry="5" fill="#6a9a4a" stroke="#4a7a2a" stroke-width="1" transform="rotate(-30 -8 5)"/>
+    <ellipse cx="-5" cy="-8" rx="5" ry="8" fill="#f0d8e8" stroke="#c878a8" stroke-width="1.5"/>
+    <ellipse cx="5" cy="-8" rx="5" ry="8" fill="#f0d8e8" stroke="#c878a8" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-14" rx="5" ry="7" fill="#fff0f8" stroke="#c878a8" stroke-width="1.5"/>
+    <circle cx="0" cy="-8" r="2.5" fill="#f4c842"/>
+  </g>
+
+  <!-- 底部书本上的文字 -->
+  <text x="400" y="510" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif" opacity="0.7">《丑小鸭》  《卖火柴的小女孩》  《皇帝的新装》  《海的女儿》  《一个豆荚里的五粒豆》</text>
+
+  <!-- 标注：安徒生 -->
+  <line x1="180" y1="225" x2="180" y2="160" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="120" y="135" width="120" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="180" y="155" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">安徒生</text>
+
+  <!-- 标注：丑小鸭变天鹅 -->
+  <line x1="450" y1="185" x2="430" y2="140" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="360" y="115" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="430" y="135" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">丑小鸭变天鹅</text>
+
+  <!-- 标注：卖火柴的小女孩 -->
+  <line x1="595" y1="200" x2="610" y2="150" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="555" y="125" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="625" y="145" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">卖火柴的小女孩</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">安徒生从贫苦中走来，用168篇童话温暖了全世界的孩子——万物有灵，平凡亦有光。</text>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="赵州桥和河流插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">赵州桥</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="220" fill="#e8f0e0"/>
+  <!-- 远山 -->
+  <path d="M0 300 L80 240 L160 280 L260 220 L360 270 L460 230 L560 275 L660 235 L760 270 L800 255 L800 320 L0 320 Z" fill="#c8d8b0" opacity="0.5"/>
+  <!-- 柳树（远处） -->
+  <line x1="100" y1="300" x2="100" y2="220" stroke="#6a4220" stroke-width="5"/>
+  <ellipse cx="100" cy="210" rx="25" ry="20" fill="#6a9a4a" opacity="0.6"/>
+  <path d="M90 220 Q85 250 80 280" fill="none" stroke="#5a8a3a" stroke-width="2" opacity="0.5"/>
+  <path d="M100 215 Q105 245 110 275" fill="none" stroke="#5a8a3a" stroke-width="2" opacity="0.5"/>
+  <path d="M110 220 Q115 250 120 280" fill="none" stroke="#5a8a3a" stroke-width="2" opacity="0.5"/>
+
+  <line x1="700" y1="300" x2="700" y2="220" stroke="#6a4220" stroke-width="5"/>
+  <ellipse cx="700" cy="210" rx="25" ry="20" fill="#6a9a4a" opacity="0.6"/>
+  <path d="M690 220 Q685 250 680 280" fill="none" stroke="#5a8a3a" stroke-width="2" opacity="0.5"/>
+  <path d="M700 215 Q705 245 710 275" fill="none" stroke="#5a8a3a" stroke-width="2" opacity="0.5"/>
+  <path d="M710 220 Q715 250 720 280" fill="none" stroke="#5a8a3a" stroke-width="2" opacity="0.5"/>
+
+  <!-- 河水 -->
+  <rect x="0" y="380" width="800" height="220" fill="#8ab8d0"/>
+  <!-- 水波纹 -->
+  <path d="M0 410 Q100 402 200 410 T400 410 T600 410 T800 410" fill="none" stroke="#6a9ec0" stroke-width="2"/>
+  <path d="M0 440 Q120 432 240 440 T480 440 T720 440 T800 440" fill="none" stroke="#6a9ec0" stroke-width="2"/>
+  <path d="M0 470 Q100 462 200 470 T400 470 T600 470 T800 470" fill="none" stroke="#6a9ec0" stroke-width="2"/>
+  <path d="M0 500 Q120 492 240 500 T480 500 T720 500 T800 500" fill="none" stroke="#6a9ec0" stroke-width="2"/>
+
+  <!-- 赵州桥主体 -->
+  <!-- 桥拱（大拱） -->
+  <path d="M120 380 Q120 220 400 220 Q680 220 680 380" fill="none" stroke="#8a6a3a" stroke-width="0"/>
+  <!-- 桥身填充 -->
+  <path d="M100 380 L100 360 Q100 200 400 200 Q700 200 700 360 L700 380 Z" fill="#d4b888" stroke="#8a6a3a" stroke-width="3"/>
+  <!-- 桥拱内部（镂空） -->
+  <path d="M150 380 Q150 240 400 240 Q650 240 650 380 Z" fill="#8ab8d0"/>
+  <!-- 拱顶石 -->
+  <path d="M385 220 Q400 215 415 220 L415 240 Q400 235 385 240 Z" fill="#b89868" stroke="#8a6a3a" stroke-width="2"/>
+
+  <!-- 小拱（左侧） -->
+  <ellipse cx="220" cy="380" rx="45" ry="35" fill="#8ab8d0"/>
+  <path d="M175 380 Q175 350 220 345 Q265 350 265 380" fill="none" stroke="#8a6a3a" stroke-width="3"/>
+  <path d="M180 380 L180 365 Q180 348 220 348 Q260 348 260 365 L260 380" fill="#d4b888" stroke="#8a6a3a" stroke-width="2"/>
+
+  <!-- 小拱（右侧） -->
+  <ellipse cx="580" cy="380" rx="45" ry="35" fill="#8ab8d0"/>
+  <path d="M535 380 Q535 350 580 345 Q625 350 625 380" fill="none" stroke="#8a6a3a" stroke-width="3"/>
+  <path d="M540 380 L540 365 Q540 348 580 348 Q620 348 620 365 L620 380" fill="#d4b888" stroke="#8a6a3a" stroke-width="2"/>
+
+  <!-- 桥面 -->
+  <path d="M100 360 Q100 200 400 200 Q700 200 700 360" fill="none" stroke="#8a6a3a" stroke-width="4"/>
+  <!-- 桥面石板 -->
+  <path d="M105 355 Q105 205 400 205 Q695 205 695 355" fill="none" stroke="#b89868" stroke-width="2"/>
+
+  <!-- 桥栏板 -->
+  <g stroke="#8a6a3a" stroke-width="2.5" fill="none">
+    <!-- 左侧栏板 -->
+    <rect x="110" y="345" width="50" height="15" fill="#c8a878"/>
+    <rect x="170" y="325" width="50" height="15" fill="#c8a878"/>
+    <rect x="230" y="295" width="50" height="15" fill="#c8a878"/>
+    <rect x="290" y="260" width="50" height="15" fill="#c8a878"/>
+    <rect x="350" y="230" width="50" height="15" fill="#c8a878"/>
+    <!-- 右侧栏板 -->
+    <rect x="400" y="230" width="50" height="15" fill="#c8a878"/>
+    <rect x="460" y="260" width="50" height="15" fill="#c8a878"/>
+    <rect x="520" y="295" width="50" height="15" fill="#c8a878"/>
+    <rect x="580" y="325" width="50" height="15" fill="#c8a878"/>
+    <rect x="640" y="345" width="50" height="15" fill="#c8a878"/>
+  </g>
+  <!-- 栏板间柱子 -->
+  <g fill="#8a6a3a">
+    <rect x="158" y="340" width="6" height="20"/>
+    <rect x="218" y="320" width="6" height="20"/>
+    <rect x="278" y="290" width="6" height="20"/>
+    <rect x="338" y="255" width="6" height="20"/>
+    <rect x="398" y="225" width="6" height="20"/>
+    <rect x="448" y="255" width="6" height="20"/>
+    <rect x="508" y="290" width="6" height="20"/>
+    <rect x="568" y="320" width="6" height="20"/>
+    <rect x="628" y="340" width="6" height="20"/>
+  </g>
+
+  <!-- 桥上人物 -->
+  <circle cx="400" cy="195" r="8" fill="#f0d0a8"/>
+  <path d="M394 195 Q400 188 406 195 L406 191 Q400 185 394 191 Z" fill="#2a2a2a"/>
+  <path d="M393 203 L396 220 L404 220 L407 203 Z" fill="#c84030"/>
+
+  <!-- 倒影 -->
+  <path d="M100 380 Q100 460 400 460 Q700 460 700 380" fill="none" stroke="#b89868" stroke-width="2" opacity="0.3"/>
+  <ellipse cx="220" cy="415" rx="45" ry="20" fill="none" stroke="#b89868" stroke-width="1.5" opacity="0.3"/>
+  <ellipse cx="580" cy="415" rx="45" ry="20" fill="none" stroke="#b89868" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- 大拱标注 -->
+  <line x1="400" y1="320" x2="400" y2="280" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="345" y="255" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="273" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">主拱券</text>
+
+  <!-- 小拱标注 -->
+  <line x1="220" y1="345" x2="220" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="170" y="285" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="220" y="303" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">小拱（泄洪）</text>
+
+  <line x1="580" y1="345" x2="580" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="530" y="285" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="580" y="303" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">小拱（泄洪）</text>
+
+  <!-- 栏杆标注 -->
+  <line x1="135" y1="345" x2="135" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="90" y="385" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="135" y="403" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">石栏板</text>
+
+  <!-- 河水标注 -->
+  <line x1="400" y1="500" x2="400" y2="530" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="535" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">洨河</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">赵州桥又名安济桥，隋代李春设计，单孔石拱，两端各设小拱，历经千年</text>
+</svg>

@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="科学实验插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">实践出真知</text>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#6b6557" font-family="sans-serif">从"小马过河"到科学实验——亲自试了才知道</text>
+
+  <!-- 左侧：小马过河的道理 -->
+  <g transform="translate(0,90)">
+    <rect x="40" y="0" width="340" height="220" rx="10" fill="#f0f7f4" stroke="#5a9d3e" stroke-width="2"/>
+    <text x="210" y="28" text-anchor="middle" font-size="16" fill="#3a6b28" font-family="sans-serif" font-weight="bold">小马过河的道理</text>
+
+    <!-- 三种视角 -->
+    <g transform="translate(80,80)">
+      <text x="0" y="-15" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">老牛视角</text>
+      <!-- 老牛（高大） -->
+      <ellipse cx="0" cy="20" rx="25" ry="15" fill="#a08560"/>
+      <ellipse cx="-18" cy="12" rx="10" ry="8" fill="#a08560"/>
+      <rect x="-12" y="32" width="5" height="18" fill="#8d6a4a"/>
+      <rect x="8" y="32" width="5" height="18" fill="#8d6a4a"/>
+      <!-- 水位线（低） -->
+      <line x1="-30" y1="42" x2="30" y2="42" stroke="#4a7ab8" stroke-width="2"/>
+      <text x="0" y="62" text-anchor="middle" font-size="10" fill="#3a6b28" font-family="sans-serif">"水很浅"</text>
+    </g>
+
+    <g transform="translate(210,80)">
+      <text x="0" y="-15" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">松鼠视角</text>
+      <!-- 松鼠（矮小） -->
+      <ellipse cx="0" cy="35" rx="10" ry="8" fill="#c46a2a"/>
+      <circle cx="8" cy="28" r="6" fill="#d47a3a"/>
+      <path d="M-5 30 Q-15 25 -18 40" fill="#c46a2a"/>
+      <!-- 水位线（高，淹没松鼠） -->
+      <line x1="-25" y1="30" x2="25" y2="30" stroke="#4a7ab8" stroke-width="2"/>
+      <rect x="-25" y="30" width="50" height="15" fill="#7ec0db" opacity="0.5"/>
+      <text x="0" y="62" text-anchor="middle" font-size="10" fill="#c84a3a" font-family="sans-serif">"水很深！"</text>
+    </g>
+
+    <g transform="translate(320,80)">
+      <text x="0" y="-15" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">小马视角</text>
+      <!-- 小马（中等） -->
+      <ellipse cx="0" cy="25" rx="18" ry="12" fill="#c8855a"/>
+      <ellipse cx="-12" cy="18" rx="8" ry="6" fill="#c8855a"/>
+      <rect x="-8" y="35" width="4" height="15" fill="#b8704a"/>
+      <rect x="6" y="35" width="4" height="15" fill="#b8704a"/>
+      <!-- 水位线（中等） -->
+      <line x1="-22" y1="38" x2="22" y2="38" stroke="#4a7ab8" stroke-width="2"/>
+      <text x="0" y="62" text-anchor="middle" font-size="10" fill="#2d5a8a" font-family="sans-serif">"刚刚好"</text>
+    </g>
+
+    <text x="210" y="180" text-anchor="middle" font-size="12" fill="#6b6557" font-family="sans-serif">同样一条河，不同的人感受不同</text>
+    <text x="210" y="200" text-anchor="middle" font-size="12" fill="#6b6557" font-family="sans-serif">→ 必须亲自试一试</text>
+  </g>
+
+  <!-- 右侧：科学实验精神 -->
+  <g transform="translate(420,90)">
+    <rect x="0" y="0" width="340" height="220" rx="10" fill="#e8f0ff" stroke="#4a7ab8" stroke-width="2"/>
+    <text x="170" y="28" text-anchor="middle" font-size="16" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">科学实验精神</text>
+
+    <!-- 伽利略比萨斜塔实验 -->
+    <g transform="translate(80,90)">
+      <!-- 比萨斜塔（简化） -->
+      <rect x="-15" y="0" width="30" height="60" rx="3" fill="#d4c4a8" transform="rotate(-5 0 30)"/>
+      <rect x="-12" y="10" width="24" height="8" fill="#c4a888" transform="rotate(-5 0 14)"/>
+      <rect x="-12" y="25" width="24" height="8" fill="#c4a888" transform="rotate(-5 0 29)"/>
+      <rect x="-12" y="40" width="24" height="8" fill="#c4a888" transform="rotate(-5 0 44)"/>
+      <!-- 两个球同时落下 -->
+      <circle cx="20" cy="20" r="6" fill="#5a5a5a"/>
+      <circle cx="35" cy="20" r="4" fill="#8d8d8d"/>
+      <!-- 虚线轨迹 -->
+      <line x1="20" y1="26" x2="20" y2="60" stroke="#5a5a5a" stroke-width="1" stroke-dasharray="2,2"/>
+      <line x1="35" y1="24" x2="35" y2="60" stroke="#8d8d8d" stroke-width="1" stroke-dasharray="2,2"/>
+      <text x="27" y="75" text-anchor="middle" font-size="9" fill="#6b6557" font-family="sans-serif">同时落地</text>
+    </g>
+
+    <g transform="translate(250,90)">
+      <!-- 实验器材（烧杯+试管） -->
+      <path d="M-15 10 L-15 50 Q-15 55 -10 55 L10 55 Q15 55 15 50 L15 10 Z" fill="none" stroke="#4a7ab8" stroke-width="2"/>
+      <rect x="-13" y="30" width="26" height="24" fill="#7ec0db" opacity="0.4"/>
+      <!-- 气泡 -->
+      <circle cx="-5" cy="45" r="2" fill="#ffffff" opacity="0.6"/>
+      <circle cx="3" cy="40" r="1.5" fill="#ffffff" opacity="0.6"/>
+      <!-- 试管 -->
+      <rect x="-3" y="-10" width="6" height="25" rx="3" fill="none" stroke="#4a7ab8" stroke-width="1.5"/>
+      <rect x="-2" y="5" width="4" height="8" fill="#e36f5b" opacity="0.5"/>
+      <text x="0" y="75" text-anchor="middle" font-size="9" fill="#6b6557" font-family="sans-serif">实验验证</text>
+    </g>
+
+    <text x="170" y="180" text-anchor="middle" font-size="12" fill="#6b6557" font-family="sans-serif">伽利略：不盲从权威</text>
+    <text x="170" y="200" text-anchor="middle" font-size="12" fill="#6b6557" font-family="sans-serif">→ 用实验检验真理</text>
+  </g>
+
+  <!-- 底部：科学方法步骤 -->
+  <g transform="translate(0,350)">
+    <text x="400" y="20" text-anchor="middle" font-size="16" fill="#2d2a24" font-family="sans-serif" font-weight="bold">科学方法：像小马一样"亲自试一试"</text>
+
+    <!-- 步骤流程 -->
+    <g transform="translate(100,60)">
+      <rect x="-50" y="0" width="100" height="60" rx="8" fill="#e8f5e8" stroke="#5a9d3e" stroke-width="1.5"/>
+      <text x="0" y="22" text-anchor="middle" font-size="12" fill="#3a6b28" font-family="sans-serif" font-weight="bold">提出问题</text>
+      <text x="0" y="42" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">水有多深？</text>
+    </g>
+    <path d="M155 90 L215 90" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr5)"/>
+
+    <g transform="translate(270,60)">
+      <rect x="-50" y="0" width="100" height="60" rx="8" fill="#fff4e0" stroke="#e8a040" stroke-width="1.5"/>
+      <text x="0" y="22" text-anchor="middle" font-size="12" fill="#8d6a3d" font-family="sans-serif" font-weight="bold">收集信息</text>
+      <text x="0" y="42" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">问老牛和松鼠</text>
+    </g>
+    <path d="M325 90 L385 90" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr5)"/>
+
+    <g transform="translate(440,60)">
+      <rect x="-50" y="0" width="100" height="60" rx="8" fill="#e8f0ff" stroke="#4a7ab8" stroke-width="1.5"/>
+      <text x="0" y="22" text-anchor="middle" font-size="12" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">亲自实验</text>
+      <text x="0" y="42" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">下水试一试</text>
+    </g>
+    <path d="M495 90 L555 90" stroke="#8d6a3d" stroke-width="2.5" fill="none" marker-end="url(#arr5)"/>
+
+    <g transform="translate(610,60)">
+      <rect x="-50" y="0" width="100" height="60" rx="8" fill="#fff0e8" stroke="#e36f5b" stroke-width="1.5"/>
+      <text x="0" y="22" text-anchor="middle" font-size="12" fill="#c84a3a" font-family="sans-serif" font-weight="bold">得出结论</text>
+      <text x="0" y="42" text-anchor="middle" font-size="10" fill="#6b6557" font-family="sans-serif">水刚好到肚子</text>
+    </g>
+  </g>
+
+  <!-- 底部 -->
+  <text x="400" y="530" text-anchor="middle" font-size="14" fill="#2d2a24" font-family="sans-serif" font-weight="bold">"光听别人说，自己不动脑筋、不去试试，是不行的。"</text>
+  <text x="400" y="555" text-anchor="middle" font-size="12" fill="#6b6557" font-family="sans-serif">—— 小马妈妈</text>
+
+  <defs>
+    <marker id="arr5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#8d6a3d"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="袁隆平在稻田的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">袁隆平的科学育种</text>
+  <text x="400" y="68" text-anchor="middle" font-size="14" fill="#6b6557" font-family="sans-serif">遵循规律，几十年如一日——杂交水稻之父</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="180" fill="#d6ecf7"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="130" r="28" fill="#f4b942"/>
+  <circle cx="680" cy="130" r="36" fill="#f4b942" opacity="0.25"/>
+  <!-- 云朵 -->
+  <ellipse cx="130" cy="120" rx="40" ry="15" fill="#ffffff" opacity="0.85"/>
+
+  <!-- 远山 -->
+  <path d="M0 260 L150 200 L300 240 L450 190 L600 230 L800 210 L800 260 Z" fill="#8aaa8a" opacity="0.5"/>
+
+  <!-- 稻田 -->
+  <path d="M0 260 L800 260 L800 600 L0 600 Z" fill="#d4b848"/>
+  <path d="M0 270 Q200 265 400 270 Q600 275 800 268 L800 600 L0 600 Z" fill="#c4a838"/>
+  <!-- 稻田水 -->
+  <rect x="0" y="260" width="800" height="15" fill="#7ec0db" opacity="0.4"/>
+
+  <!-- 稻穗（满田金黄） -->
+  <g fill="#e8a040">
+    <g transform="translate(50,290)">
+      <path d="M0 0 L0 -30" stroke="#a88828" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-28" rx="2" ry="5"/>
+      <ellipse cx="3" cy="-30" rx="2" ry="5"/>
+      <ellipse cx="0" cy="-35" rx="2" ry="5"/>
+    </g>
+    <g transform="translate(100,290)">
+      <path d="M0 0 L0 -30" stroke="#a88828" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-28" rx="2" ry="5"/>
+      <ellipse cx="3" cy="-30" rx="2" ry="5"/>
+      <ellipse cx="0" cy="-35" rx="2" ry="5"/>
+    </g>
+    <g transform="translate(150,290)">
+      <path d="M0 0 L0 -30" stroke="#a88828" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-28" rx="2" ry="5"/>
+      <ellipse cx="3" cy="-30" rx="2" ry="5"/>
+      <ellipse cx="0" cy="-35" rx="2" ry="5"/>
+    </g>
+    <g transform="translate(550,290)">
+      <path d="M0 0 L0 -30" stroke="#a88828" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-28" rx="2" ry="5"/>
+      <ellipse cx="3" cy="-30" rx="2" ry="5"/>
+      <ellipse cx="0" cy="-35" rx="2" ry="5"/>
+    </g>
+    <g transform="translate(600,290)">
+      <path d="M0 0 L0 -30" stroke="#a88828" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-28" rx="2" ry="5"/>
+      <ellipse cx="3" cy="-30" rx="2" ry="5"/>
+      <ellipse cx="0" cy="-35" rx="2" ry="5"/>
+    </g>
+    <g transform="translate(650,290)">
+      <path d="M0 0 L0 -30" stroke="#a88828" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-28" rx="2" ry="5"/>
+      <ellipse cx="3" cy="-30" rx="2" ry="5"/>
+      <ellipse cx="0" cy="-35" rx="2" ry="5"/>
+    </g>
+    <g transform="translate(700,290)">
+      <path d="M0 0 L0 -30" stroke="#a88828" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-28" rx="2" ry="5"/>
+      <ellipse cx="3" cy="-30" rx="2" ry="5"/>
+      <ellipse cx="0" cy="-35" rx="2" ry="5"/>
+    </g>
+    <g transform="translate(750,290)">
+      <path d="M0 0 L0 -30" stroke="#a88828" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-28" rx="2" ry="5"/>
+      <ellipse cx="3" cy="-30" rx="2" ry="5"/>
+      <ellipse cx="0" cy="-35" rx="2" ry="5"/>
+    </g>
+  </g>
+
+  <!-- 袁隆平（在稻田中观察） -->
+  <g transform="translate(350,220)">
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="16" fill="#f4c8a0"/>
+    <!-- 头发（花白） -->
+    <path d="M-16 -5 Q-14 -18 0 -16 Q14 -18 16 -5 Q14 -14 0 -12 Q-14 -14 -16 -5" fill="#a8a8a8"/>
+    <!-- 眼镜 -->
+    <circle cx="-6" cy="-1" r="5" fill="none" stroke="#4a4a4a" stroke-width="1.5"/>
+    <circle cx="6" cy="-1" r="5" fill="none" stroke="#4a4a4a" stroke-width="1.5"/>
+    <line x1="-1" y1="-1" x2="1" y2="-1" stroke="#4a4a4a" stroke-width="1.5"/>
+    <circle cx="-6" cy="-1" r="1.5" fill="#1a1a1a"/>
+    <circle cx="6" cy="-1" r="1.5" fill="#1a1a1a"/>
+    <!-- 嘴（微笑） -->
+    <path d="M-4 7 Q0 10 4 7" fill="none" stroke="#8d5a3d" stroke-width="1.5"/>
+    <!-- 身体（衬衫） -->
+    <path d="M-18 14 L-24 60 L24 60 L18 14 Z" fill="#4a6a8a"/>
+    <!-- 领子 -->
+    <path d="M-8 14 L0 22 L8 14" fill="#3a5a7a"/>
+    <!-- 手臂（弯腰观察稻穗） -->
+    <path d="M18 20 Q30 35 35 50" fill="none" stroke="#4a6a8a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-18 20 Q-25 35 -20 50" fill="none" stroke="#4a6a8a" stroke-width="6" stroke-linecap="round"/>
+    <!-- 裤子 -->
+    <path d="M-24 60 L-26 100 L-8 100 L-6 60 Z" fill="#5a5a4a"/>
+    <path d="M6 60 L8 100 L26 100 L24 60 Z" fill="#5a5a4a"/>
+    <!-- 草帽（拿在身后或戴头上已有头发，这里加一顶在旁边） -->
+  </g>
+  <text x="350" y="340" text-anchor="middle" font-size="12" fill="#2d5a8a" font-family="sans-serif" font-weight="bold">袁隆平</text>
+
+  <!-- 手持稻穗特写 -->
+  <g transform="translate(390,280)">
+    <!-- 稻穗 -->
+    <path d="M0 0 L0 -40" stroke="#a88828" stroke-width="2"/>
+    <ellipse cx="-4" cy="-35" rx="3" ry="7" fill="#e8a040"/>
+    <ellipse cx="4" cy="-38" rx="3" ry="7" fill="#e8a040"/>
+    <ellipse cx="-3" cy="-25" rx="3" ry="7" fill="#e8a040"/>
+    <ellipse cx="3" cy="-28" rx="3" ry="7" fill="#e8a040"/>
+    <ellipse cx="0" cy="-45" rx="3" ry="7" fill="#e8a040"/>
+    <!-- 弯曲的稻穗（饱满沉重） -->
+    <path d="M0 -40 Q5 -45 10 -42" fill="none" stroke="#a88828" stroke-width="1.5"/>
+  </g>
+
+  <!-- 对比标注：揠苗助长 vs 科学育种 -->
+  <g transform="translate(0,400)">
+    <!-- 左：揠苗助长 -->
+    <rect x="60" y="0" width="300" height="80" rx="8" fill="#fff0e8" stroke="#e36f5b" stroke-width="1.5"/>
+    <text x="210" y="22" text-anchor="middle" font-size="13" fill="#c84a3a" font-family="sans-serif" font-weight="bold">揠苗助长（反面）</text>
+    <text x="210" y="42" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">急于求成 → 拔苗 → 禾苗枯死</text>
+    <text x="210" y="60" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">不尊重规律，好心办坏事</text>
+
+    <!-- 右：科学育种 -->
+    <rect x="440" y="0" width="300" height="80" rx="8" fill="#e8f5e8" stroke="#5a9d3e" stroke-width="1.5"/>
+    <text x="590" y="22" text-anchor="middle" font-size="13" fill="#3a6b28" font-family="sans-serif" font-weight="bold">科学育种（正面）</text>
+    <text x="590" y="42" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">遵循规律 → 杂交选育 → 产量大增</text>
+    <text x="590" y="60" text-anchor="middle" font-size="11" fill="#6b6557" font-family="sans-serif">几十年坚持，用科学方法解决问题</text>
+  </g>
+
+  <!-- 底部 -->
+  <text x="400" y="530" text-anchor="middle" font-size="14" fill="#2d2a24" font-family="sans-serif" font-weight="bold">杂交水稻：用7%的耕地养活22%的人口</text>
+
+  <!-- 稻穗装饰 -->
+  <g transform="translate(100,520)" fill="#e8a040" opacity="0.6">
+    <path d="M0 0 L0 -25" stroke="#a88828" stroke-width="1.5"/>
+    <ellipse cx="-3" cy="-22" rx="2" ry="5"/>
+    <ellipse cx="3" cy="-24" rx="2" ry="5"/>
+    <ellipse cx="0" cy="-28" rx="2" ry="5"/>
+  </g>
+  <g transform="translate(700,520)" fill="#e8a040" opacity="0.6">
+    <path d="M0 0 L0 -25" stroke="#a88828" stroke-width="1.5"/>
+    <ellipse cx="-3" cy="-22" rx="2" ry="5"/>
+    <ellipse cx="3" cy="-24" rx="2" ry="5"/>
+    <ellipse cx="0" cy="-28" rx="2" ry="5"/>
+  </g>
+</svg>

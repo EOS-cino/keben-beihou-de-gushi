@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一个陶罐和一个铁罐并排放在国王的橱柜里">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 橱柜背景 -->
+  <rect x="80" y="60" width="640" height="440" fill="#f3ece0" stroke="#7a3b14" stroke-width="5"/>
+  <rect x="100" y="80" width="600" height="400" fill="#e8d9c0"/>
+  <!-- 橱柜隔板 -->
+  <rect x="100" y="300" width="600" height="12" fill="#8d5a36"/>
+  <!-- 橱柜门框装饰 -->
+  <rect x="80" y="60" width="640" height="440" fill="none" stroke="#8d5a36" stroke-width="3"/>
+  <!-- 陶罐 -->
+  <ellipse cx="280" cy="470" rx="90" ry="14" fill="#8d5a36" opacity="0.25"/>
+  <path d="M220 320 Q210 360 215 410 Q220 460 280 465 Q340 460 345 410 Q350 360 340 320 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="3"/>
+  <ellipse cx="280" cy="320" rx="60" ry="14" fill="#e8c9a0" stroke="#7a3b14" stroke-width="3"/>
+  <ellipse cx="280" cy="320" rx="48" ry="9" fill="#8d5a36"/>
+  <!-- 陶罐花纹 -->
+  <path d="M235 360 q45 12 90 0" stroke="#7a3b14" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M230 400 q50 14 100 0" stroke="#7a3b14" stroke-width="2" fill="none" opacity="0.6"/>
+  <circle cx="280" cy="430" r="4" fill="#7a3b14" opacity="0.5"/>
+  <!-- 铁罐 -->
+  <ellipse cx="520" cy="470" rx="90" ry="14" fill="#8d5a36" opacity="0.25"/>
+  <path d="M460 330 Q455 360 458 410 Q462 455 520 460 Q578 455 582 410 Q585 360 580 330 Z" fill="#6a6a6a" stroke="#3a3a3a" stroke-width="3"/>
+  <ellipse cx="520" cy="330" rx="60" ry="13" fill="#9a9a9a" stroke="#3a3a3a" stroke-width="3"/>
+  <ellipse cx="520" cy="330" rx="48" ry="8" fill="#4a4a4a"/>
+  <!-- 铁罐锈迹 -->
+  <ellipse cx="490" cy="390" rx="14" ry="10" fill="#c84a3a" opacity="0.5"/>
+  <ellipse cx="545" cy="420" rx="10" ry="8" fill="#c8843a" opacity="0.5"/>
+  <ellipse cx="510" cy="440" rx="8" ry="6" fill="#c84a3a" opacity="0.4"/>
+  <!-- 铁罐反光 -->
+  <path d="M470 350 q-6 30 -4 60" stroke="#cccccc" stroke-width="3" fill="none" opacity="0.5"/>
+  <!-- 对话气泡：铁罐傲慢 -->
+  <ellipse cx="600" cy="180" rx="70" ry="34" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M560 205 l-20 25 l35 -12 Z" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <text x="600" y="178" text-anchor="middle" font-family="serif" font-size="16" fill="#c84a3a">你敢碰我吗？</text>
+  <text x="600" y="198" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">铁罐</text>
+  <!-- 对话气泡：陶罐谦虚 -->
+  <ellipse cx="200" cy="180" rx="70" ry="34" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M240 205 l20 25 l-35 -12 Z" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <text x="200" y="178" text-anchor="middle" font-family="serif" font-size="16" fill="#6a8d3f">和睦相处吧</text>
+  <text x="200" y="198" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">陶罐</text>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">陶罐和铁罐</text>
+</svg>

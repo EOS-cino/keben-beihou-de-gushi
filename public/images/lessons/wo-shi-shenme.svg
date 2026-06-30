@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="水变成云、雨、雪、冰的各种形态插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">我是什么</text>
+  <line x1="320" y1="56" x2="480" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空背景 -->
+  <rect x="0" y="80" width="800" height="280" fill="#d6ecf7" opacity="0.5"/>
+  <!-- 太阳 -->
+  <circle cx="700" cy="130" r="26" fill="#f4b942"/>
+  <circle cx="700" cy="130" r="36" fill="#f4b942" opacity="0.25"/>
+
+  <!-- 池塘（液态水） -->
+  <ellipse cx="120" cy="200" rx="70" ry="30" fill="#7ab8d8" opacity="0.7"/>
+  <ellipse cx="120" cy="195" rx="64" ry="24" fill="#a8d0e8"/>
+  <text x="120" y="200" text-anchor="middle" font-family="serif" font-size="13" fill="#3a6a8a">液态·水</text>
+
+  <!-- 蒸发箭头 -->
+  <path d="M120 165 Q140 130 170 110" fill="none" stroke="#7ab8d8" stroke-width="2.5" stroke-dasharray="5,3" marker-end="url(#arrW1)"/>
+  <text x="150" y="135" font-family="serif" font-size="11" fill="#5a8aaa">蒸发</text>
+
+  <!-- 云（气态） -->
+  <g transform="translate(300,140)">
+    <ellipse cx="0" cy="0" rx="50" ry="22" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="-25" cy="-8" rx="28" ry="18" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="25" cy="-6" rx="30" ry="18" fill="#ffffff" opacity="0.9"/>
+    <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="12" fill="#6b8aaa">气态·云</text>
+  </g>
+
+  <!-- 降雨箭头 -->
+  <path d="M300 175 Q310 220 320 260" fill="none" stroke="#7ab8d8" stroke-width="2.5" stroke-dasharray="5,3" marker-end="url(#arrW1)"/>
+  <g stroke="#7ab8d8" stroke-width="2" stroke-linecap="round">
+    <line x1="280" y1="200" x2="276" y2="215"/>
+    <line x1="295" y1="205" x2="291" y2="220"/>
+    <line x1="310" y1="200" x2="306" y2="215"/>
+    <line x1="325" y1="205" x2="321" y2="220"/>
+  </g>
+  <text x="345" y="225" font-family="serif" font-size="11" fill="#5a8aaa">降雨</text>
+
+  <!-- 雨 -->
+  <g transform="translate(330,290)">
+    <ellipse cx="0" cy="0" rx="45" ry="25" fill="#7ab8d8" opacity="0.5"/>
+    <g fill="#5a9dc8">
+      <ellipse cx="-20" cy="-5" rx="4" ry="8"/>
+      <ellipse cx="0" cy="0" rx="4" ry="8"/>
+      <ellipse cx="20" cy="-5" rx="4" ry="8"/>
+    </g>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="12" fill="#3a6a8a">雨</text>
+  </g>
+
+  <!-- 雪 -->
+  <g transform="translate(500,290)">
+    <g fill="#ffffff" stroke="#b0d0e8" stroke-width="1">
+      <circle cx="-15" cy="-5" r="6"/>
+      <circle cx="0" cy="5" r="6"/>
+      <circle cx="15" cy="-5" r="6"/>
+    </g>
+    <g stroke="#b0d0e8" stroke-width="1.5">
+      <line x1="-15" y1="-12" x2="-15" y2="2"/>
+      <line x1="-21" y1="-5" x2="-9" y2="-5"/>
+      <line x1="0" y1="-2" x2="0" y2="12"/>
+      <line x1="-6" y1="5" x2="6" y2="5"/>
+      <line x1="15" y1="-12" x2="15" y2="2"/>
+      <line x1="9" y1="-5" x2="21" y2="-5"/>
+    </g>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="12" fill="#5a8aaa">雪</text>
+  </g>
+
+  <!-- 冰（固态） -->
+  <g transform="translate(650,290)">
+    <rect x="-35" y="-18" width="70" height="36" fill="#c8e0f0" stroke="#7ab8d8" stroke-width="2" rx="4"/>
+    <line x1="-35" y1="-5" x2="35" y2="-5" stroke="#a8d0e8" stroke-width="1"/>
+    <line x1="-20" y1="-18" x2="-20" y2="18" stroke="#a8d0e8" stroke-width="1"/>
+    <line x1="10" y1="-18" x2="10" y2="18" stroke="#a8d0e8" stroke-width="1"/>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="12" fill="#3a6a8a">固态·冰</text>
+  </g>
+
+  <!-- 分隔线 -->
+  <line x1="60" y1="370" x2="740" y2="370" stroke="#c8843a" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- 下方：水的活动 -->
+  <text x="400" y="400" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">水的日常活动</text>
+
+  <!-- 池子睡觉 -->
+  <g transform="translate(140,470)">
+    <ellipse cx="0" cy="20" rx="55" ry="20" fill="#a8d0e8"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">池子里睡觉</text>
+  </g>
+  <!-- 小溪散步 -->
+  <g transform="translate(330,470)">
+    <path d="M-50 20 Q-25 5 0 20 Q25 35 50 20" fill="none" stroke="#7ab8d8" stroke-width="6" stroke-linecap="round"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">小溪里散步</text>
+  </g>
+  <!-- 江河奔跑 -->
+  <g transform="translate(520,470)">
+    <path d="M-45 25 L45 15" fill="none" stroke="#5a9dc8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-35 10 L40 0" fill="none" stroke="#7ab8d8" stroke-width="4" stroke-linecap="round"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">江河里奔跑</text>
+  </g>
+  <!-- 海洋跳舞 -->
+  <g transform="translate(680,470)">
+    <path d="M-40 20 Q-30 5 -20 20 Q-10 35 0 20 Q10 5 20 20 Q30 35 40 20" fill="none" stroke="#5a9dc8" stroke-width="5"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">海洋里跳舞</text>
+  </g>
+
+  <defs>
+    <marker id="arrW1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7ab8d8"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">我会变：汽、云、雨、雪、冰——我就是水</text>
+</svg>

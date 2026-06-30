@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="鲁迅梦境中美丽水乡与昏暗现实对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">好的故事</text>
+  <line x1="360" y1="56" x2="440" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 上半：昏暗现实 -->
+  <g transform="translate(400, 160)">
+    <rect x="-350" y="0" width="700" height="120" fill="#2a2a2a" opacity="0.12" rx="8"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a4a3a">现实·昏沉的夜</text>
+    <!-- 桌子 -->
+    <rect x="-80" y="80" width="160" height="8" fill="#5a4a2a" opacity="0.6"/>
+    <!-- 煤油灯 -->
+    <g transform="translate(0, 50)">
+      <rect x="-6" y="20" width="12" height="15" fill="#5a4a2a" opacity="0.7"/>
+      <ellipse cx="0" cy="20" rx="8" ry="3" fill="#5a4a2a" opacity="0.7"/>
+      <!-- 灯罩 -->
+      <path d="M -5 20 L -4 5 L 4 5 L 5 20 Z" fill="#e8e8d0" opacity="0.4" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 火焰 -->
+      <ellipse cx="0" cy="8" rx="2" ry="5" fill="#e8a838" opacity="0.7"/>
+      <!-- 光晕 -->
+      <circle cx="0" cy="10" r="25" fill="#e8a838" opacity="0.08"/>
+    </g>
+    <!-- 书 -->
+    <rect x="-30" y="72" width="40" height="8" fill="#8d5a36" opacity="0.5"/>
+    <!-- 烟 -->
+    <path d="M 10 55 Q 15 40 10 25 Q 5 10 15 0" fill="none" stroke="#c8c8c8" stroke-width="1.5" opacity="0.3"/>
+    <!-- 窗（黑） -->
+    <rect x="-200" y="35" width="60" height="50" fill="#1a1a2a" opacity="0.3" stroke="#5a4a3a" stroke-width="1.5"/>
+    <rect x="140" y="35" width="60" height="50" fill="#1a1a2a" opacity="0.3" stroke="#5a4a3a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 中间箭头 -->
+  <g transform="translate(400, 300)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">朦胧入梦</text>
+    <path d="M -15 10 L 0 25 L 15 10" fill="none" stroke="#c8843a" stroke-width="2"/>
+  </g>
+
+  <!-- 下半：美好梦境 -->
+  <g transform="translate(400, 420)">
+    <rect x="-350" y="-50" width="700" height="130" fill="#e8f5e8" opacity="0.3" rx="8"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#2d6a4f">梦境·好的故事</text>
+    <!-- 河水 -->
+    <rect x="-300" y="10" width="600" height="50" fill="#4a90b8" opacity="0.15" rx="4"/>
+    <!-- 水中倒影（花） -->
+    <g transform="translate(-200, 0)">
+      <circle cx="0" cy="-5" r="6" fill="#e07856" opacity="0.7"/>
+      <circle cx="0" cy="-5" r="3" fill="#e8a838"/>
+      <ellipse cx="0" cy="20" rx="5" ry="8" fill="#e07856" opacity="0.3"/>
+    </g>
+    <g transform="translate(-120, 5)">
+      <circle cx="0" cy="-5" r="5" fill="#f0a8b8" opacity="0.7"/>
+      <circle cx="0" cy="-5" r="2.5" fill="#e8a838"/>
+      <ellipse cx="0" cy="18" rx="4" ry="6" fill="#f0a8b8" opacity="0.3"/>
+    </g>
+    <g transform="translate(0, 0)">
+      <circle cx="0" cy="-5" r="6" fill="#e8a838" opacity="0.7"/>
+      <circle cx="0" cy="-5" r="3" fill="#e07856"/>
+      <ellipse cx="0" cy="20" rx="5" ry="8" fill="#e8a838" opacity="0.3"/>
+    </g>
+    <g transform="translate(120, 5)">
+      <circle cx="0" cy="-5" r="5" fill="#f0a8b8" opacity="0.7"/>
+      <circle cx="0" cy="-5" r="2.5" fill="#e8a838"/>
+      <ellipse cx="0" cy="18" rx="4" ry="6" fill="#f0a8b8" opacity="0.3"/>
+    </g>
+    <g transform="translate(200, 0)">
+      <circle cx="0" cy="-5" r="6" fill="#e07856" opacity="0.7"/>
+      <circle cx="0" cy="-5" r="3" fill="#e8a838"/>
+      <ellipse cx="0" cy="20" rx="5" ry="8" fill="#e07856" opacity="0.3"/>
+    </g>
+    <!-- 远处村庄 -->
+    <g transform="translate(-250, -15)">
+      <rect x="-10" y="-10" width="20" height="15" fill="#8d5a36" opacity="0.4"/>
+      <path d="M -12 -10 L0 -20 L12 -10 Z" fill="#5a4a2a" opacity="0.4"/>
+    </g>
+    <g transform="translate(250, -15)">
+      <rect x="-10" y="-10" width="20" height="15" fill="#8d5a36" opacity="0.4"/>
+      <path d="M -12 -10 L0 -20 L12 -10 Z" fill="#5a4a2a" opacity="0.4"/>
+    </g>
+    <!-- 水波纹 -->
+    <path d="M -280 30 Q -260 27 -240 30 Q -220 33 -200 30" fill="none" stroke="#4a90b8" stroke-width="1" opacity="0.3"/>
+    <path d="M -100 35 Q -80 32 -60 35 Q -40 38 -20 35" fill="none" stroke="#4a90b8" stroke-width="1" opacity="0.3"/>
+    <path d="M 60 30 Q 80 27 100 30 Q 120 33 140 30" fill="none" stroke="#4a90b8" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="100" y="510" width="600" height="55" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.8"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">梦醒了，美好消散——但他说："我总记得见过这好的故事，"</text>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">"我要追回他，完成他，留下他。"</text>
+</svg>

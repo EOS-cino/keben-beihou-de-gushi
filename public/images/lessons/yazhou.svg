@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="亚洲地图和代表性地理景观的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">亚洲</text>
+  <line x1="370" y1="58" x2="430" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 亚洲地图（简化轮廓） -->
+  <g transform="translate(400,260)">
+    <path d="M-220 -120 Q-180 -140 -120 -130 Q-60 -145 0 -135 Q60 -140 120 -120 Q180 -100 200 -60 Q210 -20 190 20 Q170 60 130 80 Q90 100 40 95 Q-20 110 -70 90 Q-130 80 -170 50 Q-210 20 -225 -30 Q-235 -80 -220 -120 Z" fill="#c8843a" opacity="0.5" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 喜马拉雅山脉 -->
+    <g fill="#8d5a36" opacity="0.6">
+      <path d="M-40 0 L-20 -25 L0 0 L20 -25 L40 0 Z"/>
+      <path d="M-50 10 L-30 -15 L-10 10 L10 -15 L30 10 L50 -15 Z" opacity="0.5"/>
+    </g>
+    <!-- 珠峰标记 -->
+    <path d="M0 -25 L8 -40 L-8 -40 Z" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 河流 -->
+    <path d="M-80 -20 Q-60 10 -40 40 Q-20 60 0 80" fill="none" stroke="#7ab8d8" stroke-width="2.5"/>
+    <path d="M-100 -30 Q-120 0 -130 30" fill="none" stroke="#7ab8d8" stroke-width="2.5"/>
+    <!-- 中国位置标记 -->
+    <circle cx="-80" cy="-30" r="6" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 标注：珠穆朗玛峰 -->
+  <line x1="400" y1="220" x2="400" y2="170" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="330" y="146" width="140" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="165" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">珠穆朗玛峰</text>
+
+  <!-- 标注：中国 -->
+  <line x1="320" y1="230" x2="250" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="190" y="186" width="80" height="28" rx="4" fill="#fff6df" stroke="#c84a3a" stroke-width="1.5"/>
+  <text x="230" y="205" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">中国</text>
+
+  <!-- 标注：热带 -->
+  <line x1="440" y1="350" x2="520" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="510" y="366" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="560" y="385" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">热带雨林</text>
+
+  <!-- 标注：寒带 -->
+  <line x1="380" y1="150" x2="320" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="250" y="106" width="100" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="300" y="125" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">西伯利亚</text>
+
+  <!-- 下方：四个特点 -->
+  <g transform="translate(0,420)">
+    <!-- 面积最大 -->
+    <rect x="40" y="0" width="170" height="80" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" opacity="0.7"/>
+    <text x="125" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">面积最大</text>
+    <text x="125" y="46" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">约4400万平方公里</text>
+    <text x="125" y="64" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">占陆地近三成</text>
+
+    <!-- 人口最多 -->
+    <rect x="230" y="0" width="170" height="80" rx="6" fill="#e8f0e6" stroke="#6a8d3f" stroke-width="1.5" opacity="0.7"/>
+    <text x="315" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">人口最多</text>
+    <text x="315" y="46" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">超过40亿人</text>
+    <text x="315" y="64" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">占世界一半多</text>
+
+    <!-- 山最高 -->
+    <rect x="420" y="0" width="170" height="80" rx="6" fill="#d8e0e8" stroke="#4a8aaa" stroke-width="1.5" opacity="0.7"/>
+    <text x="505" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">山最高</text>
+    <text x="505" y="46" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">珠穆朗玛峰</text>
+    <text x="505" y="64" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">约8848米</text>
+
+    <!-- 文化最多 -->
+    <rect x="610" y="0" width="150" height="80" rx="6" fill="#fff6df" stroke="#c84a3a" stroke-width="1.5" opacity="0.7"/>
+    <text x="685" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">文化多样</text>
+    <text x="685" y="46" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">40多国</text>
+    <text x="685" y="64" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">千种语言</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">亚洲是世界第一大洲，面积最大、人口最多、山最高、文化最丰富——我们就在这里。</text>
+</svg>

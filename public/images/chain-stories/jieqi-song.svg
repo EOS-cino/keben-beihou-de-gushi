@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="二十四节气与四季关系插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">节气歌里的二十四节气</text>
+  <text x="400" y="68" text-anchor="middle" font-family="serif" font-size="14" fill="#6b6557">一年四季，每季六气，环环相扣</text>
+
+  <!-- 中心圆 -->
+  <circle cx="400" cy="320" r="70" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+  <text x="400" y="312" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">二十四</text>
+  <text x="400" y="336" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">节气</text>
+
+  <!-- 春季扇形 (右上) -->
+  <path d="M400 320 L400 180 A140 140 0 0 1 540 320 Z" fill="#c8e8a8" opacity="0.5"/>
+  <text x="470" y="240" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a8a3a">春</text>
+  <text x="475" y="262" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8a3a">立春 雨水 惊蛰</text>
+  <text x="475" y="278" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8a3a">春分 清明 谷雨</text>
+
+  <!-- 夏季扇形 (右下) -->
+  <path d="M400 320 L540 320 A140 140 0 0 1 400 460 Z" fill="#a8d8e8" opacity="0.5"/>
+  <text x="470" y="385" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#3a7a9a">夏</text>
+  <text x="475" y="402" text-anchor="middle" font-family="serif" font-size="11" fill="#3a7a9a">立夏 小满 芒种</text>
+  <text x="475" y="418" text-anchor="middle" font-family="serif" font-size="11" fill="#3a7a9a">夏至 小暑 大暑</text>
+
+  <!-- 秋季扇形 (左下) -->
+  <path d="M400 320 L400 460 A140 140 0 0 1 260 320 Z" fill="#f0d8a0" opacity="0.5"/>
+  <text x="330" y="385" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#b8860b">秋</text>
+  <text x="325" y="402" text-anchor="middle" font-family="serif" font-size="11" fill="#b8860b">立秋 处暑 白露</text>
+  <text x="325" y="418" text-anchor="middle" font-family="serif" font-size="11" fill="#b8860b">秋分 寒露 霜降</text>
+
+  <!-- 冬季扇形 (左上) -->
+  <path d="M400 320 L260 320 A140 140 0 0 1 400 180 Z" fill="#d0d8e8" opacity="0.5"/>
+  <text x="330" y="240" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a6a8a">冬</text>
+  <text x="325" y="262" text-anchor="middle" font-family="serif" font-size="11" fill="#5a6a8a">立冬 小雪 大雪</text>
+  <text x="325" y="278" text-anchor="middle" font-family="serif" font-size="11" fill="#5a6a8a">冬至 小寒 大寒</text>
+
+  <!-- 四季图标 -->
+  <!-- 春-草芽 -->
+  <g transform="translate(490,200)">
+    <path d="M0 15 Q-3 0 2 -12 Q7 0 4 15" fill="#6ab04c"/>
+    <path d="M-6 15 Q-8 5 -4 -5 Q-1 5 0 15" fill="#7cc85a"/>
+    <path d="M6 15 Q8 5 4 -5 Q1 5 2 15" fill="#7cc85a"/>
+    <text x="0" y="32" text-anchor="middle" font-size="10" fill="#5a8a3a">草芽</text>
+  </g>
+  <!-- 夏-荷叶 -->
+  <g transform="translate(490,440)">
+    <ellipse cx="0" cy="0" rx="18" ry="7" fill="#5cb070"/>
+    <ellipse cx="0" cy="-1" rx="16" ry="5" fill="#7cc85a"/>
+    <path d="M0 -1 L-12 -5 M0 -1 L12 -5 M0 -1 L-10 3 M0 -1 L10 3" stroke="#3d8b4e" stroke-width="1"/>
+    <text x="0" y="20" text-anchor="middle" font-size="10" fill="#3a7a9a">荷叶</text>
+  </g>
+  <!-- 秋-谷穗 -->
+  <g transform="translate(310,440)">
+    <ellipse cx="0" cy="0" rx="6" ry="14" fill="#e8c840"/>
+    <ellipse cx="-3" cy="-5" rx="3" ry="6" fill="#d4b020"/>
+    <ellipse cx="3" cy="3" rx="3" ry="6" fill="#d4b020"/>
+    <line x1="0" y1="14" x2="0" y2="22" stroke="#8a9a4a" stroke-width="2"/>
+    <text x="0" y="32" text-anchor="middle" font-size="10" fill="#b8860b">谷穗</text>
+  </g>
+  <!-- 冬-雪人 -->
+  <g transform="translate(310,200)">
+    <circle cx="0" cy="0" r="8" fill="#ffffff" stroke="#d0d8e0" stroke-width="1.5"/>
+    <circle cx="0" cy="-12" r="6" fill="#ffffff" stroke="#d0d8e0" stroke-width="1.5"/>
+    <circle cx="-2" cy="-13" r="1" fill="#1a1a1a"/>
+    <circle cx="2" cy="-13" r="1" fill="#1a1a1a"/>
+    <path d="M-2 -10 L0 -8 L2 -10" fill="#e89030"/>
+    <text x="0" y="14" text-anchor="middle" font-size="10" fill="#5a6a8a">雪人</text>
+  </g>
+
+  <!-- 四季循环箭头 -->
+  <path d="M540 250 Q580 320 540 390" fill="none" stroke="#8d6a3d" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrJ)"/>
+  <path d="M260 390 Q220 320 260 250" fill="none" stroke="#8d6a3d" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrJ)"/>
+  <text x="585" y="324" font-family="serif" font-size="10" fill="#8d6a3d">春→夏</text>
+  <text x="195" y="324" font-family="serif" font-size="10" fill="#8d6a3d">秋→冬</text>
+
+  <!-- 节气歌 -->
+  <rect x="100" y="500" width="600" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+  <text x="400" y="525" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">春雨惊春清谷天，夏满芒夏暑相连</text>
+  <text x="400" y="550" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">秋处露秋寒霜降，冬雪雪冬小大寒</text>
+
+  <!-- 标注 -->
+  <line x1="400" y1="180" x2="400" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="320" y="95" width="160" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="113" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">每季六气，共二十四气</text>
+
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrJ" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#8d6a3d"/>
+    </marker>
+  </defs>
+</svg>

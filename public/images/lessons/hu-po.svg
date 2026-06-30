@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="松脂包裹苍蝇蜘蛛形成琥珀的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">琥珀</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#d4a017" stroke-width="2"/>
+  <!-- 松树干 -->
+  <rect x="120" y="140" width="20" height="320" fill="#5d4037"/>
+  <path d="M 130 160 q -50 -30 -80 -10" stroke="#3a7d44" stroke-width="4" fill="none"/>
+  <path d="M 130 220 q -60 -34 -90 -12" stroke="#3a7d44" stroke-width="4" fill="none"/>
+  <path d="M 140 180 q 50 -30 80 -10" stroke="#3a7d44" stroke-width="4" fill="none"/>
+  <!-- 松脂滴落 -->
+  <ellipse cx="280" cy="200" rx="10" ry="14" fill="#d4a017" opacity="0.8"/>
+  <ellipse cx="280" cy="240" rx="14" ry="18" fill="#d4a017" opacity="0.85"/>
+  <!-- 琥珀主体 -->
+  <ellipse cx="400" cy="360" rx="130" ry="100" fill="#d4a017" opacity="0.55" stroke="#b5651d" stroke-width="3"/>
+  <ellipse cx="400" cy="360" rx="110" ry="84" fill="#e8b04e" opacity="0.6"/>
+  <!-- 苍蝇 -->
+  <ellipse cx="370" cy="350" rx="14" ry="9" fill="#3a3a3a"/>
+  <ellipse cx="360" cy="346" rx="5" ry="4" fill="#3a3a3a"/>
+  <path d="M 360 350 q -16 -6 -22 4" stroke="#3a3a3a" stroke-width="1.5" fill="none"/>
+  <path d="M 360 352 q -16 6 -22 -2" stroke="#3a3a3a" stroke-width="1.5" fill="none"/>
+  <!-- 蜘蛛 -->
+  <ellipse cx="440" cy="365" rx="12" ry="8" fill="#3a3a3a"/>
+  <line x1="432" y1="360" x2="420" y2="352" stroke="#3a3a3a" stroke-width="1.5"/>
+  <line x1="432" y1="370" x2="420" y2="378" stroke="#3a3a3a" stroke-width="1.5"/>
+  <line x1="448" y1="360" x2="460" y2="352" stroke="#3a3a3a" stroke-width="1.5"/>
+  <line x1="448" y1="370" x2="460" y2="378" stroke="#3a3a3a" stroke-width="1.5"/>
+  <!-- 海/沙 -->
+  <rect x="0" y="480" width="800" height="120" fill="#5d8aa8" opacity="0.3"/>
+  <rect x="0" y="510" width="800" height="90" fill="#e8dca0" opacity="0.6"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">一滴松脂，封存千万年的故事</text>
+</svg>

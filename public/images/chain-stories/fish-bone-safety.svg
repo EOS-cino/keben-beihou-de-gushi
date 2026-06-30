@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="吃鱼防卡刺的正确方法和急救步骤插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">吃鱼为什么要注意</text>
+  <line x1="280" y1="58" x2="520" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 上半：鱼为什么有刺 + 哪里容易卡 -->
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#3a6a9a">鱼刺是鱼的骨头，淡水鱼刺多</text>
+
+  <!-- 鱼的骨架示意 -->
+  <g transform="translate(200,160)">
+    <path d="M-60 0 Q-40 -12 0 -10 Q40 -12 60 0 Q40 12 0 10 Q-40 12 -60 0 Z" fill="#a8d0e8" opacity="0.5" stroke="#4a8aaa" stroke-width="1.5"/>
+    <path d="M-60 0 L-72 -10 L-72 10 Z" fill="#a8d0e8" opacity="0.5" stroke="#4a8aaa" stroke-width="1.5"/>
+    <!-- 主刺 -->
+    <line x1="-55" y1="0" x2="55" y2="0" stroke="#fff6df" stroke-width="2.5"/>
+    <!-- 细刺 -->
+    <g stroke="#fff6df" stroke-width="1.5">
+      <line x1="-40" y1="-7" x2="-40" y2="7"/>
+      <line x1="-25" y1="-9" x2="-25" y2="9"/>
+      <line x1="-10" y1="-10" x2="-10" y2="10"/>
+      <line x1="5" y1="-10" x2="5" y2="10"/>
+      <line x1="20" y1="-9" x2="20" y2="9"/>
+      <line x1="35" y1="-7" x2="35" y2="7"/>
+    </g>
+  </g>
+  <text x="200" y="200" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">鲫鱼：刺多又细</text>
+
+  <!-- 少刺鱼 -->
+  <g transform="translate(500,160)">
+    <path d="M-60 0 Q-40 -12 0 -10 Q40 -12 60 0 Q40 12 0 10 Q-40 12 -60 0 Z" fill="#e07856" opacity="0.4" stroke="#c84a3a" stroke-width="1.5"/>
+    <path d="M-60 0 L-72 -10 L-72 10 Z" fill="#e07856" opacity="0.4" stroke="#c84a3a" stroke-width="1.5"/>
+    <line x1="-55" y1="0" x2="55" y2="0" stroke="#fff6df" stroke-width="2.5"/>
+    <circle cx="40" cy="-3" r="2.5" fill="#7a3b14"/>
+  </g>
+  <text x="500" y="200" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">三文鱼：刺少又大</text>
+
+  <!-- 咽喉剖面（卡刺位置） -->
+  <text x="400" y="240" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#3a6a9a">鱼刺最容易卡在扁桃体和舌根附近</text>
+  <g transform="translate(400,310)">
+    <!-- 嘴和嗓子示意 -->
+    <path d="M-50 -30 Q-60 0 -50 30 Q0 40 50 30 Q60 0 50 -30 Q0 -40 -50 -30 Z" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 扁桃体 -->
+    <ellipse cx="-20" cy="0" rx="10" ry="14" fill="#e07856" opacity="0.5"/>
+    <ellipse cx="20" cy="0" rx="10" ry="14" fill="#e07856" opacity="0.5"/>
+    <!-- 鱼刺卡住 -->
+    <path d="M-5 -5 L8 8" stroke="#fff6df" stroke-width="2.5"/>
+    <path d="M-3 -3 L6 6" stroke="#e8a838" stroke-width="1.5"/>
+    <!-- 标注 -->
+    <line x1="-20" y1="0" x2="-70" y2="-20" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="-130" y="-15" font-family="serif" font-size="12" fill="#7a3b14">扁桃体</text>
+    <line x1="8" y1="8" x2="70" y2="20" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="80" y="24" font-family="serif" font-size="12" fill="#7a3b14">鱼刺</text>
+  </g>
+
+  <!-- 下半：正确步骤 -->
+  <text x="400" y="400" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#3a6a9a">卡了刺怎么办？三步走</text>
+
+  <!-- 步骤1 -->
+  <g transform="translate(150,460)">
+    <circle cx="0" cy="0" r="22" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#fff6df">1</text>
+    <text x="0" y="46" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">别吃东西别喝水</text>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">停止进食</text>
+  </g>
+  <!-- 箭头 -->
+  <path d="M185 460 L235 460" stroke="#c8843a" stroke-width="2.5"/>
+  <path d="M228 454 L240 460 L228 466" fill="none" stroke="#c8843a" stroke-width="2.5"/>
+
+  <!-- 步骤2 -->
+  <g transform="translate(290,460)">
+    <circle cx="0" cy="0" r="22" fill="#e8a838" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#fff6df">2</text>
+    <text x="0" y="46" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">轻轻咳一咳</text>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">浅刺可能咳出</text>
+  </g>
+  <!-- 箭头 -->
+  <path d="M325 460 L375 460" stroke="#c8843a" stroke-width="2.5"/>
+  <path d="M368 454 L380 460 L368 466" fill="none" stroke="#c8843a" stroke-width="2.5"/>
+
+  <!-- 步骤3 -->
+  <g transform="translate(430,460)">
+    <circle cx="0" cy="0" r="22" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#fff6df">3</text>
+    <text x="0" y="46" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">咳不出找医生</text>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">耳鼻喉科</text>
+  </g>
+
+  <!-- 错误办法打叉 -->
+  <g transform="translate(620,460)">
+    <rect x="-70" y="-30" width="140" height="60" rx="6" fill="#fff6df" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">✗ 吞饭团</text>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">✗ 喝醋</text>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">✗ 手指抠</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="540" width="720" height="36" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="563" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">吃鱼细嚼慢咽，卡了刺别乱来——停食、轻咳、找医生，三步搞定。</text>
+</svg>

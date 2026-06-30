@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="他们那时候多有趣啊">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <rect x="0" y="0" width="800" height="92" fill="#e67e22" opacity="0.16"/>
+  <text x="400" y="58" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">他们那时候多有趣啊</text>
+  <line x1="320" y1="80" x2="480" y2="80" stroke="#e67e22" stroke-width="3"/>
+
+  <g opacity="0.85">
+    <circle cx="400" cy="290" r="80" fill="none" stroke="#e67e22" stroke-width="4"/>
+    <ellipse cx="400" cy="290" rx="80" ry="30" fill="none" stroke="#e67e22" stroke-width="3" transform="rotate(35 400 290)"/>
+    <ellipse cx="400" cy="290" rx="80" ry="30" fill="none" stroke="#e67e22" stroke-width="3" transform="rotate(-35 400 290)"/>
+    <circle cx="400" cy="290" r="14" fill="#e67e22"/>
+  </g>
+  <g opacity="0.6">
+    <path d="M600 150 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8 z" fill="#e67e22"/>
+  </g>
+  <text x="180" y="200" font-family="serif" font-size="40" fill="#e67e22" opacity="0.5">?</text>
+  <text x="610" y="450" font-family="serif" font-size="40" fill="#e67e22" opacity="0.5">!</text>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">未来的学校，过去的快乐</text>
+</svg>

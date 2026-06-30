@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="雨夜中老虎和贼在老屋外害怕逃跑插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">漏</text>
+  <line x1="350" y1="62" x2="450" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="0" y="70" width="800" height="400" fill="#3a4a5a" opacity="0.15"/>
+
+  <!-- 雨滴 -->
+  <g opacity="0.4">
+    <line x1="80" y1="80" x2="75" y2="100" stroke="#4a90b8" stroke-width="1.5"/>
+    <line x1="160" y1="90" x2="155" y2="110" stroke="#4a90b8" stroke-width="1.5"/>
+    <line x1="250" y1="75" x2="245" y2="95" stroke="#4a90b8" stroke-width="1.5"/>
+    <line x1="550" y1="85" x2="545" y2="105" stroke="#4a90b8" stroke-width="1.5"/>
+    <line x1="640" y1="95" x2="635" y2="115" stroke="#4a90b8" stroke-width="1.5"/>
+    <line x1="720" y1="80" x2="715" y2="100" stroke="#4a90b8" stroke-width="1.5"/>
+    <line x1="120" y1="130" x2="115" y2="150" stroke="#4a90b8" stroke-width="1.5"/>
+    <line x1="680" y1="140" x2="675" y2="160" stroke="#4a90b8" stroke-width="1.5"/>
+  </g>
+
+  <!-- 老房子 -->
+  <g transform="translate(400, 0)">
+    <!-- 屋顶 -->
+    <path d="M-150 250 L0 150 L150 250 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 瓦片纹理 -->
+    <path d="M-130 250 L0 170 L130 250" fill="none" stroke="#6a4220" stroke-width="1.5"/>
+    <path d="M-100 230 L0 190 L100 230" fill="none" stroke="#6a4220" stroke-width="1.5"/>
+    <!-- 墙 -->
+    <rect x="-120" y="250" width="240" height="200" fill="#d4a574" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 门 -->
+    <rect x="-35" y="320" width="70" height="130" fill="#5a3a1a" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="20" cy="385" r="3" fill="#e8a838"/>
+    <!-- 窗户 -->
+    <rect x="-100" y="280" width="50" height="40" fill="#e8a838" opacity="0.6" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="-75" y1="280" x2="-75" y2="320" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="-100" y1="300" x2="-50" y2="300" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="50" y="280" width="50" height="40" fill="#e8a838" opacity="0.6" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="75" y1="280" x2="75" y2="320" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="50" y1="300" x2="100" y2="300" stroke="#7a3b14" stroke-width="1.5"/>
+
+    <!-- 屋顶漏水 -->
+    <ellipse cx="-20" cy="250" rx="8" ry="4" fill="#4a90b8" opacity="0.6"/>
+    <ellipse cx="-20" cy="270" rx="4" ry="6" fill="#4a90b8" opacity="0.5"/>
+    <ellipse cx="-20" cy="290" rx="3" ry="5" fill="#4a90b8" opacity="0.4"/>
+    <!-- 接水盆 -->
+    <path d="M-40 310 L-40 320 Q-40 325 -20 325 Q0 325 0 320 L0 310 Z" fill="#8a8a8a" stroke="#5a5a5a" stroke-width="1.5"/>
+    <ellipse cx="-20" cy="310" rx="20" ry="4" fill="#4a90b8" opacity="0.4"/>
+
+    <!-- 老爷爷老奶奶（窗户里的剪影） -->
+    <g transform="translate(-75, 300)" opacity="0.7">
+      <circle cx="0" cy="0" r="6" fill="#7a3b14"/>
+      <path d="M-5 5 L-5 18 L5 18 L5 5" fill="#7a3b14"/>
+    </g>
+  </g>
+
+  <!-- 老虎（逃跑中，背着贼） -->
+  <g transform="translate(200, 420)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="55" ry="30" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 条纹 -->
+    <path d="M-30 -20 Q-25 -25 -20 -20" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M-10 -25 Q-5 -30 0 -25" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M10 -22 Q15 -27 20 -22" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M-20 15 Q-15 20 -10 15" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M5 18 Q10 23 15 18" fill="none" stroke="#7a3b14" stroke-width="3"/>
+    <!-- 头 -->
+    <circle cx="-55" cy="-10" r="25" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 耳朵 -->
+    <path d="M-70 -25 L-65 -35 L-58 -28" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-50 -28 L-45 -38 L-42 -25" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 眼睛（惊恐） -->
+    <circle cx="-60" cy="-12" r="5" fill="#ffffff"/>
+    <circle cx="-60" cy="-12" r="3" fill="#2a2a2a"/>
+    <circle cx="-48" cy="-12" r="5" fill="#ffffff"/>
+    <circle cx="-48" cy="-12" r="3" fill="#2a2a2a"/>
+    <!-- 嘴（张开的惊恐状） -->
+    <ellipse cx="-52" cy="2" rx="6" ry="5" fill="#7a3b14"/>
+    <!-- 王字 -->
+    <line x1="-58" y1="-22" x2="-50" y2="-22" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="-54" y1="-26" x2="-54" y2="-18" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 腿（奔跑） -->
+    <path d="M-30 25 L-35 50 L-25 50" fill="none" stroke="#7a3b14" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-10 28 L-15 52 L-5 52" fill="none" stroke="#7a3b14" stroke-width="4" stroke-linecap="round"/>
+    <path d="M20 25 L25 50 L35 50" fill="none" stroke="#7a3b14" stroke-width="4" stroke-linecap="round"/>
+    <path d="M40 28 L45 52 L55 52" fill="none" stroke="#7a3b14" stroke-width="4" stroke-linecap="round"/>
+    <!-- 尾巴 -->
+    <path d="M55 -5 Q75 -15 80 5" fill="none" stroke="#e8a838" stroke-width="8" stroke-linecap="round"/>
+    <path d="M55 -5 Q75 -15 80 5" fill="none" stroke="#7a3b14" stroke-width="2"/>
+
+    <!-- 贼（骑在老虎背上） -->
+    <g transform="translate(10, -35)">
+      <!-- 头 -->
+      <circle cx="0" cy="0" r="14" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 包头巾 -->
+      <path d="M-14 -5 Q-14 -18 0 -20 Q14 -18 14 -5" fill="#3a2a1a" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 眼睛（惊恐） -->
+      <circle cx="-4" cy="-2" r="3" fill="#ffffff"/>
+      <circle cx="-4" cy="-2" r="2" fill="#2a2a2a"/>
+      <circle cx="4" cy="-2" r="3" fill="#ffffff"/>
+      <circle cx="4" cy="-2" r="2" fill="#2a2a2a"/>
+      <!-- 嘴（张大喊叫） -->
+      <ellipse cx="0" cy="6" rx="3" ry="4" fill="#7a3b14"/>
+      <!-- 身体（趴着） -->
+      <path d="M-10 10 L-15 25 L15 25 L10 10" fill="#5a3a1a" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 手（抓紧） -->
+      <path d="M-12 20 L-20 30" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+      <path d="M12 20 L20 30" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- 惊恐气泡 -->
+  <g transform="translate(120, 340)">
+    <path d="M0 0 Q0 -15 15 -15 L70 -15 Q85 -15 85 0 L85 10 Q85 25 70 25 L30 25 L15 35 L20 25 L15 25 Q0 25 0 10 Z" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="42" y="10" text-anchor="middle" font-size="14" font-weight="bold" fill="#e07856" font-family="serif">"漏"来了！</text>
+  </g>
+
+  <!-- 标注：屋顶漏水 -->
+  <line x1="380" y1="260" x2="480" y2="200" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="460" y="175" width="90" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="505" y="192" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">屋顶漏水</text>
+
+  <!-- 地面 -->
+  <rect x="0" y="490" width="800" height="110" fill="#c8b890" opacity="0.4"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">老虎和贼都以为"漏"是可怕的怪物，其实只是屋顶漏水——误会闹出大笑话</text>
+</svg>

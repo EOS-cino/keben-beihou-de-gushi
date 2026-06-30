@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="孙悟空学艺与筋斗云七十二变连珠故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8a5a14">连珠小故事：孙悟空的筋斗云与七十二变</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#7a7468">从学艺到闯祸，再到成正果——本领是把双刃剑</text>
+
+  <!-- 三格时间线 -->
+  <!-- 第一格：拜师学艺 -->
+  <g transform="translate(150 260)">
+    <rect x="-90" y="-70" width="180" height="180" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#2d6a4f">拜师学艺</text>
+    <!-- 须菩提祖师（端坐） -->
+    <path d="M-20 40 Q-24 0 -14 -12 Q0 -18 14 -12 Q24 0 20 40 Z" fill="#2d6a4f"/>
+    <circle cx="0" cy="-24" r="13" fill="#f4d4a8"/>
+    <path d="M-13 -28 Q0 -40 13 -28 L13 -22 Q0 -18 -13 -22 Z" fill="#e8e8e8"/>
+    <path d="M-5 -24 Q0 -22 5 -24" stroke="#3a3a3a" stroke-width="1.2" fill="none"/>
+    <!-- 悟空（跪地学） -->
+    <g transform="translate(-50 40)">
+      <ellipse cx="0" cy="0" rx="10" ry="8" fill="#e07856"/>
+      <circle cx="0" cy="-14" r="8" fill="#f0d0a8"/>
+      <rect x="-8" y="-22" width="16" height="4" fill="#e8a838"/>
+    </g>
+    <!-- 云纹（传授） -->
+    <path d="M10 -30 Q20 -40 30 -30" fill="none" stroke="#e8a838" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 箭头1 -->
+  <path d="M250 260 L310 260" stroke="#c8943a" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+
+  <!-- 第二格：大闹天宫 -->
+  <g transform="translate(400 260)">
+    <rect x="-90" y="-70" width="180" height="180" fill="#fff6df" stroke="#e07856" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#e07856">大闹天宫</text>
+    <!-- 悟空（挥棒） -->
+    <g transform="translate(0 20)">
+      <path d="M-16 20 Q-18 0 -10 -8 Q0 -12 10 -8 Q18 0 16 20 Z" fill="#e07856"/>
+      <circle cx="0" cy="-22" r="12" fill="#f0d0a8"/>
+      <rect x="-11" y="-30" width="22" height="4" fill="#e8a838"/>
+      <circle cx="-5" cy="-22" r="2" fill="#2a2a2a"/>
+      <circle cx="5" cy="-22" r="2" fill="#2a2a2a"/>
+      <!-- 金箍棒挥起 -->
+      <line x1="14" y1="-10" x2="40" y2="-50" stroke="#8a5a14" stroke-width="5" stroke-linecap="round"/>
+      <rect x="36" y="-54" width="10" height="10" fill="#e8a838"/>
+    </g>
+    <!-- 天宫云 -->
+    <ellipse cx="-40" cy="-30" rx="20" ry="6" fill="#fef9ed" stroke="#e8a838" opacity="0.7"/>
+    <ellipse cx="40" cy="-40" rx="18" ry="5" fill="#fef9ed" stroke="#e8a838" opacity="0.7"/>
+    <!-- 闪电 -->
+    <path d="M-20 -10 L-15 0 L-22 4 L-12 18" fill="none" stroke="#e8a838" stroke-width="2"/>
+  </g>
+
+  <!-- 箭头2 -->
+  <path d="M500 260 L560 260" stroke="#c8943a" stroke-width="2.5" fill="none"/>
+
+  <!-- 第三格：取经成正果 -->
+  <g transform="translate(650 260)">
+    <rect x="-90" y="-70" width="180" height="180" fill="#fff6df" stroke="#2d6a4f" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#2d6a4f">取经成正果</text>
+    <!-- 悟空（合掌） -->
+    <g transform="translate(0 20)">
+      <path d="M-16 20 Q-18 0 -10 -8 Q0 -12 10 -8 Q18 0 16 20 Z" fill="#e8a838"/>
+      <circle cx="0" cy="-22" r="12" fill="#f0d0a8"/>
+      <rect x="-11" y="-30" width="22" height="4" fill="#e8a838"/>
+      <path d="M-5 -22 Q0 -20 5 -22" stroke="#3a3a3a" stroke-width="1" fill="none"/>
+      <!-- 合掌 -->
+      <path d="M-8 -4 L-2 -14 L2 -14 L8 -4" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <!-- 光环 -->
+    <circle cx="0" cy="-22" r="20" fill="none" stroke="#e8a838" stroke-width="1.5" opacity="0.5"/>
+    <!-- 佛光 -->
+    <g stroke="#e8a838" stroke-width="1.5" opacity="0.5">
+      <line x1="0" y1="-50" x2="0" y2="-58"/>
+      <line x1="-14" y1="-44" x2="-20" y2="-50"/>
+      <line x1="14" y1="-44" x2="20" y2="-50"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">斗战胜佛</text>
+  </g>
+
+  <!-- 底部人物：吴承恩 -->
+  <g transform="translate(400 480)">
+    <path d="M-22 40 Q-26 10 -18 -2 Q0 -8 18 -2 Q26 10 22 40 Z" fill="#4a5a6a"/>
+    <circle cx="0" cy="-20" r="16" fill="#f4d4a8"/>
+    <path d="M-16 -24 Q0 -36 16 -24 L16 -18 Q0 -14 -16 -18 Z" fill="#3a3a3a"/>
+    <circle cx="-6" cy="-20" r="1.5" fill="#3a3a3a"/>
+    <circle cx="6" cy="-20" r="1.5" fill="#3a3a3a"/>
+    <path d="M-4 -12 Q0 -9 4 -12" fill="none" stroke="#8a4a3a" stroke-width="1.3"/>
+  </g>
+  <line x1="400" y1="440" x2="400" y2="430" stroke="#c8943a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="408" width="90" height="22" fill="#fff6df" stroke="#c8943a" rx="4"/>
+  <text x="400" y="424" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">吴承恩《西游记》</text>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="545" width="680" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">本领没有善恶，关键看握着它的人，心往哪儿走</text>
+
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#c8943a"/>
+    </marker>
+  </defs>
+</svg>

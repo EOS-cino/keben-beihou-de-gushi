@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="书是人类的长生果插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">书是人类的长生果</text>
+  <line x1="290" y1="60" x2="510" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 三位"精神不老"的读书人 -->
+
+  <!-- 冰心 -->
+  <g>
+    <rect x="40" y="90" width="220" height="220" fill="#fff6df" stroke="#e07856" stroke-width="2.5" rx="8"/>
+    <text x="150" y="118" text-anchor="middle" font-family="serif" font-size="15" fill="#e07856" font-weight="bold">冰心 99岁</text>
+    <!-- 老人头像 -->
+    <circle cx="150" cy="175" r="30" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M124 168 q26 -22 52 0" fill="#e8e8e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="140" cy="176" r="6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="160" cy="176" r="6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="146" y1="176" x2="154" y2="176" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M142 188 q8 4 16 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 书 -->
+    <rect x="120" y="230" width="60" height="40" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <line x1="150" y1="230" x2="150" y2="270" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="125" y1="240" x2="145" y2="240" stroke="#5a3a1a" stroke-width="0.8"/>
+    <line x1="125" y1="250" x2="145" y2="250" stroke="#5a3a1a" stroke-width="0.8"/>
+    <line x1="155" y1="240" x2="175" y2="240" stroke="#5a3a1a" stroke-width="0.8"/>
+    <line x1="155" y1="250" x2="175" y2="250" stroke="#5a3a1a" stroke-width="0.8"/>
+    <text x="150" y="290" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"最大的快乐</text>
+    <text x="150" y="305" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">就是读书"</text>
+  </g>
+
+  <!-- 杨绛 -->
+  <g>
+    <rect x="290" y="90" width="220" height="220" fill="#fff6df" stroke="#2d6a4f" stroke-width="2.5" rx="8"/>
+    <text x="400" y="118" text-anchor="middle" font-family="serif" font-size="15" fill="#2d6a4f" font-weight="bold">杨绛 100岁</text>
+    <!-- 老人头像 -->
+    <circle cx="400" cy="175" r="30" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M374 168 q26 -22 52 0" fill="#e8e8e8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M388 174 q5 -2 8 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <path d="M404 174 q5 -2 8 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <path d="M392 186 q8 3 16 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 书和笔 -->
+    <rect x="370" y="230" width="60" height="40" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <line x1="400" y1="230" x2="400" y2="270" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 笔 -->
+    <line x1="430" y1="245" x2="445" y2="235" stroke="#5a3a1a" stroke-width="3" stroke-linecap="round"/>
+    <text x="400" y="290" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"读书是为了</text>
+    <text x="400" y="305" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">遇见更好的自己"</text>
+  </g>
+
+  <!-- 海伦·凯勒 -->
+  <g>
+    <rect x="540" y="90" width="220" height="220" fill="#fff6df" stroke="#4a90b8" stroke-width="2.5" rx="8"/>
+    <text x="650" y="118" text-anchor="middle" font-family="serif" font-size="15" fill="#4a90b8" font-weight="bold">海伦·凯勒</text>
+    <!-- 头像 -->
+    <circle cx="650" cy="175" r="30" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M624 168 q26 -20 52 0" fill="#5a3a1a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 闭眼（盲人） -->
+    <path d="M636 174 q6 3 10 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <path d="M654 174 q6 3 10 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <path d="M642 186 q8 3 16 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 盲文书 -->
+    <rect x="620" y="230" width="60" height="40" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <!-- 盲文点 -->
+    <g fill="#7a3b14">
+      <circle cx="630" cy="240" r="2"/><circle cx="640" cy="240" r="2"/><circle cx="650" cy="240" r="2"/>
+      <circle cx="630" cy="250" r="2"/><circle cx="645" cy="250" r="2"/><circle cx="660" cy="250" r="2"/>
+      <circle cx="635" cy="260" r="2"/><circle cx="650" cy="260" r="2"/><circle cx="665" cy="260" r="2"/>
+    </g>
+    <!-- 手指触摸 -->
+    <ellipse cx="615" cy="250" rx="6" ry="4" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="650" y="290" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"书是一艘船</text>
+    <text x="650" y="305" text-anchor="middle" font-family="serif" font-size="11" fill="#4a90b8">带我去无限海洋"</text>
+  </g>
+
+  <!-- 底部：为什么读书能"长生" -->
+  <rect x="60" y="360" width="680" height="200" fill="#f5ecd8" stroke="#c8843a" stroke-width="2.5" rx="10"/>
+  <text x="400" y="395" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14" font-weight="bold">为什么读书能让人"长生"？</text>
+
+  <g>
+    <circle cx="120" cy="430" r="8" fill="#e07856"/>
+    <text x="140" y="435" font-family="serif" font-size="14" fill="#7a3b14">身体会老，但心灵不会——读书让心灵永远年轻</text>
+    <circle cx="120" cy="465" r="8" fill="#2d6a4f"/>
+    <text x="140" y="470" font-family="serif" font-size="14" fill="#7a3b14">不读书的人，世界只有自己经历的那么大</text>
+    <circle cx="120" cy="500" r="8" fill="#4a90b8"/>
+    <text x="140" y="505" font-family="serif" font-size="14" fill="#7a3b14">爱读书的人，可以和孔子对话、和莎士比亚交朋友</text>
+    <circle cx="120" cy="535" r="8" fill="#e8a838"/>
+    <text x="140" y="540" font-family="serif" font-size="14" fill="#7a3b14">书让生命变得丰富而辽阔——这就是精神的"长生"</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从自己喜欢的书读起，慢慢找到属于自己的"长生果"</text>
+</svg>

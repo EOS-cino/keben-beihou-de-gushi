@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小池塘泉眼荷叶蜻蜓的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小池</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">泉眼无声惜细流，树阴照水爱晴柔</text>
+
+  <!-- 池塘水面 -->
+  <ellipse cx="400" cy="400" rx="320" ry="120" fill="#a8d0e8" opacity="0.4"/>
+  <ellipse cx="400" cy="400" rx="320" ry="120" fill="none" stroke="#7ab8d8" stroke-width="2" opacity="0.5"/>
+
+  <!-- 泉眼（左下） -->
+  <g transform="translate(180,420)">
+    <!-- 石头 -->
+    <ellipse cx="0" cy="10" rx="35" ry="15" fill="#8d5a36" opacity="0.6"/>
+    <ellipse cx="-10" cy="5" rx="20" ry="10" fill="#a8703a"/>
+    <!-- 泉水细流 -->
+    <path d="M0 0 Q5 15 0 30 Q-5 45 0 60" fill="none" stroke="#7ab8d8" stroke-width="2.5" opacity="0.7"/>
+    <path d="M-5 5 Q-8 20 -3 35" fill="none" stroke="#a8d0e8" stroke-width="1.5" opacity="0.6"/>
+    <!-- 水波纹 -->
+    <ellipse cx="0" cy="65" rx="15" ry="4" fill="none" stroke="#7ab8d8" stroke-width="1" opacity="0.4"/>
+    <ellipse cx="0" cy="72" rx="22" ry="5" fill="none" stroke="#7ab8d8" stroke-width="1" opacity="0.3"/>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">泉眼无声</text>
+  </g>
+
+  <!-- 树荫（右上倒映） -->
+  <g transform="translate(600,350)">
+    <!-- 树 -->
+    <rect x="-4" y="-80" width="8" height="50" fill="#7a3b14"/>
+    <ellipse cx="0" cy="-90" rx="40" ry="35" fill="#6a8d3f"/>
+    <ellipse cx="-15" cy="-95" rx="22" ry="20" fill="#4a6a2f"/>
+    <ellipse cx="15" cy="-92" rx="22" ry="20" fill="#4a6a2f"/>
+    <!-- 树荫倒映在水中 -->
+    <ellipse cx="0" cy="20" rx="38" ry="12" fill="#4a6a2f" opacity="0.25"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">树阴照水</text>
+  </g>
+
+  <!-- 小荷尖尖角（中间） -->
+  <g transform="translate(400,380)">
+    <!-- 荷叶茎 -->
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#4a6a2f" stroke-width="3"/>
+    <!-- 尖尖的小荷叶 -->
+    <path d="M0 0 Q-8 -5 -10 -15 Q-5 -25 0 -28 Q5 -25 10 -15 Q8 -5 0 0 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">小荷尖尖角</text>
+  </g>
+
+  <!-- 蜻蜓 -->
+  <g transform="translate(400,345)">
+    <!-- 身体 -->
+    <rect x="-2" y="-5" width="4" height="20" rx="2" fill="#8d5a36"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-8" r="5" fill="#6a8d3f"/>
+    <!-- 翅膀 -->
+    <ellipse cx="-12" cy="0" rx="14" ry="5" fill="#a8d0e8" opacity="0.6" stroke="#7ab8d8" stroke-width="1"/>
+    <ellipse cx="12" cy="0" rx="14" ry="5" fill="#a8d0e8" opacity="0.6" stroke="#7ab8d8" stroke-width="1"/>
+    <ellipse cx="-10" cy="8" rx="10" ry="4" fill="#a8d0e8" opacity="0.5" stroke="#7ab8d8" stroke-width="1"/>
+    <ellipse cx="10" cy="8" rx="10" ry="4" fill="#a8d0e8" opacity="0.5" stroke="#7ab8d8" stroke-width="1"/>
+    <!-- 尾巴 -->
+    <line x1="0" y1="14" x2="0" y2="30" stroke="#8d5a36" stroke-width="2"/>
+    <text x="30" y="5" font-family="serif" font-size="12" fill="#8d5a36">蜻蜓立上头</text>
+  </g>
+
+  <!-- 水波纹装饰 -->
+  <g fill="none" stroke="#7ab8d8" stroke-width="1" opacity="0.3">
+    <ellipse cx="350" cy="450" rx="20" ry="5"/>
+    <ellipse cx="500" cy="460" rx="25" ry="6"/>
+    <ellipse cx="300" cy="470" rx="15" ry="4"/>
+  </g>
+
+  <!-- 底部诗句 -->
+  <rect x="120" y="510" width="560" height="60" rx="10" fill="#fef0d8" opacity="0.6" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="538" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">小荷才露尖尖角，早有蜻蜓立上头</text>
+  <text x="400" y="558" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">杨万里·宋</text>
+</svg>

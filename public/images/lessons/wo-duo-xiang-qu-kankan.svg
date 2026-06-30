@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="孩子望向远方天安门和雪山的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">我多想去看看</text>
+
+  <!-- 左半：天安门 -->
+  <g transform="translate(200,320)">
+    <rect x="-130" y="80" width="260" height="10" fill="#8d5a36"/>
+    <!-- 天安门城楼 -->
+    <rect x="-90" y="-10" width="180" height="90" fill="#c84a3a" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 屋顶 -->
+    <path d="M-100 -10 L-80 -40 L80 -40 L100 -10 Z" fill="#8d5a36"/>
+    <path d="M-85 -40 L-70 -60 L70 -60 L85 -40 Z" fill="#c8843a"/>
+    <!-- 门洞 -->
+    <rect x="-15" y="30" width="30" height="50" rx="15" fill="#7a3b14"/>
+    <rect x="-60" y="30" width="20" height="50" rx="10" fill="#7a3b14"/>
+    <rect x="40" y="30" width="20" height="50" rx="10" fill="#7a3b14"/>
+    <!-- 旗杆 -->
+    <rect x="120" y="-20" width="4" height="110" fill="#8d5a36"/>
+    <rect x="116" y="-25" width="12" height="8" fill="#f4b942"/>
+    <rect x="124" y="-22" width="20" height="13" fill="#c84a3a"/>
+    <!-- 标题 -->
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">北京·天安门</text>
+    <text x="0" y="142" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">升旗仪式很壮观</text>
+  </g>
+
+  <!-- 中间：孩子 -->
+  <g transform="translate(400,340)">
+    <!-- 孩子 -->
+    <circle cx="0" cy="-60" r="18" fill="#f4c8a0" stroke="#8d5a36" stroke-width="1.5"/>
+    <!-- 眼睛望向左 -->
+    <circle cx="-5" cy="-62" r="2" fill="#3a2a1a"/>
+    <circle cx="5" cy="-62" r="2" fill="#3a2a1a"/>
+    <path d="M-6 -52 Q0 -48 6 -52" fill="none" stroke="#8d5a36" stroke-width="1.5"/>
+    <!-- 身体 -->
+    <path d="M-15 -42 L-20 20 L20 20 L15 -42 Z" fill="#6a8d3f"/>
+    <!-- 手指向远方 -->
+    <path d="M-15 -30 L-35 -35" stroke="#f4c8a0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15 -30 L30 -20" stroke="#f4c8a0" stroke-width="6" stroke-linecap="round"/>
+    <!-- 腿 -->
+    <rect x="-12" y="20" width="8" height="30" fill="#4a6a2f"/>
+    <rect x="4" y="20" width="8" height="30" fill="#4a6a2f"/>
+    <!-- 心愿气泡 -->
+    <ellipse cx="0" cy="-100" rx="60" ry="22" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-94" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a" font-weight="bold">我多想去看看！</text>
+  </g>
+
+  <!-- 右半：天山 -->
+  <g transform="translate(600,320)">
+    <!-- 雪山 -->
+    <path d="M-120 90 L-60 -20 L-20 40 L20 -50 L70 20 L120 90 Z" fill="#6a8d3f" opacity="0.4"/>
+    <path d="M-100 90 L-55 -10 L-25 35 L0 -30 L30 25 L60 0 L100 90 Z" fill="#4a6a2f" opacity="0.5"/>
+    <!-- 雪顶 -->
+    <path d="M-55 -10 L-60 -20 L-45 0 Z" fill="#fef9ed"/>
+    <path d="M-25 35 L-20 -50 L0 -30 L-10 10 Z" fill="#fef9ed"/>
+    <path d="M30 25 L20 -50 L40 -15 Z" fill="#fef9ed"/>
+    <!-- 雪莲 -->
+    <g transform="translate(-20,50)">
+      <ellipse cx="0" cy="0" rx="5" ry="10" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1"/>
+      <ellipse cx="-7" cy="3" rx="4" ry="8" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1" transform="rotate(-30 -7 3)"/>
+      <ellipse cx="7" cy="3" rx="4" ry="8" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1" transform="rotate(30 7 3)"/>
+      <circle cx="0" cy="0" r="3" fill="#f4b942"/>
+    </g>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">新疆·天山</text>
+    <text x="0" y="142" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">雪莲洁白很美丽</text>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="100" y="500" width="600" height="70" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">新疆的孩子想去北京，北京的孩子想去新疆</text>
+  <text x="400" y="552" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">世界那么大，谁都想出去看看</text>
+</svg>

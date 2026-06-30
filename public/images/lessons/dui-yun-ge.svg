@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="云雨雪风花鸟虫树自然景物配对的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">对韵歌</text>
+
+  <!-- 四组对子 -->
+  <!-- 云对雨 -->
+  <g transform="translate(200,160)">
+    <rect x="-80" y="-50" width="160" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 云 -->
+    <g transform="translate(-35,0)">
+      <ellipse cx="0" cy="0" rx="25" ry="14" fill="#fef9ed" stroke="#7ab8d8" stroke-width="2"/>
+      <ellipse cx="-12" cy="-6" rx="14" ry="10" fill="#fef9ed" stroke="#7ab8d8" stroke-width="2"/>
+      <ellipse cx="12" cy="-4" rx="12" ry="9" fill="#fef9ed" stroke="#7ab8d8" stroke-width="2"/>
+    </g>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">对</text>
+    <!-- 雨 -->
+    <g transform="translate(35,0)" fill="#7ab8d8">
+      <path d="M-12 -10 Q-14 -2 -12 4 Q-10 -2 -12 -10 Z"/>
+      <path d="M0 -12 Q-2 -2 0 6 Q2 -2 0 -12 Z"/>
+      <path d="M12 -10 Q10 -2 12 4 Q14 -2 12 -10 Z"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">云对雨</text>
+  </g>
+
+  <!-- 雪对风 -->
+  <g transform="translate(600,160)">
+    <rect x="-80" y="-50" width="160" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 雪花 -->
+    <g transform="translate(-35,0)" stroke="#7ab8d8" stroke-width="2">
+      <line x1="0" y1="-12" x2="0" y2="12"/>
+      <line x1="-12" y1="0" x2="12" y2="0"/>
+      <line x1="-8" y1="-8" x2="8" y2="8"/>
+      <line x1="8" y1="-8" x2="-8" y2="8"/>
+    </g>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">对</text>
+    <!-- 风线 -->
+    <g transform="translate(35,0)" fill="none" stroke="#6a8d3f" stroke-width="2.5" stroke-linecap="round">
+      <path d="M-12 -8 Q0 -12 12 -6"/>
+      <path d="M-12 2 Q0 -2 12 4"/>
+      <path d="M-12 12 Q0 8 12 14"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">雪对风</text>
+  </g>
+
+  <!-- 花对树 -->
+  <g transform="translate(200,330)">
+    <rect x="-80" y="-50" width="160" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 花 -->
+    <g transform="translate(-35,0)">
+      <circle cx="0" cy="-5" r="6" fill="#c84a3a"/>
+      <circle cx="-7" cy="0" r="6" fill="#e07856"/>
+      <circle cx="7" cy="0" r="6" fill="#e07856"/>
+      <circle cx="-5" cy="7" r="6" fill="#c84a3a"/>
+      <circle cx="5" cy="7" r="6" fill="#c84a3a"/>
+      <circle cx="0" cy="2" r="4" fill="#f4b942"/>
+      <path d="M0 10 L0 20" stroke="#6a8d3f" stroke-width="2"/>
+    </g>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">对</text>
+    <!-- 树 -->
+    <g transform="translate(35,0)">
+      <rect x="-2" y="5" width="4" height="18" fill="#7a3b14"/>
+      <ellipse cx="0" cy="-5" rx="14" ry="16" fill="#6a8d3f"/>
+      <ellipse cx="-7" cy="-10" rx="8" ry="9" fill="#4a6a2f"/>
+      <ellipse cx="7" cy="-8" rx="8" ry="9" fill="#4a6a2f"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">花对树</text>
+  </g>
+
+  <!-- 鸟对虫 -->
+  <g transform="translate(600,330)">
+    <rect x="-80" y="-50" width="160" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 鸟 -->
+    <g transform="translate(-35,0)">
+      <ellipse cx="0" cy="0" rx="12" ry="9" fill="#f4b942"/>
+      <circle cx="8" cy="-5" r="6" fill="#f4b942"/>
+      <circle cx="10" cy="-6" r="1.5" fill="#3a2a1a"/>
+      <polygon points="14,-5 20,-4 14,-2" fill="#c8843a"/>
+      <path d="M-5 -3 Q-12 -10 -15 -5" fill="none" stroke="#c8843a" stroke-width="2"/>
+      <path d="M0 8 L-3 16 M0 8 L3 16" stroke="#c8843a" stroke-width="1.5"/>
+    </g>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">对</text>
+    <!-- 虫 -->
+    <g transform="translate(35,0)">
+      <ellipse cx="0" cy="0" rx="12" ry="7" fill="#6a8d3f"/>
+      <circle cx="-8" cy="-2" r="5" fill="#6a8d3f"/>
+      <line x1="-10" y1="-6" x2="-13" y2="-10" stroke="#6a8d3f" stroke-width="1.5"/>
+      <line x1="-7" y1="-7" x2="-7" y2="-11" stroke="#6a8d3f" stroke-width="1.5"/>
+      <circle cx="-9" cy="-3" r="1" fill="#3a2a1a"/>
+      <path d="M-12 2 Q-15 4 -13 6" fill="none" stroke="#6a8d3f" stroke-width="1.5"/>
+      <path d="M-12 4 Q-15 6 -13 8" fill="none" stroke="#6a8d3f" stroke-width="1.5"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">鸟对虫</text>
+  </g>
+
+  <!-- 底部长对 -->
+  <rect x="100" y="470" width="600" height="90" rx="10" fill="#fef0d8" opacity="0.6" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="500" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">山清对水秀，柳暗对花明</text>
+  <text x="400" y="530" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">名词对名词，形容词对形容词，读起来像唱歌</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="海明威生平与冰山理论插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：海明威的硬汉人生</text>
+  <line x1="150" y1="55" x2="650" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左：战地硬汉 -->
+  <g transform="translate(170 240)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">战地硬汉</text>
+    <text x="0" y="-42" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">一战二战都冲在前</text>
+    <!-- 海明威头像 -->
+    <g transform="translate(0 0)">
+      <circle cx="0" cy="0" r="26" fill="#f0d0a8"/>
+      <path d="M-22 -6 Q-24 -26 0 -28 Q24 -26 22 -6" fill="#3a2a1a"/>
+      <path d="M-18 8 Q0 18 18 8" fill="none" stroke="#3a2a1a" stroke-width="2.5"/>
+      <circle cx="-8" cy="-4" r="2" fill="#2a2a2a"/>
+      <circle cx="8" cy="-4" r="2" fill="#2a2a2a"/>
+      <path d="M-4 8 Q0 10 4 8" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- 勋章/伤疤 -->
+    <g fill="#e8a838">
+      <circle cx="-34" cy="20" r="5"/>
+      <circle cx="34" cy="20" r="5"/>
+    </g>
+    <text x="0" y="52" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">身上缝过几百针</text>
+  </g>
+
+  <!-- 中：冰山理论 -->
+  <g transform="translate(400 240)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">冰山理论</text>
+    <text x="0" y="-42" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">露出八分之一，藏八分之七</text>
+    <!-- 海面 -->
+    <line x1="-70" y1="-10" x2="70" y2="-10" stroke="#4a90b8" stroke-width="2"/>
+    <!-- 冰山水上 -->
+    <path d="M-22 -10 L0 -40 L22 -10 Z" fill="#cfe4f0" stroke="#4a90b8" stroke-width="1.5"/>
+    <text x="0" y="-18" text-anchor="middle" font-family="serif" font-size="9" fill="#4a90b8">1/8</text>
+    <!-- 冰山水下 -->
+    <path d="M-22 -10 L-40 30 L40 30 L22 -10 Z" fill="#cfe4f0" opacity="0.5" stroke="#4a90b8" stroke-width="1"/>
+    <text x="0" y="14" text-anchor="middle" font-family="serif" font-size="9" fill="#4a90b8">7/8</text>
+    <text x="-44" y="-14" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">水面</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">只写动作，不喊道理</text>
+  </g>
+
+  <!-- 右：诺奖与遗产 -->
+  <g transform="translate(630 240)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">诺贝尔奖</text>
+    <text x="0" y="-42" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">八周写出最好的作品</text>
+    <!-- 奖牌 -->
+    <circle cx="0" cy="0" r="28" fill="#e8a838" stroke="#c0651a" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#c0651a" stroke-width="1"/>
+    <text x="0" y="-2" text-anchor="middle" font-family="serif" font-size="9" fill="#c0651a" font-weight="bold">诺奖</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="8" fill="#c0651a">1954</text>
+    <text x="0" y="52" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">硬汉精神传遍世界</text>
+  </g>
+
+  <!-- 名句框 -->
+  <g transform="translate(400 380)">
+    <rect x="-260" y="0" width="520" height="56" fill="#fff6df" stroke="#e07856" stroke-width="2" rx="8"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="16" fill="#c84a3a" font-weight="bold">"一个人可以被毁灭，但不能被打败。"</text>
+    <text x="0" y="46" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">——《老人与海》</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="470" width="700" height="100" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6" opacity="0.85"/>
+  <text x="400" y="498" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">海明威当过救护车司机、战地记者，斗牛打猎钓鱼开飞机，一身伤疤。</text>
+  <text x="400" y="522" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">他用简洁的"冰山式"语言，写那些面对命运不肯认输的硬汉。</text>
+  <text x="400" y="546" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a">老人圣地亚哥，就是海明威自己的影子——力气小了，骨头没软。</text>
+</svg>

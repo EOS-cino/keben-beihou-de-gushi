@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="时间旅行科学概念插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：时间旅行可能吗</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 左：去未来（相对论） -->
+  <g transform="translate(200, 180)">
+    <rect x="-110" y="-60" width="220" height="160" fill="#fff6df" stroke="#6a8d3f" stroke-width="2" rx="8"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">去未来：理论可能</text>
+    <!-- 飞船 -->
+    <g transform="translate(0, 0)">
+      <path d="M-40 0 Q-30 -15 0 -15 Q30 -15 40 0 Q30 15 0 15 Q-30 15 -40 0 Z" fill="#7ab8d8" stroke="#7a3b14" stroke-width="2"/>
+      <circle cx="0" cy="0" r="6" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 速度线 -->
+      <g stroke="#c8843a" stroke-width="2" opacity="0.6">
+        <line x1="-50" y1="-8" x2="-65" y2="-8"/>
+        <line x1="-50" y1="0" x2="-70" y2="0"/>
+        <line x1="-50" y1="8" x2="-65" y2="8"/>
+      </g>
+    </g>
+    <!-- 时钟对比 -->
+    <g transform="translate(-60, 50)">
+      <circle cx="0" cy="0" r="16" fill="#fef9ed" stroke="#7a3b14" stroke-width="2"/>
+      <line x1="0" y1="0" x2="0" y2="-10" stroke="#7a3b14" stroke-width="2"/>
+      <line x1="0" y1="0" x2="8" y2="0" stroke="#7a3b14" stroke-width="1.5"/>
+      <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">飞船1年</text>
+    </g>
+    <g transform="translate(60, 50)">
+      <circle cx="0" cy="0" r="16" fill="#fef9ed" stroke="#c84a3a" stroke-width="2"/>
+      <line x1="0" y1="0" x2="0" y2="-10" stroke="#c84a3a" stroke-width="2"/>
+      <line x1="0" y1="0" x2="10" y2="5" stroke="#c84a3a" stroke-width="1.5"/>
+      <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">地球100年</text>
+    </g>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="10" fill="#6a8d3f">速度越快，时间越慢</text>
+  </g>
+
+  <!-- 右：回过去（虫洞/悖论） -->
+  <g transform="translate(600, 180)">
+    <rect x="-110" y="-60" width="220" height="160" fill="#fff6df" stroke="#c84a3a" stroke-width="2" rx="8"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">回过去：困难重重</text>
+    <!-- 虫洞 -->
+    <g transform="translate(-50, 10)">
+      <ellipse cx="0" cy="0" rx="18" ry="25" fill="#1a2a4a" stroke="#7ab8d8" stroke-width="2" opacity="0.7"/>
+      <ellipse cx="0" cy="0" rx="10" ry="15" fill="#2a3a5a" opacity="0.8"/>
+      <circle cx="-3" cy="-5" r="1" fill="#fef9ed"/>
+      <circle cx="3" cy="3" r="1" fill="#fef9ed"/>
+    </g>
+    <text x="-50" y="45" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">虫洞？</text>
+    <!-- 连接线 -->
+    <path d="M-32 10 Q0 -20 32 10" fill="none" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.5"/>
+    <g transform="translate(50, 10)">
+      <ellipse cx="0" cy="0" rx="18" ry="25" fill="#1a2a4a" stroke="#7ab8d8" stroke-width="2" opacity="0.7"/>
+      <ellipse cx="0" cy="0" rx="10" ry="15" fill="#2a3a5a" opacity="0.8"/>
+    </g>
+    <text x="50" y="45" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">捷径？</text>
+    <!-- 悖论 -->
+    <g transform="translate(0, 70)">
+      <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">祖父悖论：</text>
+      <text x="0" y="14" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">回到过去阻止祖父→</text>
+      <text x="0" y="26" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">自己就不会出生→</text>
+      <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">谁回去阻止的？</text>
+    </g>
+  </g>
+
+  <!-- 底部：爱因斯坦 -->
+  <g transform="translate(400, 420)">
+    <circle cx="0" cy="0" r="22" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-18 -2 Q-18 -18 0 -18 Q18 -18 18 -2" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头发 -->
+    <path d="M-18 -8 Q-22 -15 -15 -20 M18 -8 Q22 -15 15 -20 M0 -22 Q-5 -28 5 -28" fill="none" stroke="#fef9ed" stroke-width="2.5"/>
+    <!-- 眼镜 -->
+    <circle cx="-7" cy="0" r="5" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="7" cy="0" r="5" fill="none" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-2" y1="0" x2="2" y2="0" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 胡子 -->
+    <path d="M-8 10 Q0 18 8 10" fill="none" stroke="#fef9ed" stroke-width="2"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">爱因斯坦·相对论</text>
+  </g>
+
+  <!-- 公式 -->
+  <g transform="translate(400, 490)">
+    <rect x="-120" y="-15" width="240" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="4"/>
+    <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">E = mc²  ·  时间会随速度变化</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="42" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">去未来也许有一丝可能，回到过去目前还是科幻——时间，比我们以为的更奇妙。</text>
+</svg>

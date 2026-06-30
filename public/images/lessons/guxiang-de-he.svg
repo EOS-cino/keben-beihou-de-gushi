@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="故乡小河上石桥与垂柳老屋的水乡场景">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="280" fill="#4a90b8" opacity="0.1"/>
+  <!-- 远山 -->
+  <path d="M0 250 Q160 200 320 240 Q480 210 640 235 Q740 215 800 245 L800 280 L0 280 Z" fill="#9fc8b4" opacity="0.4"/>
+  <!-- 老柳树(左) -->
+  <g transform="translate(120 360)">
+    <rect x="-6" y="0" width="12" height="100" fill="#7a5a3a"/>
+    <path d="M0 0 Q-30 -20 -54 -46" stroke="#7a5a3a" stroke-width="5" fill="none"/>
+    <path d="M0 0 Q30 -20 54 -46" stroke="#7a5a3a" stroke-width="5" fill="none"/>
+    <circle cx="0" cy="-30" r="36" fill="#2d6a4f" opacity="0.6"/>
+    <circle cx="-28" cy="-20" r="26" fill="#2d6a4f" opacity="0.55"/>
+    <circle cx="28" cy="-24" r="28" fill="#2d6a4f" opacity="0.55"/>
+    <!-- 垂枝 -->
+    <g stroke="#2d6a4f" stroke-width="1.5" fill="none" opacity="0.6">
+      <path d="M-30 -30 Q-34 0 -38 30"/>
+      <path d="M-10 -40 Q-12 10 -14 40"/>
+      <path d="M10 -40 Q12 10 14 40"/>
+      <path d="M30 -30 Q34 0 38 30"/>
+    </g>
+  </g>
+  <!-- 石拱桥 -->
+  <g transform="translate(420 340)">
+    <path d="M-80 0 Q-80 -50 0 -50 Q80 -50 80 0 Z" fill="#f4e4c4" stroke="#8d5a36" stroke-width="2.5"/>
+    <path d="M-80 0 Q-80 -50 0 -50 Q80 -50 80 0 L70 0 Q70 -42 0 -42 Q-70 -42 -70 0 Z" fill="#4a90b8" opacity="0.35"/>
+    <!-- 桥栏 -->
+    <rect x="-80" y="-58" width="160" height="8" fill="#8d5a36"/>
+    <g fill="#8d5a36">
+      <rect x="-72" y="-50" width="4" height="10"/>
+      <rect x="-36" y="-50" width="4" height="10"/>
+      <rect x="-2" y="-50" width="4" height="10"/>
+      <rect x="32" y="-50" width="4" height="10"/>
+      <rect x="68" y="-50" width="4" height="10"/>
+    </g>
+  </g>
+  <!-- 老屋(右后) -->
+  <g transform="translate(640 320)">
+    <path d="M-50 0 L0 -38 L50 0 Z" fill="#e07856"/>
+    <rect x="-42" y="0" width="84" height="56" fill="#fff6df" stroke="#8d5a36" stroke-width="2"/>
+    <rect x="-12" y="22" width="24" height="34" fill="#8d5a36"/>
+    <rect x="-34" y="10" width="16" height="14" fill="#4a90b8" opacity="0.5"/>
+    <rect x="20" y="10" width="16" height="14" fill="#4a90b8" opacity="0.5"/>
+  </g>
+  <!-- 小河 -->
+  <path d="M0 380 Q400 360 800 380 L800 540 L0 540 Z" fill="#4a90b8" opacity="0.28"/>
+  <path d="M0 410 Q400 394 800 410 L800 540 L0 540 Z" fill="#4a90b8" opacity="0.3"/>
+  <!-- 水波 -->
+  <g stroke="#fef9ed" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M80 430 Q160 426 240 430"/>
+    <path d="M320 450 Q400 446 480 450"/>
+    <path d="M560 440 Q640 436 720 440"/>
+    <path d="M160 480 Q240 476 320 480"/>
+    <path d="M480 495 Q560 491 640 495"/>
+  </g>
+  <!-- 倒影 -->
+  <g opacity="0.25">
+    <rect x="598" y="378" width="84" height="40" fill="#fff6df"/>
+    <path d="M590 378 L640 356 L690 378 Z" fill="#e07856"/>
+  </g>
+  <!-- 小船/木盆洗衣 -->
+  <g transform="translate(240 450)">
+    <ellipse cx="0" cy="0" rx="30" ry="8" fill="#5a3a1a"/>
+    <path d="M-30 0 Q-30 14 0 14 Q30 14 30 0 Z" fill="#8d5a36"/>
+    <!-- 奶奶洗衣 -->
+    <g transform="translate(0 -14)">
+      <ellipse cx="0" cy="6" rx="14" ry="10" fill="#c84a3a"/>
+      <circle cx="0" cy="-8" r="9" fill="#f0d0a8"/>
+      <path d="M-8 -10 Q0 -18 8 -10" fill="#8a8a8a"/>
+      <!-- 捶衣棒 -->
+      <rect x="8" y="-4" width="4" height="16" fill="#5a3a1a"/>
+    </g>
+  </g>
+  <!-- 涟漪 -->
+  <g transform="translate(300 470)" stroke="#fef9ed" fill="none" opacity="0.5">
+    <ellipse cx="0" cy="0" rx="16" ry="4" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="8" ry="2" stroke-width="1"/>
+  </g>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#2d6a4f">故乡的河</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">河水日夜流淌，带不走的是岸上的牵挂</text>
+</svg>

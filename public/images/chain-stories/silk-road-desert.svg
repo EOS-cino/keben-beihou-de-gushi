@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="丝绸之路骆驼商队插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：丝绸之路上的沙漠</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="200" fill="#f5d9a8" opacity="0.35"/>
+  <!-- 落日 -->
+  <circle cx="400" cy="180" r="40" fill="#e07856" opacity="0.7"/>
+
+  <!-- 远沙丘 -->
+  <path d="M0 270 Q200 230 400 260 Q600 290 800 240 L800 320 L0 320 Z" fill="#c8843a" opacity="0.25"/>
+  <!-- 中沙丘 -->
+  <path d="M0 330 Q180 290 400 320 Q620 350 800 300 L800 400 L0 400 Z" fill="#c8843a" opacity="0.45"/>
+  <!-- 近沙丘 -->
+  <path d="M0 390 Q200 360 450 380 Q650 395 800 370 L800 500 L0 500 Z" fill="#8d5a36" opacity="0.55"/>
+  <rect x="0" y="480" width="800" height="120" fill="#d8c9a8"/>
+
+  <!-- 路线虚线（长安→西域） -->
+  <path d="M60 460 Q250 420 400 440 Q580 460 740 420" fill="none" stroke="#c84a3a" stroke-width="2.5" stroke-dasharray="8,5" opacity="0.6"/>
+
+  <!-- 长安城（左） -->
+  <g transform="translate(40, 380)">
+    <rect x="0" y="40" width="80" height="50" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <path d="M-5 40 L40 10 L85 40 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="30" y="55" width="20" height="35" fill="#5a3a1a"/>
+    <rect x="10" y="50" width="14" height="14" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="56" y="50" width="14" height="14" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1"/>
+    <text x="40" y="108" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">长安</text>
+  </g>
+
+  <!-- 敦煌（中） -->
+  <g transform="translate(360, 390)">
+    <rect x="0" y="35" width="60" height="40" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <path d="M-4 35 L30 12 L64 35 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 月牙泉 -->
+    <path d="M15 80 Q30 72 45 80 Q35 84 30 82 Q22 84 15 80" fill="#a8d0e8" opacity="0.7"/>
+    <text x="30" y="100" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">敦煌</text>
+  </g>
+
+  <!-- 西域城（右） -->
+  <g transform="translate(700, 380)">
+    <rect x="0" y="40" width="60" height="50" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <path d="M-4 40 L30 15 L64 40 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="22" y="55" width="16" height="35" fill="#5a3a1a"/>
+    <text x="30" y="108" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">西域</text>
+  </g>
+
+  <!-- 驼队（行进中） -->
+  <g transform="translate(200, 430)">
+    <!-- 骆驼1 -->
+    <g>
+      <path d="M0 30 Q-5 12 5 8 Q12 4 20 8 Q28 4 36 8 Q46 12 40 30 L40 48 L32 48 L32 36 L8 36 L8 48 L0 48 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+      <circle cx="38" cy="10" r="6" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+      <rect x="6" y="-2" width="28" height="12" rx="2" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 连线 -->
+    <line x1="40" y1="20" x2="70" y2="20" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 骆驼2 -->
+    <g transform="translate(70, 0)">
+      <path d="M0 30 Q-5 12 5 8 Q12 4 20 8 Q28 4 36 8 Q46 12 40 30 L40 48 L32 48 L32 36 L8 36 L8 48 L0 48 Z" fill="#a06a3a" stroke="#5a3a1a" stroke-width="2"/>
+      <circle cx="38" cy="10" r="6" fill="#a06a3a" stroke="#5a3a1a" stroke-width="2"/>
+      <rect x="6" y="-2" width="28" height="12" rx="2" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    </g>
+    <line x1="110" y1="20" x2="140" y2="20" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 骆驼3 -->
+    <g transform="translate(140, 0)">
+      <path d="M0 30 Q-5 12 5 8 Q12 4 20 8 Q28 4 36 8 Q46 12 40 30 L40 48 L32 48 L32 36 L8 36 L8 48 L0 48 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+      <circle cx="38" cy="10" r="6" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+      <rect x="6" y="-2" width="28" height="12" rx="2" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- 货物标注 -->
+  <line x1="230" y1="425" x2="230" y2="395" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="180" y="370" width="100" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="230" y="387" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">丝绸·茶叶·瓷器</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="42" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">两千年前，驼队驮着丝绸穿越沙海，把东方和西方连在了一起。</text>
+</svg>

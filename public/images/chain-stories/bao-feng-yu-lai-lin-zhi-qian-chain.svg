@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：风雨前后的天地">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：风雨前后的天地</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">大自然写的预告信</text>
+  <g transform="translate(150,280)">
+    <ellipse cx="0" cy="0" rx="35" ry="18" fill="#5a5a6a" opacity="0.6"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#4a4a5a">雨前·乌云</text>
+  </g>
+  <g transform="translate(330,280)">
+    <path d="M0,10 L-15,-10 L0,-5 L15,-10 Z" fill="#7a9b5a" stroke="#4a6b3a" stroke-width="1"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#5a8b5a">春前·柳芽</text>
+  </g>
+  <g transform="translate(510,280)">
+    <path d="M0,-15 L-8,5 L8,5 Z" fill="#e8b94a" stroke="#a8742a" stroke-width="1"/>
+    <line x1="-12" y1="5" x2="12" y2="5" stroke="#a8742a" stroke-width="1"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#a8742a">秋前·雁飞</text>
+  </g>
+  <g transform="translate(670,280)">
+    <path d="M-5,15 Q-15,0 -5,-5 Q5,-10 0,-15" fill="none" stroke="#5a8fa3" stroke-width="2"/>
+    <ellipse cx="5" cy="15" rx="12" ry="4" fill="#a8c8d8" opacity="0.5"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#5a8fa3">震前·井水</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">每一种变化，都是一封预告信</text>
+</svg>

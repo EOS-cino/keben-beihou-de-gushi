@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一口井里的记忆">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 顶部标题 -->
+  <text x="400" y="40" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">一口井里的记忆</text>
+  <line x1="300" y1="52" x2="500" y2="52" stroke="#c8843a" stroke-width="2"/>
+  <!-- 天空 -->
+  <rect x="0" y="58" width="800" height="220" fill="#f0e0c0"/>
+  <!-- 远山 -->
+  <path d="M0 260 L150 200 L300 250 L500 190 L700 240 L800 210 L800 280 L0 280 Z" fill="#c4a06a" opacity="0.4"/>
+  <!-- 大树 -->
+  <g transform="translate(100,280)">
+    <rect x="-8" y="0" width="16" height="100" fill="#6b4a2f"/>
+    <path d="M-8 20 L-12 10" stroke="#6b4a2f" stroke-width="4" fill="none"/>
+    <path d="M8 30 L14 20" stroke="#6b4a2f" stroke-width="4" fill="none"/>
+    <ellipse cx="0" cy="-20" rx="55" ry="50" fill="#6a8a4a"/>
+    <ellipse cx="-25" cy="-10" rx="30" ry="28" fill="#7a9a5a"/>
+    <ellipse cx="25" cy="-15" rx="32" ry="30" fill="#5a7a3a"/>
+    <ellipse cx="0" cy="-40" rx="35" ry="30" fill="#7a9a5a"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="280" width="800" height="280" fill="#d9c19a"/>
+  <!-- 草地纹理 -->
+  <g stroke="#9a8a4a" stroke-width="1.5" opacity="0.5">
+    <line x1="50" y1="420" x2="55" y2="410"/><line x1="200" y1="430" x2="205" y2="420"/>
+    <line x1="600" y1="425" x2="605" y2="415"/><line x1="720" y1="430" x2="725" y2="420"/>
+  </g>
+  <!-- 老井 -->
+  <g transform="translate(400,340)">
+    <!-- 井台石基 -->
+    <ellipse cx="0" cy="80" rx="90" ry="20" fill="#8d7a5a"/>
+    <rect x="-85" y="40" width="170" height="45" fill="#a89578" stroke="#7a6a4a" stroke-width="2"/>
+    <!-- 石块纹理 -->
+    <line x1="-50" y1="40" x2="-50" y2="85" stroke="#7a6a4a" stroke-width="1.5"/>
+    <line x1="-15" y1="40" x2="-15" y2="85" stroke="#7a6a4a" stroke-width="1.5"/>
+    <line x1="20" y1="40" x2="20" y2="85" stroke="#7a6a4a" stroke-width="1.5"/>
+    <line x1="55" y1="40" x2="55" y2="85" stroke="#7a6a4a" stroke-width="1.5"/>
+    <!-- 井口 -->
+    <ellipse cx="0" cy="40" rx="85" ry="18" fill="#2d1c10"/>
+    <ellipse cx="0" cy="38" rx="78" ry="14" fill="#4a6a8a" opacity="0.7"/>
+    <!-- 井水倒影 -->
+    <ellipse cx="-15" cy="36" rx="20" ry="4" fill="#8ab4d4" opacity="0.5"/>
+    <!-- 井架木柱 -->
+    <rect x="-75" y="-50" width="10" height="95" fill="#8d5a36" stroke="#6b4a2f" stroke-width="1.5"/>
+    <rect x="65" y="-50" width="10" height="95" fill="#8d5a36" stroke="#6b4a2f" stroke-width="1.5"/>
+    <!-- 横梁 -->
+    <rect x="-85" y="-58" width="170" height="12" fill="#8d5a36" stroke="#6b4a2f" stroke-width="1.5"/>
+    <!-- 滑轮 -->
+    <circle cx="0" cy="-52" r="8" fill="#6b4a2f" stroke="#4a3525" stroke-width="1.5"/>
+    <circle cx="0" cy="-52" r="3" fill="#3d2817"/>
+    <!-- 绳子 -->
+    <path d="M0 -44 L5 10" stroke="#9a7548" stroke-width="2" fill="none"/>
+    <!-- 水桶 -->
+    <path d="M-5 10 L-12 10 L-10 28 L8 28 L10 10 L5 10 Z" fill="#8d5a36" stroke="#6b4a2f" stroke-width="1.5"/>
+    <ellipse cx="-1" cy="10" rx="8" ry="2" fill="#6b4a2f"/>
+    <path d="M-8 14 Q-1 12 6 14" stroke="#5a3a1a" stroke-width="1" fill="none"/>
+  </g>
+  <!-- 老人 -->
+  <g transform="translate(200,400)">
+    <circle cx="0" cy="-55" r="12" fill="#e8c4a0"/>
+    <!-- 白发 -->
+    <path d="M-12 -60 Q0 -72 12 -60 L10 -52 Q0 -58 -10 -52 Z" fill="#e8e0d0"/>
+    <!-- 眼睛 -->
+    <path d="M-5 -56 L-2 -56 M2 -56 L5 -56" stroke="#3d2817" stroke-width="1.5"/>
+    <!-- 白胡子 -->
+    <path d="M-7 -48 Q0 -35 7 -48" fill="#e8e0d0"/>
+    <!-- 身体 -->
+    <path d="M-16 -44 L-20 -5 L-12 0 L12 0 L20 -5 L16 -44 Z" fill="#8a5a3a"/>
+    <!-- 手臂（比划讲故事） -->
+    <path d="M-16 -38 L-30 -20 L-35 -10" stroke="#8a5a3a" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <circle cx="-36" cy="-10" r="4" fill="#e8c4a0"/>
+    <path d="M16 -38 L28 -28" stroke="#8a5a3a" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <circle cx="29" cy="-28" r="4" fill="#e8c4a0"/>
+    <!-- 腿（坐姿） -->
+    <path d="M-10 0 L-25 15 L-22 20" stroke="#5a3a1a" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M10 0 L25 15 L28 20" stroke="#5a3a1a" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- 小板凳 -->
+    <rect x="-22" y="18" width="44" height="6" fill="#8d5a36"/>
+    <rect x="-18" y="24" width="5" height="12" fill="#6b4a2f"/>
+    <rect x="13" y="24" width="5" height="12" fill="#6b4a2f"/>
+  </g>
+  <!-- 孩子1 -->
+  <g transform="translate(560,430)">
+    <circle cx="0" cy="-35" r="9" fill="#e8c4a0"/>
+    <path d="M-9 -40 Q0 -48 9 -40" fill="#3d2817"/>
+    <circle cx="-3" cy="-36" r="1.5" fill="#3d2817"/><circle cx="3" cy="-36" r="1.5" fill="#3d2817"/>
+    <path d="M-3 -30 Q0 -28 3 -30" stroke="#3d2817" stroke-width="1" fill="none"/>
+    <path d="M-10 -28 L-12 -2 L-6 0 L6 0 L12 -2 L10 -28 Z" fill="#c8843a"/>
+    <path d="M-10 -22 L-18 -10" stroke="#c8843a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M10 -22 L18 -10" stroke="#c8843a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M-6 0 L-8 12" stroke="#5a3a1a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M6 0 L8 12" stroke="#5a3a1a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 孩子2 -->
+  <g transform="translate(630,440)">
+    <circle cx="0" cy="-30" r="8" fill="#e8c4a0"/>
+    <path d="M-8 -34 Q0 -42 8 -34" fill="#5a3a1a"/>
+    <circle cx="-2.5" cy="-31" r="1.2" fill="#3d2817"/><circle cx="2.5" cy="-31" r="1.2" fill="#3d2817"/>
+    <path d="M-2 -26 Q0 -24 2 -26" stroke="#3d2817" stroke-width="1" fill="none"/>
+    <path d="M-9 -24 L-10 -2 L-5 0 L5 0 L10 -2 L9 -24 Z" fill="#6a8a4a"/>
+    <path d="M-9 -18 L-15 -8" stroke="#6a8a4a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M9 -18 L15 -8" stroke="#6a8a4a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M-5 0 L-6 10" stroke="#5a3a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M5 0 L6 10" stroke="#5a3a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 标注：老井 -->
+  <line x1="400" y1="340" x2="400" y2="295" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="345" y="270" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="289" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">老井</text>
+  <!-- 标注：饮水思源 -->
+  <line x1="330" y1="380" x2="250" y2="340" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="80" y="322" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="135" y="341" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">饮水思源</text>
+  <!-- 标注：代代相传 -->
+  <line x1="560" y1="420" x2="640" y2="380" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="610" y="362" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="665" y="381" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">代代相传</text>
+  <!-- 底部说明 -->
+  <rect x="40" y="545" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">村口老井旁，老人讲着往事，孩子们静静聆听——井水映出岁月，故事代代相传，饮水思源不忘本。</text>
+</svg>

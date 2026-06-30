@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春日清晨窗外落花与鸟儿">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">春晓</text>
+  <rect x="200" y="150" width="400" height="250" rx="5" fill="#fff" stroke="#8d5a36" stroke-width="4"/>
+  <line x1="200" y1="275" x2="600" y2="275" stroke="#8d5a36" stroke-width="3"/>
+  <line x1="400" y1="150" x2="400" y2="400" stroke="#8d5a36" stroke-width="3"/>
+  <path d="M220 170c20-15 40-18 60-10 15 6 25 18 20 35-5 15-20 22-38 20-22-3-38-15-42-30-2-8 0-12 0-15z" fill="#6a8d3f" opacity="0.3"/>
+  <path d="M500 170c20-15 40-18 60-10 15 6 25 18 20 35-5 15-20 22-38 20-22-3-38-15-42-30-2-8 0-12 0-15z" fill="#4a6a2f" opacity="0.3"/>
+  <circle cx="250" cy="190" r="8" fill="#e07856" opacity="0.6"/>
+  <circle cx="270" cy="200" r="6" fill="#c84a3a" opacity="0.6"/>
+  <circle cx="530" cy="195" r="7" fill="#e07856" opacity="0.6"/>
+  <ellipse cx="300" cy="320" rx="20" ry="12" fill="#e07856" opacity="0.5"/>
+  <circle cx="290" cy="315" r="10" fill="#c84a3a" opacity="0.5"/>
+  <circle cx="287" cy="312" r="2" fill="#7a3b14"/>
+  <circle cx="293" cy="312" r="2" fill="#7a3b14"/>
+  <path d="M285 322 L275 325 L285 328z" fill="#c84a3a" opacity="0.5"/>
+  <path d="M300 315 Q320 305 340 315" stroke="#8d5a36" stroke-width="2" fill="none"/>
+  <ellipse cx="480" cy="330" rx="18" ry="12" fill="#c8843a" opacity="0.5"/>
+  <circle cx="470" cy="325" r="10" fill="#e07856" opacity="0.5"/>
+  <circle cx="467" cy="322" r="2" fill="#7a3b14"/>
+  <circle cx="473" cy="322" r="2" fill="#7a3b14"/>
+  <path d="M465 332 L455 335 L465 338z" fill="#e07856" opacity="0.5"/>
+  <path d="M480 325 Q500 315 520 325" stroke="#8d5a36" stroke-width="2" fill="none"/>
+  <circle cx="150" cy="450" r="6" fill="#e07856" opacity="0.4"/>
+  <circle cx="180" cy="460" r="5" fill="#c84a3a" opacity="0.4"/>
+  <circle cx="220" cy="445" r="7" fill="#e07856" opacity="0.4"/>
+  <circle cx="580" cy="450" r="6" fill="#c84a3a" opacity="0.4"/>
+  <circle cx="620" cy="455" r="5" fill="#e07856" opacity="0.4"/>
+  <circle cx="660" cy="445" r="7" fill="#c84a3a" opacity="0.4"/>
+  <path d="M100 470 Q200 460 300 470 Q400 480 500 470 Q600 460 700 470" stroke="#6a8d3f" stroke-width="3" fill="none" opacity="0.3"/>
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">春眠不觉晓 处处闻啼鸟</text>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">夜来风雨声 花落知多少</text>
+</svg>

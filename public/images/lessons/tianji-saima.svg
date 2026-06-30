@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="田忌赛马策略插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">田忌赛马</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="160" fill="#e8f0d8"/>
+  <!-- 远山 -->
+  <path d="M0 240 L80 180 L160 220 L260 160 L360 210 L460 170 L560 205 L660 165 L760 200 L800 185 L800 280 L0 280 Z" fill="#c8d8b0" opacity="0.5"/>
+
+  <!-- 赛马场跑道 -->
+  <rect x="0" y="240" width="800" height="280" fill="#d8b878"/>
+  <!-- 跑道线 -->
+  <path d="M0 280 Q200 275 400 280 T800 280" fill="none" stroke="#b89858" stroke-width="3" stroke-dasharray="15,10"/>
+  <path d="M0 380 Q200 375 400 380 T800 380" fill="none" stroke="#b89858" stroke-width="3" stroke-dasharray="15,10"/>
+  <path d="M0 460 Q200 455 400 460 T800 460" fill="none" stroke="#b89858" stroke-width="3"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="520" width="800" height="80" fill="#c8a878"/>
+
+  <!-- 赛马1（田忌的上等马，领先） -->
+  <!-- 马身 -->
+  <ellipse cx="200" cy="340" rx="60" ry="35" fill="#8a5a28" stroke="#5a3a10" stroke-width="2.5"/>
+  <!-- 马脖子 -->
+  <path d="M250 325 Q280 310 290 290 L300 300 Q285 320 260 340" fill="#8a5a28" stroke="#5a3a10" stroke-width="2.5"/>
+  <!-- 马头 -->
+  <ellipse cx="295" cy="285" rx="22" ry="15" fill="#8a5a28" stroke="#5a3a10" stroke-width="2.5" transform="rotate(-15 295 285)"/>
+  <!-- 马耳朵 -->
+  <path d="M285 272 L282 260 L290 268" fill="#8a5a28" stroke="#5a3a10" stroke-width="2"/>
+  <path d="M298 270 L300 258 L305 268" fill="#8a5a28" stroke="#5a3a10" stroke-width="2"/>
+  <!-- 马眼 -->
+  <circle cx="300" cy="283" r="3" fill="#2a2a2a"/>
+  <!-- 马鼻 -->
+  <ellipse cx="312" cy="290" rx="5" ry="4" fill="#5a3a10"/>
+  <!-- 马鬃 -->
+  <path d="M275 290 Q270 275 278 265 Q285 275 280 290" fill="#3a2a10"/>
+  <path d="M265 300 Q260 285 268 275 Q275 285 270 300" fill="#3a2a10"/>
+  <!-- 马尾 -->
+  <path d="M140 335 Q120 330 110 345 Q115 350 125 345" fill="none" stroke="#5a3a10" stroke-width="5" stroke-linecap="round"/>
+  <!-- 马腿（奔跑状） -->
+  <path d="M170 370 L165 410" fill="none" stroke="#8a5a28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M195 375 L200 415" fill="none" stroke="#8a5a28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M225 370 L220 410" fill="none" stroke="#8a5a28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M245 375 L255 410" fill="none" stroke="#8a5a28" stroke-width="8" stroke-linecap="round"/>
+  <!-- 骑手 -->
+  <circle cx="210" cy="310" r="12" fill="#f0d0a8"/>
+  <path d="M200 308 Q210 298 220 308 L220 304 Q210 294 200 304 Z" fill="#c84030"/>
+  <path d="M204 322 L208 340 L212 340 L216 322 Z" fill="#c84030"/>
+
+  <!-- 赛马2（齐王的马，落后） -->
+  <ellipse cx="560" cy="340" rx="55" ry="32" fill="#6a4a2a" stroke="#3a2a10" stroke-width="2.5"/>
+  <path d="M605 325 Q630 310 640 290 L648 300 Q635 320 615 340" fill="#6a4a2a" stroke="#3a2a10" stroke-width="2.5"/>
+  <ellipse cx="645" cy="285" rx="20" ry="14" fill="#6a4a2a" stroke="#3a2a10" stroke-width="2.5" transform="rotate(-15 645 285)"/>
+  <path d="M636 272 L633 260 L640 268" fill="#6a4a2a" stroke="#3a2a10" stroke-width="2"/>
+  <path d="M648 270 L650 258 L655 268" fill="#6a4a2a" stroke="#3a2a10" stroke-width="2"/>
+  <circle cx="650" cy="283" r="3" fill="#2a2a2a"/>
+  <ellipse cx="660" cy="290" rx="5" ry="4" fill="#3a2a10"/>
+  <path d="M625 290 Q620 275 628 265 Q635 275 630 290" fill="#2a1a08"/>
+  <path d="M505 335 Q485 330 475 345 Q480 350 490 345" fill="none" stroke="#3a2a10" stroke-width="5" stroke-linecap="round"/>
+  <path d="M535 370 L530 410" fill="none" stroke="#6a4a2a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M558 375 L562 415" fill="none" stroke="#6a4a2a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M585 370 L580 410" fill="none" stroke="#6a4a2a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M603 375 L612 410" fill="none" stroke="#6a4a2a" stroke-width="8" stroke-linecap="round"/>
+  <!-- 骑手 -->
+  <circle cx="570" cy="310" r="12" fill="#f0d0a8"/>
+  <path d="M560 308 Q570 298 580 308 L580 304 Q570 294 560 304 Z" fill="#2e5a8a"/>
+  <path d="M564 322 L568 340 L572 340 L576 322 Z" fill="#2e5a8a"/>
+
+  <!-- 终点线 -->
+  <line x1="700" y1="280" x2="700" y2="460" stroke="#c84030" stroke-width="4" stroke-dasharray="10,8"/>
+  <rect x="690" y="260" width="20" height="20" fill="#c84030"/>
+
+  <!-- 田忌（在场边观战指挥） -->
+  <!-- 身体 -->
+  <path d="M100 510 L105 440 L145 440 L150 510 Z" fill="#2e5a8a"/>
+  <!-- 头 -->
+  <circle cx="125" cy="420" r="18" fill="#f0d0a8"/>
+  <!-- 头巾 -->
+  <path d="M107 416 Q125 398 143 416 L143 410 Q125 394 107 410 Z" fill="#1e3a5a"/>
+  <rect x="115" y="406" width="20" height="12" fill="#1e3a5a"/>
+  <!-- 眼睛 -->
+  <circle cx="119" cy="420" r="2" fill="#2a2a2a"/>
+  <circle cx="131" cy="420" r="2" fill="#2a2a2a"/>
+  <!-- 嘴（得意微笑） -->
+  <path d="M119 430 Q125 433 131 430" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 胡须 -->
+  <path d="M120 434 Q125 440 130 434" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+  <!-- 手臂（指向赛道） -->
+  <path d="M145 455 L175 440" fill="none" stroke="#2e5a8a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="177" cy="438" r="7" fill="#f0d0a8"/>
+
+  <!-- 孙膑（军师，坐在轮椅上） -->
+  <circle cx="400" cy="440" r="16" fill="#f0d0a8"/>
+  <path d="M386 438 Q400 424 414 438 L414 432 Q400 420 386 432 Z" fill="#2a2a2a"/>
+  <circle cx="394" cy="440" r="2" fill="#2a2a2a"/>
+  <circle cx="406" cy="440" r="2" fill="#2a2a2a"/>
+  <path d="M394 450 Q400 453 406 450" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M390 460 L395 510 L405 510 L410 460 Z" fill="#3a6a4a"/>
+  <!-- 轮椅 -->
+  <circle cx="400" cy="520" r="25" fill="none" stroke="#5a3a10" stroke-width="4"/>
+  <circle cx="400" cy="520" r="20" fill="none" stroke="#8a6a3a" stroke-width="1.5"/>
+
+  <!-- 田忌马标注 -->
+  <line x1="200" y1="300" x2="200" y2="260" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="135" y="235" width="130" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="200" y="253" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">田忌上等马</text>
+
+  <!-- 齐王马标注 -->
+  <line x1="560" y1="300" x2="560" y2="260" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="495" y="235" width="130" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="560" y="253" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">齐王中等马</text>
+
+  <!-- 田忌标注 -->
+  <line x1="125" y1="400" x2="125" y2="360" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="80" y="335" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="125" y="353" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">田忌</text>
+
+  <!-- 孙膑标注 -->
+  <line x1="400" y1="420" x2="400" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="355" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="373" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">孙膑（军师）</text>
+
+  <!-- 终点标注 -->
+  <line x1="700" y1="270" x2="700" y2="230" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="655" y="205" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="700" y="223" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">终点</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">孙膑献策：以下对上、以上对中、以中对下，田忌三局两胜赢得赛马</text>
+</svg>

@@ -1,0 +1,185 @@
+---
+import "../styles/global.css";
+
+const {
+  title = "课文背后的故事",
+  description = "给小学生看的语文课文背景故事网站。",
+  ogImage,
+  ogType = "website",
+  canonical,
+  jsonLd,
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+
+// Compute absolute URLs for canonical / OG image based on the configured site.
+const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, "") : "";
+
+function toAbsoluteUrl(path: string): string {
+  if (!path) return "";
+  if (/^https?:\/\//i.test(path)) return path;
+  const rooted = withBase(path);
+  return siteOrigin ? `${siteOrigin}${rooted}` : rooted;
+}
+
+const canonicalUrl = canonical || (siteOrigin ? `${siteOrigin}${Astro.url.pathname}` : Astro.url.pathname);
+const ogImageUrl = ogImage ? toAbsoluteUrl(ogImage) : toAbsoluteUrl("/favicon.svg");
+
+// Default WebSite structured data, always present.
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "课文背后的故事",
+  url: siteOrigin || withBase("/"),
+  description,
+  inLanguage: "zh-CN",
+};
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#fdfaf3" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:site_name" content="课文背后的故事" />
+    <meta property="og:locale" content="zh_CN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <link rel="icon" href={withBase("/favicon.svg")} />
+    <link rel="manifest" href={withBase("/manifest.json")} />
+    <link rel="apple-touch-icon" href={withBase("/favicon.svg")} />
+    <link rel="alternate" type="application/rss+xml" title="课文背后的故事" href={withBase("/rss.xml")} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>{title}</title>
+    <script is:inline>
+      // Prevent dark mode FOUC
+      (function() {
+        const saved = localStorage.getItem('ketang-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = saved || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+
+    <!-- JSON-LD: default WebSite structured data -->
+    <script type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)} is:inline></script>
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline></script>
+    )}
+  </head>
+  <body
+    style={`--book-river-image: url("${withBase("/images/book-river.svg")}"); --hero-image: url("${withBase("/images/hero-storybook.jpg")}");`}
+  >
+    <header class="site-header">
+      <a class="brand" href={withBase("/")} aria-label="回到首页">
+        <span class="brand-mark">文</span>
+        <span>
+          <strong>课文背后的故事</strong>
+          <small>小学语文 · 背景阅读</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <a href={withBase("/")}>首页</a>
+        <a href={withBase("/lessons/")}>课文库</a>
+        <a href={withBase("/curriculum/")}>教材目录</a>
+        <a href={withBase("/timeline/")}>时间轴</a>
+        <a href={withBase("/compare/")}>对比阅读</a>
+        <a href={withBase("/flashcards/")}>卡片复习</a>
+        <a href={withBase("/dashboard/")}>仪表盘</a>
+        <a href={withBase("/about/")}>关于</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换暗色/亮色模式">
+          <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="brand-mark small">文</span>
+          <div>
+            <strong>课文背后的故事</strong>
+            <p>用故事点亮课文，让阅读成为探索。</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href={withBase("/lessons/")}>课文库</a>
+          <a href={withBase("/authors/")}>作者</a>
+          <a href={withBase("/curriculum/")}>教材目录</a>
+          <a href={withBase("/about/")}>关于</a>
+          <a href={withBase("/rss.xml")} aria-label="RSS 订阅">RSS</a>
+        </div>
+      </div>
+      <p class="footer-note">
+        本站以原创导读、背景故事和延伸阅读为主，不转载现行教材全文。适合作为语文兴趣阅读、亲子共读和 AI 创作练习项目。
+      </p>
+    </footer>
+    <button class="back-to-top" id="backToTop" aria-label="回到顶部" title="回到顶部">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 19V5M5 12l7-7 7 7" />
+      </svg>
+    </button>
+    <script>
+      const btn = document.getElementById("backToTop");
+      if (btn) {
+        let ticking = false;
+        window.addEventListener("scroll", () => {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              btn.classList.toggle("visible", window.scrollY > 400);
+              ticking = false;
+            });
+            ticking = true;
+          }
+        });
+        btn.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      }
+    </script>
+    <script>
+      // Theme toggle
+      const themeToggle = document.getElementById("themeToggle");
+      if (themeToggle) {
+        const updateToggleIcon = () => {
+          const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+          themeToggle.setAttribute("aria-label", isDark ? "切换到亮色模式" : "切换到暗色模式");
+        };
+        updateToggleIcon();
+        themeToggle.addEventListener("click", () => {
+          const current = document.documentElement.getAttribute("data-theme");
+          const next = current === "dark" ? "light" : "dark";
+          document.documentElement.setAttribute("data-theme", next);
+          localStorage.setItem("ketang-theme", next);
+          updateToggleIcon();
+        });
+      }
+      // Register Service Worker for PWA
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js").catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

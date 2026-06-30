@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="秋天的树林黄叶飘落，大雁排成人字南飞的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">秋天</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="330" fill="#a8d0e8"/>
+  <!-- 远山 -->
+  <path d="M0 400 L120 320 L240 380 L380 300 L520 370 L660 310 L800 380 L800 400 Z" fill="#8d5a36" opacity="0.35"/>
+  <path d="M0 400 L100 350 L220 390 L360 340 L500 385 L640 345 L800 390 L800 400 Z" fill="#8d5a36" opacity="0.25"/>
+
+  <!-- 大雁排成人字 -->
+  <g fill="#3a2a1a" transform="translate(400,150)">
+    <!-- 头雁 -->
+    <g transform="translate(0,0)">
+      <ellipse cx="0" cy="0" rx="14" ry="6"/>
+      <path d="M14 0 L24 -3 L24 3 Z"/>
+    </g>
+    <!-- 左排 -->
+    <g transform="translate(-30,18)"><ellipse cx="0" cy="0" rx="12" ry="5"/><path d="M12 0 L21 -2 L21 2 Z"/></g>
+    <g transform="translate(-58,34)"><ellipse cx="0" cy="0" rx="12" ry="5"/><path d="M12 0 L21 -2 L21 2 Z"/></g>
+    <g transform="translate(-86,50)"><ellipse cx="0" cy="0" rx="11" ry="5"/><path d="M11 0 L19 -2 L19 2 Z"/></g>
+    <!-- 右排 -->
+    <g transform="translate(30,18)"><ellipse cx="0" cy="0" rx="12" ry="5"/><path d="M12 0 L21 -2 L21 2 Z"/></g>
+    <g transform="translate(58,34)"><ellipse cx="0" cy="0" rx="12" ry="5"/><path d="M12 0 L21 -2 L21 2 Z"/></g>
+    <g transform="translate(86,50)"><ellipse cx="0" cy="0" rx="11" ry="5"/><path d="M11 0 L19 -2 L19 2 Z"/></g>
+  </g>
+  <text x="400" y="230" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">大雁排成"人"字往南飞</text>
+
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="200" fill="#c8843a" opacity="0.3"/>
+  <rect x="0" y="430" width="800" height="170" fill="#8d5a36" opacity="0.25"/>
+
+  <!-- 左边大树 -->
+  <g transform="translate(150,400)">
+    <rect x="-12" y="-110" width="24" height="110" fill="#7a3b14"/>
+    <path d="M-12 -60 Q-30 -50 -28 -30" fill="none" stroke="#5a2a10" stroke-width="3"/>
+    <!-- 树冠 黄色 -->
+    <ellipse cx="0" cy="-140" rx="75" ry="70" fill="#c8843a"/>
+    <ellipse cx="-30" cy="-120" rx="40" ry="38" fill="#e0a050"/>
+    <ellipse cx="35" cy="-130" rx="42" ry="40" fill="#d89040"/>
+    <ellipse cx="0" cy="-165" rx="50" ry="45" fill="#e0a050"/>
+  </g>
+
+  <!-- 右边大树 -->
+  <g transform="translate(640,400)">
+    <rect x="-12" y="-100" width="24" height="100" fill="#7a3b14"/>
+    <ellipse cx="0" cy="-130" rx="70" ry="65" fill="#c8843a"/>
+    <ellipse cx="-28" cy="-110" rx="38" ry="36" fill="#e0a050"/>
+    <ellipse cx="32" cy="-120" rx="40" ry="38" fill="#d89040"/>
+    <ellipse cx="0" cy="-155" rx="46" ry="42" fill="#e0a050"/>
+  </g>
+
+  <!-- 中间小树 -->
+  <g transform="translate(400,400)">
+    <rect x="-8" y="-70" width="16" height="70" fill="#7a3b14"/>
+    <ellipse cx="0" cy="-95" rx="48" ry="45" fill="#c8843a"/>
+    <ellipse cx="-18" cy="-80" rx="26" ry="24" fill="#e0a050"/>
+    <ellipse cx="20" cy="-88" rx="28" ry="26" fill="#d89040"/>
+  </g>
+
+  <!-- 飘落的叶子 -->
+  <g fill="#c8843a">
+    <path d="M250 180 Q258 175 262 182 Q258 188 250 183 Z" transform="rotate(20 256 181)"/>
+    <path d="M520 200 Q528 195 532 202 Q528 208 520 203 Z" transform="rotate(-15 526 201)"/>
+    <path d="M180 280 Q188 275 192 282 Q188 288 180 283 Z" transform="rotate(45 186 281)"/>
+    <path d="M600 260 Q608 255 612 262 Q608 268 600 263 Z" transform="rotate(-30 606 261)"/>
+    <path d="M340 240 Q348 235 352 242 Q348 248 340 243 Z" transform="rotate(60 346 241)"/>
+  </g>
+  <g fill="#e0a050">
+    <path d="M450 300 Q458 295 462 302 Q458 308 450 303 Z" transform="rotate(30 456 301)"/>
+    <path d="M300 340 Q308 335 312 342 Q308 348 300 343 Z" transform="rotate(-20 306 341)"/>
+  </g>
+
+  <!-- 地上的落叶 -->
+  <g fill="#c8843a" opacity="0.8">
+    <ellipse cx="100" cy="470" rx="10" ry="5" transform="rotate(20 100 470)"/>
+    <ellipse cx="220" cy="490" rx="9" ry="4" transform="rotate(-30 220 490)"/>
+    <ellipse cx="350" cy="475" rx="10" ry="5" transform="rotate(45 350 475)"/>
+    <ellipse cx="500" cy="495" rx="9" ry="4" transform="rotate(-15 500 495)"/>
+    <ellipse cx="620" cy="478" rx="10" ry="5" transform="rotate(25 620 478)"/>
+    <ellipse cx="720" cy="492" rx="9" ry="4" transform="rotate(-40 720 492)"/>
+  </g>
+
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">天气凉了，树叶黄了，秋天来了</text>
+</svg>

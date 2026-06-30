@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天冰雪消融与嫩芽初绽插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">春天的脚步</text>
+  <line x1="300" y1="62" x2="500" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空（暖春） -->
+  <rect x="0" y="70" width="800" height="250" fill="#a8d0e8" opacity="0.3"/>
+  <!-- 太阳 -->
+  <circle cx="650" cy="150" r="40" fill="#e07856" opacity="0.6"/>
+  <circle cx="650" cy="150" r="55" fill="#e07856" opacity="0.15"/>
+
+  <!-- 远山（残雪） -->
+  <path d="M0 300 L120 220 L250 270 L400 200 L550 260 L700 220 L800 250 L800 340 L0 340 Z" fill="#6a8d3f" opacity="0.3"/>
+  <!-- 山顶残雪 -->
+  <path d="M110 235 L120 220 L135 240 Z" fill="#fef9ed" opacity="0.8"/>
+  <path d="M390 215 L400 200 L415 220 Z" fill="#fef9ed" opacity="0.8"/>
+  <path d="M690 235 L700 220 L715 240 Z" fill="#fef9ed" opacity="0.8"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="320" width="800" height="280" fill="#d8c9a8"/>
+  <!-- 融化的雪地（左半） -->
+  <path d="M0 320 Q200 340 400 330 Q200 360 0 350 Z" fill="#fef9ed" opacity="0.7"/>
+
+  <!-- 小河（融冰） -->
+  <path d="M0 380 Q200 370 400 385 Q600 395 800 375 L800 410 Q600 430 400 415 Q200 400 0 410 Z" fill="#a8d0e8" opacity="0.7"/>
+  <!-- 水波 -->
+  <path d="M100 395 Q130 390 160 395" fill="none" stroke="#7ab8d8" stroke-width="1.5"/>
+  <path d="M400 400 Q430 395 460 400" fill="none" stroke="#7ab8d8" stroke-width="1.5"/>
+  <path d="M600 392 Q630 387 660 392" fill="none" stroke="#7ab8d8" stroke-width="1.5"/>
+
+  <!-- 冰块（漂浮） -->
+  <path d="M250 385 L280 383 L278 395 L252 397 Z" fill="#fef9ed" opacity="0.85" stroke="#7ab8d8" stroke-width="1"/>
+  <path d="M500 390 L525 388 L523 398 L502 400 Z" fill="#fef9ed" opacity="0.85" stroke="#7ab8d8" stroke-width="1"/>
+
+  <!-- 屋檐冰柱滴水 -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="120" height="10" fill="#8d5a36"/>
+    <path d="M40 10 L42 45 L38 45 Z" fill="#a8d0e8" opacity="0.8" stroke="#7ab8d8" stroke-width="1"/>
+    <circle cx="40" cy="52" r="3" fill="#7ab8d8" opacity="0.7"/>
+    <circle cx="40" cy="60" r="2" fill="#7ab8d8" opacity="0.4"/>
+  </g>
+
+  <!-- 柳树（发芽） -->
+  <g transform="translate(580, 320)">
+    <rect x="-6" y="0" width="12" height="80" fill="#5a3a1a"/>
+    <!-- 垂枝 -->
+    <path d="M0 20 Q-30 50 -40 90" fill="none" stroke="#6a8d3f" stroke-width="2" opacity="0.6"/>
+    <path d="M0 25 Q-20 55 -25 95" fill="none" stroke="#6a8d3f" stroke-width="2" opacity="0.6"/>
+    <path d="M0 20 Q30 50 40 90" fill="none" stroke="#6a8d3f" stroke-width="2" opacity="0.6"/>
+    <path d="M0 25 Q20 55 25 95" fill="none" stroke="#6a8d3f" stroke-width="2" opacity="0.6"/>
+    <!-- 嫩芽点 -->
+    <circle cx="-35" cy="85" r="3" fill="#6a8d3f"/>
+    <circle cx="-22" cy="90" r="3" fill="#6a8d3f"/>
+    <circle cx="35" cy="85" r="3" fill="#6a8d3f"/>
+    <circle cx="22" cy="90" r="3" fill="#6a8d3f"/>
+  </g>
+
+  <!-- 嫩草 -->
+  <g stroke="#6a8d3f" stroke-width="2" fill="none">
+    <path d="M200 460 Q202 445 200 435"/>
+    <path d="M210 462 Q213 448 212 438"/>
+    <path d="M220 460 Q218 445 220 436"/>
+    <path d="M320 470 Q322 455 320 445"/>
+    <path d="M330 472 Q333 458 332 448"/>
+  </g>
+
+  <!-- 迎春花 -->
+  <g transform="translate(150, 440)">
+    <rect x="-2" y="0" width="4" height="30" fill="#4a6a2f"/>
+    <circle cx="-8" cy="-5" r="5" fill="#e07856"/>
+    <circle cx="8" cy="-8" r="5" fill="#e07856"/>
+    <circle cx="0" cy="-15" r="5" fill="#e07856"/>
+    <circle cx="-5" cy="5" r="4" fill="#e07856"/>
+  </g>
+
+  <!-- 燕子 -->
+  <g transform="translate(350, 160)">
+    <path d="M0 0 Q10 -8 20 0 Q15 5 10 3 Q5 5 0 0" fill="#5a3a1a"/>
+    <path d="M20 0 Q30 -10 40 0 Q35 5 30 3 Q25 5 20 0" fill="#5a3a1a" transform="translate(-15,5)"/>
+  </g>
+  <g transform="translate(450, 130)">
+    <path d="M0 0 Q8 -6 16 0 Q12 4 8 2 Q4 4 0 0" fill="#5a3a1a"/>
+  </g>
+
+  <!-- 标注：融冰 -->
+  <line x1="265" y1="390" x2="265" y2="440" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="220" y="445" width="90" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="265" y="461" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">河冰消融</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">冰化了，草绿了，燕回来了——春天就这样悄悄走近</text>
+</svg>

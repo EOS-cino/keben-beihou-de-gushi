@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="高尔基坐在书桌前，身后摆满书籍">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 房间墙 -->
+  <rect x="0" y="0" width="800" height="440" fill="#f3ece0"/>
+  <rect x="0" y="440" width="800" height="160" fill="#e8d9c0"/>
+  <!-- 书架（身后） -->
+  <rect x="500" y="80" width="260" height="320" fill="#8d5a36" stroke="#7a3b14" stroke-width="3"/>
+  <rect x="510" y="90" width="240" height="290" fill="#e8d9c0"/>
+  <!-- 隔板 -->
+  <rect x="510" y="160" width="240" height="6" fill="#8d5a36"/>
+  <rect x="510" y="240" width="240" height="6" fill="#8d5a36"/>
+  <rect x="510" y="320" width="240" height="6" fill="#8d5a36"/>
+  <!-- 书 -->
+  <rect x="520" y="100" width="16" height="58" fill="#c84a3a"/>
+  <rect x="538" y="100" width="16" height="58" fill="#6a8d3f"/>
+  <rect x="556" y="105" width="16" height="53" fill="#7ab8d8"/>
+  <rect x="574" y="100" width="16" height="58" fill="#c8843a"/>
+  <rect x="592" y="108" width="14" height="50" fill="#4a6a2f"/>
+  <rect x="608" y="100" width="16" height="58" fill="#e07856"/>
+  <rect x="626" y="105" width="16" height="53" fill="#7a3b14"/>
+  <rect x="644" y="100" width="16" height="58" fill="#c84a3a"/>
+  <rect x="520" y="180" width="16" height="58" fill="#4a6a2f"/>
+  <rect x="538" y="185" width="16" height="53" fill="#c8843a"/>
+  <rect x="556" y="180" width="16" height="58" fill="#7ab8d8"/>
+  <rect x="574" y="188" width="14" height="50" fill="#c84a3a"/>
+  <rect x="590" y="180" width="16" height="58" fill="#6a8d3f"/>
+  <rect x="608" y="185" width="16" height="53" fill="#e07856"/>
+  <rect x="520" y="260" width="16" height="58" fill="#7ab8d8"/>
+  <rect x="538" y="265" width="16" height="53" fill="#c84a3a"/>
+  <rect x="556" y="260" width="16" height="58" fill="#4a6a2f"/>
+  <rect x="574" y="268" width="14" height="50" fill="#c8843a"/>
+  <rect x="590" y="260" width="16" height="58" fill="#6a8d3f"/>
+  <!-- 书桌 -->
+  <rect x="80" y="360" width="380" height="16" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="90" y="376" width="12" height="90" fill="#8d5a36"/>
+  <rect x="438" y="376" width="12" height="90" fill="#8d5a36"/>
+  <!-- 桌上书稿 -->
+  <rect x="120" y="330" width="80" height="30" fill="#ffffff" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="130" y1="340" x2="190" y2="340" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="130" y1="348" x2="185" y2="348" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 钢笔 -->
+  <path d="M210 340 l30 -4 l4 6 l-30 4 Z" fill="#7a3b14"/>
+  <!-- 墨水瓶 -->
+  <rect x="260" y="332" width="20" height="28" fill="#3a3a3a"/>
+  <rect x="264" y="326" width="12" height="8" fill="#7a3b14"/>
+  <!-- 高尔基 -->
+  <ellipse cx="280" cy="290" rx="28" ry="32" fill="#e8c9a0"/>
+  <!-- 胡子 -->
+  <path d="M260 305 q20 18 40 0 q-20 8 -40 0 Z" fill="#7a3b14"/>
+  <path d="M252 295 q28 14 56 0" stroke="#7a3b14" stroke-width="3" fill="none"/>
+  <!-- 眼镜 -->
+  <circle cx="270" cy="285" r="8" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+  <circle cx="290" cy="285" r="8" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+  <line x1="278" y1="285" x2="282" y2="285" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="270" cy="285" r="2" fill="#7a3b14"/>
+  <circle cx="290" cy="285" r="2" fill="#7a3b14"/>
+  <!-- 西装 -->
+  <path d="M248 322 q32 -10 64 0 l20 54 l-104 0 Z" fill="#4a6a2f"/>
+  <path d="M280 322 l0 50" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 台灯 -->
+  <path d="M380 360 l-26 -44 l52 0 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="376" y="358" width="8" height="20" fill="#8d5a36"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">高尔基的故事</text>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="胚胎发育过程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：胚胎发育的奥秘</text>
+  <line x1="190" y1="62" x2="610" y2="62" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心主题 -->
+  <rect x="250" y="95" width="300" height="50" fill="#fff6df" stroke="#7ab8d8" stroke-width="2" rx="8"/>
+  <text x="400" y="120" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#4a6a2f">从一个细胞到一个婴儿</text>
+  <text x="400" y="137" text-anchor="middle" font-family="serif" font-size="11" fill="#7ab8d8">约280天的奇妙旅程</text>
+
+  <!-- 发育阶段时间线 -->
+  <!-- 阶段1：受精卵 -->
+  <g>
+    <rect x="40" y="180" width="120" height="130" fill="#fff6df" stroke="#7ab8d8" rx="6"/>
+    <text x="100" y="202" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#4a6a2f">受精卵</text>
+    <text x="100" y="216" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">第1天</text>
+    <!-- 细胞 -->
+    <circle cx="100" cy="255" r="18" fill="#f0d0a8" stroke="#c8843a" stroke-width="1.5"/>
+    <circle cx="100" cy="255" r="6" fill="#c84a3a" opacity="0.5"/>
+    <text x="100" y="295" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">一个细胞</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M165 245 L195 245" stroke="#7ab8d8" stroke-width="2"/>
+  <path d="M188 240 L198 245 L188 250" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 阶段2：分裂 -->
+  <g>
+    <rect x="200" y="180" width="120" height="130" fill="#fff6df" stroke="#7ab8d8" rx="6"/>
+    <text x="260" y="202" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#4a6a2f">细胞分裂</text>
+    <text x="260" y="216" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">第3-5天</text>
+    <!-- 多个细胞 -->
+    <g fill="#f0d0a8" stroke="#c8843a" stroke-width="1">
+      <circle cx="248" cy="250" r="9"/>
+      <circle cx="272" cy="250" r="9"/>
+      <circle cx="248" cy="268" r="9"/>
+      <circle cx="272" cy="268" r="9"/>
+    </g>
+    <text x="260" y="295" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">1→2→4→8…</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M325 245 L355 245" stroke="#7ab8d8" stroke-width="2"/>
+  <path d="M348 240 L358 245 L348 250" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 阶段3：有尾巴（像蝌蚪） -->
+  <g>
+    <rect x="360" y="180" width="120" height="130" fill="#fff6df" stroke="#6a8d3f" rx="6"/>
+    <text x="420" y="202" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#4a6a2f">有尾巴</text>
+    <text x="420" y="216" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">第5-8周</text>
+    <!-- 蝌蚪状胚胎 -->
+    <g>
+      <ellipse cx="420" cy="255" rx="18" ry="14" fill="#f0d0a8" stroke="#c8843a" stroke-width="1.5"/>
+      <path d="M420 265 Q425 280 435 290" stroke="#f0d0a8" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <circle cx="415" cy="250" r="2" fill="#2a2a2a"/>
+    </g>
+    <text x="420" y="295" text-anchor="middle" font-family="serif" font-size="10" fill="#6a8d3f">像蝌蚪（有鳃裂）</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M485 245 L515 245" stroke="#7ab8d8" stroke-width="2"/>
+  <path d="M508 240 L518 245 L508 250" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 阶段4：成形 -->
+  <g>
+    <rect x="520" y="180" width="120" height="130" fill="#fff6df" stroke="#c84a3a" rx="6"/>
+    <text x="580" y="202" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#4a6a2f">人形初现</text>
+    <text x="580" y="216" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">第3个月</text>
+    <!-- 小人形 -->
+    <g>
+      <circle cx="580" cy="240" r="10" fill="#f0d0a8" stroke="#c8843a" stroke-width="1"/>
+      <ellipse cx="580" cy="265" rx="12" ry="18" fill="#f0d0a8" stroke="#c8843a" stroke-width="1"/>
+      <line x1="572" y1="255" x2="565" y2="265" stroke="#c8843a" stroke-width="2"/>
+      <line x1="588" y1="255" x2="595" y2="265" stroke="#c8843a" stroke-width="2"/>
+    </g>
+    <text x="580" y="295" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">尾巴消失</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M645 245 L675 245" stroke="#7ab8d8" stroke-width="2"/>
+  <path d="M668 240 L678 245 L668 250" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 阶段5：成熟婴儿 -->
+  <g>
+    <rect x="680" y="180" width="100" height="130" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="6"/>
+    <text x="730" y="202" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#4a6a2f">出生</text>
+    <text x="730" y="216" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">第9个月</text>
+    <!-- 婴儿 -->
+    <g>
+      <ellipse cx="730" cy="248" rx="12" ry="10" fill="#f0d0a8" stroke="#c8843a" stroke-width="1"/>
+      <circle cx="726" cy="247" r="1.5" fill="#2a2a2a"/>
+      <circle cx="734" cy="247" r="1.5" fill="#2a2a2a"/>
+      <path d="M726 253 Q730 256 734 253" fill="none" stroke="#7a3b14" stroke-width="0.8"/>
+      <!-- 襁褓 -->
+      <path d="M715 258 Q730 265 745 258 L745 285 L715 285 Z" fill="#c84a3a"/>
+    </g>
+    <text x="730" y="295" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">约3公斤</text>
+  </g>
+
+  <!-- 重演律说明 -->
+  <g>
+    <rect x="100" y="350" width="600" height="90" fill="#fff6df" stroke="#6a8d3f" stroke-width="1.5" rx="8"/>
+    <text x="400" y="375" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a6a2f">"重演律"——个体发育重演系统发育</text>
+    <g>
+      <text x="180" y="400" text-anchor="middle" font-family="serif" font-size="12" fill="#7ab8d8">早期有鳃裂（像鱼）</text>
+      <text x="400" y="400" text-anchor="middle" font-family="serif" font-size="12" fill="#6a8d3f">中期有尾巴（像爬行动物）</text>
+      <text x="620" y="400" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">最后变成人</text>
+    </g>
+    <text x="400" y="425" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">人类进化的历史"写"在了胚胎发育里——所以费奥多罗夫的直觉很准</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从一个比句号还小的细胞，长成一个3公斤的婴儿——生命的奥秘令人惊叹</text>
+</svg>

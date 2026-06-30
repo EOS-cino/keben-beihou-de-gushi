@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古代史官辨别史料真伪">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：写历史的人，也要学会判断</text>
+  <line x1="150" y1="55" x2="650" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <rect x="0" y="490" width="800" height="110" fill="#e8d5b0" opacity="0.3"/>
+
+  <!-- 书案 -->
+  <rect x="150" y="400" width="350" height="12" fill="#a0703a" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="160" y="412" width="8" height="80" fill="#a0703a" stroke="#7a3b14" stroke-width="1.5"/>
+  <rect x="482" y="412" width="8" height="80" fill="#a0703a" stroke="#7a3b14" stroke-width="1.5"/>
+
+  <!-- 竹简堆（左） -->
+  <g transform="translate(195, 370)">
+    <rect x="0" y="0" width="80" height="12" fill="#d4a868" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="2" y="-10" width="76" height="12" fill="#c89858" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="4" y="-20" width="72" height="12" fill="#d4a868" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <line x1="20" y1="-20" x2="20" y2="12" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="60" y1="-20" x2="60" y2="12" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 展开的书卷（中） -->
+  <g transform="translate(310, 360)">
+    <rect x="0" y="0" width="100" height="40" fill="#f5e6c8" stroke="#7a3b14" stroke-width="2" rx="2"/>
+    <ellipse cx="0" cy="20" rx="6" ry="20" fill="#a0703a" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="100" cy="20" rx="6" ry="20" fill="#a0703a" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="15" y1="10" x2="85" y2="10" stroke="#7a3b14" stroke-width="0.8" opacity="0.5"/>
+    <line x1="15" y1="18" x2="80" y2="18" stroke="#7a3b14" stroke-width="0.8" opacity="0.5"/>
+    <line x1="15" y1="26" x2="85" y2="26" stroke="#7a3b14" stroke-width="0.8" opacity="0.5"/>
+    <line x1="15" y1="34" x2="70" y2="34" stroke="#7a3b14" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- 不同来源史料对比（右） -->
+  <g transform="translate(445, 365)">
+    <rect x="0" y="0" width="35" height="35" fill="#e8d0a0" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="40" y="0" width="35" height="35" fill="#d0e8a0" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <text x="17" y="22" text-anchor="middle" font-size="16" fill="#7a3b14">?</text>
+    <text x="57" y="22" text-anchor="middle" font-size="16" fill="#7a3b14">?</text>
+  </g>
+
+  <!-- 史官人物 -->
+  <path d="M 300 400 Q 290 340 295 300 Q 300 270 325 265 Q 350 270 355 300 Q 360 340 350 400" fill="#8b6914" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="325" cy="245" r="24" fill="#e8c4a0" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 古代官帽 -->
+  <path d="M 303 236 Q 303 216 325 212 Q 347 216 347 236 L 342 231 L 325 224 L 308 231 Z" fill="#3a2010" stroke="#7a3b14" stroke-width="1.5"/>
+  <rect x="307" y="227" width="36" height="7" fill="#3a2010" stroke="#7a3b14" stroke-width="1"/>
+  <circle cx="317" cy="245" r="2.5" fill="#7a3b14"/>
+  <circle cx="333" cy="245" r="2.5" fill="#7a3b14"/>
+  <line x1="312" y1="238" x2="322" y2="237" stroke="#7a3b14" stroke-width="1.5"/>
+  <line x1="328" y1="237" x2="338" y2="238" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M 320 256 Q 325 258 330 256" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M 315 258 Q 325 274 335 258" fill="none" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 手托下巴思考 -->
+  <path d="M 295 300 Q 280 290 285 270 Q 290 255 308 258" fill="none" stroke="#e8c4a0" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="308" cy="258" r="6" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+
+  <!-- 思考气泡 -->
+  <circle cx="378" cy="182" r="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <circle cx="390" cy="168" r="7" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <ellipse cx="420" cy="142" rx="35" ry="25" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="420" y="150" text-anchor="middle" font-size="28" fill="#7a3b14" font-family="serif">辨</text>
+
+  <!-- 标注：史官 -->
+  <line x1="325" y1="245" x2="240" y2="180" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="180" y="150" width="120" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="240" y="170" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">史官</text>
+
+  <!-- 标注：史料 -->
+  <line x1="235" y1="370" x2="170" y2="320" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="95" y="300" width="120" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="155" y="320" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">史料</text>
+
+  <!-- 标注：辨别 -->
+  <line x1="480" y1="382" x2="560" y2="340" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="520" y="310" width="130" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="585" y="330" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">辨别真伪</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">史官面对不同来源的史料，须仔细比对、辨别真伪，方能书写信史。</text>
+</svg>

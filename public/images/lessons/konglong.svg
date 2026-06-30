@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各种恐龙在远古森林中的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">恐龙</text>
+  <line x="360" y1="56" x2="440" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——统治地球一亿六千万年的巨兽</text>
+
+  <!-- 远古天空 -->
+  <rect x="0" y="90" width="800" height="250" fill="#a8d0e8" opacity="0.3"/>
+  <!-- 远山 -->
+  <path d="M0 340 Q150 250 300 290 Q500 230 700 280 L800 300 L800 350 L0 350 Z" fill="#6a8d3f" opacity="0.3"/>
+  <!-- 蕨类植物背景 -->
+  <g stroke="#4a6a2f" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M50 400 Q40 370 30 350 M50 400 Q60 370 70 350 M50 400 Q50 370 50 350"/>
+    <path d="M750 400 Q740 370 730 350 M750 400 Q760 370 770 350 M750 400 Q750 370 750 350"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="200" fill="#d4c8a0"/>
+  <rect x="0" y="400" width="800" height="200" fill="#8d5a36" opacity="0.15"/>
+
+  <!-- 梁龙（左侧，巨大植食恐龙） -->
+  <g transform="translate(200, 380)">
+    <text x="0" y="-100" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">梁龙（植食）</text>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="80" ry="35" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2.5"/>
+    <!-- 长脖子 -->
+    <path d="M-60 -10 Q-90 -50 -100 -90 Q-105 -100 -100 -105" fill="none" stroke="#6a8d3f" stroke-width="14" stroke-linecap="round"/>
+    <path d="M-60 -10 Q-90 -50 -100 -90 Q-105 -100 -100 -105" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 头 -->
+    <ellipse cx="-100" cy="-105" rx="12" ry="8" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <circle cx="-105" cy="-107" r="2" fill="#7a3b14"/>
+    <!-- 长尾巴 -->
+    <path d="M70 -5 Q120 -10 160 -5 Q180 0 190 10" fill="none" stroke="#6a8d3f" stroke-width="10" stroke-linecap="round"/>
+    <path d="M70 -5 Q120 -10 160 -5 Q180 0 190 10" fill="none" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 腿 -->
+    <rect x="-30" y="30" width="18" height="50" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <rect x="20" y="30" width="18" height="50" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 背刺 -->
+    <path d="M-40 -30 L-35 -40 M-20 -32 L-15 -42 M0 -32 L5 -42 M20 -30 L25 -40 M40 -28 L45 -38" stroke="#4a6a2f" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- 霸王龙（右侧，凶猛肉食恐龙） -->
+  <g transform="translate(580, 370)">
+    <text x="0" y="-120" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">霸王龙（肉食）</text>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="55" ry="40" fill="#8d5a36" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 头（大，张嘴） -->
+    <path d="M-40 -20 Q-70 -30 -75 -10 Q-70 5 -50 0 Q-45 -5 -40 -10" fill="#8d5a36" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 张开的嘴 -->
+    <path d="M-70 -5 Q-65 10 -50 5 Q-45 0 -50 -5" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 牙齿 -->
+    <path d="M-65 -3 L-63 3 M-60 -2 L-58 4 M-55 -3 L-53 3" stroke="#fef9ed" stroke-width="1.5"/>
+    <path d="M-68 5 L-66 0 M-63 6 L-61 1 M-58 5 L-56 0" stroke="#fef9ed" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="-55" cy="-18" r="4" fill="#fef9ed"/>
+    <circle cx="-55" cy="-18" r="2.5" fill="#c84a3a"/>
+    <!-- 小前肢 -->
+    <path d="M-25 10 Q-35 20 -30 30" fill="none" stroke="#8d5a36" stroke-width="5" stroke-linecap="round"/>
+    <!-- 尾巴 -->
+    <path d="M45 5 Q80 0 100 15 Q110 25 105 35" fill="none" stroke="#8d5a36" stroke-width="12" stroke-linecap="round"/>
+    <path d="M45 5 Q80 0 100 15 Q110 25 105 35" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 粗壮后腿 -->
+    <path d="M-10 35 Q-15 55 -20 75 Q-22 85 -15 88" fill="#8d5a36" stroke="#7a3b14" stroke-width="2.5"/>
+    <path d="M10 35 Q5 55 0 75 Q-2 85 5 88" fill="#8d5a36" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 爪子 -->
+    <path d="M-15 88 L-22 92 M-15 88 L-8 92 M-15 88 L-15 95" stroke="#7a3b14" stroke-width="3"/>
+    <path d="M5 88 L-2 92 M5 88 L12 92 M5 88 L5 95" stroke="#7a3b14" stroke-width="3"/>
+  </g>
+
+  <!-- 三角龙（中间偏前，小） -->
+  <g transform="translate(400, 460)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">三角龙（植食）</text>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="40" ry="25" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 头 -->
+    <path d="M-35 -5 Q-55 -10 -55 5 Q-50 15 -35 10" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 三只角 -->
+    <path d="M-45 -8 L-48 -25 M-38 -8 L-35 -25 M-52 0 L-58 -10" fill="none" stroke="#fef9ed" stroke-width="3" stroke-linecap="round"/>
+    <!-- 头盾 -->
+    <path d="M-30 -15 Q-40 -30 -25 -35 Q-15 -30 -20 -15" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 腿 -->
+    <rect x="-15" y="20" width="10" height="25" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="10" y="20" width="10" height="25" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 尾巴 -->
+    <path d="M35 0 Q55 5 65 15" fill="none" stroke="#c8843a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- 翼龙（天上飞） -->
+  <g transform="translate(500, 160)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">翼龙</text>
+    <!-- 翅膀 -->
+    <path d="M0 0 Q-30 -15 -50 -5 Q-40 5 -10 5" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5" opacity="0.7"/>
+    <path d="M0 0 Q30 -15 50 -5 Q40 5 10 5" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5" opacity="0.7"/>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="3" rx="8" ry="5" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <path d="M-3 0 Q-8 -5 -12 -3 Q-10 2 -3 2" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 化石标注 -->
+  <g transform="translate(100, 520)">
+    <rect x="-80" y="0" width="160" height="50" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">化石是证据</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">骨骼变成石头保存下来</text>
+  </g>
+
+  <!-- 灭绝标注 -->
+  <g transform="translate(700, 520)">
+    <rect x="-80" y="0" width="160" height="50" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a" font-weight="bold">6600万年前灭绝</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">小行星撞击？火山爆发？</text>
+  </g>
+</svg>

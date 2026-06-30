@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各种姓氏汉字和小朋友互相介绍的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">姓氏歌</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">你姓什么？我姓李。什么李？木子李。</text>
+
+  <!-- 拆字展示 -->
+  <!-- 木子李 -->
+  <g transform="translate(200,200)">
+    <rect x="-80" y="-50" width="160" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="-45" y="10" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#6a8d3f">木</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="24" fill="#c8843a">+</text>
+    <text x="45" y="10" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#c8843a">子</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">木子</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="40" font-weight="bold" fill="#7a3b14">李</text>
+  </g>
+
+  <!-- 弓长张 -->
+  <g transform="translate(600,200)">
+    <rect x="-80" y="-50" width="160" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="-45" y="10" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#c84a3a">弓</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="24" fill="#c8843a">+</text>
+    <text x="45" y="10" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#4a6a2f">长</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">弓长</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="40" font-weight="bold" fill="#7a3b14">张</text>
+  </g>
+
+  <!-- 双木林 -->
+  <g transform="translate(200,380)">
+    <rect x="-80" y="-50" width="160" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="-30" y="10" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#6a8d3f">木</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="24" fill="#c8843a">+</text>
+    <text x="30" y="10" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#6a8d3f">木</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">双木</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="40" font-weight="bold" fill="#7a3b14">林</text>
+  </g>
+
+  <!-- 耳东陈 -->
+  <g transform="translate(600,380)">
+    <rect x="-80" y="-50" width="160" height="100" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="-45" y="10" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7ab8d8">阝</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="24" fill="#c8843a">+</text>
+    <text x="45" y="10" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#e07856">东</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">耳东</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="40" font-weight="bold" fill="#7a3b14">陈</text>
+  </g>
+
+  <!-- 底部百家姓 -->
+  <rect x="80" y="500" width="640" height="70" rx="10" fill="#fef0d8" opacity="0.6" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">赵钱孙李，周吴郑王，冯陈褚卫，蒋沈韩杨</text>
+  <text x="400" y="552" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">《百家姓》收了五百多个姓氏，四字一句，押韵好读</text>
+</svg>

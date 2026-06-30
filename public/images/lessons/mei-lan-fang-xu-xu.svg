@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="京剧舞台与留须的梅兰芳肖像画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">梅兰芳蓄须</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#a83232" stroke-width="2"/>
+  <!-- 舞台幕布 -->
+  <rect x="80" y="110" width="640" height="40" fill="#a83232" opacity="0.7"/>
+  <path d="M 80 150 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 q 30 20 60 0 l 0 0 l 0 -40 z" fill="#a83232" opacity="0.5"/>
+  <!-- 京剧脸谱（简化） -->
+  <ellipse cx="400" cy="320" rx="90" ry="110" fill="#f5efe0" stroke="#3a3a3a" stroke-width="2"/>
+  <ellipse cx="370" cy="300" rx="14" ry="18" fill="#3a3a3a"/>
+  <ellipse cx="430" cy="300" rx="14" ry="18" fill="#3a3a3a"/>
+  <path d="M 360 350 q 40 30 80 0" stroke="#c8553d" stroke-width="3" fill="none"/>
+  <path d="M 350 260 q 50 -20 100 0" stroke="#3a3a3a" stroke-width="2" fill="none"/>
+  <!-- 眉 -->
+  <path d="M 355 285 q 15 -10 30 0" stroke="#3a3a3a" stroke-width="3" fill="none"/>
+  <path d="M 415 285 q 15 -10 30 0" stroke="#3a3a3a" stroke-width="3" fill="none"/>
+  <!-- 蓄须 -->
+  <path d="M 350 410 q 50 40 100 0 q -10 30 -50 38 q -40 -8 -50 -38 z" fill="#3a3a3a"/>
+  <path d="M 360 430 q 40 30 80 0" stroke="#2c2c2c" stroke-width="2" fill="none"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">一把胡子，守住艺术家的骨气</text>
+</svg>

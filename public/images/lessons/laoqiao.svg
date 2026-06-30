@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="村口老石拱桥横跨小河的历史插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#8a5a14">老桥</text>
+  <line x1="380" y1="60" x2="420" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="240" fill="#4a90b8" opacity="0.08"/>
+  <!-- 远山 -->
+  <path d="M0 360 L160 280 L320 340 L480 270 L640 330 L800 290 L800 420 L0 420 Z" fill="#c8b898" opacity="0.4"/>
+
+  <!-- 河水 -->
+  <rect x="0" y="400" width="800" height="120" fill="#7ab8d8" opacity="0.4"/>
+  <!-- 水波纹 -->
+  <g stroke="#4a90b8" stroke-width="1.2" fill="none" opacity="0.5">
+    <path d="M60 430 Q90 426 120 430"/>
+    <path d="M300 450 Q330 446 360 450"/>
+    <path d="M560 440 Q590 436 620 440"/>
+    <path d="M180 470 Q210 466 240 470"/>
+    <path d="M460 480 Q490 476 520 480"/>
+    <path d="M640 460 Q670 456 700 460"/>
+  </g>
+  <!-- 桥拱倒影 -->
+  <path d="M260 410 Q400 520 540 410" fill="none" stroke="#7ab8d8" stroke-width="2" opacity="0.4"/>
+
+  <!-- 老石拱桥 -->
+  <g>
+    <!-- 桥拱（半圆） -->
+    <path d="M240 400 Q400 240 560 400" fill="none" stroke="#6a5a3a" stroke-width="3"/>
+    <path d="M260 400 Q400 270 540 400" fill="none" stroke="#8a7a5a" stroke-width="2"/>
+    <!-- 桥面 -->
+    <path d="M210 400 Q400 280 590 400 L590 420 Q400 300 210 420 Z" fill="#a89878" stroke="#6a5a3a" stroke-width="2"/>
+    <!-- 桥面石板纹 -->
+    <g stroke="#7a6a4a" stroke-width="1" fill="none" opacity="0.6">
+      <path d="M230 395 Q400 295 570 395"/>
+      <path d="M225 405 Q400 305 575 405"/>
+    </g>
+    <!-- 桥栏 -->
+    <path d="M210 400 Q400 280 590 400" fill="none" stroke="#6a5a3a" stroke-width="6"/>
+    <!-- 栏柱 -->
+    <g fill="#8a7a5a" stroke="#5a4a2a" stroke-width="1">
+      <rect x="225" y="378" width="8" height="22"/>
+      <rect x="290" y="318" width="8" height="22"/>
+      <rect x="356" y="290" width="8" height="22"/>
+      <rect x="436" y="290" width="8" height="22"/>
+      <rect x="502" y="318" width="8" height="22"/>
+      <rect x="567" y="378" width="8" height="22"/>
+    </g>
+    <!-- 桥拱石块（楔形） -->
+    <g stroke="#7a6a4a" stroke-width="1" fill="none" opacity="0.5">
+      <path d="M280 340 L290 320"/>
+      <path d="M320 300 L330 285"/>
+      <path d="M370 275 L380 268"/>
+      <path d="M430 275 L420 268"/>
+      <path d="M480 300 L470 285"/>
+      <path d="M520 340 L510 320"/>
+    </g>
+    <!-- 青苔 -->
+    <g fill="#3a7a5a" opacity="0.5">
+      <ellipse cx="260" cy="395" rx="14" ry="4"/>
+      <ellipse cx="540" cy="395" rx="14" ry="4"/>
+      <ellipse cx="290" cy="350" rx="8" ry="3"/>
+      <ellipse cx="510" cy="350" rx="8" ry="3"/>
+    </g>
+    <!-- 桥上刻字 -->
+    <rect x="372" y="288" width="56" height="20" fill="#c8b898" stroke="#6a5a3a" stroke-width="1"/>
+    <text x="400" y="302" text-anchor="middle" font-family="serif" font-size="10" fill="#5a4a2a">嘉庆年修</text>
+  </g>
+
+  <!-- 桥头柳树 -->
+  <g transform="translate(120 380)">
+    <path d="M0 0 Q-2 -40 -6 -80 Q-10 -110 -8 -140" fill="none" stroke="#5a4a2a" stroke-width="4"/>
+    <path d="M-8 -100 Q-22 -90 -36 -80" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+    <path d="M-8 -110 Q10 -100 24 -90" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+    <g fill="#7aaa5a">
+      <ellipse cx="-30" cy="-82" rx="2" ry="6" transform="rotate(-30 -30 -82)"/>
+      <ellipse cx="20" cy="-92" rx="2" ry="6" transform="rotate(30 20 -92)"/>
+      <ellipse cx="-22" cy="-100" rx="2" ry="5"/>
+    </g>
+  </g>
+
+  <!-- 桥上行人 -->
+  <g transform="translate(400 295)">
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#2d6a4f"/>
+    <circle cx="0" cy="-10" r="5" fill="#f4d4a8"/>
+  </g>
+  <g transform="translate(370 305)">
+    <ellipse cx="0" cy="0" rx="7" ry="5" fill="#e07856"/>
+    <circle cx="0" cy="-9" r="4.5" fill="#f4d4a8"/>
+  </g>
+
+  <!-- 桥下水滴 -->
+  <g fill="#4a90b8" opacity="0.6">
+    <ellipse cx="350" cy="410" rx="1.5" ry="3"/>
+    <ellipse cx="450" cy="410" rx="1.5" ry="3"/>
+    <circle cx="350" cy="425" r="1"/>
+    <circle cx="450" cy="425" r="1"/>
+  </g>
+
+  <!-- 地面（两岸） -->
+  <rect x="0" y="510" width="800" height="90" fill="#dce8c8"/>
+  <!-- 草 -->
+  <g fill="#2d6a4f" opacity="0.5">
+    <path d="M40 520 Q44 508 40 500 Q48 508 52 520 Z"/>
+    <path d="M620 525 Q624 513 620 505 Q628 513 632 525 Z"/>
+    <path d="M700 520 Q704 508 700 500 Q708 508 712 520 Z"/>
+  </g>
+
+  <!-- 标注 -->
+  <line x1="372" y1="298" x2="372" y2="248" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="312" y="222" width="120" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="372" y="240" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">桥栏上的刻字</text>
+
+  <line x1="400" y1="340" x2="640" y2="300" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="600" y="282" width="130" height="26" fill="#fff6df" stroke="#3a7a5a" rx="4"/>
+  <text x="665" y="300" text-anchor="middle" font-family="serif" font-size="13" fill="#2d6a4f">拱形——越压越稳</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#8a5a14">老桥沉默地跨在河上，把两岸的人连起来，一连就是几百年</text>
+</svg>

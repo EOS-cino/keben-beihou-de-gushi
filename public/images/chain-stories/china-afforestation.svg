@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国植树造林运动插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：中国的植树造林运动</text>
+  <line x1="170" y1="62" x2="630" y2="62" stroke="#6a8d3f" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心主题 -->
+  <rect x="270" y="95" width="260" height="50" fill="#fff6df" stroke="#6a8d3f" stroke-width="2" rx="8"/>
+  <text x="400" y="120" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#4a6a2f">从荒漠到绿洲 · 几代人的坚持</text>
+  <text x="400" y="137" text-anchor="middle" font-family="serif" font-size="11" fill="#6a8d3f">森林覆盖率：8% → 24%以上</text>
+
+  <!-- 三个造林故事节点 -->
+  <!-- 塞罕坝（左） -->
+  <g>
+    <line x1="320" y1="145" x2="160" y2="190" stroke="#6a8d3f" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="60" y="190" width="200" height="140" fill="#fff6df" stroke="#4a6a2f" rx="6"/>
+    <text x="160" y="212" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a6a2f">塞罕坝</text>
+    <!-- 荒漠变林海 -->
+    <g>
+      <!-- 左半：荒漠 -->
+      <rect x="75" y="225" width="80" height="50" fill="#c8843a" opacity="0.5"/>
+      <text x="115" y="255" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">黄沙</text>
+      <!-- 箭头 -->
+      <path d="M160 250 L175 250" stroke="#6a8d3f" stroke-width="2"/>
+      <path d="M170 245 L178 250 L170 255" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+      <!-- 右半：林海 -->
+      <rect x="180" y="225" width="80" height="50" fill="#4a6a2f" opacity="0.4"/>
+      <g fill="#4a6a2f">
+        <ellipse cx="195" cy="245" rx="6" ry="10"/>
+        <ellipse cx="210" cy="248" rx="5" ry="8"/>
+        <ellipse cx="225" cy="245" rx="6" ry="10"/>
+        <ellipse cx="240" cy="248" rx="5" ry="8"/>
+        <ellipse cx="255" cy="245" rx="6" ry="10"/>
+      </g>
+    </g>
+    <text x="160" y="295" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">三代人·60年</text>
+    <text x="160" y="312" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">百万亩人工林</text>
+  </g>
+
+  <!-- 毛乌素（中） -->
+  <g>
+    <line x1="400" y1="145" x2="400" y2="190" stroke="#6a8d3f" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="300" y="190" width="200" height="140" fill="#fff6df" stroke="#6a8d3f" rx="6"/>
+    <text x="400" y="212" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a6a2f">毛乌素沙漠</text>
+    <!-- 进度条 -->
+    <rect x="320" y="230" width="160" height="16" fill="#e8d9b8" stroke="#8d5a36" stroke-width="1" rx="3"/>
+    <rect x="320" y="230" width="128" height="16" fill="#6a8d3f" rx="3"/>
+    <text x="400" y="242" text-anchor="middle" font-family="serif" font-size="10" fill="#fff6df">绿色覆盖率 80%</text>
+    <text x="400" y="270" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">从不到1%到80%</text>
+    <text x="400" y="290" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">种树·种草·固沙</text>
+    <text x="400" y="310" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">沙漠即将消失</text>
+  </g>
+
+  <!-- 三北防护林（右） -->
+  <g>
+    <line x1="480" y1="145" x2="640" y2="190" stroke="#6a8d3f" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <rect x="540" y="190" width="200" height="140" fill="#fff6df" stroke="#4a6a2f" rx="6"/>
+    <text x="640" y="212" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a6a2f">三北防护林</text>
+    <!-- 地图轮廓 -->
+    <g fill="none" stroke="#8d5a36" stroke-width="1.5" opacity="0.4">
+      <path d="M570 240 Q600 225 630 235 Q660 225 700 245 Q710 270 690 290 Q650 300 610 295 Q580 285 570 265 Z"/>
+    </g>
+    <!-- 绿色带 -->
+    <g fill="#6a8d3f" opacity="0.5">
+      <path d="M575 255 Q610 245 650 250 Q680 255 700 260 L700 270 Q670 265 640 265 Q600 268 575 265 Z"/>
+    </g>
+    <text x="640" y="295" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">1978年启动</text>
+    <text x="640" y="312" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">横跨13省·世界最大</text>
+  </g>
+
+  <!-- 底部数据条 -->
+  <g>
+    <rect x="100" y="360" width="600" height="80" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="400" y="385" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">中国森林覆盖率变化</text>
+    <!-- 进度条 -->
+    <rect x="150" y="400" width="500" height="20" fill="#e8d9b8" stroke="#8d5a36" rx="3"/>
+    <rect x="150" y="400" width="120" height="20" fill="#c8843a" rx="3"/>
+    <rect x="270" y="400" width="240" height="20" fill="#6a8d3f" rx="3"/>
+    <text x="210" y="414" text-anchor="middle" font-family="serif" font-size="10" fill="#fff6df">1949: ~8%</text>
+    <text x="490" y="414" text-anchor="middle" font-family="serif" font-size="10" fill="#fff6df">现在: 24%+</text>
+    <text x="400" y="435" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">几亿人一棵一棵种出来</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">塞罕坝、毛乌素、三北防护林——千千万万种树人的缩影，改变环境从一棵树开始</text>
+</svg>

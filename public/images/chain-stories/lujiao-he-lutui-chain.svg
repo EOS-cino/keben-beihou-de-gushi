@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：外表好看不等于有用">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：外表好看，不等于有用</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">不起眼的，常常最有用</text>
+  <g transform="translate(150,300)">
+    <rect x="-30" y="-10" width="60" height="50" fill="#cfe8f0" stroke="#5a8fa3" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#5a8fa3">皇帝的新衣</text>
+  </g>
+  <g transform="translate(400,300)">
+    <ellipse cx="0" cy="10" rx="26" ry="20" fill="#7fb8a8" stroke="#2a6b5a" stroke-width="2"/>
+    <path d="M-20,-10 q-10,-20 0,-26 q10,6 4,22" fill="#3a6b5a"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#2a6b5a">孔雀尾巴</text>
+  </g>
+  <g transform="translate(650,300)">
+    <path d="M-16,30 L16,30 L10,-10 L-10,-10 Z" fill="#c9a87a" stroke="#7a4a1a" stroke-width="2"/>
+    <path d="M-4,-10 q4,-20 8,0" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#7a4a1a">土气的人参</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">有真本领，才最重要</text>
+</svg>

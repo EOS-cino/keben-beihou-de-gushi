@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一只鹿在河边饮水，水中倒映出它华丽的鹿角">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="320" fill="#e8f0e6"/>
+  <!-- 远山 -->
+  <path d="M0 320 Q150 220 320 300 Q480 200 640 290 Q740 240 800 300 L800 320 Z" fill="#6a8d3f" opacity="0.4"/>
+  <path d="M0 320 Q200 270 400 310 Q600 260 800 310 L800 340 L0 340 Z" fill="#4a6a2f" opacity="0.35"/>
+  <!-- 河面 -->
+  <rect x="0" y="320" width="800" height="180" fill="#a8d0e8"/>
+  <rect x="0" y="320" width="800" height="180" fill="#7ab8d8" opacity="0.4"/>
+  <!-- 河岸 -->
+  <path d="M0 500 Q400 480 800 500 L800 600 L0 600 Z" fill="#8d5a36"/>
+  <path d="M0 500 Q400 485 800 500 L800 540 L0 540 Z" fill="#6a8d3f" opacity="0.5"/>
+  <!-- 水波纹 -->
+  <path d="M60 360 q30 -6 60 0 q30 6 60 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M500 390 q30 -6 60 0 q30 6 60 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- 鹿倒影 -->
+  <g opacity="0.3">
+    <path d="M340 340 Q335 380 345 410 Q360 430 380 425" fill="none" stroke="#8d5a36" stroke-width="3"/>
+    <path d="M340 340 q-8 -20 -4 -35" stroke="#8d5a36" stroke-width="2" fill="none"/>
+    <path d="M336 305 q-10 -14 -20 -10 q6 8 14 12" fill="#8d5a36"/>
+  </g>
+  <!-- 鹿身体 -->
+  <ellipse cx="360" cy="280" rx="55" ry="32" fill="#c8843a"/>
+  <!-- 鹿脖子 -->
+  <path d="M400 270 Q420 240 415 210" stroke="#c8843a" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <!-- 鹿头 -->
+  <ellipse cx="418" cy="200" rx="16" ry="20" fill="#c8843a"/>
+  <!-- 鹿嘴伸向水面 -->
+  <path d="M418 215 q-10 30 -30 50 q-10 10 -20 8" stroke="#c8843a" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- 鹿耳 -->
+  <ellipse cx="408" cy="186" rx="5" ry="9" fill="#8d5a36"/>
+  <!-- 鹿角 -->
+  <path d="M416 184 q-8 -20 -18 -28 M416 184 q-2 -22 -8 -34 M416 184 q8 -20 18 -26 M416 184 q4 -22 0 -34" stroke="#7a3b14" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M408 164 q-6 -6 -12 -4 M410 150 q-4 -6 -10 -6 M424 158 q6 -6 12 -3 M422 150 q4 -6 10 -5" stroke="#7a3b14" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- 鹿腿 -->
+  <path d="M320 300 l-6 50" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+  <path d="M345 308 l-4 48" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+  <path d="M380 305 l2 50" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+  <path d="M400 300 l8 48" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+  <!-- 鹿眼 -->
+  <circle cx="424" cy="196" r="2.5" fill="#7a3b14"/>
+  <!-- 鹿尾 -->
+  <path d="M308 275 q-12 -2 -16 6" stroke="#c8843a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- 树丛 -->
+  <circle cx="120" cy="290" r="40" fill="#4a6a2f"/>
+  <circle cx="170" cy="300" r="30" fill="#6a8d3f"/>
+  <circle cx="680" cy="280" r="45" fill="#4a6a2f"/>
+  <circle cx="630" cy="295" r="32" fill="#6a8d3f"/>
+  <!-- 太阳 -->
+  <circle cx="700" cy="90" r="32" fill="#f4d97a"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">狮子和鹿</text>
+</svg>

@@ -1,0 +1,76 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const lessons = await getCollection("lessons");
+const grades = [...new Set(lessons.map((l) => l.data.grade))];
+const themes = [...new Set(lessons.map((l) => l.data.theme))];
+---
+
+<BaseLayout title="关于 - 课文背后的故事">
+  <section class="page-hero compact">
+    <p class="eyebrow">关于项目</p>
+    <h1>这是一个给语文学习加一点好奇心的网站</h1>
+    <p>
+      项目目标是把课文之外的人物、时代、地点和知识线索讲得清楚一点，
+      让孩子在读课文时知道：书上的文字不是孤零零出现的，它们背后有真实的人和世界。
+    </p>
+  </section>
+
+  <section class="content-section">
+    <h2>目前收录</h2>
+    <div class="catalog-stats">
+      <div class="library-note">
+        <strong>{lessons.length}</strong>
+        <span>篇课文故事</span>
+      </div>
+      <div class="library-note">
+        <strong>{grades.length}</strong>
+        <span>个年级段</span>
+      </div>
+      <div class="library-note">
+        <strong>{themes.length}</strong>
+        <span>个阅读主题</span>
+      </div>
+      <div class="library-note">
+        <strong>{lessons.length * 2}</strong>
+        <span>张原创插画</span>
+      </div>
+    </div>
+    <p style="margin-top: 16px; color: var(--muted);">
+      覆盖人教版一至六年级语文教材，每篇课文配有原创背景故事、连珠小故事、思考问题和生字词小字典。
+    </p>
+  </section>
+
+  <section class="content-section">
+    <h2>内容原则</h2>
+    <ul class="check-list">
+      <li>坚持原创表达，不全文转载现行教材课文。</li>
+      <li>古代作品和历史故事优先使用公版资料与权威百科。</li>
+      <li>现代作品只做摘要、背景介绍、阅读提示和延伸资料。</li>
+      <li>每篇文章都保留资料来源，方便继续核查。</li>
+    </ul>
+  </section>
+
+  <section class="content-section">
+    <h2>每篇课文包含什么</h2>
+    <ul class="check-list">
+      <li><strong>课文讲了什么</strong>：用短摘要抓住课文核心，不替代原课文阅读。</li>
+      <li><strong>开场小剧场</strong>：用生动的场景描写带孩子走进课文现场。</li>
+      <li><strong>背后的故事</strong>：人物、时代、地点和真实历史背景。</li>
+      <li><strong>连珠小故事</strong>：把课文和一个相关故事串起来，拓展视野。</li>
+      <li><strong>为什么值得读</strong>：告诉孩子这篇课文的独特价值。</li>
+      <li><strong>延伸阅读提示</strong>：给家长和孩子的亲子共读活动建议。</li>
+      <li><strong>有趣冷知识、想一想、我学到了</strong>：侧边栏的知识卡片和思考题。</li>
+      <li><strong>生字词小字典</strong>：带拼音的生字词解释，照顾小读者。</li>
+    </ul>
+  </section>
+
+  <section class="content-section">
+    <h2>后续方向</h2>
+    <p>
+      未来可以加入音频讲故事、错题式小测、亲子共读模式、老师备课卡片和更多年级内容。
+      但当前版本最重要的是完整可用：476 篇课文、952 张插画、覆盖六个年级，能访问、能阅读、能持续更新。
+    </p>
+  </section>
+</BaseLayout>

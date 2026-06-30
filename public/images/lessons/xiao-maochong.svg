@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小毛虫结茧后变成蝴蝶的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小毛虫</text>
+  <line x1="350" y1="62" x2="450" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 三个阶段（从左到右：毛虫→茧→蝴蝶） -->
+  <!-- 分隔虚线 -->
+  <line x1="267" y1="100" x2="267" y2="520" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="6,5" opacity="0.4"/>
+  <line x1="533" y1="100" x2="533" y2="520" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="6,5" opacity="0.4"/>
+
+  <!-- 箭头表示变化 -->
+  <path d="M250 300 L285 300" fill="none" stroke="#c8843a" stroke-width="2.5" marker-end="url(#arrow1)"/>
+  <path d="M516 300 L551 300" fill="none" stroke="#c8843a" stroke-width="2.5" marker-end="url(#arrow1)"/>
+  <defs>
+    <marker id="arrow1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#c8843a"/>
+    </marker>
+  </defs>
+
+  <!-- 第一阶段：小毛虫 -->
+  <text x="133" y="130" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">小毛虫</text>
+  <!-- 叶子 -->
+  <g transform="translate(133, 380)">
+    <path d="M-80 30 Q-40 -10 0 -5 Q40 -10 80 30 Q40 50 0 45 Q-40 50 -80 30 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <path d="M-80 30 L80 30" fill="none" stroke="#4a6a2f" stroke-width="1.5"/>
+  </g>
+  <!-- 毛虫 -->
+  <g transform="translate(133, 340)">
+    <!-- 身体（一节一节） -->
+    <ellipse cx="-30" cy="0" rx="12" ry="14" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <ellipse cx="-15" cy="0" rx="12" ry="14" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="12" ry="14" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <ellipse cx="15" cy="0" rx="12" ry="14" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <ellipse cx="30" cy="0" rx="13" ry="15" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="30" cy="-2" r="14" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+    <!-- 眼睛 -->
+    <circle cx="35" cy="-4" r="3" fill="#ffffff"/>
+    <circle cx="36" cy="-4" r="1.5" fill="#2a2a2a"/>
+    <!-- 触角 -->
+    <line x1="28" y1="-14" x2="24" y2="-24" stroke="#4a6a2f" stroke-width="2"/>
+    <line x1="34" y1="-14" x2="38" y2="-24" stroke="#4a6a2f" stroke-width="2"/>
+    <circle cx="24" cy="-25" r="2.5" fill="#4a6a2f"/>
+    <circle cx="38" cy="-25" r="2.5" fill="#4a6a2f"/>
+    <!-- 脚 -->
+    <line x1="-30" y1="12" x2="-30" y2="22" stroke="#4a6a2f" stroke-width="2"/>
+    <line x1="-15" y1="12" x2="-15" y2="22" stroke="#4a6a2f" stroke-width="2"/>
+    <line x1="0" y1="12" x2="0" y2="22" stroke="#4a6a2f" stroke-width="2"/>
+    <line x1="15" y1="12" x2="15" y2="22" stroke="#4a6a2f" stroke-width="2"/>
+  </g>
+  <text x="133" y="470" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">又笨又拙</text>
+
+  <!-- 第二阶段：茧 -->
+  <text x="400" y="130" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">结茧等待</text>
+  <!-- 树枝 -->
+  <line x1="320" y1="200" x2="480" y2="200" stroke="#8d5a36" stroke-width="6" stroke-linecap="round"/>
+  <line x1="400" y1="200" x2="400" y2="240" stroke="#8d5a36" stroke-width="4"/>
+  <!-- 茧 -->
+  <g transform="translate(400, 330)">
+    <ellipse cx="0" cy="0" rx="35" ry="55" fill="#f0e0c0" stroke="#c8843a" stroke-width="2.5"/>
+    <!-- 茧的丝纹 -->
+    <path d="M-30 -30 Q0 -25 30 -30" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5"/>
+    <path d="M-32 -15 Q0 -10 32 -15" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5"/>
+    <path d="M-33 0 Q0 5 33 0" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5"/>
+    <path d="M-32 15 Q0 20 32 15" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5"/>
+    <path d="M-30 30 Q0 35 30 30" fill="none" stroke="#c8843a" stroke-width="1" opacity="0.5"/>
+    <!-- 丝线连接树枝 -->
+    <line x1="0" y1="-55" x2="0" y2="-90" stroke="#d8c898" stroke-width="1.5"/>
+  </g>
+  <!-- 等待的星星（表示时间流逝） -->
+  <g fill="#f4c842" opacity="0.6">
+    <circle cx="340" cy="250" r="2"/>
+    <circle cx="460" cy="260" r="2"/>
+    <circle cx="350" cy="280" r="1.5"/>
+    <circle cx="450" cy="290" r="1.5"/>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">耐心蜕变</text>
+
+  <!-- 第三阶段：蝴蝶 -->
+  <text x="667" y="130" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">蝴蝶</text>
+  <!-- 花朵 -->
+  <g transform="translate(620, 430)">
+    <circle cx="0" cy="0" r="10" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="0" r="4" fill="#f4c842"/>
+    <line x1="0" y1="10" x2="0" y2="40" stroke="#4a6a2f" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(720, 440)">
+    <circle cx="0" cy="0" r="9" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="0" r="4" fill="#f4c842"/>
+    <line x1="0" y1="9" x2="0" y2="35" stroke="#4a6a2f" stroke-width="2.5"/>
+  </g>
+  <!-- 蝴蝶 -->
+  <g transform="translate(667, 320)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="5" ry="30" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-32" r="7" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="1.5"/>
+    <circle cx="-3" cy="-33" r="1.5" fill="#ffffff"/>
+    <circle cx="3" cy="-33" r="1.5" fill="#ffffff"/>
+    <!-- 触角 -->
+    <path d="M-3 -38 Q-8 -48 -12 -50" fill="none" stroke="#4a6a2f" stroke-width="1.5"/>
+    <path d="M3 -38 Q8 -48 12 -50" fill="none" stroke="#4a6a2f" stroke-width="1.5"/>
+    <circle cx="-12" cy="-51" r="2" fill="#4a6a2f"/>
+    <circle cx="12" cy="-51" r="2" fill="#4a6a2f"/>
+    <!-- 左翅膀 -->
+    <ellipse cx="-28" cy="-12" rx="26" ry="20" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="-25" cy="15" rx="20" ry="16" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 翅膀花纹 -->
+    <circle cx="-28" cy="-12" r="6" fill="#f4c842"/>
+    <circle cx="-25" cy="15" r="4" fill="#f4c842"/>
+    <circle cx="-35" cy="-18" r="3" fill="#7a3b14"/>
+    <!-- 右翅膀 -->
+    <ellipse cx="28" cy="-12" rx="26" ry="20" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="25" cy="15" rx="20" ry="16" fill="#c84a3a" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="28" cy="-12" r="6" fill="#f4c842"/>
+    <circle cx="25" cy="15" r="4" fill="#f4c842"/>
+    <circle cx="35" cy="-18" r="3" fill="#7a3b14"/>
+  </g>
+  <text x="667" y="470" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">色彩斑斓</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">小毛虫吐丝结茧，耐心等待，最后破茧而出，变成了一只美丽的蝴蝶</text>
+</svg>

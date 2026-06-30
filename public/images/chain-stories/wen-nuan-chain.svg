@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="朱自清笔下父亲翻月台买橘子的背影插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="350" fill="#4a90b8" opacity="0.06"/>
+  <!-- 月台 -->
+  <rect x="0" y="350" width="800" height="20" fill="#a08560" opacity="0.5"/>
+  <rect x="0" y="370" width="800" height="10" fill="#8b6f47" opacity="0.4"/>
+  <!-- 地面 -->
+  <rect x="0" y="380" width="800" height="220" fill="#dceee3" opacity="0.4"/>
+  <rect x="0" y="430" width="800" height="170" fill="#9fc8b4" opacity="0.2"/>
+  <!-- 铁轨 -->
+  <g transform="translate(0 480)">
+    <rect x="0" y="0" width="800" height="6" fill="#6b5535" opacity="0.3"/>
+    <rect x="0" y="20" width="800" height="6" fill="#6b5535" opacity="0.3"/>
+    <!-- 枕木 -->
+    <g fill="#8b6f47" opacity="0.3">
+      <rect x="20" y="-5" width="40" height="35"/>
+      <rect x="120" y="-5" width="40" height="35"/>
+      <rect x="220" y="-5" width="40" height="35"/>
+      <rect x="320" y="-5" width="40" height="35"/>
+      <rect x="420" y="-5" width="40" height="35"/>
+      <rect x="520" y="-5" width="40" height="35"/>
+      <rect x="620" y="-5" width="40" height="35"/>
+      <rect x="720" y="-5" width="40" height="35"/>
+    </g>
+  </g>
+  <!-- 月台对面 -->
+  <rect x="0" y="280" width="800" height="70" fill="#d4c4a4" opacity="0.3"/>
+  <!-- 橘子树（对面月台上） -->
+  <g transform="translate(650 280)">
+    <rect x="-3" y="0" width="6" height="50" fill="#6b5535"/>
+    <path d="M0 0 Q-25 -15 -40 -25" stroke="#6b5535" stroke-width="2.5" fill="none"/>
+    <path d="M0 0 Q25 -15 40 -25" stroke="#6b5535" stroke-width="2.5" fill="none"/>
+    <circle cx="-35" cy="-22" r="18" fill="#2d6a4f" opacity="0.4"/>
+    <circle cx="35" cy="-22" r="18" fill="#2d6a4f" opacity="0.4"/>
+    <!-- 橘子 -->
+    <circle cx="-30" cy="-20" r="6" fill="#e8a838"/>
+    <circle cx="-20" cy="-28" r="5" fill="#e07856"/>
+    <circle cx="30" cy="-20" r="6" fill="#e8a838"/>
+    <circle cx="20" cy="-28" r="5" fill="#e07856"/>
+    <circle cx="0" cy="-15" r="5" fill="#e8a838"/>
+  </g>
+  <!-- 父亲背影（攀爬月台） -->
+  <g transform="translate(350 350)">
+    <!-- 棉袍 -->
+    <path d="M-35 0 L-45 -100 Q-45 -115 -30 -120 L30 -120 Q45 -115 45 -100 L35 0 Z" fill="#2d6a4f" opacity="0.8"/>
+    <!-- 身体前倾 -->
+    <path d="M-30 -120 Q-15 -135 0 -140 Q15 -135 30 -120" fill="#2d6a4f" opacity="0.8"/>
+    <!-- 头（低着） -->
+    <ellipse cx="0" cy="-138" rx="16" ry="14" fill="#f4d4a8"/>
+    <!-- 黑布棉帽 -->
+    <path d="M-16 -142 Q0 -155 16 -142 L14 -136 Q0 -132 -14 -136 Z" fill="#333"/>
+    <!-- 手攀住月台 -->
+    <path d="M-35 -90 Q-50 -70 -55 -50" stroke="#f4d4a8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M35 -90 Q50 -70 55 -50" stroke="#f4d4a8" stroke-width="8" stroke-linecap="round"/>
+    <!-- 脚 -->
+    <ellipse cx="-20" cy="5" rx="12" ry="6" fill="#333"/>
+    <ellipse cx="20" cy="5" rx="12" ry="6" fill="#333"/>
+    <!-- 手里的橘子 -->
+    <circle cx="55" cy="-48" r="6" fill="#e8a838"/>
+    <circle cx="48" cy="-42" r="5" fill="#e07856"/>
+  </g>
+  <!-- 月台边缘 -->
+  <rect x="0" y="340" width="800" height="15" fill="#8b6f47" opacity="0.4"/>
+  <!-- 行李箱 -->
+  <g transform="translate(200 360)">
+    <rect x="0" y="0" width="50" height="35" fill="#8b6f47" opacity="0.6"/>
+    <rect x="0" y="0" width="50" height="6" fill="#6b5535"/>
+    <line x1="25" y1="0" x2="25" y2="-8" stroke="#6b5535" stroke-width="2"/>
+    <path d="M20 -8 Q25 -12 30 -8" stroke="#6b5535" stroke-width="2" fill="none"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#2d6a4f">连珠小故事：父亲翻月台买橘子的背影</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7a7468">那个笨拙的背影，他一辈子忘不了</text>
+</svg>

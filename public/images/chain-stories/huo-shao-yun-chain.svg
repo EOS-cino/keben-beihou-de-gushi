@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：作家们眼中的天空">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：作家们眼中的天空</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">不同的天空，同样的温度</text>
+  <g transform="translate(140,280)">
+    <path d="M-30,10 Q-20,-25 0,-20 Q20,-25 30,10 Z" fill="#d8483a" opacity="0.6" stroke="#a8482a" stroke-width="1"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#a8482a">萧红·火烧云</text>
+  </g>
+  <g transform="translate(310,280)">
+    <circle cx="0" cy="0" r="18" fill="#f6dca0" stroke="#c98a3a" stroke-width="2"/>
+    <path d="M-40,20 Q0,15 40,20" stroke="#5a8fa3" stroke-width="2" fill="none"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#5a8fa3">巴金·海上日出</text>
+  </g>
+  <g transform="translate(490,280)">
+    <path d="M-35,20 Q-20,-10 0,0 Q20,-10 35,20 Z" fill="#d8e8d8" stroke="#5a8b5a" stroke-width="2"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#5a8b5a">老舍·济南冬天</text>
+  </g>
+  <g transform="translate(660,280)">
+    <path d="M0,30 Q-10,15 -5,5 Q-15,0 -8,-10 Q0,-15 8,-10 Q15,0 5,5 Q10,15 0,30 Z" fill="#cfe8a0" stroke="#7a9b3a" stroke-width="1"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#7a9b3a">朱自清·春草</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">一本“中国作家看天空”的画册</text>
+</svg>

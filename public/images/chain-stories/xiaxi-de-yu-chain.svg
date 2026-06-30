@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="雷雨形成与避雨安全科学故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">夏天的雨为什么这么急</text>
+  <line x1="200" y1="56" x2="600" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——太阳和空气的"打架"</text>
+
+  <!-- 积雨云形成 -->
+  <g transform="translate(400, 150)">
+    <rect x="-320" y="0" width="640" height="160" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">积雨云：雷阵雨的"工厂"</text>
+    <!-- 太阳晒地 -->
+    <g transform="translate(-260, 80)">
+      <circle cx="0" cy="-30" r="14" fill="#e8a838"/>
+      <line x1="0" y1="-16" x2="0" y2="10" stroke="#e8a838" stroke-width="2" stroke-dasharray="3 2"/>
+      <rect x="-30" y="10" width="60" height="10" fill="#c8843a" opacity="0.6"/>
+      <text x="0" y="34" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">晒热地面</text>
+    </g>
+    <!-- 热空气带水汽上升 -->
+    <g transform="translate(-140, 70)">
+      <path d="M0 20 L0 -30" stroke="#c84a3a" stroke-width="2" stroke-dasharray="5 3"/>
+      <polygon points="-4,-30 4,-30 0,-40" fill="#c84a3a"/>
+      <circle cx="0" cy="10" r="3" fill="#4a90b8" opacity="0.6"/>
+      <text x="0" y="44" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">热气带水汽上升</text>
+    </g>
+    <!-- 积雨云 -->
+    <g transform="translate(40, 60)">
+      <ellipse cx="0" cy="0" rx="55" ry="30" fill="#7a3b14" opacity="0.6"/>
+      <ellipse cx="-40" cy="10" rx="28" ry="16" fill="#7a3b14" opacity="0.5"/>
+      <ellipse cx="45" cy="8" rx="30" ry="18" fill="#7a3b14" opacity="0.5"/>
+      <ellipse cx="0" cy="-22" rx="40" ry="20" fill="#7a3b14" opacity="0.4"/>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">积雨云</text>
+    </g>
+    <!-- 闪电打雷 -->
+    <g transform="translate(180, 70)">
+      <path d="M0 -10 L-8 10 L2 10 L-6 30" fill="none" stroke="#e8a838" stroke-width="3" stroke-linecap="round"/>
+      <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">闪电后打雷</text>
+      <text x="0" y="64" text-anchor="middle" font-family="serif" font-size="8" fill="#8d5a36">光比声音快</text>
+    </g>
+  </g>
+
+  <!-- 避雨安全 -->
+  <g transform="translate(400, 360)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c84a3a">雷雨天，躲得快更要躲得对</text>
+    <!-- 不能做的 -->
+    <g transform="translate(-200, 30)">
+      <rect x="-90" y="0" width="180" height="120" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5"/>
+      <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#c84a3a">不要</text>
+      <g transform="translate(-50, 60)">
+        <rect x="-3" y="0" width="6" height="40" fill="#2d6a4f"/>
+        <ellipse cx="0" cy="-10" rx="20" ry="14" fill="#6a8d3f"/>
+        <path d="M0 10 L-10 30 L0 20" stroke="#c84a3a" stroke-width="2"/>
+      </g>
+      <text x="-50" y="100" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">树下躲雨</text>
+      <g transform="translate(50, 60)">
+        <line x1="-12" y1="20" x2="12" y2="-20" stroke="#4a90b8" stroke-width="2"/>
+        <circle cx="12" cy="-20" r="6" fill="#7a3b14"/>
+        <path d="M-20 -10 L20 -10" stroke="#c84a3a" stroke-width="2"/>
+      </g>
+      <text x="50" y="100" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">举金属伞</text>
+    </g>
+    <!-- 应该做的 -->
+    <g transform="translate(200, 30)">
+      <rect x="-90" y="0" width="180" height="120" rx="8" fill="#fef9ed" stroke="#2d6a4f" stroke-width="1.5"/>
+      <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="11" font-weight="bold" fill="#2d6a4f">应该</text>
+      <g transform="translate(-40, 60)">
+        <rect x="-25" y="0" width="50" height="40" fill="#e8a838" opacity="0.6" stroke="#7a3b14" stroke-width="1.2"/>
+        <polygon points="-30,0 30,0 0,-20" fill="#c84a3a"/>
+        <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">进屋</text>
+      </g>
+      <g transform="translate(50, 70)">
+        <circle cx="0" cy="-10" r="8" fill="#e07856"/>
+        <ellipse cx="0" cy="10" rx="12" ry="14" fill="#4a90b8"/>
+        <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">蹲低</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 530)">
+    <rect x="-300" y="0" width="600" height="50" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">夏雨给大地"退烧"，雨后空气特别清新</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">看天的老经验：西边黑云、起风、发闷，雨要来了</text>
+  </g>
+</svg>

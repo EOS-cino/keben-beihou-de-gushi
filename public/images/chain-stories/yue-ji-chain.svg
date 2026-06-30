@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="贾平凹的月色散文插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">贾平凹的月色</text>
+  <line x1="310" y1="60" x2="490" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="0" y="70" width="800" height="530" fill="#1a2a3a"/>
+  <!-- 星星 -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="100" cy="100" r="1.5"/>
+    <circle cx="250" cy="85" r="1"/>
+    <circle cx="500" cy="95" r="1.5"/>
+    <circle cx="650" cy="110" r="1"/>
+    <circle cx="720" cy="80" r="1.5"/>
+  </g>
+
+  <!-- 月亮 -->
+  <circle cx="400" cy="140" r="40" fill="#fef9ed" opacity="0.9"/>
+  <circle cx="388" cy="132" r="6" fill="#e8e0c8" opacity="0.4"/>
+  <circle cx="410" cy="148" r="5" fill="#e8e0c8" opacity="0.4"/>
+
+  <!-- 三首写月的诗对比 -->
+
+  <!-- 李白：静夜思 -->
+  <g>
+    <rect x="30" y="210" width="230" height="180" fill="#fff6df" stroke="#e07856" stroke-width="2.5" rx="8"/>
+    <text x="145" y="235" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856" font-weight="bold">李白·静夜思</text>
+    <text x="145" y="255" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"大月亮"·思念</text>
+    <!-- 床和月光 -->
+    <rect x="80" y="290" width="80" height="40" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5" rx="3"/>
+    <rect x="90" y="280" width="15" height="12" fill="#fff6df" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 月光如霜 -->
+    <rect x="80" y="330" width="80" height="6" fill="#fef9ed" opacity="0.5"/>
+    <!-- 低头的人 -->
+    <circle cx="200" cy="310" r="10" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M195 307 q5 -4 10 0" fill="#3a2a1a"/>
+    <path d="M195 318 q5 3 10 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <rect x="192" y="320" width="16" height="25" rx="2" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1"/>
+    <text x="145" y="370" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">举头望明月</text>
+    <text x="145" y="385" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">低头思故乡</text>
+  </g>
+
+  <!-- 苏轼：水调歌头 -->
+  <g>
+    <rect x="285" y="210" width="230" height="180" fill="#fff6df" stroke="#e8a838" stroke-width="2.5" rx="8"/>
+    <text x="400" y="235" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">苏轼·水调歌头</text>
+    <text x="400" y="255" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"大月亮"·人生</text>
+    <!-- 举杯问月 -->
+    <circle cx="370" cy="310" r="12" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M360 307 q10 -8 20 0" fill="#3a2a1a"/>
+    <rect x="362" y="322" width="16" height="28" rx="2" fill="#8d2a2a" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 酒杯举起 -->
+    <path d="M378 325 q10 -5 18 -15" stroke="#8d2a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M395 305 L405 295 L400 315 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 月亮在天上 -->
+    <circle cx="440" cy="290" r="12" fill="#fef9ed" opacity="0.8"/>
+    <!-- 问号 -->
+    <text x="425" y="320" font-family="serif" font-size="20" fill="#e8a838">?</text>
+    <text x="400" y="370" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">明月几时有</text>
+    <text x="400" y="385" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">把酒问青天</text>
+  </g>
+
+  <!-- 贾平凹：月迹 -->
+  <g>
+    <rect x="540" y="210" width="230" height="180" fill="#fff6df" stroke="#2d6a4f" stroke-width="2.5" rx="8"/>
+    <text x="655" y="235" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">贾平凹·月迹</text>
+    <text x="655" y="255" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"小月亮"·童心</text>
+    <!-- 孩子追月 -->
+    <circle cx="620" cy="310" r="12" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M610 307 q10 -8 20 0" fill="#3a2a1a"/>
+    <circle cx="615" cy="310" r="1.5" fill="#3a2a1a"/>
+    <circle cx="625" cy="310" r="1.5" fill="#3a2a1a"/>
+    <path d="M615 318 q5 3 10 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+    <rect x="612" y="322" width="16" height="25" rx="2" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 跑步姿态 -->
+    <rect x="612" y="347" width="6" height="15" fill="#3a2a1a"/>
+    <rect x="622" y="347" width="6" height="15" fill="#3a2a1a" transform="rotate(20 625 355)"/>
+    <!-- 月亮在跑 -->
+    <circle cx="680" cy="290" r="10" fill="#fef9ed" opacity="0.8"/>
+    <!-- 月亮跑的轨迹 -->
+    <path d="M680 290 q15 -3 25 5" stroke="#fef9ed" stroke-width="1.5" fill="none" opacity="0.4" stroke-dasharray="3,2"/>
+    <!-- 追 -->
+    <text x="655" y="370" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">月亮会走路</text>
+    <text x="655" y="385" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">追着月光跑</text>
+  </g>
+
+  <!-- 底部：童心看月亮 -->
+  <rect x="80" y="430" width="640" height="140" fill="#2a3a4a" stroke="#c8843a" stroke-width="2.5" rx="10"/>
+  <text x="400" y="465" text-anchor="middle" font-family="serif" font-size="20" fill="#fef9ed" font-weight="bold">用童心看月亮</text>
+  <text x="400" y="500" text-anchor="middle" font-family="serif" font-size="15" fill="#e8a838">大人看月亮：阴晴圆缺、人生感慨</text>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="15" fill="#2d6a4f">孩子看月亮：月亮在走路、好奇惊喜</text>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="15" fill="#e07856">不要丢了那双"看月亮的眼睛"</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="588" text-anchor="middle" font-family="serif" font-size="14" fill="#fef9ed">世界不缺美，缺的是愿意停下来、认真看的人</text>
+</svg>

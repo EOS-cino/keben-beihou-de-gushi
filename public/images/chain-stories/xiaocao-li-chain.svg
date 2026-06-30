@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="法布尔蹲在草丛里观察昆虫的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="300" fill="#4a90b8" opacity="0.06"/>
+  <!-- 远树 -->
+  <g opacity="0.3">
+    <circle cx="100" cy="250" r="30" fill="#2d6a4f"/>
+    <circle cx="700" cy="240" r="35" fill="#2d6a4f"/>
+    <rect x="97" y="270" width="6" height="30" fill="#8b6f47"/>
+    <rect x="697" y="260" width="6" height="40" fill="#8b6f47"/>
+  </g>
+  <!-- 草地 -->
+  <rect x="0" y="280" width="800" height="320" fill="#dceee3"/>
+  <rect x="0" y="350" width="800" height="250" fill="#9fc8b4" opacity="0.3"/>
+  <!-- 草丛 -->
+  <g fill="#2d6a4f" opacity="0.6">
+    <path d="M50 400 Q55 360 50 340 Q60 360 65 400 Z"/>
+    <path d="M120 410 Q125 370 120 350 Q130 370 135 410 Z"/>
+    <path d="M600 400 Q605 360 600 340 Q610 360 615 400 Z"/>
+    <path d="M680 410 Q685 370 680 350 Q690 370 695 410 Z"/>
+    <path d="M730 400 Q735 360 730 340 Q740 360 745 400 Z"/>
+    <path d="M30 450 Q35 410 30 390 Q40 410 45 450 Z"/>
+    <path d="M750 450 Q755 410 750 390 Q760 410 765 450 Z"/>
+  </g>
+  <!-- 放大区域 -->
+  <circle cx="450" cy="380" r="100" fill="#fef9ed" opacity="0.5"/>
+  <circle cx="450" cy="380" r="100" fill="none" stroke="#e8a838" stroke-width="3" opacity="0.3"/>
+  <!-- 放大区域内的草和虫 -->
+  <g fill="#2d6a4f" opacity="0.7">
+    <path d="M400 430 Q405 380 400 360 Q410 380 415 430 Z"/>
+    <path d="M480 430 Q485 380 480 360 Q490 380 495 430 Z"/>
+    <path d="M440 440 Q445 390 440 370 Q450 390 455 440 Z"/>
+  </g>
+  <!-- 屎壳郎 -->
+  <g transform="translate(450 390)">
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#333"/>
+    <circle cx="-10" cy="-2" r="6" fill="#333"/>
+    <path d="M-14 -4 L-20 -8" stroke="#333" stroke-width="1.5"/>
+    <path d="M-14 0 L-20 2" stroke="#333" stroke-width="1.5"/>
+    <!-- 粪球 -->
+    <circle cx="-25" cy="3" r="7" fill="#8b6f47" opacity="0.6"/>
+    <line x1="-14" y1="2" x2="-20" y2="3" stroke="#333" stroke-width="1.5"/>
+  </g>
+  <!-- 螳螂 -->
+  <g transform="translate(420 350)">
+    <ellipse cx="0" cy="0" rx="10" ry="3" fill="#2d6a4f"/>
+    <circle cx="-8" cy="-1" r="4" fill="#2d6a4f"/>
+    <path d="M-6 -3 L-12 -8 L-10 -3" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <path d="M8 0 Q18 -2 25 0" stroke="#2d6a4f" stroke-width="1.5" fill="none"/>
+  </g>
+  <!-- 法布尔 -->
+  <g transform="translate(200 420)">
+    <!-- 蹲姿身体 -->
+    <path d="M-25 0 L-30 -50 L30 -50 L25 0 Z" fill="#4a90b8"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-68" r="16" fill="#f4d4a8"/>
+    <!-- 帽子 -->
+    <path d="M-16 -76 Q0 -90 16 -76 L14 -70 Q0 -66 -14 -70 Z" fill="#8b6f47"/>
+    <!-- 胡子 -->
+    <path d="M-5 -60 Q0 -55 5 -60" stroke="#ccc" stroke-width="2" fill="none"/>
+    <!-- 眼睛（专注看下方） -->
+    <circle cx="-5" cy="-70" r="1.5" fill="#333"/>
+    <circle cx="5" cy="-70" r="1.5" fill="#333"/>
+    <!-- 手持放大镜 -->
+    <path d="M25 -35 L55 -10" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="60" cy="-5" r="18" fill="none" stroke="#e8a838" stroke-width="4"/>
+    <circle cx="60" cy="-5" r="18" fill="#fef9ed" opacity="0.3"/>
+    <!-- 另一只手撑地 -->
+    <path d="M-25 -30 L-35 5" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- 笔记本 -->
+  <g transform="translate(120 440)">
+    <rect x="0" y="0" width="50" height="35" fill="#fef9ed" stroke="#8b6f47" stroke-width="2"/>
+    <line x1="5" y1="10" x2="45" y2="10" stroke="#8b6f47" stroke-width="0.8"/>
+    <line x1="5" y1="18" x2="45" y2="18" stroke="#8b6f47" stroke-width="0.8"/>
+    <line x1="5" y1="26" x2="40" y2="26" stroke="#8b6f47" stroke-width="0.8"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#2d6a4f">连珠小故事：法布尔和他的昆虫朋友们</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7a7468">蹲在地上看虫子，他看了一辈子</text>
+</svg>

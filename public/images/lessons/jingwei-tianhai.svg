@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="精卫鸟衔石填海的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">精卫填海</text>
+  <line x1="310" y1="56" x2="490" y2="56" stroke="#c9952e" stroke-width="3"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="65" width="800" height="220" fill="#c4dae8"/>
+  <!-- 云 -->
+  <g fill="#fffdf7" opacity="0.8">
+    <ellipse cx="120" cy="120" rx="40" ry="15"/>
+    <ellipse cx="140" cy="115" rx="30" ry="12"/>
+    <ellipse cx="600" cy="100" rx="45" ry="16"/>
+    <ellipse cx="620" cy="95" rx="35" ry="13"/>
+  </g>
+
+  <!-- 远山（发鸠山） -->
+  <path d="M0 285 L80 200 L160 285 Z" fill="#8a9a7a" opacity="0.6"/>
+  <path d="M120 285 L240 180 L360 285 Z" fill="#7a8a6a" opacity="0.6"/>
+  <path d="M320 285 L440 210 L560 285 Z" fill="#8a9a7a" opacity="0.6"/>
+  <text x="240" y="170" text-anchor="middle" font-family="serif" font-size="14" fill="#5a6a4a">发鸠山</text>
+
+  <!-- 大海 -->
+  <rect x="0" y="285" width="800" height="315" fill="#4a8ab0"/>
+  <!-- 海浪 -->
+  <g fill="none" stroke="#6aa8c8" stroke-width="2.5">
+    <path d="M0 310 Q50 300 100 310 Q150 320 200 310 Q250 300 300 310 Q350 320 400 310 Q450 300 500 310 Q550 320 600 310 Q650 300 700 310 Q750 320 800 310"/>
+    <path d="M0 340 Q50 330 100 340 Q150 350 200 340 Q250 330 300 340 Q350 350 400 340 Q450 330 500 340 Q550 350 600 340 Q650 330 700 340 Q750 350 800 340"/>
+  </g>
+  <g fill="none" stroke="#8ac0d8" stroke-width="2" opacity="0.7">
+    <path d="M0 380 Q60 370 120 380 Q180 390 240 380 Q300 370 360 380 Q420 390 480 380 Q540 370 600 380 Q660 390 720 380 Q780 370 800 380"/>
+    <path d="M0 420 Q60 410 120 420 Q180 430 240 420 Q300 410 360 420 Q420 430 480 420 Q540 410 600 420 Q660 430 720 420 Q780 410 800 420"/>
+    <path d="M0 460 Q60 450 120 460 Q180 470 240 460 Q300 450 360 460 Q420 470 480 460 Q540 450 600 460 Q660 470 720 460 Q780 450 800 460"/>
+    <path d="M0 500 Q60 490 120 500 Q180 510 240 500 Q300 490 360 500 Q420 510 480 500 Q540 490 600 500 Q660 510 720 500 Q780 490 800 500"/>
+    <path d="M0 540 Q60 530 120 540 Q180 550 240 540 Q300 530 360 540 Q420 550 480 540 Q540 530 600 540 Q660 550 720 540 Q780 530 800 540"/>
+  </g>
+  <text x="700" y="580" text-anchor="middle" font-family="serif" font-size="16" fill="#2a5070" font-weight="bold">东 海</text>
+
+  <!-- 精卫鸟（飞翔中，衔着石子） -->
+  <g transform="translate(350, 180)">
+    <text x="0" y="-45" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#5a3a1a">精卫鸟</text>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="#d4a0a0" stroke="#8a4a4a" stroke-width="2"/>
+    <!-- 花脑袋（头上有花纹） -->
+    <circle cx="-28" cy="-8" r="16" fill="#e8b0b0" stroke="#8a4a4a" stroke-width="2"/>
+    <!-- 花纹 -->
+    <path d="M-35 -15 Q-28 -20 -21 -15" fill="none" stroke="#8a4a4a" stroke-width="2"/>
+    <path d="M-38 -8 Q-28 -12 -18 -8" fill="none" stroke="#8a4a4a" stroke-width="1.5"/>
+    <circle cx="-25" cy="-18" r="2" fill="#c44a6a"/>
+    <circle cx="-32" cy="-12" r="2" fill="#c44a6a"/>
+    <!-- 白嘴巴 -->
+    <path d="M-42 -8 L-50 -5 L-42 -2 Z" fill="#fffdf7" stroke="#8a4a4a" stroke-width="1.5"/>
+    <!-- 衔着的石子 -->
+    <circle cx="-52" cy="-5" r="6" fill="#8a8a7a" stroke="#5a5a4a" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="-30" cy="-10" r="3" fill="#1a1a1a"/>
+    <circle cx="-29" cy="-11" r="1" fill="#fff"/>
+    <!-- 翅膀（展开飞翔） -->
+    <path d="M-5 -10 Q10 -35 35 -30 Q25 -15 10 -8 Z" fill="#c49090" stroke="#8a4a4a" stroke-width="2"/>
+    <path d="M5 5 Q20 25 40 20 Q30 10 15 5 Z" fill="#c49090" stroke="#8a4a4a" stroke-width="2"/>
+    <!-- 翅膀羽毛 -->
+    <line x1="15" y1="-20" x2="25" y2="-25" stroke="#8a4a4a" stroke-width="1.5"/>
+    <line x1="20" y1="-15" x2="30" y2="-20" stroke="#8a4a4a" stroke-width="1.5"/>
+    <!-- 红脚爪 -->
+    <path d="M5 18 L3 28 M10 18 L8 28 M15 18 L13 28" stroke="#c44a3a" stroke-width="2" stroke-linecap="round"/>
+    <!-- 尾羽 -->
+    <path d="M25 0 L40 -5 L40 5 Z" fill="#c49090" stroke="#8a4a4a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 飞行轨迹（从西山到海面） -->
+  <path d="M150 250 Q250 200 350 180 Q450 200 550 280" fill="none" stroke="#c9952e" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- 已投入海中的石子和树枝（海面上漂浮/下沉） -->
+  <g>
+    <circle cx="200" cy="330" r="5" fill="#8a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+    <circle cx="280" cy="350" r="4" fill="#9a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+    <rect x="350" y="345" width="12" height="3" fill="#7a5a3a" stroke="#5a3a1a" stroke-width="1" rx="1" transform="rotate(20 356 346)"/>
+    <circle cx="450" cy="365" r="6" fill="#8a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+    <circle cx="520" cy="340" r="4" fill="#9a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+    <rect x="600" y="355" width="14" height="3" fill="#7a5a3a" stroke="#5a3a1a" stroke-width="1" rx="1" transform="rotate(-15 607 356)"/>
+    <circle cx="650" cy="375" r="5" fill="#8a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+    <circle cx="380" cy="390" r="4" fill="#9a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+  </g>
+
+  <!-- 西山（衔石来源） -->
+  <g transform="translate(100, 250)">
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="13" fill="#5a3a1a">西山（衔石处）</text>
+    <path d="M-40 35 L-20 -10 L0 -20 L20 -5 L40 35 Z" fill="#b09a7a" stroke="#7a6a4a" stroke-width="2"/>
+    <!-- 石子堆 -->
+    <circle cx="-10" cy="30" r="5" fill="#8a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+    <circle cx="5" cy="32" r="4" fill="#9a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+    <circle cx="-5" cy="25" r="3" fill="#8a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+    <circle cx="12" cy="28" r="3" fill="#9a8a7a" stroke="#5a5a4a" stroke-width="1"/>
+  </g>
+
+  <!-- 标注 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="14" fill="#8a6a3a">日复一日，衔石投海，从不退缩</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="金色田野上农民劳作与新农村景象插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#2d6a4f">在希望的田野上</text>
+  <line x1="300" y1="56" x2="500" y2="56" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="180" fill="#e8f0f8" opacity="0.3"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="130" r="28" fill="#e8a838" opacity="0.5"/>
+  <circle cx="680" cy="130" r="20" fill="#e8a838" opacity="0.7"/>
+  <!-- 云 -->
+  <ellipse cx="150" cy="110" rx="40" ry="12" fill="#fff" opacity="0.5"/>
+  <ellipse cx="450" cy="100" rx="45" ry="14" fill="#fff" opacity="0.4"/>
+
+  <!-- 远处村庄 -->
+  <g transform="translate(200, 220)">
+    <!-- 新房 -->
+    <rect x="-30" y="0" width="60" height="40" fill="#e0c898" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-35 0 L0 -20 L35 0 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-8" y="15" width="16" height="25" fill="#7a3b14"/>
+    <rect x="-25" y="8" width="12" height="12" fill="#e8a838" opacity="0.6" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="13" y="8" width="12" height="12" fill="#e8a838" opacity="0.6" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 炊烟 -->
+    <path d="M 0 -20 Q 5 -35 0 -50 Q -5 -65 5 -75" fill="none" stroke="#c8c8c8" stroke-width="2" opacity="0.4"/>
+  </g>
+  <g transform="translate(550, 230)">
+    <rect x="-25" y="0" width="50" height="35" fill="#e0c898" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-30 0 L0 -18 L30 0 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-6" y="12" width="12" height="23" fill="#7a3b14"/>
+    <path d="M 0 -18 Q 4 -30 0 -45" fill="none" stroke="#c8c8c8" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- 小河 -->
+  <path d="M 0 280 Q 200 270 400 280 Q 600 290 800 275" fill="none" stroke="#4a90b8" stroke-width="3" opacity="0.4"/>
+  <path d="M 0 285 Q 200 275 400 285 Q 600 295 800 280" fill="none" stroke="#4a90b8" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- 田野（金色） -->
+  <rect x="0" y="290" width="800" height="200" fill="#e8a838" opacity="0.12"/>
+  <!-- 麦田纹理 -->
+  <g opacity="0.3">
+    <line x1="50" y1="300" x2="50" y2="310" stroke="#e8a838" stroke-width="1"/>
+    <line x1="100" y1="300" x2="100" y2="310" stroke="#e8a838" stroke-width="1"/>
+    <line x1="150" y1="300" x2="150" y2="310" stroke="#e8a838" stroke-width="1"/>
+    <line x1="250" y1="305" x2="250" y2="315" stroke="#e8a838" stroke-width="1"/>
+    <line x1="300" y1="305" x2="300" y2="315" stroke="#e8a838" stroke-width="1"/>
+    <line x1="500" y1="305" x2="500" y2="315" stroke="#e8a838" stroke-width="1"/>
+    <line x1="550" y1="305" x2="550" y2="315" stroke="#e8a838" stroke-width="1"/>
+    <line x1="650" y1="300" x2="650" y2="310" stroke="#e8a838" stroke-width="1"/>
+    <line x1="700" y1="300" x2="700" y2="310" stroke="#e8a838" stroke-width="1"/>
+  </g>
+
+  <!-- 农民劳作 -->
+  <g transform="translate(350, 380)">
+    <!-- 弯腰劳作的农民 -->
+    <circle cx="0" cy="-30" r="8" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-6 -36 Q0 -42 6 -36" fill="#7a3b14" opacity="0.6"/>
+    <!-- 弯腰身体 -->
+    <path d="M 0 -22 Q -5 -10 -10 0 Q -8 5 -5 8" fill="none" stroke="#4a90b8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M -5 8 L -5 25" stroke="#5a4a2a" stroke-width="3"/>
+    <path d="M -10 0 Q -15 5 -18 10" fill="none" stroke="#4a90b8" stroke-width="4" stroke-linecap="round"/>
+    <!-- 锄头 -->
+    <line x1="-18" y1="10" x2="-25" y2="20" stroke="#5a4a2a" stroke-width="2"/>
+    <path d="M-27 18 L-22 25 L-18 20 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <g transform="translate(500, 390)">
+    <circle cx="0" cy="-25" r="7" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-5 -30 Q0 -35 5 -30" fill="#e07856" opacity="0.6"/>
+    <path d="M 0 -18 Q -4 -8 -8 0 Q -6 5 -4 8" fill="none" stroke="#e07856" stroke-width="5" stroke-linecap="round"/>
+    <path d="M -4 8 L -4 22" stroke="#5a4a2a" stroke-width="2.5"/>
+  </g>
+
+  <!-- 禾苗/高粱 -->
+  <g transform="translate(100, 380)">
+    <line x1="0" y1="0" x2="0" y2="-25" stroke="#2d6a4f" stroke-width="2"/>
+    <ellipse cx="0" cy="-25" rx="4" ry="6" fill="#e07856" opacity="0.7"/>
+    <line x1="15" y1="0" x2="15" y2="-22" stroke="#2d6a4f" stroke-width="2"/>
+    <ellipse cx="15" cy="-22" rx="3" ry="5" fill="#e07856" opacity="0.6"/>
+    <line x1="30" y1="0" x2="30" y2="-28" stroke="#2d6a4f" stroke-width="2"/>
+    <ellipse cx="30" cy="-28" rx="4" ry="6" fill="#e07856" opacity="0.7"/>
+  </g>
+  <g transform="translate(650, 380)">
+    <line x1="0" y1="0" x2="0" y2="-25" stroke="#2d6a4f" stroke-width="2"/>
+    <ellipse cx="0" cy="-25" rx="4" ry="6" fill="#e07856" opacity="0.7"/>
+    <line x1="15" y1="0" x2="15" y2="-22" stroke="#2d6a4f" stroke-width="2"/>
+    <ellipse cx="15" cy="-22" rx="3" ry="5" fill="#e07856" opacity="0.6"/>
+    <line x1="30" y1="0" x2="30" y2="-28" stroke="#2d6a4f" stroke-width="2"/>
+    <ellipse cx="30" cy="-28" rx="4" ry="6" fill="#e07856" opacity="0.7"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="100" y="510" width="600" height="55" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="6" opacity="0.8"/>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">"我们的家乡，在希望的田野上——"</text>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">炊烟飘荡，小河流淌，世世代代为她奋斗为她梳妆</text>
+</svg>

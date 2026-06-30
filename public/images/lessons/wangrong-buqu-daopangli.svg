@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="李树、孩子和道路插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">王戎不取道旁李</text>
+  <line x1="240" y1="62" x2="560" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="200" fill="#e8f0d8"/>
+  <!-- 远山 -->
+  <path d="M0 280 L100 220 L200 260 L320 200 L440 250 L560 210 L680 255 L800 225 L800 320 L0 320 Z" fill="#c8d8b0" opacity="0.5"/>
+
+  <!-- 道路 -->
+  <path d="M0 400 L200 380 L400 390 L600 380 L800 400 L800 460 L0 460 Z" fill="#d8c8a8"/>
+  <!-- 路面纹理 -->
+  <path d="M0 420 Q200 410 400 420 T800 420" fill="none" stroke="#b8a888" stroke-width="2"/>
+  <path d="M0 440 Q200 432 400 440 T800 440" fill="none" stroke="#b8a888" stroke-width="2"/>
+
+  <!-- 草地 -->
+  <rect x="0" y="460" width="800" height="140" fill="#c8d8a0"/>
+  <g stroke="#6a8a3a" stroke-width="2" fill="none">
+    <path d="M50 470 L48 460 L52 463"/>
+    <path d="M150 475 L148 465 L152 468"/>
+    <path d="M650 470 L648 460 L652 463"/>
+    <path d="M750 475 L748 465 L752 468"/>
+  </g>
+
+  <!-- 大李树（路旁） -->
+  <!-- 树干 -->
+  <path d="M380 460 Q375 380 370 300 Q368 260 375 220" fill="none" stroke="#6a4220" stroke-width="16" stroke-linecap="round"/>
+  <!-- 树皮纹理 -->
+  <path d="M372 350 Q368 340 372 330" fill="none" stroke="#5a3210" stroke-width="2"/>
+  <path d="M375 280 Q371 270 375 260" fill="none" stroke="#5a3210" stroke-width="2"/>
+  <!-- 主枝 -->
+  <path d="M375 300 Q340 280 310 270" fill="none" stroke="#6a4220" stroke-width="8" stroke-linecap="round"/>
+  <path d="M375 280 Q410 260 440 250" fill="none" stroke="#6a4220" stroke-width="8" stroke-linecap="round"/>
+  <path d="M375 250 Q350 230 325 225" fill="none" stroke="#6a4220" stroke-width="6" stroke-linecap="round"/>
+  <path d="M375 240 Q400 220 425 220" fill="none" stroke="#6a4220" stroke-width="6" stroke-linecap="round"/>
+  <!-- 树冠 -->
+  <ellipse cx="340" cy="240" rx="55" ry="45" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="2"/>
+  <ellipse cx="400" cy="220" rx="60" ry="50" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="2"/>
+  <ellipse cx="370" cy="200" rx="50" ry="40" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="2"/>
+  <ellipse cx="320" cy="270" rx="40" ry="35" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="2"/>
+  <ellipse cx="430" cy="260" rx="45" ry="38" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="2"/>
+
+  <!-- 树上的李子（密密麻麻） -->
+  <g fill="#c83828" stroke="#8a2010" stroke-width="1">
+    <circle cx="320" cy="230" r="7"/>
+    <circle cx="340" cy="215" r="7"/>
+    <circle cx="360" cy="225" r="7"/>
+    <circle cx="380" cy="210" r="7"/>
+    <circle cx="400" cy="220" r="7"/>
+    <circle cx="420" cy="205" r="7"/>
+    <circle cx="435" cy="225" r="7"/>
+    <circle cx="310" cy="250" r="7"/>
+    <circle cx="330" cy="260" r="7"/>
+    <circle cx="355" cy="245" r="7"/>
+    <circle cx="375" cy="255" r="7"/>
+    <circle cx="395" cy="240" r="7"/>
+    <circle cx="415" cy="250" r="7"/>
+    <circle cx="430" cy="270" r="7"/>
+    <circle cx="350" cy="195" r="7"/>
+    <circle cx="390" cy="190" r="7"/>
+    <circle cx="325" cy="280" r="7"/>
+    <circle cx="410" cy="280" r="7"/>
+  </g>
+  <!-- 李子高光 -->
+  <g fill="#e85848" opacity="0.6">
+    <circle cx="318" cy="228" r="2.5"/>
+    <circle cx="338" cy="213" r="2.5"/>
+    <circle cx="378" cy="208" r="2.5"/>
+    <circle cx="418" cy="203" r="2.5"/>
+  </g>
+
+  <!-- 掉落在地上的李子 -->
+  <g fill="#c83828" stroke="#8a2010" stroke-width="1">
+    <circle cx="340" cy="455" r="6"/>
+    <circle cx="360" cy="465" r="6"/>
+    <circle cx="390" cy="455" r="6"/>
+    <circle cx="410" cy="465" r="6"/>
+  </g>
+
+  <!-- 王戎（站立，不摘李子，冷静思考） -->
+  <!-- 身体 -->
+  <path d="M580 510 L585 420 L625 420 L630 510 Z" fill="#2e5a8a"/>
+  <!-- 头 -->
+  <circle cx="605" cy="400" r="20" fill="#f0d0a8"/>
+  <!-- 头巾 -->
+  <path d="M585 396 Q605 376 625 396 L625 388 Q605 370 585 388 Z" fill="#1e3a5a"/>
+  <rect x="595" y="380" width="20" height="12" fill="#1e3a5a"/>
+  <!-- 眼睛（思考状） -->
+  <ellipse cx="598" cy="400" rx="2.5" ry="2" fill="#2a2a2a"/>
+  <ellipse cx="612" cy="400" rx="2.5" ry="2" fill="#2a2a2a"/>
+  <!-- 眉毛 -->
+  <path d="M593 394 Q598 392 603 394" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M607 394 Q612 392 617 394" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- 嘴 -->
+  <path d="M600 410 Q605 412 610 410" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 手臂（一手托腮思考） -->
+  <path d="M585 425 L575 400" fill="none" stroke="#2e5a8a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="573" cy="395" r="7" fill="#f0d0a8"/>
+  <path d="M625 425 L640 440" fill="none" stroke="#2e5a8a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="642" cy="442" r="7" fill="#f0d0a8"/>
+
+  <!-- 其他小孩（跑去摘李子） -->
+  <!-- 小孩1（爬树） -->
+  <circle cx="330" cy="340" r="14" fill="#f0d0a8"/>
+  <path d="M320 340 Q330 330 340 340 L340 335 Q330 327 320 335 Z" fill="#2a2a2a"/>
+  <circle cx="326" cy="340" r="2" fill="#2a2a2a"/>
+  <circle cx="334" cy="340" r="2" fill="#2a2a2a"/>
+  <path d="M321 348 Q330 351 339 348" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <path d="M320 352 L315 365 L345 365 L340 352 Z" fill="#c84030"/>
+  <!-- 手臂伸向李子 -->
+  <path d="M320 355 L305 330" fill="none" stroke="#c84030" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="303" cy="328" r="5" fill="#f0d0a8"/>
+
+  <!-- 小孩2（在树下捡李子） -->
+  <circle cx="430" cy="420" r="12" fill="#f0d0a8"/>
+  <path d="M422 420 Q430 410 438 420 L438 415 Q430 407 422 415 Z" fill="#2a2a2a"/>
+  <circle cx="426" cy="420" r="1.5" fill="#2a2a2a"/>
+  <circle cx="434" cy="420" r="1.5" fill="#2a2a2a"/>
+  <path d="M420 432 L425 445 L435 445 L440 432 Z" fill="#3a6a4a"/>
+  <path d="M425 438 L415 450" fill="none" stroke="#3a6a4a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="413" cy="452" r="5" fill="#f0d0a8"/>
+
+  <!-- 小孩3（跑向树） -->
+  <circle cx="200" cy="400" r="12" fill="#f0d0a8"/>
+  <path d="M192 400 Q200 390 208 400 L208 395 Q200 387 192 395 Z" fill="#2a2a2a"/>
+  <circle cx="196" cy="400" r="1.5" fill="#2a2a2a"/>
+  <circle cx="204" cy="400" r="1.5" fill="#2a2a2a"/>
+  <path d="M190 412 L195 425 L205 425 L210 412 Z" fill="#c84030"/>
+  <path d="M195 418 L210 410" fill="none" stroke="#c84030" stroke-width="5" stroke-linecap="round"/>
+  <path d="M205 418 L220 415" fill="none" stroke="#c84030" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- 王戎标注 -->
+  <line x1="605" y1="375" x2="605" y2="335" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="560" y="310" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="605" y="328" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">王戎</text>
+
+  <!-- 李树标注 -->
+  <line x1="380" y1="195" x2="380" y2="155" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="320" y="130" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="380" y="148" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">道旁李树</text>
+
+  <!-- 李子标注 -->
+  <line x1="420" y1="205" x2="490" y2="180" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="495" y="167" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="540" y="185" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">果实累累</text>
+
+  <!-- 道路标注 -->
+  <line x1="150" y1="420" x2="150" y2="390" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="105" y="365" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="150" y="383" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">道路</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">道旁李树果实累累，诸儿竞取，唯王戎不动：树在道边而多子，必苦李</text>
+</svg>

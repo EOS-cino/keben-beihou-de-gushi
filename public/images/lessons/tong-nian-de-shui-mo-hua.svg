@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="童年的水墨画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">童年的水墨画</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">三首小诗，三幅童年</text>
+  <g transform="translate(150,300)">
+    <path d="M-40,40 Q0,30 40,40 L40,50 L-40,50 Z" fill="#7fb8a8" stroke="#2a6b5a" stroke-width="2"/>
+    <line x1="-10" y1="20" x2="-10" y2="40" stroke="#5a3a1a" stroke-width="2"/>
+    <ellipse cx="-14" cy="14" rx="6" ry="3" fill="#c0392b"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">溪边</text>
+  </g>
+  <g transform="translate(400,300)">
+    <path d="M-40,40 Q0,30 40,40 L40,50 L-40,50 Z" fill="#7fb8d8" stroke="#2a5a7a" stroke-width="2"/>
+    <circle cx="-10" cy="30" r="5" fill="#fff"/><circle cx="12" cy="34" r="4" fill="#fff"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">江上</text>
+  </g>
+  <g transform="translate(650,300)">
+    <path d="M-30,40 L30,40 L24,-10 L-24,-10 Z" fill="#5a8a3a" stroke="#3a6b2a" stroke-width="2"/>
+    <path d="M-24,-10 L0,-30 L24,-10" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">林中</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">诗中有画，画中有童年</text>
+</svg>

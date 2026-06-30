@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="暴风雨来临之前：天地变了脸">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">暴风雨来临之前</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">雨还没来，天地已在预告</text>
+  <ellipse cx="400" cy="180" rx="320" ry="70" fill="#5a5a6a" opacity="0.7"/>
+  <ellipse cx="300" cy="170" rx="120" ry="45" fill="#3a3a4a" opacity="0.6"/>
+  <g transform="translate(400,300)">
+    <path d="M-80,40 Q-60,-30 0,-20 Q60,-30 80,40 Z" fill="#7a9b5a" stroke="#4a6b3a" stroke-width="2"/>
+    <line x1="-30" y1="40" x2="-40" y2="80" stroke="#7a4a1a" stroke-width="3"/>
+    <line x1="30" y1="40" x2="40" y2="80" stroke="#7a4a1a" stroke-width="3"/>
+  </g>
+  <g transform="translate(180,360)">
+    <circle cx="0" cy="0" r="6" fill="#2a2a2a"/>
+    <circle cx="-14" cy="4" r="4" fill="#2a2a2a"/>
+    <circle cx="14" cy="4" r="4" fill="#2a2a2a"/>
+    <line x1="-14" y1="4" x2="14" y2="4" stroke="#2a2a2a" stroke-width="1"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="13" fill="#4a4a4a">蚂蚁搬家</text>
+  </g>
+  <g transform="translate(620,340)">
+    <path d="M0,0 Q15,-8 30,0 Q15,8 0,0 Z" fill="#4a4a4a" stroke="#2a2a2a" stroke-width="1"/>
+    <path d="M-5,2 Q-15,5 -25,8" stroke="#2a2a2a" stroke-width="1" fill="none"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="13" fill="#4a4a4a">燕子低飞</text>
+  </g>
+  <path d="M340,200 L360,250 L350,250 L370,300" stroke="#f6dca0" stroke-width="3" fill="none" opacity="0.7"/>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">闷热 → 起风 → 乌云 → 闷雷</text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="专注力插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#3a5a4a">连珠小故事：专注力与学习态度</text>
+  <line x1="180" y1="62" x2="620" y2="62" stroke="#6a9a7a" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 左侧：专注（聚光比喻） -->
+  <g>
+    <rect x="60" y="120" width="300" height="340" fill="#fff6df" stroke="#3a6a5a" stroke-width="2" rx="10"/>
+    <text x="210" y="150" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#3a6a5a">专注</text>
+    <!-- 放大镜（聚光） -->
+    <circle cx="210" cy="230" r="40" fill="none" stroke="#3a6a5a" stroke-width="5"/>
+    <line x1="238" y1="258" x2="270" y2="290" stroke="#3a6a5a" stroke-width="8" stroke-linecap="round"/>
+    <!-- 聚焦的光线 -->
+    <g stroke="#f4d842" stroke-width="2" opacity="0.7">
+      <line x1="150" y1="200" x2="195" y2="225"/>
+      <line x1="160" y1="180" x2="200" y2="215"/>
+      <line x1="180" y1="165" x2="205" y2="210"/>
+      <line x1="270" y1="200" x2="225" y2="225"/>
+      <line x1="260" y1="180" x2="220" y2="215"/>
+      <line x1="240" y1="165" x2="215" y2="210"/>
+    </g>
+    <!-- 焦点处燃烧的纸 -->
+    <rect x="200" y="225" width="20" height="14" fill="#fff" stroke="#c4a86a"/>
+    <path d="M205 230 Q210 235 215 230" fill="#e8783a" opacity="0.7"/>
+    <!-- 大脑（高效运转） -->
+    <ellipse cx="210" cy="340" rx="55" ry="40" fill="#f0c8c8" stroke="#c47878" stroke-width="2"/>
+    <g stroke="#c47878" stroke-width="1.5" fill="none">
+      <path d="M170 330 Q190 320 210 335 Q230 320 250 330"/>
+      <path d="M170 345 Q190 335 210 350 Q230 335 250 345"/>
+      <path d="M175 360 Q195 350 210 365"/>
+    </g>
+    <!-- 100%标记 -->
+    <rect x="170" y="400" width="80" height="28" fill="#3a6a5a" rx="4"/>
+    <text x="210" y="419" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#fff6df">效率 100%</text>
+    <text x="210" y="448" text-anchor="middle" font-family="serif" font-size="12" fill="#3a6a5a">聚光能燃纸</text>
+  </g>
+
+  <!-- 右侧：分心（散光比喻） -->
+  <g>
+    <rect x="440" y="120" width="300" height="340" fill="#fff6df" stroke="#c47a3a" stroke-width="2" rx="10"/>
+    <text x="590" y="150" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#c47a3a">分心</text>
+    <!-- 散开的光线 -->
+    <circle cx="590" cy="230" r="30" fill="none" stroke="#c47a3a" stroke-width="3" opacity="0.5"/>
+    <g stroke="#c4a83a" stroke-width="2" opacity="0.5">
+      <line x1="590" y1="230" x2="540" y2="190"/>
+      <line x1="590" y1="230" x2="640" y2="190"/>
+      <line x1="590" y1="230" x2="520" y2="230"/>
+      <line x1="590" y1="230" x2="660" y2="230"/>
+      <line x1="590" y1="230" x2="540" y2="270"/>
+      <line x1="590" y1="230" x2="640" y2="270"/>
+    </g>
+    <!-- 干扰图标 -->
+    <g>
+      <!-- 手机 -->
+      <rect x="500" y="180" width="16" height="26" fill="#3a4a6a" rx="3"/>
+      <circle cx="508" cy="202" r="2" fill="#f4d842"/>
+      <!-- 游戏 -->
+      <rect x="660" y="185" width="20" height="20" fill="#8a4a3a" rx="3"/>
+      <text x="670" y="200" text-anchor="middle" font-family="serif" font-size="12" fill="#f4d842">游</text>
+      <!-- 天鹅/想象 -->
+      <path d="M540 270 Q548 267 556 270 Q564 267 572 270 Q564 274 556 274 Q548 274 540 270 Z" fill="#fff" stroke="#aaa" stroke-width="1"/>
+    </g>
+    <!-- 大脑（卡顿） -->
+    <ellipse cx="590" cy="340" rx="55" ry="40" fill="#e0d0d0" stroke="#aa8888" stroke-width="2"/>
+    <g stroke="#aa8888" stroke-width="1.5" fill="none">
+      <path d="M550 330 Q570 325 590 340" stroke-dasharray="3,3"/>
+      <path d="M590 340 Q610 325 630 330" stroke-dasharray="3,3"/>
+      <path d="M550 350 Q570 345 590 360" stroke-dasharray="3,3"/>
+    </g>
+    <!-- 卡顿标记 -->
+    <text x="590" y="345" text-anchor="middle" font-family="serif" font-size="20" fill="#aa8888">...</text>
+    <!-- 低效标记 -->
+    <rect x="550" y="400" width="80" height="28" fill="#c47a3a" rx="4"/>
+    <text x="590" y="419" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#fff6df">效率 40%</text>
+    <text x="590" y="448" text-anchor="middle" font-family="serif" font-size="12" fill="#c47a3a">散光不暖手</text>
+  </g>
+
+  <!-- 中间对比箭头 -->
+  <text x="400" y="290" text-anchor="middle" font-family="serif" font-size="30" fill="#8a6a3a">VS</text>
+
+  <!-- 底部：学弈与现代科学 -->
+  <rect x="150" y="475" width="500" height="40" fill="#fff6df" stroke="#6a9a7a" stroke-width="2" rx="8"/>
+  <text x="400" y="495" text-anchor="middle" font-family="serif" font-size="14" fill="#3a5a4a">孟子《学弈》的道理，被现代认知科学证实：</text>
+  <text x="400" y="510" text-anchor="middle" font-family="serif" font-size="13" fill="#3a5a4a">专注力是学习效率的关键——同样的条件，态度决定结果</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#3a5a4a">从学弈到认知科学——专注力是两千年来不变的学习秘诀</text>
+</svg>

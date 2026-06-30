@@ -1,0 +1,144 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import LessonCard from "../../components/LessonCard.astro";
+import { authorBios } from "../../data/authorBios";
+import { getLessonAuthors, authorSlug } from "../../data/authors";
+
+export async function getStaticPaths() {
+  const gradeOrder = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"];
+
+  const allLessons = await getCollection("lessons");
+
+  // 按作者分组：将多作者课文拆分到各自作者名下
+  const byAuthor = new Map<string, typeof allLessons>();
+  for (const lesson of allLessons) {
+    const authors = getLessonAuthors(lesson.data.author);
+    for (const author of authors) {
+      if (!byAuthor.has(author)) byAuthor.set(author, []);
+      byAuthor.get(author)!.push(lesson);
+    }
+  }
+
+  return [...byAuthor.entries()].map(([author, lessons]) => {
+    // 按 gradeOrder 排序，同年级再按上下册排序
+    const sortedLessons = lessons.sort((a, b) => {
+      const ga = gradeOrder.indexOf(a.data.grade);
+      const gb = gradeOrder.indexOf(b.data.grade);
+      if (ga !== gb) return ga - gb;
+      return a.data.volume.localeCompare(b.data.volume, "zh-CN");
+    });
+
+    return {
+      params: { author: authorSlug(author) },
+      props: {
+        author,
+        lessons: sortedLessons,
+      },
+    };
+  });
+}
+
+const { author, lessons } = Astro.props;
+
+// 获取作者简介数据（高频作者才有）
+const bio = authorBios[author] || authorBios[author.trim()];
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+
+// 页面正文使用的年级顺序
+const gradeOrder = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"];
+
+// 统计信息
+const themeList = [...new Set(lessons.map((l) => l.data.theme))];
+const gradeList = [...new Set(lessons.map((l) => l.data.grade))].sort(
+  (a, b) => gradeOrder.indexOf(a) - gradeOrder.indexOf(b),
+);
+
+// 作者页 canonical URL（需与 Astro.url 保持一致，这里用 pathname 拼接）
+const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, "") : "";
+const canonicalUrl = `${siteOrigin}${Astro.url.pathname}`;
+
+// 作者页的 JSON-LD：Person 结构化数据
+const authorJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: author,
+  description: `${author} 收录于"课文背后的故事"的课文背景故事合集，共 ${lessons.length} 篇。`,
+  url: canonicalUrl,
+  knowsAbout: themeList,
+};
+
+const description = `${author}的课文背景故事合集，共收录 ${lessons.length} 篇课文，覆盖${gradeList.join("、")}等年级段。`;
+---
+
+<BaseLayout
+  title={`${author} - 课文背后的故事`}
+  description={description}
+  ogType="profile"
+  canonical={canonicalUrl}
+  jsonLd={authorJsonLd}
+>
+  <section class="page-hero compact">
+    <div>
+      <a class="back-link" href={withBase("/authors/")}>← 返回作者索引</a>
+      <p class="eyebrow">作者聚合</p>
+      <h1>{author}</h1>
+      <p>
+        共收录 <strong>{lessons.length}</strong> 篇课文背后的故事，覆盖
+        {gradeList.join("、")}，主题涉及{themeList.join("、")}。按年级顺序排列，方便逐篇阅读。
+      </p>
+    </div>
+    <div class="library-note">
+      <strong>{lessons.length}</strong>
+      <span>篇课文</span>
+    </div>
+  </section>
+
+  {bio && (
+    <section class="author-bio-card" aria-label={`${author}简介`}>
+      <div class="author-bio-header">
+        <h2 class="author-bio-name">{author}</h2>
+        {bio.title && <span class="author-bio-title">{bio.title}</span>}
+        <div class="author-bio-meta">
+          {bio.dynasty && <span class="author-bio-dynasty">{bio.dynasty}</span>}
+          {bio.years && <span class="author-bio-years">{bio.years}</span>}
+        </div>
+      </div>
+
+      {bio.achievement && (
+        <p class="author-bio-achievement">
+          <span class="author-bio-label">文学成就</span>
+          {bio.achievement}
+        </p>
+      )}
+
+      {bio["代表作"] && bio["代表作"].length > 0 && (
+        <div class="author-bio-works">
+          <span class="author-bio-label">代表作品</span>
+          <ul class="author-bio-works-list">
+            {bio["代表作"].map((work) => (
+              <li class="author-bio-work">{work}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {bio.anecdote && (
+        <p class="author-bio-anecdote">
+          <span class="author-bio-label">趣闻轶事</span>
+          {bio.anecdote}
+        </p>
+      )}
+    </section>
+  )}
+
+  <section class="lesson-shelves" aria-label={`${author}的课文列表`}>
+    <div class="card-grid lesson-list">
+      {lessons.map((lesson) => (
+        <LessonCard lesson={lesson} />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

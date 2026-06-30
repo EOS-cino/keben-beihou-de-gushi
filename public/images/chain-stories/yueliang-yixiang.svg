@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中外诗歌中的月亮插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">中外诗歌中的月亮</text>
+  <line x1="270" y1="58" x2="530" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空背景 -->
+  <rect x="0" y="64" width="800" height="480" fill="#e8e8f0" opacity="0.3"/>
+
+  <!-- 三个文化分区 -->
+  <!-- 中国：李白望月 -->
+  <rect x="20" y="80" width="250" height="450" fill="#f0e8d0" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="145" y="108" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">中国 · 思乡</text>
+  <!-- 月亮 -->
+  <circle cx="145" cy="160" r="28" fill="#f0e8c8"/>
+  <circle cx="138" cy="153" r="5" fill="#e8e0c0" opacity="0.6"/>
+  <!-- 李白（举头望月） -->
+  <g transform="translate(145,340)">
+    <circle cx="0" cy="-50" r="12" fill="#e8c4a0"/>
+    <path d="M-12 -58 Q0 -70 12 -58 Z" fill="#3d2817"/>
+    <path d="M-16 -38 L-18 10 L-12 20 L12 20 L18 10 L16 -38 Z" fill="#3a6a9a"/>
+    <!-- 举头的手臂 -->
+    <path d="M-16 -30 L-30 -55 L-25 -70" stroke="#3a6a9a" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="-25" cy="-70" r="4" fill="#e8c4a0"/>
+    <circle cx="-4" cy="-52" r="1.2" fill="#3d2817"/><circle cx="4" cy="-52" r="1.2" fill="#3d2817"/>
+    <rect x="-8" y="20" width="6" height="22" fill="#5a3a1a"/>
+    <rect x="2" y="20" width="6" height="22" fill="#5a3a1a"/>
+  </g>
+  <!-- 诗句 -->
+  <text x="145" y="420" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">举头望明月</text>
+  <text x="145" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">低头思故乡</text>
+  <text x="145" y="470" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">——李白《静夜思》</text>
+  <!-- 视线虚线 -->
+  <line x1="130" y1="290" x2="140" y2="185" stroke="#7a3b14" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- 日本：月见 -->
+  <rect x="285" y="80" width="230" height="450" fill="#f0e8e8" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="400" y="108" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">日本 · 月见</text>
+  <!-- 满月 -->
+  <circle cx="400" cy="160" r="28" fill="#f0e8c8"/>
+  <!-- 芒草 -->
+  <g stroke="#c8a858" stroke-width="2.5" fill="none">
+    <path d="M340 280 Q335 240 338 200"/>
+    <path d="M355 285 Q360 245 357 205"/>
+    <path d="M445 285 Q440 245 443 205"/>
+    <path d="M460 280 Q465 240 462 200"/>
+  </g>
+  <ellipse cx="338" cy="200" rx="3" ry="8" fill="#c8a858"/>
+  <ellipse cx="357" cy="205" rx="3" ry="8" fill="#c8a858"/>
+  <ellipse cx="443" cy="205" rx="3" ry="8" fill="#c8a858"/>
+  <ellipse cx="462" cy="200" rx="3" ry="8" fill="#c8a858"/>
+  <!-- 月见团子 -->
+  <g transform="translate(400,360)">
+    <rect x="-30" y="0" width="60" height="6" fill="#8d5a36"/>
+    <ellipse cx="-15" cy="-5" rx="8" ry="8" fill="#fff6df" stroke="#d8c8a8" stroke-width="1"/>
+    <ellipse cx="0" cy="-8" rx="8" ry="8" fill="#fff6df" stroke="#d8c8a8" stroke-width="1"/>
+    <ellipse cx="15" cy="-5" rx="8" ry="8" fill="#fff6df" stroke="#d8c8a8" stroke-width="1"/>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">摆团子·赏明月</text>
+  <text x="400" y="450" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">——日本"月见"习俗</text>
+
+  <!-- 西方：月亮与诗 -->
+  <rect x="530" y="80" width="250" height="450" fill="#e8e8f0" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="655" y="108" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">西方 · 月与梦</text>
+  <!-- 弯月 -->
+  <path d="M655 135 A28 28 0 1 0 670 160 A22 22 0 1 1 655 135 Z" fill="#f0e8c8"/>
+  <!-- 星星 -->
+  <g fill="#e8a838" opacity="0.7">
+    <circle cx="590" cy="150" r="2"/><circle cx="720" cy="145" r="2"/>
+    <circle cx="600" cy="180" r="1.5"/><circle cx="710" cy="185" r="1.5"/>
+  </g>
+  <!-- 月亮上的人（简笔） -->
+  <g transform="translate(655,150)" opacity="0.5">
+    <circle cx="0" cy="0" r="4" fill="#7a3b14"/>
+    <rect x="-3" y="3" width="6" height="8" fill="#7a3b14"/>
+  </g>
+  <!-- 诗人剪影 -->
+  <g transform="translate(655,340)">
+    <circle cx="0" cy="-45" r="11" fill="#3d2817"/>
+    <path d="M-14 -34 L-16 10 L-10 20 L10 20 L16 10 L14 -34 Z" fill="#3d2817"/>
+    <rect x="-8" y="20" width="6" height="22" fill="#3d2817"/>
+    <rect x="2" y="20" width="6" height="22" fill="#3d2817"/>
+    <!-- 羽毛笔 -->
+    <path d="M14 -20 L28 -30" stroke="#3d2817" stroke-width="2"/>
+  </g>
+  <text x="655" y="420" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">月光入诗·梦境相伴</text>
+  <text x="655" y="450" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">——叶芝·歌德等</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="548" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="573" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">不同文化里，月亮都连着思念与温暖：李白望月思乡，日本月见祈福，西方月入诗梦。</text>
+</svg>

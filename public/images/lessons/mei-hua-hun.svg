@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="梅花魂 - 华侨老人与墨梅">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题栏 -->
+  <rect x="0" y="0" width="800" height="74" fill="#7a3b14" opacity="0.12"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">梅 花 魂</text>
+  <line x1="320" y1="64" x2="480" y2="64" stroke="#c05a30" stroke-width="2"/>
+
+  <!-- 雪地背景 -->
+  <path d="M0 460 Q200 430 400 450 T800 440 L800 514 L0 514 Z" fill="#7a7468" opacity="0.12"/>
+
+  <!-- 墨梅图卷轴（右） -->
+  <g transform="translate(560,170)">
+    <!-- 卷轴上下杆 -->
+    <rect x="-110" y="-8" width="220" height="8" rx="3" fill="#7a3b14"/>
+    <rect x="-110" y="170" width="220" height="8" rx="3" fill="#7a3b14"/>
+    <circle cx="-110" cy="-4" r="6" fill="#c05a30"/>
+    <circle cx="110" cy="-4" r="6" fill="#c05a30"/>
+    <circle cx="-110" cy="174" r="6" fill="#c05a30"/>
+    <circle cx="110" cy="174" r="6" fill="#c05a30"/>
+    <!-- 宣纸 -->
+    <rect x="-100" y="0" width="200" height="170" fill="#fff" stroke="#7a7468" stroke-width="0.5"/>
+    <!-- 墨梅枝干 -->
+    <path d="M-80 150 Q-60 110 -30 90 Q0 70 20 50 Q50 30 80 20" stroke="#2d2a24" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M-30 90 Q-40 70 -50 55" stroke="#2d2a24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M20 50 Q10 35 5 20" stroke="#2d2a24" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M50 30 Q65 20 75 10" stroke="#2d2a24" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <!-- 墨梅花朵 -->
+    <g>
+      <circle cx="-50" cy="55" r="6" fill="#2d2a24" opacity="0.7"/>
+      <circle cx="-45" cy="48" r="5" fill="#2d2a24" opacity="0.6"/>
+      <circle cx="-55" cy="48" r="5" fill="#2d2a24" opacity="0.5"/>
+      <circle cx="5" cy="22" r="6" fill="#2d2a24" opacity="0.7"/>
+      <circle cx="-2" cy="16" r="5" fill="#2d2a24" opacity="0.5"/>
+      <circle cx="10" cy="16" r="5" fill="#2d2a24" opacity="0.5"/>
+      <circle cx="75" cy="12" r="6" fill="#2d2a24" opacity="0.7"/>
+      <circle cx="70" cy="6" r="5" fill="#2d2a24" opacity="0.5"/>
+      <circle cx="80" cy="6" r="5" fill="#2d2a24" opacity="0.5"/>
+      <circle cx="-35" cy="95" r="5" fill="#2d2a24" opacity="0.6"/>
+      <circle cx="-28" cy="88" r="4" fill="#2d2a24" opacity="0.5"/>
+    </g>
+    <!-- 题字 -->
+    <text x="75" y="150" font-family="serif" font-size="14" fill="#2d2a24" opacity="0.8">墨梅</text>
+    <rect x="60" y="120" width="12" height="14" fill="#c05a30" opacity="0.6"/>
+  </g>
+
+  <!-- 老人形象（左中） -->
+  <g transform="translate(180,360)">
+    <!-- 椅子靠背 -->
+    <rect x="-55" y="-30" width="12" height="80" rx="3" fill="#7a3b14" opacity="0.3"/>
+    <!-- 身体 -->
+    <path d="M-30 -20 L30 -20 L36 60 L-36 60 Z" fill="#7a7468"/>
+    <rect x="-26" y="-50" width="52" height="34" rx="8" fill="#7a3b14" opacity="0.8"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-72" r="20" fill="#c05a30" opacity="0.85"/>
+    <!-- 白发 -->
+    <path d="M-20 -78 Q0 -95 20 -78 L20 -68 Q0 -75 -20 -68 Z" fill="#fef9ed"/>
+    <path d="M-18 -88 Q0 -98 18 -88" stroke="#fef9ed" stroke-width="3" fill="none"/>
+    <!-- 眼睛（望向梅花） -->
+    <path d="M-10 -74 Q-7 -77 -4 -74" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+    <path d="M4 -74 Q7 -77 10 -74" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+    <!-- 胡须 -->
+    <path d="M-8 -62 Q0 -54 8 -62" stroke="#fef9ed" stroke-width="2.5" fill="none"/>
+    <!-- 手（拄拐） -->
+    <path d="M-30 -10 Q-44 0 -46 20" stroke="#7a7468" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <line x1="-46" y1="20" x2="-46" y2="70" stroke="#7a3b14" stroke-width="4" stroke-linecap="round"/>
+    <!-- 手指向画 -->
+    <path d="M30 -10 Q44 0 46 20" stroke="#7a7468" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="48" cy="24" r="6" fill="#c05a30" opacity="0.8"/>
+  </g>
+
+  <!-- 梅花树（左上窗外） -->
+  <g transform="translate(80,150)">
+    <!-- 树干 -->
+    <path d="M20 120 Q15 80 10 40 Q8 10 0 -10" stroke="#2d2a24" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M10 40 Q-10 30 -25 20" stroke="#2d2a24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M8 10 Q25 0 35 -15" stroke="#2d2a24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- 红梅花朵 -->
+    <g fill="#c05a30">
+      <g transform="translate(-25,20)"><circle cx="0" cy="0" r="4"/><circle cx="-5" cy="-3" r="3.5"/><circle cx="5" cy="-3" r="3.5"/><circle cx="-3" cy="5" r="3.5"/><circle cx="3" cy="5" r="3.5"/><circle cx="0" cy="0" r="2" fill="#7a3b14"/></g>
+      <g transform="translate(0,-10)"><circle cx="0" cy="0" r="4"/><circle cx="-5" cy="-3" r="3.5"/><circle cx="5" cy="-3" r="3.5"/><circle cx="-3" cy="5" r="3.5"/><circle cx="3" cy="5" r="3.5"/><circle cx="0" cy="0" r="2" fill="#7a3b14"/></g>
+      <g transform="translate(35,-15)"><circle cx="0" cy="0" r="4"/><circle cx="-5" cy="-3" r="3.5"/><circle cx="5" cy="-3" r="3.5"/><circle cx="-3" cy="5" r="3.5"/><circle cx="3" cy="5" r="3.5"/><circle cx="0" cy="0" r="2" fill="#7a3b14"/></g>
+      <g transform="translate(10,40)"><circle cx="0" cy="0" r="3.5"/><circle cx="-4" cy="-3" r="3"/><circle cx="4" cy="-3" r="3"/><circle cx="-3" cy="4" r="3"/><circle cx="3" cy="4" r="3"/></g>
+      <g transform="translate(-15,60)"><circle cx="0" cy="0" r="3.5"/><circle cx="-4" cy="-3" r="3"/><circle cx="4" cy="-3" r="3"/><circle cx="-3" cy="4" r="3"/><circle cx="3" cy="4" r="3"/></g>
+    </g>
+  </g>
+
+  <!-- 飘落的花瓣 -->
+  <g fill="#c05a30" opacity="0.5">
+    <ellipse cx="300" cy="180" rx="4" ry="2.5" transform="rotate(30 300 180)"/>
+    <ellipse cx="380" cy="240" rx="4" ry="2.5" transform="rotate(60 380 240)"/>
+    <ellipse cx="340" cy="320" rx="4" ry="2.5" transform="rotate(15 340 320)"/>
+    <ellipse cx="430" cy="280" rx="3.5" ry="2" transform="rotate(45 430 280)"/>
+  </g>
+
+  <!-- 雪花点缀 -->
+  <g fill="#fef9ed" opacity="0.7">
+    <circle cx="100" cy="300" r="1.5"/><circle cx="250" cy="260" r="1"/><circle cx="400" cy="200" r="1.5"/>
+    <circle cx="320" cy="380" r="1"/><circle cx="500" cy="340" r="1.2"/><circle cx="700" cy="380" r="1"/>
+  </g>
+
+  <rect x="0" y="514" width="800" height="86" fill="#fef9ed"/>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">凌寒独自开，一片丹心寄故园</text>
+</svg>

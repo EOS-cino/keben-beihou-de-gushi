@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="不同年代母亲劳作的手的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">奶奶的手和妈妈的手</text>
+  <line x1="220" y1="56" x2="580" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——两双粗糙的手，撑起一个家</text>
+
+  <!-- 奶奶的手 -->
+  <g transform="translate(200, 160)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#8d5a36">奶奶的手</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">又粗又黑·像老树皮</text>
+    <!-- 油灯下缝衣 -->
+    <g transform="translate(0, 60)">
+      <!-- 油灯 -->
+      <g transform="translate(-50, 0)">
+        <ellipse cx="0" cy="50" rx="15" ry="5" fill="#8d5a36"/>
+        <rect x="-3" y="35" width="6" height="15" fill="#8d5a36"/>
+        <path d="M-4 35 Q0 20 4 35" fill="#e8a838" opacity="0.8"/>
+        <path d="M-2 25 Q0 15 2 25" fill="#e8a838" opacity="0.5"/>
+      </g>
+      <!-- 缝衣的手 -->
+      <g transform="translate(20, 30)">
+        <ellipse cx="0" cy="10" rx="20" ry="12" fill="#c8843a" opacity="0.7" stroke="#7a3b14" stroke-width="1.5"/>
+        <rect x="-18" y="-5" width="8" height="20" rx="4" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+        <rect x="10" y="-8" width="8" height="22" rx="4" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+        <!-- 针 -->
+        <line x1="-5" y1="5" x2="-15" y2="-10" stroke="#7a3b14" stroke-width="1"/>
+        <line x1="-15" y1="-10" x2="-20" y2="-5" stroke="#7a3b14" stroke-width="0.5" stroke-dasharray="1,1"/>
+        <!-- 茧和裂口 -->
+        <ellipse cx="0" cy="12" rx="4" ry="3" fill="#8d5a36" opacity="0.5"/>
+      </g>
+      <text x="-10" y="75" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">灯下缝衣·针扎满手</text>
+    </g>
+    <!-- 冷水洗衣 -->
+    <g transform="translate(0, 170)">
+      <rect x="-40" y="0" width="80" height="20" rx="3" fill="#4a90b8" opacity="0.4" stroke="#7a3b14" stroke-width="1"/>
+      <g transform="translate(-15, -5)">
+        <ellipse cx="0" cy="0" rx="12" ry="6" fill="#c8843a" opacity="0.7" stroke="#7a3b14" stroke-width="1"/>
+        <rect x="-10" y="-8" width="6" height="14" rx="3" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+      </g>
+      <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">冬水洗衣·裂口贴胶布</text>
+    </g>
+  </g>
+
+  <!-- 分隔线 -->
+  <line x1="400" y1="120" x2="400" y2="420" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,5"/>
+
+  <!-- 妈妈的手 -->
+  <g transform="translate(600, 160)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#c84a3a">妈妈的手</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">比奶奶细些·也有了茧</text>
+    <!-- 做饭 -->
+    <g transform="translate(0, 60)">
+      <ellipse cx="0" cy="20" rx="30" ry="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="18" rx="25" ry="6" fill="#e07856" opacity="0.5"/>
+      <g transform="translate(-15, 5)">
+        <ellipse cx="0" cy="0" rx="10" ry="5" fill="#e07856" opacity="0.8" stroke="#7a3b14" stroke-width="1"/>
+        <rect x="8" y="-2" width="15" height="4" rx="2" fill="#8d5a36"/>
+      </g>
+      <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">做饭·洗碗</text>
+    </g>
+    <!-- 拖地 -->
+    <g transform="translate(0, 170)">
+      <rect x="-30" y="10" width="60" height="6" fill="#8d5a36"/>
+      <rect x="-15" y="16" width="30" height="12" fill="#6a8d3f" opacity="0.5"/>
+      <g transform="translate(20, 0)">
+        <ellipse cx="0" cy="5" rx="8" ry="4" fill="#e07856" opacity="0.8" stroke="#7a3b14" stroke-width="1"/>
+        <rect x="-6" y="-5" width="5" height="12" rx="2" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      </g>
+      <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">拖地·擦窗</text>
+    </g>
+  </g>
+
+  <!-- 底部：两双手接力 -->
+  <g transform="translate(400, 460)">
+    <rect x="-320" y="0" width="640" height="110" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">两双手在菜叶间忙碌，一老一少，像两代人的接力</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">奶奶的手：缝衣·冷水洗衣·像砂纸挠痒痒</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">妈妈的手：做饭·洗碗·拖地·掖被角·摸额头</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">那两双粗糙的手，撑起了这个家</text>
+  </g>
+</svg>

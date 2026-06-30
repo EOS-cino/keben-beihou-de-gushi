@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="鲁迅的童年生活插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">鲁迅的童年</text>
+  <line x1="340" y1="56" x2="460" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——有快乐也有苦涩</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="330" x2="720" y2="330" stroke="#c8843a" stroke-width="3"/>
+  <circle cx="160" cy="330" r="8" fill="#6a8d3f"/>
+  <circle cx="340" cy="330" r="8" fill="#c8843a"/>
+  <circle cx="520" cy="330" r="8" fill="#c84a3a"/>
+  <circle cx="660" cy="330" r="8" fill="#7ab8d8"/>
+
+  <!-- 1881：出生 -->
+  <g transform="translate(160, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#6a8d3f">1881年</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">生于绍兴</text>
+    <!-- 大户人家 -->
+    <g transform="translate(0, 50)">
+      <path d="M-30 30 L-30 0 L0 -15 L30 0 L30 30 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+      <rect x="-8" y="10" width="16" height="20" fill="#8d5a36"/>
+      <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">周家大户</text>
+      <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">少爷生活</text>
+    </g>
+  </g>
+
+  <!-- 童年快乐：百草园+长妈妈 -->
+  <g transform="translate(340, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c8843a">童年</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">百草园·长妈妈</text>
+    <g transform="translate(0, 50)">
+      <!-- 长妈妈讲故事 -->
+      <g transform="translate(-20, 10)">
+        <circle cx="0" cy="-10" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+        <ellipse cx="0" cy="8" rx="10" ry="12" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+        <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="8" fill="#7a3b14">长妈妈</text>
+      </g>
+      <!-- 山海经 -->
+      <g transform="translate(20, 5)">
+        <rect x="-12" y="0" width="24" height="20" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+        <path d="M-8 5 Q0 0 8 5" fill="none" stroke="#c84a3a" stroke-width="1"/>
+        <circle cx="0" cy="12" r="3" fill="#c8843a"/>
+        <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="8" fill="#7a3b14">《山海经》</text>
+      </g>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">讲故事·买书</text>
+    </g>
+  </g>
+
+  <!-- 13岁：家道中落 -->
+  <g transform="translate(520, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">约13岁</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">家道中落</text>
+    <g transform="translate(0, 50)">
+      <!-- 当铺 -->
+      <rect x="-25" y="0" width="50" height="35" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+      <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">当</text>
+      <!-- 药铺 -->
+      <rect x="5" y="0" width="50" height="35" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+      <text x="30" y="22" text-anchor="middle" font-family="serif" font-size="10" fill="#fef9ed">药</text>
+      <!-- 箭头 -->
+      <path d="M-20 45 L-20 55 M30 45 L30 55" stroke="#c84a3a" stroke-width="2" fill="none"/>
+      <text x="5" y="68" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">祖父入狱</text>
+      <text x="5" y="80" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">父亲重病</text>
+      <text x="5" y="92" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">当东西→买药</text>
+    </g>
+  </g>
+
+  <!-- 后来：弃医从文 -->
+  <g transform="translate(660, 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7ab8d8">后来</text>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">弃医从文</text>
+    <g transform="translate(0, 50)">
+      <!-- 笔 -->
+      <rect x="-3" y="0" width="6" height="30" fill="#7a3b14"/>
+      <path d="M-3 30 L0 38 L3 30 Z" fill="#7a3b14"/>
+      <!-- 书 -->
+      <rect x="-15" y="40" width="30" height="20" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">治身体</text>
+      <text x="0" y="88" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">不如治人心</text>
+    </g>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 430)">
+    <rect x="-300" y="0" width="600" height="120" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">鲁迅的童年记忆</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">快乐：百草园捉蟋蟀·长妈妈讲故事·《山海经》里的奇兽</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">苦涩：祖父入狱·父亲重病·当铺受冷眼·世态炎凉</text>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">"有谁从小康人家而坠入困顿的么，我以为在这途路中，</text>
+    <text x="0" y="112" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">大概可以看见世人的真面目。"——鲁迅</text>
+  </g>
+</svg>

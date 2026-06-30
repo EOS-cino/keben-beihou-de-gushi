@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="乡村互助传统与邻里关系的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">乡村互助传统</text>
+  <line x1="310" y1="58" x2="490" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 四种互助形式 -->
+
+  <!-- 帮工：盖房子 -->
+  <g transform="translate(130, 150)">
+    <rect x="-85" y="-70" width="170" height="150" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-48" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">帮工：盖房子</text>
+    <!-- 房子框架 -->
+    <rect x="-30" y="-10" width="60" height="35" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-35 -10 L0 -28 L35 -10" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 帮忙的人 -->
+    <g transform="translate(-45, 10)">
+      <ellipse cx="0" cy="5" rx="7" ry="10" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-5" r="5" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-3" y="15" width="6" height="10" fill="#8d5a36"/>
+    </g>
+    <g transform="translate(45, 10)">
+      <ellipse cx="0" cy="5" rx="7" ry="10" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-5" r="5" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <rect x="-3" y="15" width="6" height="10" fill="#8d5a36"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">全村来帮，不收工钱</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">管顿饭就行</text>
+  </g>
+
+  <!-- 换工：收庄稼 -->
+  <g transform="translate(400, 150)">
+    <rect x="-85" y="-70" width="170" height="150" rx="8" fill="#fff6df" stroke="#6a8d3f" stroke-width="2"/>
+    <text x="0" y="-48" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">换工：收庄稼</text>
+    <!-- 稻田 -->
+    <rect x="-50" y="5" width="100" height="20" fill="#e0c898" opacity="0.5"/>
+    <!-- 稻穗 -->
+    <line x1="-35" y1="5" x2="-35" y2="-5" stroke="#c8843a" stroke-width="1.5"/>
+    <line x1="-20" y1="5" x2="-20" y2="-5" stroke="#c8843a" stroke-width="1.5"/>
+    <line x1="-5" y1="5" x2="-5" y2="-5" stroke="#c8843a" stroke-width="1.5"/>
+    <line x1="10" y1="5" x2="10" y2="-5" stroke="#c8843a" stroke-width="1.5"/>
+    <line x1="25" y1="5" x2="25" y2="-5" stroke="#c8843a" stroke-width="1.5"/>
+    <line x1="40" y1="5" x2="40" y2="-5" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 收割的人 -->
+    <g transform="translate(-30, -5)">
+      <ellipse cx="0" cy="0" rx="6" ry="8" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-8" r="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M5 0 L12 -3" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(20, -5)">
+      <ellipse cx="0" cy="0" rx="6" ry="8" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-8" r="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M5 0 L12 -3" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">谁家先熟帮谁家</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">割完再去下一家</text>
+  </g>
+
+  <!-- 红白喜事 -->
+  <g transform="translate(670, 150)">
+    <rect x="-85" y="-70" width="170" height="150" rx="8" fill="#fff6df" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="-48" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">红白喜事</text>
+    <!-- 鞭炮/灯笼 -->
+    <circle cx="-15" cy="-15" r="8" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="15" cy="-15" r="8" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="-15" y1="-7" x2="-15" y2="5" stroke="#7a3b14" stroke-width="1"/>
+    <line x1="15" y1="-7" x2="15" y2="5" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 人群 -->
+    <g transform="translate(-25, 15)">
+      <ellipse cx="0" cy="0" rx="5" ry="7" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-7" r="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <g transform="translate(-5, 15)">
+      <ellipse cx="0" cy="0" rx="5" ry="7" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-7" r="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <g transform="translate(15, 15)">
+      <ellipse cx="0" cy="0" rx="5" ry="7" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="-7" r="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">全村来帮忙</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">有钱出钱，有力出力</text>
+  </g>
+
+  <!-- 日常小事 -->
+  <g transform="translate(265, 380)">
+    <rect x="-85" y="-60" width="170" height="130" rx="8" fill="#fff6df" stroke="#7ab8d8" stroke-width="2"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">日常小事</text>
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">路坏了有人默默修</text>
+    <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">井浑了有人主动淘</text>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">鸡跑了邻居帮忙找</text>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">有坑有人默默填</text>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">做好事不声张</text>
+  </g>
+
+  <!-- 搭石精神 -->
+  <g transform="translate(535, 380)">
+    <rect x="-85" y="-60" width="170" height="130" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">搭石精神</text>
+    <!-- 搭石小图 -->
+    <g transform="translate(0, -10)">
+      <ellipse cx="-15" cy="0" rx="10" ry="4" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <ellipse cx="0" cy="0" rx="10" ry="4" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <ellipse cx="15" cy="0" rx="10" ry="4" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">为别人着想</text>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">不图回报</text>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">永远不过时</text>
+  </g>
+
+  <!-- 底部总结 -->
+  <rect x="80" y="500" width="640" height="60" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+  <text x="400" y="525" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">"各扫门前雪"被看不起，"守望相助"才是正道</text>
+  <text x="400" y="548" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">你帮我，我帮你——乡村互助传统是千百年来自然形成的</text>
+
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">不管社会怎么变，人与人之间的温暖和互助永远最珍贵</text>
+</svg>

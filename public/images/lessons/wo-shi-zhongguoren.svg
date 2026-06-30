@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各族小朋友手拉手站在中国地图前">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">我是中国人</text>
+  <path d="M250 200c30-20 60-25 90-15 20 6 35 18 50 35 15 18 25 40 20 65-5 25-20 45-40 55-25 12-55 10-80-5-30-18-50-45-55-80-3-25 5-42 15-55z" fill="#c8843a" opacity="0.25" stroke="#8d5a36" stroke-width="2"/>
+  <text x="335" y="280" text-anchor="middle" font-family="serif" font-size="22" fill="#7a3b14" opacity="0.5">中国</text>
+  <circle cx="180" cy="380" r="28" fill="#e07856"/>
+  <rect x="160" y="400" width="40" height="55" rx="8" fill="#c84a3a"/>
+  <rect x="168" y="450" width="10" height="40" fill="#8d5a36"/>
+  <rect x="192" y="450" width="10" height="40" fill="#8d5a36"/>
+  <circle cx="260" cy="390" r="28" fill="#c8843a"/>
+  <rect x="240" y="410" width="40" height="50" rx="8" fill="#6a8d3f"/>
+  <rect x="248" y="455" width="10" height="40" fill="#8d5a36"/>
+  <rect x="272" y="455" width="10" height="40" fill="#8d5a36"/>
+  <circle cx="340" cy="385" r="28" fill="#e07856"/>
+  <rect x="320" y="405" width="40" height="55" rx="8" fill="#7ab8d8"/>
+  <rect x="328" y="455" width="10" height="40" fill="#8d5a36"/>
+  <rect x="352" y="455" width="10" height="40" fill="#8d5a36"/>
+  <circle cx="420" cy="390" r="28" fill="#c8843a"/>
+  <rect x="400" y="410" width="40" height="50" rx="8" fill="#c84a3a"/>
+  <rect x="408" y="455" width="10" height="40" fill="#8d5a36"/>
+  <rect x="432" y="455" width="10" height="40" fill="#8d5a36"/>
+  <circle cx="500" cy="385" r="28" fill="#e07856"/>
+  <rect x="480" y="405" width="40" height="55" rx="8" fill="#6a8d3f"/>
+  <rect x="488" y="455" width="10" height="40" fill="#8d5a36"/>
+  <rect x="512" y="455" width="10" height="40" fill="#8d5a36"/>
+  <circle cx="580" cy="390" r="28" fill="#c8843a"/>
+  <rect x="560" y="410" width="40" height="50" rx="8" fill="#7ab8d8"/>
+  <rect x="568" y="455" width="10" height="40" fill="#8d5a36"/>
+  <rect x="592" y="455" width="10" height="40" fill="#8d5a36"/>
+  <line x1="208" y1="425" x2="240" y2="425" stroke="#8d5a36" stroke-width="4"/>
+  <line x1="288" y1="425" x2="320" y2="425" stroke="#8d5a36" stroke-width="4"/>
+  <line x1="368" y1="425" x2="400" y2="425" stroke="#8d5a36" stroke-width="4"/>
+  <line x1="448" y1="425" x2="480" y2="425" stroke="#8d5a36" stroke-width="4"/>
+  <line x1="528" y1="425" x2="560" y2="425" stroke="#8d5a36" stroke-width="4"/>
+  <path d="M200 495 Q400 510 600 495" stroke="#6a8d3f" stroke-width="3" fill="none"/>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="18" fill="#4a6a2f">五十六个民族 一家人</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从小男子汉到小英雄雨来的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：家里的男子汉 -->
+  <circle cx="170" cy="300" r="110" fill="#b5651d" opacity="0.25" stroke="#b5651d" stroke-width="3"/>
+  <circle cx="170" cy="280" r="14" fill="#f5d9a0"/>
+  <rect x="160" y="294" width="20" height="30" fill="#1e5f8e"/>
+  <rect x="166" y="324" width="8" height="14" fill="#3a3a3a"/>
+  <circle cx="156" cy="296" r="4" fill="#f5d9a0" stroke="#3a3a3a" stroke-width="1"/>
+  <text x="170" y="355" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">家里的男子汉</text>
+  <text x="170" y="378" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">练独立</text>
+  <!-- 右珠：小英雄雨来 -->
+  <circle cx="630" cy="300" r="110" fill="#a83232" opacity="0.25" stroke="#a83232" stroke-width="3"/>
+  <circle cx="630" cy="280" r="14" fill="#f5d9a0"/>
+  <rect x="620" y="294" width="20" height="30" fill="#3a7d44"/>
+  <path d="M 610 310 q 20 6 40 0" stroke="#a83232" stroke-width="2" fill="none"/>
+  <path d="M 615 290 q 15 -8 30 0" stroke="#3a3a3a" stroke-width="1.5" fill="none"/>
+  <text x="630" y="355" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">小英雄雨来</text>
+  <text x="630" y="378" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">练骨气</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">家里的男子汉，遇着小英雄雨来</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">男子汉是在一次次"自己面对"里长出来的</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="我的战友邱少云">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <rect x="0" y="0" width="800" height="92" fill="#d4a017" opacity="0.16"/>
+  <text x="400" y="58" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">我的战友邱少云</text>
+  <line x1="320" y1="80" x2="480" y2="80" stroke="#d4a017" stroke-width="3"/>
+
+  <g opacity="0.9">
+    <circle cx="400" cy="210" r="46" fill="#d4a017"/>
+    <path d="M320 470 Q320 320 400 320 Q480 320 480 470 Z" fill="#d4a017" opacity="0.85"/>
+  </g>
+  <g opacity="0.6">
+    <polygon points="400,90 412,120 445,120 418,140 429,172 400,153 371,172 382,140 355,120 388,120" fill="#d4a017"/>
+  </g>
+  <g opacity="0.4">
+    <circle cx="180" cy="300" r="8" fill="#d4a017"/><circle cx="620" cy="300" r="8" fill="#d4a017"/>
+    <circle cx="220" cy="420" r="6" fill="#d4a017"/><circle cx="580" cy="420" r="6" fill="#d4a017"/>
+  </g>
+  <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="40" fill="#fff" opacity="0.9">人</text>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">烈火中纹丝不动</text>
+</svg>

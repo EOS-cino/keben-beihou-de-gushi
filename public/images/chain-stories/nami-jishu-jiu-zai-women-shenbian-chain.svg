@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从纳米技术到显微镜发明的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：纳米 -->
+  <circle cx="170" cy="300" r="110" fill="#1e5f8e" opacity="0.25" stroke="#1e5f8e" stroke-width="3"/>
+  <circle cx="170" cy="290" r="5" fill="#1e5f8e"/>
+  <circle cx="156" cy="280" r="4" fill="#c8553d"/>
+  <circle cx="184" cy="280" r="4" fill="#c8553d"/>
+  <circle cx="156" cy="300" r="4" fill="#c8553d"/>
+  <circle cx="184" cy="300" r="4" fill="#c8553d"/>
+  <line x1="170" y1="290" x2="156" y2="280" stroke="#1e5f8e" stroke-width="1.5"/>
+  <line x1="170" y1="290" x2="184" y2="280" stroke="#1e5f8e" stroke-width="1.5"/>
+  <line x1="170" y1="290" x2="156" y2="300" stroke="#1e5f8e" stroke-width="1.5"/>
+  <line x1="170" y1="290" x2="184" y2="300" stroke="#1e5f8e" stroke-width="1.5"/>
+  <text x="170" y="340" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">纳米</text>
+  <text x="170" y="363" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">看不见的小不点</text>
+  <!-- 右珠：显微镜 -->
+  <circle cx="630" cy="300" r="110" fill="#8fb996" opacity="0.3" stroke="#3a7d44" stroke-width="3"/>
+  <rect x="622" y="265" width="16" height="30" fill="#5d4037"/>
+  <circle cx="630" cy="262" r="9" fill="#9bb7c4" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="624" y="295" width="12" height="20" fill="#5d4037"/>
+  <rect x="615" y="313" width="30" height="8" fill="#5d4037"/>
+  <text x="630" y="345" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">显微镜</text>
+  <text x="630" y="368" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">列文虎克</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">纳米之外，显微镜的眼睛</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">换一双更厉害的眼睛，世界就变一个样</text>
+</svg>

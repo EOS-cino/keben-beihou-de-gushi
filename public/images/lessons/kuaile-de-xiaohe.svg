@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="弯曲小河流过田野山岗">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">快乐的小河</text>
+  <path d="M100 200 L130 150 L160 200 L190 160 L220 200 L250 170 L280 200" fill="#6a8d3f" opacity="0.3"/>
+  <path d="M500 180 L530 130 L560 180 L590 140 L620 180 L650 150 L680 180" fill="#4a6a2f" opacity="0.3"/>
+  <path d="M100 250 Q150 280 200 260 Q280 240 350 290 Q420 340 480 310 Q560 280 620 340 Q680 390 720 370" stroke="#7ab8d8" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <path d="M100 250 Q150 280 200 260 Q280 240 350 290 Q420 340 480 310 Q560 280 620 340 Q680 390 720 370" stroke="#a8d0e8" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <circle cx="120" cy="245" r="4" fill="#fff" opacity="0.8"/>
+  <circle cx="300" cy="280" r="4" fill="#fff" opacity="0.8"/>
+  <circle cx="500" cy="310" r="4" fill="#fff" opacity="0.8"/>
+  <circle cx="660" cy="355" r="4" fill="#fff" opacity="0.8"/>
+  <path d="M250 400c20-15 40-18 60-10 15 6 25 18 20 35-5 15-20 22-38 20-22-3-38-15-42-30-2-8 0-12 0-15z" fill="#6a8d3f" opacity="0.4"/>
+  <path d="M450 420c20-12 40-15 55-5 12 7 18 18 12 30-6 12-22 15-35 12-18-4-30-15-35-25-2-6 0-10 3-12z" fill="#4a6a2f" opacity="0.4"/>
+  <ellipse cx="150" cy="450" rx="30" ry="15" fill="#c8843a" opacity="0.3"/>
+  <ellipse cx="600" cy="460" rx="35" ry="18" fill="#c8843a" opacity="0.3"/>
+  <circle cx="680" cy="120" r="30" fill="#e07856" opacity="0.6"/>
+  <path d="M380 480 Q400 470 420 480" stroke="#8d5a36" stroke-width="2" fill="none"/>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="18" fill="#4a6a2f">哗啦啦 唱着歌奔向大海</text>
+</svg>

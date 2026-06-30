@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="孩子在老树桩前数年轮的成长插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#2d6a4f">光阴的故事</text>
+  <line x1="350" y1="60" x2="450" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="200" fill="#4a90b8" opacity="0.08"/>
+  <!-- 远山 -->
+  <path d="M0 320 L160 250 L320 300 L480 240 L640 290 L800 260 L800 400 L0 400 Z" fill="#c8b898" opacity="0.4"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="380" width="800" height="220" fill="#dce8c8"/>
+
+  <!-- 老树桩（横截面） -->
+  <g transform="translate(400 430)">
+    <!-- 树桩主体 -->
+    <ellipse cx="0" cy="80" rx="140" ry="30" fill="#8a6a3a" opacity="0.4"/>
+    <ellipse cx="0" cy="70" rx="140" ry="32" fill="#a88a5a" stroke="#6a5a3a" stroke-width="2"/>
+    <ellipse cx="0" cy="64" rx="135" ry="30" fill="#c8a878" stroke="#8a6a3a" stroke-width="1.5"/>
+    <!-- 年轮 -->
+    <ellipse cx="0" cy="60" rx="120" ry="27" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
+    <ellipse cx="0" cy="56" rx="105" ry="24" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
+    <ellipse cx="0" cy="52" rx="90" ry="21" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
+    <ellipse cx="0" cy="48" rx="75" ry="18" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
+    <ellipse cx="0" cy="44" rx="58" ry="15" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
+    <ellipse cx="0" cy="40" rx="42" ry="12" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
+    <ellipse cx="0" cy="36" rx="26" ry="9" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
+    <ellipse cx="0" cy="32" rx="12" ry="6" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
+    <!-- 一圈宽（雨水好） -->
+    <path d="M-75 44 Q0 60 75 44" fill="none" stroke="#e07856" stroke-width="2" opacity="0.7"/>
+    <!-- 一圈窄（干旱） -->
+    <path d="M-58 40 Q0 52 58 40" fill="none" stroke="#4a90b8" stroke-width="2" opacity="0.7"/>
+    <!-- 中心点 -->
+    <circle cx="0" cy="30" r="3" fill="#5a4a2a"/>
+    <!-- 树皮纹理 -->
+    <g stroke="#6a5a3a" stroke-width="1" fill="none" opacity="0.5">
+      <path d="M-130 50 Q-125 65 -132 78"/>
+      <path d="M125 52 Q128 66 122 80"/>
+    </g>
+  </g>
+
+  <!-- 树桩旁的小树苗（新生长） -->
+  <g transform="translate(180 420)">
+    <rect x="-2" y="0" width="4" height="40" fill="#8a6a3a"/>
+    <circle cx="0" cy="-8" r="18" fill="#2d6a4f"/>
+    <circle cx="-12" cy="0" r="12" fill="#3a7a5a"/>
+    <circle cx="12" cy="-2" r="12" fill="#3a7a5a"/>
+  </g>
+
+  <!-- 蹲着数年轮的孩子 -->
+  <g transform="translate(580 440)">
+    <!-- 身体（蹲姿） -->
+    <ellipse cx="0" cy="10" rx="22" ry="18" fill="#e07856"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-18" r="14" fill="#f4d4a8"/>
+    <!-- 头发 -->
+    <path d="M-14 -22 Q0 -34 14 -22 L14 -16 Q0 -12 -14 -16 Z" fill="#3a3a3a"/>
+    <!-- 眼睛（专注向下看） -->
+    <path d="M-5 -16 L-3 -14" stroke="#2a2a2a" stroke-width="1.5"/>
+    <path d="M3 -16 L5 -14" stroke="#2a2a2a" stroke-width="1.5"/>
+    <!-- 手指（指向年轮） -->
+    <path d="M-18 0 L-40 18" stroke="#f4d4a8" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-42" cy="20" r="3" fill="#f4d4a8"/>
+  </g>
+
+  <!-- 爷爷（背景，拄杖） -->
+  <g transform="translate(120 400)">
+    <path d="M-18 40 Q-20 10 -12 -5 Q0 -10 12 -5 Q20 10 18 40 Z" fill="#2d6a4f"/>
+    <circle cx="0" cy="-20" r="13" fill="#f4d4a8"/>
+    <!-- 白发 -->
+    <path d="M-13 -24 Q0 -36 13 -24 L13 -18 Q0 -14 -13 -18 Z" fill="#e8e8e8"/>
+    <!-- 皱纹示意 -->
+    <path d="M-8 -16 Q0 -14 8 -16" fill="none" stroke="#8a6a3a" stroke-width="0.8"/>
+    <path d="M-8 -12 Q0 -10 8 -12" fill="none" stroke="#8a6a3a" stroke-width="0.8"/>
+    <!-- 拐杖 -->
+    <line x1="16" y1="20" x2="22" y2="50" stroke="#8a6a3a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- 标注：宽年轮 -->
+  <line x1="475" y1="474" x2="560" y2="500" stroke="#e07856" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="540" y="500" width="120" height="26" fill="#fff6df" stroke="#e07856" rx="4"/>
+  <text x="600" y="518" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">宽——雨水丰沛</text>
+
+  <!-- 标注：窄年轮 -->
+  <line x1="458" y1="470" x2="240" y2="490" stroke="#4a90b8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="150" y="490" width="120" height="26" fill="#fff6df" stroke="#4a90b8" rx="4"/>
+  <text x="210" y="508" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">窄——干旱少雨</text>
+
+  <!-- 标注：年轮 -->
+  <line x1="400" y1="395" x2="400" y2="350" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="345" y="324" width="110" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="400" y="342" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">一圈就是一年</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#2d6a4f">年轮是树的日记，皱纹是岁月的刻度，时间从不停留</text>
+</svg>

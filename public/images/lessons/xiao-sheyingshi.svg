@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一个男孩举着相机，对面坐着一位戴眼镜的大作家">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 房间背景墙 -->
+  <rect x="0" y="0" width="800" height="440" fill="#f3ece0"/>
+  <rect x="0" y="440" width="800" height="160" fill="#e8d9c0"/>
+  <!-- 窗户 -->
+  <rect x="560" y="70" width="180" height="150" fill="#a8d0e8" stroke="#7a3b14" stroke-width="4"/>
+  <line x1="650" y1="70" x2="650" y2="220" stroke="#7a3b14" stroke-width="3"/>
+  <line x1="560" y1="145" x2="740" y2="145" stroke="#7a3b14" stroke-width="3"/>
+  <circle cx="700" cy="110" r="18" fill="#f4d97a"/>
+  <!-- 书架 -->
+  <rect x="40" y="80" width="30" height="200" fill="#8d5a36"/>
+  <rect x="40" y="100" width="30" height="6" fill="#c8843a"/>
+  <rect x="44" y="120" width="22" height="50" fill="#6a8d3f"/>
+  <rect x="44" y="175" width="22" height="40" fill="#c84a3a"/>
+  <rect x="44" y="220" width="22" height="45" fill="#7ab8d8"/>
+  <!-- 书桌 -->
+  <rect x="280" y="360" width="320" height="16" fill="#8d5a36"/>
+  <rect x="290" y="376" width="12" height="80" fill="#8d5a36"/>
+  <rect x="578" y="376" width="12" height="80" fill="#8d5a36"/>
+  <!-- 书桌上的书和台灯 -->
+  <rect x="300" y="330" width="50" height="30" fill="#c84a3a"/>
+  <rect x="305" y="324" width="40" height="8" fill="#e07856"/>
+  <!-- 台灯 -->
+  <path d="M560 360 l-30 -50 l60 0 Z" fill="#c8843a"/>
+  <rect x="556" y="358" width="8" height="20" fill="#8d5a36"/>
+  <!-- 高尔基 -->
+  <ellipse cx="440" cy="290" rx="28" ry="32" fill="#e8c9a0"/>
+  <!-- 胡子 -->
+  <path d="M420 305 q20 18 40 0 q-20 8 -40 0 Z" fill="#7a3b14"/>
+  <path d="M412 295 q28 14 56 0" stroke="#7a3b14" stroke-width="3" fill="none"/>
+  <!-- 眼镜 -->
+  <circle cx="430" cy="285" r="8" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+  <circle cx="450" cy="285" r="8" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+  <line x1="438" y1="285" x2="442" y2="285" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="430" cy="285" r="2" fill="#7a3b14"/>
+  <circle cx="450" cy="285" r="2" fill="#7a3b14"/>
+  <!-- 西装 -->
+  <path d="M408 322 q32 -10 64 0 l16 54 l-96 0 Z" fill="#4a6a2f"/>
+  <path d="M440 322 l0 50" stroke="#7a3b14" stroke-width="2"/>
+  <!-- 小男孩 -->
+  <ellipse cx="180" cy="300" rx="22" ry="26" fill="#e8c9a0"/>
+  <path d="M158 290 q22 -16 44 0 q-22 -8 -44 0 Z" fill="#7a3b14"/>
+  <circle cx="172" cy="298" r="2" fill="#7a3b14"/>
+  <circle cx="188" cy="298" r="2" fill="#7a3b14"/>
+  <path d="M174 308 q6 4 12 0" stroke="#7a3b14" stroke-width="2" fill="none"/>
+  <!-- 衣服 -->
+  <path d="M156 324 q24 -8 48 0 l12 50 l-72 0 Z" fill="#c8843a"/>
+  <!-- 相机 -->
+  <rect x="150" y="340" width="60" height="40" rx="6" fill="#7a3b14"/>
+  <circle cx="180" cy="360" r="14" fill="#3a3a3a"/>
+  <circle cx="180" cy="360" r="8" fill="#a8d0e8"/>
+  <rect x="168" y="332" width="10" height="8" fill="#7a3b14"/>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小摄影师</text>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="井、村庄和挑水人插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">吃水不忘挖井人</text>
+  <line x1="220" y1="62" x2="580" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="200" fill="#e8f0d8"/>
+  <!-- 远山 -->
+  <path d="M0 280 L80 220 L160 260 L260 200 L360 250 L460 210 L560 245 L660 205 L760 240 L800 225 L800 320 L0 320 Z" fill="#c8d8b0" opacity="0.5"/>
+
+  <!-- 远处村庄房屋 -->
+  <!-- 房屋1 -->
+  <rect x="50" y="260" width="60" height="50" fill="#e8d0a8" stroke="#8a6a3a" stroke-width="2"/>
+  <path d="M45 260 L80 230 L115 260 Z" fill="#8a4a28" stroke="#5a2a10" stroke-width="2"/>
+  <rect x="70" y="280" width="20" height="30" fill="#8a4a28"/>
+  <!-- 房屋2 -->
+  <rect x="650" y="260" width="60" height="50" fill="#e8d0a8" stroke="#8a6a3a" stroke-width="2"/>
+  <path d="M645 260 L680 230 L715 260 Z" fill="#8a4a28" stroke="#5a2a10" stroke-width="2"/>
+  <rect x="670" y="280" width="20" height="30" fill="#8a4a28"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="310" width="800" height="290" fill="#d8c8a0"/>
+  <path d="M0 330 Q200 325 400 330 T800 330" fill="none" stroke="#b8a880" stroke-width="2"/>
+  <!-- 草地 -->
+  <g stroke="#6a8a3a" stroke-width="2" fill="none">
+    <path d="M50 340 L48 330 L52 333"/>
+    <path d="M150 345 L148 335 L152 338"/>
+    <path d="M650 340 L648 330 L652 333"/>
+    <path d="M750 345 L748 335 L752 338"/>
+  </g>
+
+  <!-- 大树（井旁） -->
+  <path d="M150 460 Q145 400 140 340 Q138 310 145 280" fill="none" stroke="#6a4220" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="130" cy="300" rx="30" ry="25" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5"/>
+  <ellipse cx="160" cy="290" rx="35" ry="28" fill="#6a9a4a" stroke="#3a6a1a" stroke-width="1.5"/>
+  <ellipse cx="140" cy="275" rx="28" ry="22" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5"/>
+
+  <!-- 水井 -->
+  <!-- 井台基座 -->
+  <rect x="320" y="400" width="160" height="60" fill="#a88868" stroke="#6a5a3a" stroke-width="3"/>
+  <!-- 井台石板纹理 -->
+  <line x1="360" y1="400" x2="360" y2="460" stroke="#8a7858" stroke-width="1.5"/>
+  <line x1="400" y1="400" x2="400" y2="460" stroke="#8a7858" stroke-width="1.5"/>
+  <line x1="440" y1="400" x2="440" y2="460" stroke="#8a7858" stroke-width="1.5"/>
+  <!-- 井口 -->
+  <ellipse cx="400" cy="400" rx="70" ry="18" fill="#3a3a2a" stroke="#6a5a3a" stroke-width="3"/>
+  <ellipse cx="400" cy="400" rx="60" ry="14" fill="#2a2a1a"/>
+  <!-- 井水 -->
+  <ellipse cx="400" cy="402" rx="50" ry="10" fill="#4a8ab0" opacity="0.7"/>
+
+  <!-- 井架（支柱） -->
+  <rect x="330" y="280" width="12" height="125" fill="#8a6a3a" stroke="#5a3a10" stroke-width="2"/>
+  <rect x="458" y="280" width="12" height="125" fill="#8a6a3a" stroke="#5a3a10" stroke-width="2"/>
+  <!-- 横梁 -->
+  <rect x="320" y="270" width="160" height="15" fill="#8a6a3a" stroke="#5a3a10" stroke-width="2"/>
+  <!-- 井架斜撑 -->
+  <path d="M342 285 L360 310" fill="none" stroke="#8a6a3a" stroke-width="4"/>
+  <path d="M458 285 L440 310" fill="none" stroke="#8a6a3a" stroke-width="4"/>
+
+  <!-- 滑轮 -->
+  <circle cx="400" cy="285" r="12" fill="#6a4220" stroke="#3a2010" stroke-width="2"/>
+  <circle cx="400" cy="285" r="6" fill="#3a2010"/>
+
+  <!-- 吊桶绳 -->
+  <line x1="400" y1="297" x2="400" y2="390" stroke="#8a6a30" stroke-width="2.5"/>
+
+  <!-- 吊桶 -->
+  <path d="M385 390 L390 420 L410 420 L415 390 Z" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <ellipse cx="400" cy="390" rx="15" ry="4" fill="#6a4220" stroke="#5a3a10" stroke-width="1.5"/>
+  <!-- 桶中水 -->
+  <ellipse cx="400" cy="418" rx="8" ry="2.5" fill="#4a8ab0"/>
+
+  <!-- 石碑（井旁刻字碑） -->
+  <rect x="500" y="380" width="60" height="80" fill="#c8b098" stroke="#8a6a4a" stroke-width="2"/>
+  <text x="530" y="410" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">吃水</text>
+  <text x="530" y="425" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">不忘</text>
+  <text x="530" y="440" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">挖井人</text>
+
+  <!-- 人物（挑水人） -->
+  <!-- 身体 -->
+  <path d="M620 460 L625 390 L655 390 L660 460 Z" fill="#2e5a8a"/>
+  <!-- 头 -->
+  <circle cx="642" cy="372" r="16" fill="#f0d0a8"/>
+  <!-- 头巾 -->
+  <path d="M626 368 Q642 352 658 368 L658 362 Q642 348 626 362 Z" fill="#c84030"/>
+  <rect x="634" y="358" width="16" height="10" fill="#c84030"/>
+  <!-- 眼睛 -->
+  <circle cx="637" cy="372" r="2" fill="#2a2a2a"/>
+  <circle cx="647" cy="372" r="2" fill="#2a2a2a"/>
+  <!-- 嘴（微笑） -->
+  <path d="M638 380 Q642 383 646 380" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 扁担 -->
+  <line x1="595" y1="395" x2="690" y2="395" stroke="#8a5a30" stroke-width="5" stroke-linecap="round"/>
+  <!-- 手臂（扶扁担） -->
+  <path d="M625 400 L610 395" fill="none" stroke="#2e5a8a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M655 400 L670 395" fill="none" stroke="#2e5a8a" stroke-width="8" stroke-linecap="round"/>
+  <!-- 水桶（左） -->
+  <line x1="595" y1="395" x2="595" y2="425" stroke="#8a6a30" stroke-width="2"/>
+  <path d="M585 425 L588 450 L602 450 L605 425 Z" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <ellipse cx="595" cy="425" rx="10" ry="3" fill="#6a4220"/>
+  <ellipse cx="595" cy="448" rx="7" ry="2" fill="#4a8ab0"/>
+  <!-- 水桶（右） -->
+  <line x1="690" y1="395" x2="690" y2="425" stroke="#8a6a30" stroke-width="2"/>
+  <path d="M680 425 L683 450 L697 450 L700 425 Z" fill="#8a5a30" stroke="#5a3a10" stroke-width="2"/>
+  <ellipse cx="690" cy="425" rx="10" ry="3" fill="#6a4220"/>
+  <ellipse cx="690" cy="448" rx="7" ry="2" fill="#4a8ab0"/>
+
+  <!-- 水井标注 -->
+  <line x1="400" y1="270" x2="400" y2="230" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="205" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="223" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">水井</text>
+
+  <!-- 石碑标注 -->
+  <line x1="530" y1="380" x2="530" y2="340" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="485" y="315" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="530" y="333" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">石碑</text>
+
+  <!-- 挑水人标注 -->
+  <line x1="642" y1="352" x2="642" y2="315" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="597" y="290" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="642" y="308" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">挑水乡亲</text>
+
+  <!-- 井水标注 -->
+  <line x1="400" y1="460" x2="400" y2="490" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="495" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="513" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">甘甜井水</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">毛主席带领战士为乡亲们挖井，吃水人永远铭记挖井人的恩情</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- Sky gradient -->
+  <rect width="800" height="300" fill="#e8f0f5" opacity="0.4"/>
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="40" fill="#fdd835" opacity="0.7"/>
+  <circle cx="650" cy="100" r="28" fill="#f9a825" opacity="0.5"/>
+  <!-- Distant mountains -->
+  <path d="M0,280 L100,200 L200,250 L300,180 L400,230 L500,170 L600,220 L700,190 L800,240 L800,300 L0,300 Z" fill="#a8c8b8" opacity="0.5"/>
+  <!-- Ground -->
+  <path d="M0,400 Q400,370 800,400 L800,600 L0,600 Z" fill="#d8e8c8" opacity="0.6"/>
+  <!-- Large trees - left side -->
+  <g transform="translate(120,350)">
+    <rect x="-12" y="0" width="24" height="80" rx="4" fill="#8b6f47"/>
+    <ellipse cx="0" cy="-20" rx="60" ry="70" fill="#4a7c3a"/>
+    <ellipse cx="-25" cy="-40" rx="35" ry="40" fill="#5a8c4a"/>
+    <ellipse cx="25" cy="-30" rx="40" ry="45" fill="#3d6b2f"/>
+    <ellipse cx="0" cy="-60" rx="30" ry="35" fill="#5a8c4a"/>
+  </g>
+  <!-- Large tree - right side -->
+  <g transform="translate(680,340)">
+    <rect x="-14" y="0" width="28" height="90" rx="4" fill="#8b6f47"/>
+    <ellipse cx="0" cy="-30" rx="65" ry="75" fill="#4a7c3a"/>
+    <ellipse cx="-30" cy="-50" rx="38" ry="42" fill="#5a8c4a"/>
+    <ellipse cx="30" cy="-40" rx="42" ry="48" fill="#3d6b2f"/>
+    <ellipse cx="0" cy="-70" rx="32" ry="38" fill="#5a8c4a"/>
+  </g>
+  <!-- Medium trees -->
+  <g transform="translate(280,380)">
+    <rect x="-8" y="0" width="16" height="50" rx="3" fill="#8b6f47"/>
+    <ellipse cx="0" cy="-15" rx="40" ry="48" fill="#5a8c4a"/>
+    <ellipse cx="-15" cy="-30" rx="25" ry="28" fill="#4a7c3a"/>
+    <ellipse cx="15" cy="-25" rx="28" ry="30" fill="#6b9c5a"/>
+  </g>
+  <g transform="translate(520,370)">
+    <rect x="-9" y="0" width="18" height="60" rx="3" fill="#8b6f47"/>
+    <ellipse cx="0" cy="-20" rx="45" ry="52" fill="#4a7c3a"/>
+    <ellipse cx="-18" cy="-35" rx="28" ry="32" fill="#5a8c4a"/>
+    <ellipse cx="18" cy="-30" rx="30" ry="34" fill="#6b9c5a"/>
+  </g>
+  <!-- Small ancestor figure on tree -->
+  <g transform="translate(120,280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#c4956a"/>
+    <!-- Head -->
+    <circle cx="0" cy="-18" r="8" fill="#d4a574"/>
+    <!-- Hair -->
+    <path d="M-7,-22 Q0,-28 7,-22" fill="none" stroke="#5a3e28" stroke-width="3"/>
+    <!-- Arm reaching for fruit -->
+    <line x1="6" y1="-5" x2="20" y2="-15" stroke="#c4956a" stroke-width="4" stroke-linecap="round"/>
+    <!-- Fruit in hand -->
+    <circle cx="22" cy="-16" r="4" fill="#e07856"/>
+  </g>
+  <!-- Small ancestor figure on ground -->
+  <g transform="translate(350,430)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="10" ry="14" fill="#8b6f47"/>
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="9" fill="#d4a574"/>
+    <!-- Hair -->
+    <path d="M-8,-24 Q0,-30 8,-24" fill="none" stroke="#5a3e28" stroke-width="3"/>
+    <!-- Legs -->
+    <line x1="-4" y1="12" x2="-6" y2="25" stroke="#8b6f47" stroke-width="4" stroke-linecap="round"/>
+    <line x1="4" y1="12" x2="6" y2="25" stroke="#8b6f47" stroke-width="4" stroke-linecap="round"/>
+    <!-- Arm holding stick -->
+    <line x1="-8" y1="-5" x2="-18" y2="5" stroke="#c4956a" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-18" y1="5" x2="-25" y2="-5" stroke="#8b6f47" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Mushrooms -->
+  <g transform="translate(450,470)">
+    <ellipse cx="0" cy="0" rx="12" ry="8" fill="#e07856"/>
+    <rect x="-4" y="0" width="8" height="12" rx="2" fill="#fffdf7"/>
+    <ellipse cx="-3" cy="-2" rx="3" ry="2" fill="#fffdf7"/>
+    <ellipse cx="4" cy="-1" rx="2.5" ry="2" fill="#fffdf7"/>
+  </g>
+  <g transform="translate(475,478)">
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#e8a838"/>
+    <rect x="-3" y="0" width="6" height="8" rx="1.5" fill="#fffdf7"/>
+  </g>
+  <!-- Rabbit -->
+  <g transform="translate(580,455)">
+    <ellipse cx="0" cy="0" rx="14" ry="10" fill="#fffdf7" stroke="#d0c8b8" stroke-width="1"/>
+    <circle cx="-10" cy="-5" r="7" fill="#fffdf7" stroke="#d0c8b8" stroke-width="1"/>
+    <ellipse cx="-13" cy="-15" rx="3" ry="8" fill="#fffdf7" stroke="#d0c8b8" stroke-width="1"/>
+    <ellipse cx="-8" cy="-15" rx="3" ry="8" fill="#fffdf7" stroke="#d0c8b8" stroke-width="1"/>
+    <circle cx="-13" cy="-5" r="1.5" fill="#2d2d44"/>
+    <circle cx="14" cy="0" r="4" fill="#fffdf7" stroke="#d0c8b8" stroke-width="1"/>
+  </g>
+  <!-- Bird on tree -->
+  <g transform="translate(520,320)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#4a90b8"/>
+    <circle cx="-8" cy="-3" r="5" fill="#4a90b8"/>
+    <path d="M-12,-3 L-18,-2" stroke="#e8a838" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-9" cy="-4" r="1.5" fill="#2d2d44"/>
+    <path d="M8,-2 L14,-5 L8,0" fill="#3a7a98"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="45" text-anchor="middle" font-size="22" fill="#2d2d44" font-family="serif" font-weight="bold">祖先的摇篮</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#6b6b80" font-family="sans-serif">原始森林里的远古生活</text>
+  <!-- Small vines -->
+  <path d="M200,280 Q210,320 205,360 Q200,390 210,420" fill="none" stroke="#4a7c3a" stroke-width="2" opacity="0.5"/>
+  <path d="M600,290 Q590,330 595,370 Q600,400 590,430" fill="none" stroke="#4a7c3a" stroke-width="2" opacity="0.5"/>
+</svg>

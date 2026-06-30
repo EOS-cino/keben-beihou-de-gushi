@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="慢性子裁缝和急性子顾客">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">慢性子裁缝和急性子顾客</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">一个慢悠悠，一个急跳脚</text>
+  <g transform="translate(250,300)">
+    <circle cx="0" cy="-50" r="22" fill="#f4c77a" stroke="#c98a3a" stroke-width="2"/>
+    <path d="M-25,-28 Q-25,40 0,60 Q25,40 25,-28 Z" fill="#7fb8d8" stroke="#2a5a7a" stroke-width="2"/>
+    <line x1="-15" y1="-55" x2="-10" y2="-50" stroke="#2a5a7a" stroke-width="2"/>
+    <line x1="10" y1="-50" x2="15" y2="-55" stroke="#2a5a7a" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="15" fill="#2a5a7a">慢性子裁缝</text>
+  </g>
+  <g transform="translate(550,300)">
+    <circle cx="0" cy="-50" r="22" fill="#f4a87a" stroke="#c8683a" stroke-width="2"/>
+    <path d="M-25,-28 Q-25,40 0,60 Q25,40 25,-28 Z" fill="#d8483a" stroke="#a8382a" stroke-width="2"/>
+    <path d="M-18,-58 Q0,-68 18,-58" stroke="#a8382a" stroke-width="2" fill="none"/>
+    <line x1="-30" y1="-20" x2="-40" y2="-10" stroke="#a8382a" stroke-width="2"/>
+    <line x1="30" y1="-20" x2="40" y2="-10" stroke="#a8382a" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="15" fill="#a8382a">急性子顾客</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">快有快的麻烦，慢有慢的代价</text>
+</svg>

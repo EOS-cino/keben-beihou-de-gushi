@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="远方铁路与眺望的孩子插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">远方</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空渐变夕阳 -->
+  <rect x="0" y="70" width="800" height="280" fill="#f5d9a8" opacity="0.5"/>
+  <!-- 太阳 -->
+  <circle cx="620" cy="180" r="45" fill="#e07856" opacity="0.85"/>
+  <circle cx="620" cy="180" r="60" fill="#e07856" opacity="0.2"/>
+
+  <!-- 远山 -->
+  <path d="M0 320 L120 240 L240 290 L380 220 L520 280 L660 230 L800 290 L800 360 L0 360 Z" fill="#8d5a36" opacity="0.3"/>
+  <path d="M0 350 L100 300 L220 340 L360 280 L500 330 L640 290 L800 340 L800 400 L0 400 Z" fill="#8d5a36" opacity="0.45"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="360" width="800" height="240" fill="#d8c9a8"/>
+
+  <!-- 铁轨（透视，从远到近） -->
+  <path d="M380 360 L200 600" fill="none" stroke="#7a3b14" stroke-width="4"/>
+  <path d="M420 360 L600 600" fill="none" stroke="#7a3b14" stroke-width="4"/>
+  <!-- 枕木 -->
+  <g stroke="#8d5a36" stroke-width="6">
+    <line x1="372" y1="380" x2="428" y2="380"/>
+    <line x1="352" y1="420" x2="448" y2="420"/>
+    <line x1="328" y1="470" x2="472" y2="470"/>
+    <line x1="298" y1="530" x2="502" y2="530"/>
+    <line x1="260" y1="600" x2="540" y2="600"/>
+  </g>
+
+  <!-- 绿皮火车（远处驶来） -->
+  <g>
+    <rect x="340" y="300" width="120" height="55" rx="6" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <rect x="350" y="312" width="22" height="18" rx="2" fill="#a8d0e8"/>
+    <rect x="380" y="312" width="22" height="18" rx="2" fill="#a8d0e8"/>
+    <rect x="410" y="312" width="22" height="18" rx="2" fill="#a8d0e8"/>
+    <!-- 车头 -->
+    <path d="M460 300 L500 315 L500 355 L460 355 Z" fill="#4a6a2f" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 烟囱与蒸汽 -->
+    <rect x="470" y="280" width="12" height="22" fill="#5a3a1a"/>
+    <circle cx="476" cy="270" r="10" fill="#ffffff" opacity="0.7"/>
+    <circle cx="486" cy="255" r="14" fill="#ffffff" opacity="0.5"/>
+    <circle cx="500" cy="240" r="18" fill="#ffffff" opacity="0.35"/>
+    <!-- 车轮 -->
+    <circle cx="365" cy="358" r="8" fill="#5a3a1a"/>
+    <circle cx="435" cy="358" r="8" fill="#5a3a1a"/>
+    <circle cx="485" cy="358" r="8" fill="#5a3a1a"/>
+  </g>
+
+  <!-- 站台孩子 -->
+  <g transform="translate(150, 420)">
+    <!-- 身体 -->
+    <path d="M0 80 L5 30 L35 30 L40 80 Z" fill="#c84a3a"/>
+    <!-- 头 -->
+    <circle cx="20" cy="18" r="16" fill="#f0d0a8"/>
+    <!-- 头发 -->
+    <path d="M5 18 Q8 0 20 0 Q32 0 35 18 Q30 10 20 10 Q10 10 5 18 Z" fill="#2a2a2a"/>
+    <!-- 眼睛 -->
+    <circle cx="15" cy="18" r="2" fill="#2a2a2a"/>
+    <circle cx="25" cy="18" r="2" fill="#2a2a2a"/>
+    <!-- 书包 -->
+    <rect x="-12" y="40" width="18" height="28" rx="4" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 手臂指向远方 -->
+    <path d="M35 45 L80 20" fill="none" stroke="#c84a3a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="82" cy="18" r="6" fill="#f0d0a8"/>
+  </g>
+
+  <!-- 标注：远方 -->
+  <line x1="620" y1="180" x2="680" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="630" y="90" width="100" height="28" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="680" y="109" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">远方</text>
+
+  <!-- 标注：火车 -->
+  <line x1="400" y1="300" x2="400" y2="250" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="225" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="243" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">绿皮火车</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">铁轨伸向远方，汽笛声里藏着一个孩子对未知世界的全部向往</text>
+</svg>

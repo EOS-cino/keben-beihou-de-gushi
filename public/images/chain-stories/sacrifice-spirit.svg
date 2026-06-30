@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="牺牲精神插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a4a8a">连珠小故事：牺牲精神与民间故事</text>
+  <line x1="180" y1="62" x2="620" y2="62" stroke="#8a7ab8" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 三个故事节点 -->
+  <!-- 节点1：海力布（石头） -->
+  <g>
+    <ellipse cx="160" cy="440" rx="60" ry="45" fill="#9a8a78"/>
+    <ellipse cx="160" cy="430" rx="60" ry="45" fill="#b0a08c"/>
+    <path d="M120 420 Q160 395 200 420" fill="#c4b498" stroke="#7a6a58" stroke-width="2"/>
+    <text x="160" y="435" text-anchor="middle" font-family="serif" font-size="13" fill="#3a2a1a">海力布</text>
+    <text x="160" y="452" text-anchor="middle" font-family="serif" font-size="11" fill="#3a2a1a">化为石</text>
+    <rect x="100" y="490" width="120" height="26" fill="#fff6df" stroke="#8a7ab8" rx="4"/>
+    <text x="160" y="508" text-anchor="middle" font-family="serif" font-size="14" fill="#5a4a8a">救乡亲</text>
+  </g>
+
+  <!-- 节点2：大禹治水 -->
+  <g>
+    <!-- 水浪 -->
+    <path d="M340 460 Q380 430 420 460 Q460 490 500 460" fill="none" stroke="#5a9ad8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M345 445 Q385 420 425 445" fill="none" stroke="#7ab4e8" stroke-width="4" stroke-linecap="round"/>
+    <!-- 大禹（持铲） -->
+    <path d="M385 460 L390 380 L420 380 L425 460 Z" fill="#6a8a5a"/>
+    <circle cx="405" cy="362" r="16" fill="#f0d0a8"/>
+    <path d="M391 354 Q405 342 419 354 L419 348 Q405 336 391 348 Z" fill="#3a2a1a"/>
+    <!-- 铲子 -->
+    <line x1="425" y1="395" x2="470" y2="350" stroke="#7a5a3a" stroke-width="4"/>
+    <rect x="465" y="340" width="20" height="26" fill="#9a8a78" rx="2"/>
+    <rect x="330" y="490" width="120" height="26" fill="#fff6df" stroke="#8a7ab8" rx="4"/>
+    <text x="390" y="508" text-anchor="middle" font-family="serif" font-size="14" fill="#5a4a8a">三过家门</text>
+  </g>
+
+  <!-- 节点3：普罗米修斯（火把） -->
+  <g>
+    <!-- 火焰 -->
+    <path d="M620 360 Q610 400 620 440 Q630 400 620 360 Z" fill="#e8783a"/>
+    <path d="M620 380 Q615 410 620 435 Q625 410 620 380 Z" fill="#f4a842"/>
+    <path d="M620 400 Q618 420 620 432 Q622 420 620 400 Z" fill="#f4d842"/>
+    <!-- 火把柄 -->
+    <rect x="616" y="440" width="8" height="50" fill="#7a5a3a"/>
+    <!-- 普罗米修斯（举火把的手臂） -->
+    <path d="M620 440 L580 460 L575 470 L624 452 Z" fill="#c4a878"/>
+    <rect x="540" y="490" width="120" height="26" fill="#fff6df" stroke="#8a7ab8" rx="4"/>
+    <text x="600" y="508" text-anchor="middle" font-family="serif" font-size="14" fill="#5a4a8a">盗火予人</text>
+  </g>
+
+  <!-- 连线（连珠） -->
+  <line x1="220" y1="440" x2="335" y2="420" stroke="#8a7ab8" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="445" y1="420" x2="560" y2="440" stroke="#8a7ab8" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 顶部主题文字 -->
+  <rect x="250" y="120" width="300" height="50" fill="#fff6df" stroke="#8a7ab8" stroke-width="2" rx="8"/>
+  <text x="400" y="145" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5a4a8a">为他人奉献</text>
+  <text x="400" y="163" text-anchor="middle" font-family="serif" font-size="13" fill="#7a6a8a">不同民族、不同年代的共同主题</text>
+
+  <!-- 向下连接线 -->
+  <line x1="400" y1="170" x2="400" y2="240" stroke="#8a7ab8" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="400" y1="240" x2="160" y2="380" stroke="#8a7ab8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="400" y1="240" x2="400" y2="340" stroke="#8a7ab8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="400" y1="240" x2="620" y2="380" stroke="#8a7ab8" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="15" fill="#5a4a8a">海力布、大禹、普罗米修斯——民间故事里串起的牺牲精神</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="元宵节猜灯谜传统插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">灯谜的传统</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">元宵节赏花灯、猜灯谜，流传了一千多年</text>
+
+  <!-- 多个灯笼 -->
+  <g transform="translate(150,180)">
+    <line x1="0" y1="-60" x2="0" y2="-40" stroke="#8d5a36" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="35" ry="40" fill="#c84a3a" stroke="#8d5a36" stroke-width="2"/>
+    <rect x="-25" y="-42" width="50" height="6" rx="2" fill="#8d5a36"/>
+    <rect x="-25" y="36" width="50" height="6" rx="2" fill="#8d5a36"/>
+    <line x1="0" y1="42" x2="0" y2="60" stroke="#f4b942" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#f4b942">灯</text>
+  </g>
+
+  <g transform="translate(400,150)">
+    <line x1="0" y1="-60" x2="0" y2="-40" stroke="#8d5a36" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="40" ry="45" fill="#e07856" stroke="#8d5a36" stroke-width="2"/>
+    <rect x="-30" y="-47" width="60" height="7" rx="2" fill="#8d5a36"/>
+    <rect x="-30" y="40" width="60" height="7" rx="2" fill="#8d5a36"/>
+    <line x1="0" y1="47" x2="0" y2="68" stroke="#f4b942" stroke-width="2"/>
+    <line x1="-6" y1="47" x2="-6" y2="65" stroke="#f4b942" stroke-width="1.5"/>
+    <line x1="6" y1="47" x2="6" y2="65" stroke="#f4b942" stroke-width="1.5"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#f4b942">谜</text>
+  </g>
+
+  <g transform="translate(650,180)">
+    <line x1="0" y1="-60" x2="0" y2="-40" stroke="#8d5a36" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="35" ry="40" fill="#c84a3a" stroke="#8d5a36" stroke-width="2"/>
+    <rect x="-25" y="-42" width="50" height="6" rx="2" fill="#8d5a36"/>
+    <rect x="-25" y="36" width="50" height="6" rx="2" fill="#8d5a36"/>
+    <line x1="0" y1="42" x2="0" y2="60" stroke="#f4b942" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#f4b942">猜</text>
+  </g>
+
+  <!-- 灯谜示例卡片 -->
+  <g transform="translate(200,360)">
+    <rect x="-90" y="-45" width="180" height="90" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-22" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">字谜</text>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">一口咬掉牛尾巴</text>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="20" fill="#c84a3a" font-weight="bold">谜底：告</text>
+  </g>
+
+  <g transform="translate(600,360)">
+    <rect x="-90" y="-45" width="180" height="90" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-22" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">物谜</text>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">麻屋子红帐子白胖子</text>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="20" fill="#c84a3a" font-weight="bold">谜底：花生</text>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="80" y="460" width="640" height="100" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="490" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">宋朝开始流行猜灯谜，当时叫"打灯虎"</text>
+  <text x="400" y="515" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">元宵节挂满灯笼，灯笼上写谜语，猜中有奖</text>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">出谜要藏好答案，猜谜要根据线索推理</text>
+</svg>

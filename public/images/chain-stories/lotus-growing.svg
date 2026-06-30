@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="莲藕和莲子生长过程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">莲藕和莲子是怎么长出来的</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">从泥里的藕到水面上的莲蓬，一棵莲的全身</text>
+
+  <!-- 水面线 -->
+  <line x1="40" y1="280" x2="760" y2="280" stroke="#7ab8d8" stroke-width="3"/>
+  <rect x="40" y="280" width="720" height="240" fill="#7ab8d8" opacity="0.25"/>
+  <!-- 淤泥 -->
+  <rect x="40" y="440" width="720" height="80" fill="#7a3b14" opacity="0.3"/>
+  <text x="70" y="270" text-anchor="start" font-family="serif" font-size="13" fill="#7ab8d8" font-weight="bold">水面</text>
+  <text x="70" y="470" text-anchor="start" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">淤泥</text>
+
+  <!-- 莲的全身剖面图 -->
+  <g transform="translate(400,360)">
+    <!-- 地下藕节 -->
+    <g transform="translate(0,110)">
+      <ellipse cx="-90" cy="0" rx="28" ry="16" fill="#f0d8b0" stroke="#c8843a" stroke-width="2"/>
+      <ellipse cx="-50" cy="0" rx="28" ry="16" fill="#f0d8b0" stroke="#c8843a" stroke-width="2"/>
+      <ellipse cx="-10" cy="0" rx="28" ry="16" fill="#f0d8b0" stroke="#c8843a" stroke-width="2"/>
+      <ellipse cx="30" cy="0" rx="28" ry="16" fill="#f0d8b0" stroke="#c8843a" stroke-width="2"/>
+      <ellipse cx="70" cy="0" rx="28" ry="16" fill="#f0d8b0" stroke="#c8843a" stroke-width="2"/>
+      <!-- 藕孔 -->
+      <circle cx="-90" cy="-3" r="3" fill="#fef9ed"/>
+      <circle cx="-90" cy="4" r="3" fill="#fef9ed"/>
+      <circle cx="-50" cy="-3" r="3" fill="#fef9ed"/>
+      <circle cx="-50" cy="4" r="3" fill="#fef9ed"/>
+      <circle cx="-10" cy="-3" r="3" fill="#fef9ed"/>
+      <circle cx="-10" cy="4" r="3" fill="#fef9ed"/>
+      <circle cx="30" cy="-3" r="3" fill="#fef9ed"/>
+      <circle cx="30" cy="4" r="3" fill="#fef9ed"/>
+      <circle cx="70" cy="-3" r="3" fill="#fef9ed"/>
+      <circle cx="70" cy="4" r="3" fill="#fef9ed"/>
+    </g>
+
+    <!-- 叶柄（从藕往上） -->
+    <line x1="-50" y1="100" x2="-50" y2="-30" stroke="#6a8d3f" stroke-width="5"/>
+    <line x1="50" y1="100" x2="80" y2="-100" stroke="#6a8d3f" stroke-width="5"/>
+
+    <!-- 莲叶 -->
+    <g transform="translate(-50,-50)">
+      <ellipse cx="0" cy="0" rx="70" ry="22" fill="#4a6a2f"/>
+      <ellipse cx="0" cy="-3" rx="66" ry="18" fill="#6a8d3f"/>
+      <path d="M0 -3 L-50 -10 M0 -3 L50 -10 M0 -3 L-55 0 M0 -3 L55 0" stroke="#4a6a2f" stroke-width="1.5"/>
+    </g>
+
+    <!-- 花柄和莲花 -->
+    <g transform="translate(80,-120)">
+      <ellipse cx="0" cy="0" rx="7" ry="20" fill="#f8c8d8" transform="rotate(-35)"/>
+      <ellipse cx="0" cy="0" rx="7" ry="20" fill="#f4a8c0" transform="rotate(0)"/>
+      <ellipse cx="0" cy="0" rx="7" ry="20" fill="#f8c8d8" transform="rotate(35)"/>
+      <ellipse cx="0" cy="0" rx="7" ry="20" fill="#f4a8c0" transform="rotate(70)"/>
+      <circle cx="0" cy="0" r="6" fill="#f4b942"/>
+    </g>
+
+    <!-- 莲蓬 -->
+    <g transform="translate(-130,-90)">
+      <line x1="0" y1="20" x2="0" y2="90" stroke="#6a8d3f" stroke-width="4"/>
+      <ellipse cx="0" cy="0" rx="16" ry="14" fill="#6a8d3f"/>
+      <circle cx="-5" cy="-3" r="3" fill="#4a6a2f"/>
+      <circle cx="5" cy="-3" r="3" fill="#4a6a2f"/>
+      <circle cx="0" cy="4" r="3" fill="#4a6a2f"/>
+      <circle cx="-6" cy="5" r="2.5" fill="#4a6a2f"/>
+      <circle cx="6" cy="5" r="2.5" fill="#4a6a2f"/>
+    </g>
+  </g>
+
+  <!-- 标注 -->
+  <g font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">
+    <!-- 莲蓬/莲子 -->
+    <line x1="270" y1="240" x2="220" y2="200" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="120" y="195" text-anchor="start">莲蓬（里有莲子）</text>
+    <text x="120" y="213" text-anchor="start" font-size="12" fill="#8d5a36" font-weight="normal">莲子是种子</text>
+
+    <!-- 莲花 -->
+    <line x1="490" y1="230" x2="540" y2="190" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="545" y="185" text-anchor="start">莲花</text>
+    <text x="545" y="203" text-anchor="start" font-size="12" fill="#8d5a36" font-weight="normal">凋谢后变莲蓬</text>
+
+    <!-- 莲叶 -->
+    <line x1="345" y1="305" x2="280" y2="340" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="150" y="355" text-anchor="start">莲叶</text>
+    <text x="150" y="373" text-anchor="start" font-size="12" fill="#8d5a36" font-weight="normal">浮在水面</text>
+
+    <!-- 莲藕 -->
+    <line x1="470" y1="475" x2="540" y2="440" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="545" y="435" text-anchor="start">莲藕</text>
+    <text x="545" y="453" text-anchor="start" font-size="12" fill="#8d5a36" font-weight="normal">地下茎，有孔能透气</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">藕是茎 · 莲叶是叶 · 莲花是花 · 莲子是种子 · 一棵莲全身都是宝</text>
+</svg>

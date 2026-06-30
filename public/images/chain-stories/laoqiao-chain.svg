@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国古桥历史演变连珠故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#8a5a14">连珠小故事：中国古桥的故事</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#7a7468">从独木桥到赵州桥，从索桥到廊桥——每一座都有故事</text>
+
+  <!-- 时间轴 -->
+  <line x1="80" y1="180" x2="720" y2="180" stroke="#c8943a" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 第一格：独木桥 -->
+  <g transform="translate(150 290)">
+    <rect x="-80" y="-90" width="160" height="180" fill="#fff6df" stroke="#8a6a3a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">独木桥</text>
+    <!-- 河岸 -->
+    <rect x="-65" y="20" width="25" height="15" fill="#9fc8b4"/>
+    <rect x="40" y="20" width="25" height="15" fill="#9fc8b4"/>
+    <!-- 水 -->
+    <rect x="-40" y="22" width="80" height="12" fill="#7ab8d8" opacity="0.5"/>
+    <!-- 独木 -->
+    <rect x="-42" y="14" width="84" height="8" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+    <!-- 走的人 -->
+    <g transform="translate(-20 6)">
+      <circle cx="0" cy="-2" r="4" fill="#f4d4a8"/>
+      <rect x="-3" y="2" width="6" height="8" fill="#e07856"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">最早的桥</text>
+  </g>
+
+  <!-- 第二格：赵州桥（石拱） -->
+  <g transform="translate(330 290)">
+    <rect x="-80" y="-90" width="160" height="180" fill="#fff6df" stroke="#e07856" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">赵州桥</text>
+    <!-- 水 -->
+    <rect x="-65" y="25" width="130" height="12" fill="#7ab8d8" opacity="0.5"/>
+    <!-- 桥拱 -->
+    <path d="M-55 25 Q0 -20 55 25" fill="none" stroke="#6a5a3a" stroke-width="3"/>
+    <path d="M-45 25 Q0 -10 45 25" fill="none" stroke="#8a7a5a" stroke-width="2"/>
+    <!-- 桥面 -->
+    <path d="M-58 25 Q0 -25 58 25" fill="none" stroke="#6a5a3a" stroke-width="5"/>
+    <!-- 敞肩小拱 -->
+    <path d="M-25 5 Q-18 -2 -11 5" fill="none" stroke="#6a5a3a" stroke-width="1.5"/>
+    <path d="M11 5 Q18 -2 25 5" fill="none" stroke="#6a5a3a" stroke-width="1.5"/>
+    <!-- 倒影 -->
+    <path d="M-45 28 Q0 60 45 28" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.4"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">隋代·1400年</text>
+  </g>
+
+  <!-- 第三格：索桥 -->
+  <g transform="translate(510 290)">
+    <rect x="-80" y="-90" width="160" height="180" fill="#fff6df" stroke="#4a90b8" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">索桥</text>
+    <!-- 两岸山 -->
+    <path d="M-65 25 L-50 -10 L-35 25 Z" fill="#9fc8b4"/>
+    <path d="M65 25 L50 -10 L35 25 Z" fill="#9fc8b4"/>
+    <!-- 峡谷水 -->
+    <rect x="-35" y="22" width="70" height="12" fill="#4a90b8" opacity="0.5"/>
+    <!-- 索（铁链） -->
+    <path d="M-50 -5 Q0 15 50 -5" fill="none" stroke="#5a4a2a" stroke-width="2.5"/>
+    <path d="M-50 0 Q0 20 50 0" fill="none" stroke="#5a4a2a" stroke-width="2.5"/>
+    <!-- 桥板 -->
+    <path d="M-50 5 Q0 18 50 5" fill="none" stroke="#8a6a3a" stroke-width="3"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">西南山区</text>
+  </g>
+
+  <!-- 第四格：廊桥 -->
+  <g transform="translate(670 290)">
+    <rect x="-80" y="-90" width="160" height="180" fill="#fff6df" stroke="#2d6a4f" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">廊桥</text>
+    <!-- 桥身 -->
+    <rect x="-55" y="10" width="110" height="14" fill="#a89878" stroke="#6a5a3a" stroke-width="1.5"/>
+    <!-- 屋顶 -->
+    <path d="M-50 10 L-40 -20 L40 -20 L50 10 Z" fill="#8a5a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+    <path d="M-50 10 L-45 0 L45 0 L50 10" fill="#e07856" opacity="0.5"/>
+    <!-- 柱子 -->
+    <line x1="-35" y1="0" x2="-35" y2="10" stroke="#5a4a2a" stroke-width="2"/>
+    <line x1="-12" y1="0" x2="-12" y2="10" stroke="#5a4a2a" stroke-width="2"/>
+    <line x1="12" y1="0" x2="12" y2="10" stroke="#5a4a2a" stroke-width="2"/>
+    <line x1="35" y1="0" x2="35" y2="10" stroke="#5a4a2a" stroke-width="2"/>
+    <!-- 水 -->
+    <rect x="-60" y="24" width="120" height="10" fill="#7ab8d8" opacity="0.5"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">桥上盖屋</text>
+  </g>
+
+  <!-- 底部：李春与赵州桥 -->
+  <g transform="translate(400 460)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">赵州桥：李春设计，敞肩拱，比欧洲早八百多年</text>
+    <!-- 李春 -->
+    <g transform="translate(-100 40)">
+      <path d="M-12 25 Q-14 5 -8 -3 Q0 -7 8 -3 Q14 5 12 25 Z" fill="#4a5a6a"/>
+      <circle cx="0" cy="-12" r="10" fill="#f4d4a8"/>
+      <path d="M-10 -16 Q0 -26 10 -16 L10 -10 Q0 -6 -10 -10 Z" fill="#3a3a3a"/>
+      <!-- 手持图纸 -->
+      <rect x="8" y="-2" width="16" height="12" fill="#fef9ed" stroke="#8a5a14" stroke-width="1"/>
+    </g>
+    <rect x="-60" y="22" width="120" height="22" fill="#fff6df" stroke="#c8943a" rx="4"/>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="12" fill="#8a5a14">工匠李春</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="545" width="680" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">保护古桥，就是保护祖先的智慧和一段段活的历史</text>
+</svg>

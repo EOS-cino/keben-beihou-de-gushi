@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一片树叶从绿到黄的生命旅程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">一片树叶</text>
+  <line x1="320" y1="56" x2="480" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——从嫩芽到落叶，生命的循环</text>
+
+  <!-- 四季分格 -->
+  <!-- 春：嫩芽 -->
+  <rect x="20" y="100" width="180" height="380" rx="10" fill="#e8f0d8" stroke="#c8843a" stroke-width="2"/>
+  <text x="110" y="125" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#6a8d3f">春·发芽</text>
+  <!-- 树枝 -->
+  <path d="M110 420 Q110 350 110 280" fill="none" stroke="#8d5a36" stroke-width="4"/>
+  <!-- 嫩芽 -->
+  <g transform="translate(110, 280)">
+    <path d="M0 0 Q-8 -15 -5 -30 Q0 -35 5 -30 Q8 -15 0 0" fill="#a8d060" stroke="#6a8d3f" stroke-width="1.5"/>
+    <path d="M0 -5 Q-12 -10 -18 -20" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <ellipse cx="-15" cy="-18" rx="8" ry="5" fill="#a8d060" transform="rotate(-30 -15 -18)"/>
+    <path d="M0 -5 Q12 -10 18 -20" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <ellipse cx="15" cy="-18" rx="8" ry="5" fill="#a8d060" transform="rotate(30 15 -18)"/>
+  </g>
+  <text x="110" y="460" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">嫩芽冒出</text>
+
+  <!-- 夏：绿叶 -->
+  <rect x="210" y="100" width="180" height="380" rx="10" fill="#d8e8c8" stroke="#c8843a" stroke-width="2"/>
+  <text x="300" y="125" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#4a6a2f">夏·茂盛</text>
+  <!-- 树枝 -->
+  <path d="M300 420 Q300 350 300 260" fill="none" stroke="#8d5a36" stroke-width="4"/>
+  <!-- 大绿叶 -->
+  <g transform="translate(300, 250)">
+    <path d="M0 40 Q-25 20 -30 -10 Q-25 -35 0 -40 Q25 -35 30 -10 Q25 20 0 40" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+    <!-- 叶脉 -->
+    <path d="M0 40 L0 -40" stroke="#6a8d3f" stroke-width="1.5"/>
+    <path d="M0 20 Q-10 15 -20 10" fill="none" stroke="#6a8d3f" stroke-width="1"/>
+    <path d="M0 20 Q10 15 20 10" fill="none" stroke="#6a8d3f" stroke-width="1"/>
+    <path d="M0 0 Q-12 -5 -22 -15" fill="none" stroke="#6a8d3f" stroke-width="1"/>
+    <path d="M0 0 Q12 -5 22 -15" fill="none" stroke="#6a8d3f" stroke-width="1"/>
+    <path d="M0 -20 Q-8 -25 -15 -30" fill="none" stroke="#6a8d3f" stroke-width="1"/>
+    <path d="M0 -20 Q8 -25 15 -30" fill="none" stroke="#6a8d3f" stroke-width="1"/>
+  </g>
+  <!-- 光合作用标记 -->
+  <g transform="translate(300, 180)">
+    <circle cx="0" cy="0" r="12" fill="#e07856" opacity="0.4"/>
+    <text x="0" y="4" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">阳光</text>
+  </g>
+  <text x="300" y="460" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">光合作用制造养分</text>
+
+  <!-- 秋：黄叶 -->
+  <rect x="400" y="100" width="180" height="380" rx="10" fill="#f5ecd8" stroke="#c8843a" stroke-width="2"/>
+  <text x="490" y="125" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#c8843a">秋·变色</text>
+  <!-- 树枝 -->
+  <path d="M490 420 Q490 350 490 260" fill="none" stroke="#8d5a36" stroke-width="4"/>
+  <!-- 黄叶 -->
+  <g transform="translate(490, 250)">
+    <path d="M0 40 Q-25 20 -30 -10 Q-25 -35 0 -40 Q25 -35 30 -10 Q25 20 0 40" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M0 40 L0 -40" stroke="#e07856" stroke-width="1.5"/>
+    <path d="M0 20 Q-10 15 -20 10" fill="none" stroke="#e07856" stroke-width="1"/>
+    <path d="M0 20 Q10 15 20 10" fill="none" stroke="#e07856" stroke-width="1"/>
+    <path d="M0 0 Q-12 -5 -22 -15" fill="none" stroke="#e07856" stroke-width="1"/>
+    <path d="M0 0 Q12 -5 22 -15" fill="none" stroke="#e07856" stroke-width="1"/>
+  </g>
+  <!-- 飘落的叶 -->
+  <g transform="translate(440, 340) rotate(30)">
+    <path d="M0 15 Q-10 8 -12 -5 Q-10 -15 0 -15 Q10 -15 12 -5 Q10 8 0 15" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <g transform="translate(540, 370) rotate(-20)">
+    <path d="M0 12 Q-8 6 -10 -4 Q-8 -12 0 -12 Q8 -12 10 -4 Q8 6 0 12" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <text x="490" y="460" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">叶绿素分解，黄色露出</text>
+
+  <!-- 冬：落叶归根 -->
+  <rect x="590" y="100" width="190" height="380" rx="10" fill="#e8e8f0" stroke="#c8843a" stroke-width="2"/>
+  <text x="685" y="125" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#8d5a36">冬·归根</text>
+  <!-- 光秃树枝 -->
+  <path d="M685 280 Q685 350 685 420" fill="none" stroke="#8d5a36" stroke-width="4"/>
+  <path d="M685 300 Q670 290 660 280" fill="none" stroke="#8d5a36" stroke-width="2"/>
+  <path d="M685 300 Q700 290 710 280" fill="none" stroke="#8d5a36" stroke-width="2"/>
+  <!-- 地面 -->
+  <rect x="600" y="420" width="170" height="50" rx="3" fill="#8d5a36" opacity="0.3"/>
+  <!-- 落叶在地面 -->
+  <g transform="translate(640, 425) rotate(15)">
+    <path d="M0 10 Q-8 5 -10 -3 Q-8 -10 0 -10 Q8 -10 10 -3 Q8 5 0 10" fill="#7a3b14" opacity="0.6"/>
+  </g>
+  <g transform="translate(680, 430) rotate(-25)">
+    <path d="M0 10 Q-8 5 -10 -3 Q-8 -10 0 -10 Q8 -10 10 -3 Q8 5 0 10" fill="#8d5a36" opacity="0.6"/>
+  </g>
+  <g transform="translate(720, 425) rotate(40)">
+    <path d="M0 8 Q-6 4 -8 -2 Q-6 -8 0 -8 Q6 -8 8 -2 Q6 4 0 8" fill="#7a3b14" opacity="0.5"/>
+  </g>
+  <!-- 腐烂箭头 -->
+  <path d="M685 440 Q685 455 685 465" fill="none" stroke="#6a8d3f" stroke-width="2" stroke-dasharray="3 2"/>
+  <text x="685" y="480" text-anchor="middle" font-family="serif" font-size="10" fill="#4a6a2f">变成肥料</text>
+  <text x="685" y="495" text-anchor="middle" font-family="serif" font-size="10" fill="#4a6a2f">滋养新叶</text>
+
+  <!-- 循环箭头 -->
+  <path d="M110 500 Q400 540 685 500" fill="none" stroke="#c8843a" stroke-width="2" stroke-dasharray="5 3"/>
+  <path d="M685 500 L678 493 L678 507 Z" fill="#c8843a"/>
+  <text x="400" y="530" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">生命的循环：落叶不是结束，而是新的开始</text>
+</svg>

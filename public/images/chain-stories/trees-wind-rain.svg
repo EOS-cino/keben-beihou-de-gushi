@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="树木需要风吹雨打才能扎根插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">树木为什么需要风吹雨打</text>
+  <line x1="200" y1="56" x2="600" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——温室的树 vs 野外的树</text>
+
+  <!-- 左：温室里的树（根浅干细） -->
+  <g transform="translate(180, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c84a3a">温室里的树</text>
+    <!-- 温室罩 -->
+    <path d="M-80 0 Q-80 -80 0 -90 Q80 -80 80 0" fill="none" stroke="#7ab8d8" stroke-width="3" stroke-dasharray="5 3"/>
+    <path d="M-80 0 L80 0" fill="none" stroke="#7ab8d8" stroke-width="3"/>
+    <!-- 树（细弱） -->
+    <path d="M0 0 Q2 -40 0 -70" fill="none" stroke="#8d5a36" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-75" rx="25" ry="20" fill="#6a8d3f" opacity="0.5"/>
+    <!-- 浅根 -->
+    <g stroke="#7a3b14" stroke-width="2" fill="none">
+      <path d="M0 0 Q-8 8 -12 12"/>
+      <path d="M0 0 Q8 8 12 12"/>
+      <path d="M0 0 Q0 10 0 15"/>
+    </g>
+    <!-- 地面 -->
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 标注 -->
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">根浅·干细</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">没经历过风吹</text>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">移到野外→存活率低</text>
+    <!-- 倒伏标记 -->
+    <g transform="translate(50, -50)">
+      <path d="M0 0 Q10 5 15 15" fill="none" stroke="#c84a3a" stroke-width="2" stroke-dasharray="3 2"/>
+      <text x="20" y="10" font-family="serif" font-size="10" fill="#c84a3a">易倒！</text>
+    </g>
+  </g>
+
+  <!-- 中间对比 -->
+  <g transform="translate(400, 200)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="20" fill="#c8843a">VS</text>
+  </g>
+
+  <!-- 右：野外的树（根深干壮） -->
+  <g transform="translate(620, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a6a2f">野外的树</text>
+    <!-- 风 -->
+    <g stroke="#7ab8d8" stroke-width="2" fill="none" opacity="0.5">
+      <path d="M-70 -60 Q-50 -65 -30 -60"/>
+      <path d="M-70 -40 Q-50 -45 -30 -40"/>
+      <path d="M-70 -20 Q-50 -25 -30 -20"/>
+    </g>
+    <!-- 树（粗壮） -->
+    <path d="M0 0 Q3 -50 0 -90" fill="none" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-95" rx="35" ry="30" fill="#4a6a2f"/>
+    <ellipse cx="-15" cy="-85" rx="20" ry="18" fill="#6a8d3f"/>
+    <ellipse cx="15" cy="-85" rx="20" ry="18" fill="#6a8d3f"/>
+    <!-- 深根 -->
+    <g stroke="#7a3b14" stroke-width="2.5" fill="none">
+      <path d="M0 0 Q-12 15 -20 30 Q-25 40 -28 50"/>
+      <path d="M0 0 Q12 15 20 30 Q25 40 28 50"/>
+      <path d="M0 0 Q-5 20 -8 40 Q-10 50 -12 60"/>
+      <path d="M0 0 Q5 20 8 40 Q10 50 12 60"/>
+      <path d="M0 0 Q0 25 0 55"/>
+    </g>
+    <!-- 地面 -->
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 地下水 -->
+    <line x1="-30" y1="55" x2="30" y2="55" stroke="#7ab8d8" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="9" fill="#4a6a8f">地下水</text>
+    <!-- 标注 -->
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">根深·干壮</text>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">风吹→锻炼根和干</text>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">大风大雨都不怕</text>
+  </g>
+
+  <!-- 科学原理 -->
+  <g transform="translate(400, 400)">
+    <rect x="-300" y="0" width="600" height="150" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">科学原理</text>
+    <text x="-250" y="50" font-family="serif" font-size="12" fill="#8d5a36">根为什么往下扎？</text>
+    <text x="-250" y="68" font-family="serif" font-size="11" fill="#8d5a36">→ 地面水易蒸发，深处才有稳定水源</text>
+    <text x="-250" y="86" font-family="serif" font-size="11" fill="#8d5a36">→ 不固定浇水→树不知道何时有水→拼命往下扎</text>
+    <text x="-250" y="110" font-family="serif" font-size="12" fill="#8d5a36">风为什么重要？</text>
+    <text x="-250" y="128" font-family="serif" font-size="11" fill="#8d5a36">→ 风吹树摇晃→树努力扎根更深·树干更粗</text>
+    <text x="50" y="50" font-family="serif" font-size="12" fill="#8d5a36">实验数据：</text>
+    <text x="50" y="68" font-family="serif" font-size="11" fill="#8d5a36">温室树移到野外</text>
+    <text x="50" y="83" font-family="serif" font-size="11" fill="#c84a3a">→存活率远低于野外树</text>
+    <text x="50" y="110" font-family="serif" font-size="12" fill="#c84a3a">人也一样：</text>
+    <text x="50" y="128" font-family="serif" font-size="11" fill="#8d5a36">适当"吃苦"是成长的必修课</text>
+  </g>
+</svg>

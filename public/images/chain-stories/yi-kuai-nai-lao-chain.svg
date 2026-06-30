@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：管住自己，才是真本事">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：管住自己，才是真本事</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">能管住自己的人，都了不起</text>
+  <g transform="translate(160,300)">
+    <circle cx="0" cy="0" r="40" fill="#f0d8a8" stroke="#a85a2a" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">曹操</text>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">割发代罚</text>
+  </g>
+  <g transform="translate(400,300)">
+    <circle cx="0" cy="0" r="40" fill="#cfe6c0" stroke="#5a8a3a" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="18" fill="#3a6b2a">列宁</text>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="15" fill="#3a6b2a">排队理发</text>
+  </g>
+  <g transform="translate(640,300)">
+    <circle cx="0" cy="0" r="40" fill="#f0c0a0" stroke="#c06a3a" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="16" fill="#c0392b">邱少云</text>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="15" fill="#c0392b">烈火不动</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">管住自己，听起来容易，做起来最难</text>
+</svg>

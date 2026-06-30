@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="传统节日插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#8a2a1a">连珠小故事：传统节日文化</text>
+  <line x1="200" y1="62" x2="600" y2="62" stroke="#c4a83a" stroke-width="2"/>
+
+  <!-- 时间线（横轴） -->
+  <line x1="80" y1="320" x2="720" y2="320" stroke="#c4a83a" stroke-width="3"/>
+  <polygon points="720,320 710,314 710,326" fill="#c4a83a"/>
+  <text x="740" y="325" font-family="serif" font-size="13" fill="#8a6a1a">时间</text>
+
+  <!-- 地面 -->
+  <rect x="0" y="510" width="800" height="90" fill="#e8d9b8"/>
+
+  <!-- 五个节日节点 -->
+  <!-- 节点1：春节（冬末） -->
+  <g>
+    <circle cx="130" cy="320" r="10" fill="#c4282a" stroke="#8a1a1a" stroke-width="2"/>
+    <line x1="130" y1="310" x2="130" y2="240" stroke="#c4282a" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- 灯笼 -->
+    <ellipse cx="130" cy="200" rx="18" ry="14" fill="#c4282a" stroke="#8a1a1a" stroke-width="2"/>
+    <rect x="124" y="184" width="12" height="5" fill="#f4c842"/>
+    <rect x="124" y="212" width="12" height="5" fill="#f4c842"/>
+    <line x1="130" y1="220" x2="130" y2="230" stroke="#f4c842" stroke-width="1.5"/>
+    <rect x="80" y="340" width="100" height="50" fill="#fff6df" stroke="#c4282a" rx="6"/>
+    <text x="130" y="360" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#8a2a1a">春节</text>
+    <text x="130" y="378" text-anchor="middle" font-family="serif" font-size="11" fill="#8a2a1a">团圆·辞旧</text>
+  </g>
+
+  <!-- 节点2：元宵节 -->
+  <g>
+    <circle cx="270" cy="320" r="10" fill="#e8783a" stroke="#c45a2a" stroke-width="2"/>
+    <line x1="270" y1="310" x2="270" y2="240" stroke="#e8783a" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- 花灯 -->
+    <polygon points="270,180 290,200 270,220 250,200" fill="#e8a842" stroke="#c45a2a" stroke-width="2"/>
+    <circle cx="270" cy="200" r="6" fill="#f4d842"/>
+    <line x1="270" y1="180" x2="270" y2="170" stroke="#8a6a1a" stroke-width="1.5"/>
+    <!-- 元宵 -->
+    <circle cx="255" cy="230" r="5" fill="#fff" stroke="#c4a86a"/>
+    <circle cx="285" cy="230" r="5" fill="#fff" stroke="#c4a86a"/>
+    <rect x="220" y="340" width="100" height="50" fill="#fff6df" stroke="#e8783a" rx="6"/>
+    <text x="270" y="360" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c45a2a">元宵节</text>
+    <text x="270" y="378" text-anchor="middle" font-family="serif" font-size="11" fill="#c45a2a">花灯·圆满</text>
+  </g>
+
+  <!-- 节点3：清明节 -->
+  <g>
+    <circle cx="410" cy="320" r="10" fill="#5a8a3a" stroke="#3a6a2a" stroke-width="2"/>
+    <line x1="410" y1="310" x2="410" y2="240" stroke="#5a8a3a" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- 柳枝 -->
+    <line x1="410" y1="230" x2="410" y2="180" stroke="#6a4a2a" stroke-width="3"/>
+    <g stroke="#7aa84a" stroke-width="2" fill="none">
+      <path d="M410 195 Q395 210 390 230"/>
+      <path d="M410 200 Q425 215 430 235"/>
+      <path d="M410 210 Q400 225 395 240"/>
+    </g>
+    <g fill="#7aa84a">
+      <ellipse cx="390" cy="228" rx="3" ry="7"/>
+      <ellipse cx="430" cy="233" rx="3" ry="7"/>
+    </g>
+    <rect x="360" y="340" width="100" height="50" fill="#fff6df" stroke="#5a8a3a" rx="6"/>
+    <text x="410" y="360" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#3a6a2a">清明节</text>
+    <text x="410" y="378" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a2a">祭祖·思念</text>
+  </g>
+
+  <!-- 节点4：端午节 -->
+  <g>
+    <circle cx="550" cy="320" r="10" fill="#3a7a8a" stroke="#2a5a6a" stroke-width="2"/>
+    <line x1="550" y1="310" x2="550" y2="240" stroke="#3a7a8a" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- 粽子 -->
+    <polygon points="550,180 535,210 565,210" fill="#5a8a3a" stroke="#3a6a2a" stroke-width="2"/>
+    <line x1="540" y1="195" x2="560" y2="195" stroke="#3a6a2a" stroke-width="1.5"/>
+    <!-- 龙舟小图标 -->
+    <path d="M530 225 Q550 220 570 225 L565 232 L535 232 Z" fill="#c4282a"/>
+    <rect x="500" y="340" width="100" height="50" fill="#fff6df" stroke="#3a7a8a" rx="6"/>
+    <text x="550" y="360" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#2a5a6a">端午节</text>
+    <text x="550" y="378" text-anchor="middle" font-family="serif" font-size="11" fill="#2a5a6a">爱国·纪念</text>
+  </g>
+
+  <!-- 节点5：中秋节 -->
+  <g>
+    <circle cx="680" cy="320" r="10" fill="#c4a83a" stroke="#8a6a1a" stroke-width="2"/>
+    <line x1="680" y1="310" x2="680" y2="240" stroke="#c4a83a" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- 月亮 -->
+    <circle cx="680" cy="195" r="20" fill="#f4d842" stroke="#c4a01a" stroke-width="2"/>
+    <circle cx="673" cy="190" r="4" fill="#e8c832" opacity="0.6"/>
+    <circle cx="685" cy="200" r="3" fill="#e8c832" opacity="0.6"/>
+    <!-- 月饼 -->
+    <circle cx="680" cy="230" r="8" fill="#c4a06a" stroke="#8a6a3a" stroke-width="1.5"/>
+    <line x1="672" y1="230" x2="688" y2="230" stroke="#8a6a3a" stroke-width="1"/>
+    <line x1="680" y1="222" x2="680" y2="238" stroke="#8a6a3a" stroke-width="1"/>
+    <rect x="630" y="340" width="100" height="50" fill="#fff6df" stroke="#c4a83a" rx="6"/>
+    <text x="680" y="360" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#8a6a1a">中秋节</text>
+    <text x="680" y="378" text-anchor="middle" font-family="serif" font-size="11" fill="#8a6a1a">赏月·团圆</text>
+  </g>
+
+  <!-- 顶部主题 -->
+  <rect x="250" y="100" width="300" height="50" fill="#fff6df" stroke="#c4a83a" stroke-width="2" rx="8"/>
+  <text x="400" y="125" text-anchor="middle" font-family="serif" font-size="17" font-weight="bold" fill="#8a2a1a">一年四季 · 节日为线</text>
+  <text x="400" y="143" text-anchor="middle" font-family="serif" font-size="12" fill="#8a6a1a">串起中华民族的情感与记忆</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="15" fill="#8a2a1a">从春节到中秋——传统节日串起一年的团圆、思念与敬意</text>
+</svg>

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各种动物用不同方式发出声音交流的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">动物怎么"说话"</text>
+  <line x1="310" y1="58" x2="490" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 四种动物发声方式 -->
+
+  <!-- 鸟类：鸣管发声 -->
+  <g transform="translate(40, 85)">
+    <rect x="0" y="0" width="350" height="200" rx="10" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="175" y="28" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">鸟类——鸣管发声</text>
+    <!-- 三种鸟 -->
+    <g transform="translate(70, 80)">
+      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-10" cy="-3" r="6" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-16 -3 L-20 -1 L-16 1" fill="#e07856"/>
+      <text x="5" y="-15" font-family="serif" font-size="11" fill="#7a3b14">叽叽喳喳</text>
+      <text x="5" y="25" font-family="serif" font-size="10" fill="#7a3b14">麻雀</text>
+    </g>
+    <g transform="translate(175, 75)">
+      <ellipse cx="0" cy="0" rx="14" ry="9" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-12" cy="-3" r="7" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-19 -3 L-24 -1 L-19 1" fill="#e07856"/>
+      <text x="8" y="-15" font-family="serif" font-size="11" fill="#7a3b14">布谷布谷</text>
+      <text x="5" y="25" font-family="serif" font-size="10" fill="#7a3b14">布谷鸟</text>
+    </g>
+    <g transform="translate(280, 80)">
+      <ellipse cx="0" cy="0" rx="13" ry="9" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-11" cy="-3" r="6.5" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <text x="5" y="-15" font-family="serif" font-size="11" fill="#7a3b14">婉转歌唱</text>
+      <text x="3" y="25" font-family="serif" font-size="10" fill="#7a3b14">画眉</text>
+    </g>
+    <text x="175" y="155" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">喉咙里的鸣管振动发声</text>
+    <text x="175" y="175" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">用来找同伴、警告危险、吸引伴侣</text>
+  </g>
+
+  <!-- 昆虫：摩擦/鸣膜发声 -->
+  <g transform="translate(410, 85)">
+    <rect x="0" y="0" width="350" height="200" rx="10" fill="#fff6df" stroke="#6a8d3f" stroke-width="2"/>
+    <text x="175" y="28" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">昆虫——摩擦与鸣膜</text>
+    <!-- 蟋蟀 -->
+    <g transform="translate(70, 85)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-10 -3 Q-15 -10 -10 -14" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M10 -3 Q15 -10 10 -14" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <text x="-5" y="-22" font-family="serif" font-size="11" fill="#7a3b14">唧唧</text>
+      <text x="0" y="28" font-family="serif" font-size="10" fill="#7a3b14">蟋蟀：翅膀摩擦</text>
+    </g>
+    <!-- 蝉 -->
+    <g transform="translate(175, 85)">
+      <ellipse cx="0" cy="0" rx="12" ry="9" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-3" rx="8" ry="6" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-8 5 L-12 12 M8 5 L12 12" stroke="#7a3b14" stroke-width="1"/>
+      <text x="-5" y="-22" font-family="serif" font-size="11" fill="#7a3b14">知了</text>
+      <text x="0" y="28" font-family="serif" font-size="10" fill="#7a3b14">蝉：腹部鸣膜</text>
+    </g>
+    <!-- 蜜蜂 -->
+    <g transform="translate(275, 85)">
+      <ellipse cx="0" cy="0" rx="10" ry="7" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <rect x="-6" y="-4" width="4" height="3" fill="#7a3b14"/>
+      <rect x="0" y="-4" width="4" height="3" fill="#7a3b14"/>
+      <ellipse cx="-3" cy="-3" rx="6" ry="3" fill="#fff6df" opacity="0.6" stroke="#7a3b14" stroke-width="0.5"/>
+      <text x="-3" y="-18" font-family="serif" font-size="11" fill="#7a3b14">嗡嗡</text>
+      <text x="0" y="28" font-family="serif" font-size="10" fill="#7a3b14">蜜蜂：翅膀振动</text>
+    </g>
+    <text x="175" y="155" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">不同昆虫用不同方式发声</text>
+    <text x="175" y="175" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">摩擦、鸣膜、翅膀振动各有妙招</text>
+  </g>
+
+  <!-- 哺乳动物：嚎叫与声波 -->
+  <g transform="translate(40, 305)">
+    <rect x="0" y="0" width="350" height="200" rx="10" fill="#fff6df" stroke="#7ab8d8" stroke-width="2"/>
+    <text x="175" y="28" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">哺乳动物——嚎叫与声波</text>
+    <!-- 狼嚎 -->
+    <g transform="translate(80, 90)">
+      <ellipse cx="0" cy="5" rx="16" ry="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-12 0 L-18 -10 L-10 -5" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-14" cy="-8" r="1.5" fill="#7a3b14"/>
+      <path d="M12 0 L20 -8 L15 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 仰头嚎叫 -->
+      <path d="M0 -5 L-3 -18" fill="none" stroke="#7a3b14" stroke-width="2"/>
+      <text x="-10" y="-28" font-family="serif" font-size="11" fill="#7a3b14">嗷——</text>
+      <text x="0" y="35" font-family="serif" font-size="10" fill="#7a3b14">狼：嚎叫传数公里</text>
+    </g>
+    <!-- 鲸鱼 -->
+    <g transform="translate(240, 95)">
+      <ellipse cx="0" cy="0" rx="25" ry="10" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M25 0 L33 -5 L33 5 Z" fill="#7ab8d8" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-15" cy="-2" r="1.5" fill="#7a3b14"/>
+      <!-- 声波 -->
+      <path d="M-25 -5 Q-35 -10 -40 -5" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.6"/>
+      <path d="M-25 0 Q-38 -3 -45 0" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.5"/>
+      <path d="M-25 5 Q-35 10 -40 5" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.6"/>
+      <text x="-10" y="-20" font-family="serif" font-size="11" fill="#7a3b14">鲸歌</text>
+      <text x="0" y="35" font-family="serif" font-size="10" fill="#7a3b14">鲸：低频声波传数百公里</text>
+    </g>
+    <text x="175" y="175" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">用声音联络同伴、传递信息</text>
+  </g>
+
+  <!-- 猴子：报警叫声 -->
+  <g transform="translate(410, 305)">
+    <rect x="0" y="0" width="350" height="200" rx="10" fill="#fff6df" stroke="#c84a3a" stroke-width="2"/>
+    <text x="175" y="28" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">猴子——不同的报警声</text>
+    <!-- 猴子 -->
+    <g transform="translate(100, 95)">
+      <ellipse cx="0" cy="5" rx="14" ry="12" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-8" r="10" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-4" cy="-9" r="2" fill="#7a3b14"/>
+      <circle cx="4" cy="-9" r="2" fill="#7a3b14"/>
+      <path d="M-3 -3 Q0 0 3 -3" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 树枝 -->
+      <line x1="-20" y1="20" x2="20" y2="20" stroke="#8d5a36" stroke-width="3"/>
+    </g>
+    <!-- 报警内容 -->
+    <g transform="translate(200, 70)">
+      <rect x="0" y="0" width="130" height="28" rx="4" fill="#fff6df" stroke="#c84a3a" stroke-width="1"/>
+      <text x="65" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">看到豹子：叫声A</text>
+    </g>
+    <g transform="translate(200, 105)">
+      <rect x="0" y="0" width="130" height="28" rx="4" fill="#fff6df" stroke="#6a8d3f" stroke-width="1"/>
+      <text x="65" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">看到老鹰：叫声B</text>
+    </g>
+    <g transform="translate(200, 140)">
+      <rect x="0" y="0" width="130" height="28" rx="4" fill="#fff6df" stroke="#7ab8d8" stroke-width="1"/>
+      <text x="65" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">同伴一听就懂</text>
+    </g>
+  </g>
+
+  <!-- 底部总结 -->
+  <text x="400" y="545" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">动物没有人类的语言，但各有各的"说话"方式</text>
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">鸣管、摩擦、鸣膜、嚎叫、声波——大自然的声音远比我们想象的丰富</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中外月亮传说对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">不同地方的月亮故事</text>
+  <line x1="220" y1="56" x2="580" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——同一轮月亮，不同的心情</text>
+
+  <!-- 三栏分隔 -->
+  <line x1="266" y1="100" x2="266" y2="540" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="533" y1="100" x2="533" y2="540" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,5"/>
+
+  <!-- 中国：嫦娥奔月 -->
+  <g transform="translate(133, 130)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#c84a3a">中国</text>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">嫦娥奔月</text>
+    <!-- 月亮 -->
+    <circle cx="0" cy="90" r="40" fill="#e8a838" opacity="0.85" stroke="#c8843a" stroke-width="2"/>
+    <!-- 广寒宫 -->
+    <path d="M-20 95 L-20 75 L0 65 L20 75 L20 95 Z" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 嫦娥 -->
+    <g transform="translate(0, 85)">
+      <circle cx="0" cy="0" r="6" fill="#e07856"/>
+      <ellipse cx="0" cy="12" rx="8" ry="10" fill="#4a90b8"/>
+      <!-- 飘带 -->
+      <path d="M-8 8 Q-18 5 -22 12" fill="none" stroke="#e07856" stroke-width="2"/>
+    </g>
+    <!-- 玉兔 -->
+    <g transform="translate(25, 100)">
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="#fef9ed" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-3" cy="-4" r="2" fill="#fef9ed" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-1" cy="-6" r="1" fill="#fef9ed" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="160" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">看见：思念</text>
+    <text x="0" y="180" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">中秋赏月吃月饼</text>
+  </g>
+
+  <!-- 日本：辉夜姬 -->
+  <g transform="translate(400, 130)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#2d6a4f">日本</text>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">辉夜姬归月</text>
+    <!-- 月亮 -->
+    <circle cx="0" cy="90" r="40" fill="#e8a838" opacity="0.85" stroke="#c8843a" stroke-width="2"/>
+    <!-- 竹子 -->
+    <g transform="translate(-35, 60)">
+      <rect x="-2" y="0" width="4" height="60" fill="#2d6a4f"/>
+      <ellipse cx="0" cy="10" rx="8" ry="3" fill="#4a6a2f"/>
+      <ellipse cx="0" cy="30" rx="8" ry="3" fill="#4a6a2f"/>
+    </g>
+    <!-- 辉夜姬 -->
+    <g transform="translate(0, 85)">
+      <circle cx="0" cy="0" r="6" fill="#e07856"/>
+      <ellipse cx="0" cy="12" rx="8" ry="10" fill="#c84a3a"/>
+      <!-- 飞向月亮 -->
+      <path d="M0 -8 Q5 -20 0 -30" fill="none" stroke="#fef9ed" stroke-width="1.5" stroke-dasharray="2,2"/>
+    </g>
+    <text x="0" y="160" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">看见：归乡</text>
+    <text x="0" y="180" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">月亮是她的"家"</text>
+  </g>
+
+  <!-- 北欧：赶车人 -->
+  <g transform="translate(667, 130)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#4a90b8">北欧</text>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">月亮赶车人</text>
+    <!-- 月亮车 -->
+    <circle cx="-10" cy="90" r="18" fill="#e8a838" opacity="0.85" stroke="#c8843a" stroke-width="2"/>
+    <rect x="-25" y="100" width="30" height="12" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-20" cy="118" r="5" fill="#7a3b14"/>
+    <circle cx="0" cy="118" r="5" fill="#7a3b14"/>
+    <!-- 追赶的狼 -->
+    <g transform="translate(25, 110)">
+      <ellipse cx="0" cy="0" rx="8" ry="5" fill="#7a3b14"/>
+      <path d="M8 -2 L14 -5 L12 0 Z" fill="#7a3b14"/>
+      <circle cx="11" cy="-3" r="1" fill="#c84a3a"/>
+    </g>
+    <path d="M20 108 Q30 105 35 110" fill="none" stroke="#c84a3a" stroke-width="1.5"/>
+    <text x="0" y="160" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">看见：奔跑</text>
+    <text x="0" y="180" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">拼命逃开狼群</text>
+  </g>
+
+  <!-- 底部总结 -->
+  <g transform="translate(400, 440)">
+    <rect x="-320" y="0" width="640" height="110" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">月亮什么都没说</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">中国人看见思念 · 日本人看见归乡 · 北欧人看见奔跑</text>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">是人类把自己的心情，投射到了那片银白色的光上</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">这，也许就是童话的力量</text>
+  </g>
+</svg>

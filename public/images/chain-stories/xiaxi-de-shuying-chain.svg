@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="树荫与光合作用知识连珠故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#2d6a4f">连珠小故事：树荫背后的光合作用</text>
+  <line x1="170" y1="55" x2="630" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#7a7468">从普利斯特里的实验，到地球生命的能量之源</text>
+
+  <!-- 第一格：普利斯特里实验 -->
+  <g transform="translate(160 270)">
+    <rect x="-95" y="-90" width="190" height="190" fill="#fff6df" stroke="#4a90b8" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">普利斯特里实验</text>
+    <!-- 玻璃罩 -->
+    <path d="M-35 40 L-35 -30 Q-35 -45 0 -45 Q35 -45 35 -30 L35 40 Z" fill="#c8e8f8" opacity="0.4" stroke="#4a90b8" stroke-width="1.5"/>
+    <!-- 罩内植物 -->
+    <g transform="translate(0 25)">
+      <rect x="-2" y="0" width="4" height="14" fill="#5a4a2a"/>
+      <circle cx="0" cy="-2" r="8" fill="#2d6a4f"/>
+      <circle cx="-7" cy="2" r="5" fill="#3a7a5a"/>
+      <circle cx="7" cy="2" r="5" fill="#3a7a5a"/>
+    </g>
+    <!-- 罩内老鼠（活着） -->
+    <g transform="translate(-15 -15)">
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="#a89878"/>
+      <circle cx="-4" cy="-1" r="3" fill="#a89878"/>
+      <circle cx="-5" cy="-2" r="0.8" fill="#2a2a2a"/>
+      <path d="M6 0 Q10 -2 12 2" stroke="#a89878" stroke-width="2" fill="none"/>
+    </g>
+    <!-- 氧气气泡 -->
+    <g fill="#fef9ed" opacity="0.8">
+      <circle cx="15" cy="-20" r="2"/>
+      <circle cx="20" cy="-30" r="1.5"/>
+      <circle cx="10" cy="-35" r="1.5"/>
+    </g>
+    <!-- 阳光 -->
+    <g stroke="#e8a838" stroke-width="1.5" opacity="0.6">
+      <line x1="0" y1="-58" x2="-6" y2="-50"/>
+      <line x1="0" y1="-58" x2="6" y2="-50"/>
+      <line x1="-10" y1="-58" x2="-6" y2="-52"/>
+    </g>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">植物能"净化"空气</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M260 270 L310 270" stroke="#c8943a" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- 第二格：光合作用原理 -->
+  <g transform="translate(400 270)">
+    <rect x="-95" y="-90" width="190" height="190" fill="#fff6df" stroke="#e07856" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">光合作用</text>
+    <!-- 叶子 -->
+    <ellipse cx="0" cy="10" rx="35" ry="18" fill="#2d6a4f" stroke="#1a4a3a" stroke-width="1.5"/>
+    <line x1="-30" y1="14" x2="30" y2="6" stroke="#1a4a3a" stroke-width="1"/>
+    <!-- 阳光进入 -->
+    <g stroke="#e8a838" stroke-width="2" opacity="0.7">
+      <line x1="-20" y1="-50" x2="-12" y2="-8" marker-end="url(#ar4)"/>
+      <line x1="0" y1="-55" x2="0" y2="-8" marker-end="url(#ar4)"/>
+      <line x1="20" y1="-50" x2="12" y2="-8" marker-end="url(#ar4)"/>
+    </g>
+    <text x="-25" y="-50" font-family="serif" font-size="9" fill="#e8a838">阳光</text>
+    <!-- 水分进入（从根） -->
+    <g stroke="#4a90b8" stroke-width="1.5" opacity="0.7">
+      <path d="M-15 28 L-15 50" marker-end="url(#ar4)"/>
+    </g>
+    <text x="-25" y="45" font-family="serif" font-size="9" fill="#4a90b8">水</text>
+    <!-- 二氧化碳进入 -->
+    <g stroke="#7a7468" stroke-width="1.2" opacity="0.6">
+      <path d="M-40 10 L-20 12" marker-end="url(#ar4)"/>
+      <path d="M40 10 L20 12" marker-end="url(#ar4)"/>
+    </g>
+    <text x="-50" y="6" font-family="serif" font-size="8" fill="#7a7468">CO₂</text>
+    <!-- 氧气排出 -->
+    <g stroke="#2d6a4f" stroke-width="1.5" opacity="0.7">
+      <path d="M-8 -8 L-8 -35" marker-end="url(#ar4)"/>
+      <path d="M8 -8 L8 -35" marker-end="url(#ar4)"/>
+    </g>
+    <text x="12" y="-30" font-family="serif" font-size="9" fill="#2d6a4f">O₂</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">阳光+水+CO₂→养分+O₂</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M500 270 L550 270" stroke="#c8943a" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- 第三格：地球生命之源 -->
+  <g transform="translate(640 270)">
+    <rect x="-95" y="-90" width="190" height="190" fill="#fff6df" stroke="#2d6a4f" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8a5a14">生命之源</text>
+    <!-- 地球 -->
+    <circle cx="0" cy="5" r="35" fill="#4a90b8" opacity="0.6"/>
+    <path d="M-20 0 Q-10 -10 0 -5 Q10 -12 18 -2 Q15 10 5 12 Q-8 14 -18 8 Z" fill="#2d6a4f" opacity="0.7"/>
+    <!-- 森林 -->
+    <g fill="#2d6a4f" opacity="0.8">
+      <circle cx="-12" cy="2" r="4"/>
+      <circle cx="0" cy="-2" r="5"/>
+      <circle cx="10" cy="4" r="4"/>
+    </g>
+    <!-- 太阳 -->
+    <circle cx="-50" cy="-40" r="12" fill="#e8a838"/>
+    <g stroke="#e8a838" stroke-width="1.5">
+      <line x1="-50" y1="-54" x2="-50" y2="-58"/>
+      <line x1="-64" y1="-40" x2="-68" y2="-40"/>
+    </g>
+    <!-- 阳光照地球 -->
+    <line x1="-42" y1="-32" x2="-15" y2="-8" stroke="#e8a838" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.6"/>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="11" fill="#7a7468">没有光合作用就没有生命</text>
+  </g>
+
+  <!-- 底部：树荫的清凉原理 -->
+  <g transform="translate(400 460)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">树荫凉快的秘密：遮阳 + 蒸腾降温</text>
+    <!-- 蒸腾示意 -->
+    <g transform="translate(0 35)">
+      <rect x="-3" y="0" width="6" height="30" fill="#8a6a3a"/>
+      <ellipse cx="0" cy="-5" rx="20" ry="8" fill="#2d6a4f"/>
+      <!-- 水汽蒸发 -->
+      <g stroke="#4a90b8" stroke-width="1.2" fill="none" opacity="0.6">
+        <path d="M-8 -12 Q-10 -25 -8 -38"/>
+        <path d="M0 -14 Q2 -28 0 -42"/>
+        <path d="M8 -12 Q10 -25 8 -38"/>
+      </g>
+      <text x="35" y="-20" font-family="serif" font-size="10" fill="#4a90b8">水汽带热</text>
+    </g>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="545" width="680" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">一片树荫，背后是整个地球的生命系统</text>
+
+  <defs>
+    <marker id="ar4" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0 0 L7 3.5 L0 7 Z" fill="#5a4a2a"/>
+    </marker>
+  </defs>
+</svg>

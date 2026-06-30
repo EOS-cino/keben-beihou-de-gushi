@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="乡愁与饮食文化插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：舌尖上的乡愁</text>
+  <line x1="220" y1="55" x2="580" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 左：汪曾祺与咸鸭蛋 -->
+  <rect x="20" y="75" width="370" height="440" fill="#e8a838" opacity="0.06"/>
+  <!-- 桌面 -->
+  <rect x="50" y="380" width="300" height="14" fill="#6a4220" stroke="#4a2a10" stroke-width="1.5"/>
+  <!-- 咸鸭蛋（切开） -->
+  <g transform="translate(200, 360)">
+    <ellipse cx="0" cy="0" rx="50" ry="30" fill="#f0e0c0" stroke="#c8a878" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="38" ry="22" fill="#fff8e0" stroke="#c8a878" stroke-width="1.5"/>
+    <!-- 蛋黄（红油冒出） -->
+    <ellipse cx="0" cy="0" rx="20" ry="14" fill="#e07856" stroke="#a04830" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-2" rx="14" ry="9" fill="#e8a838"/>
+    <!-- 油光 -->
+    <ellipse cx="-5" cy="-4" rx="4" ry="2" fill="#fff8c8" opacity="0.7"/>
+    <!-- 流出的油 -->
+    <path d="M20 8 Q28 12 35 18" fill="none" stroke="#e07856" stroke-width="2" opacity="0.7"/>
+  </g>
+  <!-- "吱"字 -->
+  <text x="260" y="340" font-size="20" font-weight="bold" fill="#e07856" font-family="serif">吱——</text>
+  <!-- 筷子 -->
+  <g transform="translate(140, 350)">
+    <line x1="0" y1="0" x2="40" y2="-30" stroke="#6a4220" stroke-width="3" stroke-linecap="round"/>
+    <line x1="5" y1="3" x2="45" y2="-27" stroke="#6a4220" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- 汪曾祺（小头像） -->
+  <g transform="translate(100, 200)">
+    <circle cx="0" cy="0" r="30" fill="#2d6a4f" opacity="0.2" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-3" r="18" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+    <path d="M-16 -10 Q-18 -22 0 -20 Q18 -22 16 -10 Q10 -16 0 -14 Q-10 -16 -16 -10" fill="#2a2a2a"/>
+    <ellipse cx="-6" cy="-3" rx="2.5" ry="2" fill="#2a2a2a"/>
+    <ellipse cx="6" cy="-3" rx="2.5" ry="2" fill="#2a2a2a"/>
+    <path d="M-5 6 Q0 10 5 6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="40" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">汪曾祺</text>
+  </g>
+
+  <!-- 右：各地家乡味 -->
+  <rect x="410" y="75" width="370" height="440" fill="#e07856" opacity="0.05"/>
+  <text x="595" y="110" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">每个地方都有自己的故乡味</text>
+
+  <!-- 北方面碗 -->
+  <g transform="translate(490, 200)">
+    <path d="M-30 0 Q-30 25 0 25 Q30 25 30 0 Z" fill="#f0d0a0" stroke="#c88820" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="30" ry="8" fill="#e8a838" opacity="0.6"/>
+    <!-- 面条 -->
+    <g stroke="#fff8e0" stroke-width="2" opacity="0.8" fill="none">
+      <path d="M-15 0 Q-10 -5 -5 0"/>
+      <path d="M0 0 Q5 -5 10 0"/>
+      <path d="M-8 -3 Q0 -8 8 -3"/>
+    </g>
+    <text x="0" y="45" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">北方·一碗面</text>
+  </g>
+
+  <!-- 南方米饭 -->
+  <g transform="translate(680, 200)">
+    <path d="M-28 0 Q-28 22 0 22 Q28 22 28 0 Z" fill="#f0d0a0" stroke="#c88820" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="28" ry="7" fill="#fff8e0" stroke="#c8a878" stroke-width="1"/>
+    <g fill="#fff8e0" stroke="#e8e0c0" stroke-width="0.5">
+      <circle cx="-10" cy="-2" r="2.5"/>
+      <circle cx="-2" cy="-3" r="2.5"/>
+      <circle cx="8" cy="-2" r="2.5"/>
+      <circle cx="-6" cy="2" r="2.5"/>
+      <circle cx="4" cy="2" r="2.5"/>
+    </g>
+    <text x="0" y="42" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">南方·一碗饭</text>
+  </g>
+
+  <!-- 海边海味 -->
+  <g transform="translate(490, 340)">
+    <ellipse cx="0" cy="0" rx="30" ry="18" fill="#4a90b8" opacity="0.3" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 鱼 -->
+    <ellipse cx="0" cy="0" rx="18" ry="9" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-18 0 L-26 -6 L-26 6 Z" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="8" cy="-2" r="2" fill="#2a2a2a"/>
+    <text x="0" y="35" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">海边·一口鲜</text>
+  </g>
+
+  <!-- 山里腊肉 -->
+  <g transform="translate(680, 340)">
+    <rect x="-25" y="-12" width="50" height="24" fill="#e07856" stroke="#a04830" stroke-width="1.5" rx="4"/>
+    <line x1="-20" y1="-6" x2="20" y2="-6" stroke="#a04830" stroke-width="1"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#a04830" stroke-width="1"/>
+    <line x1="-20" y1="6" x2="20" y2="6" stroke="#a04830" stroke-width="1"/>
+    <text x="0" y="35" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">山里·一锅腊肉</text>
+  </g>
+
+  <!-- 心形（乡愁） -->
+  <g transform="translate(595, 450)">
+    <path d="M0 10 Q-15 -5 -15 -15 Q-15 -25 -5 -25 Q0 -25 0 -15 Q0 -25 5 -25 Q15 -25 15 -15 Q15 -5 0 10 Z" fill="#e07856" opacity="0.6" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="40" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">味道连着家</text>
+  </g>
+
+  <!-- 标注 -->
+  <line x1="200" y1="330" x2="200" y2="300" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="135" y="272" width="130" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="200" y="290" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">红油冒出的鸭蛋</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">故乡不是抽象的词，它是一碗粥、一张饼、一缕炊烟，是能尝到的温暖。</text>
+</svg>

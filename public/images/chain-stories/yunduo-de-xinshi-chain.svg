@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="卢克·霍华德给云朵分类的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="400" fill="#4a90b8" opacity="0.1"/>
+  <!-- 三种云的分类展示 -->
+  <!-- 积云 -->
+  <g transform="translate(200 150)">
+    <ellipse cx="0" cy="0" rx="50" ry="30" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="-30" cy="10" rx="30" ry="22" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="30" cy="10" rx="30" ry="22" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="0" cy="-15" rx="25" ry="18" fill="#ffffff" opacity="0.9"/>
+    <text x="0" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#2d6a4f">积云</text>
+    <text x="0" y="72" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#7a7468">像棉花堆</text>
+  </g>
+  <!-- 层云 -->
+  <g transform="translate(400 160)">
+    <rect x="-60" y="-15" width="120" height="30" rx="15" fill="#ffffff" opacity="0.7"/>
+    <rect x="-55" y="-10" width="110" height="20" rx="10" fill="#cccccc" opacity="0.4"/>
+    <text x="0" y="45" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#2d6a4f">层云</text>
+    <text x="0" y="62" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#7a7468">像灰色毯子</text>
+  </g>
+  <!-- 卷云 -->
+  <g transform="translate(600 150)">
+    <path d="M-40 0 Q-20 -15 0 -5 Q20 -20 40 0" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.8" stroke-linecap="round"/>
+    <path d="M-35 10 Q-15 -5 5 5 Q25 -10 45 5" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.7" stroke-linecap="round"/>
+    <text x="0" y="45" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#2d6a4f">卷云</text>
+    <text x="0" y="62" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#7a7468">像细丝线</text>
+  </g>
+  <!-- 分隔线 -->
+  <line x1="100" y1="240" x2="700" y2="240" stroke="#e8a838" stroke-width="1.5" opacity="0.3" stroke-dasharray="6 4"/>
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="200" fill="#dceee3"/>
+  <rect x="0" y="440" width="800" height="160" fill="#9fc8b4" opacity="0.3"/>
+  <!-- 霍华德 -->
+  <g transform="translate(300 440)">
+    <!-- 身体 -->
+    <path d="M-28 0 L-33 -80 L33 -80 L28 0 Z" fill="#2d6a4f"/>
+    <!-- 领结 -->
+    <path d="M-8 -75 L0 -70 L8 -75 L8 -68 L0 -63 L-8 -68 Z" fill="#e07856"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-98" r="18" fill="#f4d4a8"/>
+    <!-- 头发 -->
+    <path d="M-18 -106 Q0 -120 18 -106 L18 -98 Q0 -93 -18 -98 Z" fill="#6b5535"/>
+    <!-- 眼镜 -->
+    <circle cx="-7" cy="-98" r="5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <circle cx="7" cy="-98" r="5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <line x1="-2" y1="-98" x2="2" y2="-98" stroke="#333" stroke-width="1"/>
+    <!-- 嘴 -->
+    <path d="M-3 -88 Q0 -85 3 -88" stroke="#333" stroke-width="1.5" fill="none"/>
+    <!-- 手指天空 -->
+    <path d="M28 -50 L50 -80" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-28 -50 L-40 -30" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- 笔记本和笔 -->
+  <g transform="translate(450 430)">
+    <rect x="0" y="0" width="60" height="45" fill="#fef9ed" stroke="#8b6f47" stroke-width="2"/>
+    <line x1="5" y1="12" x2="55" y2="12" stroke="#8b6f47" stroke-width="0.8"/>
+    <line x1="5" y1="22" x2="55" y2="22" stroke="#8b6f47" stroke-width="0.8"/>
+    <line x1="5" y1="32" x2="50" y2="32" stroke="#8b6f47" stroke-width="0.8"/>
+    <!-- 笔 -->
+    <line x1="55" y1="-5" x2="65" y2="15" stroke="#e07856" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#2d6a4f">连珠小故事：谁给云朵起了名字</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#7a7468">药剂师霍华德，给全世界的云分了类</text>
+</svg>

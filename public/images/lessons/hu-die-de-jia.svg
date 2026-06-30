@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="风雨中花朵与蝴蝶躲藏的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">蝴蝶的家</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#3a7d44" stroke-width="2"/>
+  <!-- 乌云 -->
+  <ellipse cx="200" cy="130" rx="90" ry="30" fill="#7d8a99" opacity="0.6"/>
+  <ellipse cx="380" cy="110" rx="110" ry="32" fill="#7d8a99" opacity="0.6"/>
+  <ellipse cx="580" cy="140" rx="100" ry="30" fill="#7d8a99" opacity="0.6"/>
+  <!-- 闪电 -->
+  <path d="M 400 150 l -14 40 l 14 0 l -18 50" stroke="#f0c419" stroke-width="3" fill="none"/>
+  <!-- 雨点 -->
+  <line x1="140" y1="180" x2="130" y2="210" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="240" y1="200" x2="230" y2="232" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="340" y1="190" x2="330" y2="222" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="480" y1="200" x2="470" y2="232" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="600" y1="190" x2="590" y2="222" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="680" y1="200" x2="670" y2="232" stroke="#5d8aa8" stroke-width="2"/>
+  <!-- 花朵 -->
+  <circle cx="160" cy="420" r="22" fill="#e88aa8"/>
+  <circle cx="160" cy="420" r="8" fill="#f0c419"/>
+  <line x1="160" y1="440" x2="160" y2="510" stroke="#3a7d44" stroke-width="3"/>
+  <circle cx="640" cy="400" r="22" fill="#c8a8e9"/>
+  <circle cx="640" cy="400" r="8" fill="#f0c419"/>
+  <line x1="640" y1="420" x2="640" y2="500" stroke="#3a7d44" stroke-width="3"/>
+  <!-- 蝴蝶躲在叶下 -->
+  <ellipse cx="400" cy="430" rx="40" ry="14" fill="#3a7d44"/>
+  <path d="M 380 430 q -18 -22 -36 -8 q -18 22 0 30 z" fill="#e8a04e"/>
+  <path d="M 420 430 q 18 -22 36 -8 q 18 22 0 30 z" fill="#e8a04e"/>
+  <line x1="400" y1="420" x2="400" y2="445" stroke="#3a3a3a" stroke-width="2"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">风雨里，蝴蝶的家在哪里？</text>
+</svg>

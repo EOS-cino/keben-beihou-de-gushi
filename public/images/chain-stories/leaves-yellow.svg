@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="树叶秋天变黄的原因插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">树叶为什么秋天变黄</text>
+  <line x1="230" y1="56" x2="570" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——绿色"走"了，黄色"露"出来了</text>
+
+  <!-- 叶子截面（放大示意） -->
+  <g transform="translate(400, 200)">
+    <!-- 大叶子轮廓 -->
+    <path d="M-80 40 Q-100 0 -80 -40 Q-40 -60 0 -60 Q40 -60 80 -40 Q100 0 80 40 Q40 55 0 55 Q-40 55 -80 40" fill="#fef9ed" stroke="#7a3b14" stroke-width="2.5"/>
+
+    <!-- 夏天：叶绿素多（绿色覆盖） -->
+    <g transform="translate(-120, 0)">
+      <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a6a2f">夏天</text>
+      <path d="M-30 30 Q-40 0 -30 -30 Q0 -40 30 -30 Q40 0 30 30 Q0 40 -30 30" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="2"/>
+      <!-- 叶绿素（绿色小点，很多） -->
+      <g fill="#6a8d3f">
+        <circle cx="-15" cy="-15" r="4"/>
+        <circle cx="0" cy="-20" r="4"/>
+        <circle cx="15" cy="-15" r="4"/>
+        <circle cx="-20" cy="0" r="4"/>
+        <circle cx="-5" cy="0" r="4"/>
+        <circle cx="10" cy="0" r="4"/>
+        <circle cx="-15" cy="15" r="4"/>
+        <circle cx="0" cy="20" r="4"/>
+        <circle cx="15" cy="15" r="4"/>
+      </g>
+      <!-- 胡萝卜素（黄色小点，被盖住） -->
+      <g fill="#c8843a" opacity="0.3">
+        <circle cx="-10" cy="-10" r="2"/>
+        <circle cx="5" cy="-5" r="2"/>
+        <circle cx="-5" cy="10" r="2"/>
+        <circle cx="10" cy="5" r="2"/>
+      </g>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#4a6a2f">叶绿素多→绿色盖住黄色</text>
+    </g>
+
+    <!-- 箭头 -->
+    <path d="M-70 0 L-50 0" stroke="#c8843a" stroke-width="3" fill="none"/>
+    <path d="M-50 0 L-55 -5 L-55 5 Z" fill="#c8843a"/>
+    <text x="-60" y="-15" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">秋天来了</text>
+
+    <!-- 秋天：叶绿素分解（黄色露出） -->
+    <g transform="translate(120, 0)">
+      <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c8843a">秋天</text>
+      <path d="M-30 30 Q-40 0 -30 -30 Q0 -40 30 -30 Q40 0 30 30 Q0 40 -30 30" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 叶绿素（少了，半透明） -->
+      <g fill="#6a8d3f" opacity="0.2">
+        <circle cx="-15" cy="-15" r="3"/>
+        <circle cx="10" cy="0" r="3"/>
+        <circle cx="0" cy="20" r="3"/>
+      </g>
+      <!-- 胡萝卜素（黄色露出） -->
+      <g fill="#e07856">
+        <circle cx="-10" cy="-10" r="3"/>
+        <circle cx="5" cy="-5" r="3"/>
+        <circle cx="-5" cy="10" r="3"/>
+        <circle cx="10" cy="5" r="3"/>
+        <circle cx="-15" cy="5" r="3"/>
+        <circle cx="15" cy="-15" r="3"/>
+        <circle cx="0" cy="-20" r="3"/>
+        <circle cx="20" cy="15" r="3"/>
+      </g>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">叶绿素分解→黄色露出</text>
+    </g>
+  </g>
+
+  <!-- 过程说明 -->
+  <g transform="translate(400, 360)">
+    <rect x="-320" y="0" width="640" height="180" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+
+    <text x="-290" y="25" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">1. 大树"感觉"到秋天</text>
+    <text x="-290" y="42" font-family="serif" font-size="11" fill="#8d5a36">白天变短·气温下降→大树知道冬天要来</text>
+
+    <text x="-290" y="65" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">2. 回收养分</text>
+    <text x="-290" y="82" font-family="serif" font-size="11" fill="#8d5a36">把叶子里有用的氮·磷·钾抽回树干和树根</text>
+
+    <text x="-290" y="105" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">3. 叶绿素被分解</text>
+    <text x="-290" y="122" font-family="serif" font-size="11" fill="#8d5a36">叶绿素里有营养→最先被分解回收→绿色褪去</text>
+
+    <text x="-290" y="145" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">4. 黄色和红色露出</text>
+    <text x="-290" y="162" font-family="serif" font-size="11" fill="#8d5a36">胡萝卜素（黄）·叶黄素（黄）一直都在→花青素（红）是糖分变成的</text>
+
+    <!-- 右侧小图：枫叶变红 -->
+    <g transform="translate(200, 80)">
+      <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a" font-weight="bold">枫叶为什么变红？</text>
+      <path d="M0 -20 L-15 -10 L-20 5 L-10 10 L0 25 L10 10 L20 5 L15 -10 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M0 -20 L0 25" stroke="#7a3b14" stroke-width="1"/>
+      <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">糖分运不出去</text>
+      <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">→变成花青素→红色</text>
+      <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">越晒越红</text>
+    </g>
+  </g>
+</svg>

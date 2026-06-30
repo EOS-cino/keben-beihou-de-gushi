@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="王尔德的童话世界插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">王尔德的童话世界</text>
+  <line x1="290" y1="60" x2="510" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 王尔德肖像（中间） -->
+  <g>
+    <!-- 身体 -->
+    <rect x="350" y="280" width="100" height="140" rx="10" fill="#2d6a4f" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 领结 -->
+    <path d="M385 290 L375 300 L385 310 L395 300 Z" fill="#7a3b14"/>
+    <rect x="388" y="295" width="24" height="8" fill="#7a3b14"/>
+    <!-- 头 -->
+    <ellipse cx="400" cy="240" rx="32" ry="36" fill="#e8c9a0" stroke="#7a3b14" stroke-width="2.5"/>
+    <!-- 头发 -->
+    <path d="M370 230 q30 -25 60 0" fill="#5a3a1a"/>
+    <!-- 眼睛 -->
+    <ellipse cx="388" cy="242" rx="4" ry="5" fill="#ffffff" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="412" cy="242" rx="4" ry="5" fill="#ffffff" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="388" cy="243" r="2" fill="#3a2a1a"/>
+    <circle cx="412" cy="243" r="2" fill="#3a2a1a"/>
+    <!-- 鼻子 -->
+    <path d="M400 248 q3 8 0 12" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 嘴（微笑） -->
+    <path d="M390 265 q10 5 20 0" stroke="#7a3b14" stroke-width="2" fill="none"/>
+    <!-- 胡子 -->
+    <path d="M385 262 q15 4 30 0" stroke="#5a3a1a" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- 左侧：巨人的花园 -->
+  <g>
+    <rect x="40" y="100" width="220" height="180" fill="#fff6df" stroke="#2d6a4f" stroke-width="2.5" rx="8"/>
+    <text x="150" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">巨人的花园</text>
+    <!-- 小花园 -->
+    <rect x="60" y="140" width="180" height="120" fill="#e8f0e6" rx="4"/>
+    <!-- 树 -->
+    <rect x="100" y="200" width="8" height="40" fill="#5a3a1a"/>
+    <circle cx="104" cy="190" r="22" fill="#2d6a4f"/>
+    <circle cx="95" cy="185" r="6" fill="#e07856"/>
+    <circle cx="115" cy="195" r="5" fill="#e07856"/>
+    <!-- 花 -->
+    <circle cx="70" cy="245" r="5" fill="#e8a838"/>
+    <circle cx="160" cy="250" r="5" fill="#e07856"/>
+    <circle cx="200" cy="245" r="5" fill="#4a90b8"/>
+    <!-- 小孩 -->
+    <circle cx="170" cy="225" r="8" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="166" y="233" width="8" height="12" fill="#4a90b8"/>
+    <!-- 巨人（小） -->
+    <rect x="210" y="195" width="20" height="40" rx="3" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="220" cy="188" r="10" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M215 190 q5 2 10 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- 右侧：快乐王子 -->
+  <g>
+    <rect x="540" y="100" width="220" height="180" fill="#fff6df" stroke="#e8a838" stroke-width="2.5" rx="8"/>
+    <text x="650" y="125" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">快乐王子</text>
+    <!-- 王子雕像 -->
+    <rect x="630" y="180" width="40" height="70" rx="5" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="650" cy="165" r="18" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 眼睛（宝石） -->
+    <circle cx="644" cy="163" r="3" fill="#4a90b8"/>
+    <circle cx="656" cy="163" r="3" fill="#4a90b8"/>
+    <!-- 嘴 -->
+    <path d="M645 172 q5 3 10 0" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+    <!-- 宝石装饰 -->
+    <circle cx="650" cy="200" r="4" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="640" cy="220" r="3" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="660" cy="220" r="3" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 金片 -->
+    <rect x="635" y="195" width="30" height="3" fill="#fff6df" opacity="0.6"/>
+    <rect x="635" y="210" width="30" height="3" fill="#fff6df" opacity="0.6"/>
+    <!-- 底座 -->
+    <rect x="615" y="250" width="70" height="15" fill="#8d6a4a" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 小燕子 -->
+    <ellipse cx="700" cy="155" rx="10" ry="5" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M690 155 q-8 -4 -4 -10" fill="#4a90b8" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M710 155 l8 -2" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 底部：九篇童话书脊 -->
+  <g>
+    <rect x="80" y="460" width="640" height="80" fill="#f5ecd8" stroke="#c8843a" stroke-width="2" rx="6"/>
+    <text x="400" y="485" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">王尔德的九篇童话</text>
+    <!-- 书脊 -->
+    <rect x="110" y="495" width="30" height="35" fill="#e07856" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="145" y="495" width="30" height="35" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="180" y="495" width="30" height="35" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="215" y="495" width="30" height="35" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="250" y="495" width="30" height="35" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="285" y="495" width="30" height="35" fill="#e0584a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="320" y="495" width="30" height="35" fill="#5a3a1a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="355" y="495" width="30" height="35" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <rect x="390" y="495" width="30" height="35" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <!-- 书名标注 -->
+    <text x="125" y="555" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">巨人</text>
+    <text x="160" y="555" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">快乐</text>
+    <text x="195" y="555" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">夜莺</text>
+  </g>
+
+  <!-- 连接线 -->
+  <path d="M260 280 Q330 320 350 320" stroke="#2d6a4f" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+  <path d="M540 280 Q470 320 450 320" stroke="#e8a838" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">九篇童话，一个道理：善良和分享，是让世界变美的力量</text>
+</svg>

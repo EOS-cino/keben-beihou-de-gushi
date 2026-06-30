@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天物候与节气知识连珠故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#2d6a4f">连珠小故事：春天是怎么一步步来的</text>
+  <line x1="170" y1="55" x2="630" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#7a7468">六个节气，像六级台阶，把春天一步步领进门</text>
+
+  <!-- 节气台阶 -->
+  <g font-family="serif" font-size="12" fill="#8a5a14">
+    <!-- 立春 -->
+    <g transform="translate(110 380)">
+      <rect x="-45" y="0" width="90" height="60" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="6"/>
+      <text x="0" y="20" text-anchor="middle" font-weight="bold">立春</text>
+      <text x="0" y="38" text-anchor="middle" font-size="10" fill="#7a7468">春"立"起来</text>
+      <text x="0" y="52" text-anchor="middle" font-size="9" fill="#7a7468">还冷</text>
+    </g>
+    <!-- 雨水 -->
+    <g transform="translate(220 360)">
+      <rect x="-45" y="0" width="90" height="60" fill="#fff6df" stroke="#4a90b8" stroke-width="1.5" rx="6"/>
+      <text x="0" y="20" text-anchor="middle" font-weight="bold">雨水</text>
+      <text x="0" y="38" text-anchor="middle" font-size="10" fill="#7a7468">雪变雨</text>
+      <text x="0" y="52" text-anchor="middle" font-size="9" fill="#7a7468">降水多</text>
+      <!-- 雨滴 -->
+      <g fill="#4a90b8" opacity="0.6">
+        <ellipse cx="-25" cy="-8" rx="1.5" ry="3"/>
+        <ellipse cx="25" cy="-6" rx="1.5" ry="3"/>
+      </g>
+    </g>
+    <!-- 惊蛰 -->
+    <g transform="translate(330 340)">
+      <rect x="-45" y="0" width="90" height="60" fill="#fff6df" stroke="#e07856" stroke-width="1.5" rx="6"/>
+      <text x="0" y="20" text-anchor="middle" font-weight="bold">惊蛰</text>
+      <text x="0" y="38" text-anchor="middle" font-size="10" fill="#7a7468">春雷惊虫</text>
+      <text x="0" y="52" text-anchor="middle" font-size="9" fill="#7a7468">虫醒了</text>
+      <!-- 闪电 -->
+      <path d="M-20 -10 L-15 -2 L-22 2 L-12 14" fill="none" stroke="#e8a838" stroke-width="2"/>
+    </g>
+    <!-- 春分 -->
+    <g transform="translate(440 320)">
+      <rect x="-45" y="0" width="90" height="60" fill="#fff6df" stroke="#2d6a4f" stroke-width="1.5" rx="6"/>
+      <text x="0" y="20" text-anchor="middle" font-weight="bold">春分</text>
+      <text x="0" y="38" text-anchor="middle" font-size="10" fill="#7a7468">昼夜平分</text>
+      <text x="0" y="52" text-anchor="middle" font-size="9" fill="#7a7468">燕归来</text>
+      <!-- 燕子 -->
+      <g transform="translate(0 -12) scale(0.7)">
+        <path d="M -10 0 Q -5 -5 0 -3 Q 5 -5 10 0 Q 5 2 0 0 Q -5 2 -10 0" fill="#3a3a3a"/>
+      </g>
+    </g>
+    <!-- 清明 -->
+    <g transform="translate(550 340)">
+      <rect x="-45" y="0" width="90" height="60" fill="#fff6df" stroke="#7aaa5a" stroke-width="1.5" rx="6"/>
+      <text x="0" y="20" text-anchor="middle" font-weight="bold">清明</text>
+      <text x="0" y="38" text-anchor="middle" font-size="10" fill="#7a7468">草木茂盛</text>
+      <text x="0" y="52" text-anchor="middle" font-size="9" fill="#7a7468">花开盛</text>
+      <!-- 花 -->
+      <g fill="#e07856" opacity="0.7">
+        <circle cx="-22" cy="-6" r="3"/>
+        <circle cx="22" cy="-8" r="3"/>
+      </g>
+    </g>
+    <!-- 谷雨 -->
+    <g transform="translate(660 360)">
+      <rect x="-45" y="0" width="90" height="60" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="6"/>
+      <text x="0" y="20" text-anchor="middle" font-weight="bold">谷雨</text>
+      <text x="0" y="38" text-anchor="middle" font-size="10" fill="#7a7468">雨生百谷</text>
+      <text x="0" y="52" text-anchor="middle" font-size="9" fill="#7a7468">庄稼长</text>
+      <!-- 麦苗 -->
+      <g fill="#2d6a4f" opacity="0.7">
+        <path d="M-18 -4 L-16 -14"/>
+        <path d="M0 -4 L2 -16"/>
+        <path d="M18 -4 L16 -14"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- 台阶连线 -->
+  <path d="M155 410 L175 380 M265 390 L285 360 M375 370 L395 340 M485 350 L505 340 M595 370 L615 360" stroke="#c8943a" stroke-width="1.5" stroke-dasharray="4,3" fill="none"/>
+
+  <!-- 顶部：物候信号 -->
+  <g transform="translate(400 180)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">古人靠物候判断农时——这些是春天的信号</text>
+    <!-- 物候图标 -->
+    <g transform="translate(-150 30)">
+      <circle cx="0" cy="0" r="12" fill="#e8a838" opacity="0.7"/>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">迎春花开</text>
+    </g>
+    <g transform="translate(-50 30)">
+      <path d="M0 8 Q-2 -8 0 -14" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+      <ellipse cx="-8" cy="-6" rx="2" ry="5" fill="#7aaa5a" transform="rotate(-30 -8 -6)"/>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">柳树发芽</text>
+    </g>
+    <g transform="translate(50 30)">
+      <path d="M -10 0 Q -5 -5 0 -3 Q 5 -5 10 0 Q 5 2 0 0 Q -5 2 -10 0" fill="#3a3a3a"/>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">燕子归来</text>
+    </g>
+    <g transform="translate(150 30)">
+      <circle cx="-4" cy="0" r="4" fill="#e07856"/>
+      <circle cx="4" cy="0" r="4" fill="#e07856"/>
+      <circle cx="0" cy="-4" r="4" fill="#e07856"/>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="10" fill="#7a7468">桃花开放</text>
+    </g>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="490" width="680" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="513" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">燕子每年按时回来，从不爽约——这是大自然最守信的约定</text>
+  <text x="400" y="568" text-anchor="middle" font-family="serif" font-size="13" fill="#2d6a4f">春天不是一下子来的，它是一步一步走来的</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小兴安岭四季景色插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">美丽的小兴安岭</text>
+  <line x1="290" y1="58" x2="510" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 四季分区 -->
+  <!-- 春 -->
+  <rect x="20" y="80" width="370" height="220" fill="#d8e8c8" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="205" y="108" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#5a8a3a">春 · 新绿融雪</text>
+  <!-- 春天树 -->
+  <rect x="120" y="200" width="6" height="60" fill="#8d5a36"/>
+  <ellipse cx="123" cy="195" rx="25" ry="22" fill="#7aaa4a"/>
+  <ellipse cx="105" cy="205" rx="15" ry="12" fill="#8aba5a"/>
+  <ellipse cx="140" cy="200" rx="15" ry="12" fill="#8aba5a"/>
+  <rect x="220" y="210" width="5" height="50" fill="#8d5a36"/>
+  <ellipse cx="222" cy="205" rx="20" ry="18" fill="#7aaa4a"/>
+  <!-- 小溪 -->
+  <path d="M50 270 Q100 260 150 268 Q200 276 250 268 Q300 260 360 270" fill="none" stroke="#5a9aba" stroke-width="4"/>
+  <!-- 小鹿 -->
+  <g transform="translate(290,240)">
+    <ellipse cx="0" cy="0" rx="14" ry="8" fill="#c89858"/>
+    <circle cx="12" cy="-6" r="6" fill="#c89858"/>
+    <path d="M10 -11 L8 -18 M14 -11 L16 -18" stroke="#8d5a36" stroke-width="1.5"/>
+    <line x1="-8" y1="6" x2="-8" y2="14" stroke="#8d5a36" stroke-width="2"/>
+    <line x1="8" y1="6" x2="8" y2="14" stroke="#8d5a36" stroke-width="2"/>
+    <circle cx="14" cy="-7" r="1" fill="#3d2817"/>
+  </g>
+
+  <!-- 夏 -->
+  <rect x="410" y="80" width="370" height="220" fill="#c8d8a8" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="595" y="108" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#3a6a2a">夏 · 密林光斑</text>
+  <!-- 夏天密林 -->
+  <rect x="480" y="200" width="6" height="60" fill="#8d5a36"/>
+  <ellipse cx="483" cy="190" rx="30" ry="28" fill="#3a6a2a"/>
+  <ellipse cx="465" cy="205" rx="18" ry="15" fill="#2a5a1a"/>
+  <ellipse cx="500" cy="200" rx="18" ry="15" fill="#2a5a1a"/>
+  <rect x="620" y="210" width="6" height="50" fill="#8d5a36"/>
+  <ellipse cx="623" cy="200" rx="28" ry="25" fill="#3a6a2a"/>
+  <ellipse cx="605" cy="212" rx="16" ry="13" fill="#2a5a1a"/>
+  <ellipse cx="640" cy="208" rx="16" ry="13" fill="#2a5a1a"/>
+  <!-- 雾 -->
+  <ellipse cx="595" cy="150" rx="60" ry="12" fill="#fff6df" opacity="0.5"/>
+  <!-- 光斑 -->
+  <g fill="#e8a838" opacity="0.7">
+    <circle cx="540" cy="260" r="4"/><circle cx="570" cy="270" r="3"/>
+    <circle cx="600" cy="255" r="4"/><circle cx="660" cy="265" r="3"/>
+  </g>
+
+  <!-- 秋 -->
+  <rect x="20" y="320" width="370" height="220" fill="#f0e0b8" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="205" y="348" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#c8883a">秋 · 层林尽染</text>
+  <!-- 秋树（黄） -->
+  <rect x="100" y="440" width="6" height="60" fill="#8d5a36"/>
+  <ellipse cx="103" cy="430" rx="28" ry="25" fill="#e8a838"/>
+  <ellipse cx="85" cy="445" rx="16" ry="13" fill="#d88828"/>
+  <ellipse cx="120" cy="440" rx="16" ry="13" fill="#e8a838"/>
+  <!-- 秋树（红） -->
+  <rect x="240" y="445" width="6" height="55" fill="#8d5a36"/>
+  <ellipse cx="243" cy="435" rx="25" ry="22" fill="#c8483a"/>
+  <ellipse cx="228" cy="448" rx="14" ry="12" fill="#d4584a"/>
+  <!-- 落叶 -->
+  <g>
+    <path d="M160 490 Q166 484 172 490 Q166 496 160 490 Z" fill="#e8a838"/>
+    <path d="M200 500 Q206 494 212 500 Q206 506 200 500 Z" fill="#c8483a"/>
+    <path d="M280 495 Q286 489 292 495 Q286 501 280 495 Z" fill="#d88828"/>
+    <path d="M320 505 Q326 499 332 505 Q326 511 320 505 Z" fill="#e8a838"/>
+  </g>
+  <!-- 果实 -->
+  <circle cx="180" cy="460" r="4" fill="#c8483a"/>
+  <circle cx="300" cy="470" r="4" fill="#8a4a9a"/>
+
+  <!-- 冬 -->
+  <rect x="410" y="320" width="370" height="220" fill="#e8e8f0" stroke="#c8843a" stroke-width="2" rx="8"/>
+  <text x="595" y="348" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#6a6a8a">冬 · 白雪皑皑</text>
+  <!-- 雪地 -->
+  <path d="M420 500 Q595 485 770 500 L770 535 L420 535 Z" fill="#fff6df"/>
+  <!-- 冬树（积雪） -->
+  <rect x="500" y="440" width="6" height="60" fill="#8d5a36"/>
+  <ellipse cx="503" cy="430" rx="25" ry="22" fill="#5a8a4a"/>
+  <ellipse cx="503" cy="418" rx="20" ry="8" fill="#fff6df"/>
+  <ellipse cx="488" cy="435" rx="10" ry="5" fill="#fff6df"/>
+  <ellipse cx="518" cy="435" rx="10" ry="5" fill="#fff6df"/>
+  <rect x="640" y="445" width="6" height="55" fill="#8d5a36"/>
+  <ellipse cx="643" cy="435" rx="22" ry="20" fill="#5a8a4a"/>
+  <ellipse cx="643" cy="424" rx="18" ry="7" fill="#fff6df"/>
+  <!-- 雪花 -->
+  <g fill="#fff6df" stroke="#aaaab8" stroke-width="1">
+    <circle cx="460" cy="380" r="3"/><circle cx="560" cy="370" r="3"/>
+    <circle cx="680" cy="385" r="3"/><circle cx="720" cy="375" r="3"/>
+    <circle cx="440" cy="410" r="2"/><circle cx="600" cy="400" r="2"/>
+  </g>
+  <!-- 松鼠 -->
+  <g transform="translate(560,475)">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#c8783a"/>
+    <path d="M-8 -2 Q-18 -8 -15 5" fill="#c8783a" stroke="#8d5a36" stroke-width="1"/>
+    <circle cx="9" cy="-5" r="6" fill="#c8783a"/>
+    <circle cx="11" cy="-6" r="1" fill="#3d2817"/>
+    <path d="M6 -10 L4 -14 M12 -10 L14 -14" stroke="#8d5a36" stroke-width="1"/>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="556" width="720" height="36" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="579" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">小兴安岭一年四季景色不同：春有新绿融雪，夏有密林光斑，秋有层林尽染，冬有白雪皑皑。</text>
+</svg>

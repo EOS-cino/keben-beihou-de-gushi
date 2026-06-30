@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="皮影戏舞台与皮影人物插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">皮影戏——影子也能讲故事</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 皮影戏舞台框架 -->
+  <rect x="120" y="90" width="560" height="360" fill="#3a2a1a" stroke="#2a1a0a" stroke-width="3" rx="6"/>
+  <!-- 幕布（白色透光） -->
+  <rect x="140" y="110" width="520" height="320" fill="#fff8e0" opacity="0.9"/>
+
+  <!-- 幕布上的皮影人物（侧面剪影效果） -->
+  <!-- 皮影武将 -->
+  <g transform="translate(330,300)" opacity="0.85">
+    <!-- 头 -->
+    <ellipse cx="0" cy="-70" rx="18" ry="22" fill="#8a4a2a"/>
+    <!-- 头饰/冠 -->
+    <path d="M-18 -88 L-12 -100 L0 -95 L12 -100 L18 -88 Z" fill="#c8843a"/>
+    <circle cx="0" cy="-95" r="3" fill="#e8c840"/>
+    <!-- 眼 -->
+    <ellipse cx="6" cy="-70" rx="4" ry="2" fill="#1a1a1a"/>
+    <!-- 胡须 -->
+    <path d="M-5 -55 Q0 -45 5 -55" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+    <!-- 身体（铠甲） -->
+    <path d="M-25 -48 L-30 20 L-20 30 L20 30 L30 20 L25 -48 Z" fill="#a85a30"/>
+    <!-- 铠甲纹路 -->
+    <line x1="-20" y1="-30" x2="20" y2="-30" stroke="#c8843a" stroke-width="1.5"/>
+    <line x1="-22" y1="-10" x2="22" y2="-10" stroke="#c8843a" stroke-width="1.5"/>
+    <line x1="-25" y1="10" x2="25" y2="10" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 手臂 -->
+    <path d="M-25 -40 L-55 -20 L-60 0" fill="none" stroke="#8a4a2a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M25 -40 L50 -30 L58 -10" fill="none" stroke="#8a4a2a" stroke-width="10" stroke-linecap="round"/>
+    <!-- 手持兵器 -->
+    <line x1="-60" y1="0" x2="-75" y2="-40" stroke="#c8c8c8" stroke-width="3"/>
+    <path d="M-75 -40 L-85 -50 L-70 -55 L-65 -42 Z" fill="#c8c8c8"/>
+    <!-- 腿 -->
+    <rect x="-18" y="28" width="12" height="40" fill="#6a3a1a"/>
+    <rect x="6" y="28" width="12" height="40" fill="#6a3a1a"/>
+    <!-- 操纵杆连线 -->
+    <line x1="-58" y1="-18" x2="-90" y2="-50" stroke="#5a4a3a" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="52" y1="-28" x2="90" y2="-55" stroke="#5a4a3a" stroke-width="1" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 第二个皮影人物（小一点） -->
+  <g transform="translate(500,320)" opacity="0.8">
+    <ellipse cx="0" cy="-55" rx="14" ry="18" fill="#8a4a6a"/>
+    <path d="M-14 -70 Q0 -82 14 -70" fill="#c84030"/>
+    <ellipse cx="5" cy="-55" rx="3" ry="2" fill="#1a1a1a"/>
+    <path d="M-18 -40 L-22 15 L22 15 L18 -40 Z" fill="#a83050"/>
+    <path d="M-18 -35 L-40 -20" fill="none" stroke="#8a4a6a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M18 -35 L38 -25" fill="none" stroke="#8a4a6a" stroke-width="8" stroke-linecap="round"/>
+    <rect x="-14" y="13" width="10" height="32" fill="#6a2a3a"/>
+    <rect x="4" y="13" width="10" height="32" fill="#6a2a3a"/>
+  </g>
+
+  <!-- 灯光源（幕后） -->
+  <circle cx="250" cy="200" r="18" fill="#f4b942" opacity="0.8"/>
+  <circle cx="250" cy="200" r="28" fill="#f4b942" opacity="0.3"/>
+  <!-- 光线 -->
+  <g stroke="#f4b942" stroke-width="2" opacity="0.4">
+    <line x1="268" y1="200" x2="310" y2="230"/>
+    <line x1="265" y1="185" x2="310" y2="180"/>
+    <line x1="255" y1="220" x2="280" y2="260"/>
+  </g>
+
+  <!-- 艺人手（幕后操纵） -->
+  <g transform="translate(240,150)" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#f0d0a8"/>
+    <line x1="0" y1="5" x2="-5" y2="20" stroke="#f0d0a8" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 标注：幕布 -->
+  <line x1="660" y1="200" x2="710" y2="170" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="665" y="155" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="710" y="173" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">白色幕布</text>
+
+  <!-- 标注：灯光 -->
+  <line x1="250" y1="180" x2="180" y2="140" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="95" y="125" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="140" y="143" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">幕后灯光</text>
+
+  <!-- 标注：皮影人物 -->
+  <line x1="330" y1="230" x2="250" y2="470" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="175" y="460" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="225" y="478" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">皮影人物</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="500" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">幕后灯光照射皮影 → 影子投在幕布上 → 配上唱腔音乐，就是一出戏</text>
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#6b6557">皮影戏已有两千多年历史，被称为"世界上最早的电影"</text>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="农夫守着树桩等待兔子插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">守株待兔</text>
+  <line x1="320" y1="62" x2="480" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="200" fill="#e8f0d8"/>
+  <!-- 远山 -->
+  <path d="M0 280 L80 220 L160 260 L260 200 L360 250 L460 210 L560 245 L660 205 L760 240 L800 225 L800 320 L0 320 Z" fill="#c8d8b0" opacity="0.5"/>
+
+  <!-- 农田地面 -->
+  <rect x="0" y="300" width="800" height="300" fill="#d8b878"/>
+  <!-- 田垄纹理 -->
+  <g stroke="#b89858" stroke-width="2" fill="none">
+    <path d="M0 340 Q200 335 400 340 T800 340"/>
+    <path d="M0 380 Q200 375 400 380 T800 380"/>
+    <path d="M0 420 Q200 415 400 420 T800 420"/>
+    <path d="M0 460 Q200 455 400 460 T800 460"/>
+    <path d="M0 500 Q200 495 400 500 T800 500"/>
+  </g>
+
+  <!-- 树桩（中央） -->
+  <!-- 树桩根部 -->
+  <ellipse cx="400" cy="460" rx="55" ry="15" fill="#6a4220" opacity="0.4"/>
+  <!-- 树桩主体 -->
+  <path d="M360 460 L365 380 L435 380 L440 460 Z" fill="#8a5a30" stroke="#5a3a10" stroke-width="3"/>
+  <!-- 树桩纹理 -->
+  <path d="M370 400 Q400 395 430 400" fill="none" stroke="#6a4220" stroke-width="1.5"/>
+  <path d="M370 420 Q400 415 430 420" fill="none" stroke="#6a4220" stroke-width="1.5"/>
+  <path d="M370 440 Q400 435 430 440" fill="none" stroke="#6a4220" stroke-width="1.5"/>
+  <!-- 树桩截面（年轮） -->
+  <ellipse cx="400" cy="380" rx="35" ry="12" fill="#b89868" stroke="#5a3a10" stroke-width="2.5"/>
+  <ellipse cx="400" cy="380" rx="28" ry="9" fill="none" stroke="#8a6848" stroke-width="1.5"/>
+  <ellipse cx="400" cy="380" rx="20" ry="6" fill="none" stroke="#8a6848" stroke-width="1.5"/>
+  <ellipse cx="400" cy="380" rx="12" ry="4" fill="none" stroke="#8a6848" stroke-width="1.5"/>
+  <circle cx="400" cy="380" r="3" fill="#5a3a10"/>
+  <!-- 树皮裂纹 -->
+  <path d="M375 390 L372 420 L378 450" fill="none" stroke="#5a3a10" stroke-width="2"/>
+  <path d="M420 395 L423 425 L418 450" fill="none" stroke="#5a3a10" stroke-width="2"/>
+
+  <!-- 兔子（撞在树桩旁，倒地） -->
+  <!-- 身体 -->
+  <ellipse cx="470" cy="450" rx="30" ry="20" fill="#f0e8d8" stroke="#c8b898" stroke-width="2"/>
+  <!-- 头 -->
+  <circle cx="495" cy="440" r="16" fill="#f0e8d8" stroke="#c8b898" stroke-width="2"/>
+  <!-- 长耳朵（一只耷拉，表示受伤） -->
+  <ellipse cx="490" cy="420" rx="5" ry="15" fill="#f0e8d8" stroke="#c8b898" stroke-width="2" transform="rotate(-20 490 420)"/>
+  <ellipse cx="500" cy="418" rx="5" ry="15" fill="#e8d8c8" stroke="#c8b898" stroke-width="2" transform="rotate(10 500 418)"/>
+  <!-- 眼睛（X形，晕倒） -->
+  <line x1="490" y1="437" x2="494" y2="441" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="494" y1="437" x2="490" y2="441" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="498" y1="437" x2="502" y2="441" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="502" y1="437" x2="498" y2="441" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- 鼻子 -->
+  <circle cx="505" cy="443" r="2" fill="#e87858"/>
+  <!-- 腿（伸直，倒地状） -->
+  <ellipse cx="445" cy="455" rx="12" ry="6" fill="#e8d8c8" stroke="#c8b898" stroke-width="1.5" transform="rotate(-15 445 455)"/>
+  <!-- 尾巴（圆球状） -->
+  <circle cx="442" cy="445" r="8" fill="#fff8e8" stroke="#c8b898" stroke-width="1.5"/>
+  <!-- 晕眩星星 -->
+  <g fill="#f4c842">
+    <text x="510" y="420" font-family="serif" font-size="14" fill="#f4c842">*</text>
+    <text x="520" y="415" font-family="serif" font-size="12" fill="#f4c842">*</text>
+    <text x="515" y="410" font-family="serif" font-size="10" fill="#f4c842">*</text>
+  </g>
+
+  <!-- 农夫（坐在树桩旁等待，锄头放在一边） -->
+  <!-- 身体（坐姿） -->
+  <path d="M250 490 L255 420 L295 420 L300 490 Z" fill="#3a6a4a"/>
+  <!-- 头 -->
+  <circle cx="278" cy="400" r="20" fill="#f0d0a8"/>
+  <!-- 斗笠 -->
+  <ellipse cx="278" cy="388" rx="32" ry="8" fill="#8a6a3a" stroke="#5a3a10" stroke-width="2"/>
+  <path d="M250 388 Q278 365 306 388" fill="#8a6a3a" stroke="#5a3a10" stroke-width="2"/>
+  <!-- 眼睛（无聊/发呆） -->
+  <ellipse cx="272" cy="400" rx="2.5" ry="1.5" fill="#2a2a2a"/>
+  <ellipse cx="284" cy="400" rx="2.5" ry="1.5" fill="#2a2a2a"/>
+  <!-- 嘴（无聊） -->
+  <line x1="273" y1="410" x2="283" y2="410" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 手臂（抱膝等待） -->
+  <path d="M255 435 L240 460" fill="none" stroke="#3a6a4a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="238" cy="462" r="7" fill="#f0d0a8"/>
+  <path d="M295 435 L310 460" fill="none" stroke="#3a6a4a" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="312" cy="462" r="7" fill="#f0d0a8"/>
+  <!-- 腿（盘坐） -->
+  <ellipse cx="278" cy="495" rx="35" ry="12" fill="#3a6a4a" stroke="#2a4a2a" stroke-width="2"/>
+
+  <!-- 锄头（放在一旁） -->
+  <line x1="180" y1="440" x2="220" y2="500" stroke="#6a4220" stroke-width="5"/>
+  <path d="M170 435 L195 435 L195 450 L170 450 Z" fill="#8a8a8a" stroke="#5a5a5a" stroke-width="2"/>
+
+  <!-- 荒废的农田（杂草丛生） -->
+  <g stroke="#6a8a3a" stroke-width="2" fill="none">
+    <path d="M100 440 L98 425 L102 428"/>
+    <path d="M130 450 L128 435 L132 438"/>
+    <path d="M550 440 L548 425 L552 428"/>
+    <path d="M580 450 L578 435 L582 438"/>
+    <path d="M620 440 L618 425 L622 428"/>
+    <path d="M660 450 L658 435 L662 438"/>
+    <path d="M700 440 L698 425 L702 428"/>
+  </g>
+
+  <!-- 树桩标注 -->
+  <line x1="400" y1="370" x2="400" y2="330" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="355" y="305" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="323" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">树桩</text>
+
+  <!-- 兔子标注 -->
+  <line x1="490" y1="420" x2="530" y2="390" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="535" y="377" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="580" y="395" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">撞树兔子</text>
+
+  <!-- 农夫标注 -->
+  <line x1="278" y1="380" x2="278" y2="340" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="233" y="315" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="278" y="333" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">农夫</text>
+
+  <!-- 荒田标注 -->
+  <line x1="650" y1="440" x2="650" y2="400" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="605" y="375" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="650" y="393" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">荒废田地</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">农夫偶得撞树之兔，便弃耕守桩，终日等待，田地荒芜一无所获</text>
+</svg>

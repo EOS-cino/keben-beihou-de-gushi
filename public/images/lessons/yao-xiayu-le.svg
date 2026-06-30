@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小白兔举着大叶子当伞，天上乌云密布，小燕子低低地飞">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 乌云 -->
+  <ellipse cx="200" cy="120" rx="80" ry="35" fill="#8d8680" opacity="0.7"/>
+  <ellipse cx="320" cy="100" rx="100" ry="40" fill="#6a6460" opacity="0.7"/>
+  <ellipse cx="500" cy="115" rx="90" ry="38" fill="#8d8680" opacity="0.7"/>
+  <ellipse cx="620" cy="130" rx="70" ry="30" fill="#6a6460" opacity="0.7"/>
+  <!-- 雨滴 -->
+  <g fill="#7ab8d8" opacity="0.7">
+    <line x1="180" y1="170" x2="175" y2="195" stroke="#7ab8d8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="260" y1="165" x2="255" y2="190" stroke="#7ab8d8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="340" y1="160" x2="335" y2="185" stroke="#7ab8d8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="420" y1="170" x2="415" y2="195" stroke="#7ab8d8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="520" y1="165" x2="515" y2="190" stroke="#7ab8d8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="600" y1="175" x2="595" y2="200" stroke="#7ab8d8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- 草地 -->
+  <path d="M0 480 Q200 460 400 475 T800 470 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.6"/>
+  <path d="M0 510 Q200 495 400 505 T800 500 L800 600 L0 600 Z" fill="#4a6a2f" opacity="0.5"/>
+  <!-- 小白兔 -->
+  <g transform="translate(380,400)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="40" rx="45" ry="35" fill="#ffffff"/>
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="32" fill="#ffffff"/>
+    <!-- 耳朵 -->
+    <ellipse cx="-12" cy="-35" rx="7" ry="25" fill="#ffffff" transform="rotate(-10 -12 -35)"/>
+    <ellipse cx="12" cy="-35" rx="7" ry="25" fill="#ffffff" transform="rotate(10 12 -35)"/>
+    <ellipse cx="-12" cy="-35" rx="3" ry="18" fill="#e07856" opacity="0.5" transform="rotate(-10 -12 -35)"/>
+    <ellipse cx="12" cy="-35" rx="3" ry="18" fill="#e07856" opacity="0.5" transform="rotate(10 12 -35)"/>
+    <!-- 眼睛 -->
+    <circle cx="-10" cy="-3" r="4" fill="#2d2a24"/>
+    <circle cx="10" cy="-3" r="4" fill="#2d2a24"/>
+    <circle cx="-9" cy="-4" r="1.5" fill="#ffffff"/>
+    <circle cx="11" cy="-4" r="1.5" fill="#ffffff"/>
+    <!-- 鼻子嘴 -->
+    <ellipse cx="0" cy="8" rx="3" ry="2" fill="#e07856"/>
+    <path d="M0 10 Q-4 14 -7 11" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+    <path d="M0 10 Q4 14 7 11" stroke="#2d2a24" stroke-width="1.5" fill="none"/>
+    <!-- 大叶子当伞 -->
+    <path d="M0 -60 Q-50 -75 -55 -50 Q-30 -45 0 -50 Q30 -45 55 -50 Q50 -75 0 -60 Z" fill="#6a8d3f"/>
+    <path d="M0 -60 L0 -45" stroke="#4a6a2f" stroke-width="2"/>
+  </g>
+  <!-- 小燕子低飞 -->
+  <g transform="translate(180,280)">
+    <path d="M0 0 Q-15 -8 -30 -2 Q-15 2 0 0 Q15 2 30 -2 Q15 -8 0 0" fill="#2d2a24"/>
+    <path d="M-5 2 Q-10 8 -18 12" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <path d="M5 2 Q10 8 18 12" stroke="#2d2a24" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(580,300)">
+    <path d="M0 0 Q-12 -6 -24 -1 Q-12 2 0 0 Q12 2 24 -1 Q12 -6 0 0" fill="#2d2a24"/>
+  </g>
+  <!-- 小鱼浮出水面 -->
+  <g transform="translate(150,470)">
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#7ab8d8"/>
+    <path d="M15 0 L25 -5 L25 5 Z" fill="#7ab8d8"/>
+    <circle cx="-5" cy="-2" r="2" fill="#2d2a24"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">要下雨了</text>
+</svg>

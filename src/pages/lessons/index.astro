@@ -1,0 +1,526 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import LessonCard from "../../components/LessonCard.astro";
+import { curriculumVolumes, typeLabels } from "../../data/curriculum";
+
+const gradeOrder = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"];
+const volumeOrder = ["上册", "下册"];
+const curriculumOrder = new Map<string, number>();
+curriculumVolumes.forEach((volume, volumeIndex) => {
+  volume.units.forEach((unit, unitIndex) => {
+    unit.lessons.forEach((lesson, lessonIndex) => {
+      if (!curriculumOrder.has(lesson.title)) {
+        curriculumOrder.set(lesson.title, volumeIndex * 1000 + unitIndex * 100 + lessonIndex);
+      }
+    });
+  });
+});
+
+const lessons = (await getCollection("lessons")).sort((a, b) => {
+  const aOrder = curriculumOrder.get(a.data.title);
+  const bOrder = curriculumOrder.get(b.data.title);
+  if (aOrder !== undefined && bOrder !== undefined) return aOrder - bOrder;
+  if (aOrder !== undefined) return -1;
+  if (bOrder !== undefined) return 1;
+
+  const gradeDiff = gradeOrder.indexOf(a.data.grade) - gradeOrder.indexOf(b.data.grade);
+  if (gradeDiff !== 0) return gradeDiff;
+  const volumeDiff = volumeOrder.indexOf(a.data.volume) - volumeOrder.indexOf(b.data.volume);
+  if (volumeDiff !== 0) return volumeDiff;
+  return a.data.title.localeCompare(b.data.title, "zh-CN");
+});
+const grades = ["全部", ...gradeOrder.filter((grade) => lessons.some((lesson) => lesson.data.grade === grade))];
+const themes = ["全部", ...new Set(lessons.map((lesson) => lesson.data.theme))];
+
+const lessonsByTitle = new Map(lessons.map((lesson) => [lesson.data.title, lesson]));
+const lessonsBySlug = new Map(lessons.map((lesson) => [lesson.slug, lesson]));
+const usedSlugs = new Set<string>();
+const shelfGroups = curriculumVolumes
+  .map((volume) => {
+    const groupLessons = volume.units.flatMap((unit) =>
+      unit.lessons
+        .map((item) => {
+          const matched = item.currentSlug ? lessonsBySlug.get(item.currentSlug) : lessonsByTitle.get(item.title);
+          if (!matched || usedSlugs.has(matched.slug)) return undefined;
+          usedSlugs.add(matched.slug);
+          return matched;
+        })
+        .filter(Boolean),
+    );
+
+    return {
+      id: volume.id,
+      grade: volume.grade,
+      volume: volume.volume,
+      edition: volume.edition,
+      lessons: groupLessons,
+    };
+  })
+  .filter((group) => group.lessons.length > 0);
+
+const extraLessons = lessons.filter((lesson) => !usedSlugs.has(lesson.slug));
+const extraByGradeVolume = new Map<string, typeof lessons>();
+for (const lesson of extraLessons) {
+  const key = `${lesson.data.grade}-${lesson.data.volume}`;
+  if (!extraByGradeVolume.has(key)) extraByGradeVolume.set(key, []);
+  extraByGradeVolume.get(key)!.push(lesson);
+}
+
+for (const grade of gradeOrder) {
+  for (const volume of volumeOrder) {
+    const key = `${grade}-${volume}`;
+    const groupLessons = extraByGradeVolume.get(key);
+    if (groupLessons && groupLessons.length > 0) {
+      shelfGroups.push({
+        id: `extra-${key}`,
+        grade: grade,
+        volume: `${volume}·补充`,
+        edition: "延伸拓展篇目",
+        lessons: groupLessons,
+      });
+    }
+  }
+}
+
+// Generate unit-view data from curriculum
+const usedSlugsUnit = new Set<string>();
+const unitViewGroups = curriculumVolumes.map((volume) => {
+  const units = volume.units.map((unit) => ({
+    title: unit.title,
+    lessons: unit.lessons.map((item) => {
+      const matched = item.currentSlug ? lessonsBySlug.get(item.currentSlug) : lessonsByTitle.get(item.title);
+      if (matched) usedSlugsUnit.add(matched.slug);
+      return {
+        title: item.title,
+        type: item.type,
+        typeLabel: typeLabels[item.type],
+        slug: matched?.slug ?? item.currentSlug,
+        found: !!matched,
+        grade: volume.grade,
+        theme: matched?.data.theme ?? "",
+        pinyin: (matched?.slug ?? item.currentSlug ?? "").replace(/-/g, " "),
+      };
+    }),
+  }));
+  return {
+    id: volume.id,
+    grade: volume.grade,
+    volume: volume.volume,
+    edition: volume.edition,
+    units,
+  };
+});
+
+// Add supplementary lessons as extra unit groups
+const extraUnitByGradeVolume = new Map<string, typeof extraLessons>();
+for (const lesson of extraLessons) {
+  const key = `${lesson.data.grade}-${lesson.data.volume}`;
+  if (!extraUnitByGradeVolume.has(key)) extraUnitByGradeVolume.set(key, []);
+  extraUnitByGradeVolume.get(key)!.push(lesson);
+}
+
+for (const grade of gradeOrder) {
+  for (const volume of volumeOrder) {
+    const key = `${grade}-${volume}`;
+    const groupLessons = extraUnitByGradeVolume.get(key);
+    if (groupLessons && groupLessons.length > 0) {
+      unitViewGroups.push({
+        id: `extra-${key}`,
+        grade,
+        volume: `${volume}·补充`,
+        edition: "延伸拓展篇目",
+        units: [
+          {
+            title: "补充篇目",
+            lessons: groupLessons.map((l) => ({
+              title: l.data.title,
+              type: "story" as const,
+              typeLabel: "故事",
+              slug: l.slug,
+              found: true,
+              grade: l.data.grade,
+              theme: l.data.theme,
+              pinyin: l.slug.replace(/-/g, " "),
+            })),
+          },
+        ],
+      });
+    }
+  }
+}
+
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+const totalLessons = lessons.length;
+---
+
+<BaseLayout title="课文库 - 课文背后的故事">
+  <section class="page-hero compact library-hero">
+    <div>
+      <p class="eyebrow">课文库</p>
+      <h1>按教材顺序慢慢点亮课文故事</h1>
+      <p>当前已收录 {totalLessons} 篇小学语文课文故事，默认按一年级到六年级、上册到下册排列。</p>
+    </div>
+    <div class="library-note">
+      <strong>{totalLessons}</strong>
+      <span>篇已完成</span>
+    </div>
+  </section>
+
+  <!-- View toggle -->
+  <div class="view-toggle" role="tablist" aria-label="浏览方式">
+    <button class="view-toggle-btn active" role="tab" aria-selected="true" data-view="shelf" type="button">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      书架视图
+    </button>
+    <button class="view-toggle-btn" role="tab" aria-selected="false" data-view="unit" type="button">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="3.5" cy="6" r="1.5"/><circle cx="3.5" cy="12" r="1.5"/><circle cx="3.5" cy="18" r="1.5"/></svg>
+      单元视图
+    </button>
+  </div>
+
+  <section class="filters" aria-label="课文筛选">
+    <label class="search-box">
+      <span>搜索</span>
+      <input id="searchInput" type="search" placeholder="输入标题、作者、主题或拼音（如 cao chong）" />
+    </label>
+    <div>
+      <span class="filter-label">年级</span>
+      <div class="chip-row" id="gradeFilters">
+        {grades.map((grade, index) => (
+          <button class:list={["chip", { active: index === 0 }]} type="button" data-filter={grade}>
+            {grade}
+          </button>
+        ))}
+      </div>
+    </div>
+    <div>
+      <span class="filter-label">主题</span>
+      <div class="chip-row" id="themeFilters">
+        {themes.map((theme, index) => (
+          <button class:list={["chip", { active: index === 0 }]} type="button" data-filter={theme}>
+            {theme}
+          </button>
+        ))}
+      </div>
+    </div>
+    <div>
+      <span class="filter-label">我的</span>
+      <div class="chip-row" id="myFilters">
+        <button class="chip active" type="button" data-filter="全部">全部</button>
+        <button class="chip" type="button" data-filter="已读">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          已读
+        </button>
+        <button class="chip" type="button" data-filter="收藏">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          收藏
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="reading-stats-bar" id="readingStatsBar">
+    <span class="reading-stats-text" id="readingStatsText">加载阅读记录中...</span>
+  </div>
+
+  <p class="result-counter" id="resultCounter">显示 {totalLessons} / {totalLessons} 篇课文</p>
+
+  <!-- Shelf view -->
+  <section class="lesson-shelves" id="lessonList">
+    {shelfGroups.map((group) => (
+      <section
+        class="lesson-shelf"
+        data-shelf
+        data-text={`${group.grade} ${group.volume} ${group.edition}`}
+      >
+        <header class="shelf-header">
+          <div>
+            <p class="eyebrow">{group.edition}</p>
+            <h2>{group.grade}{group.volume}</h2>
+          </div>
+          <span>{group.lessons.length} 篇</span>
+        </header>
+        <div class="card-grid lesson-list">
+          {group.lessons.map((lesson) => <LessonCard lesson={lesson} />)}
+        </div>
+      </section>
+    ))}
+  </section>
+
+  <!-- Load more button -->
+  <div class="load-more-bar" id="loadMoreBar">
+    <button class="load-more-btn" id="loadMoreBtn" type="button">
+      加载更多课文
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+
+  <!-- Unit view -->
+  <section class="unit-view" id="unitView" hidden>
+    {unitViewGroups.map((group) => (
+      <article class="unit-view-group" data-shelf data-text={`${group.grade} ${group.volume} ${group.edition}`}>
+        <header class="unit-view-header">
+          <div>
+            <p class="eyebrow">{group.edition}</p>
+            <h2>{group.grade}{group.volume}</h2>
+          </div>
+        </header>
+        <div class="unit-view-units">
+          {group.units.map((unit) => (
+            <section class="unit-view-unit">
+              <h3>{unit.title}</h3>
+              <ul>
+                {unit.lessons.map((lesson) => (
+                  <li
+                    class={lesson.found ? "unit-lesson found" : "unit-lesson"}
+                    data-grade={lesson.grade}
+                    data-theme={lesson.theme}
+                    data-pinyin={lesson.pinyin}
+                    data-text={`${lesson.title} ${lesson.typeLabel} ${lesson.grade} ${group.volume}`}
+                  >
+                    {lesson.found && lesson.slug ? (
+                      <a href={withBase(`/lessons/${lesson.slug}/`)}>{lesson.title}</a>
+                    ) : (
+                      <span>{lesson.title}</span>
+                    )}
+                    <small>{lesson.typeLabel}</small>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <p class="empty-state" id="emptyState" hidden>没有找到匹配的课文，换个关键词试试。</p>
+
+  <script>
+    const searchInput = document.querySelector<HTMLInputElement>("#searchInput");
+    const gradeButtons = [...document.querySelectorAll<HTMLButtonElement>("#gradeFilters .chip")];
+    const themeButtons = [...document.querySelectorAll<HTMLButtonElement>("#themeFilters .chip")];
+    const myButtons = [...document.querySelectorAll<HTMLButtonElement>("#myFilters .chip")];
+    const cards = [...document.querySelectorAll<HTMLElement>(".lesson-card")];
+    const shelves = [...document.querySelectorAll<HTMLElement>("[data-shelf]")];
+    const emptyState = document.querySelector<HTMLElement>("#emptyState");
+    const resultCounter = document.querySelector<HTMLElement>("#resultCounter");
+    const loadMoreBtn = document.querySelector<HTMLButtonElement>("#loadMoreBtn");
+    const loadMoreBar = document.querySelector<HTMLElement>("#loadMoreBar");
+    const viewToggleBtns = [...document.querySelectorAll<HTMLButtonElement>(".view-toggle-btn")];
+    const shelfView = document.querySelector<HTMLElement>("#lessonList");
+    const unitView = document.querySelector<HTMLElement>("#unitView");
+    const unitLessons = [...document.querySelectorAll<HTMLElement>(".unit-lesson")];
+    const readingStatsText = document.getElementById("readingStatsText");
+
+    // Reading/bookmark data from localStorage
+    const READ_KEY = "ketang-read-lessons";
+    const BOOKMARK_KEY = "ketang-bookmarked-lessons";
+    function getStoredList(key: string): string[] {
+      try { return JSON.parse(localStorage.getItem(key) || "[]"); } catch { return []; }
+    }
+    let readList = getStoredList(READ_KEY);
+    let bookmarkList = getStoredList(BOOKMARK_KEY);
+
+    // Update card badges
+    function updateCardBadges() {
+      cards.forEach((card) => {
+        const slug = card.dataset.slug || "";
+        card.classList.toggle("is-read", readList.includes(slug));
+        card.classList.toggle("is-bookmarked", bookmarkList.includes(slug));
+      });
+    }
+
+    // Update reading stats bar
+    function updateReadingStats() {
+      if (!readingStatsText) return;
+      const readCount = readList.length;
+      const bookmarkCount = bookmarkList.length;
+      readingStatsText.innerHTML = `📚 已读 <strong>${readCount}</strong> / ${cards.length} 篇 · ⭐ 收藏 <strong>${bookmarkCount}</strong> 篇`;
+    }
+
+    updateCardBadges();
+    updateReadingStats();
+
+    if (!searchInput || !emptyState) {
+      console.warn("Lesson filter elements not found, skipping initialization.");
+    } else {
+      const searchBox = searchInput;
+      const emptyMessage = emptyState;
+      let activeGrade = "全部";
+      let activeTheme = "全部";
+      let activeMy = "全部";
+      let activeView = "shelf";
+      let searchTimer: ReturnType<typeof setTimeout> | null = null;
+
+      // Pagination state
+      const SHELVES_PER_PAGE = 4;
+      let shelvesShown = SHELVES_PER_PAGE;
+      const totalShelfCount = shelves.filter(s => s.closest("#lessonList")).length;
+
+      function setActive(buttons: HTMLButtonElement[], value: string) {
+        buttons.forEach((button) => {
+          button.classList.toggle("active", button.dataset.filter === value);
+        });
+      }
+
+      function normalizePinyin(s: string): string {
+        return s.replace(/\s+/g, "").toLowerCase();
+      }
+
+      function applyFilters() {
+        const keyword = searchBox.value.trim().toLowerCase();
+        const keywordPinyin = normalizePinyin(keyword);
+        const isFiltering = activeGrade !== "全部" || activeTheme !== "全部" || activeMy !== "全部" || keyword.length > 0;
+        let visibleCount = 0;
+
+        // Filter shelf-view cards
+        cards.forEach((card) => {
+          const text = card.innerText.toLowerCase();
+          const pinyin = normalizePinyin(card.dataset.pinyin || "");
+          const slug = card.dataset.slug || "";
+          const gradeMatched = activeGrade === "全部" || card.dataset.grade === activeGrade;
+          const themeMatched = activeTheme === "全部" || card.dataset.theme === activeTheme;
+          const myMatched = activeMy === "全部" || (activeMy === "已读" && readList.includes(slug)) || (activeMy === "收藏" && bookmarkList.includes(slug));
+          const keywordMatched = !keyword || text.includes(keyword) || (keywordPinyin && pinyin.includes(keywordPinyin));
+          const visible = gradeMatched && themeMatched && myMatched && keywordMatched;
+          card.hidden = !visible;
+          if (visible) visibleCount += 1;
+
+          // Highlight keyword in card title
+          const titleEl = card.querySelector("h3 a") || card.querySelector("h3");
+          if (titleEl) {
+            const originalText = titleEl.dataset.original || titleEl.textContent || "";
+            if (!titleEl.dataset.original) titleEl.dataset.original = originalText;
+            if (keyword && visible && originalText.toLowerCase().includes(keyword)) {
+              const regex = new RegExp(`(${keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi");
+              titleEl.innerHTML = originalText.replace(regex, "<mark class=\"search-highlight\">$1</mark>");
+            } else {
+              titleEl.textContent = originalText;
+            }
+          }
+        });
+
+        // Filter unit-view items
+        let unitVisibleCount = 0;
+        unitLessons.forEach((item) => {
+          const text = (item.dataset.text || "").toLowerCase();
+          const pinyin = normalizePinyin(item.dataset.pinyin || "");
+          const gradeMatched = activeGrade === "全部" || item.dataset.grade === activeGrade;
+          const themeMatched = activeTheme === "全部" || !item.dataset.theme || item.dataset.theme === activeTheme;
+          const keywordMatched = !keyword || text.includes(keyword) || (keywordPinyin && pinyin.includes(keywordPinyin));
+          const visible = gradeMatched && themeMatched && keywordMatched;
+          item.hidden = !visible;
+          if (visible) unitVisibleCount += 1;
+        });
+
+        // Filter shelves/groups in both views
+        const shelfElements = activeView === "shelf"
+          ? shelves.filter(s => s.closest("#lessonList"))
+          : shelves.filter(s => s.closest("#unitView"));
+
+        shelfElements.forEach((shelf) => {
+          const selector = activeView === "shelf" ? ".lesson-card" : ".unit-lesson";
+          const hasVisible = [...shelf.querySelectorAll<HTMLElement>(selector)].some(
+            (el) => !el.hidden,
+          );
+          shelf.hidden = !hasVisible;
+        });
+
+        // Apply pagination to shelf view (only when not filtering)
+        const shelfShelves = shelves.filter(s => s.closest("#lessonList") && !s.hidden);
+        shelfShelves.forEach((shelf, index) => {
+          if (isFiltering || index < shelvesShown) {
+            shelf.removeAttribute("data-paginated");
+          } else {
+            shelf.setAttribute("data-paginated", "true");
+          }
+        });
+
+        // Show/hide load more button
+        if (loadMoreBar) {
+          const hasMore = !isFiltering && activeView === "shelf" && shelfShelves.length > shelvesShown;
+          loadMoreBar.hidden = !hasMore;
+        }
+
+        // Update result counter
+        const displayCount = activeView === "shelf" ? visibleCount : unitVisibleCount;
+        if (resultCounter) {
+          resultCounter.textContent = `显示 ${displayCount} / ${cards.length} 篇课文`;
+        }
+
+        emptyMessage.hidden = visibleCount !== 0 || unitVisibleCount !== 0;
+      }
+
+      // Grade filter
+      gradeButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeGrade = button.dataset.filter ?? "全部";
+          setActive(gradeButtons, activeGrade);
+          applyFilters();
+        });
+      });
+
+      // Theme filter
+      themeButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeTheme = button.dataset.filter ?? "全部";
+          setActive(themeButtons, activeTheme);
+          applyFilters();
+        });
+      });
+
+      // My filter (read/bookmarked)
+      myButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeMy = button.dataset.filter ?? "全部";
+          setActive(myButtons, activeMy);
+          applyFilters();
+        });
+      });
+
+      // Debounced search
+      searchBox.addEventListener("input", () => {
+        if (searchTimer) clearTimeout(searchTimer);
+        searchTimer = setTimeout(applyFilters, 200);
+      });
+
+      // Load more
+      if (loadMoreBtn) {
+        loadMoreBtn.addEventListener("click", () => {
+          shelvesShown += SHELVES_PER_PAGE;
+          applyFilters();
+          // Scroll to the first newly revealed shelf
+          const shelfShelves = shelves.filter(s => s.closest("#lessonList") && !s.hidden);
+          const target = shelfShelves[shelvesShown - SHELVES_PER_PAGE];
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      }
+
+      // View toggle
+      viewToggleBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          activeView = btn.dataset.view ?? "shelf";
+          viewToggleBtns.forEach((b) => {
+            b.classList.toggle("active", b === btn);
+            b.setAttribute("aria-selected", b === btn ? "true" : "false");
+          });
+          if (activeView === "shelf") {
+            if (shelfView) shelfView.hidden = false;
+            if (unitView) unitView.hidden = true;
+            if (loadMoreBar) loadMoreBar.hidden = false;
+          } else {
+            if (shelfView) shelfView.hidden = true;
+            if (unitView) unitView.hidden = false;
+            if (loadMoreBar) loadMoreBar.hidden = true;
+          }
+          applyFilters();
+        });
+      });
+    }
+  </script>
+</BaseLayout>

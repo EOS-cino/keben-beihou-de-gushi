@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="万物都有自己的天堂">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <rect x="0" y="0" width="800" height="92" fill="#b8470f" opacity="0.16"/>
+  <text x="400" y="58" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">万物都有自己的天堂</text>
+  <line x1="320" y1="80" x2="480" y2="80" stroke="#b8470f" stroke-width="3"/>
+
+  <rect x="0" y="430" width="800" height="40" fill="#b8470f" opacity="0.2"/>
+  <path d="M0 430 Q200 410 400 430 T800 430" stroke="#b8470f" stroke-width="3" fill="none" opacity="0.4"/>
+  <rect x="120" y="300" width="22" height="140" fill="#7a4a1e"/>
+  <circle cx="131" cy="270" r="70" fill="#b8470f" opacity="0.7"/>
+  <circle cx="90" cy="290" r="46" fill="#b8470f" opacity="0.55"/>
+  <circle cx="172" cy="290" r="46" fill="#b8470f" opacity="0.55"/>
+  <g opacity="0.8">
+    <path d="M520 200 q10 -14 20 0 q10 -14 20 0 q10 -14 20 0" stroke="#b8470f" stroke-width="2" fill="none"/>
+    <circle cx="600" cy="190" r="6" fill="#b8470f"/>
+  </g>
+  <path d="M560 230 q40 10 80 -10" stroke="#b8470f" stroke-width="2" fill="none"/>
+  <text x="400" y="400" text-anchor="middle" font-family="serif" font-size="60" fill="#b8470f" opacity="0.14">绿</text>
+  <g opacity="0.85"><ellipse cx="120" cy="500" rx="26" ry="16" fill="none" stroke="#b8470f" stroke-width="5"/><ellipse cx="168" cy="500" rx="26" ry="16" fill="none" stroke="#b8470f" stroke-width="5"/><ellipse cx="632" cy="500" rx="26" ry="16" fill="none" stroke="#b8470f" stroke-width="5"/><ellipse cx="680" cy="500" rx="26" ry="16" fill="none" stroke="#b8470f" stroke-width="5"/></g>
+  <text x="400" y="566" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">连珠小故事：万物都有自己的天堂</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="对联有趣故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">对联的有趣故事</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">解缙巧对财主，苏东坡讽和尚</text>
+
+  <!-- 故事一：解缙对联 -->
+  <g transform="translate(220,300)">
+    <!-- 门框 -->
+    <rect x="-120" y="-100" width="240" height="220" rx="5" fill="none" stroke="#8d5a36" stroke-width="3"/>
+    <!-- 上联 -->
+    <rect x="-145" y="-90" width="25" height="180" fill="#c84a3a" stroke="#8d5a36" stroke-width="1.5"/>
+    <text x="-132" y="-60" text-anchor="middle" font-family="serif" font-size="11" fill="#fef9ed" writing-mode="tb">门对千根竹短无</text>
+    <!-- 下联 -->
+    <rect x="120" y="-90" width="25" height="180" fill="#c84a3a" stroke="#8d5a36" stroke-width="1.5"/>
+    <text x="133" y="-60" text-anchor="middle" font-family="serif" font-size="11" fill="#fef9ed" writing-mode="tb">家藏万卷书长有</text>
+    <!-- 门 -->
+    <rect x="-100" y="-60" width="200" height="160" fill="#8d5a36" opacity="0.3"/>
+    <line x1="0" y1="-60" x2="0" y2="100" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 竹子 -->
+    <g transform="translate(-80,120)">
+      <rect x="-2" y="-40" width="4" height="40" fill="#6a8d3f"/>
+      <ellipse cx="0" cy="-35" rx="6" ry="3" fill="#4a6a2f"/>
+      <ellipse cx="0" cy="-20" rx="6" ry="3" fill="#4a6a2f"/>
+    </g>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">解缙巧对财主</text>
+    <text x="0" y="160" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">加字反击，越对越妙</text>
+  </g>
+
+  <!-- 故事二：苏东坡 -->
+  <g transform="translate(580,300)">
+    <!-- 茶杯 -->
+    <g transform="translate(0,-50)">
+      <path d="M-20 0 L-18 25 Q-18 30 -13 30 L13 30 Q18 30 18 25 L20 0 Z" fill="#fef9ed" stroke="#8d5a36" stroke-width="2"/>
+      <ellipse cx="0" cy="0" rx="20" ry="5" fill="#6a8d3f" opacity="0.5"/>
+      <!-- 热气 -->
+      <path d="M-8 -8 Q-5 -15 -8 -22" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.5"/>
+      <path d="M0 -8 Q3 -15 0 -22" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.5"/>
+      <path d="M8 -8 Q5 -15 8 -22" fill="none" stroke="#7ab8d8" stroke-width="1.5" opacity="0.5"/>
+    </g>
+    <!-- 对联文字 -->
+    <rect x="-110" y="0" width="220" height="100" rx="8" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">坐，请坐，请上坐</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">茶，敬茶，敬香茶</text>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">用和尚自己的话编成对联</text>
+    <text x="0" y="140" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">苏东坡讽和尚</text>
+    <text x="0" y="160" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">以貌取人，被巧妙讽刺</text>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="100" y="500" width="600" height="70" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">对联不只是文字游戏，还能表达智慧、讽刺缺点、传递感情</text>
+  <text x="400" y="552" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">春联、喜联、寿联，都是中国人独有的文学形式</text>
+</svg>

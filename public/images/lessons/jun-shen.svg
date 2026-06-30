@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="军神 - 刘伯承无麻醉手术">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题栏 -->
+  <rect x="0" y="0" width="800" height="74" fill="#7a3b14" opacity="0.12"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#7a3b14">军 神</text>
+  <line x1="320" y1="64" x2="480" y2="64" stroke="#c05a30" stroke-width="2"/>
+
+  <!-- 手术室背景 -->
+  <rect x="0" y="74" width="800" height="440" fill="#3a7d5c" opacity="0.04"/>
+  <!-- 墙壁瓷砖纹理 -->
+  <g stroke="#7a7468" stroke-width="0.5" opacity="0.2">
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="220" x2="800" y2="220"/>
+    <line x1="100" y1="74" x2="100" y2="290"/>
+    <line x1="200" y1="74" x2="200" y2="290"/>
+    <line x1="300" y1="74" x2="300" y2="290"/>
+    <line x1="500" y1="74" x2="500" y2="290"/>
+    <line x1="600" y1="74" x2="600" y2="290"/>
+    <line x1="700" y1="74" x2="700" y2="290"/>
+  </g>
+
+  <!-- 无影灯 -->
+  <g transform="translate(400,100)">
+    <rect x="-4" y="0" width="8" height="30" fill="#7a7468"/>
+    <ellipse cx="0" cy="35" rx="60" ry="14" fill="#7a7468"/>
+    <ellipse cx="0" cy="33" rx="56" ry="10" fill="#fef9ed"/>
+    <ellipse cx="-30" cy="33" rx="12" ry="6" fill="#fef9ed" opacity="0.9"/>
+    <ellipse cx="0" cy="33" rx="12" ry="6" fill="#fef9ed" opacity="0.9"/>
+    <ellipse cx="30" cy="33" rx="12" ry="6" fill="#fef9ed" opacity="0.9"/>
+    <!-- 灯光投射 -->
+    <path d="M-56 38 L-140 260 L140 260 L56 38 Z" fill="#fef9ed" opacity="0.12"/>
+  </g>
+
+  <!-- 手术台 -->
+  <g>
+    <rect x="220" y="360" width="360" height="50" rx="6" fill="#7a7468" opacity="0.85"/>
+    <rect x="220" y="360" width="360" height="12" fill="#fef9ed" opacity="0.5"/>
+    <!-- 台腿 -->
+    <rect x="230" y="410" width="12" height="80" fill="#7a7468"/>
+    <rect x="558" y="410" width="12" height="80" fill="#7a7468"/>
+    <!-- 头枕 -->
+    <rect x="250" y="348" width="80" height="14" rx="7" fill="#fef9ed" stroke="#7a7468" stroke-width="1"/>
+  </g>
+
+  <!-- 刘伯承（躺在手术台上） -->
+  <g transform="translate(400,360)">
+    <!-- 头部（右眼缠绷带区域） -->
+    <circle cx="-120" cy="-8" r="26" fill="#c05a30" opacity="0.85"/>
+    <!-- 军帽 -->
+    <path d="M-146 -18 Q-120 -38 -94 -18 L-94 -10 L-146 -10 Z" fill="#3a7d5c"/>
+    <rect x="-148" y="-12" width="56" height="5" fill="#3a7d5c"/>
+    <!-- 五星 -->
+    <path d="M-120 -22 L-122 -17 L-127 -17 L-123 -14 L-125 -9 L-120 -12 L-115 -9 L-117 -14 L-113 -17 L-118 -17 Z" fill="#c05a30"/>
+    <!-- 眼睛（紧闭/坚忍） -->
+    <path d="M-130 -8 Q-126 -5 -122 -8" stroke="#2d2a24" stroke-width="2" fill="none"/>
+    <!-- 右眼手术位置标记 -->
+    <circle cx="-108" cy="-8" r="6" fill="#c05a30" opacity="0.4"/>
+    <line x1="-114" y1="-8" x2="-102" y2="-8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 嘴（咬紧） -->
+    <line x1="-130" y1="6" x2="-114" y2="6" stroke="#2d2a24" stroke-width="2"/>
+    <!-- 身体（军装） -->
+    <rect x="-94" y="-18" width="240" height="28" rx="4" fill="#3a7d5c" opacity="0.85"/>
+    <!-- 军装纽扣 -->
+    <circle cx="-70" cy="-4" r="3" fill="#c05a30"/><circle cx="-70" cy="8" r="3" fill="#c05a30"/>
+    <!-- 手（紧握床沿） -->
+    <circle cx="-96" cy="-2" r="10" fill="#c05a30" opacity="0.85"/>
+    <path d="M-104 -2 L-110 4 M-104 -6 L-112 -8" stroke="#c05a30" stroke-width="2" stroke-linecap="round"/>
+    <!-- 领章 -->
+    <rect x="-94" y="-18" width="10" height="8" fill="#c05a30"/>
+    <!-- 腿 -->
+    <rect x="146" y="-16" width="60" height="22" rx="3" fill="#3a7d5c" opacity="0.85"/>
+  </g>
+
+  <!-- 沃克医生（右侧） -->
+  <g transform="translate(560,310)">
+    <!-- 白大褂 -->
+    <path d="M-30 -10 L30 -10 L36 80 L-36 80 Z" fill="#fef9ed" stroke="#7a7468" stroke-width="1.5"/>
+    <!-- 身体 -->
+    <rect x="-24" y="-40" width="48" height="34" rx="6" fill="#3a7d5c" opacity="0.7"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-58" r="18" fill="#c05a30" opacity="0.85"/>
+    <!-- 医生帽 -->
+    <rect x="-16" y="-76" width="32" height="10" rx="2" fill="#fef9ed" stroke="#7a7468" stroke-width="1"/>
+    <!-- 口罩 -->
+    <rect x="-10" y="-54" width="20" height="10" rx="2" fill="#fef9ed" stroke="#7a7468" stroke-width="1"/>
+    <!-- 眼睛（专注） -->
+    <circle cx="-6" cy="-62" r="2" fill="#2d2a24"/><circle cx="6" cy="-62" r="2" fill="#2d2a24"/>
+    <!-- 手臂（手术中） -->
+    <path d="M-30 -20 Q-60 -10 -80 0" stroke="#fef9ed" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M-30 -20 Q-60 -10 -80 0" stroke="#7a7468" stroke-width="1" fill="none"/>
+    <!-- 手持手术器械 -->
+    <line x1="-80" y1="0" x2="-100" y2="20" stroke="#7a7468" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-102" cy="22" r="3" fill="#7a7468"/>
+  </g>
+
+  <!-- 手术器械托盘 -->
+  <g transform="translate(280,300)">
+    <rect x="-50" y="0" width="100" height="14" rx="3" fill="#7a7468" opacity="0.6"/>
+    <rect x="-6" y="-50" width="12" height="50" fill="#7a7468"/>
+    <rect x="-50" y="-4" width="100" height="8" rx="2" fill="#fef9ed" opacity="0.8"/>
+    <!-- 器械 -->
+    <line x1="-30" y1="0" x2="-20" y2="-8" stroke="#7a7468" stroke-width="2"/>
+    <rect x="-12" y="-3" width="20" height="3" fill="#7a7468"/>
+    <line x1="20" y1="0" x2="30" y2="-8" stroke="#7a7468" stroke-width="2"/>
+  </g>
+
+  <!-- 汗珠（体现紧张/痛苦） -->
+  <g fill="#3a7d5c" opacity="0.6">
+    <ellipse cx="270" cy="345" rx="3" ry="5"/>
+    <ellipse cx="340" cy="340" rx="2.5" ry="4"/>
+  </g>
+
+  <!-- 数刀的标记 -->
+  <g transform="translate(650,200)">
+    <rect x="-50" y="-20" width="100" height="40" rx="6" fill="#fff" stroke="#c05a30" stroke-width="1.5"/>
+    <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="15" fill="#c05a30">七十四刀</text>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="490" width="800" height="24" fill="#7a7468" opacity="0.15"/>
+
+  <rect x="0" y="514" width="800" height="86" fill="#fef9ed"/>
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" opacity="0.85">不用麻醉，七十四刀，钢铁意志铸军魂</text>
+</svg>

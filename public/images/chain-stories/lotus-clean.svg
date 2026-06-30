@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="荷叶自洁效应原理与出淤泥而不染的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">出淤泥而不染</text>
+  <line x1="310" y1="58" x2="490" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 上半：荷叶效应原理 -->
+
+  <!-- 左：普通表面 -->
+  <g transform="translate(130, 130)">
+    <rect x="-80" y="0" width="160" height="120" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">普通表面</text>
+    <!-- 光滑表面 -->
+    <rect x="-50" y="50" width="100" height="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 水摊开 -->
+    <ellipse cx="-20" cy="46" rx="18" ry="4" fill="#7ab8d8" opacity="0.6"/>
+    <ellipse cx="20" cy="46" rx="16" ry="3" fill="#7ab8d8" opacity="0.6"/>
+    <!-- 灰尘留下 -->
+    <circle cx="-10" cy="48" r="2" fill="#7a3b14" opacity="0.5"/>
+    <circle cx="15" cy="48" r="2" fill="#7a3b14" opacity="0.5"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">水摊开，灰尘留下</text>
+    <text x="0" y="98" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">表面变脏</text>
+  </g>
+
+  <!-- 右：荷叶表面 -->
+  <g transform="translate(400, 130)">
+    <rect x="-80" y="0" width="160" height="120" rx="8" fill="#fff6df" stroke="#6a8d3f" stroke-width="1.5"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">荷叶表面</text>
+    <!-- 凸起表面 -->
+    <rect x="-50" y="50" width="100" height="8" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+    <!-- 微小凸起 -->
+    <circle cx="-40" cy="50" r="3" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="0.5"/>
+    <circle cx="-25" cy="50" r="3" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="0.5"/>
+    <circle cx="-10" cy="50" r="3" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="0.5"/>
+    <circle cx="5" cy="50" r="3" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="0.5"/>
+    <circle cx="20" cy="50" r="3" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="0.5"/>
+    <circle cx="35" cy="50" r="3" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="0.5"/>
+    <!-- 水珠（圆球） -->
+    <circle cx="-15" cy="42" r="7" fill="#7ab8d8" opacity="0.7" stroke="#7a3b14" stroke-width="0.5"/>
+    <circle cx="20" cy="42" r="6" fill="#7ab8d8" opacity="0.7" stroke="#7a3b14" stroke-width="0.5"/>
+    <!-- 灰尘被带走 -->
+    <circle cx="-15" cy="38" r="1.5" fill="#7a3b14" opacity="0.5"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">水珠滚走，带走灰尘</text>
+    <text x="0" y="98" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">表面永远干净</text>
+  </g>
+
+  <!-- 右2：放大示意 -->
+  <g transform="translate(670, 130)">
+    <rect x="-80" y="0" width="160" height="120" rx="8" fill="#fff6df" stroke="#7ab8d8" stroke-width="1.5"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">放大看</text>
+    <!-- 纳米结构 -->
+    <rect x="-50" y="55" width="100" height="6" fill="#6a8d3f"/>
+    <rect x="-45" y="40" width="4" height="15" fill="#6a8d3f"/>
+    <rect x="-30" y="40" width="4" height="15" fill="#6a8d3f"/>
+    <rect x="-15" y="40" width="4" height="15" fill="#6a8d3f"/>
+    <rect x="0" y="40" width="4" height="15" fill="#6a8d3f"/>
+    <rect x="15" y="40" width="4" height="15" fill="#6a8d3f"/>
+    <rect x="30" y="40" width="4" height="15" fill="#6a8d3f"/>
+    <rect x="42" y="40" width="4" height="15" fill="#6a8d3f"/>
+    <!-- 水珠悬在凸起上 -->
+    <ellipse cx="0" cy="32" rx="30" ry="10" fill="#7ab8d8" opacity="0.6" stroke="#7a3b14" stroke-width="0.5"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">无数微小凸起</text>
+    <text x="0" y="98" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">水珠无法铺开</text>
+  </g>
+
+  <!-- 中间：荷叶与水珠 -->
+  <g transform="translate(400, 320)">
+    <ellipse cx="0" cy="0" rx="80" ry="28" fill="#6a8d3f" opacity="0.6" stroke="#4a6a2f" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-3" rx="75" ry="25" fill="#6a8d3f" opacity="0.4"/>
+    <!-- 水珠 -->
+    <circle cx="-30" cy="-8" r="8" fill="#7ab8d8" opacity="0.7" stroke="#7a3b14" stroke-width="0.5"/>
+    <circle cx="-28" cy="-10" r="3" fill="#fff" opacity="0.6"/>
+    <circle cx="15" cy="-5" r="6" fill="#7ab8d8" opacity="0.7" stroke="#7a3b14" stroke-width="0.5"/>
+    <circle cx="16" cy="-7" r="2" fill="#fff" opacity="0.6"/>
+    <circle cx="40" cy="-12" r="5" fill="#7ab8d8" opacity="0.7" stroke="#7a3b14" stroke-width="0.5"/>
+  </g>
+
+  <!-- 底部：仿生发明 -->
+  <g transform="translate(0, 400)">
+    <rect x="60" y="0" width="680" height="150" rx="10" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="400" y="28" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">荷叶效应启发了人类的发明</text>
+
+    <!-- 发明1：防水涂料 -->
+    <g transform="translate(170, 60)">
+      <rect x="-30" y="0" width="60" height="40" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="-5" r="6" fill="#7ab8d8" opacity="0.7"/>
+      <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">防水涂料</text>
+    </g>
+    <path d="M210 80 L270 80" stroke="#c8843a" stroke-width="2" fill="none" marker-end="url(#ar4)"/>
+
+    <!-- 发明2：自清洁玻璃 -->
+    <g transform="translate(330, 60)">
+      <rect x="-30" y="0" width="60" height="40" fill="#a8d0e8" opacity="0.5" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-5" cy="10" r="5" fill="#7ab8d8" opacity="0.6"/>
+      <circle cx="10" cy="5" r="4" fill="#7ab8d8" opacity="0.6"/>
+      <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">自清洁玻璃</text>
+    </g>
+    <path d="M370 80 L430 80" stroke="#c8843a" stroke-width="2" fill="none" marker-end="url(#ar4)"/>
+
+    <!-- 发明3：防水衣服 -->
+    <g transform="translate(490, 60)">
+      <path d="M-15 0 L-20 40 L20 40 L15 0 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="15" r="5" fill="#7ab8d8" opacity="0.7"/>
+      <circle cx="-8" cy="25" r="4" fill="#7ab8d8" opacity="0.6"/>
+      <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">防水衣服</text>
+    </g>
+    <path d="M530 80 L590 80" stroke="#c8843a" stroke-width="2" fill="none" marker-end="url(#ar4)"/>
+
+    <!-- 大自然 -->
+    <g transform="translate(640, 60)">
+      <circle cx="0" cy="20" r="22" fill="#6a8d3f" opacity="0.6" stroke="#4a6a2f" stroke-width="1.5"/>
+      <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#fff">大自然</text>
+      <text x="0" y="32" text-anchor="middle" font-family="serif" font-size="11" fill="#fff">最好的老师</text>
+    </g>
+
+    <text x="400" y="135" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">荷花在淤泥里长了几千万年，早就找到了保持洁净的方法</text>
+  </g>
+
+  <defs>
+    <marker id="ar4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">"出淤泥而不染"不只是比喻，更有科学道理——荷叶效应</text>
+</svg>

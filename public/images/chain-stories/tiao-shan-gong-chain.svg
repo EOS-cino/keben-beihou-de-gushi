@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从挑山工扁担到愚公锄头的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：挑山工 -->
+  <circle cx="170" cy="300" r="110" fill="#b5651d" opacity="0.25" stroke="#b5651d" stroke-width="3"/>
+  <line x1="140" y1="290" x2="200" y2="290" stroke="#5d4037" stroke-width="4"/>
+  <ellipse cx="140" cy="295" rx="14" ry="9" fill="#8a6d3b"/>
+  <ellipse cx="200" cy="295" rx="14" ry="9" fill="#8a6d3b"/>
+  <circle cx="170" cy="280" r="9" fill="#f5d9a0"/>
+  <polyline points="150,320 170,305 190,320" stroke="#5d4037" stroke-width="3" fill="none"/>
+  <text x="170" y="350" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">挑山工</text>
+  <text x="170" y="373" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">踏实就是快</text>
+  <!-- 右珠：愚公 -->
+  <circle cx="630" cy="300" r="110" fill="#8a9a5b" opacity="0.25" stroke="#6b8e7f" stroke-width="3"/>
+  <polygon points="600,290 640,265 640,290" fill="#5d4037" opacity="0.6"/>
+  <rect x="635" y="285" width="6" height="20" fill="#5d4037"/>
+  <polygon points="640,300 660,290 660,310" fill="#8a6d3b"/>
+  <rect x="640" y="298" width="22" height="5" fill="#5d4037"/>
+  <text x="630" y="350" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#7a3b14">愚公</text>
+  <text x="630" y="373" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">子子孙孙无穷尽</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">挑山工的扁担，愚公的锄头</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">坚持是最笨也最聪明的办法</text>
+</svg>

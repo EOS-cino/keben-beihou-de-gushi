@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="风的形成与风向标测风科学故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">风从哪里来，又往哪里去</text>
+  <line x1="200" y1="56" x2="600" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——追根究底，所有的风都是太阳"吹"出来的</text>
+
+  <!-- 风的形成示意 -->
+  <g transform="translate(400, 170)">
+    <rect x="-300" y="0" width="600" height="170" rx="8" fill="#fef9ed" stroke="#e8a838" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#e8a838">风的形成</text>
+    <!-- 太阳晒热地面 -->
+    <g transform="translate(-220, 50)">
+      <circle cx="0" cy="0" r="16" fill="#e8a838" opacity="0.5"/>
+      <circle cx="0" cy="0" r="10" fill="#e8a838"/>
+      <line x1="0" y1="14" x2="0" y2="40" stroke="#e8a838" stroke-width="2" stroke-dasharray="3 2"/>
+      <text x="0" y="58" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">太阳晒热</text>
+    </g>
+    <!-- 热空气上升 -->
+    <g transform="translate(-120, 60)">
+      <path d="M0 40 L0 -30" fill="none" stroke="#c84a3a" stroke-width="2" stroke-dasharray="5 3"/>
+      <polygon points="-4,-30 4,-30 0,-40" fill="#c84a3a"/>
+      <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="9" fill="#c84a3a">热空气上升</text>
+    </g>
+    <!-- 凉空气流来补 -->
+    <g transform="translate(40, 60)">
+      <path d="M-60 0 L40 0" fill="none" stroke="#4a90b8" stroke-width="2" stroke-dasharray="5 3"/>
+      <polygon points="40,-4 40,4 50,0" fill="#4a90b8"/>
+      <text x="-10" y="-12" text-anchor="middle" font-family="serif" font-size="9" fill="#4a90b8">凉空气流来补空子</text>
+      <text x="-10" y="22" text-anchor="middle" font-family="serif" font-size="9" fill="#4a90b8">= 风</text>
+    </g>
+    <!-- 云 -->
+    <g transform="translate(180, 30)">
+      <ellipse cx="0" cy="0" rx="30" ry="14" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.2"/>
+      <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">水汽上升成云</text>
+    </g>
+  </g>
+
+  <!-- 八风与张衡相风铜乌 -->
+  <g transform="translate(180, 390)">
+    <rect x="-130" y="0" width="260" height="140" rx="8" fill="#fef9ed" stroke="#2d6a4f" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#2d6a4f">古人的"八风"</text>
+    <g transform="translate(0, 80)" font-family="serif" font-size="10" fill="#7a3b14">
+      <circle cx="0" cy="0" r="40" fill="none" stroke="#c8843a" stroke-width="1.2"/>
+      <text x="0" y="-44" text-anchor="middle">北</text>
+      <text x="0" y="52" text-anchor="middle">南</text>
+      <text x="-46" y="3" text-anchor="middle">西</text>
+      <text x="46" y="3" text-anchor="middle">东</text>
+      <circle cx="0" cy="0" r="4" fill="#c84a3a"/>
+    </g>
+    <text x="0" y="134" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">东风暖，北风冷</text>
+  </g>
+
+  <g transform="translate(620, 390)">
+    <rect x="-130" y="0" width="260" height="140" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">张衡·相风铜乌</text>
+    <g transform="translate(0, 75)">
+      <!-- 竿子 -->
+      <line x1="0" y1="40" x2="0" y2="-10" stroke="#8d5a36" stroke-width="3"/>
+      <!-- 铜鸟 -->
+      <g transform="translate(0, -10)">
+        <ellipse cx="-6" cy="0" rx="18" ry="7" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+        <polygon points="-24,0 -32,-4 -24,4" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+        <polygon points="12,0 20,-6 20,6" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+        <circle cx="-16" cy="-2" r="1.5" fill="#7a3b14"/>
+      </g>
+      <!-- 风向 -->
+      <path d="M40 -30 Q20 -10 0 -10" fill="none" stroke="#4a90b8" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="50" y="-34" font-family="serif" font-size="9" fill="#4a90b8">风</text>
+    </g>
+    <text x="0" y="134" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">鸟头转向，便知风向</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 550)">
+    <rect x="-300" y="-30" width="600" height="40" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">风从太阳那儿来，往四面八方去，染黄麦田，染蓝湖水</text>
+  </g>
+</svg>

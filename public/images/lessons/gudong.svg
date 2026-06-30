@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="动物们听到咕咚声拼命逃跑、野牛拦住问清楚的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">咕咚</text>
+
+  <!-- 湖 -->
+  <ellipse cx="180" cy="450" rx="130" ry="60" fill="#7ab8d8" opacity="0.5"/>
+  <path d="M60 450 Q120 444 180 450 T300 450" fill="none" stroke="#a8d0e8" stroke-width="2"/>
+  <!-- 木瓜树 -->
+  <g transform="translate(180,340)">
+    <rect x="-8" y="0" width="16" height="110" fill="#7a3b14"/>
+    <ellipse cx="0" cy="-10" rx="35" ry="30" fill="#4a6a2f"/>
+    <ellipse cx="-20" cy="-5" rx="20" ry="18" fill="#6a8d3f"/>
+    <!-- 木瓜 -->
+    <ellipse cx="-15" cy="10" rx="8" ry="12" fill="#e0a050"/>
+    <ellipse cx="12" cy="5" rx="8" ry="12" fill="#e0a050"/>
+  </g>
+  <!-- 掉落的木瓜和水花 -->
+  <ellipse cx="180" cy="410" rx="7" ry="10" fill="#e0a050"/>
+  <g fill="#a8d0e8">
+    <path d="M170 430 L165 420 M190 430 L195 420 M180 432 L180 420"/>
+  </g>
+  <text x="180" y="510" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">"咕咚！"</text>
+  <text x="180" y="530" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">木瓜掉进湖里</text>
+
+  <!-- 逃跑的动物队伍（从左到右） -->
+  <!-- 兔子带头跑 -->
+  <g transform="translate(360,400)">
+    <ellipse cx="0" cy="0" rx="18" ry="14" fill="#e8e0d0"/>
+    <circle cx="-14" cy="-8" r="12" fill="#e8e0d0"/>
+    <ellipse cx="-18" cy="-22" rx="4" ry="14" fill="#e8e0d0"/>
+    <ellipse cx="-10" cy="-24" rx="4" ry="14" fill="#e8e0d0"/>
+    <circle cx="-16" cy="-8" r="2" fill="#c84a3a"/>
+    <!-- 害怕的嘴 -->
+    <ellipse cx="-22" cy="-4" rx="2" ry="3" fill="#1a1a1a"/>
+    <!-- 短尾巴 -->
+    <circle cx="16" cy="2" r="5" fill="#fef9ed"/>
+    <!-- 跑速线 -->
+    <path d="M-35 -5 L-28 -5 M-37 0 L-30 0 M-35 5 L-28 5" stroke="#8d5a36" stroke-width="1.5" opacity="0.5"/>
+    <text x="-10" y="30" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a" font-weight="bold">兔子：咕咚来了！</text>
+  </g>
+
+  <!-- 猴子 -->
+  <g transform="translate(440,390)">
+    <ellipse cx="0" cy="0" rx="14" ry="16" fill="#8d5a36"/>
+    <circle cx="-10" cy="-12" r="11" fill="#8d5a36"/>
+    <circle cx="-12" cy="-12" r="2" fill="#1a1a1a"/>
+    <path d="M-18 -12 L-22 -10 L-18 -8 Z" fill="#c8843a"/>
+    <path d="M12 5 Q25 -5 20 -20" fill="none" stroke="#8d5a36" stroke-width="4"/>
+    <path d="M-25 -5 L-18 -5 M-27 0 L-20 0" stroke="#8d5a36" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- 狐狸 -->
+  <g transform="translate(510,400)">
+    <ellipse cx="0" cy="0" rx="16" ry="12" fill="#e07856"/>
+    <path d="M-14 -5 L-24 -10 L-20 0 Z" fill="#e07856"/>
+    <circle cx="-18" cy="-6" r="2" fill="#1a1a1a"/>
+    <path d="M14 5 Q25 10 22 -5" fill="#e07856"/>
+    <path d="M-30 -5 L-23 -5 M-32 0 L-25 0" stroke="#8d5a36" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- 山羊 -->
+  <g transform="translate(580,400)">
+    <ellipse cx="0" cy="0" rx="16" ry="13" fill="#e8e0d0"/>
+    <ellipse cx="-12" cy="-12" rx="4" ry="10" fill="#e8e0d0"/>
+    <ellipse cx="-8" cy="-14" rx="3" ry="8" fill="#e8e0d0"/>
+    <circle cx="-15" cy="-5" r="1.5" fill="#1a1a1a"/>
+    <path d="M-30 -5 L-23 -5 M-32 0 L-25 0" stroke="#8d5a36" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- 大象 -->
+  <g transform="translate(670,410)">
+    <ellipse cx="0" cy="0" rx="24" ry="18" fill="#8d8a82"/>
+    <circle cx="-22" cy="-8" r="16" fill="#8d8a82"/>
+    <path d="M-36 -6 Q-46 0 -40 10 Q-34 8 -34 4" fill="#8d8a82"/>
+    <ellipse cx="-22" cy="-18" rx="8" ry="6" fill="#8d8a82"/>
+    <circle cx="-26" cy="-8" r="2" fill="#1a1a1a"/>
+  </g>
+
+  <!-- 野牛拦住大象 -->
+  <g transform="translate(720,420)">
+    <ellipse cx="0" cy="0" rx="22" ry="16" fill="#5a3a2a"/>
+    <circle cx="14" cy="-8" r="14" fill="#5a3a2a"/>
+    <!-- 牛角 -->
+    <path d="M20 -20 Q28 -25 24 -15 M8 -20 Q0 -25 4 -15" fill="none" stroke="#fef9ed" stroke-width="3"/>
+    <circle cx="18" cy="-8" r="2" fill="#fef9ed"/>
+    <!-- 拦住的手势 -->
+    <line x1="-10" y1="-5" x2="-20" y2="-8" stroke="#5a3a2a" stroke-width="4"/>
+    <text x="10" y="-35" text-anchor="middle" font-family="serif" font-size="11" fill="#6a8d3f" font-weight="bold">野牛：等一下！</text>
+    <text x="10" y="-22" text-anchor="middle" font-family="serif" font-size="10" fill="#6a8d3f">咕咚是什么？</text>
+  </g>
+
+  <!-- 逃跑方向箭头 -->
+  <path d="M330 400 L350 400" stroke="#c84a3a" stroke-width="2" fill="none" marker-end="url(#ar5)"/>
+
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">大家不问原因跟着跑，只有野牛问"咕咚是什么"</text>
+
+  <defs>
+    <marker id="ar5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#c84a3a"/>
+    </marker>
+  </defs>
+</svg>

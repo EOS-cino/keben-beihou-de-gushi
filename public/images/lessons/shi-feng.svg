@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="石蜂：小建筑师">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">石蜂</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">用泥巴搭小陶罐的小蜂</text>
+  <rect x="100" y="180" width="600" height="240" rx="8" fill="#d9c9a8" stroke="#7a4a1a" stroke-width="2"/>
+  <g transform="translate(400,300)">
+    <path d="M-50,-30 Q-60,30 -30,50 Q0,60 30,50 Q60,30 50,-30 Q40,-50 0,-50 Q-40,-50 -50,-30 Z" fill="#c9a87a" stroke="#7a4a1a" stroke-width="3"/>
+    <ellipse cx="0" cy="-30" rx="20" ry="10" fill="#7a4a1a"/>
+    <circle cx="-8" cy="10" r="3" fill="#7a4a1a"/><circle cx="10" cy="20" r="3" fill="#7a4a1a"/>
+  </g>
+  <g transform="translate(560,200)">
+    <ellipse cx="0" cy="10" rx="16" ry="9" fill="#3a2a1a"/>
+    <ellipse cx="0" cy="-4" rx="7" ry="6" fill="#3a2a1a"/>
+    <path d="M-14,4 L-26,16" stroke="#3a2a1a" stroke-width="2"/>
+    <path d="M14,4 L26,16" stroke="#3a2a1a" stroke-width="2"/>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">耐心观察，家门口就有整个自然</text>
+</svg>

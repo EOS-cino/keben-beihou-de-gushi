@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春天篱笆旁儿童追蝶与黄鹂鸣翠柳">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古诗二首</text>
+  <line x1="400" y1="90" x2="400" y2="560" stroke="#8d5a36" stroke-width="2" stroke-dasharray="8 6" opacity="0.3"/>
+  <text x="200" y="100" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">宿新市徐公店</text>
+  <line x1="80" y1="200" x2="320" y2="200" stroke="#8d5a36" stroke-width="2"/>
+  <line x1="80" y1="230" x2="320" y2="230" stroke="#8d5a36" stroke-width="2"/>
+  <line x1="80" y1="260" x2="320" y2="260" stroke="#8d5a36" stroke-width="2"/>
+  <line x1="120" y1="180" x2="120" y2="280" stroke="#8d5a36" stroke-width="2"/>
+  <line x1="180" y1="180" x2="180" y2="280" stroke="#8d5a36" stroke-width="2"/>
+  <line x1="240" y1="180" x2="240" y2="280" stroke="#8d5a36" stroke-width="2"/>
+  <line x1="280" y1="180" x2="280" y2="280" stroke="#8d5a36" stroke-width="2"/>
+  <path d="M100 320 Q120 280 140 320 Q160 280 180 320 Q200 280 220 320 Q240 280 260 320 Q280 280 300 320" stroke="#6a8d3f" stroke-width="3" fill="none"/>
+  <ellipse cx="100" cy="350" rx="40" ry="25" fill="#e07856" opacity="0.3"/>
+  <ellipse cx="150" cy="355" rx="35" ry="22" fill="#c8843a" opacity="0.3"/>
+  <ellipse cx="200" cy="350" rx="40" ry="25" fill="#e07856" opacity="0.3"/>
+  <ellipse cx="260" cy="355" rx="35" ry="22" fill="#c8843a" opacity="0.3"/>
+  <circle cx="280" cy="350" r="8" fill="#e07856"/>
+  <path d="M272 345 L268 340 L275 343z M288 345 L292 340 L285 343z" fill="#c84a3a"/>
+  <circle cx="270" cy="380" r="15" fill="#e07856"/>
+  <rect x="258" y="393" width="24" height="35" rx="5" fill="#7ab8d8"/>
+  <rect x="262" y="425" width="7" height="25" fill="#8d5a36"/>
+  <rect x="271" y="425" width="7" height="25" fill="#8d5a36"/>
+  <path d="M285 395 L300 380" stroke="#e07856" stroke-width="3"/>
+  <text x="200" y="490" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">儿童急走追黄蝶</text>
+  <text x="200" y="510" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">飞入菜花无处寻</text>
+  <text x="600" y="100" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">绝句</text>
+  <line x1="500" y1="300" x2="500" y2="450" stroke="#4a6a2f" stroke-width="5"/>
+  <line x1="530" y1="280" x2="530" y2="440" stroke="#4a6a2f" stroke-width="4"/>
+  <line x1="560" y1="290" x2="560" y2="450" stroke="#4a6a2f" stroke-width="5"/>
+  <path d="M500 250 Q520 220 540 250 Q560 220 580 250" stroke="#6a8d3f" stroke-width="3" fill="none"/>
+  <ellipse cx="510" cy="240" rx="15" ry="8" fill="#6a8d3f" transform="rotate(-30 510 240)"/>
+  <ellipse cx="550" cy="235" rx="15" ry="8" fill="#4a6a2f" transform="rotate(20 550 235)"/>
+  <ellipse cx="570" cy="245" rx="12" ry="7" fill="#6a8d3f" transform="rotate(-15 570 245)"/>
+  <ellipse cx="515" cy="200" rx="12" ry="8" fill="#e07856"/>
+  <circle cx="510" cy="195" r="6" fill="#c84a3a"/>
+  <circle cx="508" cy="193" r="2" fill="#7a3b14"/>
+  <path d="M505 190 L500 185 L508 188z" fill="#c84a3a"/>
+  <ellipse cx="545" cy="195" rx="12" ry="8" fill="#e07856"/>
+  <circle cx="540" cy="190" r="6" fill="#c84a3a"/>
+  <circle cx="538" cy="188" r="2" fill="#7a3b14"/>
+  <path d="M535 185 L530 180 L538 183z" fill="#c84a3a"/>
+  <path d="M600 280 Q620 250 640 280 Q660 250 680 280 Q700 250 720 280" stroke="#7ab8d8" stroke-width="3" fill="none" opacity="0.4"/>
+  <ellipse cx="650" cy="270" rx="15" ry="8" fill="#fff" stroke="#8d5a36" stroke-width="1"/>
+  <ellipse cx="690" cy="265" rx="15" ry="8" fill="#fff" stroke="#8d5a36" stroke-width="1"/>
+  <path d="M500 450 Q550 460 600 450 Q650 440 700 455" stroke="#7ab8d8" stroke-width="4" fill="none"/>
+  <text x="600" y="490" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">两个黄鹂鸣翠柳</text>
+  <text x="600" y="510" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">一行白鹭上青天</text>
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="16" fill="#4a6a2f">春日童趣 窗前远景</text>
+</svg>

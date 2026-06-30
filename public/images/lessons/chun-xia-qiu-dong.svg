@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春夏秋冬四季景象对比的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">春夏秋冬</text>
+
+  <!-- 四格分割 -->
+  <line x1="400" y1="80" x2="400" y2="560" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="40" y1="320" x2="760" y2="320" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- 春 -->
+  <g>
+    <text x="220" y="110" text-anchor="middle" font-family="serif" font-size="22" fill="#6a8d3f" font-weight="bold">春</text>
+    <rect x="40" y="120" width="360" height="195" fill="#a8d0e8" opacity="0.2"/>
+    <!-- 春风线条 -->
+    <path d="M80 160 Q120 155 160 162" fill="none" stroke="#6a8d3f" stroke-width="2" opacity="0.5"/>
+    <path d="M90 180 Q130 175 170 182" fill="none" stroke="#6a8d3f" stroke-width="2" opacity="0.5"/>
+    <!-- 池草青 -->
+    <ellipse cx="120" cy="290" rx="50" ry="12" fill="#7ab8d8" opacity="0.4"/>
+    <path d="M100 290 L100 265 M110 290 L110 260 M120 290 L120 255 M130 290 L130 262 M140 290 L140 268" stroke="#6a8d3f" stroke-width="3" stroke-linecap="round"/>
+    <!-- 山花红 -->
+    <g transform="translate(280,250)">
+      <path d="M0 40 L0 0" stroke="#6a8d3f" stroke-width="3"/>
+      <path d="M0 20 L-12 12 M0 10 L12 4" stroke="#6a8d3f" stroke-width="2"/>
+      <circle cx="0" cy="-5" r="10" fill="#c84a3a"/>
+      <circle cx="0" cy="-5" r="4" fill="#f4b942"/>
+    </g>
+    <g transform="translate(330,270)">
+      <path d="M0 25 L0 0" stroke="#6a8d3f" stroke-width="2.5"/>
+      <circle cx="0" cy="-3" r="8" fill="#e07856"/>
+      <circle cx="0" cy="-3" r="3" fill="#f4b942"/>
+    </g>
+    <text x="220" y="305" text-anchor="middle" font-family="serif" font-size="13" fill="#6a8d3f">春风吹·池草青·山花红</text>
+  </g>
+
+  <!-- 夏 -->
+  <g>
+    <text x="580" y="110" text-anchor="middle" font-family="serif" font-size="22" fill="#c8843a" font-weight="bold">夏</text>
+    <rect x="400" y="120" width="360" height="195" fill="#7ab8d8" opacity="0.15"/>
+    <!-- 乌云 -->
+    <ellipse cx="520" cy="160" rx="45" ry="22" fill="#8d8a82"/>
+    <ellipse cx="560" cy="155" rx="40" ry="24" fill="#6a6862"/>
+    <ellipse cx="640" cy="165" rx="42" ry="20" fill="#8d8a82"/>
+    <!-- 夏雨落 -->
+    <g fill="#7ab8d8">
+      <path d="M500 195 Q498 202 500 207 Q502 202 500 195 Z"/>
+      <path d="M530 200 Q528 207 530 212 Q532 207 530 200 Z"/>
+      <path d="M560 195 Q558 202 560 207 Q562 202 560 195 Z"/>
+      <path d="M600 200 Q598 207 600 212 Q602 207 600 200 Z"/>
+      <path d="M640 195 Q638 202 640 207 Q642 202 640 195 Z"/>
+      <path d="M680 200 Q678 207 680 212 Q682 207 680 200 Z"/>
+      <path d="M515 230 Q513 237 515 242 Q517 237 515 230 Z"/>
+      <path d="M575 235 Q573 242 575 247 Q577 242 575 235 Z"/>
+      <path d="M635 230 Q633 237 635 242 Q637 237 635 230 Z"/>
+    </g>
+    <!-- 荷叶 -->
+    <ellipse cx="480" cy="290" rx="40" ry="14" fill="#4a6a2f"/>
+    <ellipse cx="480" cy="287" rx="36" ry="11" fill="#6a8d3f"/>
+    <ellipse cx="680" cy="295" rx="35" ry="12" fill="#4a6a2f"/>
+    <ellipse cx="680" cy="292" rx="31" ry="9" fill="#6a8d3f"/>
+    <text x="580" y="305" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">夏雨落·红花更红</text>
+  </g>
+
+  <!-- 秋 -->
+  <g>
+    <text x="220" y="350" text-anchor="middle" font-family="serif" font-size="22" fill="#e0a050" font-weight="bold">秋</text>
+    <rect x="40" y="360" width="360" height="195" fill="#e0a050" opacity="0.12"/>
+    <!-- 树 -->
+    <rect x="135" y="440" width="14" height="60" fill="#7a3b14"/>
+    <ellipse cx="142" cy="420" rx="45" ry="40" fill="#c8843a"/>
+    <ellipse cx="120" cy="410" rx="25" ry="22" fill="#e0a050"/>
+    <ellipse cx="165" cy="415" rx="28" ry="25" fill="#d89040"/>
+    <!-- 霜（白色点） -->
+    <g fill="#fef9ed" opacity="0.8">
+      <circle cx="125" cy="400" r="2"/>
+      <circle cx="150" cy="395" r="2"/>
+      <circle cx="160" cy="425" r="2"/>
+      <circle cx="130" cy="430" r="2"/>
+    </g>
+    <!-- 落叶 -->
+    <g fill="#c8843a">
+      <path d="M250 400 Q258 395 262 402 Q258 408 250 403 Z" transform="rotate(20 256 401)"/>
+      <path d="M300 440 Q308 435 312 442 Q308 448 300 443 Z" transform="rotate(-15 306 441)"/>
+      <path d="M340 470 Q348 465 352 472 Q348 478 340 473 Z" transform="rotate(45 346 471)"/>
+    </g>
+    <text x="220" y="545" text-anchor="middle" font-family="serif" font-size="13" fill="#e0a050">秋霜降·树叶黄</text>
+  </g>
+
+  <!-- 冬 -->
+  <g>
+    <text x="580" y="350" text-anchor="middle" font-family="serif" font-size="22" fill="#7ab8d8" font-weight="bold">冬</text>
+    <rect x="400" y="360" width="360" height="195" fill="#7ab8d8" opacity="0.15"/>
+    <!-- 雪地 -->
+    <path d="M400 540 Q500 525 600 535 Q680 528 760 540 L760 555 L400 555 Z" fill="#fef9ed"/>
+    <!-- 雪花飘 -->
+    <g fill="#fef9ed" stroke="#a8d0e8" stroke-width="0.5">
+      <path d="M480 390 l0 12 M474 396 l12 0 M476 392 l8 8 M484 392 l-8 8" stroke="#7ab8d8" stroke-width="1.5"/>
+      <path d="M560 410 l0 10 M555 415 l10 0" stroke="#7ab8d8" stroke-width="1.5"/>
+      <path d="M640 390 l0 12 M634 396 l12 0 M636 392 l8 8 M644 392 l-8 8" stroke="#7ab8d8" stroke-width="1.5"/>
+      <path d="M700 430 l0 10 M695 435 l10 0" stroke="#7ab8d8" stroke-width="1.5"/>
+      <circle cx="520" cy="430" r="3" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1"/>
+      <circle cx="600" cy="450" r="3" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1"/>
+      <circle cx="670" cy="470" r="3" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1"/>
+    </g>
+    <!-- 雪松 -->
+    <g transform="translate(560,500)">
+      <path d="M0 0 L-30 -30 L-18 -30 L-35 -55 L-20 -55 L-40 -80 L0 -100 L40 -80 L20 -55 L35 -55 L18 -30 L30 -30 Z" fill="#4a6a2f"/>
+      <rect x="-6" y="0" width="12" height="15" fill="#7a3b14"/>
+      <!-- 雪盖 -->
+      <path d="M-40 -80 L0 -100 L40 -80 L30 -78 L0 -95 L-30 -78 Z" fill="#fef9ed"/>
+    </g>
+    <!-- 鸟入林 -->
+    <g fill="#3a2a1a" transform="translate(680,420)">
+      <path d="M0 0 Q-8 -5 -14 0 Q-8 3 0 0"/>
+      <path d="M0 0 Q8 -5 14 0 Q8 3 0 0"/>
+    </g>
+    <text x="580" y="545" text-anchor="middle" font-family="serif" font-size="13" fill="#7ab8d8">冬雪飘·鸟入林</text>
+  </g>
+</svg>

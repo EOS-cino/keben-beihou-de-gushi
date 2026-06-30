@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="黄山花岗岩地貌形成过程示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">黄山是怎么形成的</text>
+  <line x1="290" y1="56" x2="510" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 阶段1：岩浆侵入（左上） -->
+  <g transform="translate(200,180)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">第一步：岩浆侵入</text>
+    <!-- 地表线 -->
+    <line x1="-90" y1="-30" x2="90" y2="-30" stroke="#6a8d3f" stroke-width="2"/>
+    <rect x="-90" y="-55" width="180" height="25" fill="#c8e0a8" opacity="0.5"/>
+    <text x="-60" y="-38" font-family="serif" font-size="10" fill="#4a6a2f">沉积岩层</text>
+    <!-- 地下 -->
+    <rect x="-90" y="-30" width="180" height="80" fill="#d8c8a8" opacity="0.4"/>
+    <!-- 岩浆 -->
+    <path d="M-30 50 Q-20 20 -10 -10 Q0 -15 10 -10 Q20 20 30 50" fill="#c84a3a" opacity="0.7"/>
+    <ellipse cx="0" cy="45" rx="35" ry="15" fill="#e07856" opacity="0.6"/>
+    <!-- 箭头向上 -->
+    <path d="M0 40 L0 0" stroke="#c84a3a" stroke-width="2" marker-end="url(#arrF1)"/>
+    <text x="40" y="20" font-family="serif" font-size="10" fill="#c84a3a">岩浆上涌</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">一亿多年前</text>
+  </g>
+
+  <!-- 阶段2：冷却成花岗岩（右上） -->
+  <g transform="translate(600,180)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">第二步：冷却成岩</text>
+    <!-- 地表线 -->
+    <line x1="-90" y1="-30" x2="90" y2="-30" stroke="#6a8d3f" stroke-width="2"/>
+    <rect x="-90" y="-55" width="180" height="25" fill="#c8e0a8" opacity="0.5"/>
+    <!-- 花岗岩体 -->
+    <ellipse cx="0" cy="20" rx="55" ry="40" fill="#c8a878" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 矿物颗粒 -->
+    <circle cx="-20" cy="10" r="3" fill="#ffffff" opacity="0.6"/>
+    <circle cx="10" cy="25" r="3" fill="#8d5a36" opacity="0.5"/>
+    <circle cx="-5" cy="35" r="2.5" fill="#ffffff" opacity="0.5"/>
+    <circle cx="25" cy="5" r="2.5" fill="#8d5a36" opacity="0.4"/>
+    <circle cx="-30" cy="30" r="2" fill="#ffffff" opacity="0.5"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">花岗岩</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">缓慢冷却·结晶</text>
+  </g>
+
+  <!-- 阶段3：地壳抬升剥蚀（左下） -->
+  <g transform="translate(200,400)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">第三步：抬升出露</text>
+    <!-- 山体 -->
+    <path d="M-70 30 L-40 -20 L-20 -35 L0 -45 L20 -35 L40 -20 L70 30 Z" fill="#c8a878" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 残留沉积岩（碎块） -->
+    <rect x="-35" y="-30" width="15" height="10" fill="#c8e0a8" opacity="0.6"/>
+    <rect x="20" y="-25" width="12" height="8" fill="#c8e0a8" opacity="0.6"/>
+    <!-- 抬升箭头 -->
+    <path d="M-80 20 L-80 -10" stroke="#7a3b14" stroke-width="2" marker-end="url(#arrF1)"/>
+    <path d="M80 20 L80 -10" stroke="#7a3b14" stroke-width="2" marker-end="url(#arrF1)"/>
+    <text x="-85" y="-20" font-family="serif" font-size="10" fill="#7a3b14">抬升</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">覆盖层被剥蚀</text>
+  </g>
+
+  <!-- 阶段4：风化成奇石（右下） -->
+  <g transform="translate(600,400)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">第四步：风化雕刻</text>
+    <!-- 奇形怪石 -->
+    <path d="M-60 30 L-50 -10 L-35 -25 L-20 -30 L-10 -20 L0 -35 L15 -25 L25 -40 L35 -20 L50 -10 L60 30 Z" fill="#c8a878" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 裂缝 -->
+    <line x1="-20" y1="-30" x2="-15" y2="10" stroke="#8d5a36" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="25" y1="-40" x2="20" y2="15" stroke="#8d5a36" stroke-width="1" stroke-dasharray="2,2"/>
+    <!-- 雨水 -->
+    <g stroke="#7ab8d8" stroke-width="1.5" stroke-linecap="round">
+      <line x1="-40" y1="-55" x2="-42" y2="-42"/>
+      <line x1="-20" y1="-60" x2="-22" y2="-47"/>
+      <line x1="0" y1="-58" x2="-2" y2="-45"/>
+      <line x1="20" y1="-62" x2="18" y2="-49"/>
+      <line x1="40" y1="-55" x2="38" y2="-42"/>
+    </g>
+    <!-- 冰冻 -->
+    <g fill="#a8d0e8" opacity="0.6">
+      <circle cx="-15" cy="-5" r="3"/>
+      <circle cx="20" cy="0" r="3"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">日晒·雨淋·冰冻</text>
+  </g>
+
+  <!-- 箭头连接 -->
+  <path d="M290 180 L510 180" fill="none" stroke="#c8843a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrF1)"/>
+  <path d="M600 230 Q400 280 200 330" fill="none" stroke="#c8843a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrF1)"/>
+  <path d="M290 400 L510 400" fill="none" stroke="#c8843a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrF1)"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">岩浆侵入 → 冷却成花岗岩 → 地壳抬升出露 → 风化雕刻成奇石</text>
+
+  <defs>
+    <marker id="arrF1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+</svg>

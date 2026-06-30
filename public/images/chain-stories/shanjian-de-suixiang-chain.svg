@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国山水散文传统插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：中国人为什么爱写山水</text>
+  <line x1="180" y1="55" x2="620" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 山水画卷轴背景 -->
+  <rect x="40" y="80" width="720" height="440" fill="#f5e0c8" opacity="0.2"/>
+  <!-- 卷轴轴头 -->
+  <rect x="30" y="80" width="14" height="440" fill="#6a4220" stroke="#4a2a10" stroke-width="1.5" rx="3"/>
+  <rect x="756" y="80" width="14" height="440" fill="#6a4220" stroke="#4a2a10" stroke-width="1.5" rx="3"/>
+
+  <!-- 远山 -->
+  <path d="M60 300 L160 220 L260 270 L380 200 L500 260 L620 210 L740 270 L740 340 L60 340 Z" fill="#2d6a4f" opacity="0.25"/>
+  <!-- 中山 -->
+  <path d="M60 340 L140 270 L240 310 L360 250 L480 300 L600 260 L740 310 L740 400 L60 400 Z" fill="#2d6a4f" opacity="0.45"/>
+  <!-- 云雾 -->
+  <g fill="#f8f8f0" opacity="0.7">
+    <ellipse cx="200" cy="300" rx="70" ry="14"/>
+    <ellipse cx="440" cy="290" rx="90" ry="16"/>
+    <ellipse cx="640" cy="305" rx="75" ry="14"/>
+  </g>
+  <!-- 近山 -->
+  <path d="M60 400 L120 340 L220 380 L340 320 L460 380 L580 330 L700 380 L740 360 L740 460 L60 460 Z" fill="#2d6a4f" opacity="0.65"/>
+
+  <!-- 江水 -->
+  <path d="M60 460 Q200 455 400 460 Q600 465 740 460 L740 510 L60 510 Z" fill="#4a90b8" opacity="0.35"/>
+  <!-- 水波 -->
+  <g fill="none" stroke="#4a90b8" stroke-width="1.5" opacity="0.5">
+    <path d="M100 475 Q140 472 180 475"/>
+    <path d="M300 478 Q340 475 380 478"/>
+    <path d="M500 475 Q540 472 580 475"/>
+    <path d="M120 490 Q160 487 200 490"/>
+    <path d="M400 492 Q440 489 480 492"/>
+    <path d="M600 490 Q640 487 680 490"/>
+  </g>
+
+  <!-- 小船 -->
+  <g transform="translate(380, 470)">
+    <path d="M-25 0 Q-25 8 0 8 Q25 8 25 0 Z" fill="#6a4220" stroke="#4a2a10" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#6a4220" stroke-width="2"/>
+    <path d="M0 -18 L10 -10 L0 -10 Z" fill="#f8f8f0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 古代文人（站在山间） -->
+  <g transform="translate(220, 410)">
+    <path d="M-12 40 L-8 -5 L-5 -15 L5 -15 L8 -5 L12 40 Z" fill="#e07856" stroke="#a04830" stroke-width="1.5"/>
+    <circle cx="0" cy="-28" r="12" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+    <path d="M-12 -34 Q-13 -42 0 -40 Q13 -42 12 -34" fill="#2a2a2a"/>
+    <path d="M-8 -15 L-18 5" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M8 -15 L18 0 L20 12" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+    <!-- 持卷 -->
+    <rect x="14" y="8" width="14" height="10" fill="#fff8e0" stroke="#c88820" stroke-width="1"/>
+  </g>
+
+  <!-- 松树 -->
+  <g transform="translate(560, 410)">
+    <rect x="-4" y="0" width="8" height="50" fill="#6a4220"/>
+    <path d="M0 -10 L-20 15 L20 15 Z" fill="#2d6a4f"/>
+    <path d="M0 -25 L-16 0 L16 0 Z" fill="#2d6a4f"/>
+  </g>
+
+  <!-- 诗句印章 -->
+  <g transform="translate(620, 130)">
+    <rect x="0" y="0" width="90" height="90" fill="#fff6df" stroke="#e07856" stroke-width="2" opacity="0.9"/>
+    <text x="45" y="32" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">行到水</text>
+    <text x="45" y="52" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">穷处，</text>
+    <text x="45" y="72" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">坐看云</text>
+    <text x="45" y="92" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">起时。</text>
+    <rect x="60" y="78" width="22" height="22" fill="#e07856" opacity="0.8"/>
+    <text x="71" y="93" text-anchor="middle" font-size="11" fill="#fff6df" font-family="serif">王维</text>
+  </g>
+
+  <!-- 标注 -->
+  <rect x="160" y="150" width="140" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="230" y="169" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">山水是老师</text>
+
+  <line x1="220" y1="395" x2="220" y2="355" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="155" y="328" width="130" height="28" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="4"/>
+  <text x="220" y="347" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">山稳水柔</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">山教人沉稳，水教人通达——中国人写山水，其实是在写人和自己和解。</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="深海探索与潜水器发展插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：人类怎样潜入深海</text>
+  <line x1="190" y1="55" x2="610" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 海水深度分层 -->
+  <rect x="0" y="80" width="800" height="80" fill="#4a90b8" opacity="0.25"/>
+  <rect x="0" y="160" width="800" height="80" fill="#4a90b8" opacity="0.4"/>
+  <rect x="0" y="240" width="800" height="80" fill="#2d6a4f" opacity="0.35"/>
+  <rect x="0" y="320" width="800" height="80" fill="#1a3a4a" opacity="0.45"/>
+  <rect x="0" y="400" width="800" height="120" fill="#0a2a3a" opacity="0.5"/>
+
+  <!-- 深度刻度 -->
+  <g font-size="11" fill="#7a3b14" font-family="serif">
+    <line x1="60" y1="80" x2="60" y2="520" stroke="#7a3b14" stroke-width="1.5" opacity="0.5"/>
+    <text x="50" y="125" text-anchor="end">0m</text>
+    <line x1="55" y1="120" x2="65" y2="120" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="50" y="205" text-anchor="end">200m</text>
+    <line x1="55" y1="200" x2="65" y2="200" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="50" y="285" text-anchor="end">1000m</text>
+    <line x1="55" y1="280" x2="65" y2="280" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="50" y="365" text-anchor="end">4000m</text>
+    <line x1="55" y1="360" x2="65" y2="360" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="50" y="465" text-anchor="end">10000m</text>
+    <line x1="55" y1="460" x2="65" y2="460" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 分层标注 -->
+  <rect x="640" y="95" width="130" height="22" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="4" opacity="0.9"/>
+  <text x="705" y="110" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">透光层·鱼最多</text>
+  <rect x="640" y="255" width="130" height="22" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="4" opacity="0.9"/>
+  <text x="705" y="270" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">无光层·漆黑一片</text>
+
+  <!-- 早期：憋气潜水的人 -->
+  <g transform="translate(180, 130)">
+    <circle cx="0" cy="-10" r="10" fill="#f0d0a8" stroke="#c89060" stroke-width="1.5"/>
+    <path d="M-8 -8 L-12 0 L-8 2 M8 -8 L12 0 L8 2" fill="none" stroke="#f0d0a8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-6 2 L-4 20 L4 20 L6 2" fill="#e07856" stroke="#a04830" stroke-width="1.5"/>
+    <!-- 气泡 -->
+    <circle cx="-15" cy="-20" r="3" fill="none" stroke="#a8d8e8" stroke-width="1.5"/>
+    <circle cx="-20" cy="-30" r="2" fill="none" stroke="#a8d8e8" stroke-width="1.5"/>
+    <text x="0" y="40" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">憋气潜水</text>
+  </g>
+
+  <!-- 潜水钟 -->
+  <g transform="translate(340, 180)">
+    <path d="M-25 0 Q-25 -30 0 -30 Q25 -30 25 0 Z" fill="#6a4220" stroke="#4a2a10" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="25" ry="6" fill="#4a2a10"/>
+    <text x="0" y="20" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">潜水钟</text>
+  </g>
+
+  <!-- 的里雅斯特号（深潜器） -->
+  <g transform="translate(500, 340)">
+    <ellipse cx="0" cy="0" rx="35" ry="22" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-10" cy="-3" r="7" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-10" cy="-3" r="4" fill="#a8d8e8"/>
+    <rect x="-6" y="-26" width="12" height="6" fill="#6a4220" rx="2"/>
+    <!-- 浮筒 -->
+    <rect x="-30" y="-35" width="60" height="12" fill="#c8c8b8" stroke="#7a3b14" stroke-width="1.5" rx="3"/>
+    <text x="0" y="40" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">的里雅斯特号</text>
+    <text x="0" y="54" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">1960年·10916m</text>
+  </g>
+
+  <!-- 蛟龙号/奋斗者号 -->
+  <g transform="translate(300, 450)">
+    <ellipse cx="0" cy="0" rx="38" ry="24" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-12" cy="-4" r="8" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-12" cy="-4" r="5" fill="#a8d8e8"/>
+    <circle cx="12" cy="-4" r="7" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="12" cy="-4" r="4" fill="#a8d8e8"/>
+    <!-- 机械臂 -->
+    <path d="M-32 8 L-50 18" fill="none" stroke="#7a3b14" stroke-width="4" stroke-linecap="round"/>
+    <!-- 探照灯光 -->
+    <path d="M30 0 L70 -15 L70 15 Z" fill="#fff8c8" opacity="0.2"/>
+    <circle cx="32" cy="0" r="6" fill="#fff8c8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 五星红旗 -->
+    <rect x="-4" y="-30" width="16" height="10" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="42" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">奋斗者号</text>
+    <text x="0" y="56" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">中国·10909m</text>
+  </g>
+
+  <!-- 深海生物 -->
+  <g transform="translate(620, 430)">
+    <ellipse cx="0" cy="0" rx="16" ry="9" fill="#2d6a4f" opacity="0.7" stroke="#1a4a35" stroke-width="1.5"/>
+    <path d="M-16 0 L-24 -6 L-24 6 Z" fill="#2d6a4f" opacity="0.7"/>
+    <line x1="12" y1="-7" x2="24" y2="-18" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="26" cy="-20" r="5" fill="#e8a838" opacity="0.8"/>
+    <circle cx="26" cy="-20" r="2.5" fill="#fff8c8"/>
+  </g>
+
+  <!-- 海底 -->
+  <path d="M0 510 Q200 500 400 510 Q600 520 800 505 L800 530 L0 530 Z" fill="#6a4220" opacity="0.5"/>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">从憋气到潜水钟，从的里雅斯特到奋斗者号——人类一步步潜入海洋最深处。</text>
+</svg>

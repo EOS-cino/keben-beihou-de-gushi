@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="七星瓢虫是益虫的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">七星瓢虫真的是益虫吗</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">是的，它是大名鼎鼎的"活农药"，专吃蚜虫</text>
+
+  <!-- 大七星瓢虫 -->
+  <g transform="translate(400,200)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="55" ry="45" fill="#c84a3a"/>
+    <!-- 中线 -->
+    <line x1="0" y1="-45" x2="0" y2="45" stroke="#3a3a3a" stroke-width="2.5"/>
+    <!-- 头 -->
+    <ellipse cx="0" cy="-42" rx="18" ry="14" fill="#3a3a3a"/>
+    <!-- 触角 -->
+    <path d="M-6 -50 Q-12 -58 -16 -56" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <path d="M6 -50 Q12 -58 16 -56" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <!-- 七个黑点 -->
+    <circle cx="0" cy="-30" r="6" fill="#3a3a3a"/>
+    <circle cx="-22" cy="-15" r="7" fill="#3a3a3a"/>
+    <circle cx="22" cy="-15" r="7" fill="#3a3a3a"/>
+    <circle cx="-18" cy="12" r="7" fill="#3a3a3a"/>
+    <circle cx="18" cy="12" r="7" fill="#3a3a3a"/>
+    <circle cx="-10" cy="30" r="6" fill="#3a3a3a"/>
+    <circle cx="10" cy="30" r="6" fill="#3a3a3a"/>
+    <!-- 眼睛 -->
+    <circle cx="-6" cy="-44" r="2.5" fill="#fef9ed"/>
+    <circle cx="6" cy="-44" r="2.5" fill="#fef9ed"/>
+    <!-- 标注：七个斑点 -->
+    <text x="70" y="-30" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">七个斑点</text>
+    <line x1="40" y1="-25" x2="65" y2="-30" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="70" y="0" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">像七颗星</text>
+    <line x1="40" y1="0" x2="65" y2="0" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 瓢虫吃蚜虫 -->
+  <g transform="translate(200,200)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="14" fill="#6a8d3f" font-weight="bold">一天吃100多只</text>
+    <!-- 叶子 -->
+    <path d="M0 40 Q-40 30 -45 5 Q-25 -5 0 40 Z" fill="#6a8d3f"/>
+    <!-- 蚜虫 -->
+    <g fill="#3a3a3a">
+      <circle cx="-30" cy="15" r="3"/>
+      <circle cx="-22" cy="10" r="2.5"/>
+      <circle cx="-35" cy="8" r="3"/>
+      <circle cx="-18" cy="20" r="2.5"/>
+      <circle cx="-28" cy="25" r="3"/>
+    </g>
+    <!-- 小瓢虫在吃 -->
+    <g transform="translate(-25,12)">
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#c84a3a"/>
+      <line x1="0" y1="-6" x2="0" y2="6" stroke="#3a3a3a" stroke-width="1"/>
+      <circle cx="-4" cy="-2" r="1.5" fill="#3a3a3a"/>
+      <circle cx="4" cy="-2" r="1.5" fill="#3a3a3a"/>
+    </g>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">专吃蚜虫</text>
+  </g>
+
+  <!-- 瓢虫幼虫也吃蚜虫 -->
+  <g transform="translate(600,200)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="14" fill="#6a8d3f" font-weight="bold">幼虫也吃蚜虫</text>
+    <!-- 叶子 -->
+    <path d="M0 40 Q40 30 45 5 Q25 -5 0 40 Z" fill="#6a8d3f"/>
+    <!-- 幼虫（灰长形） -->
+    <g transform="translate(20,15)">
+      <ellipse cx="0" cy="0" rx="14" ry="6" fill="#5a5a4a"/>
+      <line x1="-8" y1="-4" x2="-6" y2="-2" stroke="#3a3a3a" stroke-width="1"/>
+      <line x1="0" y1="-5" x2="2" y2="-2" stroke="#3a3a3a" stroke-width="1"/>
+      <line x1="8" y1="-4" x2="10" y2="-2" stroke="#3a3a3a" stroke-width="1"/>
+      <circle cx="-12" cy="-2" r="2" fill="#3a3a3a"/>
+    </g>
+    <!-- 蚜虫 -->
+    <g fill="#3a3a3a">
+      <circle cx="10" cy="10" r="2.5"/>
+      <circle cx="5" cy="20" r="2.5"/>
+    </g>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">别误杀，是益虫宝宝</text>
+  </g>
+
+  <!-- 下方：益虫vs害虫 -->
+  <rect x="60" y="380" width="680" height="180" rx="12" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="410" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">不是所有瓢虫都是益虫</text>
+
+  <!-- 益虫 -->
+  <g transform="translate(220,470)">
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="15" fill="#6a8d3f" font-weight="bold">益虫</text>
+    <ellipse cx="0" cy="10" rx="22" ry="18" fill="#c84a3a"/>
+    <line x1="0" y1="-8" x2="0" y2="28" stroke="#3a3a3a" stroke-width="1.5"/>
+    <circle cx="-10" cy="5" r="3" fill="#3a3a3a"/>
+    <circle cx="10" cy="5" r="3" fill="#3a3a3a"/>
+    <circle cx="-8" cy="18" r="3" fill="#3a3a3a"/>
+    <circle cx="8" cy="18" r="3" fill="#3a3a3a"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#6a8d3f">七星瓢虫·吃蚜虫</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">圆滑·颜色鲜艳</text>
+  </g>
+
+  <!-- 害虫 -->
+  <g transform="translate(580,470)">
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="15" fill="#c84a3a" font-weight="bold">害虫</text>
+    <ellipse cx="0" cy="10" rx="22" ry="18" fill="#e0a050"/>
+    <line x1="0" y1="-8" x2="0" y2="28" stroke="#3a3a3a" stroke-width="1.5"/>
+    <circle cx="-10" cy="3" r="3" fill="#3a3a3a"/>
+    <circle cx="10" cy="3" r="3" fill="#3a3a3a"/>
+    <circle cx="-8" cy="12" r="3" fill="#3a3a3a"/>
+    <circle cx="8" cy="12" r="3" fill="#3a3a3a"/>
+    <circle cx="-6" cy="22" r="2.5" fill="#3a3a3a"/>
+    <circle cx="6" cy="22" r="2.5" fill="#3a3a3a"/>
+    <!-- 毛刺 -->
+    <line x1="-18" y1="0" x2="-22" y2="-2" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="18" y1="0" x2="22" y2="-2" stroke="#5a3a1a" stroke-width="1"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">马铃薯瓢虫·吃叶</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">有毛·斑点多</text>
+  </g>
+
+  <path d="M340 480 L460 480" stroke="#8d5a36" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="400" y="475" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">区分</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <marker id="arw7" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#c8843a"/>
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">医生为什么要"望闻问切"</text>
+  <line x1="250" y1="54" x2="550" y2="54" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="74" text-anchor="middle" font-size="13" fill="#9c6b3f" font-family="serif">—— 中医四诊，收集线索 ——</text>
+  <line x1="200" y1="92" x2="120" y2="62" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="40" y="50" width="80" height="22" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="80" y="65" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">中医</text>
+  <line x1="600" y1="98" x2="680" y2="62" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="680" y="50" width="80" height="22" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="720" y="65" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">病人</text>
+  <path d="M 180,150 L 160,240 L 155,258 L 245,258 L 240,240 L 220,150 Z" fill="#3a4a6b"/>
+  <line x1="200" y1="155" x2="200" y2="258" stroke="#2a3a5b" stroke-width="1"/>
+  <circle cx="200" cy="125" r="22" fill="#e8c39e"/>
+  <rect x="178" y="98" width="44" height="12" rx="2" fill="#1a1a1a"/>
+  <rect x="180" y="92" width="40" height="8" fill="#1a1a1a"/>
+  <circle cx="192" cy="125" r="2" fill="#1a1a1a"/>
+  <circle cx="208" cy="125" r="2" fill="#1a1a1a"/>
+  <path d="M 190,138 Q 200,156 210,138" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 193,140 L 193,150 M 200,142 L 200,153 M 207,140 L 207,150" stroke="#333" stroke-width="1.5"/>
+  <line x1="195" y1="135" x2="205" y2="135" stroke="#5c3a1e" stroke-width="1"/>
+  <path d="M 220,170 Q 260,185 300,205" fill="none" stroke="#3a4a6b" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="305" cy="208" r="8" fill="#e8c39e"/>
+  <path d="M 580,150 L 560,240 L 555,258 L 645,258 L 640,240 L 620,150 Z" fill="#8b5e3c"/>
+  <line x1="600" y1="155" x2="600" y2="258" stroke="#6b4423" stroke-width="1"/>
+  <circle cx="600" cy="125" r="22" fill="#f0d5b0"/>
+  <path d="M 580,115 Q 580,100 600,98 Q 620,100 620,115" fill="#1a1a1a"/>
+  <path d="M 590,125 Q 593,123 596,125" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 604,125 Q 607,123 610,125" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="595" y1="135" x2="605" y2="135" stroke="#5c3a1e" stroke-width="1"/>
+  <circle cx="585" cy="130" r="4" fill="#f5e0c0" opacity="0.5"/>
+  <circle cx="615" cy="130" r="4" fill="#f5e0c0" opacity="0.5"/>
+  <path d="M 580,170 Q 540,185 500,205" fill="none" stroke="#8b5e3c" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="495" cy="208" r="8" fill="#f0d5b0"/>
+  <path d="M 490,205 L 493,202 L 496,208 L 499,204 L 502,207" fill="none" stroke="#c0392b" stroke-width="1" opacity="0.6"/>
+  <rect x="340" y="225" width="120" height="10" rx="2" fill="#8b5e3c"/>
+  <rect x="352" y="235" width="6" height="25" fill="#6b4423"/>
+  <rect x="442" y="235" width="6" height="25" fill="#6b4423"/>
+  <rect x="360" y="212" width="28" height="13" rx="2" fill="#a0826d" stroke="#6b5d4f" stroke-width="1"/>
+  <line x1="365" y1="217" x2="383" y2="217" stroke="#6b5d4f" stroke-width="0.5"/>
+  <line x1="365" y1="221" x2="380" y2="221" stroke="#6b5d4f" stroke-width="0.5"/>
+  <ellipse cx="420" cy="218" rx="10" ry="4" fill="#5a8a4a" opacity="0.5"/>
+  <rect x="416" y="214" width="8" height="6" fill="#8b5e3c"/>
+  <path d="M 575,132 Q 568,130 565,134 M 570,128 Q 562,126 558,131" fill="none" stroke="#7a3b14" stroke-width="1" opacity="0.4"/>
+  <path d="M 350,95 Q 350,87 358,87 L 442,87 Q 450,87 450,95 L 450,113 Q 450,121 442,121 L 400,121 L 392,129 L 394,121 L 358,121 Q 350,121 350,113 Z" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.85"/>
+  <text x="400" y="109" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">哪里不舒服？</text>
+  <line x1="120" y1="275" x2="120" y2="298" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="80" y="253" width="80" height="22" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="120" y="268" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">望</text>
+  <line x1="280" y1="275" x2="280" y2="298" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="240" y="253" width="80" height="22" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="280" y="268" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">闻</text>
+  <line x1="440" y1="275" x2="440" y2="298" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="400" y="253" width="80" height="22" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="440" y="268" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">问</text>
+  <line x1="600" y1="275" x2="600" y2="298" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="560" y="253" width="80" height="22" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="600" y="268" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3b14" font-family="serif">切</text>
+  <circle cx="120" cy="328" r="28" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <ellipse cx="120" cy="326" rx="14" ry="8" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="120" cy="326" r="5" fill="#7a3b14"/>
+  <circle cx="122" cy="324" r="2" fill="#fef9ed"/>
+  <text x="120" y="373" text-anchor="middle" font-size="11" fill="#9c6b3f" font-family="serif">看面色</text>
+  <circle cx="280" cy="328" r="28" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <path d="M 272,316 Q 264,323 268,336 Q 272,342 280,340 Q 286,338 286,332 Q 286,328 282,326 Q 278,324 278,320 Q 278,316 282,316" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <text x="280" y="373" text-anchor="middle" font-size="11" fill="#9c6b3f" font-family="serif">听声音</text>
+  <circle cx="440" cy="328" r="28" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <path d="M 428,316 Q 428,310 434,310 L 452,310 Q 458,310 458,316 L 458,330 Q 458,336 452,336 L 440,336 L 434,342 L 436,336 Q 428,336 428,330 Z" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <text x="443" y="330" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">?</text>
+  <text x="440" y="373" text-anchor="middle" font-size="11" fill="#9c6b3f" font-family="serif">问症状</text>
+  <circle cx="600" cy="328" r="28" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <path d="M 588,318 L 588,338 M 594,316 L 594,340 M 600,314 L 600,342 M 606,316 L 606,340 M 612,318 L 612,338" stroke="#7a3b14" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 585,338 Q 600,344 615,338" fill="none" stroke="#7a3b14" stroke-width="2"/>
+  <text x="600" y="373" text-anchor="middle" font-size="11" fill="#9c6b3f" font-family="serif">把脉象</text>
+  <path d="M 152,328 L 248,328" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arw7)"/>
+  <path d="M 312,328 L 408,328" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arw7)"/>
+  <path d="M 472,328 L 568,328" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arw7)"/>
+  <rect x="60" y="395" width="680" height="185" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="400" y="423" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">中医看病讲究"望闻问切"四诊合参：望是观察病人的面色和神态，</text>
+  <text x="400" y="445" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">闻是听病人的声音和呼吸，问是询问症状和病史，切是按脉搏感受脉象。</text>
+  <text x="400" y="473" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">四种方法从不同角度收集身体的信号，相互印证、综合判断，</text>
+  <text x="400" y="495" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">医生才能准确了解病情，对症下药。</text>
+  <text x="400" y="523" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">望闻问切就像侦探收集线索，线索越多，判断越准确。</text>
+  <text x="400" y="555" text-anchor="middle" font-size="13" font-weight="bold" fill="#c8843a" font-family="serif">四诊合参，才能全面了解病情，这是中医的智慧。</text>
+</svg>

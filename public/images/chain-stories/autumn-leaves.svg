@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="树叶变黄原理与叶绿素分解的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">秋天树叶为什么会变黄</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">叶绿素怕冷分解后，原本的黄色素就显现出来了</text>
+
+  <!-- 三片叶子对比 -->
+  <!-- 夏天的绿叶 -->
+  <g transform="translate(160,250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="18" fill="#4a6a2f" font-weight="bold">夏天</text>
+    <!-- 叶子 -->
+    <path d="M0 -60 Q-50 -30 -45 20 Q-20 55 0 50 Q20 55 45 20 Q50 -30 0 -60 Z" fill="#6a8d3f"/>
+    <path d="M0 -60 L0 50" stroke="#4a6a2f" stroke-width="2"/>
+    <path d="M0 -30 L-30 -10 M0 -30 L30 -10 M0 0 L-35 15 M0 0 L35 15 M0 25 L-25 40 M0 25 L25 40" stroke="#4a6a2f" stroke-width="1.5"/>
+    <!-- 标注 -->
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">叶绿素多</text>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">绿色盖住黄色</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M240 250 L300 250" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#ar2)"/>
+  <text x="270" y="235" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">天凉了</text>
+
+  <!-- 秋天的黄叶 -->
+  <g transform="translate(400,250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="18" fill="#c8843a" font-weight="bold">秋天</text>
+    <path d="M0 -60 Q-50 -30 -45 20 Q-20 55 0 50 Q20 55 45 20 Q50 -30 0 -60 Z" fill="#e0a050"/>
+    <path d="M0 -60 L0 50" stroke="#c8843a" stroke-width="2"/>
+    <path d="M0 -30 L-30 -10 M0 -30 L30 -10 M0 0 L-35 15 M0 0 L35 15 M0 25 L-25 40 M0 25 L25 40" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a">叶绿素分解</text>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">黄色素显现</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M480 250 L540 250" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#ar2)"/>
+  <text x="510" y="235" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">风吹</text>
+
+  <!-- 落叶 -->
+  <g transform="translate(640,250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">落叶</text>
+    <path d="M0 -50 Q-42 -25 -38 18 Q-18 46 0 42 Q18 46 38 18 Q42 -25 0 -50 Z" fill="#c8843a" transform="rotate(25 0 0)"/>
+    <path d="M0 -50 L0 42" stroke="#7a3b14" stroke-width="2" transform="rotate(25 0 0)"/>
+    <!-- 地面线 -->
+    <line x1="-55" y1="60" x2="55" y2="60" stroke="#8d5a36" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">叶柄断开</text>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">落叶变成养分</text>
+  </g>
+
+  <!-- 下方：叶子里的色素说明 -->
+  <rect x="60" y="400" width="680" height="160" fill="#fef0d8" rx="12" opacity="0.6"/>
+  <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">一片叶子里藏着三种色素</text>
+
+  <!-- 三种色素 -->
+  <g transform="translate(180,490)">
+    <circle cx="0" cy="0" r="22" fill="#6a8d3f"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="13" fill="#4a6a2f" font-weight="bold">叶绿素</text>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">绿色·怕冷</text>
+  </g>
+  <g transform="translate(400,490)">
+    <circle cx="0" cy="0" r="22" fill="#e0a050"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a" font-weight="bold">叶黄素</text>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">黄色·一直在</text>
+  </g>
+  <g transform="translate(620,490)">
+    <circle cx="0" cy="0" r="22" fill="#e07856"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a" font-weight="bold">胡萝卜素</text>
+    <text x="0" y="62" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">橙色·一直在</text>
+  </g>
+
+  <defs>
+    <marker id="ar2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+</svg>

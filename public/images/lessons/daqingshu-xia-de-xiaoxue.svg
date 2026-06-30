@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="大青树下边疆民族小学插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">大青树下的小学</text>
+  <line x1="280" y1="58" x2="520" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="64" width="800" height="200" fill="#e8f0d8"/>
+  <!-- 远山 -->
+  <path d="M0 230 Q150 160 300 210 Q450 150 600 200 Q700 170 800 215 L800 264 L0 264 Z" fill="#9ab87a" opacity="0.6"/>
+  <path d="M0 250 Q200 200 400 240 Q600 190 800 240 L800 264 L0 264 Z" fill="#7a9a5a" opacity="0.7"/>
+  <!-- 太阳 -->
+  <circle cx="700" cy="110" r="24" fill="#e8a838" opacity="0.7"/>
+
+  <!-- 大青树树干 -->
+  <rect x="370" y="200" width="60" height="200" fill="#8d5a36" rx="6"/>
+  <path d="M370 220 Q355 240 345 270" fill="none" stroke="#8d5a36" stroke-width="10" stroke-linecap="round"/>
+  <path d="M430 230 Q450 250 460 280" fill="none" stroke="#8d5a36" stroke-width="10" stroke-linecap="round"/>
+  <!-- 气根 -->
+  <path d="M395 300 Q398 340 396 380" fill="none" stroke="#8d5a36" stroke-width="5"/>
+  <!-- 树冠（大青树/榕树） -->
+  <ellipse cx="400" cy="150" rx="200" ry="90" fill="#4a7a2a"/>
+  <ellipse cx="320" cy="170" rx="90" ry="60" fill="#5a8a3a"/>
+  <ellipse cx="480" cy="165" rx="100" ry="65" fill="#5a8a3a"/>
+  <ellipse cx="400" cy="120" rx="120" ry="55" fill="#6a9a4a"/>
+  <ellipse cx="350" cy="140" rx="60" ry="40" fill="#6a9a4a"/>
+  <ellipse cx="450" cy="135" rx="65" ry="42" fill="#6a9a4a"/>
+
+  <!-- 地面/操场 -->
+  <rect x="0" y="400" width="800" height="160" fill="#c8a878"/>
+  <rect x="0" y="400" width="800" height="10" fill="#b89868"/>
+
+  <!-- 教室（简化的房屋） -->
+  <g transform="translate(540,300)">
+    <rect x="0" y="40" width="180" height="80" fill="#f0e0c0" stroke="#8d5a36" stroke-width="2.5"/>
+    <path d="M-10 40 L90 0 L190 40 Z" fill="#a85a3a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="30" y="60" width="30" height="40" fill="#a8d8e8" stroke="#8d5a36" stroke-width="1.5"/>
+    <rect x="120" y="60" width="30" height="40" fill="#a8d8e8" stroke="#8d5a36" stroke-width="1.5"/>
+    <rect x="75" y="70" width="30" height="50" fill="#8d5a36"/>
+  </g>
+
+  <!-- 孩子们（不同民族服饰） -->
+  <!-- 孩子1 红衣 -->
+  <g transform="translate(150,420)">
+    <circle cx="0" cy="-50" r="12" fill="#e8c4a0"/>
+    <path d="M-12 -55 Q0 -68 12 -55 Z" fill="#c8483a"/>
+    <rect x="-12" y="-38" width="24" height="30" rx="4" fill="#c8483a"/>
+    <rect x="-6" y="-8" width="12" height="20" fill="#5a3a1a"/>
+    <circle cx="-4" cy="-52" r="1.5" fill="#3d2817"/><circle cx="4" cy="-52" r="1.5" fill="#3d2817"/>
+  </g>
+  <!-- 孩子2 蓝衣 -->
+  <g transform="translate(210,430)">
+    <circle cx="0" cy="-48" r="12" fill="#e8c4a0"/>
+    <path d="M-13 -58 Q0 -70 13 -58 L13 -52 L-13 -52 Z" fill="#3a6a9a"/>
+    <rect x="-12" y="-36" width="24" height="28" rx="4" fill="#3a6a9a"/>
+    <rect x="-6" y="-8" width="12" height="20" fill="#3d2817"/>
+    <circle cx="-4" cy="-50" r="1.5" fill="#3d2817"/><circle cx="4" cy="-50" r="1.5" fill="#3d2817"/>
+  </g>
+  <!-- 孩子3 绿衣 -->
+  <g transform="translate(270,425)">
+    <circle cx="0" cy="-50" r="12" fill="#e8c4a0"/>
+    <ellipse cx="0" cy="-62" rx="14" ry="6" fill="#5a8a3a"/>
+    <rect x="-12" y="-38" width="24" height="30" rx="4" fill="#5a8a3a"/>
+    <rect x="-6" y="-8" width="12" height="20" fill="#4a3525"/>
+    <circle cx="-4" cy="-52" r="1.5" fill="#3d2817"/><circle cx="4" cy="-52" r="1.5" fill="#3d2817"/>
+  </g>
+  <!-- 孩子4 黄衣 -->
+  <g transform="translate(330,432)">
+    <circle cx="0" cy="-48" r="12" fill="#e8c4a0"/>
+    <path d="M-12 -56 Q0 -68 12 -56 Z" fill="#e8a838"/>
+    <rect x="-12" y="-36" width="24" height="28" rx="4" fill="#e8a838"/>
+    <rect x="-6" y="-8" width="12" height="20" fill="#5a3a1a"/>
+    <circle cx="-4" cy="-50" r="1.5" fill="#3d2817"/><circle cx="4" cy="-50" r="1.5" fill="#3d2817"/>
+  </g>
+
+  <!-- 小鸟 -->
+  <g fill="#7a3b14">
+    <path d="M250 110 Q258 104 266 110 Q258 116 250 110 Z"/>
+    <path d="M300 95 Q308 89 316 95 Q308 101 300 95 Z"/>
+    <path d="M520 105 Q528 99 536 105 Q528 111 520 105 Z"/>
+  </g>
+
+  <!-- 标注：大青树 -->
+  <line x1="400" y1="150" x2="620" y2="120" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="610" y="100" width="90" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="655" y="119" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">大青树</text>
+
+  <!-- 标注：不同民族的孩子 -->
+  <line x1="210" y1="430" x2="120" y2="470" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="20" y="455" width="120" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="80" y="474" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">各族小朋友</text>
+
+  <!-- 标注：教室 -->
+  <line x1="630" y1="340" x2="700" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="660" y="285" width="80" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="700" y="304" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">教室</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="548" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="573" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">边疆的大青树下，不同民族的孩子聚在一起读书、游戏，校园里充满欢声笑语。</text>
+</svg>

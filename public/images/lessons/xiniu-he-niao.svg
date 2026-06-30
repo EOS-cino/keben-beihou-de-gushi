@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="犀牛背上停着一只小鸟帮它啄虫的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">犀牛和鸟</text>
+  <line x1="350" y1="58" x2="450" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 草原背景 -->
+  <rect x="0" y="380" width="800" height="220" fill="#c8b878" opacity="0.4"/>
+  <path d="M0 380 Q400 360 800 380 L800 600 L0 600 Z" fill="#8d5a36" opacity="0.3"/>
+  <!-- 远树 -->
+  <rect x="60" y="320" width="6" height="60" fill="#8d5a36"/>
+  <path d="M40 320 Q63 270 86 320 Z" fill="#6a8d3f" opacity="0.6"/>
+  <rect x="720" y="310" width="6" height="70" fill="#8d5a36"/>
+  <path d="M700 310 Q723 260 746 310 Z" fill="#6a8d3f" opacity="0.6"/>
+
+  <!-- 犀牛 -->
+  <g transform="translate(400,360)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="150" ry="70" fill="#8d8d7a" stroke="#6a6a5a" stroke-width="2"/>
+    <!-- 腿 -->
+    <rect x="-110" y="50" width="28" height="60" rx="4" fill="#8d8d7a" stroke="#6a6a5a" stroke-width="2"/>
+    <rect x="-50" y="55" width="28" height="55" rx="4" fill="#8d8d7a" stroke="#6a6a5a" stroke-width="2"/>
+    <rect x="30" y="55" width="28" height="55" rx="4" fill="#8d8d7a" stroke="#6a6a5a" stroke-width="2"/>
+    <rect x="90" y="50" width="28" height="60" rx="4" fill="#8d8d7a" stroke="#6a6a5a" stroke-width="2"/>
+    <!-- 头 -->
+    <ellipse cx="150" cy="-10" rx="60" ry="50" fill="#8d8d7a" stroke="#6a6a5a" stroke-width="2"/>
+    <!-- 角 -->
+    <path d="M165 -50 L185 -95 L175 -48 Z" fill="#d8d0c0" stroke="#8d8d7a" stroke-width="2"/>
+    <path d="M150 -45 L160 -75 L155 -43 Z" fill="#c8c0b0" stroke="#8d8d7a" stroke-width="2"/>
+    <!-- 耳朵 -->
+    <ellipse cx="120" cy="-45" rx="10" ry="14" fill="#7a7a6a" stroke="#6a6a5a" stroke-width="1.5"/>
+    <!-- 眼睛 -->
+    <circle cx="165" cy="-20" r="5" fill="#3a3a2a"/>
+    <circle cx="167" cy="-22" r="1.5" fill="#fff6df"/>
+    <!-- 皮肤褶皱 -->
+    <g fill="none" stroke="#6a6a5a" stroke-width="1.5" opacity="0.5">
+      <path d="M-80 -30 Q-60 -20 -40 -30"/>
+      <path d="M-20 -40 Q0 -30 20 -40"/>
+      <path d="M40 -30 Q60 -20 80 -30"/>
+    </g>
+    <!-- 尾巴 -->
+    <path d="M-150 -10 Q-180 0 -185 30" fill="none" stroke="#8d8d7a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 小虫（在褶皱里） -->
+  <g fill="#c84a3a">
+    <circle cx="320" cy="335" r="3"/>
+    <circle cx="420" cy="325" r="3"/>
+    <circle cx="380" cy="340" r="2.5"/>
+  </g>
+
+  <!-- 犀牛鸟（停在背上） -->
+  <g transform="translate(360,300)">
+    <ellipse cx="0" cy="0" rx="18" ry="12" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="14" cy="-4" r="9" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M22 -4 L30 -2 L22 2 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="16" cy="-6" r="2" fill="#7a3b14"/>
+    <!-- 翅膀 -->
+    <path d="M-4 -6 Q-14 -16 -20 -8 Q-12 -2 -4 -2 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 尾羽 -->
+    <path d="M-18 2 L-28 6 L-18 8 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 腿 -->
+    <line x1="2" y1="10" x2="2" y2="18" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="8" y1="10" x2="8" y2="18" stroke="#7a3b14" stroke-width="2"/>
+  </g>
+
+  <!-- 啄虫动作线 -->
+  <path d="M360 295 Q355 320 345 332" fill="none" stroke="#c84a3a" stroke-width="2" stroke-dasharray="3,2"/>
+
+  <!-- 标注：小鸟啄虫 -->
+  <line x1="345" y1="290" x2="250" y2="240" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="160" y="220" width="120" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="220" y="239" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">小鸟啄虫</text>
+
+  <!-- 标注：皮肤褶皱里的虫 -->
+  <line x1="380" y1="340" x2="460" y2="380" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="450" y="370" width="120" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="510" y="389" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">褶皱里的虫</text>
+
+  <!-- 标注：犀牛 -->
+  <line x1="550" y1="360" x2="620" y2="320" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="600" y="300" width="90" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="645" y="319" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">犀牛</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="528" width="720" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="553" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">小鸟帮犀牛清理皮肤上的虫，犀牛给小鸟提供食物——这就是共生。</text>
+</svg>

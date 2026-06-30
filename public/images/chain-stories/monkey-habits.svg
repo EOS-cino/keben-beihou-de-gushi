@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="猴子生活习性插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">猴子的生活习性</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">了解真猴子，才懂小猴子为什么"见一个扔一个"</text>
+
+  <!-- 四个习性卡片 -->
+  <!-- 卡片1：群居 -->
+  <g transform="translate(150,180)">
+    <rect x="-100" y="-40" width="200" height="180" rx="12" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-18" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">①群居生活</text>
+    <!-- 几只猴子 -->
+    <g transform="translate(-40,40)">
+      <ellipse cx="0" cy="0" rx="12" ry="14" fill="#8d5a36"/>
+      <circle cx="0" cy="-15" r="10" fill="#8d5a36"/>
+      <circle cx="-3" cy="-15" r="1.5" fill="#1a1a1a"/>
+      <circle cx="3" cy="-15" r="1.5" fill="#1a1a1a"/>
+    </g>
+    <g transform="translate(0,50)">
+      <ellipse cx="0" cy="0" rx="14" ry="16" fill="#8d5a36"/>
+      <circle cx="0" cy="-18" r="11" fill="#8d5a36"/>
+      <!-- 猴王稍大 -->
+      <path d="M-8 -28 L0 -34 L8 -28" fill="#c84a3a"/>
+    </g>
+    <g transform="translate(40,42)">
+      <ellipse cx="0" cy="0" rx="12" ry="14" fill="#8d5a36"/>
+      <circle cx="0" cy="-15" r="10" fill="#8d5a36"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">几十只一群，猴王带头</text>
+    <text x="0" y="118" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">住在树上</text>
+  </g>
+
+  <!-- 卡片2：手灵活 -->
+  <g transform="translate(400,180)">
+    <rect x="-100" y="-40" width="200" height="180" rx="12" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-18" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">②手很灵活</text>
+    <!-- 猴手捏东西 -->
+    <g transform="translate(0,50)">
+      <!-- 手掌 -->
+      <ellipse cx="0" cy="10" rx="20" ry="14" fill="#c8a070"/>
+      <!-- 拇指 -->
+      <ellipse cx="-18" cy="5" rx="5" ry="10" fill="#c8a070" transform="rotate(-20 -18 5)"/>
+      <!-- 其他手指 -->
+      <ellipse cx="-8" cy="-8" rx="3.5" ry="10" fill="#c8a070"/>
+      <ellipse cx="0" cy="-10" rx="3.5" ry="11" fill="#c8a070"/>
+      <ellipse cx="8" cy="-8" rx="3.5" ry="10" fill="#c8a070"/>
+      <ellipse cx="15" cy="-4" rx="3" ry="8" fill="#c8a070"/>
+      <!-- 捏住的果子 -->
+      <circle cx="-4" cy="-2" r="8" fill="#e07856"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">拇指能对捏</text>
+    <text x="0" y="118" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">能掰玉米、剥果皮</text>
+  </g>
+
+  <!-- 卡片3：杂食 -->
+  <g transform="translate(650,180)">
+    <rect x="-100" y="-40" width="200" height="180" rx="12" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-18" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14" font-weight="bold">③什么都吃</text>
+    <!-- 各种食物 -->
+    <g transform="translate(0,50)">
+      <ellipse cx="-30" cy="0" rx="10" ry="14" fill="#e0a050"/><!-- 玉米 -->
+      <circle cx="0" cy="-5" r="10" fill="#e07856"/><!-- 桃子 -->
+      <ellipse cx="25" cy="0" rx="14" ry="10" fill="#4a6a2f"/><!-- 西瓜 -->
+      <ellipse cx="-30" cy="25" rx="8" ry="5" fill="#6a8d3f"/><!-- 叶子 -->
+      <circle cx="10" cy="25" r="6" fill="#c84a3a"/><!-- 果子 -->
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">水果·嫩叶·昆虫</text>
+    <text x="0" y="118" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">摘一口扔一个，挑最甜的</text>
+  </g>
+
+  <!-- 卡片4：好奇好动 -->
+  <g transform="translate(275,430)">
+    <rect x="-100" y="-30" width="200" height="150" rx="12" fill="#fef0d8" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="15" fill="#c84a3a" font-weight="bold">④好奇好动</text>
+    <!-- 猴子追东西 -->
+    <g transform="translate(-30,40)">
+      <ellipse cx="0" cy="0" rx="14" ry="14" fill="#8d5a36"/>
+      <circle cx="0" cy="-15" r="11" fill="#8d5a36"/>
+      <circle cx="-3" cy="-15" r="2" fill="#1a1a1a"/>
+      <circle cx="3" cy="-15" r="2" fill="#1a1a1a"/>
+      <path d="M-3 -8 Q0 -6 3 -8" fill="none" stroke="#7a3b14" stroke-width="1"/>
+      <!-- 跑 -->
+      <path d="M-20 -5 L-12 -5 M-22 0 L-14 0" stroke="#8d5a36" stroke-width="1.5" opacity="0.5"/>
+    </g>
+    <!-- 小兔 -->
+    <g transform="translate(40,45)">
+      <ellipse cx="0" cy="0" rx="10" ry="8" fill="#e8e0d0"/>
+      <ellipse cx="-4" cy="-10" rx="3" ry="8" fill="#e8e0d0"/>
+    </g>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">注意力容易转移</text>
+    <text x="0" y="108" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">看见新的就追过去</text>
+  </g>
+
+  <!-- 总结 -->
+  <g transform="translate(525,430)">
+    <rect x="-100" y="-30" width="200" height="150" rx="12" fill="#fef0d8" opacity="0.8" stroke="#6a8d3f" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="15" fill="#6a8d3f" font-weight="bold">寓言的夸张</text>
+    <g font-family="serif" font-size="12" fill="#7a3b14">
+      <text x="0" y="20" text-anchor="middle">真猴子：好奇是</text>
+      <text x="0" y="38" text-anchor="middle">生存本领</text>
+      <text x="0" y="62" text-anchor="middle">小猴子：好奇过了头</text>
+      <text x="0" y="80" text-anchor="middle">→空手回家</text>
+    </g>
+    <text x="0" y="108" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">道理：做事要专心</text>
+  </g>
+</svg>

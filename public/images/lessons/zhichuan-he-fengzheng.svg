@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="松鼠和小熊用纸船和风筝传递友谊的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#7a3b14">纸船和风筝</text>
+  <line x1="320" y1="56" x2="480" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="300" fill="#d6ecf7"/>
+  <!-- 山（左边高，松鼠住处） -->
+  <path d="M0 380 L150 150 L300 380 Z" fill="#6a8a5a" opacity="0.7"/>
+  <path d="M0 380 L120 200 L240 380 Z" fill="#5a7a4a" opacity="0.6"/>
+  <!-- 山脚（右边，小熊住处） -->
+  <path d="M500 380 L650 280 L800 380 Z" fill="#8a7a5a" opacity="0.5"/>
+  <!-- 地面 -->
+  <rect x="0" y="380" width="800" height="220" fill="#c8e8a8"/>
+  <!-- 小溪 -->
+  <path d="M150 380 Q200 420 250 440 Q320 470 400 490 Q500 510 600 520 Q700 530 780 535" fill="none" stroke="#7ec0db" stroke-width="20"/>
+  <path d="M150 380 Q200 420 250 440 Q320 470 400 490 Q500 510 600 520 Q700 530 780 535" fill="none" stroke="#a8d4e8" stroke-width="14"/>
+
+  <!-- 太阳 -->
+  <circle cx="700" cy="130" r="25" fill="#f4b942" opacity="0.8"/>
+
+  <!-- 松鼠（山顶） -->
+  <g transform="translate(150,200)">
+    <!-- 大尾巴 -->
+    <path d="M-15 10 Q-35 0 -40 -25 Q-35 -35 -25 -30 Q-20 -15 -15 0" fill="#c88040"/>
+    <path d="M-18 8 Q-30 0 -33 -20 Q-28 -28 -22 -25" fill="#e8a050"/>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="5" rx="16" ry="14" fill="#c88040"/>
+    <ellipse cx="0" cy="3" rx="13" ry="11" fill="#e8a050"/>
+    <!-- 肚子 -->
+    <ellipse cx="3" cy="8" rx="8" ry="8" fill="#fff0d8"/>
+    <!-- 头 -->
+    <circle cx="8" cy="-8" r="12" fill="#c88040"/>
+    <circle cx="8" cy="-6" r="10" fill="#e8a050"/>
+    <!-- 耳朵 -->
+    <path d="M2 -16 L0 -24 L6 -20 Z" fill="#c88040"/>
+    <path d="M14 -16 L16 -24 L12 -20 Z" fill="#c88040"/>
+    <!-- 眼睛 -->
+    <circle cx="5" cy="-8" r="2" fill="#1a1a1a"/>
+    <circle cx="13" cy="-8" r="2" fill="#1a1a1a"/>
+    <!-- 鼻子 -->
+    <circle cx="10" cy="-3" r="1.5" fill="#1a1a1a"/>
+    <!-- 嘴 -->
+    <path d="M8 0 Q10 2 12 0" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 手（折纸船） -->
+    <ellipse cx="-8" cy="10" rx="4" ry="6" fill="#c88040"/>
+  </g>
+
+  <!-- 小熊（山脚） -->
+  <g transform="translate(650,340)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="10" rx="20" ry="18" fill="#8a6a4a"/>
+    <ellipse cx="0" cy="8" rx="16" ry="14" fill="#a88a6a"/>
+    <!-- 肚子 -->
+    <ellipse cx="0" cy="12" rx="10" ry="10" fill="#d8b888"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-12" r="16" fill="#8a6a4a"/>
+    <circle cx="0" cy="-10" r="13" fill="#a88a6a"/>
+    <!-- 耳朵 -->
+    <circle cx="-12" cy="-22" r="6" fill="#8a6a4a"/>
+    <circle cx="12" cy="-22" r="6" fill="#8a6a4a"/>
+    <circle cx="-12" cy="-22" r="3" fill="#a88a6a"/>
+    <circle cx="12" cy="-22" r="3" fill="#a88a6a"/>
+    <!-- 眼睛 -->
+    <circle cx="-5" cy="-12" r="2" fill="#1a1a1a"/>
+    <circle cx="5" cy="-12" r="2" fill="#1a1a1a"/>
+    <!-- 鼻子 -->
+    <ellipse cx="0" cy="-5" rx="3" ry="2.5" fill="#1a1a1a"/>
+    <!-- 嘴 -->
+    <path d="M-4 -1 Q0 2 4 -1" fill="none" stroke="#7a3b14" stroke-width="1.2"/>
+    <!-- 手（举风筝线） -->
+    <ellipse cx="-15" cy="5" rx="4" ry="6" fill="#8a6a4a" transform="rotate(-30 -15 5)"/>
+  </g>
+
+  <!-- 纸船（在小溪上漂流） -->
+  <g transform="translate(350,475)">
+    <path d="M-15 0 L-10 -8 L10 -8 L15 0 Z" fill="#fff8e0" stroke="#c8843a" stroke-width="1.5"/>
+    <path d="M0 -8 L0 -18 L8 -10 L0 -8" fill="#fff8e0" stroke="#c8843a" stroke-width="1.2"/>
+    <text x="0" y="3" text-anchor="middle" font-size="6" fill="#7a3b14">快乐</text>
+  </g>
+  <!-- 漂流箭头 -->
+  <path d="M200 430 Q250 445 300 460" fill="none" stroke="#5da8c8" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arr3)"/>
+
+  <!-- 风筝（飞在天空） -->
+  <g transform="translate(450,150)">
+    <!-- 风筝 -->
+    <path d="M0 -20 L15 0 L0 20 L-15 0 Z" fill="#e84030" stroke="#c82010" stroke-width="1.5"/>
+    <path d="M0 -20 L0 20" stroke="#c82010" stroke-width="1"/>
+    <path d="M-15 0 L15 0" stroke="#c82010" stroke-width="1"/>
+    <!-- 风筝尾巴 -->
+    <path d="M0 20 Q5 30 -3 35 Q3 40 -2 45" fill="none" stroke="#e84030" stroke-width="2"/>
+    <rect x="-2" y="28" width="4" height="3" fill="#f4d830"/>
+    <rect x="-2" y="36" width="4" height="3" fill="#f4d830"/>
+    <!-- 风筝线 -->
+    <path d="M0 20 Q100 100 250 180 Q350 230 635 335" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- 标注：松鼠 -->
+  <line x1="150" y1="190" x2="80" y2="130" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="30" y="115" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="75" y="133" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">松鼠（山顶）</text>
+
+  <!-- 标注：小熊 -->
+  <line x1="650" y1="320" x2="720" y2="280" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="680" y="265" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="725" y="283" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">小熊（山脚）</text>
+
+  <!-- 标注：纸船 -->
+  <line x1="350" y1="465" x2="280" y2="490" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="220" y="478" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="260" y="496" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">纸船漂流</text>
+
+  <!-- 标注：风筝 -->
+  <line x1="450" y1="150" x2="550" y2="100" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="530" y="85" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="570" y="103" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">风筝飞翔</text>
+
+  <defs>
+    <marker id="arr3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#5da8c8"/>
+    </marker>
+  </defs>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">纸船漂下来，风筝飞上去，传递着松鼠和小熊的友谊</text>
+</svg>

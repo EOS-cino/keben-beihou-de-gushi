@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="从万户飞天到莱特兄弟的故事画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="300" y1="300" x2="500" y2="300" stroke="#7a3b14" stroke-width="3" stroke-dasharray="8,6"/>
+  <circle cx="350" cy="300" r="6" fill="#d4a017"/>
+  <circle cx="400" cy="300" r="9" fill="#c8553d"/>
+  <circle cx="450" cy="300" r="6" fill="#d4a017"/>
+  <!-- 左珠：万户 -->
+  <circle cx="170" cy="300" r="110" fill="#b5651d" opacity="0.25" stroke="#b5651d" stroke-width="3"/>
+  <rect x="155" y="290" width="30" height="24" fill="#8a6d3b"/>
+  <line x1="158" y1="290" x2="148" y2="270" stroke="#c8553d" stroke-width="2"/>
+  <line x1="182" y1="290" x2="192" y2="270" stroke="#c8553d" stroke-width="2"/>
+  <line x1="170" y1="290" x2="170" y2="268" stroke="#c8553d" stroke-width="2"/>
+  <text x="170" y="340" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">万户</text>
+  <text x="170" y="363" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">椅子绑火箭</text>
+  <!-- 右珠：莱特兄弟飞机 -->
+  <circle cx="630" cy="300" r="110" fill="#1e5f8e" opacity="0.25" stroke="#1e5f8e" stroke-width="3"/>
+  <ellipse cx="630" cy="295" rx="40" ry="8" fill="#5d4037"/>
+  <line x1="600" y1="295" x2="585" y2="280" stroke="#3a3a3a" stroke-width="2"/>
+  <line x1="660" y1="295" x2="675" y2="280" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="624" y="300" width="12" height="14" fill="#3a3a3a"/>
+  <text x="630" y="340" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#7a3b14">莱特兄弟</text>
+  <text x="630" y="363" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">第一架飞机</text>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">千年梦圆，万户的飞天椅</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">一个梦，要经过好多代人才能成真</text>
+</svg>

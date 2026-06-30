@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="燕子飞去复来、杨柳枯荣、桃花开谢、时间如流水插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">匆匆</text>
+  <line x1="370" y1="58" x2="430" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="240" fill="#e8e8f0" opacity="0.3"/>
+  <!-- 云 -->
+  <ellipse cx="150" cy="110" rx="40" ry="12" fill="#fff" opacity="0.5"/>
+  <ellipse cx="600" cy="100" rx="45" ry="14" fill="#fff" opacity="0.5"/>
+
+  <!-- 燕子（去了再来） -->
+  <g transform="translate(250, 130)">
+    <path d="M -15 0 Q -8 -8 0 -5 Q 8 -8 15 0 Q 8 3 0 0 Q -8 3 -15 0" fill="#3a3a3a" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M -10 0 Q -15 5 -18 10" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <path d="M 10 0 Q 15 5 18 10" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <!-- 飞行轨迹（虚线弧） -->
+    <path d="M -30 5 Q 0 -15 30 5" fill="none" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+  <g transform="translate(550, 140)">
+    <path d="M -12 0 Q -6 -6 0 -4 Q 6 -6 12 0 Q 6 2 0 0 Q -6 2 -12 0" fill="#3a3a3a" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M -8 0 Q -12 4 -14 8" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+    <path d="M 8 0 Q 12 4 14 8" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+  </g>
+
+  <!-- 杨柳（枯了再青） -->
+  <g transform="translate(120, 310)">
+    <!-- 树干 -->
+    <path d="M 0 0 Q -2 -40 -5 -80 Q -8 -110 -5 -140" fill="none" stroke="#5a4a2a" stroke-width="4"/>
+    <!-- 枝条（垂柳） -->
+    <path d="M -5 -100 Q -20 -90 -35 -80" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+    <path d="M -5 -110 Q 10 -100 25 -90" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+    <path d="M -5 -120 Q -15 -115 -28 -108" fill="none" stroke="#5a4a2a" stroke-width="1.5"/>
+    <!-- 嫩绿柳叶 -->
+    <ellipse cx="-30" cy="-80" rx="2" ry="6" fill="#7aaa5a" stroke="#5a8a3a" stroke-width="0.8" transform="rotate(-30 -30 -80)"/>
+    <ellipse cx="22" cy="-90" rx="2" ry="6" fill="#7aaa5a" stroke="#5a8a3a" stroke-width="0.8" transform="rotate(30 22 -90)"/>
+    <ellipse cx="-25" cy="-108" rx="2" ry="5" fill="#8aba6a" stroke="#5a8a3a" stroke-width="0.8" transform="rotate(-20 -25 -108)"/>
+    <ellipse cx="-15" cy="-95" rx="2" ry="5" fill="#7aaa5a" stroke="#5a8a3a" stroke-width="0.8"/>
+    <ellipse cx="15" cy="-100" rx="2" ry="5" fill="#8aba6a" stroke="#5a8a3a" stroke-width="0.8"/>
+  </g>
+
+  <!-- 桃花（谢了再开） -->
+  <g transform="translate(680, 310)">
+    <!-- 枝干 -->
+    <path d="M 0 0 Q 5 -30 10 -60 Q 15 -90 10 -120" fill="none" stroke="#5a4a2a" stroke-width="4"/>
+    <path d="M 10 -80 Q 25 -75 35 -70" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+    <path d="M 10 -100 Q -5 -95 -15 -88" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+    <!-- 桃花 -->
+    <g transform="translate(30, -72)">
+      <circle cx="-4" cy="0" r="4" fill="#f0a8b8" stroke="#c87888" stroke-width="1"/>
+      <circle cx="4" cy="0" r="4" fill="#f0a8b8" stroke="#c87888" stroke-width="1"/>
+      <circle cx="0" cy="-4" r="4" fill="#f0a8b8" stroke="#c87888" stroke-width="1"/>
+      <circle cx="0" cy="4" r="4" fill="#f0a8b8" stroke="#c87888" stroke-width="1"/>
+      <circle cx="0" cy="0" r="2" fill="#f0c840"/>
+    </g>
+    <g transform="translate(-12, -90)">
+      <circle cx="-3" cy="0" r="3" fill="#f0b8c8" stroke="#c87888" stroke-width="0.8"/>
+      <circle cx="3" cy="0" r="3" fill="#f0b8c8" stroke="#c87888" stroke-width="0.8"/>
+      <circle cx="0" cy="-3" r="3" fill="#f0b8c8" stroke="#c87888" stroke-width="0.8"/>
+      <circle cx="0" cy="0" r="1.5" fill="#f0c840"/>
+    </g>
+    <g transform="translate(5, -110)">
+      <circle cx="-3" cy="0" r="3" fill="#f0a8b8" stroke="#c87888" stroke-width="0.8"/>
+      <circle cx="3" cy="0" r="3" fill="#f0a8b8" stroke="#c87888" stroke-width="0.8"/>
+      <circle cx="0" cy="-3" r="3" fill="#f0a8b8" stroke="#c87888" stroke-width="0.8"/>
+      <circle cx="0" cy="0" r="1.5" fill="#f0c840"/>
+    </g>
+  </g>
+
+  <!-- 中央：时间如流水 -->
+  <g transform="translate(400, 310)">
+    <!-- 沙漏 -->
+    <path d="M -30 -50 L 30 -50 L 30 -45 L 5 0 L 30 45 L 30 50 L -30 50 L -30 45 L -5 0 L -30 -45 Z" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 上半沙 -->
+    <path d="M -25 -45 L 25 -45 L 5 -5 L -5 -5 Z" fill="#e8c868" opacity="0.7"/>
+    <!-- 下半沙（少） -->
+    <path d="M -15 45 L 15 45 L 3 20 L -3 20 Z" fill="#e8c868" opacity="0.5"/>
+    <!-- 流沙 -->
+    <line x1="0" y1="-5" x2="0" y2="20" stroke="#e8c868" stroke-width="1.5"/>
+    <!-- 水滴比喻 -->
+    <ellipse cx="0" cy="-70" rx="4" ry="6" fill="#a8c8e8" opacity="0.6"/>
+    <path d="M0 -64 Q2 -55 0 -50 Q-2 -55 0 -64" fill="#a8c8e8" opacity="0.4"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="400" width="800" height="160" fill="#d8c8a8" opacity="0.3"/>
+
+  <!-- 标注：燕子去来 -->
+  <line x1="250" y1="115" x2="250" y2="80" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="190" y="58" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="250" y="76" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">燕子去而复来</text>
+
+  <!-- 标注：杨柳枯荣 -->
+  <line x1="115" y1="180" x2="60" y2="150" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="0" y="128" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="60" y="146" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">杨柳枯而再青</text>
+
+  <!-- 标注：桃花开谢 -->
+  <line x1="685" y1="180" x2="740" y2="150" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="680" y="128" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="740" y="146" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">桃花谢而再开</text>
+
+  <!-- 标注：时间如流水 -->
+  <line x1="400" y1="260" x2="400" y2="220" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="335" y="198" width="130" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="400" y="216" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">日子一去不返</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">燕子去来、杨柳枯荣、桃花开谢——唯有日子一去不返，匆匆流逝</text>
+</svg>

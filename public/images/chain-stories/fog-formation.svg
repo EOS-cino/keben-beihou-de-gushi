@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="水汽遇冷凝结成小水滴的示意图，太阳出来后雾慢慢散去">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 左半：雾的形成 -->
+  <g transform="translate(200,320)">
+    <!-- 标题 -->
+    <text x="0" y="-180" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">夜晚：雾形成</text>
+    <!-- 地面 -->
+    <path d="M-130 80 Q0 75 130 80 L130 120 L-130 120 Z" fill="#8d5a36" opacity="0.3"/>
+    <!-- 冷空气箭头 -->
+    <g stroke="#7ab8d8" stroke-width="2" fill="none" opacity="0.5">
+      <path d="M-80 -40 L-80 20" marker-end="url(#arr1)"/>
+      <path d="M0 -50 L0 20" marker-end="url(#arr1)"/>
+      <path d="M80 -40 L80 20" marker-end="url(#arr1)"/>
+    </g>
+    <defs>
+      <marker id="arr1" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+        <path d="M0 0 L8 0 L4 7 Z" fill="#7ab8d8"/>
+      </marker>
+    </defs>
+    <text x="-80" y="-50" text-anchor="middle" font-family="serif" font-size="10" fill="#7ab8d8">水汽</text>
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="10" fill="#7ab8d8">遇冷</text>
+    <text x="80" y="-50" text-anchor="middle" font-family="serif" font-size="10" fill="#7ab8d8">凝结</text>
+    <!-- 雾（小水滴） -->
+    <g fill="#a8d0e8" opacity="0.5">
+      <circle cx="-60" cy="30" r="6"/>
+      <circle cx="-30" cy="25" r="5"/>
+      <circle cx="0" cy="35" r="7"/>
+      <circle cx="30" cy="28" r="5"/>
+      <circle cx="60" cy="32" r="6"/>
+      <circle cx="-80" cy="40" r="4"/>
+      <circle cx="80" cy="38" r="5"/>
+      <circle cx="-45" cy="50" r="5"/>
+      <circle cx="15" cy="50" r="4"/>
+      <circle cx="50" cy="48" r="6"/>
+    </g>
+    <!-- 雾层 -->
+    <ellipse cx="0" cy="40" rx="120" ry="20" fill="#ffffff" opacity="0.4"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">地面变冷 → 水汽凝结成小水滴 → 雾</text>
+  </g>
+  <!-- 右半：雾的消散 -->
+  <g transform="translate(600,320)">
+    <!-- 标题 -->
+    <text x="0" y="-180" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">白天：雾消散</text>
+    <!-- 太阳 -->
+    <circle cx="0" cy="-100" r="30" fill="#f4b942" opacity="0.7"/>
+    <g stroke="#e07856" stroke-width="2" opacity="0.4">
+      <line x1="0" y1="-140" x2="0" y2="-150"/>
+      <line x1="0" y1="-60" x2="0" y2="-50"/>
+      <line x1="-40" y1="-100" x2="-50" y2="-100"/>
+      <line x1="40" y1="-100" x2="50" y2="-100"/>
+    </g>
+    <!-- 热气箭头（向上） -->
+    <g stroke="#e07856" stroke-width="2" fill="none" opacity="0.4">
+      <path d="M-60 20 L-60 -40" marker-end="url(#arr2)"/>
+      <path d="M0 30 L0 -30" marker-end="url(#arr2)"/>
+      <path d="M60 20 L60 -40" marker-end="url(#arr2)"/>
+    </g>
+    <defs>
+      <marker id="arr2" markerWidth="8" markerHeight="8" refX="4" refY="1" orient="auto">
+        <path d="M0 8 L8 8 L4 0 Z" fill="#e07856"/>
+      </marker>
+    </defs>
+    <!-- 散开的雾 -->
+    <g fill="#a8d0e8" opacity="0.2">
+      <circle cx="-50" cy="0" r="5"/>
+      <circle cx="50" cy="-10" r="4"/>
+      <circle cx="-20" cy="-20" r="3"/>
+      <circle cx="30" cy="-30" r="3"/>
+    </g>
+    <!-- 地面 -->
+    <path d="M-130 80 Q0 75 130 80 L130 120 L-130 120 Z" fill="#8d5a36" opacity="0.3"/>
+    <!-- 露出的风景 -->
+    <g opacity="0.5">
+      <rect x="-20" y="40" width="8" height="40" fill="#8d5a36"/>
+      <circle cx="-16" cy="35" r="15" fill="#6a8d3f"/>
+    </g>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">太阳出来 → 气温升高 → 小水滴蒸发 → 雾散</text>
+  </g>
+  <!-- 中间分隔 -->
+  <line x1="400" y1="120" x2="400" y2="480" stroke="#8d5a36" stroke-width="1.5" opacity="0.15" stroke-dasharray="5,5"/>
+  <!-- 云和雾的关系 -->
+  <g transform="translate(400,520)" opacity="0.6">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">云在高空 = 雾在地面，它们是同一种东西</text>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">雾是怎么形成的</text>
+</svg>

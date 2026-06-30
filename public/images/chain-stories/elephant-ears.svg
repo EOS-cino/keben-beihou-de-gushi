@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="大象耳朵散热功能示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">大象耳朵的真正用途</text>
+  <line x1="250" y1="56" x2="550" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 四大功能 -->
+  <text x="400" y="100" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">大象耳朵的四大功能</text>
+
+  <!-- 功能1：散热（左上） -->
+  <g transform="translate(200,220)">
+    <rect x="-110" y="-80" width="220" height="160" fill="#fff0e0" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">功能一：散热降温</text>
+    <!-- 大象耳朵 -->
+    <path d="M-30 -10 Q-60 0 -65 30 Q-60 50 -40 45 Q-30 35 -25 15 Z" fill="#a89888" stroke="#8d7a6a" stroke-width="2"/>
+    <!-- 血管 -->
+    <g stroke="#c84a3a" stroke-width="1.5" fill="none" opacity="0.6">
+      <path d="M-30 0 Q-50 15 -55 35"/>
+      <path d="M-35 5 Q-48 25 -45 42"/>
+      <path d="M-28 10 Q-40 25 -38 40"/>
+    </g>
+    <!-- 风线 -->
+    <g stroke="#7ab8d8" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+      <path d="M20 -10 Q35 -5 50 -10"/>
+      <path d="M20 5 Q35 10 50 5"/>
+      <path d="M20 20 Q35 25 50 20"/>
+    </g>
+    <text x="30" y="40" font-family="serif" font-size="10" fill="#5a8aaa">空气冷却</text>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">耳朵布满血管</text>
+    <text x="0" y="74" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">扇动降温约5°C</text>
+  </g>
+
+  <!-- 功能2：驱虫（右上） -->
+  <g transform="translate(600,220)">
+    <rect x="-110" y="-80" width="220" height="160" fill="#e8f5d8" stroke="#6a8d3f" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a6a2f">功能二：驱赶蚊虫</text>
+    <!-- 扇动的耳朵 -->
+    <path d="M-30 -10 Q-60 0 -65 30 Q-60 50 -40 45 Q-30 35 -25 15 Z" fill="#a89888" stroke="#8d7a6a" stroke-width="2"/>
+    <!-- 扇动弧线 -->
+    <path d="M-65 20 Q-75 10 -70 0" fill="none" stroke="#8d7a6a" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <path d="M-65 20 Q-55 30 -50 40" fill="none" stroke="#8d7a6a" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <!-- 蚊虫被赶走 -->
+    <g transform="translate(20,-20)">
+      <ellipse cx="0" cy="0" rx="3" ry="1.5" fill="#1a1a1a"/>
+      <ellipse cx="-3" cy="-2" rx="3" ry="1.5" fill="#d0d0d0" opacity="0.6"/>
+      <ellipse cx="3" cy="-2" rx="3" ry="1.5" fill="#d0d0d0" opacity="0.6"/>
+      <path d="M-8 -5 L-15 -10" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="2,1"/>
+    </g>
+    <g transform="translate(35,10)">
+      <ellipse cx="0" cy="0" rx="3" ry="1.5" fill="#1a1a1a"/>
+      <ellipse cx="-3" cy="-2" rx="3" ry="1.5" fill="#d0d0d0" opacity="0.6"/>
+      <ellipse cx="3" cy="-2" rx="3" ry="1.5" fill="#d0d0d0" opacity="0.6"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">大耳朵像蒲扇</text>
+    <text x="0" y="74" text-anchor="middle" font-family="serif" font-size="11" fill="#4a6a2f">扇走蚊虫保护耳朵</text>
+  </g>
+
+  <!-- 功能3：听觉交流（左下） -->
+  <g transform="translate(200,440)">
+    <rect x="-110" y="-80" width="220" height="160" fill="#e0f0f8" stroke="#7ab8d8" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#3a6a8a">功能三：听觉与交流</text>
+    <!-- 声波 -->
+    <g stroke="#7ab8d8" stroke-width="1.5" fill="none">
+      <path d="M-40 0 Q-30 -15 -20 0 Q-10 15 0 0 Q10 -15 20 0 Q30 15 40 0"/>
+      <path d="M-50 -10 Q-35 -25 -20 -10 Q-5 5 10 -10 Q25 -25 40 -10" opacity="0.5"/>
+      <path d="M-50 10 Q-35 25 -20 10 Q-5 -5 10 10 Q25 25 40 10" opacity="0.5"/>
+    </g>
+    <!-- 大象表情 -->
+    <g transform="translate(0,35)">
+      <circle cx="-8" cy="0" r="4" fill="#a89888"/>
+      <circle cx="8" cy="0" r="4" fill="#a89888"/>
+      <circle cx="-8" cy="0" r="2" fill="#1a1a1a"/>
+      <circle cx="8" cy="0" r="2" fill="#1a1a1a"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">收集声波·听力极佳</text>
+    <text x="0" y="74" text-anchor="middle" font-family="serif" font-size="11" fill="#3a6a8a">张耳=威吓 扇耳=高兴</text>
+  </g>
+
+  <!-- 功能4：身份识别（右下） -->
+  <g transform="translate(600,440)">
+    <rect x="-110" y="-80" width="220" height="160" fill="#f5e0d8" stroke="#c84a3a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-55" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c84a3a">功能四：身份识别</text>
+    <!-- 两只不同的耳朵 -->
+    <g transform="translate(-35,0)">
+      <path d="M0 -10 Q-25 0 -28 25 Q-23 40 -10 35 Q0 25 5 10 Z" fill="#a89888" stroke="#8d7a6a" stroke-width="2"/>
+      <g stroke="#8d7a6a" stroke-width="0.8" fill="none" opacity="0.5">
+        <path d="M0 0 Q-15 10 -18 25"/>
+        <path d="M-3 5 Q-12 18 -10 30"/>
+      </g>
+      <text x="-12" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">大象A</text>
+    </g>
+    <g transform="translate(35,0)">
+      <path d="M0 -10 Q25 0 28 25 Q23 40 10 35 Q0 25 -5 10 Z" fill="#a89888" stroke="#8d7a6a" stroke-width="2"/>
+      <g stroke="#8d7a6a" stroke-width="0.8" fill="none" opacity="0.5">
+        <path d="M0 0 Q15 10 18 25"/>
+        <path d="M3 5 Q12 18 15 30"/>
+        <path d="M0 10 Q10 20 12 32"/>
+      </g>
+      <text x="12" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">大象B</text>
+    </g>
+    <text x="0" y="74" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">每只耳朵纹路不同</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">耷拉着的耳朵不是"毛病"，是亿万年进化的智慧——适合自己才是最好的</text>
+</svg>

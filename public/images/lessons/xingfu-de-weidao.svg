@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一家人围坐在饭桌前吃饭的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景墙 -->
+  <rect x="0" y="0" width="800" height="420" fill="#f4e4c4" opacity="0.2"/>
+  <!-- 暖色光晕 -->
+  <circle cx="400" cy="300" r="200" fill="#e8a838" opacity="0.06"/>
+  <!-- 窗户 -->
+  <g transform="translate(100 100)">
+    <rect x="0" y="0" width="100" height="80" fill="#4a90b8" opacity="0.15" stroke="#8b6f47" stroke-width="3"/>
+    <line x1="50" y1="0" x2="50" y2="80" stroke="#8b6f47" stroke-width="2"/>
+    <line x1="0" y1="40" x2="100" y2="40" stroke="#8b6f47" stroke-width="2"/>
+  </g>
+  <!-- 挂画 -->
+  <g transform="translate(600 120)">
+    <rect x="0" y="0" width="80" height="60" fill="#fef9ed" stroke="#8b6f47" stroke-width="3"/>
+    <path d="M5 45 Q25 25 40 35 Q55 20 75 40 L75 55 L5 55 Z" fill="#2d6a4f" opacity="0.3"/>
+    <circle cx="60" cy="15" r="6" fill="#e8a838" opacity="0.5"/>
+  </g>
+  <!-- 吊灯 -->
+  <g transform="translate(400 80)">
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#8b6f47" stroke-width="2"/>
+    <path d="M-25 30 L25 30 L20 55 L-20 55 Z" fill="#e8a838" opacity="0.6"/>
+    <ellipse cx="0" cy="55" rx="20" ry="4" fill="#e07856" opacity="0.4"/>
+    <!-- 光线 -->
+    <g stroke="#e8a838" stroke-width="1.5" opacity="0.15" stroke-linecap="round">
+      <line x1="0" y1="60" x2="-40" y2="100"/>
+      <line x1="0" y1="60" x2="0" y2="110"/>
+      <line x1="0" y1="60" x2="40" y2="100"/>
+    </g>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="420" width="800" height="180" fill="#dceee3" opacity="0.3"/>
+  <!-- 饭桌 -->
+  <g transform="translate(400 380)">
+    <!-- 桌面 -->
+    <ellipse cx="0" cy="0" rx="160" ry="30" fill="#8b6f47"/>
+    <ellipse cx="0" cy="-3" rx="160" ry="30" fill="#a08560"/>
+    <!-- 桌腿 -->
+    <rect x="-130" y="0" width="10" height="60" fill="#6b5535"/>
+    <rect x="120" y="0" width="10" height="60" fill="#6b5535"/>
+    <!-- 菜碗 -->
+    <circle cx="-60" cy="-5" r="18" fill="#e07856" opacity="0.7"/>
+    <circle cx="-60" cy="-8" r="15" fill="#e8a838" opacity="0.5"/>
+    <!-- 饭碗 -->
+    <circle cx="0" cy="-5" r="15" fill="#ffffff" stroke="#8b6f47" stroke-width="2"/>
+    <circle cx="0" cy="-8" r="12" fill="#fef9ed"/>
+    <!-- 汤碗 -->
+    <ellipse cx="60" cy="-5" rx="20" ry="12" fill="#4a90b8" opacity="0.3"/>
+    <ellipse cx="60" cy="-8" rx="18" ry="10" fill="#4a90b8" opacity="0.2"/>
+    <!-- 筷子 -->
+    <line x1="-30" y1="-2" x2="-15" y2="8" stroke="#6b5535" stroke-width="2"/>
+    <line x1="-28" y1="0" x2="-13" y2="10" stroke="#6b5535" stroke-width="2"/>
+    <line x1="30" y1="-2" x2="15" y2="8" stroke="#6b5535" stroke-width="2"/>
+    <line x1="28" y1="0" x2="13" y2="10" stroke="#6b5535" stroke-width="2"/>
+    <!-- 蒸汽 -->
+    <g stroke="#ccc" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round">
+      <path d="M-60 -20 Q-58 -30 -62 -40"/>
+      <path d="M0 -18 Q2 -28 -2 -38"/>
+      <path d="M60 -18 Q58 -28 62 -38"/>
+    </g>
+  </g>
+  <!-- 妈妈（左） -->
+  <g transform="translate(200 380)">
+    <path d="M-25 0 L-30 -70 L30 -70 L25 0 Z" fill="#e07856"/>
+    <circle cx="0" cy="-85" r="18" fill="#f4d4a8"/>
+    <path d="M-18 -92 Q0 -108 18 -92 L18 -85 Q0 -80 -18 -85 Z" fill="#333"/>
+    <path d="M-7 -88 Q-4 -92 -1 -88" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M1 -88 Q4 -92 7 -88" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M-3 -78 Q0 -75 3 -78" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M25 -50 L45 -35" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- 爸爸（右） -->
+  <g transform="translate(600 380)">
+    <path d="M-25 0 L-30 -70 L30 -70 L25 0 Z" fill="#4a90b8"/>
+    <circle cx="0" cy="-85" r="18" fill="#f4d4a8"/>
+    <path d="M-18 -92 Q0 -108 18 -92 L18 -85 Q0 -80 -18 -85 Z" fill="#333"/>
+    <path d="M-7 -88 Q-4 -92 -1 -88" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M1 -88 Q4 -92 7 -88" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M-3 -78 Q0 -75 3 -78" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M-25 -50 L-45 -35" stroke="#f4d4a8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- 孩子（中后） -->
+  <g transform="translate(400 300)">
+    <path d="M-18 0 L-22 -50 L22 -50 L18 0 Z" fill="#2d6a4f"/>
+    <circle cx="0" cy="-65" r="14" fill="#f4d4a8"/>
+    <path d="M-14 -72 Q0 -85 14 -72 L14 -65 Q0 -60 -14 -65 Z" fill="#333"/>
+    <path d="M-5 -68 Q-2 -72 1 -68" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M-1 -68 Q2 -72 5 -68" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M-3 -58 Q0 -55 3 -58" stroke="#333" stroke-width="1.5" fill="none"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#2d6a4f">幸福的味道</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7a7468">幸福是什么味道？也许就藏在一碗饭里</text>
+</svg>

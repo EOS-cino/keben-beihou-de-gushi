@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="吴冠中的绘画人生插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：吴冠中的绘画人生</text>
+  <line x1="200" y1="62" x2="600" y2="62" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心主题 -->
+  <rect x="270" y="100" width="260" height="56" fill="#fff6df" stroke="#7ab8d8" stroke-width="2" rx="8"/>
+  <text x="400" y="125" text-anchor="middle" font-family="serif" font-size="17" font-weight="bold" fill="#4a6a2f">吴冠中 · 画笔与文笔</text>
+  <text x="400" y="145" text-anchor="middle" font-family="serif" font-size="12" fill="#7ab8d8">从江南小船走向世界画坛</text>
+
+  <!-- 时间线节点 -->
+  <!-- 1919 出生（左上） -->
+  <g>
+    <line x1="300" y1="156" x2="150" y2="200" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <circle cx="150" cy="210" r="8" fill="#7ab8d8"/>
+    <rect x="80" y="225" width="140" height="50" fill="#fff6df" stroke="#7ab8d8" rx="6"/>
+    <text x="150" y="245" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a6a2f">1919年</text>
+    <text x="150" y="263" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">生于江苏宜兴农村</text>
+  </g>
+
+  <!-- 1947 留法（中上偏左） -->
+  <g>
+    <line x1="350" y1="156" x2="280" y2="200" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <circle cx="280" cy="210" r="8" fill="#c8843a"/>
+    <rect x="210" y="225" width="140" height="50" fill="#fff6df" stroke="#c8843a" rx="6"/>
+    <text x="280" y="245" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8d5a36">1947年</text>
+    <text x="280" y="263" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">赴巴黎学油画</text>
+  </g>
+
+  <!-- 回国 创造风格（中上偏右） -->
+  <g>
+    <line x1="450" y1="156" x2="520" y2="200" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <circle cx="520" cy="210" r="8" fill="#c84a3a"/>
+    <rect x="450" y="225" width="140" height="50" fill="#fff6df" stroke="#c84a3a" rx="6"/>
+    <text x="520" y="245" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">回国后</text>
+    <text x="520" y="263" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">融合中西创"吴氏风格"</text>
+  </g>
+
+  <!-- 捐画（右上） -->
+  <g>
+    <line x1="500" y1="156" x2="660" y2="200" stroke="#7ab8d8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <circle cx="660" cy="210" r="8" fill="#6a8d3f"/>
+    <rect x="590" y="225" width="140" height="50" fill="#fff6df" stroke="#6a8d3f" rx="6"/>
+    <text x="660" y="245" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a6a2f">晚年</text>
+    <text x="660" y="263" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">捐画给美术馆</text>
+  </g>
+
+  <!-- 江南水乡画（中下左） -->
+  <g>
+    <rect x="120" y="320" width="200" height="130" fill="#fff" stroke="#8d5a36" stroke-width="2" rx="4"/>
+    <!-- 白墙黑瓦 -->
+    <rect x="140" y="360" width="60" height="60" fill="#fff" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M140 360 L170 345 L200 360" fill="#2a1a0a"/>
+    <rect x="210" y="370" width="50" height="50" fill="#fff" stroke="#5a3a1a" stroke-width="1.5"/>
+    <path d="M210 370 L235 358 L260 370" fill="#2a1a0a"/>
+    <!-- 小桥 -->
+    <path d="M140 420 Q200 400 260 420" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 水面倒影 -->
+    <rect x="140" y="420" width="120" height="20" fill="#a8d0e8" opacity="0.4"/>
+    <text x="220" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">画：江南水乡</text>
+  </g>
+
+  <!-- 散文（中下右） -->
+  <g>
+    <rect x="480" y="320" width="200" height="130" fill="#fff6df" stroke="#7ab8d8" stroke-width="2" rx="4"/>
+    <!-- 书本 -->
+    <rect x="520" y="345" width="120" height="80" fill="#fff" stroke="#8d5a36" stroke-width="1.5" rx="2"/>
+    <line x1="580" y1="345" x2="580" y2="425" stroke="#8d5a36" stroke-width="1"/>
+    <g stroke="#8d5a36" stroke-width="0.8">
+      <line x1="530" y1="360" x2="570" y2="360"/>
+      <line x1="530" y1="370" x2="572" y2="370"/>
+      <line x1="530" y1="380" x2="568" y2="380"/>
+      <line x1="530" y1="390" x2="572" y2="390"/>
+      <line x1="590" y1="360" x2="630" y2="360"/>
+      <line x1="590" y1="370" x2="628" y2="370"/>
+      <line x1="590" y1="380" x2="630" y2="380"/>
+      <line x1="590" y1="390" x2="625" y2="390"/>
+    </g>
+    <text x="580" y="415" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">《父爱之舟》等散文</text>
+    <text x="580" y="470" text-anchor="middle" font-family="serif" font-size="12" fill="#7ab8d8">文：画中有诗</text>
+  </g>
+
+  <!-- 连接箭头 -->
+  <path d="M320 385 L480 385" stroke="#7ab8d8" stroke-width="2" stroke-dasharray="6,4"/>
+  <path d="M470 378 L485 385 L470 392" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#4a6a2f">"笔墨等于零"——画里有文学的诗意，文里有画面的美感，艺术是相通的</text>
+</svg>

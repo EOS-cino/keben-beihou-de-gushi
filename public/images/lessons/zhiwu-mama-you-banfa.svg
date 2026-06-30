@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="蒲公英、苍耳、豌豆三种植物传播种子的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">植物妈妈有办法</text>
+  <line x1="290" y1="56" x2="510" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 草地 -->
+  <rect x="0" y="420" width="800" height="180" fill="#c8e0a8" opacity="0.4"/>
+
+  <!-- 蒲公英（左） -->
+  <g transform="translate(180,340)">
+    <text x="0" y="-120" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">蒲公英</text>
+    <!-- 茎 -->
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#6a8d3f" stroke-width="3"/>
+    <!-- 叶子 -->
+    <path d="M0 75 Q-20 65 -25 80" fill="none" stroke="#6a8d3f" stroke-width="2"/>
+    <!-- 蒲公英球 -->
+    <g fill="#ffffff" stroke="#d0d0d0" stroke-width="0.5">
+      <circle cx="-12" cy="-15" r="5"/>
+      <circle cx="0" cy="-20" r="5"/>
+      <circle cx="12" cy="-15" r="5"/>
+      <circle cx="-18" cy="-5" r="5"/>
+      <circle cx="18" cy="-5" r="5"/>
+      <circle cx="-12" cy="5" r="5"/>
+      <circle cx="0" cy="8" r="5"/>
+      <circle cx="12" cy="5" r="5"/>
+      <circle cx="0" cy="-5" r="6"/>
+    </g>
+    <!-- 冠毛线 -->
+    <g stroke="#ffffff" stroke-width="1" opacity="0.8">
+      <line x1="-12" y1="-15" x2="-22" y2="-25"/>
+      <line x1="0" y1="-20" x2="0" y2="-32"/>
+      <line x1="12" y1="-15" x2="22" y2="-25"/>
+      <line x1="-18" y1="-5" x2="-30" y2="-8"/>
+      <line x1="18" y1="-5" x2="30" y2="-8"/>
+    </g>
+    <!-- 飞散的种子 -->
+    <g transform="translate(60,-40)">
+      <circle cx="0" cy="0" r="3" fill="#8d5a36"/>
+      <g stroke="#ffffff" stroke-width="0.8">
+        <line x1="0" y1="0" x2="-6" y2="-8"/>
+        <line x1="0" y1="0" x2="0" y2="-10"/>
+        <line x1="0" y1="0" x2="6" y2="-8"/>
+        <line x1="0" y1="0" x2="-8" y2="-3"/>
+        <line x1="0" y1="0" x2="8" y2="-3"/>
+      </g>
+    </g>
+    <g transform="translate(90,-70)">
+      <circle cx="0" cy="0" r="3" fill="#8d5a36"/>
+      <g stroke="#ffffff" stroke-width="0.8">
+        <line x1="0" y1="0" x2="-6" y2="-8"/>
+        <line x1="0" y1="0" x2="0" y2="-10"/>
+        <line x1="0" y1="0" x2="6" y2="-8"/>
+      </g>
+    </g>
+    <!-- 风线 -->
+    <path d="M40 -50 Q70 -55 100 -60" fill="none" stroke="#a8d0e8" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <rect x="-60" y="95" width="120" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+    <text x="0" y="112" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">风传播·降落伞</text>
+  </g>
+
+  <!-- 苍耳（中） -->
+  <g transform="translate(400,340)">
+    <text x="0" y="-120" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">苍耳</text>
+    <!-- 苍耳果实 -->
+    <ellipse cx="0" cy="0" rx="22" ry="28" fill="#8d7a4a"/>
+    <ellipse cx="0" cy="-2" rx="18" ry="24" fill="#a89868"/>
+    <!-- 刺 -->
+    <g stroke="#6a5a3a" stroke-width="2" stroke-linecap="round">
+      <line x1="-22" y1="-10" x2="-32" y2="-14"/>
+      <line x1="-20" y1="5" x2="-30" y2="8"/>
+      <line x1="-15" y1="18" x2="-22" y2="25"/>
+      <line x1="0" y1="28" x2="0" y2="38"/>
+      <line x1="15" y1="18" x2="22" y2="25"/>
+      <line x1="20" y1="5" x2="30" y2="8"/>
+      <line x1="22" y1="-10" x2="32" y2="-14"/>
+      <line x1="0" y1="-28" x2="0" y2="-38"/>
+      <line x1="-12" y1="-22" x2="-18" y2="-30"/>
+      <line x1="12" y1="-22" x2="18" y2="-30"/>
+    </g>
+    <!-- 小兔子 -->
+    <g transform="translate(55,-10)">
+      <ellipse cx="0" cy="0" rx="18" ry="14" fill="#e8d8c8"/>
+      <circle cx="12" cy="-8" r="10" fill="#e8d8c8"/>
+      <ellipse cx="8" cy="-18" rx="3" ry="8" fill="#e8d8c8"/>
+      <ellipse cx="15" cy="-18" rx="3" ry="8" fill="#e8d8c8"/>
+      <circle cx="15" cy="-8" r="1.5" fill="#1a1a1a"/>
+      <!-- 粘在毛上的苍耳 -->
+      <circle cx="-15" cy="-3" r="4" fill="#8d7a4a"/>
+    </g>
+    <rect x="-60" y="95" width="120" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+    <text x="0" y="112" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">动物传播·铠甲</text>
+  </g>
+
+  <!-- 豌豆（右） -->
+  <g transform="translate(620,340)">
+    <text x="0" y="-120" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">豌豆</text>
+    <!-- 豆荚 -->
+    <path d="M-30 -10 Q-25 -25 0 -25 Q25 -25 30 -10 Q25 5 0 5 Q-25 5 -30 -10 Z" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="2"/>
+    <!-- 炸开的裂缝 -->
+    <path d="M-30 -10 L30 -10" fill="none" stroke="#4a6a2f" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <!-- 豌豆种子 -->
+    <circle cx="-15" cy="-10" r="6" fill="#a8c860"/>
+    <circle cx="0" cy="-10" r="6" fill="#a8c860"/>
+    <circle cx="15" cy="-10" r="6" fill="#a8c860"/>
+    <!-- 弹出的种子 -->
+    <circle cx="-45" cy="-30" r="5" fill="#a8c860"/>
+    <circle cx="40" cy="-35" r="5" fill="#a8c860"/>
+    <circle cx="20" cy="-50" r="5" fill="#a8c860"/>
+    <!-- 弹射线 -->
+    <path d="M-20 -15 Q-35 -25 -45 -30" fill="none" stroke="#8d5a36" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <path d="M20 -15 Q35 -25 40 -35" fill="none" stroke="#8d5a36" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="0" y="-45" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">啪！</text>
+    <rect x="-60" y="95" width="120" height="24" fill="#fff6df" stroke="#c8843a" rx="4"/>
+    <text x="0" y="112" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">弹射传播·炸开</text>
+  </g>
+
+  <!-- 太阳 -->
+  <circle cx="700" cy="120" r="24" fill="#f4b942" opacity="0.8"/>
+
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">蒲公英靠风，苍耳靠动物，豌豆靠弹射——植物妈妈办法多</text>
+</svg>

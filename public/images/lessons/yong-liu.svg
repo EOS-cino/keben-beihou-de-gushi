@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="柳树在春风中飘动的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" fill="#2d2a24" font-family="sans-serif" font-weight="bold">咏柳 · 二月春风似剪刀</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="60" width="800" height="340" fill="#d6ecf7"/>
+  <!-- 太阳 -->
+  <circle cx="680" cy="120" r="30" fill="#f4b942"/>
+  <circle cx="680" cy="120" r="40" fill="#f4b942" opacity="0.25"/>
+  <!-- 云朵 -->
+  <ellipse cx="150" cy="110" rx="45" ry="16" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="180" cy="100" rx="30" ry="12" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="500" cy="130" rx="40" ry="15" fill="#ffffff" opacity="0.8"/>
+
+  <!-- 风的线条（表示春风） -->
+  <path d="M50 200 Q120 190 190 200 Q260 210 330 200" fill="none" stroke="#a8d4e8" stroke-width="2" opacity="0.6"/>
+  <path d="M80 240 Q150 230 220 240 Q290 250 360 240" fill="none" stroke="#a8d4e8" stroke-width="2" opacity="0.5"/>
+  <path d="M60 280 Q130 270 200 280 Q270 290 340 280" fill="none" stroke="#a8d4e8" stroke-width="2" opacity="0.4"/>
+  <text x="200" y="185" text-anchor="middle" font-size="13" fill="#6b8aa8" font-family="sans-serif">春风</text>
+
+  <!-- 地面/河岸 -->
+  <path d="M0 400 Q200 390 400 400 Q600 410 800 395 L800 600 L0 600 Z" fill="#7a9a5a"/>
+  <path d="M0 410 Q200 400 400 410 Q600 420 800 405 L800 600 L0 600 Z" fill="#6b8a4a"/>
+
+  <!-- 河水（右侧） -->
+  <path d="M500 420 Q600 415 800 425 L800 480 Q600 470 500 475 Z" fill="#7ec0db"/>
+  <path d="M520 440 Q600 435 680 440" fill="none" stroke="#a8d4e8" stroke-width="1.5"/>
+
+  <!-- 柳树主干 -->
+  <path d="M280 400 Q275 350 285 280 Q290 220 300 170" fill="none" stroke="#6b4a2d" stroke-width="16" stroke-linecap="round"/>
+  <!-- 树皮纹理 -->
+  <path d="M278 350 L282 340 M282 300 L286 290 M288 250 L292 240" stroke="#5a3d2a" stroke-width="2" opacity="0.5"/>
+
+  <!-- 树枝分叉 -->
+  <path d="M295 180 Q260 160 220 150" fill="none" stroke="#6b4a2d" stroke-width="6" stroke-linecap="round"/>
+  <path d="M298 170 Q340 155 380 145" fill="none" stroke="#6b4a2d" stroke-width="6" stroke-linecap="round"/>
+  <path d="M292 200 Q255 195 215 195" fill="none" stroke="#6b4a2d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M300 195 Q345 190 385 195" fill="none" stroke="#6b4a2d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M290 240 Q255 245 220 255" fill="none" stroke="#6b4a2d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M298 235 Q340 240 375 250" fill="none" stroke="#6b4a2d" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 垂下的柳枝（绿色丝绦） -->
+  <!-- 左侧柳枝 -->
+  <path d="M220 150 Q210 200 205 260 Q203 300 200 340" fill="none" stroke="#5cb070" stroke-width="2.5"/>
+  <path d="M230 155 Q222 210 218 270 Q216 310 214 350" fill="none" stroke="#5cb070" stroke-width="2"/>
+  <path d="M215 195 Q205 240 200 300 Q198 340 195 370" fill="none" stroke="#6ab04c" stroke-width="2"/>
+  <path d="M225 200 Q218 250 215 310 Q213 345 210 375" fill="none" stroke="#5cb070" stroke-width="2"/>
+
+  <!-- 右侧柳枝 -->
+  <path d="M380 145 Q390 200 395 260 Q397 300 400 340" fill="none" stroke="#5cb070" stroke-width="2.5"/>
+  <path d="M370 150 Q380 210 385 270 Q387 310 390 350" fill="none" stroke="#5cb070" stroke-width="2"/>
+  <path d="M385 195 Q395 240 400 300 Q402 340 405 370" fill="none" stroke="#6ab04c" stroke-width="2"/>
+  <path d="M375 200 Q385 250 388 310 Q390 345 393 375" fill="none" stroke="#5cb070" stroke-width="2"/>
+
+  <!-- 中间柳枝 -->
+  <path d="M300 170 Q295 220 293 280 Q291 330 290 370" fill="none" stroke="#6ab04c" stroke-width="2"/>
+  <path d="M310 175 Q308 225 306 285 Q304 335 303 370" fill="none" stroke="#5cb070" stroke-width="2"/>
+
+  <!-- 柳叶（小椭圆点缀在枝条上） -->
+  <g fill="#7cc85a" opacity="0.85">
+    <ellipse cx="205" cy="260" rx="3" ry="6" transform="rotate(20 205 260)"/>
+    <ellipse cx="200" cy="340" rx="3" ry="6" transform="rotate(15 200 340)"/>
+    <ellipse cx="218" cy="270" rx="3" ry="6" transform="rotate(25 218 270)"/>
+    <ellipse cx="214" cy="350" rx="3" ry="6" transform="rotate(20 214 350)"/>
+    <ellipse cx="200" cy="300" rx="3" ry="6" transform="rotate(18 200 300)"/>
+    <ellipse cx="215" cy="310" rx="3" ry="6" transform="rotate(22 215 310)"/>
+    <ellipse cx="195" cy="370" rx="3" ry="6" transform="rotate(15 195 370)"/>
+    <ellipse cx="210" cy="375" rx="3" ry="6" transform="rotate(20 210 375)"/>
+    <ellipse cx="395" cy="260" rx="3" ry="6" transform="rotate(-20 395 260)"/>
+    <ellipse cx="400" cy="340" rx="3" ry="6" transform="rotate(-15 400 340)"/>
+    <ellipse cx="385" cy="270" rx="3" ry="6" transform="rotate(-25 385 270)"/>
+    <ellipse cx="390" cy="350" rx="3" ry="6" transform="rotate(-20 390 350)"/>
+    <ellipse cx="400" cy="300" rx="3" ry="6" transform="rotate(-18 400 300)"/>
+    <ellipse cx="388" cy="310" rx="3" ry="6" transform="rotate(-22 388 310)"/>
+    <ellipse cx="405" cy="370" rx="3" ry="6" transform="rotate(-15 405 370)"/>
+    <ellipse cx="393" cy="375" rx="3" ry="6" transform="rotate(-20 393 375)"/>
+    <ellipse cx="293" cy="280" rx="3" ry="6"/>
+    <ellipse cx="290" cy="370" rx="3" ry="6"/>
+    <ellipse cx="306" cy="285" rx="3" ry="6"/>
+    <ellipse cx="303" cy="370" rx="3" ry="6"/>
+  </g>
+
+  <!-- 树冠整体绿色雾感 -->
+  <ellipse cx="300" cy="200" rx="110" ry="60" fill="#7cc85a" opacity="0.15"/>
+  <ellipse cx="300" cy="250" rx="120" ry="70" fill="#6ab04c" opacity="0.1"/>
+
+  <!-- 剪刀图标（比喻春风如剪刀） -->
+  <g transform="translate(580,250)">
+    <text x="0" y="-15" text-anchor="middle" font-size="13" fill="#8d6a3d" font-family="sans-serif" font-weight="bold">春风 = 剪刀</text>
+    <!-- 剪刀 -->
+    <circle cx="-15" cy="10" r="10" fill="none" stroke="#8d8d8d" stroke-width="3"/>
+    <circle cx="15" cy="10" r="10" fill="none" stroke="#8d8d8d" stroke-width="3"/>
+    <path d="M-8 5 L30 -25 M8 5 L-30 -25" stroke="#b0b0b0" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-8 5 L30 -25 M8 5 L-30 -25" stroke="#d0d0d0" stroke-width="2" stroke-linecap="round"/>
+    <!-- 裁出的柳叶 -->
+    <ellipse cx="35" cy="-30" rx="4" ry="8" fill="#7cc85a" transform="rotate(-30 35 -30)"/>
+    <ellipse cx="42" cy="-20" rx="4" ry="8" fill="#7cc85a" transform="rotate(-15 42 -20)"/>
+    <ellipse cx="48" cy="-10" rx="4" ry="8" fill="#7cc85a" transform="rotate(0 48 -10)"/>
+  </g>
+
+  <!-- 诗句 -->
+  <g transform="translate(120,470)">
+    <rect x="0" y="0" width="560" height="100" rx="8" fill="#ffffff" opacity="0.85" stroke="#8d6a3d" stroke-width="1.5"/>
+    <text x="280" y="30" text-anchor="middle" font-size="16" fill="#2d2a24" font-family="serif">碧玉妆成一树高，万条垂下绿丝绦。</text>
+    <text x="280" y="58" text-anchor="middle" font-size="16" fill="#2d2a24" font-family="serif">不知细叶谁裁出，二月春风似剪刀。</text>
+    <text x="280" y="85" text-anchor="middle" font-size="12" fill="#6b6557" font-family="sans-serif">—— 唐 · 贺知章《咏柳》</text>
+  </g>
+
+  <!-- 标注 -->
+  <text x="280" y="420" text-anchor="middle" font-size="12" fill="#3d6b28" font-family="sans-serif">柳树</text>
+</svg>

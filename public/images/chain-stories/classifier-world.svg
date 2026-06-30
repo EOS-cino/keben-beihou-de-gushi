@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="各种量词像小标签一样飘在物品旁边：一头牛、一匹马、一条鱼">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景 -->
+  <rect x="0" y="0" width="800" height="400" fill="#a8d0e8" opacity="0.1"/>
+  <!-- 地面 -->
+  <path d="M0 420 Q200 410 400 420 T800 415 L800 600 L0 600 Z" fill="#6a8d3f" opacity="0.3"/>
+  <!-- 一头牛 -->
+  <g transform="translate(150,350)">
+    <!-- 标签 -->
+    <g transform="translate(0,-80)">
+      <rect x="-30" y="-15" width="60" height="24" rx="5" fill="#c84a3a"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fef9ed">一头</text>
+      <path d="M0 9 L0 20" stroke="#c84a3a" stroke-width="2" stroke-dasharray="3,2"/>
+    </g>
+    <!-- 牛 -->
+    <ellipse cx="0" cy="10" rx="35" ry="22" fill="#8d5a36"/>
+    <circle cx="-30" cy="0" r="20" fill="#8d5a36"/>
+    <!-- 牛角 -->
+    <path d="M-40 -12 Q-48 -20 -42 -25" stroke="#fef9ed" stroke-width="4" fill="none"/>
+    <path d="M-25 -15 Q-20 -25 -15 -22" stroke="#fef9ed" stroke-width="4" fill="none"/>
+    <!-- 耳朵 -->
+    <ellipse cx="-42" cy="-5" rx="5" ry="8" fill="#8d5a36"/>
+    <ellipse cx="-20" cy="-8" rx="5" ry="8" fill="#8d5a36"/>
+    <!-- 眼睛 -->
+    <circle cx="-32" cy="-2" r="3" fill="#2d2a24"/>
+    <!-- 鼻子 -->
+    <ellipse cx="-45" cy="5" rx="6" ry="5" fill="#5a2a0a"/>
+    <circle cx="-47" cy="4" r="1.5" fill="#2d2a24"/>
+    <circle cx="-43" cy="4" r="1.5" fill="#2d2a24"/>
+    <!-- 腿 -->
+    <rect x="-20" y="28" width="6" height="20" fill="#8d5a36"/>
+    <rect x="10" y="28" width="6" height="20" fill="#8d5a36"/>
+    <rect x="20" y="28" width="6" height="20" fill="#8d5a36"/>
+    <!-- 尾巴 -->
+    <path d="M33 5 Q45 10 42 25" stroke="#8d5a36" stroke-width="3" fill="none"/>
+  </g>
+  <!-- 一匹马 -->
+  <g transform="translate(400,350)">
+    <!-- 标签 -->
+    <g transform="translate(0,-80)">
+      <rect x="-30" y="-15" width="60" height="24" rx="5" fill="#6a8d3f"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fef9ed">一匹</text>
+      <path d="M0 9 L0 20" stroke="#6a8d3f" stroke-width="2" stroke-dasharray="3,2"/>
+    </g>
+    <!-- 马 -->
+    <ellipse cx="0" cy="10" rx="35" ry="20" fill="#c8843a"/>
+    <!-- 脖子和头 -->
+    <path d="M-25 0 Q-40 -15 -45 -25 Q-50 -30 -48 -35" stroke="#c8843a" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-48" cy="-30" rx="12" ry="8" fill="#c8843a" transform="rotate(-20 -48 -30)"/>
+    <!-- 鬃毛 -->
+    <path d="M-35 -10 Q-38 -20 -32 -25 Q-38 -25 -35 -30" stroke="#7a3b14" stroke-width="3" fill="none"/>
+    <!-- 耳朵 -->
+    <path d="M-45 -38 L-48 -45 L-42 -40" fill="#c8843a"/>
+    <!-- 眼睛 -->
+    <circle cx="-48" cy="-30" r="2.5" fill="#2d2a24"/>
+    <!-- 腿 -->
+    <rect x="-20" y="26" width="6" height="25" fill="#c8843a"/>
+    <rect x="-8" y="26" width="6" height="25" fill="#c8843a"/>
+    <rect x="12" y="26" width="6" height="25" fill="#c8843a"/>
+    <rect x="22" y="26" width="6" height="25" fill="#c8843a"/>
+    <!-- 尾巴 -->
+    <path d="M33 0 Q45 5 48 25" stroke="#7a3b14" stroke-width="5" fill="none"/>
+  </g>
+  <!-- 一条鱼 -->
+  <g transform="translate(650,350)">
+    <!-- 标签 -->
+    <g transform="translate(0,-60)">
+      <rect x="-30" y="-15" width="60" height="24" rx="5" fill="#7ab8d8"/>
+      <text x="0" y="2" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fef9ed">一条</text>
+      <path d="M0 9 L0 10" stroke="#7ab8d8" stroke-width="2" stroke-dasharray="3,2"/>
+    </g>
+    <!-- 水面 -->
+    <g transform="translate(0,10)">
+      <rect x="-60" y="0" width="120" height="50" fill="#a8d0e8" opacity="0.4"/>
+      <path d="M-60 0 Q-40 -3 -20 0 T20 0 T60 0" stroke="#7ab8d8" stroke-width="1.5" fill="none"/>
+      <!-- 鱼 -->
+      <ellipse cx="0" cy="20" rx="30" ry="14" fill="#7ab8d8"/>
+      <path d="M30 20 L45 10 L45 30 Z" fill="#7ab8d8"/>
+      <path d="M-30 20 L-38 12 L-38 28 Z" fill="#7ab8d8" opacity="0.7"/>
+      <circle cx="-15" cy="17" r="4" fill="#fef9ed"/>
+      <circle cx="-15" cy="17" r="2" fill="#2d2a24"/>
+      <!-- 鱼鳞 -->
+      <g stroke="#5a9ab8" stroke-width="1" fill="none" opacity="0.5">
+        <path d="M-5 15 Q0 20 -5 25"/>
+        <path d="M5 15 Q10 20 5 25"/>
+        <path d="M15 17 Q20 22 15 27"/>
+      </g>
+    </g>
+  </g>
+  <!-- 其他量词标签飘在空中 -->
+  <g opacity="0.5">
+    <g transform="translate(100,150)">
+      <rect x="-25" y="-12" width="50" height="20" rx="4" fill="#f4b942"/>
+      <text x="0" y="3" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">一把</text>
+    </g>
+    <g transform="translate(280,130)">
+      <rect x="-25" y="-12" width="50" height="20" rx="4" fill="#e07856"/>
+      <text x="0" y="3" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">一面</text>
+    </g>
+    <g transform="translate(500,140)">
+      <rect x="-25" y="-12" width="50" height="20" rx="4" fill="#6a8d3f"/>
+      <text x="0" y="3" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">一棵</text>
+    </g>
+    <g transform="translate(680,150)">
+      <rect x="-25" y="-12" width="50" height="20" rx="4" fill="#7ab8d8"/>
+      <text x="0" y="3" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">一本</text>
+    </g>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">量词的有趣世界</text>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="曹植与曹丕插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：曹植与曹丕</text>
+  <line x="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左侧：曹丕·城府深沉 -->
+  <g transform="translate(170, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a3a3a">曹丕·沉稳有心计</text>
+    <!-- 曹丕（戴皇冠） -->
+    <g transform="translate(0, -40)">
+      <circle cx="0" cy="0" r="16" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M-10 -6 Q0 -14 10 -6" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+      <circle cx="-5" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <circle cx="5" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <path d="M-3 5 L3 5" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 皇冠 -->
+      <path d="M-12 -12 L-8 -20 L-4 -14 L0 -22 L4 -14 L8 -20 L12 -12 Z" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 龙袍 -->
+      <path d="M-16 16 L-22 55 L22 55 L16 16 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="30" r="4" fill="#e8a838" opacity="0.6"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">魏国开国皇帝</text>
+    <text x="0" y="57" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">《燕歌行》·最早的七言诗</text>
+    <text x="0" y="73" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">《典论·论文》·文学批评</text>
+  </g>
+
+  <!-- 中间：才高八斗 -->
+  <g transform="translate(400, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">才高八斗</text>
+    <!-- 量斗 -->
+    <g transform="translate(0, -40)">
+      <path d="M -40 0 L -35 30 L 35 30 L 40 0 Z" fill="#e8a838" opacity="0.3" stroke="#7a3b14" stroke-width="2"/>
+      <ellipse cx="0" cy="0" rx="40" ry="8" fill="#e8a838" opacity="0.4" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 标注八斗 -->
+      <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">8斗</text>
+      <!-- 旁边小斗 -->
+      <g transform="translate(55, 10)">
+        <path d="M -8 0 L -6 10 L 6 10 L 8 0 Z" fill="#4a90b8" opacity="0.3" stroke="#7a3b14" stroke-width="1"/>
+        <text x="0" y="7" text-anchor="middle" font-family="serif" font-size="8" fill="#7a3b14">2斗</text>
+      </g>
+    </g>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"天下才共一石"</text>
+    <text x="0" y="32" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"曹子建独得八斗"</text>
+    <text x="0" y="52" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">——谢灵运评曹植</text>
+    <text x="0" y="72" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">《洛神赋》·千古名篇</text>
+  </g>
+
+  <!-- 右侧：曹植·才华横溢 -->
+  <g transform="translate(630, 250)">
+    <text x="0" y="-90" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#4a4060">曹植·率真有才气</text>
+    <!-- 曹植 -->
+    <g transform="translate(0, -40)">
+      <circle cx="0" cy="0" r="16" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+      <path d="M-10 -6 Q0 -14 10 -6" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+      <circle cx="-5" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <circle cx="5" cy="-2" r="1.5" fill="#2a2a2a"/>
+      <path d="M-3 5 Q0 7 3 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 头巾 -->
+      <path d="M-12 -8 Q0 -16 12 -8 L12 -12 Q0 -20 -12 -12 Z" fill="#4a4060" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-16 16 L-20 55 L20 55 L16 16 Z" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 酒杯 -->
+    <g transform="translate(15, 20)">
+      <path d="M -5 0 L -4 8 L 4 8 L 5 0 Z" fill="#e8a838" opacity="0.5" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">十岁能文·才思敏捷</text>
+    <text x="0" y="57" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">率真不羁·酒后闯司马门</text>
+    <text x="0" y="73" text-anchor="middle" font-family="serif" font-size="10" fill="#c8843a">41岁郁郁而终</text>
+  </g>
+
+  <!-- 下方：权力与亲情 -->
+  <g transform="translate(400, 400)">
+    <!-- 同根生 -->
+    <g transform="translate(0, 0)">
+      <!-- 根 -->
+      <path d="M 0 0 Q -5 10 -10 20" fill="none" stroke="#5a4a2a" stroke-width="2.5"/>
+      <path d="M 0 0 Q 5 10 10 20" fill="none" stroke="#5a4a2a" stroke-width="2.5"/>
+      <!-- 两棵苗 -->
+      <g transform="translate(-10, 20)">
+        <line x1="0" y1="0" x2="0" y2="-15" stroke="#2d6a4f" stroke-width="2"/>
+        <ellipse cx="-3" cy="-15" rx="3" ry="5" fill="#2d6a4f" transform="rotate(-20)"/>
+        <ellipse cx="3" cy="-15" rx="3" ry="5" fill="#2d6a4f" transform="rotate(20)"/>
+      </g>
+      <g transform="translate(10, 20)">
+        <line x1="0" y1="0" x2="0" y2="-15" stroke="#e07856" stroke-width="2"/>
+        <ellipse cx="-3" cy="-15" rx="3" ry="5" fill="#e07856" transform="rotate(-20)"/>
+        <ellipse cx="3" cy="-15" rx="3" ry="5" fill="#e07856" transform="rotate(20)"/>
+      </g>
+      <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">同根生</text>
+    </g>
+    <!-- VS -->
+    <text x="-60" y="15" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">权力</text>
+    <text x="60" y="15" text-anchor="middle" font-family="serif" font-size="12" fill="#2d6a4f">亲情</text>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a">VS</text>
+  </g>
+
+  <!-- 下方核心 -->
+  <g transform="translate(400, 470)">
+    <rect x="-280" y="0" width="560" height="50" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">两兄弟都有才华，却因权力走向对立——</text>
+    <text x="0" y="42" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">迫害者化为尘土，被煎熬者的诗却流传千古</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">曹植与曹丕：同根生却相煎急，才华救了命也困了一生</text>
+</svg>

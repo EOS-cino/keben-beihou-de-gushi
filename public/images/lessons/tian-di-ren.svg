@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="天地人三个大字配天空大地与人物的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">天地人</text>
+
+  <!-- 天：天空区域 -->
+  <rect x="40" y="80" width="720" height="200" fill="#a8d0e8" opacity="0.25"/>
+  <text x="140" y="150" text-anchor="middle" font-family="serif" font-size="72" font-weight="bold" fill="#7ab8d8">天</text>
+  <!-- 太阳 -->
+  <circle cx="640" cy="150" r="40" fill="#f4b942" opacity="0.85"/>
+  <g stroke="#f4b942" stroke-width="3" opacity="0.6">
+    <line x1="640" y1="95" x2="640" y2="80"/>
+    <line x1="640" y1="205" x2="640" y2="220"/>
+    <line x1="585" y1="150" x2="570" y2="150"/>
+    <line x1="695" y1="150" x2="710" y2="150"/>
+    <line x1="600" y1="110" x2="588" y2="98"/>
+    <line x1="680" y1="190" x2="692" y2="202"/>
+    <line x1="680" y1="110" x2="692" y2="98"/>
+    <line x1="600" y1="190" x2="588" y2="202"/>
+  </g>
+  <!-- 云 -->
+  <ellipse cx="340" cy="130" rx="50" ry="20" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1.5"/>
+  <ellipse cx="370" cy="120" rx="35" ry="16" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1.5"/>
+  <ellipse cx="460" cy="200" rx="45" ry="18" fill="#fef9ed" stroke="#7ab8d8" stroke-width="1.5"/>
+
+  <!-- 人：中间区域 -->
+  <rect x="40" y="280" width="720" height="120" fill="#fef0d8" opacity="0.5"/>
+  <text x="400" y="370" text-anchor="middle" font-family="serif" font-size="72" font-weight="bold" fill="#c8843a">人</text>
+  <!-- 小人 -->
+  <g transform="translate(180,330)">
+    <circle cx="0" cy="-25" r="12" fill="#e07856"/>
+    <path d="M0 -13 L0 20 M0 0 L-15 15 M0 0 L15 15 M0 20 L-10 45 M0 20 L10 45" stroke="#e07856" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  <g transform="translate(580,330)">
+    <circle cx="0" cy="-25" r="12" fill="#6a8d3f"/>
+    <path d="M0 -13 L0 20 M0 0 L-15 15 M0 0 L15 15 M0 20 L-10 45 M0 20 L10 45" stroke="#6a8d3f" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  <text x="180" y="395" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">你</text>
+  <text x="400" y="395" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">我</text>
+  <text x="580" y="395" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">他</text>
+
+  <!-- 地：大地区域 -->
+  <rect x="40" y="400" width="720" height="160" fill="#6a8d3f" opacity="0.2"/>
+  <text x="660" y="490" text-anchor="middle" font-family="serif" font-size="72" font-weight="bold" fill="#4a6a2f">地</text>
+  <!-- 草地 -->
+  <path d="M40 440 Q200 425 400 438 Q600 430 760 440 L760 560 L40 560 Z" fill="#6a8d3f" opacity="0.35"/>
+  <!-- 小草 -->
+  <g stroke="#4a6a2f" stroke-width="2.5" stroke-linecap="round">
+    <path d="M100 460 L100 440 M108 460 L108 442 M116 460 L116 438"/>
+    <path d="M250 470 L250 448 M258 470 L258 450 M266 470 L266 445"/>
+    <path d="M420 465 L420 443 M428 465 L428 445 M436 465 L436 440"/>
+    <path d="M540 472 L540 450 M548 472 L548 452 M556 472 L556 447"/>
+  </g>
+  <!-- 小花 -->
+  <g transform="translate(200,455)">
+    <circle cx="0" cy="0" r="6" fill="#c84a3a"/>
+    <circle cx="0" cy="0" r="2.5" fill="#f4b942"/>
+  </g>
+  <g transform="translate(480,460)">
+    <circle cx="0" cy="0" r="6" fill="#e07856"/>
+    <circle cx="0" cy="0" r="2.5" fill="#f4b942"/>
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="月光透过木窗洒在书桌上的散文插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 夜空背景 -->
+  <rect x="0" y="0" width="800" height="600" fill="#4a90b8" opacity="0.08"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#4a5a6a">月光窗</text>
+  <line x1="362" y1="60" x2="438" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 月亮 -->
+  <circle cx="640" cy="130" r="42" fill="#fef8e0" stroke="#e8a838" stroke-width="1.5" opacity="0.9"/>
+  <circle cx="630" cy="120" r="7" fill="#e8d8a0" opacity="0.4"/>
+  <circle cx="650" cy="140" r="5" fill="#e8d8a0" opacity="0.4"/>
+  <!-- 月光晕 -->
+  <circle cx="640" cy="130" r="55" fill="none" stroke="#fef8e0" stroke-width="1" opacity="0.4"/>
+  <circle cx="640" cy="130" r="68" fill="none" stroke="#fef8e0" stroke-width="1" opacity="0.25"/>
+
+  <!-- 星星 -->
+  <g fill="#fef8e0" opacity="0.8">
+    <circle cx="180" cy="100" r="1.5"/>
+    <circle cx="260" cy="80" r="2"/>
+    <circle cx="350" cy="120" r="1.5"/>
+    <circle cx="500" cy="90" r="1.5"/>
+    <circle cx="120" cy="160" r="1.5"/>
+    <circle cx="720" cy="200" r="2"/>
+  </g>
+
+  <!-- 墙壁 -->
+  <rect x="80" y="180" width="640" height="360" fill="#f0e8d0" stroke="#c8a868" stroke-width="2"/>
+
+  <!-- 木窗框 -->
+  <rect x="240" y="210" width="320" height="280" fill="#2d4a5a" stroke="#8a6a3a" stroke-width="3"/>
+  <!-- 窗格 -->
+  <line x1="400" y1="210" x2="400" y2="490" stroke="#8a6a3a" stroke-width="3"/>
+  <line x1="240" y1="350" x2="560" y2="350" stroke="#8a6a3a" stroke-width="3"/>
+  <line x1="320" y1="210" x2="320" y2="490" stroke="#8a6a3a" stroke-width="2"/>
+  <line x1="480" y1="210" x2="480" y2="490" stroke="#8a6a3a" stroke-width="2"/>
+  <line x1="240" y1="280" x2="560" y2="280" stroke="#8a6a3a" stroke-width="2"/>
+  <line x1="240" y1="420" x2="560" y2="420" stroke="#8a6a3a" stroke-width="2"/>
+
+  <!-- 窗外夜色（窗内） -->
+  <rect x="243" y="213" width="314" height="274" fill="#4a90b8" opacity="0.35"/>
+  <!-- 窗外树枝剪影 -->
+  <path d="M250 350 Q280 300 310 330 Q330 290 360 320" fill="none" stroke="#2d4a3a" stroke-width="2" opacity="0.6"/>
+  <g fill="#2d4a3a" opacity="0.5">
+    <ellipse cx="290" cy="320" rx="8" ry="4"/>
+    <ellipse cx="340" cy="310" rx="7" ry="4"/>
+  </g>
+
+  <!-- 月光斜射进屋（光柱） -->
+  <path d="M340 213 L300 540 L520 540 L460 213 Z" fill="#fef8e0" opacity="0.35"/>
+  <!-- 光柱里的尘埃 -->
+  <g fill="#e8a838" opacity="0.5">
+    <circle cx="380" cy="300" r="1.5"/>
+    <circle cx="400" cy="360" r="1"/>
+    <circle cx="370" cy="400" r="1.5"/>
+    <circle cx="420" cy="340" r="1"/>
+    <circle cx="390" cy="460" r="1.5"/>
+    <circle cx="430" cy="420" r="1"/>
+  </g>
+
+  <!-- 地上的月光方斑 -->
+  <rect x="300" y="500" width="220" height="30" fill="#fef8e0" opacity="0.3"/>
+
+  <!-- 书桌 -->
+  <rect x="140" y="470" width="200" height="14" fill="#8a6a3a" stroke="#5a4a2a" stroke-width="1.5"/>
+  <rect x="150" y="484" width="10" height="56" fill="#8a6a3a"/>
+  <rect x="320" y="484" width="10" height="56" fill="#8a6a3a"/>
+  <!-- 桌上的书 -->
+  <rect x="170" y="450" width="70" height="20" fill="#e07856" stroke="#8a5a14" stroke-width="1.5"/>
+  <line x1="175" y1="458" x2="235" y2="458" stroke="#fef9ed" stroke-width="0.8"/>
+  <line x1="175" y1="463" x2="230" y2="463" stroke="#fef9ed" stroke-width="0.8"/>
+  <!-- 茶杯 -->
+  <rect x="260" y="450" width="22" height="20" rx="3" fill="#fef9ed" stroke="#8a6a3a" stroke-width="1.5"/>
+  <path d="M282 454 Q290 458 282 464" fill="none" stroke="#8a6a3a" stroke-width="1"/>
+  <!-- 热气 -->
+  <path d="M268 448 Q270 440 268 434" fill="none" stroke="#fef9ed" stroke-width="1.2" opacity="0.6"/>
+  <path d="M275 448 Q277 442 275 436" fill="none" stroke="#fef9ed" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- 标注 -->
+  <line x1="640" y1="175" x2="640" y2="195" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="590" y="196" width="100" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="640" y="214" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">明月当空</text>
+
+  <line x1="460" y1="350" x2="600" y2="320" stroke="#8a5a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="580" y="305" width="120" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="640" y="323" text-anchor="middle" font-family="serif" font-size="14" fill="#8a5a14">月光爬进窗</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="572" text-anchor="middle" font-family="serif" font-size="15" fill="#4a5a6a">月光透过小窗洒进屋里，在书桌上印下一方温柔</text>
+</svg>

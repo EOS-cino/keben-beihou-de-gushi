@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国姓氏起源百家姓插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">中国姓氏的起源</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">每个姓背后都有一个故事</text>
+
+  <!-- 姓氏来源四大类 -->
+  <!-- 封地为姓 -->
+  <g transform="translate(180,180)">
+    <rect x="-90" y="-60" width="180" height="120" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 地图标记 -->
+    <path d="M-30 -20 Q-35 -30 -25 -35 Q-15 -38 -10 -30 Q-5 -20 -15 -10 Q-25 0 -30 -20 Z" fill="#6a8d3f" opacity="0.5"/>
+    <circle cx="-20" cy="-25" r="4" fill="#c84a3a"/>
+    <text x="15" y="-20" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">封地为姓</text>
+    <text x="15" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">赵·韩·魏</text>
+    <text x="15" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">陈·宋·周</text>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">住在哪就以哪为姓</text>
+  </g>
+
+  <!-- 官职为姓 -->
+  <g transform="translate(620,180)">
+    <rect x="-90" y="-60" width="180" height="120" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 官帽 -->
+    <path d="M-25 -30 L-15 -40 L15 -40 L25 -30 L20 -20 L-20 -20 Z" fill="#8d5a36"/>
+    <rect x="-18" y="-20" width="36" height="6" fill="#c8843a"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">官职为姓</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">司马·司徒</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">史·帅·校</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">当什么官就以官为姓</text>
+  </g>
+
+  <!-- 职业为姓 -->
+  <g transform="translate(180,380)">
+    <rect x="-90" y="-60" width="180" height="120" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 陶罐 -->
+    <ellipse cx="-25" cy="-15" rx="12" ry="6" fill="#8d5a36"/>
+    <path d="M-37 -15 L-35 5 Q-35 10 -30 10 L-20 10 Q-15 10 -13 5 L-13 -15 Z" fill="#c8843a" stroke="#8d5a36" stroke-width="1.5"/>
+    <text x="15" y="-20" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">职业为姓</text>
+    <text x="15" y="0" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">陶·屠·卜</text>
+    <text x="15" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">匠·巫·乐</text>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">做什么就以职业为姓</text>
+  </g>
+
+  <!-- 赐姓改姓 -->
+  <g transform="translate(620,380)">
+    <rect x="-90" y="-60" width="180" height="120" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <!-- 皇帝赐字 -->
+    <rect x="-35" y="-35" width="20" height="25" fill="#c84a3a"/>
+    <text x="-25" y="-17" text-anchor="middle" font-family="serif" font-size="14" fill="#fef9ed" font-weight="bold">赐</text>
+    <path d="M-10 -22 L5 -22" stroke="#c8843a" stroke-width="2" marker-end="url(#arrowS)"/>
+    <text x="20" y="-17" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">姓</text>
+    <text x="0" y="10" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">赐姓·改姓</text>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">皇帝赐姓</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">避讳·避仇改姓</text>
+  </g>
+  <defs>
+    <marker id="arrowS" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+
+  <!-- 中心 -->
+  <circle cx="400" cy="280" r="60" fill="#fef9ed" stroke="#c8843a" stroke-width="2"/>
+  <text x="400" y="270" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">百家姓</text>
+  <text x="400" y="293" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">五百多个姓</text>
+  <text x="400" y="310" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">宋朝编写</text>
+
+  <!-- 底部 -->
+  <rect x="80" y="500" width="640" height="70" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="528" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">王·李·张·刘·陈 是中国人数最多的五个姓</text>
+  <text x="400" y="552" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">最早的姓多有"女"字旁，因为姓从母亲那里来</text>
+</svg>

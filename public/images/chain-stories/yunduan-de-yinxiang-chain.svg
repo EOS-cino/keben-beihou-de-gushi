@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="云的形成与观云文化插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：云是怎样变出来的</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#e8a838" stroke-width="1.5"/>
+
+  <!-- 左：水循环（云的形成） -->
+  <rect x="20" y="75" width="380" height="440" fill="#4a90b8" opacity="0.06"/>
+  <text x="210" y="100" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">云的秘密：水在旅行</text>
+
+  <!-- 海/地面水 -->
+  <path d="M50 420 Q150 410 250 420 Q350 415 390 420 L390 470 L50 470 Z" fill="#4a90b8" opacity="0.4"/>
+  <g fill="none" stroke="#4a90b8" stroke-width="1.5" opacity="0.5">
+    <path d="M80 435 Q110 432 140 435"/>
+    <path d="M200 438 Q230 435 260 438"/>
+    <path d="M300 435 Q330 432 360 435"/>
+  </g>
+  <text x="210" y="460" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">地上的水</text>
+
+  <!-- 蒸发箭头（向上） -->
+  <g stroke="#4a90b8" stroke-width="2" fill="none" opacity="0.6">
+    <line x1="120" y1="410" x2="120" y2="340"/>
+    <path d="M116 346 L120 340 L124 346"/>
+    <line x1="210" y1="410" x2="210" y2="330"/>
+    <path d="M206 336 L210 330 L214 336"/>
+    <line x1="300" y1="410" x2="300" y2="345"/>
+    <path d="M296 351 L300 345 L304 351"/>
+  </g>
+  <text x="210" y="320" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">蒸发·水汽上升</text>
+
+  <!-- 云（凝结） -->
+  <g fill="#f8f8f0" opacity="0.9" transform="translate(210, 220)">
+    <ellipse cx="-40" cy="0" rx="30" ry="18"/>
+    <ellipse cx="0" cy="-10" rx="40" ry="24"/>
+    <ellipse cx="40" cy="0" rx="32" ry="20"/>
+    <ellipse cx="0" cy="10" rx="50" ry="16"/>
+  </g>
+  <text x="210" y="180" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">遇冷凝结成云</text>
+
+  <!-- 降雨箭头（向下） -->
+  <g stroke="#4a90b8" stroke-width="2" fill="none" opacity="0.6">
+    <line x1="150" y1="260" x2="150" y2="300"/>
+    <line x1="180" y1="265" x2="180" y2="305"/>
+    <line x1="210" y1="268" x2="210" y2="308"/>
+    <line x1="240" y1="265" x2="240" y2="305"/>
+    <line x1="270" y1="260" x2="270" y2="300"/>
+  </g>
+  <text x="320" y="290" font-size="11" fill="#7a3b14" font-family="serif">下雨</text>
+
+  <!-- 循环箭头 -->
+  <path d="M350 220 Q380 180 380 280 Q380 380 350 400" fill="none" stroke="#e8a838" stroke-width="2" stroke-dasharray="5,4" opacity="0.6"/>
+
+  <!-- 右：看云识天气 -->
+  <rect x="420" y="75" width="360" height="440" fill="#e8a838" opacity="0.06"/>
+  <text x="600" y="100" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">看云识天气</text>
+
+  <!-- 积云（晴天） -->
+  <g transform="translate(520, 170)">
+    <ellipse cx="-20" cy="0" rx="18" ry="14" fill="#f8f8f0" stroke="#c8c8b8" stroke-width="1"/>
+    <ellipse cx="0" cy="-8" rx="24" ry="18" fill="#f8f8f0" stroke="#c8c8b8" stroke-width="1"/>
+    <ellipse cx="22" cy="0" rx="18" ry="14" fill="#f8f8f0" stroke="#c8c8b8" stroke-width="1"/>
+    <circle cx="700" cy="150" r="20" fill="#e8a838" opacity="0.7"/>
+    <text x="0" y="35" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">积云·像棉花糖</text>
+    <text x="0" y="50" text-anchor="middle" font-size="10" fill="#2d6a4f" font-family="serif">晴天</text>
+  </g>
+
+  <!-- 层云（阴天） -->
+  <g transform="translate(520, 260)">
+    <rect x="-50" y="-8" width="100" height="16" rx="8" fill="#c8c8c0" opacity="0.7" stroke="#a8a8a0" stroke-width="1"/>
+    <text x="0" y="25" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">层云·灰蒙蒙一片</text>
+    <text x="0" y="40" text-anchor="middle" font-size="10" fill="#7a3b14" font-family="serif">阴天</text>
+  </g>
+
+  <!-- 卷云（高处） -->
+  <g transform="translate(520, 330)">
+    <path d="M-30 0 Q-15 -8 0 0 Q15 8 30 0" fill="none" stroke="#f8f8f0" stroke-width="3" opacity="0.9"/>
+    <path d="M-25 6 Q-10 -2 5 6" fill="none" stroke="#f8f8f0" stroke-width="2.5" opacity="0.8"/>
+    <text x="0" y="25" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">卷云·像卷头发</text>
+    <text x="0" y="40" text-anchor="middle" font-size="10" fill="#2d6a4f" font-family="serif">好天</text>
+  </g>
+
+  <!-- 积雨云（暴雨） -->
+  <g transform="translate(700, 280)">
+    <ellipse cx="-15" cy="0" rx="16" ry="20" fill="#6a6a8a" opacity="0.7"/>
+    <ellipse cx="0" cy="-10" rx="22" ry="24" fill="#5a5a7a" opacity="0.7"/>
+    <ellipse cx="18" cy="0" rx="18" ry="22" fill="#6a6a8a" opacity="0.7"/>
+    <ellipse cx="0" cy="15" rx="30" ry="14" fill="#4a4a6a" opacity="0.7"/>
+    <!-- 闪电 -->
+    <path d="M-5 25 L-10 38 L-2 38 L-8 50" fill="none" stroke="#e8a838" stroke-width="2.5"/>
+    <!-- 雨滴 -->
+    <g fill="#4a90b8" opacity="0.7">
+      <ellipse cx="-25" cy="35" rx="2" ry="4"/>
+      <ellipse cx="20" cy="38" rx="2" ry="4"/>
+      <ellipse cx="30" cy="32" rx="2" ry="4"/>
+    </g>
+    <text x="0" y="70" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">积雨云·黑压压</text>
+    <text x="0" y="85" text-anchor="middle" font-size="10" fill="#e07856" font-family="serif">雷雨</text>
+  </g>
+
+  <!-- 谚语 -->
+  <rect x="440" y="430" width="320" height="60" fill="#fff6df" stroke="#e8a838" stroke-width="1.5" rx="6" opacity="0.9"/>
+  <text x="600" y="452" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">朝霞不出门，晚霞行千里</text>
+  <text x="600" y="472" text-anchor="middle" font-size="12" fill="#7a3b14" font-family="serif">鱼鳞天，不雨也风颠</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="540" width="700" height="40" fill="#fff6df" stroke="#e8a838" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="565" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">地上的水蒸发上升、遇冷凝结成云、又化作雨落下——云的背后是地球的呼吸。</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：世界上有几种书">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：世界上有几种“书”</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">只要有心，到处都是书</text>
+  <g transform="translate(160,300)">
+    <path d="M-40,-30 L40,-30 L40,40 L-40,40 Z" fill="#8fb86a" stroke="#3a6b2a" stroke-width="2"/>
+    <path d="M-40,-30 L0,-50 L40,-30" fill="#cfe6c0" stroke="#3a6b2a" stroke-width="2"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#3a6b2a">大自然之书</text>
+  </g>
+  <g transform="translate(400,300)">
+    <path d="M-40,-30 L40,-30 L40,40 L-40,40 Z" fill="#7fb8d8" stroke="#2a5a7a" stroke-width="2"/>
+    <circle cx="-10" cy="0" r="8" fill="#fff"/><circle cx="14" cy="10" r="6" fill="#fff"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#2a5a7a">天空画书</text>
+  </g>
+  <g transform="translate(640,300)">
+    <path d="M-40,-30 L40,-30 L40,40 L-40,40 Z" fill="#e8b94a" stroke="#c98a3a" stroke-width="2"/>
+    <rect x="-20" y="-10" width="40" height="20" fill="#a85a2a"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="16" fill="#a8742a">历史之书</text>
+  </g>
+  <text x="400" y="460" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">一辈子都读不完</text>
+</svg>

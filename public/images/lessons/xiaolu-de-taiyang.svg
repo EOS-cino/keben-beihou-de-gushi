@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="小鹿踮脚伸手想够树上金灿灿太阳的童话插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小鹿的太阳</text>
+  <line x1="320" y1="56" x2="480" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——想把太阳摘回家的小鹿</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="90" width="800" height="300" fill="#4a90b8" opacity="0.08"/>
+
+  <!-- 树梢上的太阳 -->
+  <g transform="translate(560, 180)">
+    <circle cx="0" cy="0" r="40" fill="#e8a838" opacity="0.35"/>
+    <circle cx="0" cy="0" r="26" fill="#e8a838" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">挂在树梢的太阳</text>
+  </g>
+
+  <!-- 大树 -->
+  <g transform="translate(560, 240)">
+    <rect x="-10" y="0" width="20" height="160" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="-10" rx="60" ry="45" fill="#2d6a4f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <ellipse cx="-30" cy="0" rx="35" ry="28" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+    <ellipse cx="35" cy="-5" rx="32" ry="26" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+  </g>
+
+  <!-- 草地 -->
+  <rect x="0" y="400" width="800" height="80" fill="#6a8d3f" opacity="0.3"/>
+
+  <!-- 小鹿 -->
+  <g transform="translate(280, 360)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="55" ry="32" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 脖子 -->
+    <path d="M40 -15 Q70 -50 80 -75" fill="none" stroke="#e8a838" stroke-width="18" stroke-linecap="round"/>
+    <!-- 头 -->
+    <ellipse cx="88" cy="-80" rx="22" ry="16" fill="#e8a838" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 鹿角 -->
+    <path d="M82 -92 L76 -110 M82 -92 L86 -108" stroke="#8d5a36" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M96 -92 L100 -110 M96 -92 L92 -108" stroke="#8d5a36" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- 眼睛 -->
+    <circle cx="96" cy="-82" r="2.5" fill="#7a3b14"/>
+    <!-- 腿 -->
+    <rect x="-35" y="25" width="7" height="50" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="-15" y="25" width="7" height="55" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="25" y="25" width="7" height="55" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="42" y="25" width="7" height="50" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 抬起的前腿够太阳 -->
+    <path d="M50 -10 Q90 -50 130 -70" fill="none" stroke="#e8a838" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="132" cy="-72" r="6" fill="#e07856" stroke="#7a3b14" stroke-width="1.2"/>
+    <!-- 斑点 -->
+    <circle cx="-20" cy="-8" r="5" fill="#c84a3a" opacity="0.7"/>
+    <circle cx="10" cy="5" r="4" fill="#c84a3a" opacity="0.7"/>
+    <circle cx="-30" cy="10" r="4" fill="#c84a3a" opacity="0.7"/>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">小鹿想摘太阳</text>
+  </g>
+
+  <!-- 追逐虚线路径 -->
+  <path d="M340 330 Q450 300 540 240" fill="none" stroke="#c8843a" stroke-width="2" stroke-dasharray="5 5" opacity="0.6"/>
+
+  <!-- 远处松鼠 -->
+  <g transform="translate(680, 410)">
+    <ellipse cx="0" cy="0" rx="12" ry="9" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-10" cy="-3" r="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <path d="M10 -2 Q26 -10 22 6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">松鼠</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 510)">
+    <rect x="-300" y="0" width="600" height="60" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">太阳是大家的，谁也不能摘走，可谁都能晒到</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">摘不回家，却暖在了心里</text>
+  </g>
+</svg>

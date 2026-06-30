@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="云为什么有不同颜色插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">云为什么有不同颜色</text>
+  <line x1="230" y1="56" x2="570" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——跟着一朵云，看它一天的颜色变化</text>
+
+  <!-- 时间轴：早→午→傍晚 -->
+  <line x1="80" y1="380" x2="720" y2="380" stroke="#c8843a" stroke-width="3"/>
+  <circle cx="160" cy="380" r="8" fill="#7ab8d8"/>
+  <circle cx="400" cy="380" r="8" fill="#8d5a36"/>
+  <circle cx="640" cy="380" r="8" fill="#c84a3a"/>
+
+  <!-- 早上：白云 -->
+  <g transform="translate(160, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7ab8d8">早上</text>
+    <text x="0" y="-5" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">薄云·小水滴细</text>
+    <!-- 白云 -->
+    <ellipse cx="0" cy="0" rx="50" ry="22" fill="#fef9ed" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="-25" cy="-5" rx="22" ry="16" fill="#fef9ed" stroke="#c8843a" stroke-width="2"/>
+    <ellipse cx="25" cy="-8" rx="25" ry="18" fill="#fef9ed" stroke="#c8843a" stroke-width="2"/>
+    <!-- 阳光散射示意 -->
+    <g stroke="#e07856" stroke-width="1.5" opacity="0.4">
+      <line x1="0" y1="-30" x2="-15" y2="-15"/>
+      <line x1="0" y1="-30" x2="0" y2="-15"/>
+      <line x1="0" y1="-30" x2="15" y2="-15"/>
+    </g>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="10" fill="#4a6a2f">小水滴散射所有光</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#4a6a2f">→所有颜色混合=白色</text>
+    <text x="0" y="400" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">白云</text>
+  </g>
+
+  <!-- 中午→下午：变厚变灰 -->
+  <g transform="translate(400, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8d5a36">下午</text>
+    <text x="0" y="-5" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">云越长越厚·水滴变大</text>
+    <!-- 乌云 -->
+    <ellipse cx="0" cy="0" rx="55" ry="28" fill="#5a4a3a" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="-30" cy="-5" rx="25" ry="18" fill="#5a4a3a" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="30" cy="-8" rx="28" ry="20" fill="#5a4a3a" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="-15" rx="20" ry="14" fill="#5a4a3a" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 雨滴 -->
+    <g stroke="#7ab8d8" stroke-width="2" stroke-linecap="round">
+      <line x1="-25" y1="25" x2="-28" y2="40"/>
+      <line x1="-5" y1="28" x2="-8" y2="43"/>
+      <line x1="15" y1="25" x2="12" y2="40"/>
+      <line x1="30" y1="28" x2="27" y2="43"/>
+    </g>
+    <!-- 阳光被挡 -->
+    <g stroke="#e07856" stroke-width="1.5" opacity="0.2">
+      <line x1="0" y1="-40" x2="0" y2="-30"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">云太厚→阳光穿不过</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">底部照不到光→黑色</text>
+    <text x="0" y="400" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">乌云</text>
+  </g>
+
+  <!-- 傍晚：晚霞（红色） -->
+  <g transform="translate(640, 200)">
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">傍晚</text>
+    <text x="0" y="-5" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">阳光斜射·穿过厚大气</text>
+    <!-- 红色云 -->
+    <ellipse cx="0" cy="0" rx="50" ry="22" fill="#c84a3a" opacity="0.7" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="-25" cy="-5" rx="22" ry="16" fill="#e07856" opacity="0.7" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="25" cy="-8" rx="25" ry="18" fill="#e07856" opacity="0.7" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 夕阳 -->
+    <circle cx="50" cy="50" r="18" fill="#e07856" opacity="0.7"/>
+    <circle cx="50" cy="50" r="12" fill="#c8843a"/>
+    <!-- 斜射光线 -->
+    <g stroke="#e07856" stroke-width="2" opacity="0.4">
+      <line x1="45" y1="45" x2="20" y2="20"/>
+      <line x1="40" y1="50" x2="10" y2="50"/>
+      <line x1="45" y1="55" x2="20" y2="80"/>
+    </g>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">蓝光被散射掉</text>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">只剩红光橙光照在云上</text>
+    <text x="0" y="400" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">晚霞</text>
+  </g>
+
+  <!-- 科学原理 -->
+  <g transform="translate(400, 440)">
+    <rect x="-320" y="0" width="640" height="120" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">阳光是画家，水滴是颜料，大气层是画布</text>
+    <text x="-280" y="48" font-family="serif" font-size="11" fill="#8d5a36">白云：小水滴散射所有颜色光→混合=白色（米氏散射）</text>
+    <text x="-280" y="68" font-family="serif" font-size="11" fill="#8d5a36">乌云：云厚水滴大→光被吸收→底部暗=黑色</text>
+    <text x="-280" y="88" font-family="serif" font-size="11" fill="#8d5a36">晚霞：阳光斜射穿厚大气→蓝光散射掉→剩红光（瑞利散射）</text>
+    <text x="-280" y="108" font-family="serif" font-size="11" fill="#c84a3a">"朝霞不出门，晚霞行千里"——看云的颜色猜天气</text>
+  </g>
+</svg>

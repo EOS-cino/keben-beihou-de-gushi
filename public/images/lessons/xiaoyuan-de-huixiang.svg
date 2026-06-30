@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="校园里孩子们奔跑和读书的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="350" fill="#4a90b8" opacity="0.06"/>
+  <!-- 教学楼 -->
+  <g transform="translate(400 250)">
+    <!-- 主楼 -->
+    <rect x="-150" y="-80" width="300" height="160" fill="#e8a838" opacity="0.2"/>
+    <rect x="-150" y="-80" width="300" height="160" fill="none" stroke="#8b6f47" stroke-width="3"/>
+    <!-- 屋顶 -->
+    <path d="M-160 -80 L0 -120 L160 -80 Z" fill="#e07856" opacity="0.7"/>
+    <!-- 窗户 -->
+    <g fill="#4a90b8" opacity="0.3">
+      <rect x="-130" y="-60" width="35" height="30"/>
+      <rect x="-80" y="-60" width="35" height="30"/>
+      <rect x="-30" y="-60" width="35" height="30"/>
+      <rect x="20" y="-60" width="35" height="30"/>
+      <rect x="70" y="-60" width="35" height="30"/>
+      <rect x="-130" y="-15" width="35" height="30"/>
+      <rect x="-80" y="-15" width="35" height="30"/>
+      <rect x="-30" y="-15" width="35" height="30"/>
+      <rect x="20" y="-15" width="35" height="30"/>
+      <rect x="70" y="-15" width="35" height="30"/>
+    </g>
+    <!-- 门 -->
+    <rect x="-20" y="30" width="40" height="50" fill="#8b6f47"/>
+    <circle cx="10" cy="55" r="2" fill="#e8a838"/>
+    <!-- 钟楼 -->
+    <rect x="-8" y="-140" width="16" height="25" fill="#e07856" opacity="0.7"/>
+    <circle cx="0" cy="-115" r="10" fill="#fef9ed" stroke="#8b6f47" stroke-width="2"/>
+    <line x1="0" y1="-115" x2="0" y2="-122" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="-115" x2="5" y2="-113" stroke="#333" stroke-width="1"/>
+  </g>
+  <!-- 旗杆 -->
+  <g transform="translate(150 250)">
+    <line x1="0" y1="0" x2="0" y2="-100" stroke="#8b6f47" stroke-width="3"/>
+    <path d="M0 -100 L30 -92 L0 -85 Z" fill="#e07856"/>
+  </g>
+  <!-- 地面/操场 -->
+  <rect x="0" y="330" width="800" height="270" fill="#dceee3"/>
+  <rect x="0" y="380" width="800" height="220" fill="#9fc8b4" opacity="0.3"/>
+  <!-- 跑道线 -->
+  <g stroke="#e8a838" stroke-width="3" fill="none" opacity="0.4" stroke-dasharray="15 10">
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="0" y1="510" x2="800" y2="510"/>
+  </g>
+  <!-- 奔跑的孩子1 -->
+  <g transform="translate(200 420)">
+    <path d="M-12 0 L-15 -40 L15 -40 L12 0 Z" fill="#e07856"/>
+    <circle cx="0" cy="-55" r="14" fill="#f4d4a8"/>
+    <path d="M-14 -62 Q0 -75 14 -62 L14 -55 Q0 -50 -14 -55 Z" fill="#333"/>
+    <path d="M-10 -35 L-25 -50" stroke="#f4d4a8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10 -35 L25 -25" stroke="#f4d4a8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-8 0 L-15 15" stroke="#2d6a4f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M8 0 L20 10" stroke="#2d6a4f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- 奔跑的孩子2 -->
+  <g transform="translate(600 430)">
+    <path d="M-12 0 L-15 -40 L15 -40 L12 0 Z" fill="#4a90b8"/>
+    <circle cx="0" cy="-55" r="14" fill="#f4d4a8"/>
+    <path d="M-14 -62 Q0 -75 14 -62 L14 -55 Q0 -50 -14 -55 Z" fill="#333"/>
+    <path d="M-10 -35 L-25 -25" stroke="#f4d4a8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10 -35 L25 -50" stroke="#f4d4a8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-8 0 L-20 10" stroke="#2d6a4f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M8 0 L15 15" stroke="#2d6a4f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- 读书的孩子 -->
+  <g transform="translate(400 470)">
+    <path d="M-15 0 L-18 -35 L18 -35 L15 0 Z" fill="#2d6a4f"/>
+    <circle cx="0" cy="-50" r="13" fill="#f4d4a8"/>
+    <path d="M-13 -57 Q0 -70 13 -57 L13 -50 Q0 -45 -13 -50 Z" fill="#333"/>
+    <!-- 书 -->
+    <rect x="-12" y="-30" width="24" height="18" fill="#e8a838" opacity="0.8"/>
+    <line x1="0" y1="-30" x2="0" y2="-12" stroke="#8b6f47" stroke-width="1"/>
+    <path d="M-15 -25 L-18 -25" stroke="#f4d4a8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M15 -25 L18 -25" stroke="#f4d4a8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- 树 -->
+  <g transform="translate(700 380)">
+    <rect x="-4" y="0" width="8" height="40" fill="#8b6f47"/>
+    <circle cx="0" cy="-10" r="25" fill="#2d6a4f" opacity="0.6"/>
+  </g>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700" fill="#2d6a4f">校园的回响</text>
+  <text x="400" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#7a7468">铃声、读书声、笑声，留在耳朵里的记忆</text>
+</svg>

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="桂花飘落的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#8a6a14">桂花雨 · 摇落满院香</text>
+  <line x1="240" y1="62" x2="560" y2="62" stroke="#c8a83a" stroke-width="2"/>
+
+  <!-- 地面/院子 -->
+  <rect x="0" y="490" width="800" height="110" fill="#e8d9b8"/>
+  <!-- 竹席 -->
+  <rect x="250" y="490" width="300" height="40" fill="#d4b878" stroke="#a8884a" stroke-width="2"/>
+  <g stroke="#a8884a" stroke-width="1" opacity="0.6">
+    <line x1="260" y1="495" x2="260" y2="525"/>
+    <line x1="290" y1="495" x2="290" y2="525"/>
+    <line x1="320" y1="495" x2="320" y2="525"/>
+    <line x1="350" y1="495" x2="350" y2="525"/>
+    <line x1="380" y1="495" x2="380" y2="525"/>
+    <line x1="410" y1="495" x2="410" y2="525"/>
+    <line x1="440" y1="495" x2="440" y2="525"/>
+    <line x1="470" y1="495" x2="470" y2="525"/>
+    <line x1="500" y1="495" x2="500" y2="525"/>
+    <line x1="530" y1="495" x2="530" y2="525"/>
+  </g>
+
+  <!-- 桂花树（树干） -->
+  <path d="M395 490 L390 350 Q388 320 395 300 L410 300 Q417 320 415 350 L410 490 Z" fill="#6a4a2a" stroke="#4a3018" stroke-width="2"/>
+  <!-- 树干纹理 -->
+  <g stroke="#5a3a1a" stroke-width="1.5" fill="none">
+    <path d="M393 420 Q400 415 407 420"/>
+    <path d="M392 380 Q400 375 408 380"/>
+    <path d="M394 450 Q402 445 410 450"/>
+  </g>
+
+  <!-- 树冠（多层绿叶） -->
+  <g fill="#4a7a3a">
+    <ellipse cx="350" cy="260" rx="60" ry="50"/>
+    <ellipse cx="450" cy="260" rx="60" ry="50"/>
+    <ellipse cx="400" cy="220" rx="70" ry="55"/>
+    <ellipse cx="320" cy="220" rx="45" ry="40"/>
+    <ellipse cx="480" cy="220" rx="45" ry="40"/>
+    <ellipse cx="400" cy="180" rx="50" ry="40"/>
+  </g>
+  <g fill="#5a8a4a" opacity="0.7">
+    <ellipse cx="370" cy="200" rx="35" ry="28"/>
+    <ellipse cx="430" cy="200" rx="35" ry="28"/>
+    <ellipse cx="400" cy="240" rx="40" ry="30"/>
+  </g>
+
+  <!-- 树上的桂花（小黄点簇） -->
+  <g fill="#f4c842">
+    <circle cx="360" cy="240" r="3"/>
+    <circle cx="368" cy="245" r="3"/>
+    <circle cx="364" cy="236" r="3"/>
+    <circle cx="440" cy="240" r="3"/>
+    <circle cx="448" cy="245" r="3"/>
+    <circle cx="444" cy="236" r="3"/>
+    <circle cx="400" cy="200" r="3"/>
+    <circle cx="408" cy="205" r="3"/>
+    <circle cx="392" cy="205" r="3"/>
+    <circle cx="330" cy="220" r="3"/>
+    <circle cx="470" cy="220" r="3"/>
+    <circle cx="385" cy="270" r="3"/>
+    <circle cx="415" cy="270" r="3"/>
+  </g>
+
+  <!-- 飘落的桂花（桂花雨） -->
+  <g fill="#f4c842">
+    <circle cx="300" cy="320" r="3"/>
+    <circle cx="340" cy="360" r="2.5"/>
+    <circle cx="370" cy="400" r="3"/>
+    <circle cx="310" cy="430" r="2.5"/>
+    <circle cx="350" cy="460" r="3"/>
+    <circle cx="460" cy="320" r="3"/>
+    <circle cx="490" cy="360" r="2.5"/>
+    <circle cx="440" cy="400" r="3"/>
+    <circle cx="500" cy="430" r="2.5"/>
+    <circle cx="470" cy="460" r="3"/>
+    <circle cx="400" cy="340" r="2.5"/>
+    <circle cx="395" cy="390" r="3"/>
+    <circle cx="405" cy="440" r="2.5"/>
+    <circle cx="280" cy="380" r="2.5"/>
+    <circle cx="520" cy="380" r="2.5"/>
+    <circle cx="290" cy="460" r="3"/>
+    <circle cx="510" cy="460" r="3"/>
+  </g>
+  <!-- 飘落轨迹线 -->
+  <g stroke="#f4c842" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M360 280 Q355 330 350 380"/>
+    <path d="M440 280 Q445 330 450 380"/>
+    <path d="M400 260 Q398 320 396 380"/>
+  </g>
+
+  <!-- 小女孩（摇树） -->
+  <g>
+    <!-- 身体 -->
+    <path d="M250 490 L255 410 L285 410 L290 490 Z" fill="#c45a8a"/>
+    <!-- 手臂（抱树摇） -->
+    <path d="M285 420 L320 380 L325 392 L290 432 Z" fill="#d46a9a"/>
+    <path d="M255 420 L235 460 L240 470 L262 432 Z" fill="#d46a9a"/>
+    <!-- 头 -->
+    <circle cx="270" cy="392" r="16" fill="#f0d0a8"/>
+    <!-- 辫子 -->
+    <ellipse cx="254" cy="398" rx="5" ry="12" fill="#3a2a1a"/>
+    <!-- 表情（开心） -->
+    <circle cx="265" cy="390" r="2" fill="#2a2a2a"/>
+    <circle cx="275" cy="390" r="2" fill="#2a2a2a"/>
+    <path d="M264 400 Q270 404 276 400" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头上的桂花 -->
+    <circle cx="262" cy="380" r="2.5" fill="#f4c842"/>
+    <circle cx="278" cy="382" r="2.5" fill="#f4c842"/>
+  </g>
+
+  <!-- 母亲（旁边看） -->
+  <g>
+    <path d="M560 490 L565 420 L595 420 L600 490 Z" fill="#5a7a8a"/>
+    <path d="M565 430 L540 460 L545 470 L570 442 Z" fill="#6a8a9a"/>
+    <circle cx="580" cy="402" r="15" fill="#f0d0a8"/>
+    <ellipse cx="566" cy="406" rx="5" ry="10" fill="#3a2a1a"/>
+    <circle cx="575" cy="400" r="1.5" fill="#2a2a2a"/>
+    <circle cx="585" cy="400" r="1.5" fill="#2a2a2a"/>
+    <path d="M574 410 Q580 413 586 410" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 文字标注 -->
+  <line x1="270" y1="376" x2="270" y2="330" stroke="#8a6a14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="220" y="305" width="100" height="26" fill="#fff6df" stroke="#c8a83a" rx="4"/>
+  <text x="270" y="323" text-anchor="middle" font-family="serif" font-size="14" fill="#8a6a14">琦君（摇桂花）</text>
+
+  <rect x="340" y="100" width="120" height="26" fill="#fff6df" stroke="#c8a83a" rx="4"/>
+  <text x="400" y="118" text-anchor="middle" font-family="serif" font-size="14" fill="#8a6a14">桂花树</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="16" fill="#8a6a14">使劲一摇，桂花纷纷扬扬落下来，像一场香香的雨</text>
+</svg>

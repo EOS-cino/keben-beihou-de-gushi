@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠故事 - 清廉人物的故事">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 连珠标识徽章 -->
+  <g transform="translate(60,42)">
+    <rect x="-44" y="-22" width="88" height="44" rx="22" fill="#3a7d5c"/>
+    <circle cx="-26" cy="0" r="5" fill="#fef9ed"/><circle cx="-10" cy="0" r="5" fill="#fef9ed"/><circle cx="6" cy="0" r="5" fill="#fef9ed"/><circle cx="22" cy="0" r="5" fill="#fef9ed"/>
+    <text x="40" y="5" font-family="serif" font-size="16" font-weight="bold" fill="#fef9ed">连珠</text>
+  </g>
+  <text x="460" y="48" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#3a7d5c">清廉人物的故事</text>
+  <line x1="360" y1="64" x2="560" y2="64" stroke="#3a7d5c" stroke-width="2"/>
+
+  <!-- 中央廉洁印章 -->
+  <g transform="translate(400,300)">
+    <rect x="-45" y="-45" width="90" height="90" rx="6" fill="#c05a30" opacity="0.1" stroke="#c05a30" stroke-width="2"/>
+    <rect x="-32" y="-32" width="64" height="64" rx="3" fill="#c05a30" opacity="0.15"/>
+    <text x="0" y="-6" text-anchor="middle" font-family="serif" font-size="22" font-weight="bold" fill="#c05a30">清</text>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="22" font-weight="bold" fill="#c05a30">廉</text>
+  </g>
+
+  <!-- 人物1：包拯（左上） -->
+  <g transform="translate(150,180)">
+    <rect x="-90" y="-55" width="180" height="110" rx="8" fill="#fff" stroke="#7a3b14" stroke-width="2"/>
+    <g transform="translate(-55,0)">
+      <!-- 包拯帽（展角幞头） -->
+      <path d="M-12 -22 Q0 -30 12 -22 L12 -14 L-12 -14 Z" fill="#2d2a24"/>
+      <line x1="-22" y1="-18" x2="-12" y2="-18" stroke="#2d2a24" stroke-width="3"/>
+      <line x1="12" y1="-18" x2="22" y2="-18" stroke="#2d2a24" stroke-width="3"/>
+      <!-- 月牙 -->
+      <path d="M-4 -20 Q0 -16 4 -20" stroke="#fef9ed" stroke-width="1.5" fill="#fef9ed"/>
+      <!-- 脸 -->
+      <ellipse cx="0" cy="-6" rx="11" ry="13" fill="#c05a30" opacity="0.85"/>
+      <!-- 官服 -->
+      <path d="M-14 6 L14 6 L18 24 L-18 24 Z" fill="#2d2a24"/>
+    </g>
+    <text x="20" y="-25" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">铁面包公</text>
+    <text x="20" y="-5" font-family="serif" font-size="12" fill="#7a7468">铁面无私</text>
+    <text x="20" y="13" font-family="serif" font-size="12" fill="#7a7468">执法如山</text>
+    <text x="20" y="31" font-family="serif" font-size="12" fill="#7a7468">不畏权贵</text>
+    <path d="M90 0 Q150 30 240 90" stroke="#7a3b14" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 人物2：海瑞（右上） -->
+  <g transform="translate(650,180)">
+    <rect x="-90" y="-55" width="180" height="110" rx="8" fill="#fff" stroke="#7a3b14" stroke-width="2"/>
+    <g transform="translate(-55,0)">
+      <!-- 官帽 -->
+      <path d="M-12 -22 Q0 -30 12 -22 L12 -14 L-12 -14 Z" fill="#7a3b14"/>
+      <!-- 脸 -->
+      <ellipse cx="0" cy="-6" rx="11" ry="13" fill="#c05a30" opacity="0.85"/>
+      <!-- 胡须 -->
+      <path d="M-4 4 Q0 14 4 4" stroke="#2d2a24" stroke-width="2" fill="none"/>
+      <!-- 官服 -->
+      <path d="M-14 6 L14 6 L18 24 L-18 24 Z" fill="#3a7d5c" opacity="0.8"/>
+      <!-- 鱼壳（海瑞备鱼待客典故） -->
+      <ellipse cx="0" cy="16" rx="6" ry="3" fill="#c05a30" opacity="0.6"/>
+    </g>
+    <text x="-20" y="-25" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">海青天</text>
+    <text x="-20" y="-5" font-family="serif" font-size="12" fill="#7a7468">海瑞罢官</text>
+    <text x="-20" y="13" font-family="serif" font-size="12" fill="#7a7468">布衣蔬食</text>
+    <text x="-20" y="31" font-family="serif" font-size="12" fill="#7a7468">刚正不阿</text>
+    <path d="M-90 0 Q-150 30 -240 90" stroke="#7a3b14" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 人物3：于谦（左下） -->
+  <g transform="translate(150,440)">
+    <rect x="-90" y="-55" width="180" height="110" rx="8" fill="#fff" stroke="#c05a30" stroke-width="2"/>
+    <g transform="translate(-55,0)">
+      <!-- 官帽 -->
+      <path d="M-12 -22 Q0 -30 12 -22 L12 -14 L-12 -14 Z" fill="#7a3b14"/>
+      <ellipse cx="0" cy="-6" rx="11" ry="13" fill="#c05a30" opacity="0.85"/>
+      <path d="M-14 6 L14 6 L18 24 L-18 24 Z" fill="#7a3b14" opacity="0.7"/>
+      <!-- 石灰 -->
+      <rect x="-6" y="14" width="12" height="8" rx="1" fill="#fef9ed" stroke="#7a7468" stroke-width="0.5"/>
+      <circle cx="-3" cy="18" r="1.5" fill="#7a7468" opacity="0.5"/>
+      <circle cx="3" cy="20" r="1.5" fill="#7a7468" opacity="0.5"/>
+    </g>
+    <text x="20" y="-25" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">于谦咏石灰</text>
+    <text x="20" y="-5" font-family="serif" font-size="12" fill="#7a7468">粉骨碎身</text>
+    <text x="20" y="13" font-family="serif" font-size="12" fill="#7a7468">要留清白</text>
+    <text x="20" y="31" font-family="serif" font-size="12" fill="#7a7468">在人间</text>
+    <path d="M90 0 Q150 -30 240 -90" stroke="#c05a30" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 人物4：杨震（右下） -->
+  <g transform="translate(650,440)">
+    <rect x="-90" y="-55" width="180" height="110" rx="8" fill="#fff" stroke="#c05a30" stroke-width="2"/>
+    <g transform="translate(-55,0)">
+      <!-- 官帽 -->
+      <path d="M-12 -22 Q0 -30 12 -22 L12 -14 L-12 -14 Z" fill="#7a3b14"/>
+      <ellipse cx="0" cy="-6" rx="11" ry="13" fill="#c05a30" opacity="0.85"/>
+      <path d="M-14 6 L14 6 L18 24 L-18 24 Z" fill="#3a7d5c" opacity="0.7"/>
+      <!-- 金子（被拒） -->
+      <rect x="-5" y="12" width="10" height="8" rx="1" fill="#c05a30" opacity="0.6"/>
+      <line x1="-5" y1="16" x2="5" y2="16" stroke="#7a3b14" stroke-width="0.5"/>
+      <!-- 叉号 -->
+      <line x1="-8" y1="10" x2="8" y2="22" stroke="#c05a30" stroke-width="2"/>
+      <line x1="8" y1="10" x2="-8" y2="22" stroke="#c05a30" stroke-width="2"/>
+    </g>
+    <text x="-20" y="-25" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">杨震却金</text>
+    <text x="-20" y="-5" font-family="serif" font-size="12" fill="#7a7468">暮夜却金</text>
+    <text x="-20" y="13" font-family="serif" font-size="12" fill="#7a7468">四知之训</text>
+    <text x="-20" y="31" font-family="serif" font-size="12" fill="#7a7468">天知地知</text>
+    <path d="M-90 0 Q-150 -30 -240 -90" stroke="#c05a30" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity="0.5"/>
+  </g>
+
+  <!-- 底部诗句 -->
+  <g transform="translate(400,490)">
+    <rect x="-200" y="0" width="400" height="30" rx="6" fill="#7a3b14" opacity="0.08"/>
+    <text x="0" y="21" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">"粉骨碎身浑不怕，要留清白在人间"</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="556" text-anchor="middle" font-family="serif" font-size="17" fill="#3a7d5c" opacity="0.9">连珠小故事：两袖清风，一身正气，清官廉吏传千古</text>
+</svg>

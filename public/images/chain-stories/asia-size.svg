@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="亚洲面积和世界大洲大小对比的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">亚洲有多大</text>
+  <line x1="320" y1="58" x2="480" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 七大洲面积对比（方块大小代表面积） -->
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#3a6a9a">七大洲面积对比（方块越大，面积越大）</text>
+
+  <!-- 亚洲（最大） -->
+  <rect x="60" y="120" width="300" height="120" rx="4" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <text x="210" y="170" text-anchor="middle" font-family="serif" font-size="20" font-weight="bold" fill="#fff6df">亚洲</text>
+  <text x="210" y="200" text-anchor="middle" font-family="serif" font-size="14" fill="#fff6df">约4400万平方公里</text>
+  <text x="210" y="222" text-anchor="middle" font-family="serif" font-size="12" fill="#fff6df">第一名</text>
+
+  <!-- 非洲 -->
+  <rect x="380" y="135" width="180" height="90" rx="4" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+  <text x="470" y="170" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#fff6df">非洲</text>
+  <text x="470" y="195" text-anchor="middle" font-family="serif" font-size="12" fill="#fff6df">约3000万</text>
+  <text x="470" y="213" text-anchor="middle" font-family="serif" font-size="11" fill="#fff6df">第二名</text>
+
+  <!-- 北美洲 -->
+  <rect x="580" y="145" width="160" height="75" rx="4" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1.5"/>
+  <text x="660" y="175" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#fff6df">北美洲</text>
+  <text x="660" y="198" text-anchor="middle" font-family="serif" font-size="11" fill="#fff6df">约2400万</text>
+
+  <!-- 南美洲 -->
+  <rect x="60" y="270" width="140" height="70" rx="4" fill="#4a8aaa" stroke="#3a6a8a" stroke-width="1.5"/>
+  <text x="130" y="300" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#fff6df">南美洲</text>
+  <text x="130" y="322" text-anchor="middle" font-family="serif" font-size="11" fill="#fff6df">约1800万</text>
+
+  <!-- 南极洲 -->
+  <rect x="220" y="275" width="130" height="60" rx="4" fill="#d8e0e8" stroke="#8d8d8d" stroke-width="1.5"/>
+  <text x="285" y="300" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">南极洲</text>
+  <text x="285" y="320" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">约1400万</text>
+
+  <!-- 欧洲 -->
+  <rect x="370" y="280" width="100" height="50" rx="4" fill="#e07856" stroke="#c84a3a" stroke-width="1.5"/>
+  <text x="420" y="300" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#fff6df">欧洲</text>
+  <text x="420" y="318" text-anchor="middle" font-family="serif" font-size="11" fill="#fff6df">约1000万</text>
+
+  <!-- 大洋洲 -->
+  <rect x="490" y="285" width="90" height="45" rx="4" fill="#e8a838" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="535" y="303" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#fff6df">大洋洲</text>
+  <text x="535" y="320" text-anchor="middle" font-family="serif" font-size="10" fill="#fff6df">约900万</text>
+
+  <!-- 对比说明：亚洲 vs 欧洲 -->
+  <rect x="60" y="360" width="680" height="100" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" opacity="0.7"/>
+  <text x="400" y="388" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">亚洲 ≈ 欧洲 × 4.4</text>
+  <!-- 视觉对比：1个大块 vs 4个小块 -->
+  <rect x="120" y="400" width="120" height="44" rx="3" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+  <text x="180" y="427" text-anchor="middle" font-family="serif" font-size="12" fill="#fff6df">亚洲</text>
+  <text x="280" y="427" font-family="serif" font-size="20" fill="#7a3b14">=</text>
+  <g>
+    <rect x="310" y="400" width="28" height="44" rx="2" fill="#e07856"/>
+    <rect x="342" y="400" width="28" height="44" rx="2" fill="#e07856"/>
+    <rect x="374" y="400" width="28" height="44" rx="2" fill="#e07856"/>
+    <rect x="406" y="400" width="28" height="44" rx="2" fill="#e07856"/>
+    <text x="372" y="427" text-anchor="middle" font-family="serif" font-size="11" fill="#fff6df">4个欧洲还多</text>
+  </g>
+  <text x="520" y="420" font-family="serif" font-size="12" fill="#7a3b14">人口：亚洲40多亿</text>
+  <text x="520" y="440" font-family="serif" font-size="12" fill="#7a3b14">占世界一半以上</text>
+
+  <!-- 跨度说明 -->
+  <rect x="60" y="480" width="680" height="40" rx="6" fill="#e8f0e6" stroke="#6a8d3f" stroke-width="1" opacity="0.6"/>
+  <text x="400" y="505" text-anchor="middle" font-family="serif" font-size="13" fill="#4a6a2f">南北跨度7000多公里，东西跨度8000多公里，时差能差五六个小时。</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="540" width="720" height="36" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="563" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">亚洲一个洲，占了地球陆地近三成——这就是世界第一大洲的"大"。</text>
+</svg>

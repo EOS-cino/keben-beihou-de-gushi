@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="月光下母女溪边散步插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">走月亮</text>
+  <line x1="350" y1="58" x2="450" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空 -->
+  <rect x="0" y="64" width="800" height="340" fill="#2a3a5a"/>
+  <!-- 星星 -->
+  <g fill="#fff6df" opacity="0.8">
+    <circle cx="100" cy="100" r="1.5"/><circle cx="180" cy="130" r="1"/>
+    <circle cx="250" cy="90" r="1.5"/><circle cx="560" cy="100" r="1.5"/>
+    <circle cx="640" cy="130" r="1"/><circle cx="720" cy="95" r="1.5"/>
+    <circle cx="150" cy="180" r="1"/><circle cx="680" cy="180" r="1"/>
+  </g>
+  <!-- 月亮 -->
+  <circle cx="400" cy="140" r="45" fill="#f0e8c8"/>
+  <circle cx="390" cy="130" r="8" fill="#e8e0c0" opacity="0.6"/>
+  <circle cx="410" cy="150" r="6" fill="#e8e0c0" opacity="0.6"/>
+  <circle cx="415" cy="125" r="4" fill="#e8e0c0" opacity="0.5"/>
+  <!-- 月光晕 -->
+  <circle cx="400" cy="140" r="60" fill="#f0e8c8" opacity="0.15"/>
+
+  <!-- 远山（苍山） -->
+  <path d="M0 340 Q150 260 300 310 Q450 250 600 300 Q700 270 800 320 L800 404 L0 404 Z" fill="#3a4a6a" opacity="0.7"/>
+  <path d="M0 360 Q200 300 400 340 Q600 290 800 350 L800 404 L0 404 Z" fill="#2a3a5a" opacity="0.8"/>
+
+  <!-- 地面（小路） -->
+  <path d="M0 460 Q200 440 400 455 Q600 470 800 450 L800 600 L0 600 Z" fill="#5a6a4a"/>
+  <!-- 小路 -->
+  <path d="M200 600 Q300 520 400 480 Q500 460 600 470" fill="none" stroke="#c8b888" stroke-width="14" opacity="0.6"/>
+  <path d="M200 600 Q300 520 400 480 Q500 460 600 470" fill="none" stroke="#d8c898" stroke-width="10" opacity="0.5"/>
+
+  <!-- 溪流 -->
+  <path d="M0 500 Q200 490 400 505 Q600 520 800 500 L800 540 Q600 530 400 545 Q200 530 0 540 Z" fill="#4a6a8a" opacity="0.8"/>
+  <!-- 水面月光倒影 -->
+  <ellipse cx="400" cy="520" rx="60" ry="8" fill="#f0e8c8" opacity="0.4"/>
+  <g stroke="#7a9aba" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M100 515 Q130 512 160 515"/>
+    <path d="M250 525 Q280 522 310 525"/>
+    <path d="M500 518 Q530 515 560 518"/>
+    <path d="M650 525 Q680 522 710 525"/>
+  </g>
+  <!-- 卵石 -->
+  <g fill="#d8c8a8" opacity="0.7">
+    <ellipse cx="120" cy="535" rx="8" ry="4"/>
+    <ellipse cx="200" cy="540" rx="6" ry="3"/>
+    <ellipse cx="600" cy="538" rx="7" ry="4"/>
+    <ellipse cx="680" cy="535" rx="8" ry="4"/>
+  </g>
+
+  <!-- 果树（右侧） -->
+  <g transform="translate(680,400)">
+    <rect x="-3" y="0" width="6" height="50" fill="#5a3a1a"/>
+    <ellipse cx="0" cy="-10" rx="28" ry="24" fill="#3a5a3a"/>
+    <ellipse cx="-15" cy="-5" rx="14" ry="12" fill="#2a4a2a"/>
+    <ellipse cx="15" cy="-5" rx="14" ry="12" fill="#2a4a2a"/>
+    <!-- 果子 -->
+    <circle cx="-10" cy="-15" r="3.5" fill="#e8a838"/>
+    <circle cx="8" cy="-20" r="3.5" fill="#e8a838"/>
+    <circle cx="0" cy="-5" r="3.5" fill="#e8a838"/>
+    <circle cx="-18" cy="0" r="3" fill="#e8a838"/>
+  </g>
+
+  <!-- 稻田（左侧） -->
+  <g transform="translate(100,470)">
+    <rect x="0" y="0" width="120" height="40" fill="#8a9a5a" opacity="0.6"/>
+    <g stroke="#6a7a3a" stroke-width="1" fill="none">
+      <line x1="10" y1="5" x2="10" y2="20"/><line x1="25" y1="5" x2="25" y2="20"/>
+      <line x1="40" y1="5" x2="40" y2="20"/><line x1="55" y1="5" x2="55" y2="20"/>
+      <line x1="70" y1="5" x2="70" y2="20"/><line x1="85" y1="5" x2="85" y2="20"/>
+      <line x1="100" y1="5" x2="100" y2="20"/><line x1="115" y1="5" x2="115" y2="20"/>
+    </g>
+  </g>
+
+  <!-- 母女（阿妈和孩子，手牵手） -->
+  <!-- 阿妈 -->
+  <g transform="translate(380,440)">
+    <!-- 头 -->
+    <circle cx="0" cy="-58" r="11" fill="#e8c4a0"/>
+    <!-- 头发/头巾 -->
+    <path d="M-11 -62 Q0 -72 11 -62 L11 -55 L-11 -55 Z" fill="#3d2817"/>
+    <!-- 身体 -->
+    <path d="M-14 -47 L-16 -10 L-12 0 L12 0 L16 -10 L14 -47 Z" fill="#8a4a6a"/>
+    <!-- 手臂（牵孩子） -->
+    <path d="M14 -35 L28 -20" stroke="#8a4a6a" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="28" cy="-20" r="4" fill="#e8c4a0"/>
+    <!-- 腿 -->
+    <rect x="-10" y="0" width="8" height="22" fill="#5a3a4a"/>
+    <rect x="2" y="0" width="8" height="22" fill="#5a3a4a"/>
+    <!-- 眼睛 -->
+    <circle cx="-3" cy="-58" r="1" fill="#3d2817"/><circle cx="3" cy="-58" r="1" fill="#3d2817"/>
+    <!-- 微笑 -->
+    <path d="M-3 -53 Q0 -51 3 -53" fill="none" stroke="#8d5a36" stroke-width="1"/>
+  </g>
+  <!-- 孩子 -->
+  <g transform="translate(420,455)">
+    <!-- 头 -->
+    <circle cx="0" cy="-45" r="9" fill="#e8c4a0"/>
+    <!-- 头发 -->
+    <path d="M-9 -50 Q0 -58 9 -50 L9 -44 L-9 -44 Z" fill="#3d2817"/>
+    <!-- 身体 -->
+    <path d="M-10 -36 L-12 -5 L-8 3 L8 3 L12 -5 L10 -36 Z" fill="#3a8a6a"/>
+    <!-- 手臂（牵阿妈） -->
+    <path d="M-10 -25 L-22 -35" stroke="#3a8a6a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="-22" cy="-35" r="3.5" fill="#e8c4a0"/>
+    <!-- 腿 -->
+    <rect x="-7" y="3" width="6" height="18" fill="#2a5a4a"/>
+    <rect x="1" y="3" width="6" height="18" fill="#2a5a4a"/>
+    <!-- 眼睛 -->
+    <circle cx="-2.5" cy="-45" r="0.8" fill="#3d2817"/><circle cx="2.5" cy="-45" r="0.8" fill="#3d2817"/>
+    <!-- 笑 -->
+    <path d="M-2 -41 Q0 -39 2 -41" fill="none" stroke="#8d5a36" stroke-width="0.8"/>
+  </g>
+
+  <!-- 萤火虫/光点 -->
+  <g fill="#e8a838" opacity="0.7">
+    <circle cx="250" cy="380" r="2"/><circle cx="300" cy="400" r="1.5"/>
+    <circle cx="520" cy="390" r="2"/><circle cx="560" cy="410" r="1.5"/>
+  </g>
+
+  <!-- 标注：月亮 -->
+  <line x1="400" y1="140" x2="540" y2="110" stroke="#fff6df" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.8"/>
+  <rect x="525" y="85" width="70" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="560" y="104" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">月亮</text>
+
+  <!-- 标注：溪水映月 -->
+  <line x1="400" y1="520" x2="500" y2="540" stroke="#fff6df" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.8"/>
+  <rect x="470" y="545" width="110" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="525" y="564" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">溪水映月</text>
+
+  <!-- 标注：我和阿妈 -->
+  <line x1="400" y1="440" x2="400" y2="390" stroke="#fff6df" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.8"/>
+  <rect x="335" y="365" width="130" height="28" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="384" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">我和阿妈</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="568" width="720" height="28" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="587" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">秋夜月光下，"我"和阿妈手牵手，沿溪边走过果园和稻田，月光、溪水、果香交织成温暖的画面。</text>
+</svg>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="江面、草船和箭雨插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">草船借箭</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 雾气背景 -->
+  <rect x="0" y="80" width="800" height="300" fill="#e8e8e0" opacity="0.5"/>
+  <ellipse cx="200" cy="180" rx="120" ry="40" fill="#f0f0e8" opacity="0.6"/>
+  <ellipse cx="500" cy="150" rx="150" ry="35" fill="#f0f0e8" opacity="0.5"/>
+  <ellipse cx="650" cy="200" rx="100" ry="30" fill="#f0f0e8" opacity="0.6"/>
+
+  <!-- 对岸远山（朦胧） -->
+  <path d="M0 320 L80 270 L160 300 L260 260 L360 290 L460 265 L560 295 L660 270 L760 300 L800 285 L800 360 L0 360 Z" fill="#c8c0b0" opacity="0.4"/>
+
+  <!-- 江面 -->
+  <rect x="0" y="340" width="800" height="260" fill="#8ab8d0"/>
+  <!-- 水波纹 -->
+  <path d="M0 370 Q100 362 200 370 T400 370 T600 370 T800 370" fill="none" stroke="#6a9ec0" stroke-width="2"/>
+  <path d="M0 400 Q120 392 240 400 T480 400 T720 400 T800 400" fill="none" stroke="#6a9ec0" stroke-width="2"/>
+  <path d="M0 430 Q100 422 200 430 T400 430 T600 430 T800 430" fill="none" stroke="#6a9ec0" stroke-width="2"/>
+  <path d="M0 470 Q120 462 240 470 T480 470 T720 470 T800 470" fill="none" stroke="#6a9ec0" stroke-width="2"/>
+
+  <!-- 草船 -->
+  <!-- 船身 -->
+  <path d="M180 400 L200 470 L560 470 L580 400 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <line x1="200" y1="430" x2="560" y2="430" stroke="#6a4220" stroke-width="1.5"/>
+  <!-- 船头船尾翘起 -->
+  <path d="M180 400 Q170 385 180 370 L200 400 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <path d="M580 400 Q590 385 580 370 L560 400 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <!-- 船上草棚 -->
+  <path d="M240 400 L260 340 L520 340 L540 400 Z" fill="#d4a868" stroke="#8a6a30" stroke-width="2"/>
+  <!-- 草棚纹理（稻草） -->
+  <line x1="270" y1="360" x2="280" y2="395" stroke="#b89050" stroke-width="1.5"/>
+  <line x1="300" y1="355" x2="310" y2="395" stroke="#b89050" stroke-width="1.5"/>
+  <line x1="330" y1="350" x2="340" y2="395" stroke="#b89050" stroke-width="1.5"/>
+  <line x1="360" y1="348" x2="370" y2="395" stroke="#b89050" stroke-width="1.5"/>
+  <line x1="390" y1="348" x2="400" y2="395" stroke="#b89050" stroke-width="1.5"/>
+  <line x1="420" y1="350" x2="430" y2="395" stroke="#b89050" stroke-width="1.5"/>
+  <line x1="450" y1="355" x2="460" y2="395" stroke="#b89050" stroke-width="1.5"/>
+  <line x1="480" y1="360" x2="490" y2="395" stroke="#b89050" stroke-width="1.5"/>
+  <line x1="510" y1="365" x2="520" y2="395" stroke="#b89050" stroke-width="1.5"/>
+
+  <!-- 草人（立在船上） -->
+  <!-- 草人1 -->
+  <circle cx="290" cy="370" r="12" fill="#d4a868" stroke="#8a6a30" stroke-width="1.5"/>
+  <path d="M278 380 L282 400 L298 400 L302 380 Z" fill="#c89858" stroke="#8a6a30" stroke-width="1.5"/>
+  <line x1="282" y1="385" x2="272" y2="395" stroke="#8a6a30" stroke-width="2"/>
+  <line x1="298" y1="385" x2="308" y2="395" stroke="#8a6a30" stroke-width="2"/>
+  <!-- 草人2 -->
+  <circle cx="380" cy="365" r="12" fill="#d4a868" stroke="#8a6a30" stroke-width="1.5"/>
+  <path d="M368 375 L372 400 L388 400 L392 375 Z" fill="#c89858" stroke="#8a6a30" stroke-width="1.5"/>
+  <line x1="372" y1="380" x2="362" y2="390" stroke="#8a6a30" stroke-width="2"/>
+  <line x1="388" y1="380" x2="398" y2="390" stroke="#8a6a30" stroke-width="2"/>
+  <!-- 草人3 -->
+  <circle cx="470" cy="370" r="12" fill="#d4a868" stroke="#8a6a30" stroke-width="1.5"/>
+  <path d="M458 380 L462 400 L478 400 L482 380 Z" fill="#c89858" stroke="#8a6a30" stroke-width="1.5"/>
+  <line x1="462" y1="385" x2="452" y2="395" stroke="#8a6a30" stroke-width="2"/>
+  <line x1="478" y1="385" x2="488" y2="395" stroke="#8a6a30" stroke-width="2"/>
+
+  <!-- 插在草人身上的箭矢 -->
+  <g stroke="#5a3a1a" stroke-width="2.5">
+    <line x1="275" y1="355" x2="285" y2="370"/>
+    <line x1="300" y1="350" x2="295" y2="365"/>
+    <line x1="370" y1="348" x2="380" y2="362"/>
+    <line x1="395" y1="352" x2="388" y2="368"/>
+    <line x1="460" y1="350" x2="470" y2="365"/>
+    <line x1="485" y1="348" x2="478" y2="368"/>
+  </g>
+  <!-- 箭头 -->
+  <g fill="#3a3a3a">
+    <polygon points="285,370 280,368 283,373"/>
+    <polygon points="295,365 290,363 293,368"/>
+    <polygon points="380,362 375,360 378,365"/>
+    <polygon points="388,368 383,366 386,371"/>
+    <polygon points="470,365 465,363 468,368"/>
+    <polygon points="478,368 473,366 476,371"/>
+  </g>
+
+  <!-- 飞来的箭矢（从右上方） -->
+  <g stroke="#5a3a1a" stroke-width="2.5">
+    <line x1="700" y1="120" x2="560" y2="340"/>
+    <line x1="730" y1="140" x2="540" y2="350"/>
+    <line x1="680" y1="100" x2="520" y2="335"/>
+    <line x1="750" y1="170" x2="500" y2="360"/>
+    <line x1="720" y1="110" x2="580" y2="330"/>
+    <line x1="760" y1="200" x2="480" y2="355"/>
+  </g>
+  <!-- 飞箭的箭头 -->
+  <g fill="#3a3a3a">
+    <polygon points="560,340 568,338 563,346"/>
+    <polygon points="540,350 548,348 543,356"/>
+    <polygon points="520,335 528,333 523,341"/>
+    <polygon points="500,360 508,358 503,366"/>
+    <polygon points="580,330 588,328 583,336"/>
+    <polygon points="480,355 488,353 483,361"/>
+  </g>
+  <!-- 飞箭的尾羽 -->
+  <g fill="#c84030">
+    <polygon points="700,120 708,118 706,128"/>
+    <polygon points="730,140 738,138 736,148"/>
+    <polygon points="680,100 688,98 686,108"/>
+    <polygon points="750,170 758,168 756,178"/>
+    <polygon points="720,110 728,108 726,118"/>
+    <polygon points="760,200 768,198 766,208"/>
+  </g>
+
+  <!-- 草船标注 -->
+  <line x1="380" y1="340" x2="380" y2="290" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="320" y="265" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="380" y="283" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">扎满草人的船</text>
+
+  <!-- 箭雨标注 -->
+  <line x1="700" y1="130" x2="700" y2="100" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="650" y="75" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="700" y="93" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">曹军箭矢</text>
+
+  <!-- 雾气标注 -->
+  <line x1="150" y1="180" x2="150" y2="140" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="105" y="115" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="150" y="133" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">大雾弥漫</text>
+
+  <!-- 江面标注 -->
+  <line x1="100" y1="450" x2="100" y2="490" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="55" y="495" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="100" y="513" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">长江水面</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">大雾之夜，诸葛亮以草船逼近曹营，曹军万箭齐发，草船满载而归</text>
+</svg>

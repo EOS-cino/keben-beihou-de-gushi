@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="春日桃花盛开与溪水流淌的画面">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">三月桃花水</text>
+  <line x1="220" y1="70" x2="580" y2="70" stroke="#c8553d" stroke-width="2"/>
+  <!-- 天空 -->
+  <rect x="0" y="100" width="800" height="180" fill="#f0c068" opacity="0.2"/>
+  <!-- 桃树枝 -->
+  <path d="M 80 360 q 60 -120 140 -180 q 40 -30 80 -20" stroke="#5d4037" stroke-width="5" fill="none"/>
+  <path d="M 160 220 q 40 -20 70 0" stroke="#5d4037" stroke-width="3" fill="none"/>
+  <path d="M 200 200 q 30 -16 56 -4" stroke="#5d4037" stroke-width="3" fill="none"/>
+  <!-- 桃花 -->
+  <circle cx="170" cy="215" r="12" fill="#e88aa8"/>
+  <circle cx="170" cy="215" r="4" fill="#f0c419"/>
+  <circle cx="200" cy="195" r="12" fill="#e88aa8"/>
+  <circle cx="200" cy="195" r="4" fill="#f0c419"/>
+  <circle cx="230" cy="210" r="12" fill="#e88aa8"/>
+  <circle cx="230" cy="210" r="4" fill="#f0c419"/>
+  <circle cx="140" cy="240" r="10" fill="#e88aa8"/>
+  <circle cx="140" cy="240" r="3" fill="#f0c419"/>
+  <!-- 另一枝 -->
+  <path d="M 720 360 q -50 -100 -120 -160" stroke="#5d4037" stroke-width="4" fill="none"/>
+  <circle cx="660" cy="220" r="11" fill="#e88aa8"/>
+  <circle cx="660" cy="220" r="3.5" fill="#f0c419"/>
+  <circle cx="630" cy="200" r="11" fill="#e88aa8"/>
+  <circle cx="630" cy="200" r="3.5" fill="#f0c419"/>
+  <!-- 水面 -->
+  <path d="M 0 380 q 200 -20 400 0 q 200 20 400 0 l 0 160 l -800 0 z" fill="#5d8aa8" opacity="0.5"/>
+  <!-- 水波/音符 -->
+  <path d="M 120 430 q 40 -8 80 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 320 460 q 40 -8 80 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 520 430 q 40 -8 80 0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7"/>
+  <!-- 燕子 -->
+  <path d="M 400 150 q 14 -10 28 0 q 14 -10 28 0" stroke="#3a3a3a" stroke-width="2.5" fill="none"/>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14">春天的竖琴与明镜，叮当作响</text>
+</svg>

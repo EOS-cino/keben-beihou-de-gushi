@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="知音文化插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#3a4a6a">连珠小故事：知音文化与音乐的力量</text>
+  <line x1="180" y1="62" x2="620" y2="62" stroke="#6a8ab8" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心：古琴与音符 -->
+  <g>
+    <!-- 古琴 -->
+    <path d="M310 290 L490 285 L495 315 L315 320 Z" fill="#6a4a2a" stroke="#3a2a14" stroke-width="2"/>
+    <path d="M315 292 L488 288 L490 295 L317 300 Z" fill="#8a6a3a"/>
+    <g stroke="#e8d8b8" stroke-width="1">
+      <line x1="320" y1="295" x2="488" y2="290"/>
+      <line x1="320" y1="300" x2="488" y2="295"/>
+      <line x1="320" y1="305" x2="488" y2="300"/>
+      <line x1="320" y1="310" x2="488" y2="305"/>
+    </g>
+    <!-- 音符从琴上飘起 -->
+    <g fill="#3a4a6a">
+      <text x="350" y="250" font-family="serif" font-size="28">&#9835;</text>
+      <text x="390" y="230" font-family="serif" font-size="24">&#9834;</text>
+      <text x="430" y="245" font-family="serif" font-size="26">&#9835;</text>
+      <text x="460" y="225" font-family="serif" font-size="22">&#9834;</text>
+    </g>
+    <!-- 音波 -->
+    <g stroke="#6a8ab8" stroke-width="1.5" fill="none" opacity="0.5">
+      <path d="M340 270 Q360 255 380 270 Q400 255 420 270 Q440 255 460 270"/>
+    </g>
+    <rect x="330" y="335" width="140" height="26" fill="#fff6df" stroke="#6a8ab8" rx="4"/>
+    <text x="400" y="353" text-anchor="middle" font-family="serif" font-size="14" fill="#3a4a6a">音乐 · 心灵的桥梁</text>
+  </g>
+
+  <!-- 三个知音故事节点 -->
+  <!-- 节点1：伯牙子期（左） -->
+  <g>
+    <line x1="330" y1="300" x2="180" y2="320" stroke="#6a8ab8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <circle cx="160" cy="380" r="50" fill="#fff6df" stroke="#6a8ab8" stroke-width="3"/>
+    <!-- 两个小人 -->
+    <g>
+      <circle cx="145" cy="365" r="10" fill="#f0d0a8"/>
+      <rect x="140" y="375" width="10" height="25" fill="#3a5a7a"/>
+      <circle cx="175" cy="365" r="10" fill="#f0d0a8"/>
+      <rect x="170" y="375" width="10" height="25" fill="#5a4a3a"/>
+    </g>
+    <text x="160" y="410" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#3a4a6a">伯牙子期</text>
+    <rect x="80" y="440" width="160" height="40" fill="#fff6df" stroke="#6a8ab8" rx="6"/>
+    <text x="160" y="458" text-anchor="middle" font-family="serif" font-size="13" fill="#3a4a6a">高山流水</text>
+    <text x="160" y="473" text-anchor="middle" font-family="serif" font-size="11" fill="#3a4a6a">破琴绝弦</text>
+  </g>
+
+  <!-- 节点2：白居易琵琶行（中下） -->
+  <g>
+    <line x1="400" y1="362" x2="400" y2="400" stroke="#6a8ab8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <circle cx="400" cy="450" r="50" fill="#fff6df" stroke="#6a8ab8" stroke-width="3"/>
+    <!-- 琵琶 -->
+    <ellipse cx="400" cy="445" rx="14" ry="22" fill="#8a4a2a"/>
+    <line x1="400" y1="425" x2="400" y2="410" stroke="#6a4a2a" stroke-width="3"/>
+    <text x="400" y="445" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#3a4a6a">琵琶行</text>
+    <rect x="320" y="440" width="160" height="40" fill="#fff6df" stroke="#6a8ab8" rx="6"/>
+    <text x="400" y="458" text-anchor="middle" font-family="serif" font-size="13" fill="#3a4a6a">白居易</text>
+    <text x="400" y="473" text-anchor="middle" font-family="serif" font-size="11" fill="#3a4a6a">同是天涯沦落人</text>
+  </g>
+
+  <!-- 节点3：贝多芬月光（右） -->
+  <g>
+    <line x1="470" y1="300" x2="620" y2="320" stroke="#6a8ab8" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <circle cx="640" cy="380" r="50" fill="#fff6df" stroke="#6a8ab8" stroke-width="3"/>
+    <!-- 钢琴键 -->
+    <rect x="615" y="370" width="50" height="20" fill="#fff" stroke="#3a4a6a" stroke-width="1.5"/>
+    <g fill="#3a4a6a">
+      <rect x="622" y="370" width="4" height="12"/>
+      <rect x="632" y="370" width="4" height="12"/>
+      <rect x="648" y="370" width="4" height="12"/>
+      <rect x="658" y="370" width="4" height="12"/>
+    </g>
+    <!-- 月亮 -->
+    <circle cx="640" cy="350" r="10" fill="#f4d842" opacity="0.7"/>
+    <text x="640" y="410" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#3a4a6a">月光奏鸣曲</text>
+    <rect x="560" y="440" width="160" height="40" fill="#fff6df" stroke="#6a8ab8" rx="6"/>
+    <text x="640" y="458" text-anchor="middle" font-family="serif" font-size="13" fill="#3a4a6a">贝多芬</text>
+    <text x="640" y="473" text-anchor="middle" font-family="serif" font-size="11" fill="#3a4a6a">音乐跨越国界</text>
+  </g>
+
+  <!-- 顶部主题 -->
+  <rect x="250" y="110" width="300" height="50" fill="#fff6df" stroke="#6a8ab8" stroke-width="2" rx="8"/>
+  <text x="400" y="135" text-anchor="middle" font-family="serif" font-size="17" font-weight="bold" fill="#3a4a6a">知音 · 跨越时空的共鸣</text>
+  <text x="400" y="153" text-anchor="middle" font-family="serif" font-size="12" fill="#5a6a8a">音乐让心灵相通，不分古今中外</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="15" fill="#3a4a6a">从伯牙子期到白居易、贝多芬——音乐是心灵之间最深的桥梁</text>
+</svg>

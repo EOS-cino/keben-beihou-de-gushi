@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="铅笔制作过程插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">铅笔是怎么做出来的</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">从矿石到铅笔，要经过几十道工序</text>
+
+  <!-- 四个步骤 -->
+  <!-- 步骤1：石墨矿石 -->
+  <g transform="translate(130,200)">
+    <rect x="-80" y="-50" width="160" height="160" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">①石墨矿石</text>
+    <!-- 矿石 -->
+    <g transform="translate(0,20)">
+      <polygon points="-35,20 -25,-15 0,-25 25,-15 35,20 15,30 -15,30" fill="#3a3a3a"/>
+      <polygon points="-20,10 -10,-10 5,-15 18,-5 22,12" fill="#5a5a5a"/>
+      <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">深灰色矿物</text>
+    </g>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">不含铅，是石墨</text>
+  </g>
+
+  <path d="M215 200 L265 200" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#ar6)"/>
+
+  <!-- 步骤2：磨粉做芯 -->
+  <g transform="translate(350,200)">
+    <rect x="-80" y="-50" width="160" height="160" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">②磨粉做芯</text>
+    <g transform="translate(0,20)">
+      <!-- 粉末 -->
+      <circle cx="-20" cy="10" r="4" fill="#3a3a3a"/>
+      <circle cx="-10" cy="15" r="3" fill="#3a3a3a"/>
+      <circle cx="0" cy="8" r="4" fill="#3a3a3a"/>
+      <circle cx="10" cy="14" r="3" fill="#3a3a3a"/>
+      <circle cx="20" cy="10" r="4" fill="#3a3a3a"/>
+      <!-- 挤出的笔芯 -->
+      <rect x="-25" y="-15" width="50" height="5" fill="#3a3a3a" rx="2"/>
+      <rect x="-25" y="-8" width="50" height="5" fill="#3a3a3a" rx="2"/>
+      <!-- 挤出机 -->
+      <rect x="-35" y="-22" width="15" height="20" fill="#8d5a36"/>
+      <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">石墨+黏土</text>
+    </g>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">挤条·晾干·高温烤</text>
+  </g>
+
+  <path d="M435 200 L485 200" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#ar6)"/>
+
+  <!-- 步骤3：木槽装芯 -->
+  <g transform="translate(570,200)">
+    <rect x="-80" y="-50" width="160" height="160" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">③木槽装芯</text>
+    <g transform="translate(0,20)">
+      <!-- 木板凹槽 -->
+      <rect x="-40" y="-5" width="80" height="20" fill="#e0a050" rx="2"/>
+      <rect x="-35" y="-2" width="70" height="4" fill="#8d5a36" rx="1"/>
+      <!-- 笔芯在槽里 -->
+      <rect x="-35" y="-1" width="70" height="2" fill="#3a3a3a"/>
+      <!-- 盖板 -->
+      <rect x="-40" y="-12" width="80" height="7" fill="#e0a050" rx="2"/>
+      <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">杉木刻槽</text>
+    </g>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">放芯·盖板·胶粘</text>
+  </g>
+
+  <path d="M655 200 L705 200" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#ar6)"/>
+
+  <!-- 步骤4：成品 -->
+  <g transform="translate(740,200)">
+    <rect x="-60" y="-50" width="120" height="160" rx="10" fill="#fef0d8" stroke="#6a8d3f" stroke-width="2"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="14" fill="#6a8d3f" font-weight="bold">④成品</text>
+    <g transform="translate(0,20)">
+      <rect x="-15" y="-25" width="8" height="50" fill="#e0a050" rx="1"/>
+      <rect x="-15" y="-25" width="8" height="10" fill="#c84a3a"/>
+      <polygon points="-15,-25 -23,-20 -15,-15" fill="#3a3a3a"/>
+      <rect x="-7" y="-25" width="5" height="50" fill="#7ab8d8"/>
+      <!-- 切割成六角形 -->
+      <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">切开·喷漆</text>
+    </g>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="11" fill="#6a8d3f">一支铅笔诞生</text>
+  </g>
+
+  <!-- 下方：珍惜文具 -->
+  <rect x="60" y="400" width="680" height="160" rx="12" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="430" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">每一支铅笔都来之不易</text>
+  <g font-family="serif" font-size="14" fill="#7a3b14">
+    <circle cx="120" cy="465" r="4" fill="#6a8d3f"/>
+    <text x="135" y="469">从矿石到文具，经过几十道工序</text>
+    <circle cx="120" cy="495" r="4" fill="#6a8d3f"/>
+    <text x="135" y="499">经过很多工人的手</text>
+    <circle cx="120" cy="525" r="4" fill="#6a8d3f"/>
+    <text x="135" y="529">到了你手里，就该好好用、好好放</text>
+  </g>
+  <text x="560" y="490" text-anchor="middle" font-family="serif" font-size="15" fill="#c84a3a" font-weight="bold">爱护文具</text>
+  <text x="560" y="515" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">就是尊重劳动</text>
+
+  <defs>
+    <marker id="ar6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+</svg>

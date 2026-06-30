@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="红领巾与红旗一角相连">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">红领巾的意义</text>
+  <rect x="150" y="120" width="250" height="160" fill="#c84a3a" opacity="0.7"/>
+  <polygon points="150,120 160,100 170,120" fill="#c84a3a" opacity="0.7"/>
+  <polygon points="380,120 390,100 400,120" fill="#c84a3a" opacity="0.7"/>
+  <polygon points="200,140 210,165 235,165 215,180 222,205 200,190 178,205 185,180 165,165 190,165" fill="#e07856"/>
+  <polygon points="240,140 245,155 260,155 250,163 253,176 240,169 227,176 230,163 220,155 235,155" fill="#e07856"/>
+  <polygon points="270,140 275,155 290,155 280,163 283,176 270,169 257,176 260,163 250,155 265,155" fill="#e07856"/>
+  <polygon points="300,140 305,155 320,155 310,163 313,176 300,169 287,176 290,163 280,155 295,155" fill="#e07856"/>
+  <text x="275" y="220" text-anchor="middle" font-family="serif" font-size="14" fill="#fef9ed">红旗</text>
+  <path d="M350 280 L500 350 L400 400z" fill="#c84a3a" opacity="0.8"/>
+  <path d="M350 280 L500 350" stroke="#8d5a36" stroke-width="2"/>
+  <path d="M350 280 L400 400" stroke="#8d5a36" stroke-width="2"/>
+  <text x="420" y="340" text-anchor="middle" font-family="serif" font-size="13" fill="#fef9ed">红领巾</text>
+  <text x="420" y="360" text-anchor="middle" font-family="serif" font-size="13" fill="#fef9ed">红旗的一角</text>
+  <circle cx="580" cy="200" r="30" fill="#e07856"/>
+  <rect x="560" y="225" width="40" height="60" rx="6" fill="#fff" stroke="#8d5a36" stroke-width="2"/>
+  <polygon points="580,225 565,265 580,255 595,265" fill="#c84a3a"/>
+  <rect x="565" y="280" width="10" height="35" fill="#8d5a36"/>
+  <rect x="585" y="280" width="10" height="35" fill="#8d5a36"/>
+  <path d="M560 235 L530 210" stroke="#e07856" stroke-width="4"/>
+  <circle cx="525" cy="207" r="5" fill="#e07856"/>
+  <circle cx="573" cy="195" r="2" fill="#7a3b14"/>
+  <circle cx="587" cy="195" r="2" fill="#7a3b14"/>
+  <path d="M572 210 Q580 215 588 210" stroke="#7a3b14" stroke-width="1.5" fill="none"/>
+  <text x="580" y="350" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">少先队员</text>
+  <line x1="100" y1="430" x2="700" y2="430" stroke="#8d5a36" stroke-width="1" stroke-dasharray="5 5" opacity="0.3"/>
+  <text x="250" y="470" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">红旗的一角</text>
+  <text x="250" y="492" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">革命先烈用鲜血染红</text>
+  <text x="550" y="470" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">戴上红领巾</text>
+  <text x="550" y="492" text-anchor="middle" font-family="serif" font-size="13" fill="#8d5a36">就是党的孩子</text>
+  <text x="400" y="540" text-anchor="middle" font-family="serif" font-size="16" fill="#4a6a2f">继承革命先辈的光荣传统</text>
+</svg>

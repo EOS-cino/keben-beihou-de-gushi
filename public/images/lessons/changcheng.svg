@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="长城蜿蜒于群山之上的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">长城</text>
+  <line x1="350" y1="62" x2="450" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="200" fill="#a8d0e8" opacity="0.3"/>
+  <!-- 云 -->
+  <ellipse cx="150" cy="130" rx="50" ry="15" fill="#fef9ed" opacity="0.7"/>
+  <ellipse cx="600" cy="110" rx="60" ry="18" fill="#fef9ed" opacity="0.7"/>
+
+  <!-- 远山 -->
+  <path d="M0 280 L100 200 L200 250 L320 180 L450 240 L580 190 L700 250 L800 220 L800 350 L0 350 Z" fill="#6a8d3f" opacity="0.3"/>
+  <!-- 中山 -->
+  <path d="M0 340 L80 260 L180 310 L300 240 L420 300 L540 250 L660 310 L800 270 L800 400 L0 400 Z" fill="#6a8d3f" opacity="0.5"/>
+  <!-- 近山 -->
+  <path d="M0 400 L120 320 L250 370 L400 300 L550 360 L680 320 L800 370 L800 500 L0 500 Z" fill="#4a6a2f" opacity="0.6"/>
+
+  <!-- 长城（沿山脊蜿蜒） -->
+  <path d="M0 420 Q100 360 200 390 Q300 410 380 350 Q460 300 540 340 Q620 370 720 330 L800 350" fill="none" stroke="#8d5a36" stroke-width="14" stroke-linecap="round"/>
+  <path d="M0 420 Q100 360 200 390 Q300 410 380 350 Q460 300 540 340 Q620 370 720 330 L800 350" fill="none" stroke="#5a3a1a" stroke-width="2"/>
+
+  <!-- 城墙垛口（沿路绘制） -->
+  <g fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5">
+    <rect x="50" y="408" width="8" height="12"/>
+    <rect x="65" y="404" width="8" height="12"/>
+    <rect x="130" y="388" width="8" height="12"/>
+    <rect x="145" y="386" width="8" height="12"/>
+    <rect x="250" y="392" width="8" height="12"/>
+    <rect x="265" y="390" width="8" height="12"/>
+    <rect x="350" y="362" width="8" height="12"/>
+    <rect x="365" y="358" width="8" height="12"/>
+    <rect x="440" y="318" width="8" height="12"/>
+    <rect x="455" y="316" width="8" height="12"/>
+    <rect x="530" y="344" width="8" height="12"/>
+    <rect x="545" y="342" width="8" height="12"/>
+    <rect x="650" y="356" width="8" height="12"/>
+    <rect x="665" y="354" width="8" height="12"/>
+  </g>
+
+  <!-- 烽火台1 -->
+  <g transform="translate(370, 320)">
+    <rect x="-18" y="0" width="36" height="40" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <rect x="-22" y="-8" width="44" height="10" fill="#a06a3a" stroke="#5a3a1a" stroke-width="2"/>
+    <rect x="-15" y="10" width="8" height="10" fill="#3a2a1a"/>
+    <rect x="7" y="10" width="8" height="10" fill="#3a2a1a"/>
+    <!-- 烟 -->
+    <ellipse cx="0" cy="-25" rx="12" ry="8" fill="#fef9ed" opacity="0.6"/>
+    <ellipse cx="5" cy="-40" rx="16" ry="10" fill="#fef9ed" opacity="0.4"/>
+    <ellipse cx="10" cy="-58" rx="20" ry="12" fill="#fef9ed" opacity="0.25"/>
+  </g>
+
+  <!-- 烽火台2（远处小） -->
+  <g transform="translate(120, 388) scale(0.6)">
+    <rect x="-18" y="0" width="36" height="40" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <rect x="-22" y="-8" width="44" height="10" fill="#a06a3a" stroke="#5a3a1a" stroke-width="2"/>
+  </g>
+
+  <!-- 标注：烽火台 -->
+  <line x1="370" y1="320" x2="450" y2="250" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="410" y="225" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="460" y="243" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">烽火台</text>
+
+  <!-- 标注：垛口 -->
+  <line x1="260" y1="392" x2="260" y2="440" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="215" y="445" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="260" y="463" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">垛口</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">长城如巨龙蜿蜒于崇山峻岭，每一块砖都刻着古人的智慧与汗水</text>
+</svg>

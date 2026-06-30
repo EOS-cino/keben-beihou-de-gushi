@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="雪花形成过程示意图">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">雪是怎么形成的</text>
+  <line x1="320" y1="56" x2="480" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空背景 -->
+  <rect x="0" y="80" width="800" height="300" fill="#d6ecf7" opacity="0.3"/>
+
+  <!-- 步骤1：水汽凝结成冰晶（左上） -->
+  <g transform="translate(160,180)">
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">第一步：水汽凝结</text>
+    <!-- 云 -->
+    <ellipse cx="0" cy="0" rx="50" ry="22" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="-25" cy="-8" rx="25" ry="16" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="25" cy="-6" rx="28" ry="16" fill="#ffffff" opacity="0.8"/>
+    <!-- 微小冰晶 -->
+    <g fill="#a8d0e8">
+      <circle cx="-15" cy="5" r="2"/>
+      <circle cx="0" cy="8" r="2"/>
+      <circle cx="15" cy="5" r="2"/>
+    </g>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">温度低于0°C</text>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="10" fill="#5a8aaa">水汽→冰晶</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M230 180 L340 180" fill="none" stroke="#7ab8d8" stroke-width="2.5" stroke-dasharray="5,3" marker-end="url(#arrSn1)"/>
+
+  <!-- 步骤2：冰晶长大（中上） -->
+  <g transform="translate(400,180)">
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">第二步：冰晶长大</text>
+    <!-- 云 -->
+    <ellipse cx="0" cy="0" rx="50" ry="22" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="-25" cy="-8" rx="25" ry="16" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="25" cy="-6" rx="28" ry="16" fill="#ffffff" opacity="0.8"/>
+    <!-- 六角形冰晶 -->
+    <g transform="translate(0,5)" stroke="#7ab8d8" stroke-width="1.5" fill="#e0f0f8">
+      <path d="M0 -8 L7 -4 L7 4 L0 8 L-7 4 L-7 -4 Z"/>
+      <line x1="0" y1="-8" x2="0" y2="8" stroke-width="0.8"/>
+      <line x1="-7" y1="-4" x2="7" y2="4" stroke-width="0.8"/>
+      <line x1="-7" y1="4" x2="7" y2="-4" stroke-width="0.8"/>
+    </g>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">过冷水滴冻结</text>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="10" fill="#5a8aaa">冰晶碰撞粘连</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M470 180 L580 180" fill="none" stroke="#7ab8d8" stroke-width="2.5" stroke-dasharray="5,3" marker-end="url(#arrSn1)"/>
+
+  <!-- 步骤3：雪花飘落（右上） -->
+  <g transform="translate(640,180)">
+    <text x="0" y="-70" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">第三步：雪花飘落</text>
+    <!-- 大雪花 -->
+    <g transform="translate(0,0)" stroke="#7ab8d8" stroke-width="2" fill="#e0f0f8">
+      <path d="M0 -18 L15 -9 L15 9 L0 18 L-15 9 L-15 -9 Z"/>
+      <g stroke-width="1.5">
+        <line x1="0" y1="-18" x2="0" y2="18"/>
+        <line x1="-15" y1="-9" x2="15" y2="9"/>
+        <line x1="-15" y1="9" x2="15" y2="-9"/>
+        <line x1="0" y1="-18" x2="-5" y2="-13"/>
+        <line x1="0" y1="-18" x2="5" y2="-13"/>
+        <line x1="0" y1="18" x2="-5" y2="13"/>
+        <line x1="0" y1="18" x2="5" y2="13"/>
+      </g>
+    </g>
+    <!-- 飘落轨迹 -->
+    <path d="M0 20 Q-5 40 0 60" fill="none" stroke="#a8d0e8" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.5"/>
+    <text x="0" y="80" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">足够重时落下</text>
+  </g>
+
+  <!-- 分隔线 -->
+  <line x1="60" y1="310" x2="740" y2="310" stroke="#c8843a" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- 下方：雪花都是六角形 -->
+  <text x="400" y="345" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">雪花都是六角形，但每片都不同</text>
+
+  <!-- 不同形状的雪花 -->
+  <g transform="translate(180,420)">
+    <g stroke="#7ab8d8" stroke-width="1.5" fill="none">
+      <line x1="0" y1="-30" x2="0" y2="30"/>
+      <line x1="-26" y1="-15" x2="26" y2="15"/>
+      <line x1="-26" y1="15" x2="26" y2="-15"/>
+      <path d="M0 -30 L-6 -24 M0 -30 L6 -24"/>
+      <path d="M0 30 L-6 24 M0 30 L6 24"/>
+      <path d="M-26 -15 L-22 -22 M-26 -15 L-18 -18"/>
+      <path d="M26 15 L22 22 M26 15 L18 18"/>
+      <path d="M26 -15 L22 -22 M26 -15 L18 -18"/>
+      <path d="M-26 15 L-22 22 M-26 15 L-18 18"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">星状雪花</text>
+  </g>
+
+  <g transform="translate(400,420)">
+    <g stroke="#7ab8d8" stroke-width="1.5" fill="none">
+      <line x1="0" y1="-30" x2="0" y2="30"/>
+      <line x1="-26" y1="-15" x2="26" y2="15"/>
+      <line x1="-26" y1="15" x2="26" y2="-15"/>
+      <path d="M0 -20 L-8 -15 M0 -20 L8 -15"/>
+      <path d="M0 20 L-8 15 M0 20 L8 15"/>
+      <path d="M-18 -10 L-22 -5 M-18 -10 L-12 -8"/>
+      <path d="M18 10 L22 5 M18 10 L12 8"/>
+      <path d="M18 -10 L22 -5 M18 -10 L12 -8"/>
+      <path d="M-18 10 L-22 5 M-18 10 L-12 8"/>
+      <circle cx="0" cy="0" r="5"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">板状雪花</text>
+  </g>
+
+  <g transform="translate(620,420)">
+    <g stroke="#7ab8d8" stroke-width="1.5" fill="none">
+      <line x1="0" y1="-30" x2="0" y2="30"/>
+      <line x1="-26" y1="-15" x2="26" y2="15"/>
+      <line x1="-26" y1="15" x2="26" y2="-15"/>
+      <path d="M0 -25 L-10 -20 L-10 -12 L0 -8 L10 -12 L10 -20 Z"/>
+      <path d="M0 25 L-10 20 L-10 12 L0 8 L10 12 L10 20 Z"/>
+      <path d="M-22 -12 L-22 -4 L-14 0 L-8 -4 L-8 -12 Z"/>
+      <path d="M22 12 L22 4 L14 0 L8 4 L8 12 Z"/>
+      <path d="M22 -12 L22 -4 L14 0 L8 -4 L8 -12 Z"/>
+      <path d="M-22 12 L-22 4 L-14 0 L-8 4 L-8 12 Z"/>
+    </g>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#5a8aaa">枝状雪花</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="100" y="500" width="600" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+  <text x="400" y="525" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">水汽凝结 → 冰晶碰撞长大 → 飘落成雪</text>
+  <text x="400" y="548" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">雪花都是六角形，世界上没有两片完全相同的雪花</text>
+
+  <defs>
+    <marker id="arrSn1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7ab8d8"/>
+    </marker>
+  </defs>
+</svg>

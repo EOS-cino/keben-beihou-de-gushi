@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="少年、书页和初升太阳插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">少年中国说</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空（朝霞） -->
+  <rect x="0" y="80" width="800" height="260" fill="#fde8c8"/>
+  <!-- 朝霞渐变 -->
+  <ellipse cx="600" cy="160" rx="200" ry="60" fill="#f8c898" opacity="0.5"/>
+
+  <!-- 初升太阳 -->
+  <circle cx="600" cy="180" r="55" fill="#f4a838" stroke="#d88820" stroke-width="2"/>
+  <circle cx="600" cy="180" r="42" fill="#f4c842"/>
+  <!-- 太阳光芒 -->
+  <g stroke="#f4a838" stroke-width="4" stroke-linecap="round">
+    <line x1="600" y1="100" x2="600" y2="80"/>
+    <line x1="600" y1="260" x2="600" y2="280"/>
+    <line x1="520" y1="180" x2="500" y2="180"/>
+    <line x1="680" y1="180" x2="700" y2="180"/>
+    <line x1="543" y1="123" x2="529" y2="109"/>
+    <line x1="657" y1="123" x2="671" y2="109"/>
+    <line x1="543" y1="237" x2="529" y2="251"/>
+    <line x1="657" y1="237" x2="671" y2="251"/>
+  </g>
+
+  <!-- 远山 -->
+  <path d="M0 340 L80 280 L160 320 L260 260 L360 310 L460 270 L560 300 L660 265 L760 305 L800 290 L800 380 L0 380 Z" fill="#c8b898" opacity="0.5"/>
+  <path d="M0 380 L60 330 L140 360 L240 320 L340 350 L440 325 L540 355 L640 330 L740 360 L800 345 L800 420 L0 420 Z" fill="#b8a888" opacity="0.6"/>
+
+  <!-- 河流 -->
+  <path d="M0 420 Q200 410 400 420 T800 420 L800 460 L0 460 Z" fill="#8ab8d0"/>
+  <path d="M0 430 Q150 425 300 430 T600 430 T800 430" fill="none" stroke="#6a9ec0" stroke-width="1.5"/>
+  <path d="M0 445 Q200 440 400 445 T800 445" fill="none" stroke="#6a9ec0" stroke-width="1.5"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="460" width="800" height="140" fill="#d8c098"/>
+  <path d="M0 480 Q200 475 400 480 T800 480" fill="none" stroke="#b89868" stroke-width="2"/>
+
+  <!-- 少年（站立，手持书卷，望向太阳） -->
+  <!-- 身体 -->
+  <path d="M340 510 L350 400 L400 400 L410 510 Z" fill="#2e5a8a"/>
+  <!-- 衣领 -->
+  <path d="M350 400 L375 415 L400 400" fill="none" stroke="#1e3a5a" stroke-width="2"/>
+  <!-- 头 -->
+  <circle cx="375" cy="378" r="22" fill="#f0d0a8"/>
+  <!-- 头发 -->
+  <path d="M353 375 Q375 350 397 375 L397 368 Q375 348 353 368 Z" fill="#2a2a2a"/>
+  <!-- 眼睛（望向远方） -->
+  <ellipse cx="368" cy="378" rx="2.5" ry="2" fill="#2a2a2a"/>
+  <ellipse cx="382" cy="378" rx="2.5" ry="2" fill="#2a2a2a"/>
+  <!-- 嘴（坚定） -->
+  <path d="M370 388 Q375 391 380 388" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 手臂（一手持书卷，一手指向太阳） -->
+  <path d="M400 420 L440 390" fill="none" stroke="#2e5a8a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="442" cy="388" r="7" fill="#f0d0a8"/>
+  <path d="M350 420 L320 440" fill="none" stroke="#2e5a8a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="318" cy="442" r="7" fill="#f0d0a8"/>
+
+  <!-- 书卷（在少年手中） -->
+  <rect x="295" y="430" width="50" height="25" fill="#fff8e0" stroke="#8a6a30" stroke-width="2" rx="3" transform="rotate(-15 320 442)"/>
+  <line x1="305" y1="438" x2="340" y2="428" stroke="#c8a860" stroke-width="1" transform="rotate(-15 320 442)"/>
+  <line x1="305" y1="445" x2="340" y2="435" stroke="#c8a860" stroke-width="1" transform="rotate(-15 320 442)"/>
+
+  <!-- 书卷（展开的，地上） -->
+  <path d="M180 490 L200 475 L320 475 L340 490 L320 505 L200 505 Z" fill="#fff8e0" stroke="#8a6a30" stroke-width="2"/>
+  <line x1="210" y1="485" x2="330" y2="485" stroke="#c8a860" stroke-width="1"/>
+  <line x1="210" y1="495" x2="330" y2="495" stroke="#c8a860" stroke-width="1"/>
+  <text x="270" y="493" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">少年智则国智</text>
+
+  <!-- 少年标注 -->
+  <line x1="375" y1="352" x2="375" y2="310" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="330" y="285" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="375" y="303" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">中国少年</text>
+
+  <!-- 太阳标注 -->
+  <line x1="600" y1="120" x2="600" y2="90" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="555" y="65" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="600" y="83" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">初升红日</text>
+
+  <!-- 书卷标注 -->
+  <line x1="270" y1="475" x2="270" y2="440" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="225" y="415" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="270" y="433" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">书卷</text>
+
+  <!-- 山河标注 -->
+  <line x1="500" y1="400" x2="500" y2="370" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="455" y="345" width="90" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="500" y="363" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">壮丽山河</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">少年智则国智，少年强则国强，红日初升，其道大光</text>
+</svg>

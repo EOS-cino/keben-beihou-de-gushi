@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">故乡记忆怎样进入文学</text>
+  <line x1="290" y1="54" x2="510" y2="54" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="74" text-anchor="middle" font-size="13" fill="#9c6b3f" font-family="serif">—— 鲁迅与他的童年记忆 ——</text>
+  <rect x="80" y="355" width="220" height="12" rx="2" fill="#8b5e3c"/>
+  <rect x="92" y="367" width="8" height="38" fill="#6b4423"/>
+  <rect x="282" y="367" width="8" height="38" fill="#6b4423"/>
+  <rect x="115" y="338" width="85" height="22" fill="#f5f0e0" stroke="#c8843a" stroke-width="0.5"/>
+  <line x1="122" y1="345" x2="190" y2="345" stroke="#1a1a1a" stroke-width="0.5"/>
+  <line x1="122" y1="350" x2="185" y2="350" stroke="#1a1a1a" stroke-width="0.5"/>
+  <line x1="122" y1="355" x2="188" y2="355" stroke="#1a1a1a" stroke-width="0.5"/>
+  <ellipse cx="245" cy="348" rx="16" ry="7" fill="#3a3a3a"/>
+  <ellipse cx="245" cy="346" rx="11" ry="4" fill="#1a1a1a"/>
+  <path d="M 140,355 L 128,255 Q 128,225 150,215 L 200,215 Q 222,225 222,255 L 210,355 Z" fill="#3a3a3a"/>
+  <line x1="175" y1="215" x2="175" y2="355" stroke="#2a2a2a" stroke-width="1"/>
+  <path d="M 148,265 L 135,290 L 148,315" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+  <path d="M 202,265 L 215,290 L 202,315" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+  <circle cx="175" cy="188" r="23" fill="#e8c39e"/>
+  <path d="M 153,180 Q 153,162 175,160 Q 197,162 197,180 L 195,174 L 192,180 L 189,172 L 186,179 L 183,171 L 180,179 L 177,171 L 174,179 L 171,172 L 168,179 L 165,172 L 162,179 L 159,174 Z" fill="#1a1a1a"/>
+  <circle cx="167" cy="188" r="2.2" fill="#1a1a1a"/>
+  <circle cx="183" cy="188" r="2.2" fill="#1a1a1a"/>
+  <line x1="162" y1="181" x2="172" y2="182" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="178" y1="182" x2="188" y2="181" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+  <rect x="166" y="196" width="18" height="3.5" rx="1" fill="#1a1a1a"/>
+  <line x1="171" y1="203" x2="179" y2="203" stroke="#5c3a1e" stroke-width="1"/>
+  <path d="M 200,245 Q 215,270 200,320" fill="none" stroke="#3a3a3a" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="200" cy="325" r="6" fill="#e8c39e"/>
+  <line x1="200" y1="325" x2="185" y2="340" stroke="#5c3a1e" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="183" cy="343" rx="3" ry="5" fill="#1a1a1a" transform="rotate(-25 183 343)"/>
+  <path d="M 197,168 Q 310,120 410,145" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <path d="M 197,175 Q 380,195 570,225" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <path d="M 197,188 Q 380,290 520,350" fill="none" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <circle cx="450" cy="140" r="58" fill="#fff6df" stroke="#c8843a" stroke-width="2" opacity="0.92"/>
+  <rect x="398" y="160" width="104" height="32" fill="#5a8a4a" opacity="0.4" rx="3"/>
+  <path d="M 408,160 L 408,145 M 420,160 L 420,138 M 432,160 L 432,142 M 444,160 L 444,132 M 456,160 L 456,140 M 468,160 L 468,145 M 480,160 L 480,136 M 492,160 L 492,143" stroke="#4a7c3f" stroke-width="2"/>
+  <circle cx="422" cy="135" r="4" fill="#e36f5b"/>
+  <circle cx="462" cy="128" r="3.5" fill="#f4b942"/>
+  <circle cx="488" cy="138" r="3" fill="#e36f5b"/>
+  <ellipse cx="440" cy="150" rx="3" ry="2" fill="#2d8659"/>
+  <ellipse cx="475" cy="148" rx="3" ry="2" fill="#2d8659"/>
+  <text x="450" y="115" text-anchor="middle" font-size="10" font-weight="bold" fill="#7a3b14" font-family="serif">百草园</text>
+  <circle cx="620" cy="225" r="62" fill="#fff6df" stroke="#c8843a" stroke-width="2" opacity="0.92"/>
+  <circle cx="642" cy="198" r="13" fill="#f4b942" opacity="0.85"/>
+  <circle cx="638" cy="195" r="10" fill="#fef9ed" opacity="0.4"/>
+  <path d="M 568,250 Q 588,245 608,250 Q 628,255 648,250 Q 668,245 678,250" fill="none" stroke="#5b9bd5" stroke-width="2"/>
+  <path d="M 572,260 Q 592,255 612,260 Q 632,265 652,260 Q 668,255 674,260" fill="none" stroke="#5b9bd5" stroke-width="1.5"/>
+  <path d="M 588,240 L 642,240 L 637,250 L 593,250 Z" fill="#8b5e3c"/>
+  <line x1="615" y1="240" x2="615" y2="222" stroke="#6b4423" stroke-width="2"/>
+  <path d="M 608,222 L 622,222 L 615,234 Z" fill="#c8843a"/>
+  <text x="620" y="282" text-anchor="middle" font-size="10" font-weight="bold" fill="#7a3b14" font-family="serif">社戏</text>
+  <circle cx="520" cy="355" r="52" fill="#fff6df" stroke="#c8843a" stroke-width="2" opacity="0.92"/>
+  <circle cx="520" cy="332" r="10" fill="#e8c39e"/>
+  <path d="M 510,340 L 506,355 L 510,370 L 530,370 L 534,355 L 530,340 Z" fill="#4679a8"/>
+  <ellipse cx="505" cy="372" rx="9" ry="5" fill="#5a8a4a"/>
+  <path d="M 500,370 L 496,365 M 510,372 L 514,367" stroke="#4a7c3f" stroke-width="1"/>
+  <text x="520" y="395" text-anchor="middle" font-size="10" font-weight="bold" fill="#7a3b14" font-family="serif">少年闰土</text>
+  <line x1="175" y1="162" x2="95" y2="130" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="45" y="118" width="70" height="24" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="80" y="134" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">鲁迅</text>
+  <line x1="450" y1="140" x2="380" y2="100" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="320" y="88" width="90" height="24" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="365" y="104" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">童年记忆</text>
+  <line x1="160" y1="345" x2="75" y2="325" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="15" y="313" width="90" height="24" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="60" y="329" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">文学创作</text>
+  <rect x="60" y="425" width="680" height="145" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="400" y="453" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">鲁迅的童年记忆——百草园的虫草、水乡的社戏、少年闰土的友谊——</text>
+  <text x="400" y="475" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">都成为他日后文学创作的素材。记忆中的故乡人事，</text>
+  <text x="400" y="497" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">经过作家的回忆与书写，化作了《朝花夕拾》《故乡》等经典作品。</text>
+  <text x="400" y="525" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">真实的童年经历，经过艺术的加工与升华，便成为了打动人心的文学作品。</text>
+  <text x="400" y="552" text-anchor="middle" font-size="13" font-weight="bold" fill="#c8843a" font-family="serif">童年的记忆，是文学创作最深厚的土壤。</text>
+</svg>

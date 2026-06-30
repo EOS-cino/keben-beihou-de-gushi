@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="战国策智慧故事插画：鹬蚌相争等">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">《战国策》里的智慧故事</text>
+  <text x="400" y="66" text-anchor="middle" font-family="serif" font-size="14" fill="#6b6557">一则寓言，一个道理——两千年来仍在教我们做人做事</text>
+
+  <!-- 故事1：鹬蚌相争 -->
+  <g transform="translate(180,200)">
+    <rect x="-110" y="-80" width="220" height="160" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">鹬蚌相争</text>
+    <!-- 河蚌 -->
+    <g transform="translate(-20,10)">
+      <path d="M-25 0 Q-25 -20 0 -22 Q25 -20 25 0 Q25 15 0 18 Q-25 15 -25 0 Z" fill="#8a7a6a"/>
+      <path d="M-22 0 Q-22 -17 0 -19 Q22 -17 22 0 Q22 13 0 16 Q-22 13 -22 0 Z" fill="#a89888"/>
+      <line x1="-25" y1="0" x2="25" y2="0" stroke="#5a4a3a" stroke-width="1.5"/>
+    </g>
+    <!-- 鹬鸟 -->
+    <g transform="translate(30,-5)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="#6a8a9a"/>
+      <circle cx="10" cy="-3" r="6" fill="#6a8a9a"/>
+      <!-- 长嘴被夹住 -->
+      <path d="M14 -2 L-5 8" stroke="#5a3a10" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-6" cy="9" r="2" fill="#5a3a10"/>
+      <!-- 眼 -->
+      <circle cx="12" cy="-4" r="1.5" fill="#1a1a1a"/>
+      <!-- 腿 -->
+      <line x1="-2" y1="7" x2="-2" y2="20" stroke="#5a3a10" stroke-width="2"/>
+      <line x1="4" y1="7" x2="4" y2="20" stroke="#5a3a10" stroke-width="2"/>
+    </g>
+    <!-- 渔夫 -->
+    <g transform="translate(60,30)">
+      <circle cx="0" cy="-5" r="5" fill="#f0d0a8"/>
+      <rect x="-3" y="0" width="6" height="10" fill="#3a5a7a"/>
+      <text x="0" y="22" text-anchor="middle" font-size="9" fill="#7a3b14">渔夫</text>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#6b6557">两败俱伤，渔翁得利</text>
+  </g>
+
+  <!-- 故事2：南辕北辙 -->
+  <g transform="translate(480,200)">
+    <rect x="-110" y="-80" width="220" height="160" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">南辕北辙</text>
+    <!-- 道路（南北方向） -->
+    <line x1="0" y1="-40" x2="0" y2="50" stroke="#c4a878" stroke-width="8"/>
+    <!-- 南方标 -->
+    <text x="0" y="65" text-anchor="middle" font-size="11" fill="#5a8a3a">↓ 南（楚国）</text>
+    <!-- 北方标 -->
+    <text x="0" y="-45" text-anchor="middle" font-size="11" fill="#a84020">↑ 北（走反了）</text>
+    <!-- 马车（往北走） -->
+    <g transform="translate(0,0)">
+      <!-- 车厢 -->
+      <rect x="-15" y="-10" width="25" height="15" fill="#8a5a30" rx="2"/>
+      <!-- 轮子 -->
+      <circle cx="-10" cy="8" r="6" fill="#5a3a10" stroke="#3a2a0a" stroke-width="1.5"/>
+      <circle cx="5" cy="8" r="6" fill="#5a3a10" stroke="#3a2a0a" stroke-width="1.5"/>
+      <!-- 马 -->
+      <ellipse cx="25" cy="-2" rx="10" ry="6" fill="#c89060"/>
+      <circle cx="33" cy="-5" r="5" fill="#c89060"/>
+      <line x1="25" y1="3" x2="25" y2="10" stroke="#8a6a3a" stroke-width="2"/>
+      <line x1="30" y1="3" x2="30" y2="10" stroke="#8a6a3a" stroke-width="2"/>
+      <!-- 向上箭头（往北） -->
+      <path d="M0 -15 L0 -25 M-3 -22 L0 -25 L3 -22" stroke="#e84030" stroke-width="2" fill="none"/>
+    </g>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#6b6557">方向错了，条件再好也没用</text>
+  </g>
+
+  <!-- 故事3：亡羊补牢 -->
+  <g transform="translate(180,420)">
+    <rect x="-110" y="-70" width="220" height="150" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">亡羊补牢</text>
+    <!-- 羊圈 -->
+    <rect x="-60" y="-25" width="80" height="40" fill="none" stroke="#8a6a3a" stroke-width="3"/>
+    <!-- 破洞（修补中） -->
+    <rect x="20" y="-25" width="20" height="40" fill="none" stroke="#e84030" stroke-width="2" stroke-dasharray="3,2"/>
+    <!-- 新木板 -->
+    <rect x="20" y="-25" width="20" height="40" fill="#c4a060" opacity="0.5"/>
+    <!-- 羊 -->
+    <g transform="translate(-30,-5)">
+      <ellipse cx="0" cy="0" rx="10" ry="7" fill="#f0e8d8"/>
+      <circle cx="-8" cy="-3" r="5" fill="#f0e8d8"/>
+      <circle cx="-9" cy="-4" r="1" fill="#1a1a1a"/>
+      <rect x="-3" y="6" width="3" height="6" fill="#8a7a6a"/>
+      <rect x="3" y="6" width="3" height="6" fill="#8a7a6a"/>
+    </g>
+    <!-- 逃跑的羊（虚线） -->
+    <g transform="translate(55,-5)" opacity="0.4">
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#f0e8d8"/>
+      <circle cx="-6" cy="-2" r="4" fill="#f0e8d8"/>
+    </g>
+    <path d="M35 -5 L48 -5" stroke="#e84030" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#6b6557">丢了羊再修圈，为时未晚</text>
+  </g>
+
+  <!-- 故事4：画蛇添足 -->
+  <g transform="translate(480,420)">
+    <rect x="-110" y="-70" width="220" height="150" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="8"/>
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">画蛇添足</text>
+    <!-- 蛇（已画好） -->
+    <path d="M-50 10 Q-30 -10 -10 10 Q10 30 30 10 Q40 0 50 5" fill="none" stroke="#5a8a3a" stroke-width="6" stroke-linecap="round"/>
+    <!-- 蛇头 -->
+    <circle cx="50" cy="5" r="6" fill="#5a8a3a"/>
+    <circle cx="52" cy="3" r="1.5" fill="#1a1a1a"/>
+    <!-- 多画的脚（红色叉） -->
+    <g stroke="#e84030" stroke-width="2.5" stroke-linecap="round">
+      <line x1="-25" y1="12" x2="-25" y2="20"/>
+      <line x1="-5" y1="18" x2="-5" y2="26"/>
+      <line x1="15" y1="18" x2="15" y2="26"/>
+      <line x1="35" y1="10" x2="35" y2="18"/>
+    </g>
+    <!-- 叉号 -->
+    <path d="M-30 25 L-20 35 M-20 25 L-30 35" stroke="#e84030" stroke-width="3"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="11" fill="#6b6557">多此一举，反而弄巧成拙</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">《战国策》：用一个小寓言，讲透一个大道理</text>
+</svg>

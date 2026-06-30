@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一幅名扬中外的画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">一幅名扬中外的画</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">《清明上河图》里的汴京</text>
+  <rect x="80" y="180" width="640" height="200" rx="6" fill="#f0e6cf" stroke="#7a4a1a" stroke-width="3"/>
+  <path d="M120,320 Q200,250 280,320" fill="none" stroke="#7a4a1a" stroke-width="3"/>
+  <path d="M260,320 Q300,290 340,320" fill="none" stroke="#a85a2a" stroke-width="3"/>
+  <g fill="#7a4a1a">
+    <rect x="160" y="270" width="20" height="30"/><rect x="200" y="260" width="20" height="40"/><rect x="240" y="275" width="20" height="25"/>
+    <rect x="500" y="265" width="24" height="35"/><rect x="540" y="255" width="24" height="45"/><rect x="585" y="270" width="24" height="30"/>
+  </g>
+  <g fill="#3a2a1a">
+    <circle cx="180" cy="335" r="3"/><circle cx="210" cy="335" r="3"/><circle cx="240" cy="335" r="3"/><circle cx="510" cy="335" r="3"/><circle cx="550" cy="335" r="3"/><circle cx="590" cy="335" r="3"/>
+  </g>
+  <text x="400" y="440" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14">五百多人，各做各事</text>
+  <text x="400" y="475" text-anchor="middle" font-family="serif" font-size="16" fill="#8a6a3a">一幅画，就是一段凝固的历史</text>
+</svg>

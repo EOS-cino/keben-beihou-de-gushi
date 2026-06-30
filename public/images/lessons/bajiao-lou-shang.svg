@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="夜晚的八角楼里，一盏油灯亮着，一个人披着单衣在灯下写文章">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 夜空 -->
+  <rect x="0" y="0" width="800" height="400" fill="#2d3a4a" opacity="0.15"/>
+  <!-- 月亮 -->
+  <circle cx="680" cy="90" r="28" fill="#fef9ed" opacity="0.7"/>
+  <circle cx="690" cy="85" r="24" fill="#fef9ed" opacity="0.5"/>
+  <!-- 星星 -->
+  <g fill="#f4b942" opacity="0.6">
+    <circle cx="100" cy="80" r="2"/>
+    <circle cx="200" cy="120" r="1.5"/>
+    <circle cx="300" cy="90" r="2"/>
+    <circle cx="500" cy="110" r="1.5"/>
+    <circle cx="600" cy="70" r="2"/>
+  </g>
+  <!-- 山 -->
+  <path d="M0 400 L0 300 L100 250 L200 290 L300 240 L400 280 L500 250 L600 290 L700 260 L800 300 L800 400 Z" fill="#4a6a2f" opacity="0.4"/>
+  <path d="M0 400 L0 340 L150 300 L300 330 L450 310 L600 340 L750 320 L800 340 L800 400 Z" fill="#4a6a2f" opacity="0.3"/>
+  <!-- 八角楼 -->
+  <g transform="translate(400,380)">
+    <!-- 楼身 -->
+    <rect x="-80" y="-120" width="160" height="120" fill="#8d5a36"/>
+    <!-- 屋顶 -->
+    <path d="M-95 -120 L0 -175 L95 -120 Z" fill="#7a3b14"/>
+    <!-- 八角形天窗 -->
+    <path d="M-20 -175 L0 -190 L20 -175 L20 -165 L0 -155 L-20 -165 Z" fill="#f4b942" opacity="0.6"/>
+    <!-- 窗户（透出灯光） -->
+    <rect x="-55" y="-95" width="35" height="40" fill="#f4b942" opacity="0.7"/>
+    <rect x="20" y="-95" width="35" height="40" fill="#f4b942" opacity="0.7"/>
+    <!-- 窗框 -->
+    <line x1="-37" y1="-95" x2="-37" y2="-55" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="-55" y1="-75" x2="-20" y2="-75" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="37" y1="-95" x2="37" y2="-55" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="20" y1="-75" x2="55" y2="-75" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 门 -->
+    <rect x="-15" y="-50" width="30" height="50" fill="#7a3b14"/>
+    <circle cx="8" cy="-25" r="2" fill="#f4b942"/>
+    <!-- 灯光从窗户射出 -->
+    <path d="M-55 -75 L-120 -40 L-120 -110 L-55 -95 Z" fill="#f4b942" opacity="0.15"/>
+    <path d="M55 -75 L120 -40 L120 -110 L55 -95 Z" fill="#f4b942" opacity="0.15"/>
+  </g>
+  <!-- 室内场景（透过大窗户看） -->
+  <g transform="translate(400,310)">
+    <!-- 桌子 -->
+    <rect x="-40" y="0" width="80" height="8" fill="#7a3b14"/>
+    <rect x="-35" y="8" width="6" height="25" fill="#7a3b14"/>
+    <rect x="29" y="8" width="6" height="25" fill="#7a3b14"/>
+    <!-- 清油灯 -->
+    <g transform="translate(-15,-20)">
+      <ellipse cx="0" cy="15" rx="10" ry="4" fill="#8d5a36"/>
+      <rect x="-3" y="0" width="6" height="15" fill="#8d5a36"/>
+      <!-- 火焰 -->
+      <path d="M0 0 Q-4 -5 0 -15 Q4 -5 0 0" fill="#f4b942"/>
+      <path d="M0 -3 Q-2 -6 0 -12 Q2 -6 0 -3" fill="#e07856"/>
+      <!-- 光晕 -->
+      <circle cx="0" cy="-8" r="25" fill="#f4b942" opacity="0.15"/>
+    </g>
+    <!-- 毛主席剪影（披着单衣写文章） -->
+    <g transform="translate(10,-10)">
+      <!-- 头 -->
+      <circle cx="0" cy="-25" r="12" fill="#7a3b14" opacity="0.7"/>
+      <!-- 身体披衣 -->
+      <path d="M-15 -15 Q-20 5 -18 25 L18 25 Q20 5 15 -15 Z" fill="#7a3b14" opacity="0.6"/>
+      <!-- 手握笔 -->
+      <path d="M-8 -5 L-18 5" stroke="#7a3b14" stroke-width="4" opacity="0.7"/>
+      <line x1="-18" y1="5" x2="-25" y2="0" stroke="#7a3b14" stroke-width="2" opacity="0.7"/>
+    </g>
+    <!-- 纸张 -->
+    <rect x="-25" y="-3" width="30" height="6" fill="#fef9ed" opacity="0.8"/>
+  </g>
+  <!-- 地面 -->
+  <path d="M0 440 Q200 430 400 440 T800 435 L800 600 L0 600 Z" fill="#4a6a2f" opacity="0.3"/>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">八角楼上</text>
+</svg>

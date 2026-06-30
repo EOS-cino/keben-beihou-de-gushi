@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="江南小镇石板路小桥流水人家插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">小镇的故事</text>
+  <line x1="320" y1="56" x2="480" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——清晨到黄昏，石板路上的烟火气</text>
+
+  <!-- 天空 -->
+  <rect x="0" y="90" width="800" height="200" fill="#e8a838" opacity="0.12"/>
+  <!-- 远山 -->
+  <path d="M0 290 Q150 230 300 270 Q450 250 600 280 Q700 260 800 290 L800 300 L0 300 Z" fill="#2d6a4f" opacity="0.2"/>
+
+  <!-- 河流 -->
+  <rect x="0" y="300" width="800" height="60" fill="#4a90b8" opacity="0.25"/>
+  <path d="M0 320 Q200 315 400 320 Q600 325 800 320" fill="none" stroke="#4a90b8" stroke-width="1.5"/>
+
+  <!-- 老桥 -->
+  <g transform="translate(400, 300)">
+    <path d="M-120 30 Q-120 -20 0 -20 Q120 -20 120 30" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-120 30 Q-120 -5 0 -5 Q120 -5 120 30" fill="#fef9ed"/>
+    <rect x="-125" y="-25" width="250" height="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 桥栏 -->
+    <rect x="-125" y="-32" width="250" height="4" fill="#7a3b14"/>
+    <rect x="-110" y="-28" width="4" height="10" fill="#7a3b14"/>
+    <rect x="-60" y="-28" width="4" height="10" fill="#7a3b14"/>
+    <rect x="56" y="-28" width="4" height="10" fill="#7a3b14"/>
+    <rect x="106" y="-28" width="4" height="10" fill="#7a3b14"/>
+  </g>
+
+  <!-- 左岸房子 -->
+  <g transform="translate(120, 200)">
+    <path d="M-50 100 L-50 40 L0 10 L50 40 L50 100 Z" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-15" y="60" width="30" height="40" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-40" y="50" width="25" height="20" fill="#4a90b8" opacity="0.5" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="15" y="50" width="25" height="20" fill="#4a90b8" opacity="0.5" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 炊烟 -->
+    <path d="M0 10 L0 -10 Q-3 -20 0 -30 Q3 -40 0 -50" fill="none" stroke="#8d5a36" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <!-- 右岸房子 -->
+  <g transform="translate(680, 210)">
+    <path d="M-45 90 L-45 35 L0 10 L45 35 L45 90 Z" fill="#e07856" opacity="0.8" stroke="#7a3b14" stroke-width="2"/>
+    <rect x="-12" y="55" width="24" height="35" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-35" y="45" width="20" height="18" fill="#4a90b8" opacity="0.5" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="15" y="45" width="20" height="18" fill="#4a90b8" opacity="0.5" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 石板路 -->
+  <rect x="0" y="360" width="800" height="160" fill="#c8843a" opacity="0.2"/>
+  <g stroke="#8d5a36" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="380" x2="800" y2="380"/>
+    <line x1="0" y1="410" x2="800" y2="410"/>
+    <line x1="0" y1="440" x2="800" y2="440"/>
+    <line x1="0" y1="470" x2="800" y2="470"/>
+    <line x1="100" y1="360" x2="100" y2="500"/>
+    <line x1="250" y1="360" x2="250" y2="500"/>
+    <line x1="400" y1="360" x2="400" y2="500"/>
+    <line x1="550" y1="360" x2="550" y2="500"/>
+    <line x1="700" y1="360" x2="700" y2="500"/>
+  </g>
+
+  <!-- 卖豆腐的挑担人 -->
+  <g transform="translate(200, 430)">
+    <circle cx="0" cy="-25" r="10" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="12" ry="16" fill="#4a90b8" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 扁担 -->
+    <path d="M-25 -5 L25 -5" stroke="#8d5a36" stroke-width="3"/>
+    <!-- 担子 -->
+    <rect x="-35" y="0" width="20" height="20" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="15" y="0" width="20" height="20" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">卖豆腐·吱呀</text>
+  </g>
+
+  <!-- 洗衣服的妇女 -->
+  <g transform="translate(500, 340)">
+    <circle cx="0" cy="-5" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="12" rx="10" ry="12" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M8 5 Q20 10 25 20" fill="none" stroke="#c84a3a" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">河边洗衣·啪啪</text>
+  </g>
+
+  <!-- 跑过的孩子 -->
+  <g transform="translate(600, 440)">
+    <circle cx="0" cy="-20" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="0" cy="0" rx="9" ry="12" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-8" y="-25" width="16" height="12" fill="#c84a3a" stroke="#7a3b14" stroke-width="1" rx="2"/>
+    <path d="M-6 10 Q-12 18 -14 28" fill="none" stroke="#2d6a4f" stroke-width="3"/>
+    <path d="M6 10 Q14 16 18 24" fill="none" stroke="#2d6a4f" stroke-width="3"/>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 530)">
+    <rect x="-300" y="0" width="600" height="55" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">叫卖声 · 棒槌声 · 炊烟 · 饭菜香</text>
+    <text x="0" y="42" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">小镇不大，可人与人之间，近得很</text>
+  </g>
+</svg>

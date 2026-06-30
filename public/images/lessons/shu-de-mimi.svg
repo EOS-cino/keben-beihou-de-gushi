@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="大树剖面展示年轮根系与水分输送">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="240" fill="#4a90b8" opacity="0.1"/>
+  <!-- 太阳 -->
+  <circle cx="120" cy="90" r="30" fill="#e8a838" opacity="0.7"/>
+  <g stroke="#e8a838" stroke-width="2" opacity="0.5">
+    <line x1="120" y1="50" x2="120" y2="38"/>
+    <line x1="120" y1="130" x2="120" y2="142"/>
+    <line x1="80" y1="90" x2="68" y2="90"/>
+    <line x1="160" y1="90" x2="172" y2="90"/>
+  </g>
+  <!-- 地面线 -->
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#8d6f47" stroke-width="2" opacity="0.4"/>
+  <rect x="0" y="360" width="800" height="240" fill="#e8a838" opacity="0.1"/>
+  <!-- 树冠 -->
+  <g transform="translate(400 240)">
+    <circle cx="0" cy="0" r="70" fill="#2d6a4f" opacity="0.7"/>
+    <circle cx="-44" cy="10" r="40" fill="#2d6a4f" opacity="0.6"/>
+    <circle cx="44" cy="6" r="44" fill="#2d6a4f" opacity="0.65"/>
+    <circle cx="0" cy="-40" r="38" fill="#2d6a4f" opacity="0.6"/>
+    <!-- 叶子细节 -->
+    <circle cx="-20" cy="-20" r="8" fill="#3d8a5f" opacity="0.7"/>
+    <circle cx="24" cy="14" r="9" fill="#3d8a5f" opacity="0.7"/>
+  </g>
+  <!-- 树干(剖面) -->
+  <g transform="translate(400 300)">
+    <rect x="-30" y="0" width="60" height="62" fill="#8d6f47"/>
+    <rect x="-30" y="0" width="60" height="62" fill="#a87a4f" opacity="0.4"/>
+    <!-- 导管上升箭头(水分) -->
+    <g stroke="#4a90b8" stroke-width="2" fill="none" opacity="0.7">
+      <path d="M-12 58 L-12 6" marker-end="url(#up)"/>
+      <path d="M0 58 L0 6" marker-end="url(#up)"/>
+      <path d="M12 58 L12 6" marker-end="url(#up)"/>
+    </g>
+    <defs>
+      <marker id="up" markerWidth="6" markerHeight="6" refX="3" refY="0" orient="auto">
+        <path d="M0 6 L3 0 L6 6 Z" fill="#4a90b8"/>
+      </marker>
+    </defs>
+    <!-- 水滴 -->
+    <circle cx="-20" cy="-6" r="3" fill="#4a90b8" opacity="0.7"/>
+    <circle cx="16" cy="-10" r="2.5" fill="#4a90b8" opacity="0.7"/>
+  </g>
+  <!-- 年轮剖面(树根处横切) -->
+  <g transform="translate(400 470)">
+    <circle cx="0" cy="0" r="58" fill="#f4e4c4" stroke="#8d6f47" stroke-width="2"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#a87a4f" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#a87a4f" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#a87a4f" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#a87a4f" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="6" fill="#8d6f47"/>
+    <text x="40" y="-30" font-family="serif" font-size="11" fill="#7a3b14">一年</text>
+    <line x1="0" y1="-58" x2="0" y2="-48" stroke="#e07856" stroke-width="2"/>
+  </g>
+  <!-- 根系 -->
+  <g stroke="#8d6f47" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M400 430 Q360 470 320 510"/>
+    <path d="M400 430 Q440 470 480 510"/>
+    <path d="M400 432 Q380 480 360 530"/>
+    <path d="M400 432 Q420 480 440 530"/>
+    <path d="M400 430 Q400 490 400 545"/>
+  </g>
+  <g stroke="#a87a4f" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M340 500 Q320 510 300 520"/>
+    <path d="M460 500 Q480 510 500 520"/>
+  </g>
+  <!-- 菌根网络点 -->
+  <g fill="#e8a838" opacity="0.6">
+    <circle cx="280" cy="520" r="3"/>
+    <circle cx="520" cy="520" r="3"/>
+    <circle cx="350" cy="540" r="2.5"/>
+    <circle cx="460" cy="540" r="2.5"/>
+  </g>
+  <!-- 标注 -->
+  <text x="540" y="180" font-family="serif" font-size="13" fill="#2d6a4f">光合作用</text>
+  <line x1="530" y1="186" x2="470" y2="230" stroke="#2d6a4f" stroke-width="1" opacity="0.6"/>
+  <text x="460" y="340" font-family="serif" font-size="13" fill="#4a90b8">水分上升</text>
+  <text x="490" y="470" font-family="serif" font-size="13" fill="#7a3b14">年轮</text>
+  <text x="300" y="565" font-family="serif" font-size="12" fill="#8d6f47">菌根网络</text>
+  <text x="400" y="45" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#2d6a4f">树的秘密</text>
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a">一棵树里，藏着一部看不完的书</text>
+</svg>

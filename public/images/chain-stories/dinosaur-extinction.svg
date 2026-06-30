@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="恐龙灭绝的原因插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">恐龙为什么灭绝</text>
+  <line x1="270" y1="56" x2="530" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——6600万年前的大灾难</text>
+
+  <!-- 时间线 -->
+  <line x1="50" y1="120" x2="750" y2="120" stroke="#c8843a" stroke-width="2"/>
+  <text x="100" y="110" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">2.3亿年前</text>
+  <text x="100" y="135" text-anchor="middle" font-family="serif" font-size="10" fill="#6a8d3f">恐龙出现</text>
+  <text x="400" y="110" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">1.6亿年</text>
+  <text x="400" y="135" text-anchor="middle" font-family="serif" font-size="10" fill="#6a8d3f">统治地球</text>
+  <text x="650" y="110" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">6600万年前</text>
+  <text x="650" y="135" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">突然灭绝</text>
+
+  <!-- 小行星撞击 -->
+  <g transform="translate(400, 250)">
+    <text x="0" y="-60" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#c84a3a">小行星撞击</text>
+    <!-- 小行星 -->
+    <circle cx="-80" cy="-30" r="15" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-85" cy="-35" r="4" fill="#7a3b14" opacity="0.3"/>
+    <circle cx="-75" cy="-25" r="3" fill="#7a3b14" opacity="0.3"/>
+    <!-- 撞击轨迹 -->
+    <path d="M-95 -35 Q-50 -10 -20 10" fill="none" stroke="#e07856" stroke-width="3" stroke-dasharray="4 2"/>
+    <!-- 地球 -->
+    <circle cx="0" cy="20" r="40" fill="#7ab8d8" stroke="#4a6a8f" stroke-width="2"/>
+    <path d="M-20 10 Q-10 0 0 5 Q10 15 20 5 Q15 25 0 30 Q-15 25 -20 10" fill="#6a8d3f" opacity="0.6"/>
+    <!-- 撞击点 -->
+    <circle cx="-15" cy="5" r="8" fill="#c84a3a" opacity="0.7"/>
+    <text x="-15" y="8" text-anchor="middle" font-family="serif" font-size="8" fill="#fef9ed">撞击</text>
+    <!-- 爆炸效果 -->
+    <g stroke="#e07856" stroke-width="2" fill="none">
+      <path d="M-25 0 L-35 -5"/>
+      <path d="M-20 -5 L-25 -15"/>
+      <path d="M-10 -8 L-10 -18"/>
+    </g>
+    <text x="60" y="0" font-family="serif" font-size="10" fill="#7a3b14">直径10公里</text>
+    <text x="60" y="15" font-family="serif" font-size="10" fill="#7a3b14">速度每秒20+公里</text>
+    <text x="60" y="30" font-family="serif" font-size="10" fill="#c84a3a">=几十亿颗原子弹</text>
+  </g>
+
+  <!-- 灾难连锁反应 -->
+  <g transform="translate(130, 380)">
+    <rect x="-90" y="0" width="180" height="70" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a" font-weight="bold">瞬间灾难</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">海啸300米高</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">强烈地震·火山爆发</text>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">方圆几百公里烧毁</text>
+  </g>
+
+  <path d="M225 415 L275 415" stroke="#c8843a" stroke-width="2" fill="none"/>
+  <path d="M275 415 L270 410 L270 420 Z" fill="#c8843a"/>
+
+  <g transform="translate(370, 380)">
+    <rect x="-90" y="0" width="180" height="70" rx="8" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36" font-weight="bold">黑暗冬天</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">灰尘遮住阳光</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">持续几个月~几年</text>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">又冷又黑</text>
+  </g>
+
+  <path d="M465 415 L515 415" stroke="#c8843a" stroke-width="2" fill="none"/>
+  <path d="M515 415 L510 410 L510 420 Z" fill="#c8843a"/>
+
+  <g transform="translate(610, 380)">
+    <rect x="-90" y="0" width="180" height="70" rx="8" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14" font-weight="bold">食物链崩溃</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">植物不能光合作用</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">植食恐龙饿死→肉食恐龙饿死</text>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">75%物种消失</text>
+  </g>
+
+  <!-- 幸存者 -->
+  <g transform="translate(400, 490)">
+    <rect x="-300" y="0" width="600" height="80" rx="10" fill="#fef9ed" stroke="#6a8d3f" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" fill="#6a8d3f" font-weight="bold">谁活了下来？</text>
+    <text x="0" y="42" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">个头小（不需要太多食物）·住地下或水里（躲避火灾和寒冷）·吃种子和虫子</text>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">→哺乳动物（老鼠大小）熬过了灾难→后来演化出人类</text>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">→有羽毛的小恐龙也活了下来→它们就是鸟类的祖先！</text>
+  </g>
+</svg>

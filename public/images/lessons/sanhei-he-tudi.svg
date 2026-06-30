@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="农民三黑翻地播种、脸上洋溢喜悦的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">三黑和土地 · 翻身农民的喜悦</text>
+  <line x1="220" y1="62" x2="580" y2="62" stroke="#8d5a36" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="70" width="800" height="200" fill="#fef9ed"/>
+  <!-- 太阳 -->
+  <circle cx="120" cy="130" r="28" fill="#f4c842"/>
+  <circle cx="120" cy="130" r="20" fill="#f4d842"/>
+  <g stroke="#f4c842" stroke-width="3" stroke-linecap="round">
+    <line x1="120" y1="95" x2="120" y2="82"/>
+    <line x1="90" y1="110" x2="80" y2="102"/>
+    <line x1="150" y1="110" x2="160" y2="102"/>
+  </g>
+
+  <!-- 远处田野 -->
+  <rect x="0" y="250" width="800" height="60" fill="#6a8d3f" opacity="0.4"/>
+  <!-- 田垄纹理 -->
+  <g stroke="#4a6a2f" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="265" x2="800" y2="265"/>
+    <line x1="0" y1="280" x2="800" y2="280"/>
+    <line x1="0" y1="295" x2="800" y2="295"/>
+  </g>
+
+  <!-- 翻好的土地（深色松软） -->
+  <path d="M0 300 Q200 290 400 305 Q600 295 800 310 L800 600 L0 600 Z" fill="#8d5a36"/>
+  <!-- 翻过的土块纹理 -->
+  <g fill="#5a3a1a" opacity="0.4">
+    <ellipse cx="100" cy="350" rx="15" ry="6"/>
+    <ellipse cx="180" cy="360" rx="12" ry="5"/>
+    <ellipse cx="280" cy="345" rx="14" ry="6"/>
+    <ellipse cx="520" cy="355" rx="13" ry="5"/>
+    <ellipse cx="620" cy="365" rx="15" ry="6"/>
+    <ellipse cx="700" cy="350" rx="12" ry="5"/>
+    <ellipse cx="150" cy="420" rx="14" ry="6"/>
+    <ellipse cx="350" cy="430" rx="13" ry="5"/>
+    <ellipse cx="550" cy="425" rx="15" ry="6"/>
+    <ellipse cx="680" cy="435" rx="12" ry="5"/>
+  </g>
+  <!-- 耙过的细纹 -->
+  <g stroke="#5a3a1a" stroke-width="1" opacity="0.3">
+    <line x1="50" y1="380" x2="200" y2="380"/>
+    <line x1="250" y1="390" x2="400" y2="390"/>
+    <line x1="450" y1="385" x2="600" y2="385"/>
+    <line x1="650" y1="395" x2="780" y2="395"/>
+  </g>
+
+  <!-- 三黑（翻地中） -->
+  <g>
+    <!-- 身体 -->
+    <path d="M380 460 L385 380 L420 380 L425 460 Z" fill="#4a6a2f"/>
+    <!-- 头 -->
+    <circle cx="402" cy="360" r="18" fill="#f0d0a8"/>
+    <!-- 头巾 -->
+    <path d="M384 355 Q402 340 420 355 L420 362 L384 362 Z" fill="#c84a3a"/>
+    <path d="M384 358 L378 370 L385 368 Z" fill="#c84a3a"/>
+    <!-- 表情（开心） -->
+    <circle cx="396" cy="360" r="2" fill="#2a2a2a"/>
+    <circle cx="408" cy="360" r="2" fill="#2a2a2a"/>
+    <path d="M395 368 Q402 373 409 368" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 汗珠（但笑着） -->
+    <ellipse cx="420" cy="358" rx="2" ry="3" fill="#7ab8d8" opacity="0.6"/>
+    <!-- 手臂（握锄头） -->
+    <path d="M385 395 L360 430 L367 437 L392 405 Z" fill="#6a8d3f"/>
+    <path d="M420 395 L445 425 L438 432 L415 405 Z" fill="#6a8d3f"/>
+    <!-- 锄头 -->
+    <line x1="360" y1="430" x2="340" y2="490" stroke="#5a3a1a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M330 485 L350 485 L355 505 L325 505 Z" fill="#a8a8a8" stroke="#5a5a5a" stroke-width="1.5"/>
+    <!-- 腿 -->
+    <rect x="387" y="455" width="10" height="35" fill="#5a3a1a"/>
+    <rect x="410" y="455" width="10" height="35" fill="#5a3a1a"/>
+  </g>
+
+  <!-- 麦籽（撒播） -->
+  <g fill="#f4c842">
+    <circle cx="480" cy="400" r="2.5"/>
+    <circle cx="495" cy="410" r="2.5"/>
+    <circle cx="510" cy="395" r="2"/>
+    <circle cx="475" cy="420" r="2"/>
+    <circle cx="500" cy="425" r="2.5"/>
+    <circle cx="520" cy="415" r="2"/>
+    <circle cx="490" cy="435" r="2.5"/>
+    <circle cx="515" cy="440" r="2"/>
+  </g>
+  <!-- 撒种轨迹 -->
+  <path d="M440 400 Q470 395 520 410" fill="none" stroke="#f4c842" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- 蝈蝈（地头） -->
+  <g>
+    <ellipse cx="650" cy="490" rx="8" ry="5" fill="#6a8d3f"/>
+    <circle cx="657" cy="487" r="4" fill="#6a8d3f"/>
+    <line x1="660" y1="485" x2="668" y2="480" stroke="#4a6a2f" stroke-width="1.5"/>
+    <line x1="660" y1="489" x2="668" y2="494" stroke="#4a6a2f" stroke-width="1.5"/>
+    <!-- 叫声 -->
+    <text x="675" y="480" font-family="serif" font-size="12" fill="#6a8d3f">蝈蝈~</text>
+  </g>
+
+  <!-- 地契（象征翻身） -->
+  <g>
+    <rect x="580" y="320" width="70" height="45" fill="#fff6df" stroke="#c84a3a" stroke-width="2" rx="2" transform="rotate(-8 615 342)"/>
+    <text x="615" y="340" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a" transform="rotate(-8 615 342)">地契</text>
+    <text x="615" y="355" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a" transform="rotate(-8 615 342)">三黑·自有</text>
+  </g>
+
+  <!-- 标注 -->
+  <rect x="340" y="320" width="70" height="22" fill="#fff6df" stroke="#4a6a2f" rx="4"/>
+  <text x="375" y="335" text-anchor="middle" font-family="serif" font-size="12" fill="#4a6a2f">三黑翻地</text>
+
+  <rect x="470" y="370" width="70" height="22" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="505" y="385" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">撒麦籽</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">地是自己的了，再累心里也是甜的</text>
+</svg>

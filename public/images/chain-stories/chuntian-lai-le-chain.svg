@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古人观察物候记录春天的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古人怎么知道春天来了</text>
+  <line x1="200" y1="56" x2="600" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——看自然，记下来，一代代传下去</text>
+
+  <!-- 春天六节气时间轴 -->
+  <line x1="80" y1="200" x2="720" y2="200" stroke="#c8843a" stroke-width="3"/>
+  <g font-family="serif" font-size="11" fill="#7a3b14">
+    <circle cx="130" cy="200" r="7" fill="#6a8d3f"/>
+    <text x="130" y="180" text-anchor="middle">立春</text>
+    <text x="130" y="225" text-anchor="middle" font-size="9" fill="#8d5a36">东风解冻</text>
+
+    <circle cx="240" cy="200" r="7" fill="#c8843a"/>
+    <text x="240" y="180" text-anchor="middle">雨水</text>
+    <text x="240" y="225" text-anchor="middle" font-size="9" fill="#8d5a36">降雨增多</text>
+
+    <circle cx="360" cy="200" r="7" fill="#c84a3a"/>
+    <text x="360" y="180" text-anchor="middle">惊蛰</text>
+    <text x="360" y="225" text-anchor="middle" font-size="9" fill="#8d5a36">春雷惊虫</text>
+
+    <circle cx="480" cy="200" r="7" fill="#4a90b8"/>
+    <text x="480" y="180" text-anchor="middle">春分</text>
+    <text x="480" y="225" text-anchor="middle" font-size="9" fill="#8d5a36">昼夜等长</text>
+
+    <circle cx="600" cy="200" r="7" fill="#2d6a4f"/>
+    <text x="600" y="180" text-anchor="middle">清明</text>
+    <text x="600" y="225" text-anchor="middle" font-size="9" fill="#8d5a36">草木茂盛</text>
+
+    <circle cx="700" cy="200" r="7" fill="#e8a838"/>
+    <text x="700" y="180" text-anchor="middle">谷雨</text>
+    <text x="700" y="225" text-anchor="middle" font-size="9" fill="#8d5a36">雨生百谷</text>
+  </g>
+
+  <!-- 惊蛰特写 -->
+  <g transform="translate(360, 300)">
+    <rect x="-90" y="0" width="180" height="100" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">惊蛰</text>
+    <!-- 雷电 -->
+    <path d="M-50 35 L-40 50 L-46 50 L-36 70" fill="none" stroke="#e8a838" stroke-width="3" stroke-linecap="round"/>
+    <!-- 虫子 -->
+    <g transform="translate(20, 55)">
+      <ellipse cx="0" cy="0" rx="8" ry="4" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+      <circle cx="-8" cy="-2" r="4" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+      <line x1="6" y1="2" x2="12" y2="6" stroke="#4a6a2f" stroke-width="1.5"/>
+    </g>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">春雷一响，虫子醒了</text>
+  </g>
+
+  <!-- 燕子特写 -->
+  <g transform="translate(600, 300)">
+    <rect x="-90" y="0" width="180" height="100" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="2"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">候鸟</text>
+    <g transform="translate(0, 50)">
+      <path d="M-20 0 Q-30 -8 -38 -3 Q-30 2 -20 5 Q-10 2 -2 -3 Q-10 -8 -20 0" fill="#7a3b14"/>
+      <path d="M-20 5 L-20 15" stroke="#7a3b14" stroke-width="2"/>
+    </g>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">燕子是"春信"</text>
+  </g>
+
+  <!-- 竺可桢 -->
+  <g transform="translate(130, 300)">
+    <rect x="-90" y="0" width="180" height="100" rx="8" fill="#fef9ed" stroke="#2d6a4f" stroke-width="2"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#2d6a4f">竺可桢</text>
+    <g transform="translate(-30, 50)">
+      <circle cx="0" cy="0" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+      <ellipse cx="0" cy="18" rx="10" ry="12" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 笔记本 -->
+    <g transform="translate(20, 45)">
+      <rect x="0" y="0" width="30" height="25" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+      <line x1="4" y1="8" x2="26" y2="8" stroke="#7a3b14" stroke-width="0.5"/>
+      <line x1="4" y1="14" x2="26" y2="14" stroke="#7a3b14" stroke-width="0.5"/>
+      <line x1="4" y1="20" x2="20" y2="20" stroke="#7a3b14" stroke-width="0.5"/>
+    </g>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">记了一辈子物候</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 460)">
+    <rect x="-320" y="0" width="640" height="110" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14" font-weight="bold">自然就是古人的日历</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">东风解冻 · 蛰虫始振 · 鱼陟负冰 · 桃始华 · 仓庚鸣</text>
+    <text x="0" y="78" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">每五天一个变化，古人盯着自然，比我们盯手机还仔细</text>
+    <text x="0" y="100" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">发现规律，靠的是日复一日的耐心观察</text>
+  </g>
+</svg>

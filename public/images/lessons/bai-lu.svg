@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="白鹭在水田中站立、低飞、瞭望的优美姿态插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">白鹭</text>
+  <line x1="360" y1="58" x2="440" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="260" fill="#e8e8f0" opacity="0.3"/>
+  <!-- 远山 -->
+  <path d="M0 330 L120 250 L240 290 L360 240 L480 280 L600 250 L720 290 L800 270 L800 340 L0 340 Z" fill="#b0b8a8" opacity="0.3"/>
+
+  <!-- 水田 -->
+  <rect x="0" y="330" width="800" height="200" fill="#d8e8e8" opacity="0.5"/>
+  <!-- 水面波纹 -->
+  <path d="M0 360 Q100 355 200 360 Q300 355 400 360 Q500 355 600 360 Q700 355 800 360" fill="none" stroke="#a8c8c8" stroke-width="1.5" opacity="0.5"/>
+  <path d="M0 400 Q100 395 200 400 Q300 395 400 400 Q500 395 600 400 Q700 395 800 400" fill="none" stroke="#a8c8c8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0 440 Q100 435 200 440 Q300 435 400 440 Q500 435 600 440 Q700 435 800 440" fill="none" stroke="#a8c8c8" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- 水田倒影线 -->
+  <line x1="0" y1="330" x2="800" y2="330" stroke="#98b8b8" stroke-width="1" opacity="0.4"/>
+
+  <!-- 白鹭1：水田中站立钓鱼 -->
+  <g transform="translate(250, 330)">
+    <!-- 腿（青色） -->
+    <line x1="-3" y1="0" x2="-5" y2="50" stroke="#4a7a7a" stroke-width="2.5"/>
+    <line x1="3" y1="0" x2="5" y2="50" stroke="#4a7a7a" stroke-width="2.5"/>
+    <!-- 脚 -->
+    <path d="M -8 50 L -2 50 M -5 50 L -5 53" stroke="#4a7a7a" stroke-width="2"/>
+    <path d="M 2 50 L 8 50 M 5 50 L 5 53" stroke="#4a7a7a" stroke-width="2"/>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="-15" rx="28" ry="16" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+    <!-- 翅膀线条 -->
+    <path d="M -20 -20 Q 0 -25 20 -18" fill="none" stroke="#d8d8d8" stroke-width="1"/>
+    <!-- 脖子（S形） -->
+    <path d="M 15 -25 Q 25 -35 20 -50 Q 15 -60 25 -68" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 15 -25 Q 25 -35 20 -50 Q 15 -60 25 -68" fill="none" stroke="#c8c8c8" stroke-width="1"/>
+    <!-- 头 -->
+    <circle cx="25" cy="-70" r="8" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+    <!-- 喙（铁色长喙） -->
+    <path d="M 30 -72 L 48 -76 L 30 -70" fill="#4a4a4a" stroke="#3a3a3a" stroke-width="1"/>
+    <!-- 眼睛 -->
+    <circle cx="27" cy="-72" r="1.5" fill="#3a3a3a"/>
+    <!-- 尾羽 -->
+    <path d="M -25 -12 Q -35 -8 -38 -2" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+  </g>
+
+  <!-- 白鹭2：黄昏低飞 -->
+  <g transform="translate(550, 200)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="25" ry="10" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+    <!-- 展开的翅膀 -->
+    <path d="M -10 -3 Q -40 -25 -70 -15 Q -50 -5 -15 2" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+    <path d="M 10 -3 Q 40 -25 70 -15 Q 50 -5 15 2" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+    <!-- 翅膀羽毛细节 -->
+    <path d="M -30 -12 L -25 -5" stroke="#d8d8d8" stroke-width="1"/>
+    <path d="M -50 -15 L -42 -8" stroke="#d8d8d8" stroke-width="1"/>
+    <path d="M 30 -12 L 25 -5" stroke="#d8d8d8" stroke-width="1"/>
+    <path d="M 50 -15 L 42 -8" stroke="#d8d8d8" stroke-width="1"/>
+    <!-- 脖子和头 -->
+    <path d="M 20 -2 Q 30 -8 35 -12" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="36" cy="-13" r="6" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+    <path d="M 40 -14 L 52 -16 L 40 -12" fill="#4a4a4a" stroke="#3a3a3a" stroke-width="1"/>
+    <!-- 脚（向后伸） -->
+    <line x1="-15" y1="5" x2="-25" y2="12" stroke="#4a7a7a" stroke-width="2"/>
+    <line x1="-12" y1="6" x2="-22" y2="14" stroke="#4a7a7a" stroke-width="2"/>
+  </g>
+
+  <!-- 白鹭3：树顶瞭望 -->
+  <g transform="translate(680, 280)">
+    <!-- 树干 -->
+    <path d="M 0 50 Q -2 20 0 -10 Q 2 -30 0 -50" fill="none" stroke="#5a4a2a" stroke-width="4"/>
+    <!-- 枝条 -->
+    <path d="M 0 -20 Q -15 -25 -25 -30" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+    <path d="M 0 -35 Q 10 -40 18 -45" fill="none" stroke="#5a4a2a" stroke-width="2"/>
+    <!-- 白鹭站在树顶 -->
+    <ellipse cx="0" cy="-60" rx="14" ry="8" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+    <path d="M 8 -62 Q 15 -68 12 -78" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="12" cy="-80" r="5" fill="#fff" stroke="#c8c8c8" stroke-width="1.5"/>
+    <path d="M 16 -81 L 26 -83 L 16 -79" fill="#4a4a4a" stroke="#3a3a3a" stroke-width="1"/>
+    <line x1="-5" y1="-54" x2="-5" y2="-48" stroke="#4a7a7a" stroke-width="2"/>
+    <line x1="5" y1="-54" x2="5" y2="-48" stroke="#4a7a7a" stroke-width="2"/>
+  </g>
+
+  <!-- 夕阳 -->
+  <circle cx="120" cy="150" r="30" fill="#f0a848" opacity="0.4"/>
+  <circle cx="120" cy="150" r="20" fill="#f0b868" opacity="0.4"/>
+
+  <!-- 标注：雪白羽毛 -->
+  <line x1="250" y1="315" x2="180" y2="280" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="110" y="258" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="165" y="276" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">雪白羽毛</text>
+
+  <!-- 标注：铁色长喙 -->
+  <line x1="298" y1="258" x2="340" y2="220" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="310" y="198" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="365" y="216" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">铁色长喙</text>
+
+  <!-- 标注：低飞 -->
+  <line x1="550" y1="185" x2="500" y2="140" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="460" y="118" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="510" y="136" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">黄昏低飞</text>
+
+  <!-- 标注：树顶瞭望 -->
+  <line x1="692" y1="210" x2="640" y2="180" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="560" y="158" width="110" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="615" y="176" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">树顶瞭望</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">白鹭色素配合、身段大小一切适宜——是一首精巧的诗</text>
+</svg>

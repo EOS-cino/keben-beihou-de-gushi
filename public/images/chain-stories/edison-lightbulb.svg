@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="爱迪生发明电灯插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">爱迪生发明电灯</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c9952e" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8a6a3a">——从萤火到电灯，人类追光的一千年</text>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#d4b888" stroke="#a08858" stroke-width="2"/>
+
+  <!-- 实验桌 -->
+  <rect x="200" y="380" width="400" height="15" fill="#8b6332" stroke="#5a3a1a" stroke-width="2.5" rx="2"/>
+  <rect x="220" y="395" width="10" height="105" fill="#8b6332" stroke="#5a3a1a" stroke-width="1.5"/>
+  <rect x="570" y="395" width="10" height="105" fill="#8b6332" stroke="#5a3a1a" stroke-width="1.5"/>
+
+  <!-- 电灯泡（发光，中心位置） -->
+  <g transform="translate(400, 280)">
+    <text x="0" y="-100" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a3a1a">电灯泡</text>
+    <!-- 光晕 -->
+    <circle cx="0" cy="0" r="80" fill="#f4e060" opacity="0.1"/>
+    <circle cx="0" cy="0" r="55" fill="#f4e060" opacity="0.15"/>
+    <circle cx="0" cy="0" r="35" fill="#f4e060" opacity="0.2"/>
+    <!-- 灯泡玻璃 -->
+    <path d="M-30 -10 Q-35 -50 0 -55 Q35 -50 30 -10 L25 20 L-25 20 Z" fill="#f4f4d0" stroke="#8a8a6a" stroke-width="2.5" opacity="0.85"/>
+    <!-- 灯丝（碳化棉线/竹丝） -->
+    <path d="M-8 -20 Q-5 -30 0 -25 Q5 -30 8 -20" fill="none" stroke="#f4602a" stroke-width="2.5"/>
+    <path d="M-8 -20 L-8 -10 M8 -20 L8 -10" stroke="#f4602a" stroke-width="2"/>
+    <!-- 灯丝支架 -->
+    <line x1="-8" y1="-10" x2="-8" y2="5" stroke="#8a8a6a" stroke-width="1.5"/>
+    <line x1="8" y1="-10" x2="8" y2="5" stroke="#8a8a6a" stroke-width="1.5"/>
+    <!-- 螺纹灯口 -->
+    <rect x="-18" y="20" width="36" height="15" fill="#8a8a6a" stroke="#5a5a3a" stroke-width="2" rx="2"/>
+    <line x1="-18" y1="26" x2="18" y2="26" stroke="#5a5a3a" stroke-width="1"/>
+    <line x1="-18" y1="30" x2="18" y2="30" stroke="#5a5a3a" stroke-width="1"/>
+    <!-- 灯头 -->
+    <rect x="-10" y="35" width="20" height="8" fill="#5a5a3a" stroke="#3a3a1a" stroke-width="1.5" rx="2"/>
+    <!-- 光线 -->
+    <g stroke="#f4e060" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+      <line x1="0" y1="-65" x2="0" y2="-78"/>
+      <line x1="-45" y1="-35" x2="-55" y2="-42"/>
+      <line x1="45" y1="-35" x2="55" y2="-42"/>
+      <line x1="-50" y1="0" x2="-62" y2="0"/>
+      <line x1="50" y1="0" x2="62" y2="0"/>
+      <line x1="-35" y1="-55" x2="-42" y2="-65"/>
+      <line x1="35" y1="-55" x2="42" y2="-65"/>
+    </g>
+  </g>
+
+  <!-- 电池/电源（桌上左侧） -->
+  <g transform="translate(260, 360)">
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">电池</text>
+    <rect x="-25" y="0" width="50" height="30" fill="#3a3a4a" stroke="#1a1a2a" stroke-width="2" rx="3"/>
+    <rect x="-5" y="-5" width="10" height="5" fill="#5a5a6a"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="14" fill="#f4e060" font-weight="bold">+</text>
+    <text x="-15" y="20" text-anchor="middle" font-family="serif" font-size="14" fill="#8a8a9a">-</text>
+  </g>
+
+  <!-- 导线（连接电池和灯泡） -->
+  <path d="M285 365 Q320 340 370 335" fill="none" stroke="#8a6a3a" stroke-width="3"/>
+  <path d="M235 365 Q200 340 370 335" fill="none" stroke="#8a6a3a" stroke-width="3" opacity="0.7"/>
+
+  <!-- 试过的材料（桌上右侧，各种灯丝材料） -->
+  <g transform="translate(520, 360)">
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">试过的材料（上千种）</text>
+    <!-- 竹丝 -->
+    <rect x="-40" y="0" width="25" height="4" fill="#a08050" stroke="#6a4a20" stroke-width="1" rx="2" transform="rotate(-10)"/>
+    <text x="-28" y="18" text-anchor="middle" font-family="serif" font-size="10" fill="#7a5a2a">竹丝</text>
+    <!-- 棉线 -->
+    <path d="M-10 5 Q0 -2 10 5" fill="none" stroke="#d4c4a0" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="10" fill="#7a5a2a">棉线</text>
+    <!-- 金属丝 -->
+    <line x1="20" y1="5" x2="40" y2="2" stroke="#8a8a9a" stroke-width="2.5"/>
+    <text x="30" y="18" text-anchor="middle" font-family="serif" font-size="10" fill="#7a5a2a">金属丝</text>
+  </g>
+
+  <!-- 爱迪生人物（左侧） -->
+  <g transform="translate(130, 400)">
+    <text x="0" y="-100" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#5a3a1a">爱迪生</text>
+    <!-- 头 -->
+    <circle cx="0" cy="-50" r="22" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2.5"/>
+    <!-- 头发 -->
+    <path d="M-20 -58 Q-10 -75 0 -72 Q10 -75 20 -58" fill="#5a4a3a" stroke="#3a2a1a" stroke-width="1.5"/>
+    <!-- 眼睛（专注） -->
+    <circle cx="-7" cy="-52" r="2.5" fill="#1a1a1a"/>
+    <circle cx="7" cy="-52" r="2.5" fill="#1a1a1a"/>
+    <!-- 嘴 -->
+    <line x1="-4" y1="-40" x2="4" y2="-40" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 身体（实验服） -->
+    <path d="M-22 -28 L-30 40 L30 40 L22 -28 Z" fill="#fffdf7" stroke="#8a8a6a" stroke-width="2.5"/>
+    <!-- 领带 -->
+    <path d="M-3 -28 L0 -15 L3 -28 L2 -10 L-2 -10 Z" fill="#6a3a2a"/>
+    <!-- 手臂（伸向灯泡） -->
+    <path d="M22 -20 Q50 -10 70 0" fill="none" stroke="#fffdf7" stroke-width="14" stroke-linecap="round"/>
+    <path d="M22 -20 Q50 -10 70 0" fill="none" stroke="#8a8a6a" stroke-width="2"/>
+    <circle cx="72" cy="2" r="8" fill="#f4d4a8" stroke="#5a3a1a" stroke-width="2"/>
+  </g>
+
+  <!-- 时间轴：从萤火到电灯 -->
+  <g transform="translate(400, 540)">
+    <rect x="-250" y="0" width="500" height="45" rx="8" fill="#fffdf7" stroke="#c9952e" stroke-width="1.5" opacity="0.9"/>
+    <text x="-180" y="28" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">车胤·萤火（约400年）</text>
+    <path d="M-80 22 L0 22" stroke="#c9952e" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowE)"/>
+    <text x="80" y="28" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">油灯·蜡烛（中间千年）</text>
+    <path d="M160 22 L220 22" stroke="#c9952e" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowE)"/>
+    <text x="0" y="15" text-anchor="middle" font-family="serif" font-size="10" fill="#8a6a3a">→</text>
+  </g>
+  <defs>
+    <marker id="arrowE" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#c9952e"/>
+    </marker>
+  </defs>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="13" fill="#c44a3a" font-weight="bold">爱迪生·电灯（1879年）</text>
+
+  <!-- 失败次数标注 -->
+  <g transform="translate(680, 280)">
+    <rect x="-55" y="0" width="110" height="50" rx="6" fill="#fffdf7" stroke="#c44a3a" stroke-width="1.5" opacity="0.85"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="13" fill="#c44a3a" font-weight="bold">上千次试验</text>
+    <text x="0" y="38" text-anchor="middle" font-family="serif" font-size="11" fill="#7a5a2a">"我没有失败，</text>
+  </g>
+  <text x="680" y="345" text-anchor="middle" font-family="serif" font-size="11" fill="#7a5a2a">只是发现了一千种不行的方法"</text>
+</svg>

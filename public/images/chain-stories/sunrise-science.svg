@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="地球自转插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#5a3a1a">太阳升起的科学原理</text>
+  <line x1="240" y1="56" x2="560" y2="56" stroke="#c9952e" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8a6a3a">——不是太阳在升起，是地球在转动</text>
+
+  <!-- 太空背景 -->
+  <rect x="0" y="90" width="800" height="420" fill="#1a1a2a"/>
+  <!-- 星星 -->
+  <g fill="#f4e8a0">
+    <circle cx="60" cy="120" r="1.5"/>
+    <circle cx="140" cy="110" r="1"/>
+    <circle cx="220" cy="130" r="2"/>
+    <circle cx="340" cy="115" r="1"/>
+    <circle cx="480" cy="125" r="1.5"/>
+    <circle cx="580" cy="110" r="1"/>
+    <circle cx="680" cy="130" r="2"/>
+    <circle cx="750" cy="115" r="1.5"/>
+    <circle cx="100" cy="170" r="1"/>
+    <circle cx="300" cy="160" r="1"/>
+    <circle cx="520" cy="170" r="1.5"/>
+    <circle cx="700" cy="160" r="1"/>
+    <circle cx="50" cy="450" r="1.5"/>
+    <circle cx="200" cy="470" r="1"/>
+    <circle cx="600" cy="460" r="1.5"/>
+    <circle cx="750" cy="480" r="1"/>
+  </g>
+
+  <!-- 太阳（固定在右侧，不动） -->
+  <g transform="translate(680, 250)">
+    <text x="0" y="-50" text-anchor="middle" font-family="serif" font-size="14" fill="#f4e060" font-weight="bold">太阳（不动）</text>
+    <!-- 光晕 -->
+    <circle cx="0" cy="0" r="60" fill="#f4a040" opacity="0.1"/>
+    <circle cx="0" cy="0" r="45" fill="#f4a040" opacity="0.15"/>
+    <!-- 太阳本体 -->
+    <circle cx="0" cy="0" r="35" fill="#f4b942" stroke="#e0a020" stroke-width="2.5"/>
+    <!-- 光线 -->
+    <g stroke="#f4b942" stroke-width="2.5" stroke-linecap="round">
+      <line x1="0" y1="-45" x2="0" y2="-55"/>
+      <line x1="0" y1="45" x2="0" y2="55"/>
+      <line x1="-45" y1="0" x2="-55" y2="0"/>
+      <line x1="45" y1="0" x2="55" y2="0"/>
+      <line x1="-32" y1="-32" x2="-39" y2="-39"/>
+      <line x1="32" y1="-32" x2="39" y2="-39"/>
+      <line x1="-32" y1="32" x2="-39" y2="39"/>
+      <line x1="32" y1="32" x2="39" y2="39"/>
+    </g>
+  </g>
+
+  <!-- 地球（自转中） -->
+  <g transform="translate(300, 300)">
+    <text x="0" y="-130" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#8ac0d8">地球（自转中）</text>
+    <!-- 地球本体 -->
+    <circle cx="0" cy="0" r="90" fill="#4a8ab0" stroke="#2a5a80" stroke-width="3"/>
+    <!-- 大陆（简化） -->
+    <path d="M-50 -30 Q-30 -40 -10 -25 Q0 -15 -20 -5 Q-40 0 -55 -15 Z" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5"/>
+    <path d="M20 -40 Q40 -35 50 -15 Q45 0 25 -5 Q15 -20 20 -40 Z" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5"/>
+    <path d="M-30 20 Q-10 15 5 30 Q0 45 -20 40 Q-35 35 -30 20 Z" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5"/>
+    <path d="M30 25 Q50 20 55 35 Q45 50 30 45 Z" fill="#5a8a3a" stroke="#3a6a1a" stroke-width="1.5"/>
+    <!-- 自转轴（倾斜23.5度） -->
+    <line x1="0" y1="-110" x2="0" y2="110" stroke="#f4e060" stroke-width="2" stroke-dasharray="6,4" transform="rotate(-23.5)"/>
+    <!-- 自转方向箭头（自西向东） -->
+    <path d="M-75 -50 Q-85 0 -75 50" fill="none" stroke="#f4e060" stroke-width="3" marker-end="url(#arrowR)"/>
+    <text x="-95" y="5" text-anchor="middle" font-family="serif" font-size="11" fill="#f4e060" transform="rotate(-90 -95 5)">自西向东转</text>
+    <!-- 观察者位置（小点） -->
+    <circle cx="0" cy="-90" r="5" fill="#c44a3a" stroke="#fff" stroke-width="2"/>
+    <text x="15" y="-88" text-anchor="start" font-family="serif" font-size="11" fill="#f4e060">我们在这里</text>
+    <!-- 24小时标注 -->
+    <text x="0" y="125" text-anchor="middle" font-family="serif" font-size="13" fill="#8ac0d8">转一圈 ≈ 24小时</text>
+  </g>
+
+  <defs>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#f4e060"/>
+    </marker>
+  </defs>
+
+  <!-- 阳光照射方向 -->
+  <g stroke="#f4a040" stroke-width="2" opacity="0.4">
+    <line x1="620" y1="250" x2="400" y2="250"/>
+    <line x1="620" y1="270" x2="400" y2="270"/>
+    <line x1="620" y1="230" x2="400" y2="230"/>
+  </g>
+  <!-- 昼夜分界线（晨昏线） -->
+  <path d="M300 210 Q260 300 300 390" fill="none" stroke="#f4e060" stroke-width="2.5" stroke-dasharray="5,3" opacity="0.6"/>
+  <text x="240" y="300" text-anchor="middle" font-family="serif" font-size="11" fill="#f4e060" transform="rotate(-90 240 300)">晨昏线</text>
+
+  <!-- 底部说明区 -->
+  <g transform="translate(0, 520)">
+    <rect x="0" y="0" width="800" height="80" fill="#e8d5a8"/>
+    <!-- 左：误解 -->
+    <g transform="translate(150, 40)">
+      <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="13" fill="#9a3a3a">误解：太阳从东边"升起"</text>
+      <text x="0" y="12" text-anchor="middle" font-family="serif" font-size="11" fill="#7a5a2a">（好像太阳在绕着地球动）</text>
+    </g>
+    <!-- 箭头 -->
+    <path d="M280 40 L360 40" stroke="#c9952e" stroke-width="2.5" marker-end="url(#arrowR2)"/>
+    <!-- 右：真相 -->
+    <g transform="translate(520, 40)">
+      <text x="0" y="-8" text-anchor="middle" font-family="serif" font-size="13" fill="#3a6a3a">真相：地球转到面向太阳</text>
+      <text x="0" y="12" text-anchor="middle" font-family="serif" font-size="11" fill="#7a5a2a">（是地平线"下降"露出太阳）</text>
+    </g>
+  </g>
+  <defs>
+    <marker id="arrowR2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#c9952e"/>
+    </marker>
+  </defs>
+
+  <!-- 速度标注 -->
+  <g transform="translate(580, 420)">
+    <rect x="-70" y="0" width="140" height="45" rx="6" fill="#fffdf7" stroke="#c9952e" stroke-width="1.5" opacity="0.85"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#5a3a1a">赤道处自转速度</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="13" fill="#c44a3a" font-weight="bold">≈ 460米/秒</text>
+  </g>
+</svg>

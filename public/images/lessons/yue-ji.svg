@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中秋夜里月亮在院子、窗台和河边的轨迹插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">月迹</text>
+  <line x1="370" y1="60" x2="430" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 夜空 -->
+  <rect x="0" y="70" width="800" height="530" fill="#1a2a3a"/>
+  <!-- 星星 -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="80" cy="110" r="1.5"/>
+    <circle cx="200" cy="90" r="1"/>
+    <circle cx="350" cy="100" r="1.5"/>
+    <circle cx="550" cy="85" r="1"/>
+    <circle cx="680" cy="120" r="1.5"/>
+    <circle cx="720" cy="90" r="1"/>
+    <circle cx="150" cy="140" r="1"/>
+    <circle cx="450" cy="130" r="1"/>
+  </g>
+
+  <!-- 大月亮（天上） -->
+  <circle cx="400" cy="160" r="50" fill="#fef9ed" opacity="0.95"/>
+  <circle cx="385" cy="150" r="8" fill="#e8e0c8" opacity="0.5"/>
+  <circle cx="410" cy="170" r="6" fill="#e8e0c8" opacity="0.5"/>
+  <circle cx="420" cy="150" r="4" fill="#e8e0c8" opacity="0.4"/>
+  <!-- 月光晕 -->
+  <circle cx="400" cy="160" r="65" fill="none" stroke="#fef9ed" stroke-width="1" opacity="0.2"/>
+  <circle cx="400" cy="160" r="80" fill="none" stroke="#fef9ed" stroke-width="1" opacity="0.1"/>
+
+  <!-- 月迹1：竹帘上 -->
+  <g>
+    <rect x="40" y="230" width="160" height="180" fill="#2a3a4a" stroke="#5a6a7a" stroke-width="2" rx="4"/>
+    <!-- 竹帘条纹 -->
+    <g stroke="#4a5a6a" stroke-width="2">
+      <line x1="55" y1="230" x2="55" y2="410"/>
+      <line x1="70" y1="230" x2="70" y2="410"/>
+      <line x1="85" y1="230" x2="85" y2="410"/>
+      <line x1="100" y1="230" x2="100" y2="410"/>
+      <line x1="115" y1="230" x2="115" y2="410"/>
+      <line x1="130" y1="230" x2="130" y2="410"/>
+      <line x1="145" y1="230" x2="145" y2="410"/>
+      <line x1="160" y1="230" x2="160" y2="410"/>
+      <line x1="175" y1="230" x2="175" y2="410"/>
+    </g>
+    <!-- 月光从帘缝溜进来 -->
+    <rect x="95" y="230" width="6" height="180" fill="#fef9ed" opacity="0.6"/>
+    <rect x="125" y="230" width="6" height="180" fill="#fef9ed" opacity="0.4"/>
+    <!-- 小月亮在帘上 -->
+    <circle cx="120" cy="300" r="12" fill="#fef9ed" opacity="0.7"/>
+    <text x="120" y="430" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">竹帘上</text>
+  </g>
+
+  <!-- 月迹2：院子里 -->
+  <g>
+    <rect x="230" y="320" width="160" height="120" fill="#3a4a5a" rx="4"/>
+    <!-- 院子里的月光（铺银） -->
+    <ellipse cx="310" cy="380" rx="60" ry="25" fill="#fef9ed" opacity="0.2"/>
+    <!-- 小月亮在院中 -->
+    <circle cx="310" cy="370" r="15" fill="#fef9ed" opacity="0.6"/>
+    <!-- 桂树影子 -->
+    <rect x="350" y="330" width="6" height="50" fill="#1a2a1a"/>
+    <circle cx="353" cy="325" r="18" fill="#2d6a4f" opacity="0.6"/>
+    <text x="310" y="430" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">院子里</text>
+  </g>
+
+  <!-- 月迹3：酒杯里 -->
+  <g>
+    <!-- 酒杯 -->
+    <path d="M440 340 L440 380 Q440 395 460 395 L480 395 Q500 395 500 380 L500 340 Z" fill="#4a90b8" opacity="0.5" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 杯中酒 -->
+    <ellipse cx="470" cy="345" rx="28" ry="6" fill="#e8a838" opacity="0.6"/>
+    <!-- 月亮在酒里 -->
+    <circle cx="470" cy="343" r="8" fill="#fef9ed" opacity="0.8"/>
+    <!-- 杯脚 -->
+    <rect x="465" y="395" width="10" height="20" fill="#7a3b14"/>
+    <ellipse cx="470" cy="418" rx="18" ry="4" fill="#7a3b14"/>
+    <text x="470" y="440" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">酒杯里</text>
+  </g>
+
+  <!-- 月迹4：河水中 -->
+  <g>
+    <rect x="560" y="340" width="200" height="100" fill="#2a4a6a" rx="4"/>
+    <!-- 水波 -->
+    <path d="M570 370 q15 -4 30 0 q15 -4 30 0 q15 -4 30 0 q15 -4 30 0 q15 -4 30 0 q15 -4 30 0" stroke="#4a90b8" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <path d="M570 390 q15 -4 30 0 q15 -4 30 0 q15 -4 30 0 q15 -4 30 0 q15 -4 30 0 q15 -4 30 0" stroke="#4a90b8" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <!-- 月亮在水里（碎成片） -->
+    <ellipse cx="660" cy="375" rx="20" ry="6" fill="#fef9ed" opacity="0.6"/>
+    <ellipse cx="640" cy="390" rx="8" ry="3" fill="#fef9ed" opacity="0.4"/>
+    <ellipse cx="690" cy="395" rx="6" ry="2" fill="#fef9ed" opacity="0.3"/>
+    <text x="660" y="430" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">河水中</text>
+  </g>
+
+  <!-- 月迹5：眼睛里 -->
+  <g>
+    <!-- 大眼睛 -->
+    <ellipse cx="400" cy="500" rx="40" ry="25" fill="#ffffff" stroke="#7a3b14" stroke-width="2.5"/>
+    <circle cx="400" cy="500" r="18" fill="#4a90b8"/>
+    <circle cx="400" cy="500" r="10" fill="#1a2a3a"/>
+    <!-- 眼睛里的月亮 -->
+    <circle cx="400" cy="500" r="6" fill="#fef9ed" opacity="0.9"/>
+    <!-- 睫毛 -->
+    <path d="M365 485 L360 478 M380 480 L378 472 M400 478 L400 470 M420 480 L422 472 M435 485 L440 478" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="400" y="545" text-anchor="middle" font-family="serif" font-size="12" fill="#fef9ed">眼睛里</text>
+  </g>
+
+  <!-- 月迹连线（虚线） -->
+  <path d="M400 210 Q200 250 120 280 M400 210 Q350 280 310 350 M400 210 Q430 280 470 340 M400 210 Q550 280 660 350 M400 210 Q400 350 400 475" stroke="#fef9ed" stroke-width="1.5" fill="none" opacity="0.3" stroke-dasharray="4,4"/>
+
+  <!-- 底部说明 -->
+  <text x="400" y="580" text-anchor="middle" font-family="serif" font-size="15" fill="#fef9ed">月亮到处都在——竹帘上、院子里、酒杯中、河水里、眼睛里</text>
+</svg>

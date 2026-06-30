@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="化石中远古生物与科学家研究插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">化石吟</text>
+  <line x1="370" y1="56" x2="430" y2="56" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 时间轴背景 -->
+  <rect x="0" y="72" width="800" height="380" fill="#e8e0d0" opacity="0.2" rx="8"/>
+
+  <!-- 左侧：三叶虫化石（5亿年前） -->
+  <g transform="translate(160, 220)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#4a90b8">三叶虫·5亿年前</text>
+    <!-- 石头 -->
+    <ellipse cx="0" cy="0" rx="60" ry="45" fill="#c8b898" stroke="#7a3b14" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="55" ry="40" fill="#b8a888" opacity="0.5"/>
+    <!-- 三叶虫化石 -->
+    <g transform="translate(0, 0)">
+      <ellipse cx="0" cy="-15" rx="12" ry="8" fill="#5a4a3a" opacity="0.6"/>
+      <rect x="-10" y="-8" width="20" height="4" fill="#5a4a3a" opacity="0.5"/>
+      <rect x="-10" y="-3" width="20" height="4" fill="#5a4a3a" opacity="0.5"/>
+      <rect x="-10" y="2" width="20" height="4" fill="#5a4a3a" opacity="0.5"/>
+      <rect x="-10" y="7" width="20" height="4" fill="#5a4a3a" opacity="0.5"/>
+      <rect x="-8" y="12" width="16" height="4" fill="#5a4a3a" opacity="0.5"/>
+      <rect x="-6" y="17" width="12" height="4" fill="#5a4a3a" opacity="0.5"/>
+      <!-- 中线 -->
+      <line x1="0" y1="-20" x2="0" y2="22" stroke="#3a2a1a" stroke-width="1.5" opacity="0.6"/>
+    </g>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">海底爬行的远古生物</text>
+  </g>
+
+  <!-- 中间：恐龙骨架（6800万年前） -->
+  <g transform="translate(400, 220)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#e07856">霸王龙·6800万年前</text>
+    <!-- 石头背景 -->
+    <ellipse cx="0" cy="0" rx="75" ry="55" fill="#c8b898" stroke="#7a3b14" stroke-width="2" opacity="0.6"/>
+    <!-- 恐龙骨架 -->
+    <g transform="translate(0, 0)" opacity="0.7">
+      <!-- 头骨 -->
+      <ellipse cx="-35" cy="-15" rx="14" ry="9" fill="none" stroke="#5a4a3a" stroke-width="2"/>
+      <!-- 牙齿 -->
+      <line x1="-45" y1="-10" x2="-45" y2="-6" stroke="#5a4a3a" stroke-width="1.5"/>
+      <line x1="-42" y1="-8" x2="-42" y2="-4" stroke="#5a4a3a" stroke-width="1.5"/>
+      <line x1="-39" y1="-7" x2="-39" y2="-3" stroke="#5a4a3a" stroke-width="1.5"/>
+      <!-- 脊椎 -->
+      <line x1="-22" y1="-12" x2="25" y2="-5" stroke="#5a4a3a" stroke-width="2"/>
+      <line x1="-20" y1="-5" x2="22" y2="2" stroke="#5a4a3a" stroke-width="2"/>
+      <!-- 肋骨 -->
+      <path d="M -10 -10 Q -8 5 -5 10" fill="none" stroke="#5a4a3a" stroke-width="1.5"/>
+      <path d="M -3 -8 Q -1 7 2 12" fill="none" stroke="#5a4a3a" stroke-width="1.5"/>
+      <path d="M 4 -7 Q 6 8 9 12" fill="none" stroke="#5a4a3a" stroke-width="1.5"/>
+      <path d="M 11 -6 Q 13 7 15 10" fill="none" stroke="#5a4a3a" stroke-width="1.5"/>
+      <!-- 腿骨 -->
+      <line x1="-5" y1="12" x2="-8" y2="30" stroke="#5a4a3a" stroke-width="2.5"/>
+      <line x1="10" y1="12" x2="13" y2="30" stroke="#5a4a3a" stroke-width="2.5"/>
+      <!-- 尾巴 -->
+      <path d="M 25 -5 Q 40 0 50 5" fill="none" stroke="#5a4a3a" stroke-width="2"/>
+    </g>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">统治地球一亿多年的霸主</text>
+  </g>
+
+  <!-- 右侧：琥珀中的蜜蜂（1亿年前） -->
+  <g transform="translate(640, 220)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#e8a838">琥珀蜜蜂·1亿年前</text>
+    <!-- 琥珀 -->
+    <ellipse cx="0" cy="0" rx="50" ry="40" fill="#e8a838" opacity="0.35" stroke="#a07820" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="45" ry="35" fill="#e8a838" opacity="0.2"/>
+    <!-- 蜜蜂 -->
+    <g transform="translate(0, 0)">
+      <ellipse cx="0" cy="0" rx="10" ry="6" fill="#5a4a2a" opacity="0.6"/>
+      <rect x="-8" y="-3" width="4" height="6" fill="#e8a838" opacity="0.5"/>
+      <rect x="-2" y="-3" width="4" height="6" fill="#e8a838" opacity="0.5"/>
+      <rect x="4" y="-3" width="4" height="6" fill="#e8a838" opacity="0.5"/>
+      <!-- 翅膀 -->
+      <ellipse cx="-3" cy="-8" rx="6" ry="3" fill="#fff" opacity="0.3" transform="rotate(-20)"/>
+      <ellipse cx="3" cy="-8" rx="6" ry="3" fill="#fff" opacity="0.3" transform="rotate(20)"/>
+      <!-- 头 -->
+      <circle cx="-10" cy="0" r="4" fill="#5a4a2a" opacity="0.6"/>
+    </g>
+    <text x="0" y="65" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">树脂冻结的远古生命</text>
+  </g>
+
+  <!-- 时间轴 -->
+  <g transform="translate(400, 360)">
+    <line x1="-280" y1="0" x2="280" y2="0" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-240" cy="0" r="5" fill="#4a90b8"/>
+    <circle cx="0" cy="0" r="5" fill="#e07856"/>
+    <circle cx="240" cy="0" r="5" fill="#e8a838"/>
+    <text x="-240" y="20" text-anchor="middle" font-family="serif" font-size="10" fill="#4a90b8">寒武纪</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="10" fill="#e07856">白垩纪</text>
+    <text x="240" y="20" text-anchor="middle" font-family="serif" font-size="10" fill="#e8a838">白垩纪</text>
+    <path d="M 235 -5 L 245 0 L 235 5" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="280" y="3" font-family="serif" font-size="10" fill="#7a3b14">现在</text>
+  </g>
+
+  <!-- 底部：核心精神 -->
+  <g transform="translate(400, 430)">
+    <rect x="-280" y="0" width="560" height="55" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+    <text x="0" y="22" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">"你把生命的起源写在石头上，你把逝去的岁月变成永恒"</text>
+    <text x="0" y="44" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">化石是地球的日记本——最沉默的石头，讲述最宏大的故事</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从三叶虫到恐龙到琥珀——化石记录了生命亿万年的演化之路</text>
+</svg>

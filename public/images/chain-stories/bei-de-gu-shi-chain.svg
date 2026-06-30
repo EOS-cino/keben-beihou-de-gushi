@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="连珠小故事：贝壳变成的钱">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：贝壳变成的钱</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">从大海到账本，贝壳走过三千年</text>
+  <circle cx="150" cy="300" r="46" fill="#cfe8f0" stroke="#5a8fa3" stroke-width="3"/>
+  <path d="M120,300 Q150,270 180,300 Q150,320 120,300 Z" fill="#f4c77a" stroke="#c98a3a" stroke-width="2"/>
+  <text x="150" y="380" text-anchor="middle" font-family="serif" font-size="16" fill="#5a8fa3">商朝·串贝为饰</text>
+  <rect x="280" y="250" width="160" height="100" rx="8" fill="#f0e6cf" stroke="#a88a4a" stroke-width="2"/>
+  <text x="360" y="300" text-anchor="middle" font-family="serif" font-size="34" fill="#7a3b14">账</text>
+  <text x="360" y="380" text-anchor="middle" font-family="serif" font-size="16" fill="#a88a4a">唐朝·贝字入账</text>
+  <rect x="500" y="250" width="160" height="100" rx="8" fill="#fbe9d0" stroke="#c98a3a" stroke-width="2"/>
+  <text x="580" y="300" text-anchor="middle" font-family="serif" font-size="48" fill="#7a3b14">贝</text>
+  <text x="580" y="380" text-anchor="middle" font-family="serif" font-size="16" fill="#c98a3a">今天·课堂描红</text>
+  <path d="M196,300 L278,300" stroke="#a88a4a" stroke-width="2" stroke-dasharray="6,5"/>
+  <path d="M442,300 L498,300" stroke="#a88a4a" stroke-width="2" stroke-dasharray="6,5"/>
+</svg>

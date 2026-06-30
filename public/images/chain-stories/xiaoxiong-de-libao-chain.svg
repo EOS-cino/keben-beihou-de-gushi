@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古今送礼习俗与礼物意义的故事插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">礼物背后的心意</text>
+  <line x1="280" y1="56" x2="520" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——礼轻情意重，是全世界通用的道理</text>
+
+  <!-- 千里送鹅毛 -->
+  <g transform="translate(180, 130)">
+    <rect x="-130" y="0" width="260" height="180" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">中国 · 千里送鹅毛</text>
+    <g transform="translate(0, 80)">
+      <!-- 天鹅飞走 -->
+      <path d="M-40 -10 Q-30 -18 -20 -10 Q-10 -2 0 -10" fill="none" stroke="#7a3b14" stroke-width="2"/>
+      <text x="-30" y="-22" font-family="serif" font-size="9" fill="#8d5a36">天鹅飞了</text>
+      <!-- 鹅毛 -->
+      <ellipse cx="20" cy="20" rx="6" ry="20" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.2" transform="rotate(20 20 20)"/>
+      <line x1="20" y1="20" x2="30" y2="40" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <text x="0" y="150" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">千里迢迢，一根鹅毛也是心意</text>
+    <text x="0" y="166" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">"礼轻情意重"</text>
+  </g>
+
+  <!-- 麦琪的礼物 -->
+  <g transform="translate(620, 130)">
+    <rect x="-130" y="0" width="260" height="180" rx="8" fill="#fef9ed" stroke="#4a90b8" stroke-width="2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#4a90b8">西方 · 麦琪的礼物</text>
+    <g transform="translate(0, 80)">
+      <!-- 妻子长发换表链 -->
+      <circle cx="-40" cy="-5" r="10" fill="#e07856" stroke="#7a3b14" stroke-width="1.2"/>
+      <path d="M-46 5 Q-55 30 -50 50" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+      <path d="M-34 5 Q-25 30 -30 50" fill="none" stroke="#7a3b14" stroke-width="2.5"/>
+      <!-- 表链 -->
+      <g transform="translate(30, 20)">
+        <line x1="0" y1="0" x2="30" y2="0" stroke="#e8a838" stroke-width="2"/>
+        <circle cx="0" cy="0" r="3" fill="#e8a838"/>
+        <circle cx="10" cy="0" r="3" fill="#e8a838"/>
+        <circle cx="20" cy="0" r="3" fill="#e8a838"/>
+        <circle cx="30" cy="0" r="3" fill="#e8a838"/>
+      </g>
+    </g>
+    <text x="0" y="150" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">妻卖长发买表链，夫卖金表买发梳</text>
+    <text x="0" y="166" text-anchor="middle" font-family="serif" font-size="9" fill="#8d5a36">都买错，却都没后悔</text>
+  </g>
+
+  <!-- 送比收更快乐 -->
+  <g transform="translate(400, 360)">
+    <rect x="-300" y="0" width="600" height="120" rx="8" fill="#fef9ed" stroke="#2d6a4f" stroke-width="2"/>
+    <text x="0" y="26" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#2d6a4f">科学家发现：送比收更快乐</text>
+    <g transform="translate(-180, 70)">
+      <circle cx="0" cy="0" r="12" fill="#e8a838" stroke="#7a3b14" stroke-width="1.2"/>
+      <rect x="14" y="-8" width="20" height="16" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <text x="2" y="30" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">送</text>
+    </g>
+    <path d="M-140 70 L-60 70" stroke="#c84a3a" stroke-width="2" stroke-dasharray="4 3"/>
+    <g transform="translate(60, 70)">
+      <circle cx="0" cy="0" r="12" fill="#e07856" stroke="#7a3b14" stroke-width="1.2"/>
+      <path d="M-8 10 a6 6 0 0 1 12 0 a6 6 0 0 1 12 0 q0 8 -12 14 q-12 -6 -12 -14" fill="#c84a3a" transform="translate(-4,-2) scale(0.7)"/>
+      <text x="2" y="30" text-anchor="middle" font-family="serif" font-size="9" fill="#7a3b14">收</text>
+    </g>
+    <text x="120" y="74" font-family="serif" font-size="10" fill="#2d6a4f">送的人，心更满</text>
+  </g>
+
+  <!-- 底部引言 -->
+  <g transform="translate(400, 510)">
+    <rect x="-300" y="0" width="600" height="60" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">买的礼物花钱就行，做的礼物花心思花力气</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="13" fill="#c84a3a">礼物的大小不重要，"惦记"两个字最重要</text>
+  </g>
+</svg>

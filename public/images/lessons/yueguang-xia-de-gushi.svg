@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="月夜下老树下摇着蒲扇讲故事的温馨场景">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 夜空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#4a90b8" opacity="0.16"/>
+  <rect x="0" y="0" width="800" height="420" fill="#2d4a68" opacity="0.12"/>
+  <!-- 月亮 -->
+  <circle cx="640" cy="130" r="56" fill="#fef9ed"/>
+  <circle cx="620" cy="118" r="10" fill="#e8e0c8" opacity="0.6"/>
+  <circle cx="650" cy="148" r="7" fill="#e8e0c8" opacity="0.5"/>
+  <circle cx="660" cy="110" r="5" fill="#e8e0c8" opacity="0.5"/>
+  <!-- 月光 -->
+  <g fill="#fef9ed" opacity="0.15">
+    <circle cx="640" cy="130" r="80"/>
+    <circle cx="640" cy="130" r="100"/>
+  </g>
+  <!-- 星星 -->
+  <g fill="#fef9ed">
+    <circle cx="120" cy="80" r="2"/>
+    <circle cx="220" cy="120" r="1.5"/>
+    <circle cx="340" cy="70" r="2"/>
+    <circle cx="460" cy="100" r="1.5"/>
+    <circle cx="520" cy="60" r="2"/>
+    <circle cx="180" cy="180" r="1.5"/>
+    <circle cx="380" cy="160" r="1.5"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="420" width="800" height="180" fill="#2d6a4f" opacity="0.2"/>
+  <!-- 老槐树 -->
+  <g transform="translate(150 420)">
+    <rect x="-12" y="-180" width="24" height="180" fill="#5a3a1a"/>
+    <path d="M0 -180 Q-60 -210 -100 -240" stroke="#5a3a1a" stroke-width="8" fill="none"/>
+    <path d="M0 -180 Q60 -210 100 -240" stroke="#5a3a1a" stroke-width="8" fill="none"/>
+    <path d="M0 -190 Q-30 -240 -50 -280" stroke="#5a3a1a" stroke-width="5" fill="none"/>
+    <path d="M0 -190 Q30 -240 50 -280" stroke="#5a3a1a" stroke-width="5" fill="none"/>
+    <circle cx="0" cy="-250" r="60" fill="#2d6a4f" opacity="0.6"/>
+    <circle cx="-40" cy="-230" r="40" fill="#2d6a4f" opacity="0.55"/>
+    <circle cx="40" cy="-240" r="42" fill="#2d6a4f" opacity="0.55"/>
+  </g>
+  <!-- 月光光斑 -->
+  <g fill="#fef9ed" opacity="0.25">
+    <circle cx="320" cy="460" r="8"/>
+    <circle cx="380" cy="480" r="6"/>
+    <circle cx="440" cy="470" r="9"/>
+    <circle cx="500" cy="490" r="7"/>
+  </g>
+  <!-- 竹席 -->
+  <ellipse cx="420" cy="490" rx="150" ry="34" fill="#e8a838" opacity="0.5"/>
+  <ellipse cx="420" cy="490" rx="150" ry="34" fill="none" stroke="#8d6f47" stroke-width="2"/>
+  <g stroke="#8d6f47" stroke-width="0.8" opacity="0.5">
+    <line x1="280" y1="490" x2="560" y2="490"/>
+    <line x1="300" y1="475" x2="540" y2="475"/>
+    <line x1="300" y1="505" x2="540" y2="505"/>
+  </g>
+  <!-- 奶奶 -->
+  <g transform="translate(380 470)">
+    <ellipse cx="0" cy="10" rx="26" ry="18" fill="#c84a3a"/>
+    <circle cx="0" cy="-14" r="16" fill="#f0d0a8"/>
+    <path d="M-16 -18 Q0 -34 16 -18 Q12 -26 0 -28 Q-12 -26 -16 -18 Z" fill="#7a7468"/>
+    <circle cx="-5" cy="-14" r="1.5" fill="#2a2a2a"/>
+    <circle cx="5" cy="-14" r="1.5" fill="#2a2a2a"/>
+    <path d="M-3 -7 Q0 -5 3 -7" stroke="#7a3b14" stroke-width="1.2" fill="none"/>
+    <!-- 蒲扇 -->
+    <g transform="translate(20 -6)">
+      <ellipse cx="14" cy="0" rx="20" ry="14" fill="#e8a838" opacity="0.85" transform="rotate(-25 14 0)"/>
+      <line x1="0" y1="0" x2="-8" y2="8" stroke="#8d6f47" stroke-width="2"/>
+    </g>
+  </g>
+  <!-- 孩子们 -->
+  <g transform="translate(470 495)">
+    <ellipse cx="0" cy="6" rx="18" ry="13" fill="#4a90b8"/>
+    <circle cx="0" cy="-10" r="12" fill="#f0d0a8"/>
+    <path d="M-12 -12 Q0 -24 12 -12 Z" fill="#3a2a1a"/>
+    <circle cx="-4" cy="-10" r="1.2" fill="#2a2a2a"/>
+    <circle cx="4" cy="-10" r="1.2" fill="#2a2a2a"/>
+    <path d="M-3 -4 Q0 -2 3 -4" stroke="#7a3b14" stroke-width="1" fill="none"/>
+  </g>
+  <g transform="translate(330 500)">
+    <ellipse cx="0" cy="4" rx="16" ry="11" fill="#2d6a4f"/>
+    <circle cx="0" cy="-10" r="11" fill="#f0d0a8"/>
+    <path d="M-10 -12 Q0 -22 10 -12 Q8 -6 0 -8 Q-8 -6 -10 -12 Z" fill="#3a2a1a"/>
+    <path d="M-3 -6 L3 -6" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <!-- 萤火虫 -->
+  <g fill="#e8a838">
+    <circle cx="300" cy="300" r="2.5"/>
+    <circle cx="540" cy="280" r="2.5"/>
+    <circle cx="430" cy="340" r="2"/>
+  </g>
+  <g fill="#e8a838" opacity="0.3">
+    <circle cx="300" cy="300" r="6"/>
+    <circle cx="540" cy="280" r="6"/>
+    <circle cx="430" cy="340" r="5"/>
+  </g>
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#2d6a4f">月光下的故事</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">月亮一升起来，故事就开始了</text>
+</svg>

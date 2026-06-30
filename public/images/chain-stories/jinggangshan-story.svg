@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="井冈山的群峰叠嶂，山间小路蜿蜒，红旗在山顶飘扬">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 天空 -->
+  <rect x="0" y="0" width="800" height="300" fill="#a8d0e8" opacity="0.15"/>
+  <!-- 朝霞 -->
+  <ellipse cx="600" cy="100" rx="120" ry="30" fill="#e07856" opacity="0.15"/>
+  <!-- 远山层 -->
+  <path d="M0 300 L0 220 L80 180 L160 210 L240 170 L320 200 L400 160 L480 190 L560 170 L640 200 L720 180 L800 210 L800 300 Z" fill="#4a6a2f" opacity="0.2"/>
+  <path d="M0 350 L0 260 L60 230 L140 260 L220 220 L300 250 L380 210 L460 240 L540 220 L620 250 L700 230 L800 260 L800 350 Z" fill="#4a6a2f" opacity="0.3"/>
+  <!-- 主峰 -->
+  <path d="M0 450 L0 300 L100 240 L200 290 L300 230 L400 280 L500 250 L600 290 L700 260 L800 300 L800 450 Z" fill="#6a8d3f" opacity="0.5"/>
+  <path d="M0 450 L0 350 L120 310 L250 340 L380 320 L500 350 L620 330 L750 350 L800 340 L800 450 Z" fill="#4a6a2f" opacity="0.4"/>
+  <!-- 山间小路 -->
+  <path d="M100 440 Q200 400 280 420 Q360 440 440 410 Q520 380 600 400 Q680 420 740 400" stroke="#8d5a36" stroke-width="3" fill="none" opacity="0.5" stroke-dasharray="6,3"/>
+  <!-- 红旗在山顶 -->
+  <g transform="translate(400,230)">
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#8d5a36" stroke-width="3"/>
+    <path d="M0 0 Q30 -5 55 5 Q40 15 55 25 Q30 20 0 25 Z" fill="#c84a3a"/>
+    <g transform="translate(15,10)" fill="#f4b942">
+      <path d="M0 -5 L1.5 -1.5 L5 -1.5 L2 1 L3.5 5 L0 2.5 L-3.5 5 L-2 1 L-5 -1.5 L-1.5 -1.5 Z"/>
+    </g>
+  </g>
+  <!-- 红军战士剪影（行军） -->
+  <g transform="translate(250,410)" opacity="0.5">
+    <g transform="translate(0,0)">
+      <ellipse cx="0" cy="10" rx="6" ry="8" fill="#7a3b14"/>
+      <circle cx="0" cy="0" r="6" fill="#7a3b14"/>
+      <path d="M-4 18 L-6 30" stroke="#7a3b14" stroke-width="3"/>
+      <path d="M4 18 L6 30" stroke="#7a3b14" stroke-width="3"/>
+    </g>
+    <g transform="translate(20,2)">
+      <ellipse cx="0" cy="10" rx="6" ry="8" fill="#7a3b14"/>
+      <circle cx="0" cy="0" r="6" fill="#7a3b14"/>
+      <path d="M-4 18 L-6 30" stroke="#7a3b14" stroke-width="3"/>
+      <path d="M4 18 L6 30" stroke="#7a3b14" stroke-width="3"/>
+    </g>
+    <g transform="translate(40,0)">
+      <ellipse cx="0" cy="10" rx="6" ry="8" fill="#7a3b14"/>
+      <circle cx="0" cy="0" r="6" fill="#7a3b14"/>
+      <path d="M-4 18 L-6 30" stroke="#7a3b14" stroke-width="3"/>
+      <path d="M4 18 L6 30" stroke="#7a3b14" stroke-width="3"/>
+    </g>
+    <g transform="translate(60,3)">
+      <ellipse cx="0" cy="10" rx="6" ry="8" fill="#7a3b14"/>
+      <circle cx="0" cy="0" r="6" fill="#7a3b14"/>
+      <path d="M-4 18 L-6 30" stroke="#7a3b14" stroke-width="3"/>
+      <path d="M4 18 L6 30" stroke="#7a3b14" stroke-width="3"/>
+    </g>
+  </g>
+  <!-- 十六字诀 -->
+  <g transform="translate(620,400)" opacity="0.6">
+    <rect x="-80" y="-35" width="160" height="70" rx="5" fill="#fef9ed" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">敌进我退 敌驻我扰</text>
+    <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">敌疲我打 敌退我追</text>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="10" fill="#c84a3a">——游击十六字诀</text>
+  </g>
+  <!-- 红米饭南瓜汤 -->
+  <g transform="translate(120,470)" opacity="0.5">
+    <ellipse cx="0" cy="10" rx="20" ry="8" fill="#c84a3a" opacity="0.6"/>
+    <ellipse cx="0" cy="5" rx="20" ry="6" fill="#e07856" opacity="0.5"/>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">红米饭南瓜汤</text>
+  </g>
+  <!-- 地面 -->
+  <path d="M0 480 Q200 470 400 480 T800 475 L800 600 L0 600 Z" fill="#4a6a2f" opacity="0.2"/>
+  <!-- 标题 -->
+  <text x="400" y="55" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">井冈山的故事</text>
+</svg>

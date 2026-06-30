@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="火山爆发的原理插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">火山是怎么爆发的</text>
+  <line x1="240" y1="56" x2="560" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——地球内部的压力释放</text>
+
+  <!-- 地球截面图 -->
+  <!-- 地壳 -->
+  <rect x="0" y="90" width="800" height="60" fill="#d4c8a0" stroke="#8d5a36" stroke-width="2"/>
+  <text x="100" y="125" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">地壳</text>
+
+  <!-- 地幔 -->
+  <rect x="0" y="150" width="800" height="120" fill="#c8843a" opacity="0.3" stroke="#8d5a36" stroke-width="2"/>
+  <text x="100" y="210" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">地幔</text>
+
+  <!-- 岩浆库 -->
+  <ellipse cx="400" cy="250" rx="120" ry="40" fill="#c84a3a" opacity="0.6" stroke="#7a3b14" stroke-width="2"/>
+  <text x="400" y="255" text-anchor="middle" font-family="serif" font-size="13" fill="#fef9ed" font-weight="bold">岩浆库 1000°C+</text>
+
+  <!-- 岩浆上升通道 -->
+  <path d="M350 220 Q370 180 380 130 Q390 100 400 95" fill="none" stroke="#c84a3a" stroke-width="15" stroke-linecap="round" opacity="0.7"/>
+  <path d="M350 220 Q370 180 380 130 Q390 100 400 95" fill="none" stroke="#e07856" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- 气泡（气体膨胀） -->
+  <g fill="#fef9ed" opacity="0.6">
+    <circle cx="375" cy="190" r="4"/>
+    <circle cx="385" cy="160" r="5"/>
+    <circle cx="390" cy="130" r="6"/>
+    <circle cx="395" cy="105" r="7"/>
+  </g>
+  <text x="310" y="170" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">气体膨胀→</text>
+  <text x="310" y="185" text-anchor="middle" font-family="serif" font-size="10" fill="#7a3b14">岩浆往上挤</text>
+
+  <!-- 火山口（喷发） -->
+  <g transform="translate(400, 90)">
+    <!-- 喷发 -->
+    <path d="M-15 0 Q-25 -30 -10 -55 Q0 -70 10 -55 Q25 -30 15 0 Z" fill="#c84a3a" opacity="0.8"/>
+    <path d="M-8 -15 Q-12 -40 0 -55 Q12 -40 8 -15" fill="#e07856"/>
+    <!-- 飞溅物 -->
+    <circle cx="-30" cy="-20" r="5" fill="#e07856"/>
+    <circle cx="30" cy="-25" r="4" fill="#c84a3a"/>
+    <circle cx="-40" cy="5" r="3" fill="#c84a3a"/>
+    <circle cx="35" cy="0" r="4" fill="#e07856"/>
+  </g>
+
+  <!-- 火山体（在地壳上） -->
+  <path d="M330 150 L380 100 L420 100 L470 150 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <ellipse cx="400" cy="100" rx="20" ry="6" fill="#c84a3a"/>
+
+  <!-- 步骤说明 -->
+  <g transform="translate(150, 330)">
+    <rect x="-100" y="0" width="200" height="55" rx="8" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">1. 岩浆生成</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">地幔高温熔化岩石</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">岩浆比周围岩石轻→上浮</text>
+  </g>
+
+  <g transform="translate(400, 330)">
+    <rect x="-100" y="0" width="200" height="55" rx="8" fill="#fef9ed" stroke="#e07856" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">2. 气体膨胀</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">越往上压力越小</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">气体膨胀→像汽水开瓶</text>
+  </g>
+
+  <g transform="translate(650, 330)">
+    <rect x="-100" y="0" width="200" height="55" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="18" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14" font-weight="bold">3. 冲出地表</text>
+    <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">"砰"地炸开</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">熔岩+火山灰+气体喷出</text>
+  </g>
+
+  <!-- 喷发类型对比 -->
+  <g transform="translate(200, 430)">
+    <rect x="-90" y="0" width="180" height="80" rx="8" fill="#fef9ed" stroke="#6a8d3f" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#6a8d3f" font-weight="bold">"温柔"型</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">熔岩慢慢流出来</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">像河流</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">人可以走近看</text>
+  </g>
+
+  <g transform="translate(600, 430)">
+    <rect x="-90" y="0" width="180" height="80" rx="8" fill="#fef9ed" stroke="#c84a3a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a" font-weight="bold">"暴躁"型</text>
+    <text x="0" y="40" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">"轰"地炸开</text>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">火山灰冲上几万米</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">几百里都能听到</text>
+  </g>
+
+  <!-- 底部标注 -->
+  <g transform="translate(400, 560)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">喷发后岩浆冷却→堵住通道→火山"睡觉"→几千年后可能再"醒"</text>
+  </g>
+</svg>

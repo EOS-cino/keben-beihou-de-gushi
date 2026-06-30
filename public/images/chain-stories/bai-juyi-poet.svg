@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="白居易被称为诗魔的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">白居易为什么被称为"诗魔"</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">写诗读到口舌生疮、手生老茧，像着了魔一样</text>
+
+  <!-- 左：勤奋着魔 -->
+  <g>
+    <rect x="40" y="100" width="350" height="430" rx="12" fill="#fef0d8" opacity="0.6"/>
+    <text x="215" y="130" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">"魔"=痴迷</text>
+
+    <!-- 白居易读书写字 -->
+    <g transform="translate(215,230)">
+      <!-- 桌子 -->
+      <rect x="-80" y="30" width="160" height="10" fill="#7a3b14"/>
+      <!-- 书卷 -->
+      <rect x="-60" y="15" width="50" height="18" fill="#fef9ed" stroke="#8d5a36" stroke-width="1.5"/>
+      <line x1="-55" y1="20" x2="-15" y2="20" stroke="#8d5a36" stroke-width="0.5"/>
+      <line x1="-55" y1="25" x2="-15" y2="25" stroke="#8d5a36" stroke-width="0.5"/>
+      <!-- 毛笔 -->
+      <line x1="20" y1="35" x2="35" y2="0" stroke="#7a3b14" stroke-width="3"/>
+      <path d="M35 0 L40 -8 L30 -5 Z" fill="#1a1a1a"/>
+      <!-- 人 -->
+      <g transform="translate(-20,-20)">
+        <ellipse cx="0" cy="0" rx="16" ry="20" fill="#6a8d3f"/>
+        <circle cx="0" cy="-25" r="14" fill="#f0c8a0"/>
+        <!-- 帽子 -->
+        <path d="M-14 -32 Q0 -42 14 -32 L12 -28 L-12 -28 Z" fill="#3a2a1a"/>
+        <!-- 眼睛专注 -->
+        <line x1="-5" y1="-26" x2="-3" y2="-26" stroke="#1a1a1a" stroke-width="1.5"/>
+        <line x1="3" y1="-26" x2="5" y2="-26" stroke="#1a1a1a" stroke-width="1.5"/>
+        <!-- 胡子 -->
+        <path d="M-4 -18 Q0 -15 4 -18" fill="none" stroke="#3a2a1a" stroke-width="1"/>
+      </g>
+    </g>
+
+    <!-- 要点 -->
+    <g font-family="serif" font-size="13" fill="#7a3b14">
+      <circle cx="70" cy="320" r="4" fill="#c84a3a"/>
+      <text x="82" y="324">读书读到口舌生疮</text>
+      <circle cx="70" cy="350" r="4" fill="#c84a3a"/>
+      <text x="82" y="354">写诗写到手长老茧</text>
+      <circle cx="70" cy="380" r="4" fill="#c84a3a"/>
+      <text x="82" y="384">白天晚上都在想诗</text>
+      <circle cx="70" cy="410" r="4" fill="#c84a3a"/>
+      <text x="82" y="414">像着了魔一样投入</text>
+    </g>
+    <text x="215" y="470" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a" font-weight="bold">"诗魔"=对诗最痴迷的人</text>
+    <text x="215" y="495" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">不是坏意思，是夸他专注</text>
+  </g>
+
+  <!-- 右：接地气 -->
+  <g>
+    <rect x="410" y="100" width="350" height="430" rx="12" fill="#fef0d8" opacity="0.6"/>
+    <text x="585" y="130" text-anchor="middle" font-family="serif" font-size="18" fill="#6a8d3f" font-weight="bold">诗让人人都读懂</text>
+
+    <!-- 读给老奶奶听 -->
+    <g transform="translate(585,230)">
+      <!-- 白居易 -->
+      <g transform="translate(-40,0)">
+        <ellipse cx="0" cy="0" rx="14" ry="18" fill="#6a8d3f"/>
+        <circle cx="0" cy="-23" r="12" fill="#f0c8a0"/>
+        <path d="M-12 -30 Q0 -38 12 -30 L10 -26 L-10 -26 Z" fill="#3a2a1a"/>
+        <line x1="-4" y1="-24" x2="-2" y2="-24" stroke="#1a1a1a" stroke-width="1.2"/>
+        <line x1="2" y1="-24" x2="4" y2="-24" stroke="#1a1a1a" stroke-width="1.2"/>
+        <path d="M-3 -17 Q0 -15 3 -17" fill="none" stroke="#7a3b14" stroke-width="1"/>
+        <!-- 手拿诗卷 -->
+        <rect x="10" y="-5" width="20" height="14" fill="#fef9ed" stroke="#8d5a36" stroke-width="1"/>
+      </g>
+      <!-- 老奶奶 -->
+      <g transform="translate(40,5)">
+        <ellipse cx="0" cy="0" rx="14" ry="16" fill="#8d5a36"/>
+        <circle cx="0" cy="-20" r="12" fill="#f0c8a0"/>
+        <!-- 白发 -->
+        <path d="M-12 -28 Q0 -34 12 -28" fill="#e8e0d0"/>
+        <path d="M-12 -28 Q-6 -20 -12 -16" fill="#e8e0d0"/>
+        <path d="M12 -28 Q6 -20 12 -16" fill="#e8e0d0"/>
+        <!-- 笑 -->
+        <path d="M-4 -22 Q-2 -20 0 -22" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+        <path d="M0 -22 Q2 -20 4 -22" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+        <path d="M-3 -15 Q0 -12 3 -15" fill="none" stroke="#7a3b14" stroke-width="1.2"/>
+      </g>
+      <!-- 对话 -->
+      <text x="0" y="-45" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">"听得懂吗？"</text>
+      <text x="40" y="40" text-anchor="middle" font-family="serif" font-size="12" fill="#6a8d3f">"听得懂！"</text>
+    </g>
+
+    <!-- 要点 -->
+    <g font-family="serif" font-size="13" fill="#7a3b14">
+      <circle cx="440" cy="320" r="4" fill="#6a8d3f"/>
+      <text x="452" y="324">写完读给老奶奶听</text>
+      <circle cx="440" cy="350" r="4" fill="#6a8d3f"/>
+      <text x="452" y="354">听不懂就改到听懂</text>
+      <circle cx="440" cy="380" r="4" fill="#6a8d3f"/>
+      <text x="452" y="384">诗为老百姓说话</text>
+      <circle cx="440" cy="410" r="4" fill="#6a8d3f"/>
+      <text x="452" y="414">传到日本新罗都受欢迎</text>
+    </g>
+    <text x="585" y="470" text-anchor="middle" font-family="serif" font-size="14" fill="#6a8d3f" font-weight="bold">连孩子都能读懂</text>
+    <text x="585" y="495" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">《池上》《草》就是最好的例子</text>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="太阳发光发热原理插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：太阳为什么能发光发热</text>
+  <line x1="170" y1="62" x2="630" y2="62" stroke="#e07856" stroke-width="2"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="500" width="800" height="100" fill="#e8d9b8"/>
+
+  <!-- 中心：太阳剖面 -->
+  <g>
+    <!-- 外层（光球层） -->
+    <circle cx="400" cy="280" r="120" fill="#f4c842" opacity="0.3"/>
+    <circle cx="400" cy="280" r="100" fill="#f4a832" opacity="0.5"/>
+    <!-- 核心 -->
+    <circle cx="400" cy="280" r="60" fill="#e07856"/>
+    <circle cx="400" cy="280" r="45" fill="#c84a3a"/>
+    <!-- 核聚变示意：氢→氦 -->
+    <g fill="#fff6df">
+      <circle cx="385" cy="270" r="5"/>
+      <circle cx="415" cy="270" r="5"/>
+      <circle cx="400" cy="290" r="5"/>
+    </g>
+    <g fill="#f4d842">
+      <circle cx="400" cy="280" r="7"/>
+    </g>
+    <!-- 箭头：4个氢→1个氦 -->
+    <g stroke="#fff6df" stroke-width="1.5" fill="none" opacity="0.8">
+      <path d="M385 270 L397 278"/>
+      <path d="M415 270 L403 278"/>
+      <path d="M400 290 L400 285"/>
+    </g>
+    <!-- 能量释放 -->
+    <g stroke="#f4c842" stroke-width="2" fill="none" opacity="0.6">
+      <path d="M400 220 Q380 200 370 180"/>
+      <path d="M460 280 Q480 270 490 260"/>
+      <path d="M400 340 Q380 360 370 380"/>
+      <path d="M340 280 Q320 270 310 260"/>
+    </g>
+  </g>
+
+  <!-- 标注：核心 -->
+  <rect x="340" y="300" width="120" height="24" fill="#fff6df" stroke="#c84a3a" rx="4"/>
+  <text x="400" y="316" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">核聚变（氢→氦）</text>
+  <line x1="400" y1="300" x2="400" y2="290" stroke="#c84a3a" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- 左侧：煤球（错误猜测） -->
+  <g>
+    <ellipse cx="120" cy="280" rx="35" ry="25" fill="#3a3a3a"/>
+    <ellipse cx="120" cy="275" rx="28" ry="20" fill="#2a2a2a"/>
+    <!-- 火焰 -->
+    <g fill="#e07856" opacity="0.6">
+      <path d="M110 255 Q115 240 120 250 Q125 240 130 255"/>
+    </g>
+    <!-- 叉号 -->
+    <g stroke="#c84a3a" stroke-width="4" stroke-linecap="round">
+      <line x1="85" y1="240" x2="155" y2="310"/>
+      <line x1="155" y1="240" x2="85" y2="310"/>
+    </g>
+    <rect x="60" y="330" width="120" height="24" fill="#fff6df" stroke="#8d5a36" rx="4"/>
+    <text x="120" y="346" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">燃烧？（不对）</text>
+  </g>
+
+  <!-- 右侧：数据 -->
+  <g>
+    <rect x="600" y="200" width="170" height="120" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <text x="685" y="225" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">太阳数据</text>
+    <line x1="620" y1="232" x2="750" y2="232" stroke="#c8843a" stroke-width="1"/>
+    <text x="615" y="252" font-family="serif" font-size="12" fill="#8d5a36">中心温度：1500万℃</text>
+    <text x="615" y="272" font-family="serif" font-size="12" fill="#8d5a36">每秒烧掉：6亿吨氢</text>
+    <text x="615" y="292" font-family="serif" font-size="12" fill="#8d5a36">还能烧：50亿年</text>
+    <text x="615" y="312" font-family="serif" font-size="12" fill="#8d5a36">成分：主要是氢气</text>
+  </g>
+
+  <!-- 底部链条 -->
+  <g>
+    <rect x="100" y="420" width="140" height="40" fill="#fff6df" stroke="#e07856" rx="6"/>
+    <text x="170" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">氢原子核</text>
+    <text x="170" y="453" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">高温高压下</text>
+
+    <path d="M245 440 L295 440" stroke="#e07856" stroke-width="2"/>
+    <path d="M288 434 L298 440 L288 446" fill="none" stroke="#e07856" stroke-width="2"/>
+
+    <rect x="300" y="420" width="140" height="40" fill="#fff6df" stroke="#e07856" rx="6"/>
+    <text x="370" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">聚变成氦</text>
+    <text x="370" y="453" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">释放巨大能量</text>
+
+    <path d="M445 440 L495 440" stroke="#e07856" stroke-width="2"/>
+    <path d="M488 434 L498 440 L488 446" fill="none" stroke="#e07856" stroke-width="2"/>
+
+    <rect x="500" y="420" width="140" height="40" fill="#fff6df" stroke="#e07856" rx="6"/>
+    <text x="570" y="438" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">光和热辐射</text>
+    <text x="570" y="453" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">8分钟到地球</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="565" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">太阳不是在"燃烧"，而是在进行核聚变——4个氢合成1个氦，释放巨大能量</text>
+</svg>

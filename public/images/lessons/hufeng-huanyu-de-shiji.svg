@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="画面左边是古代油灯马车，右边是现代电灯飞机，中间一条时间线">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 背景分割 -->
+  <rect x="0" y="0" width="400" height="460" fill="#e8d9c0"/>
+  <rect x="400" y="0" width="400" height="460" fill="#e8f0e6"/>
+  <rect x="0" y="460" width="800" height="140" fill="#fef9ed"/>
+  <!-- 时间线 -->
+  <line x1="60" y1="400" x2="740" y2="400" stroke="#7a3b14" stroke-width="4"/>
+  <circle cx="120" cy="400" r="8" fill="#8d5a36"/>
+  <circle cx="680" cy="400" r="8" fill="#c84a3a"/>
+  <text x="120" y="430" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">过去</text>
+  <text x="680" y="430" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">现在</text>
+  <!-- 左：古代 油灯 -->
+  <ellipse cx="120" cy="160" rx="22" ry="14" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="112" y="170" width="16" height="20" fill="#8d5a36"/>
+  <path d="M120 146 q-2 -16 2 -24" stroke="#f4d97a" stroke-width="4" fill="none"/>
+  <ellipse cx="122" cy="120" rx="6" ry="10" fill="#f4d97a" opacity="0.8"/>
+  <!-- 左：马车 -->
+  <rect x="80" y="280" width="80" height="40" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M80 280 q40 -20 80 0" fill="#c8843a" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="100" cy="330" r="16" fill="#7a3b14"/>
+  <circle cx="140" cy="330" r="16" fill="#7a3b14"/>
+  <circle cx="100" cy="330" r="6" fill="#c8843a"/>
+  <circle cx="140" cy="330" r="6" fill="#c8843a"/>
+  <!-- 左：土路 -->
+  <path d="M40 360 q60 -10 160 0" stroke="#8d5a36" stroke-width="3" fill="none" stroke-dasharray="6 6"/>
+  <!-- 右：现代 电灯 -->
+  <circle cx="640" cy="140" r="22" fill="#f4d97a" stroke="#7a3b14" stroke-width="2"/>
+  <rect x="634" y="160" width="12" height="16" fill="#8d5a36"/>
+  <path d="M640 110 l0 -14 M662 124 l10 -8 M618 124 l-10 -8" stroke="#f4d97a" stroke-width="2.5"/>
+  <!-- 右：飞机 -->
+  <path d="M560 280 q60 -20 120 0 q20 6 0 12 q-60 20 -120 0 q-20 -6 0 -12 Z" fill="#7ab8d8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M600 270 l20 -30 l10 0 l-10 35 Z" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <path d="M640 292 l20 30 l10 0 l-10 -35 Z" fill="#a8d0e8" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="660" cy="286" r="4" fill="#ffffff"/>
+  <!-- 右：现代公路 -->
+  <path d="M440 360 q60 -10 160 0" stroke="#7ab8d8" stroke-width="3" fill="none" stroke-dasharray="6 6"/>
+  <!-- 中间箭头 -->
+  <path d="M340 220 q60 -20 120 0" stroke="#c84a3a" stroke-width="4" fill="none" stroke-dasharray="8 6"/>
+  <path d="M460 220 l-14 -8 l4 14 Z" fill="#c84a3a"/>
+  <text x="400" y="200" text-anchor="middle" font-family="serif" font-size="16" fill="#c84a3a">科技改变</text>
+  <!-- 星星点缀 -->
+  <text x="700" y="90" font-family="serif" font-size="18" fill="#f4d97a">✦</text>
+  <text x="720" y="120" font-family="serif" font-size="14" fill="#f4d97a">✦</text>
+  <!-- 标题 -->
+  <text x="400" y="555" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">呼风唤雨的世纪</text>
+</svg>

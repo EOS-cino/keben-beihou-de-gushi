@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="母鸡保护小鸡的方式插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">母鸡怎么保护小鸡</text>
+  <line x1="240" y1="56" x2="560" y2="56" stroke="#c8843a" stroke-width="3"/>
+  <text x="400" y="78" text-anchor="middle" font-family="serif" font-size="14" fill="#8d5a36">——四招"全套本领"</text>
+
+  <!-- 四招分格 -->
+  <!-- 第一招：警告 -->
+  <g transform="translate(130, 180)">
+    <rect x="-90" y="0" width="180" height="160" rx="10" fill="#fef9ed" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#c84a3a">第一招：警告</text>
+    <!-- 母鸡警觉 -->
+    <g transform="translate(0, 70)">
+      <ellipse cx="0" cy="0" rx="25" ry="18" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-15" cy="-12" r="12" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-22 -20 Q-18 -28 -12 -22" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-18" cy="-12" r="3" fill="#fef9ed"/>
+      <circle cx="-18" cy="-12" r="1.5" fill="#7a3b14"/>
+      <!-- 警告声 -->
+      <text x="15" y="-20" font-family="serif" font-size="11" fill="#c84a3a">咕咕咕！</text>
+    </g>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">发现危险→特殊叫声</text>
+    <text x="0" y="145" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">小鸡听到→跑到妈妈身边</text>
+  </g>
+
+  <!-- 第二招：藏 -->
+  <g transform="translate(350, 180)">
+    <rect x="-90" y="0" width="180" height="160" rx="10" fill="#fef9ed" stroke="#6a8d3f" stroke-width="2"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#6a8d3f">第二招：藏</text>
+    <!-- 母鸡翅膀张开，小鸡藏下面 -->
+    <g transform="translate(0, 75)">
+      <ellipse cx="0" cy="0" rx="30" ry="20" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 翅膀 -->
+      <path d="M-25 -5 Q-45 -15 -45 10 Q-40 20 -25 15" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M25 -5 Q45 -15 45 10 Q40 20 25 15" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 小鸡在翅膀下 -->
+      <circle cx="-15" cy="8" r="5" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="0" cy="10" r="5" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="15" cy="8" r="5" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="-15" cy="6" r="1.5" fill="#7a3b14"/>
+      <circle cx="0" cy="8" r="1.5" fill="#7a3b14"/>
+      <circle cx="15" cy="6" r="1.5" fill="#7a3b14"/>
+    </g>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">半蹲→翅膀张开像伞</text>
+    <text x="0" y="145" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">小鸡钻到翅膀底下</text>
+  </g>
+
+  <!-- 第三招：拼 -->
+  <g transform="translate(570, 180)">
+    <rect x="-90" y="0" width="180" height="160" rx="10" fill="#fef9ed" stroke="#8d5a36" stroke-width="2"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#8d5a36">第三招：拼</text>
+    <!-- 母鸡冲向敌人 -->
+    <g transform="translate(-15, 75)">
+      <!-- 母鸡（毛竖起，凶猛） -->
+      <ellipse cx="0" cy="0" rx="22" ry="15" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 竖起的毛 -->
+      <path d="M-15 -10 L-18 -20 M-8 -12 L-10 -22 M0 -12 L0 -22 M8 -12 L10 -22 M15 -10 L18 -20" stroke="#c8843a" stroke-width="2"/>
+      <circle cx="-12" cy="-8" r="10" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-14" cy="-8" r="3" fill="#c84a3a"/>
+      <circle cx="-14" cy="-8" r="1.5" fill="#7a3b14"/>
+      <path d="M-22 -5 L-28 -3 L-22 0" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+    </g>
+    <!-- 黄鼠狼（被吓退） -->
+    <g transform="translate(45, 80)">
+      <ellipse cx="0" cy="0" rx="12" ry="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="10" cy="-2" r="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <ellipse cx="14" cy="-4" rx="2" ry="3" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+      <text x="15" y="-15" font-family="serif" font-size="10" fill="#7a3b14">？</text>
+    </g>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">毛竖起·翅膀拍打</text>
+    <text x="0" y="145" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">爪子抓·嘴啄→拼命</text>
+  </g>
+
+  <!-- 第四招：教 -->
+  <g transform="translate(240, 400)">
+    <rect x="-90" y="0" width="180" height="140" rx="10" fill="#fef9ed" stroke="#7ab8d8" stroke-width="2"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7ab8d8">第四招：教</text>
+    <g transform="translate(0, 65)">
+      <!-- 母鸡刨土找虫 -->
+      <ellipse cx="-10" cy="0" rx="18" ry="12" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-22" cy="-5" r="9" fill="#c8843a" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 虫子 -->
+      <ellipse cx="10" cy="5" rx="5" ry="2.5" fill="#6a8d3f" stroke="#4a6a2f" stroke-width="1"/>
+      <!-- 小鸡来吃 -->
+      <circle cx="20" cy="0" r="6" fill="#e07856" stroke="#7a3b14" stroke-width="1"/>
+      <circle cx="18" cy="-1" r="1.5" fill="#7a3b14"/>
+    </g>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">刨土找虫→叫小鸡来吃</text>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">教什么能吃·哪里有水</text>
+  </g>
+
+  <!-- 科学发现 -->
+  <g transform="translate(560, 400)">
+    <rect x="-120" y="0" width="240" height="140" rx="10" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5" opacity="0.9"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">科学发现</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">母鸡和小鸡之间有很多"暗号"</text>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">不同叫声=不同含义</text>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="11" fill="#8d5a36">"有食物""有危险""快回来"</text>
+    <text x="0" y="115" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">小鸡在蛋里就能听到妈妈的声音</text>
+    <text x="0" y="130" text-anchor="middle" font-family="serif" font-size="11" fill="#c84a3a">一出生就认识妈妈的叫声</text>
+  </g>
+</svg>

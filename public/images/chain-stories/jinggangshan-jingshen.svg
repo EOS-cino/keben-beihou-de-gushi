@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="井冈山精神插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="26" font-weight="bold" fill="#7a3b14">井冈山精神</text>
+  <text x="400" y="66" text-anchor="middle" font-family="serif" font-size="14" fill="#6b6557">坚定信念 · 艰苦奋斗 · 实事求是 · 敢闯新路 · 依靠群众 · 勇于胜利</text>
+
+  <!-- 井冈山轮廓 -->
+  <path d="M0 250 L80 160 L150 200 L230 140 L320 190 L420 150 L520 200 L620 160 L720 190 L800 170 L800 300 L0 300 Z" fill="#5a7a4a" opacity="0.3"/>
+
+  <!-- 中心：井冈山标志 -->
+  <g transform="translate(400,180)">
+    <!-- 红旗 -->
+    <path d="M-60 0 L-60 -50 Q-30 -40 0 -50 Q30 -40 60 -50 L60 0 Q30 -10 0 0 Q-30 -10 -60 0 Z" fill="#c84030"/>
+    <rect x="-62" y="-55" width="4" height="60" fill="#8a2010"/>
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="14" fill="#ffffff" font-weight="bold">井冈山</text>
+  </g>
+
+  <!-- 六个精神方块 -->
+  <!-- 1. 坚定信念 -->
+  <g transform="translate(140,340)">
+    <rect x="-70" y="-35" width="140" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <!-- 火炬 -->
+    <g transform="translate(-40,0)">
+      <rect x="-3" y="-5" width="6" height="20" fill="#8a5a30"/>
+      <path d="M-8 -5 Q-5 -20 0 -22 Q5 -20 8 -5 Q5 -12 0 -10 Q-5 -12 -8 -5 Z" fill="#f4b942"/>
+      <path d="M-4 -8 Q-2 -18 0 -20 Q2 -18 4 -8 Q2 -14 0 -12 Q-2 -14 -4 -8 Z" fill="#e84030"/>
+    </g>
+    <text x="15" y="-8" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">坚定信念</text>
+    <text x="15" y="12" font-family="serif" font-size="10" fill="#6b6557">星星之火</text>
+    <text x="15" y="26" font-family="serif" font-size="10" fill="#6b6557">可以燎原</text>
+  </g>
+
+  <!-- 2. 艰苦奋斗 -->
+  <g transform="translate(330,340)">
+    <rect x="-70" y="-35" width="140" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <!-- 红米南瓜 -->
+    <g transform="translate(-40,0)">
+      <ellipse cx="0" cy="5" rx="10" ry="6" fill="#c84030"/>
+      <ellipse cx="-8" cy="-5" rx="8" ry="6" fill="#e88030"/>
+      <path d="M-8 -11 L-6 -16 M-10 -11 L-12 -15" stroke="#5a8a3a" stroke-width="1.5"/>
+    </g>
+    <text x="15" y="-8" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">艰苦奋斗</text>
+    <text x="15" y="12" font-family="serif" font-size="10" fill="#6b6557">红米南瓜</text>
+    <text x="15" y="26" font-family="serif" font-size="10" fill="#6b6557">同甘共苦</text>
+  </g>
+
+  <!-- 3. 敢闯新路 -->
+  <g transform="translate(520,340)">
+    <rect x="-70" y="-35" width="140" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <!-- 新路 -->
+    <g transform="translate(-40,0)">
+      <path d="M-12 15 Q-5 0 0 -10 Q5 -18 12 -15" fill="none" stroke="#5a7a3a" stroke-width="4" stroke-linecap="round"/>
+      <path d="M12 -15 L8 -18 M12 -15 L10 -10" stroke="#5a7a3a" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <text x="0" y="22" text-anchor="middle" font-size="8" fill="#5a7a3a">新路</text>
+    </g>
+    <text x="15" y="-8" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">敢闯新路</text>
+    <text x="15" y="12" font-family="serif" font-size="10" fill="#6b6557">农村包围</text>
+    <text x="15" y="26" font-family="serif" font-size="10" fill="#6b6557">城市</text>
+  </g>
+
+  <!-- 4. 依靠群众 -->
+  <g transform="translate(140,460)">
+    <rect x="-70" y="-35" width="140" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <!-- 手拉手 -->
+    <g transform="translate(-40,0)">
+      <circle cx="-8" cy="-8" r="5" fill="#f0d0a8"/>
+      <rect x="-11" y="-3" width="6" height="12" fill="#5a7a3a"/>
+      <circle cx="8" cy="-8" r="5" fill="#f0d0a8"/>
+      <rect x="5" y="-3" width="6" height="12" fill="#5a7a3a"/>
+      <line x1="-5" y1="3" x2="5" y2="3" stroke="#7a3b14" stroke-width="2"/>
+    </g>
+    <text x="15" y="-8" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">依靠群众</text>
+    <text x="15" y="12" font-family="serif" font-size="10" fill="#6b6557">军民团结</text>
+    <text x="15" y="26" font-family="serif" font-size="10" fill="#6b6557">一心</text>
+  </g>
+
+  <!-- 5. 实事求是 -->
+  <g transform="translate(330,460)">
+    <rect x="-70" y="-35" width="140" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <!-- 书本 -->
+    <g transform="translate(-40,0)">
+      <rect x="-12" y="-10" width="24" height="18" fill="#fff8e0" stroke="#8a6a3a" stroke-width="1.5"/>
+      <line x1="0" y1="-10" x2="0" y2="8" stroke="#8a6a3a" stroke-width="1"/>
+      <line x1="-8" y1="-4" x2="-3" y2="-4" stroke="#8a6a3a" stroke-width="0.8"/>
+      <line x1="-8" y1="0" x2="-3" y2="0" stroke="#8a6a3a" stroke-width="0.8"/>
+      <line x1="3" y1="-4" x2="8" y2="-4" stroke="#8a6a3a" stroke-width="0.8"/>
+      <line x1="3" y1="0" x2="8" y2="0" stroke="#8a6a3a" stroke-width="0.8"/>
+    </g>
+    <text x="15" y="-8" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">实事求是</text>
+    <text x="15" y="12" font-family="serif" font-size="10" fill="#6b6557">从实际出发</text>
+    <text x="15" y="26" font-family="serif" font-size="10" fill="#6b6557">探求真理</text>
+  </g>
+
+  <!-- 6. 勇于胜利 -->
+  <g transform="translate(520,460)">
+    <rect x="-70" y="-35" width="140" height="70" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="6"/>
+    <!-- 奖杯/胜利 -->
+    <g transform="translate(-40,0)">
+      <path d="M-8 -12 L8 -12 L6 5 L-6 5 Z" fill="#f4b942"/>
+      <path d="M-8 -10 Q-14 -8 -12 -2 Q-8 0 -6 -2" fill="none" stroke="#f4b942" stroke-width="2"/>
+      <path d="M8 -10 Q14 -8 12 -2 Q8 0 6 -2" fill="none" stroke="#f4b942" stroke-width="2"/>
+      <rect x="-4" y="5" width="8" height="6" fill="#e89030"/>
+      <rect x="-8" y="11" width="16" height="3" fill="#e89030"/>
+    </g>
+    <text x="15" y="-8" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">勇于胜利</text>
+    <text x="15" y="12" font-family="serif" font-size="10" fill="#6b6557">不怕困难</text>
+    <text x="15" y="26" font-family="serif" font-size="10" fill="#6b6557">敢于斗争</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">朱德的扁担，挑起的不只是粮食，更是艰苦奋斗的精神</text>
+</svg>

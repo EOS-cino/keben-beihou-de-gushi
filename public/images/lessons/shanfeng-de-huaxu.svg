@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="山风吹过松林和溪涧的自然插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#2d6a4f">山风的絮语</text>
+  <line x1="350" y1="60" x2="450" y2="60" stroke="#e8a838" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="72" width="800" height="280" fill="#4a90b8" opacity="0.06"/>
+  <!-- 远山 -->
+  <path d="M0 360 L140 240 L280 320 L420 220 L560 310 L700 250 L800 320 L800 600 L0 600 Z" fill="#9fc8b4" opacity="0.4"/>
+  <path d="M0 400 L120 320 L260 380 L400 300 L540 370 L680 320 L800 380 L800 600 L0 600 Z" fill="#7aa890" opacity="0.4"/>
+
+  <!-- 风的轨迹（虚线弧，贯穿） -->
+  <g stroke="#4a90b8" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="6,5">
+    <path d="M40 180 Q250 150 460 200 Q620 240 760 200"/>
+    <path d="M60 240 Q280 220 480 260 Q640 290 750 270"/>
+  </g>
+  <!-- 风的箭头 -->
+  <g fill="#4a90b8" opacity="0.6">
+    <path d="M460 200 L470 195 L468 205 Z"/>
+    <path d="M760 200 L770 195 L768 205 Z"/>
+  </g>
+
+  <!-- 松林（左侧，松涛） -->
+  <g transform="translate(160 380)">
+    <!-- 松树1 -->
+    <rect x="-4" y="0" width="8" height="50" fill="#5a4a2a"/>
+    <path d="M0 -90 L-30 -40 L-20 -40 L-35 -10 L-22 -10 L-30 10 L30 10 L22 -10 L35 -10 L20 -40 L30 -40 Z" fill="#2d6a4f" stroke="#1a4a3a" stroke-width="1.5"/>
+    <!-- 松树2 -->
+    <rect x="50" y="0" width="7" height="45" fill="#5a4a2a" transform="translate(-10 0)"/>
+    <path d="M40 -75 L18 -32 L26 -32 L10 -5 L20 -5 L12 14 L58 14 L50 -5 L60 -5 L44 -32 L52 -32 Z" fill="#3a7a5a" stroke="#1a4a3a" stroke-width="1.2"/>
+  </g>
+  <!-- 松针摇动示意 -->
+  <g stroke="#2d6a4f" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M130 320 Q140 318 150 322"/>
+    <path d="M180 310 Q190 308 200 312"/>
+  </g>
+
+  <!-- 溪涧（中部偏右） -->
+  <g transform="translate(500 430)">
+    <!-- 溪石 -->
+    <ellipse cx="-30" cy="10" rx="18" ry="8" fill="#a89878" stroke="#7a6a4a" stroke-width="1.5"/>
+    <ellipse cx="20" cy="14" rx="22" ry="9" fill="#b8a888" stroke="#7a6a4a" stroke-width="1.5"/>
+    <ellipse cx="60" cy="6" rx="14" ry="6" fill="#a89878" stroke="#7a6a4a" stroke-width="1.5"/>
+    <!-- 溪水 -->
+    <path d="M-80 0 Q-40 6 0 0 Q40 -6 80 0" fill="none" stroke="#4a90b8" stroke-width="6" opacity="0.6"/>
+    <path d="M-80 8 Q-40 14 0 8 Q40 2 80 8" fill="none" stroke="#7ab8d8" stroke-width="3" opacity="0.5"/>
+    <!-- 水花 -->
+    <g fill="#c8e8f8" opacity="0.8">
+      <circle cx="-12" cy="4" r="2"/>
+      <circle cx="40" cy="6" r="1.5"/>
+      <circle cx="58" cy="2" r="2"/>
+    </g>
+  </g>
+
+  <!-- 草甸（右下） -->
+  <g transform="translate(640 460)">
+    <!-- 草浪 -->
+    <path d="M-60 0 Q-40 -8 -20 0 Q0 8 20 0 Q40 -8 60 0" fill="none" stroke="#2d6a4f" stroke-width="2"/>
+    <path d="M-60 8 Q-40 0 -20 8 Q0 16 20 8 Q40 0 60 8" fill="none" stroke="#3a7a5a" stroke-width="1.5" opacity="0.7"/>
+    <!-- 草叶 -->
+    <g fill="#2d6a4f" opacity="0.6">
+      <path d="M-50 -4 Q-48 -12 -46 -4 Z"/>
+      <path d="M-30 -2 Q-28 -10 -26 -2 Z"/>
+      <path d="M-10 -6 Q-8 -14 -6 -6 Z"/>
+      <path d="M10 -4 Q12 -12 14 -4 Z"/>
+      <path d="M30 -2 Q32 -10 34 -2 Z"/>
+      <path d="M50 -6 Q52 -14 54 -6 Z"/>
+    </g>
+    <!-- 小花 -->
+    <circle cx="-20" cy="-8" r="2.5" fill="#e8a838"/>
+    <circle cx="25" cy="-10" r="2.5" fill="#e07856"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="470" width="800" height="130" fill="#dceee3"/>
+  <rect x="0" y="470" width="800" height="130" fill="#9fc8b4" opacity="0.25"/>
+
+  <!-- 聆听的人 -->
+  <g transform="translate(380 480)">
+    <path d="M-14 30 Q-16 8 -8 -2 Q0 -6 8 -2 Q16 8 14 30 Z" fill="#2d6a4f"/>
+    <circle cx="0" cy="-16" r="11" fill="#f4d4a8"/>
+    <path d="M-11 -20 Q0 -30 11 -20 L11 -14 Q0 -10 -11 -14 Z" fill="#3a3a3a"/>
+    <!-- 闭眼聆听 -->
+    <path d="M-5 -16 L-2 -15" stroke="#2a2a2a" stroke-width="1.5"/>
+    <path d="M2 -15 L5 -16" stroke="#2a2a2a" stroke-width="1.5"/>
+    <!-- 手放耳边 -->
+    <path d="M11 -8 Q20 -6 18 -16" fill="none" stroke="#f4d4a8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 标注：松涛 -->
+  <line x1="170" y1="350" x2="170" y2="300" stroke="#2d6a4f" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="110" y="274" width="120" height="26" fill="#fff6df" stroke="#2d6a4f" rx="4"/>
+  <text x="170" y="292" text-anchor="middle" font-family="serif" font-size="13" fill="#2d6a4f">松涛——哗哗如浪</text>
+
+  <!-- 标注：溪涧 -->
+  <line x1="500" y1="420" x2="500" y2="370" stroke="#4a90b8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="440" y="344" width="120" height="26" fill="#fff6df" stroke="#4a90b8" rx="4"/>
+  <text x="500" y="362" text-anchor="middle" font-family="serif" font-size="13" fill="#4a90b8">溪涧——清亮如哨</text>
+
+  <!-- 标注：草甸 -->
+  <line x1="640" y1="455" x2="640" y2="405" stroke="#2d6a4f" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="580" y="379" width="120" height="26" fill="#fff6df" stroke="#e8a838" rx="4"/>
+  <text x="640" y="397" text-anchor="middle" font-family="serif" font-size="13" fill="#8a5a14">草甸——轻抚如绸</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#2d6a4f">风过松林、溪涧、草甸，一程一程说着不同的话</text>
+</svg>

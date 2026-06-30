@@ -1,0 +1,204 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { curriculumVolumes, priorityTitles, typeLabels } from "../data/curriculum";
+
+const lessons = await getCollection("lessons");
+const currentByTitle = new Map(lessons.map((lesson) => [lesson.data.title, lesson.slug]));
+const volumes = curriculumVolumes.map((volume) => ({
+  ...volume,
+  units: volume.units.map((unit) => ({
+    ...unit,
+    lessons: unit.lessons.map((lesson) => ({
+      ...lesson,
+      currentSlug: lesson.currentSlug ?? currentByTitle.get(lesson.title),
+      priority: priorityTitles.includes(lesson.title),
+    })),
+  })),
+}));
+
+const allLessons = volumes.flatMap((volume) =>
+  volume.units.flatMap((unit) => unit.lessons.map((lesson) => ({ ...lesson, volume }))),
+);
+const volumeStats = volumes.map((volume) => {
+  const lessonsInVolume = volume.units.flatMap((unit) => unit.lessons);
+  const done = lessonsInVolume.filter((lesson) => lesson.currentSlug ?? currentByTitle.get(lesson.title)).length;
+  const priority = lessonsInVolume.filter((lesson) => priorityTitles.includes(lesson.title) && !(lesson.currentSlug ?? currentByTitle.get(lesson.title))).length;
+  return {
+    ...volume,
+    done,
+    total: lessonsInVolume.length,
+    priority,
+  };
+});
+const totalCount = allLessons.length;
+const doneCount = allLessons.filter((lesson) => lesson.currentSlug).length;
+const priorityCount = allLessons.filter((lesson) => lesson.priority && !lesson.currentSlug).length;
+const gradeAnchors = ["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"]
+  .map((grade) => volumeStats.find((volume) => volume.grade === grade))
+  .filter((volume): volume is (typeof volumeStats)[number] => Boolean(volume));
+const base = import.meta.env.BASE_URL;
+const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
+---
+
+<BaseLayout title="教材目录 - 课文背后的故事">
+  <section class="page-hero compact curriculum-hero">
+    <div>
+      <p class="eyebrow">创作队列</p>
+      <h1>人教版 1-6 年级语文课文地图</h1>
+      <p>
+        这里把你提供的目录整理成故事创作索引。页面只记录标题和创作状态，不转载教材原文。
+        后续扩展时，可以按优先级逐篇补齐“背后的故事、连珠小故事、插图和生字词小字典”。
+      </p>
+    </div>
+    <div class="curriculum-hero-card">
+      <strong>{doneCount}</strong>
+      <span>篇已经做成故事页</span>
+      <div class="progress-track" aria-hidden="true">
+        <div class="progress-fill" style={`width: ${(doneCount / totalCount) * 100}%`}></div>
+      </div>
+      <small>优先创作待补 {priorityCount} 篇</small>
+    </div>
+  </section>
+
+  <section class="catalog-stats" aria-label="目录统计">
+    <div class="stat">
+      <strong>{volumes.length}</strong>
+      <span>册教材目录</span>
+    </div>
+    <div class="stat">
+      <strong>{totalCount}</strong>
+      <span>个可创作条目</span>
+    </div>
+    <div class="stat">
+      <strong>{doneCount}</strong>
+      <span>篇已完成文章</span>
+    </div>
+    <div class="stat">
+      <strong>{priorityCount}</strong>
+      <span>个优先候选</span>
+    </div>
+  </section>
+
+  <section class="catalog-tools">
+    <label class="search-box">
+      <span>搜索目录</span>
+      <input id="catalogSearch" type="search" placeholder="输入课文名、年级、主题类型" />
+    </label>
+    <nav class="grade-jump" aria-label="按年级跳转">
+      {gradeAnchors.map((volume) => (
+        <a href={`#${volume.id}`}>{volume.grade}</a>
+      ))}
+    </nav>
+    <div class="chip-row" id="catalogFilters">
+      <button class="chip active" type="button" data-filter="全部">全部</button>
+      <button class="chip" type="button" data-filter="优先">优先创作</button>
+      <button class="chip" type="button" data-filter="已完成">已完成</button>
+      {Object.entries(typeLabels).map(([type, label]) => (
+        <button class="chip" type="button" data-filter={type}>{label}</button>
+      ))}
+    </div>
+  </section>
+
+  <section class="volume-list" id="catalogList">
+    {volumeStats.map((volume, index) => (
+      <article id={volume.id} class="volume-card" data-text={`${volume.grade} ${volume.volume} ${volume.edition}`}>
+        <header>
+          <div>
+            <p class="eyebrow">{volume.grade} · {volume.volume}</p>
+            <h2>{volume.grade}{volume.volume}</h2>
+          </div>
+          <div class="volume-meta">
+            <span>{volume.edition}</span>
+            <small>{volume.done}/{volume.total} 已完成</small>
+          </div>
+        </header>
+        <div class="volume-band" data-tone={index % 2 === 0 ? "warm" : "cool"}></div>
+        <div class="unit-grid">
+          {volume.units.map((unit) => (
+            <section class="unit-card">
+              <h3>{unit.title}</h3>
+              <ul>
+                {unit.lessons.map((lesson) => (
+                  <li
+                    data-type={lesson.type}
+                    data-priority={lesson.priority ? "true" : "false"}
+                    data-done={lesson.currentSlug ? "true" : "false"}
+                    data-text={`${lesson.title} ${typeLabels[lesson.type]} ${volume.grade} ${volume.volume}`}
+                  >
+                    {lesson.currentSlug ? (
+                      <a href={withBase(`/lessons/${lesson.currentSlug}/`)}>{lesson.title}</a>
+                    ) : (
+                      <span>{lesson.title}</span>
+                    )}
+                    <small>{typeLabels[lesson.type]}</small>
+                    {lesson.currentSlug && <em>已完成</em>}
+                    {lesson.priority && !lesson.currentSlug && <em class="priority">优先</em>}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <p class="empty-state" id="catalogEmpty" hidden>没有找到匹配的课文。</p>
+
+  <script>
+    const searchInput = document.querySelector<HTMLInputElement>("#catalogSearch");
+    const filterButtons = [...document.querySelectorAll<HTMLButtonElement>("#catalogFilters .chip")];
+    const lessonItems = [...document.querySelectorAll<HTMLElement>(".unit-card li")];
+    const volumeCards = [...document.querySelectorAll<HTMLElement>(".volume-card")];
+    const emptyState = document.querySelector<HTMLElement>("#catalogEmpty");
+    let activeFilter = "全部";
+    let searchTimer: ReturnType<typeof setTimeout> | null = null;
+
+    if (!searchInput || !emptyState) {
+      console.warn("Catalog filter elements not found, skipping initialization.");
+    } else {
+    const searchBox = searchInput;
+    const emptyMessage = emptyState;
+
+    function applyCatalogFilters() {
+      const keyword = searchBox.value.trim().toLowerCase();
+      let visibleLessons = 0;
+
+      lessonItems.forEach((item) => {
+        const textMatched = !keyword || item.dataset.text?.toLowerCase().includes(keyword);
+        const filterMatched =
+          activeFilter === "全部" ||
+          item.dataset.type === activeFilter ||
+          (activeFilter === "优先" && item.dataset.priority === "true") ||
+          (activeFilter === "已完成" && item.dataset.done === "true");
+        const visible = Boolean(textMatched && filterMatched);
+        item.hidden = !visible;
+        if (visible) visibleLessons += 1;
+      });
+
+      volumeCards.forEach((card) => {
+        const hasVisibleLesson = [...card.querySelectorAll<HTMLElement>(".unit-card li")].some(
+          (item) => !item.hidden,
+        );
+        card.hidden = !hasVisibleLesson;
+      });
+
+      emptyMessage.hidden = visibleLessons !== 0;
+    }
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeFilter = button.dataset.filter ?? "全部";
+        filterButtons.forEach((item) => item.classList.toggle("active", item === button));
+        applyCatalogFilters();
+      });
+    });
+
+    searchBox.addEventListener("input", () => {
+      if (searchTimer) clearTimeout(searchTimer);
+      searchTimer = setTimeout(applyCatalogFilters, 200);
+    });
+    }
+  </script>
+</BaseLayout>

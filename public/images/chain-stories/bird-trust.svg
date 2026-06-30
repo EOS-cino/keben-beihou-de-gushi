@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="鸟类与人建立信任过程和动物行为学的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">鸟与人的信任</text>
+  <line x1="310" y1="58" x2="490" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 信任建立的四个阶段 -->
+
+  <!-- 阶段1：害怕 -->
+  <g transform="translate(120, 140)">
+    <rect x="-75" y="-60" width="150" height="140" rx="8" fill="#fff6df" stroke="#c84a3a" stroke-width="2"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">第一阶段：害怕</text>
+    <!-- 鸟在笼子里 -->
+    <rect x="-25" y="-15" width="50" height="40" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <line x1="-25" y1="-5" x2="25" y2="-5" stroke="#7a3b14" stroke-width="0.5"/>
+    <line x1="-25" y1="5" x2="25" y2="5" stroke="#7a3b14" stroke-width="0.5"/>
+    <line x1="-25" y1="15" x2="25" y2="15" stroke="#7a3b14" stroke-width="0.5"/>
+    <!-- 鸟缩在角落 -->
+    <ellipse cx="15" cy="15" rx="8" ry="6" fill="#a8b8c8" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="20" cy="12" r="4" fill="#a8b8c8" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="21" cy="11" r="1" fill="#7a3b14"/>
+    <!-- 人手伸过来 -->
+    <ellipse cx="-35" cy="10" rx="8" ry="6" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 惊恐符号 -->
+    <text x="-5" y="-10" font-family="serif" font-size="16" fill="#c84a3a">!</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">躲在笼子角落</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">人=未知=危险</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M205 140 L255 140" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#ar5)"/>
+
+  <!-- 阶段2：试探 -->
+  <g transform="translate(330, 140)">
+    <rect x="-75" y="-60" width="150" height="140" rx="8" fill="#fff6df" stroke="#e07856" stroke-width="2"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">第二阶段：试探</text>
+    <!-- 鸟出笼子 -->
+    <rect x="-35" y="-10" width="30" height="35" fill="none" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+    <!-- 鸟飞出来 -->
+    <ellipse cx="10" cy="10" rx="8" ry="6" fill="#a8b8c8" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="4" cy="7" r="4" fill="#a8b8c8" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="3" cy="6" r="1" fill="#7a3b14"/>
+    <!-- 人安静坐着 -->
+    <ellipse cx="35" cy="20" rx="10" ry="8" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="35" cy="8" r="6" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 问号 -->
+    <text x="15" y="-5" font-family="serif" font-size="14" fill="#e07856">?</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">飞出笼子观察</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">人不动=可能安全</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M415 140 L465 140" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#ar5)"/>
+
+  <!-- 阶段3：靠近 -->
+  <g transform="translate(540, 140)">
+    <rect x="-75" y="-60" width="150" height="140" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">第三阶段：靠近</text>
+    <!-- 鸟在桌上 -->
+    <rect x="-40" y="20" width="80" height="8" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 鸟蹦跳 -->
+    <ellipse cx="-10" cy="12" rx="7" ry="5" fill="#a8b8c8" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-15" cy="9" r="4" fill="#a8b8c8" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-16" cy="8" r="1" fill="#7a3b14"/>
+    <!-- 蹦跳轨迹 -->
+    <path d="M-10 12 Q0 0 10 12" fill="none" stroke="#7ab8d8" stroke-width="1" stroke-dasharray="2,2" opacity="0.5"/>
+    <!-- 人的手（写字） -->
+    <ellipse cx="20" cy="18" rx="6" ry="4" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">落在书桌上</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">啄笔尖、喝茶</text>
+  </g>
+
+  <!-- 箭头 -->
+  <path d="M625 140 L675 140" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#ar5)"/>
+
+  <!-- 阶段4：信赖 -->
+  <g transform="translate(720, 140)">
+    <rect x="-60" y="-60" width="120" height="140" rx="8" fill="#fff6df" stroke="#6a8d3f" stroke-width="2"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">信赖</text>
+    <!-- 鸟在肩上睡 -->
+    <ellipse cx="0" cy="10" rx="10" ry="14" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-8" r="7" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 鸟趴肩上 -->
+    <ellipse cx="-8" cy="-12" rx="6" ry="4" fill="#a8b8c8" stroke="#7a3b14" stroke-width="1"/>
+    <text x="-15" y="-25" font-family="serif" font-size="10" fill="#7ab8d8">z</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">趴肩上睡着</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">完全不设防</text>
+  </g>
+
+  <!-- 底部：三个科学原理 -->
+  <g transform="translate(0, 330)">
+    <rect x="60" y="0" width="680" height="210" rx="10" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="400" y="28" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">信任背后的科学道理</text>
+
+    <!-- 原理1 -->
+    <g transform="translate(170, 60)">
+      <circle cx="0" cy="0" r="18" fill="#c84a3a" opacity="0.8"/>
+      <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#fff">1</text>
+      <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">学习与记忆</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">鸟能记住人的面孔</text>
+      <text x="0" y="72" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">区分安全与危险</text>
+      <text x="0" y="89" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">反复观察确认无害</text>
+    </g>
+
+    <!-- 原理2 -->
+    <g transform="translate(400, 60)">
+      <circle cx="0" cy="0" r="18" fill="#e07856" opacity="0.8"/>
+      <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#fff">2</text>
+      <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">习惯化</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">反复接触无害刺激</text>
+      <text x="0" y="72" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">恐惧感逐渐降低</text>
+      <text x="0" y="89" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">渐进式靠近，不能催</text>
+    </g>
+
+    <!-- 原理3 -->
+    <g transform="translate(630, 60)">
+      <circle cx="0" cy="0" r="18" fill="#6a8d3f" opacity="0.8"/>
+      <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#fff">3</text>
+      <text x="0" y="35" text-anchor="middle" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">不设防</text>
+      <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">睡觉是最脆弱状态</text>
+      <text x="0" y="72" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">在人身旁睡=绝对安全</text>
+      <text x="0" y="89" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">信任的最高境界</text>
+    </g>
+
+    <text x="400" y="155" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">关键：不干预、不强迫，给空间和时间</text>
+    <text x="400" y="180" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">信任不是要来的，而是等来的——你不去打扰，它自然靠近</text>
+  </g>
+
+  <defs>
+    <marker id="ar5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="585" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">跨物种的信任，是自然界最动人的画面之一</text>
+</svg>

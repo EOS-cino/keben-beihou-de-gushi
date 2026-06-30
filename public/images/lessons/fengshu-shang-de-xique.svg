@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="枫树上喜鹊一家和喜鹊窝的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">枫树上的喜鹊</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 天空 -->
+  <rect x="0" y="80" width="800" height="300" fill="#a8d0e8" opacity="0.25"/>
+  <!-- 太阳 -->
+  <circle cx="700" cy="130" r="30" fill="#f4c842" opacity="0.7"/>
+
+  <!-- 远处河流（渡口） -->
+  <rect x="0" y="340" width="800" height="50" fill="#a8d0e8" opacity="0.4"/>
+  <path d="M0 360 Q150 355 300 360 T600 360 T800 360" fill="none" stroke="#7ab8d8" stroke-width="2"/>
+  <!-- 小船（渡口） -->
+  <g transform="translate(100, 350)">
+    <path d="M0 10 Q5 20 40 20 Q75 20 80 10 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="40" y1="10" x2="40" y2="-10" stroke="#8d5a36" stroke-width="2"/>
+    <path d="M40 -8 L55 5 L40 5 Z" fill="#fff8e0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="390" width="800" height="210" fill="#6a8d3f" opacity="0.3"/>
+
+  <!-- 枫树树干 -->
+  <path d="M380 580 L390 400 L385 300 L395 200 L400 120 L410 120 L415 200 L405 300 L410 400 L420 580 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+  <!-- 树枝 -->
+  <path d="M395 250 Q340 230 300 200" fill="none" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M405 220 Q470 200 520 180" fill="none" stroke="#8d5a36" stroke-width="8" stroke-linecap="round"/>
+  <path d="M400 180 Q380 150 360 130" fill="none" stroke="#8d5a36" stroke-width="6" stroke-linecap="round"/>
+  <path d="M408 170 Q440 140 460 120" fill="none" stroke="#8d5a36" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- 枫树树冠 -->
+  <ellipse cx="400" cy="150" rx="120" ry="80" fill="#6a8d3f" opacity="0.7"/>
+  <ellipse cx="320" cy="170" rx="60" ry="50" fill="#6a8d3f" opacity="0.6"/>
+  <ellipse cx="490" cy="160" rx="65" ry="55" fill="#6a8d3f" opacity="0.6"/>
+  <!-- 枫叶点缀 -->
+  <g fill="#c8843a" opacity="0.7">
+    <path d="M340 130 L345 120 L350 130 L345 135 Z"/>
+    <path d="M460 110 L465 100 L470 110 L465 115 Z"/>
+    <path d="M380 180 L385 170 L390 180 L385 185 Z"/>
+    <path d="M440 175 L445 165 L450 175 L445 180 Z"/>
+  </g>
+
+  <!-- 喜鹊窝 -->
+  <g transform="translate(490, 175)">
+    <ellipse cx="0" cy="10" rx="45" ry="15" fill="#5a3a1a"/>
+    <path d="M-45 10 Q-50 -15 -30 -25 Q0 -32 30 -25 Q50 -15 45 10 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2"/>
+    <!-- 窝里的树枝纹理 -->
+    <line x1="-30" y1="-10" x2="-10" y2="0" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="10" y1="-5" x2="30" y2="5" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="-20" y1="-20" x2="0" y2="-10" stroke="#5a3a1a" stroke-width="1.5"/>
+    <line x1="0" y1="-15" x2="20" y2="-20" stroke="#5a3a1a" stroke-width="1.5"/>
+    <!-- 窝口 -->
+    <ellipse cx="0" cy="-5" rx="15" ry="8" fill="#3a2a1a"/>
+  </g>
+
+  <!-- 喜鹊阿姨（站在窝边） -->
+  <g transform="translate(530, 160)">
+    <!-- 身体 -->
+    <ellipse cx="0" cy="10" rx="18" ry="22" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <!-- 白腹 -->
+    <ellipse cx="0" cy="15" rx="10" ry="14" fill="#ffffff"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-12" r="12" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <!-- 喙 -->
+    <polygon points="8,-12 18,-10 8,-8" fill="#f4c842" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 眼睛 -->
+    <circle cx="3" cy="-13" r="2" fill="#ffffff"/>
+    <circle cx="3" cy="-13" r="1" fill="#2a2a2a"/>
+    <!-- 翅膀 -->
+    <path d="M-10 0 Q-25 5 -20 20 Q-15 15 -8 12" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <!-- 尾巴 -->
+    <path d="M5 25 Q20 30 25 40 Q15 35 8 30" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <!-- 腿 -->
+    <line x1="-3" y1="30" x2="-3" y2="42" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="3" y1="30" x2="3" y2="42" stroke="#7a3b14" stroke-width="2"/>
+  </g>
+
+  <!-- 小喜鹊（窝口探出头） -->
+  <g transform="translate(485, 170)">
+    <circle cx="0" cy="0" r="8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <polygon points="6,0 12,1 6,3" fill="#f4c842" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="2" cy="-1" r="1.5" fill="#ffffff"/>
+    <circle cx="2" cy="-1" r="0.8" fill="#2a2a2a"/>
+    <path d="M-3 6 Q0 8 3 6" fill="#2a2a2a"/>
+  </g>
+
+  <!-- 另一只小喜鹊 -->
+  <g transform="translate(500, 168)">
+    <circle cx="0" cy="0" r="7" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <polygon points="5,0 10,1 5,2" fill="#f4c842" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="2" cy="-1" r="1.2" fill="#ffffff"/>
+  </g>
+
+  <!-- 观察者（树下的小孩） -->
+  <g transform="translate(200, 460)">
+    <path d="M0 0 L-3 -30 L13 -30 L10 0 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="5" cy="-42" r="12" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M-4 -48 Q5 -56 14 -48" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+    <circle cx="1" cy="-43" r="1.5" fill="#2a2a2a"/>
+    <circle cx="9" cy="-43" r="1.5" fill="#2a2a2a"/>
+    <path d="M2 -37 Q5 -35 8 -37" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 仰头看树 -->
+    <path d="M8 -30 L20 -45" fill="none" stroke="#c84a3a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="22" cy="-47" r="5" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 标注：喜鹊窝 -->
+  <line x1="490" y1="160" x2="600" y2="100" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="555" y="75" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="605" y="93" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">喜鹊窝</text>
+
+  <!-- 标注：枫树 -->
+  <line x1="400" y1="300" x2="300" y2="300" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="230" y="287" width="80" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="270" y="305" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">大枫树</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">渡口旁的大枫树上住着喜鹊一家，"我"用心倾听，听懂了它们的对话</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="我不能失信：小庆龄的选择">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">我不能失信</text>
+  <text x="400" y="92" text-anchor="middle" font-family="serif" font-size="18" fill="#a85a2a">答应的事，就要做到</text>
+  <g transform="translate(400,260)">
+    <circle cx="0" cy="-40" r="28" fill="#f4c77a" stroke="#c98a3a" stroke-width="2"/>
+    <path d="M-30,-12 Q-30,60 0,80 Q30,60 30,-12 Z" fill="#7fb8d8" stroke="#2a5a7a" stroke-width="2"/>
+    <text x="0" y="110" text-anchor="middle" font-family="serif" font-size="16" fill="#2a5a7a">宋庆龄</text>
+  </g>
+  <g transform="translate(180,320)">
+    <rect x="-30" y="0" width="60" height="40" rx="4" fill="#fbe9c8" stroke="#c98a3a" stroke-width="2"/>
+    <line x1="-20" y1="15" x2="20" y2="15" stroke="#c98a3a" stroke-width="1"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="14" fill="#a8742a">纸和剪刀</text>
+  </g>
+  <g transform="translate(620,320)">
+    <ellipse cx="0" cy="20" rx="30" ry="18" fill="#d8f0e0" stroke="#5a8b5a" stroke-width="2"/>
+    <circle cx="-15" cy="10" r="3" fill="#2a5a2a"/>
+    <circle cx="10" cy="14" r="3" fill="#2a5a2a"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="14" fill="#5a8b5a">鸽子</text>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="22" fill="#7a3b14">我 不能 失信</text>
+</svg>

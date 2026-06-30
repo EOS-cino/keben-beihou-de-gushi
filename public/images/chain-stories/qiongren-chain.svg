@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="托尔斯泰与穷人插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="#7a3b14">连珠小故事：托尔斯泰与穷人</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <!-- 左侧：贵族变农民 -->
+  <g transform="translate(170, 240)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">贵族变农民</text>
+    <!-- 托尔斯泰 -->
+    <g transform="translate(0, -30)">
+      <circle cx="0" cy="0" r="16" fill="#f0d0a8" stroke="#7a3b14" stroke-width="2"/>
+      <!-- 大胡子 -->
+      <path d="M-10 4 Q-12 15 -8 22 Q0 28 8 22 Q12 15 10 4" fill="#e0e0e0" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="-5" cy="-3" r="1.5" fill="#2a2a2a"/>
+      <circle cx="5" cy="-3" r="1.5" fill="#2a2a2a"/>
+      <!-- 农民衣服 -->
+      <path d="M-16 16 L-22 55 L22 55 L16 16 Z" fill="#6a5040" stroke="#7a3b14" stroke-width="1.5"/>
+      <!-- 锄头 -->
+      <line x1="20" y1="20" x2="35" y2="0" stroke="#5a4a2a" stroke-width="2.5"/>
+      <path d="M33 -2 L40 -8 L42 -2 L35 4 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">穿农民外衣的伯爵</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">放弃财产·下地干活</text>
+  </g>
+
+  <!-- 中间：伟大作品 -->
+  <g transform="translate(400, 240)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">伟大作品</text>
+    <!-- 书堆 -->
+    <rect x="-70" y="20" width="140" height="16" fill="#4a90b8" stroke="#2a6080" stroke-width="1.5" rx="2"/>
+    <text x="0" y="32" text-anchor="middle" font-family="serif" font-size="9" fill="#fff8e0">战争与和平</text>
+    <rect x="-65" y="4" width="130" height="16" fill="#e07856" stroke="#a05030" stroke-width="1.5" rx="2"/>
+    <text x="0" y="16" text-anchor="middle" font-family="serif" font-size="9" fill="#fff8e0">安娜·卡列尼娜</text>
+    <rect x="-55" y="-12" width="110" height="16" fill="#2d6a4f" stroke="#1a4a30" stroke-width="1.5" rx="2"/>
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="9" fill="#fff8e0">穷人（短篇）</text>
+    <rect x="-45" y="-28" width="90" height="16" fill="#e8a838" stroke="#a07820" stroke-width="1.5" rx="2"/>
+    <text x="0" y="-16" text-anchor="middle" font-family="serif" font-size="9" fill="#fff8e0">复活</text>
+    <!-- 羽毛笔 -->
+    <path d="M 40 -45 Q 50 -60 45 -75" fill="none" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M 45 -75 Q 48 -80 43 -83 Q 40 -77 45 -75" fill="#e8e8e8" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="55" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">长篇巨著与短篇小故事</text>
+    <text x="0" y="72" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">善良不分大小·感动不分长短</text>
+  </g>
+
+  <!-- 右侧：晚年出走 -->
+  <g transform="translate(630, 240)">
+    <text x="0" y="-80" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">晚年出走</text>
+    <!-- 火车站 -->
+    <rect x="-50" y="-10" width="100" height="40" fill="#d8c8a8" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M-55 -10 L0 -35 L55 -10 Z" fill="#8d5a36" stroke="#7a3b14" stroke-width="2"/>
+    <!-- 站牌 -->
+    <rect x="-15" y="-30" width="30" height="12" fill="#fff8e0" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="-20" text-anchor="middle" font-family="serif" font-size="8" fill="#7a3b14">车站</text>
+    <!-- 老人剪影 -->
+    <g transform="translate(-20, 20)">
+      <circle cx="0" cy="0" r="8" fill="#f0d0a8" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-5 3 Q-7 10 -4 15 Q0 18 4 15 Q7 10 5 3" fill="#e0e0e0" stroke="#7a3b14" stroke-width="1"/>
+      <path d="M-8 8 L-12 35 L12 35 L8 8 Z" fill="#5a4a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    </g>
+    <!-- 行囊 -->
+    <ellipse cx="15" cy="35" rx="8" ry="6" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">82岁离家出走</text>
+    <text x="0" y="75" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">几件旧衣·几本书</text>
+  </g>
+
+  <!-- 下方：核心精神 -->
+  <g transform="translate(400, 430)">
+    <rect x="-280" y="0" width="560" height="60" fill="#fff6df" stroke="#c8843a" stroke-width="2" rx="8"/>
+    <text x="0" y="25" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">"我不能一边吃着山珍海味，一边看着别人饿死。"</text>
+    <text x="0" y="48" text-anchor="middle" font-family="serif" font-size="13" fill="#c8843a">一个人的伟大，不在于拥有多少，而在于给了别人多少</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">托尔斯泰：出身贵族却为穷人写作，用一生证明善良比财富更伟大</text>
+</svg>

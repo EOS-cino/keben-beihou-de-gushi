@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <marker id="arw3" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3a7ca5"/>
+    </marker>
+  </defs>
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">都江堰也没有和水硬拼</text>
+  <line x1="270" y1="54" x2="530" y2="54" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="400" y="74" text-anchor="middle" font-size="13" fill="#9c6b3f" font-family="serif">—— 李冰父子的治水智慧 ——</text>
+  <path d="M 0,145 L 60,100 L 120,130 L 180,92 L 240,122 L 300,88 L 360,118 L 420,95 L 480,112 L 540,85 L 600,108 L 660,92 L 720,118 L 800,102 L 800,145 Z" fill="#8b7355"/>
+  <path d="M 60,100 L 68,110 L 52,110 Z M 180,92 L 188,102 L 172,102 Z M 300,88 L 308,98 L 292,98 Z M 540,85 L 548,95 L 532,95 Z" fill="#5a8a4a"/>
+  <path d="M 0,400 L 70,372 L 140,392 L 210,368 L 280,388 L 350,365 L 420,385 L 490,368 L 560,388 L 630,362 L 700,382 L 800,372 L 800,400 Z" fill="#8b7355"/>
+  <path d="M 0,145 L 0,400 L 800,400 L 800,145 Z" fill="#5b9bd5" opacity="0.55"/>
+  <path d="M 0,145 L 0,220 L 800,220 L 800,145 Z" fill="#6aaedd" opacity="0.5"/>
+  <path d="M 0,320 L 0,400 L 800,400 L 800,320 Z" fill="#6aaedd" opacity="0.5"/>
+  <path d="M 180,270 Q 168,220 200,175 L 280,220 L 280,320 Q 168,380 180,270 Z" fill="#a0826d" stroke="#6b5d4f" stroke-width="2"/>
+  <ellipse cx="180" cy="270" rx="10" ry="8" fill="#8b7355" stroke="#6b5d4f" stroke-width="1.5"/>
+  <path d="M 200,175 L 210,185 L 220,180 L 230,190 L 240,182 L 250,192 L 260,185 L 270,195 L 280,220" fill="none" stroke="#6b5d4f" stroke-width="1" opacity="0.5"/>
+  <path d="M 200,380 L 210,370 L 220,375 L 230,365 L 240,372 L 250,362 L 260,370 L 270,360 L 280,320" fill="none" stroke="#6b5d4f" stroke-width="1" opacity="0.5"/>
+  <rect x="380" y="305" width="90" height="15" rx="3" fill="#a0826d" stroke="#6b5d4f" stroke-width="1.5"/>
+  <line x1="390" y1="312" x2="460" y2="312" stroke="#8b6f5c" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <path d="M 500,175 L 545,175 L 530,220 L 530,320 L 545,365 L 500,365 L 500,320 L 515,220 Z" fill="#8b7355" stroke="#6b5d4f" stroke-width="2"/>
+  <path d="M 580,175 L 625,175 L 625,220 L 610,320 L 625,365 L 580,365 L 595,320 L 580,220 Z" fill="#8b7355" stroke="#6b5d4f" stroke-width="2"/>
+  <path d="M 530,220 L 580,220 L 580,320 L 530,320 Z" fill="#5b9bd5" opacity="0.7"/>
+  <path d="M 625,175 L 800,175 L 800,365 L 625,365 Z" fill="#5b9bd5" opacity="0.55"/>
+  <path d="M 100,185 Q 120,182 140,185 M 160,188 Q 180,185 100,188 M 100,200 Q 120,197 140,200" fill="none" stroke="#3a7ca5" stroke-width="1" opacity="0.4"/>
+  <path d="M 100,355 Q 120,352 140,355 M 160,358 Q 180,355 100,358 M 100,370 Q 120,367 140,370" fill="none" stroke="#3a7ca5" stroke-width="1" opacity="0.4"/>
+  <path d="M 650,265 Q 670,262 690,265 M 710,268 Q 730,265 750,268" fill="none" stroke="#3a7ca5" stroke-width="1" opacity="0.4"/>
+  <path d="M 60,185 L 120,185" fill="none" stroke="#3a7ca5" stroke-width="2.5" marker-end="url(#arw3)"/>
+  <path d="M 330,185 L 370,185" fill="none" stroke="#3a7ca5" stroke-width="2.5" marker-end="url(#arw3)"/>
+  <path d="M 330,360 L 370,360" fill="none" stroke="#3a7ca5" stroke-width="2.5" marker-end="url(#arw3)"/>
+  <path d="M 545,270 L 575,270" fill="none" stroke="#3a7ca5" stroke-width="2.5" marker-end="url(#arw3)"/>
+  <path d="M 680,270 L 740,270" fill="none" stroke="#3a7ca5" stroke-width="2.5" marker-end="url(#arw3)"/>
+  <path d="M 425,300 L 425,275" fill="none" stroke="#3a7ca5" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arw3)"/>
+  <text x="350" y="170" text-anchor="middle" font-size="12" fill="#3a7ca5" font-family="serif">外江</text>
+  <text x="350" y="395" text-anchor="middle" font-size="12" fill="#3a7ca5" font-family="serif">内江</text>
+  <line x1="230" y1="220" x2="120" y2="165" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="20" y="153" width="110" height="24" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="75" y="169" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">鱼嘴分水堤</text>
+  <line x1="425" y1="320" x2="425" y2="350" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="370" y="350" width="100" height="24" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="420" y="366" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">飞沙堰</text>
+  <line x1="555" y1="220" x2="555" y2="155" stroke="#c8843a" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="500" y="143" width="100" height="24" rx="4" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="550" y="159" text-anchor="middle" font-size="11" fill="#7a3b14" font-family="serif">宝瓶口</text>
+  <rect x="60" y="430" width="680" height="140" rx="8" fill="#fff6df" stroke="#c8843a" stroke-width="1"/>
+  <text x="400" y="458" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">都江堰由鱼嘴分水堤、飞沙堰、宝瓶口三部分组成，巧妙利用地形分水排沙。</text>
+  <text x="400" y="480" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">鱼嘴将江水分为内江和外江，飞沙堰在洪水时溢洪排沙，宝瓶口控制水量。</text>
+  <text x="400" y="508" text-anchor="middle" font-size="13" fill="#7a3b14" font-family="serif">两千多年来一直发挥着防洪灌溉的作用，是世界水利史上的奇迹。</text>
+  <text x="400" y="540" text-anchor="middle" font-size="13" font-weight="bold" fill="#c8843a" font-family="serif">不与水硬拼，而是因势利导，让水自己找到出路。</text>
+</svg>

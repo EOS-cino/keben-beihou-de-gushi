@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="勇敢不等于冒险对比插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7a3b14" font-family="serif">连珠小故事：勇敢不等于冒险</text>
+  <line x1="200" y1="55" x2="600" y2="55" stroke="#c8843a" stroke-width="1.5"/>
+
+  <line x1="400" y1="80" x2="400" y2="520" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.5"/>
+
+  <!-- 左侧：盲目冒险 -->
+  <rect x="0" y="80" width="400" height="300" fill="#f5e0d0" opacity="0.25"/>
+  <path d="M 0 450 L 250 450 L 200 480 L 0 480 Z" fill="#d4c0a0" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 悬崖 -->
+  <path d="M 250 450 L 285 450 L 285 340 L 305 325 L 315 290 L 300 265 L 285 230 L 270 200 L 260 160 L 252 110 L 248 80 L 238 80 L 243 160 L 238 210 L 232 260 L 226 310 L 220 360 L 214 420 L 210 450 Z" fill="#a08060" stroke="#7a3b14" stroke-width="2"/>
+  <line x1="250" y1="450" x2="255" y2="420" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+  <line x1="255" y1="420" x2="250" y2="390" stroke="#7a3b14" stroke-width="1" opacity="0.5"/>
+  <line x1="260" y1="380" x2="268" y2="350" stroke="#7a3b14" stroke-width="1" opacity="0.4"/>
+
+  <!-- 冒险者 -->
+  <g transform="translate(150, 380)">
+    <rect x="-12" y="0" width="24" height="40" rx="4" fill="#c8504a" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-12" r="14" fill="#e8c4a0" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="-6" y1="-14" x2="-2" y2="-14" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="2" y1="-14" x2="6" y2="-14" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M -4 -4 Q 0 -2 4 -4" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M -8 40 L -14 62" stroke="#3a2010" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 8 40 L 16 58" stroke="#3a2010" stroke-width="6" stroke-linecap="round"/>
+    <path d="M -12 10 L -24 30" stroke="#c8504a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 12 10 L 24 25" stroke="#c8504a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 警告标志 -->
+  <g transform="translate(235, 335)">
+    <polygon points="0,-18 18,15 -18,15" fill="#e85040" stroke="#7a3b14" stroke-width="2"/>
+    <text x="0" y="9" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">!</text>
+  </g>
+  <path d="M 275 195 L 275 230 M 270 225 L 275 235 L 280 225" fill="none" stroke="#e85040" stroke-width="2"/>
+
+  <!-- 右侧：冷静判断 -->
+  <rect x="400" y="80" width="400" height="300" fill="#d8edd0" opacity="0.25"/>
+  <path d="M 400 450 L 800 450 L 800 480 L 400 480 Z" fill="#c0d8a0" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 安全小路 -->
+  <path d="M 420 470 Q 480 440 520 450 Q 580 460 620 430 Q 680 400 740 390" fill="none" stroke="#a0c080" stroke-width="20" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 420 470 Q 480 440 520 450 Q 580 460 620 430 Q 680 400 740 390" fill="none" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.4"/>
+
+  <!-- 冷静判断者 -->
+  <g transform="translate(480, 370)">
+    <rect x="-12" y="0" width="24" height="40" rx="4" fill="#4a8ab0" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="0" cy="-12" r="14" fill="#e8c4a0" stroke="#7a3b14" stroke-width="2"/>
+    <circle cx="-5" cy="-13" r="2" fill="#7a3b14"/>
+    <circle cx="5" cy="-13" r="2" fill="#7a3b14"/>
+    <path d="M -4 -6 Q 0 -4 4 -6" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M -6 40 L -6 64" stroke="#3a2010" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 6 40 L 6 64" stroke="#3a2010" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 12 10 Q 22 0 16 -12" fill="none" stroke="#4a8ab0" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="16" cy="-14" r="5" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 安全对勾 -->
+  <g transform="translate(680, 360)">
+    <circle cx="0" cy="0" r="18" fill="#5ab050" stroke="#7a3b14" stroke-width="2"/>
+    <path d="M -8 0 L -3 6 L 8 -6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 树木 -->
+  <g transform="translate(620, 420)">
+    <rect x="-3" y="0" width="6" height="30" fill="#8b6914" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-5" r="18" fill="#6a9a4a" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(750, 415)">
+    <rect x="-3" y="0" width="6" height="35" fill="#8b6914" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-8" r="20" fill="#6a9a4a" stroke="#7a3b14" stroke-width="1.5"/>
+  </g>
+
+  <!-- 标注：盲目冒险 -->
+  <line x1="150" y1="380" x2="100" y2="280" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="25" y="250" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="95" y="270" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">盲目冒险</text>
+
+  <!-- 标注：冷静判断 -->
+  <line x1="480" y1="370" x2="430" y2="280" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="355" y="250" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="425" y="270" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">冷静判断</text>
+
+  <!-- 标注：安全路径 -->
+  <line x1="620" y1="430" x2="660" y2="500" stroke="#c8843a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <rect x="575" y="500" width="140" height="30" fill="#fff6df" stroke="#c8843a" stroke-width="1.5" rx="4"/>
+  <text x="645" y="520" text-anchor="middle" font-size="15" fill="#7a3b14" font-family="serif">安全路径</text>
+
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="700" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.8"/>
+  <text x="400" y="570" text-anchor="middle" font-size="14" fill="#7a3b14" font-family="serif">左边的人盲目走向悬崖，右边的人冷静评估后选择安全路径——真正的勇敢源于判断。</text>
+</svg>

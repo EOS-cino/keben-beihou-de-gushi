@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="宇航员在太空中用特殊方式吃饭喝水插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">太空吃饭趣事</text>
+  <line x1="330" y1="58" x2="470" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 三种太空食物演变 -->
+
+  <!-- 阶段1：牙膏管糊糊 -->
+  <g transform="translate(140, 180)">
+    <rect x="-90" y="-50" width="180" height="160" rx="10" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">早期：牙膏管糊糊</text>
+    <!-- 牙膏管 -->
+    <rect x="-15" y="-10" width="30" height="60" rx="4" fill="#e0e0e0" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-15" y="-10" width="30" height="12" fill="#c84a3a"/>
+    <!-- 管口 -->
+    <rect x="-6" y="50" width="12" height="8" fill="#7a3b14"/>
+    <!-- 挤出的糊糊 -->
+    <ellipse cx="0" cy="65" rx="5" ry="3" fill="#c8843a" opacity="0.7"/>
+    <!-- 手 -->
+    <ellipse cx="-20" cy="20" rx="10" ry="14" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <ellipse cx="20" cy="20" rx="10" ry="14" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <text x="0" y="95" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">挤着吃，味道一般</text>
+  </g>
+
+  <!-- 箭头1 -->
+  <path d="M240 180 L290 180" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#arr1)"/>
+
+  <!-- 阶段2：脱水食物 -->
+  <g transform="translate(400, 180)">
+    <rect x="-90" y="-50" width="180" height="160" rx="10" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">中期：脱水食品</text>
+    <!-- 食物袋 -->
+    <rect x="-25" y="-10" width="50" height="55" rx="4" fill="#6a8d3f" opacity="0.7" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-25" y="-10" width="50" height="12" fill="#4a6a2f"/>
+    <!-- 注射器注水 -->
+    <rect x="15" y="-30" width="8" height="30" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1"/>
+    <rect x="13" y="-35" width="12" height="6" fill="#7a3b14"/>
+    <path d="M15 -5 L-5 0" stroke="#7ab8d8" stroke-width="2"/>
+    <!-- 水滴 -->
+    <circle cx="-8" cy="5" r="3" fill="#7ab8d8" opacity="0.6"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">注水揉一揉再吃</text>
+    <text x="0" y="88" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">选择变多了</text>
+  </g>
+
+  <!-- 箭头2 -->
+  <path d="M500 180 L550 180" stroke="#c8843a" stroke-width="3" fill="none" marker-end="url(#arr1)"/>
+
+  <!-- 阶段3：丰富太空餐 -->
+  <g transform="translate(660, 180)">
+    <rect x="-90" y="-50" width="180" height="160" rx="10" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="serif" font-size="14" font-weight="bold" fill="#7a3b14">现在：丰富太空餐</text>
+    <!-- 餐盒 -->
+    <rect x="-35" y="-5" width="70" height="50" rx="4" fill="#fff" stroke="#7a3b14" stroke-width="1.5"/>
+    <rect x="-35" y="-5" width="70" height="10" fill="#c84a3a"/>
+    <!-- 菜品 -->
+    <ellipse cx="-18" cy="20" rx="10" ry="7" fill="#c8843a" opacity="0.7"/>
+    <ellipse cx="5" cy="20" rx="10" ry="7" fill="#6a8d3f" opacity="0.7"/>
+    <ellipse cx="22" cy="20" rx="8" ry="6" fill="#e07856" opacity="0.7"/>
+    <!-- 筷子 -->
+    <line x1="-30" y1="55" x2="-20" y2="65" stroke="#7a3b14" stroke-width="2"/>
+    <line x1="-25" y1="55" x2="-15" y2="65" stroke="#7a3b14" stroke-width="2"/>
+    <text x="0" y="88" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">宫保鸡丁、鱼香肉丝</text>
+  </g>
+
+  <!-- 底部：吃饭注意事项 -->
+  <g transform="translate(0, 380)">
+    <rect x="60" y="0" width="680" height="170" rx="10" fill="#fff6df" stroke="#c8843a" stroke-width="2"/>
+    <text x="400" y="30" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#7a3b14">太空吃饭的三个"必须"</text>
+
+    <!-- 注意1 -->
+    <g transform="translate(120, 60)">
+      <circle cx="0" cy="0" r="18" fill="#c84a3a" opacity="0.8"/>
+      <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#fff">1</text>
+      <text x="30" y="-5" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">食物必须固定</text>
+      <text x="30" y="15" font-family="serif" font-size="11" fill="#7a3b14">用磁铁盘子或绳子拴住</text>
+      <text x="30" y="32" font-family="serif" font-size="11" fill="#7a3b14">不然食物会飘走</text>
+    </g>
+
+    <!-- 注意2 -->
+    <g transform="translate(400, 60)">
+      <circle cx="0" cy="0" r="18" fill="#6a8d3f" opacity="0.8"/>
+      <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#fff">2</text>
+      <text x="30" y="-5" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">喝水必须用吸管</text>
+      <text x="30" y="15" font-family="serif" font-size="11" fill="#7a3b14">用带吸管的袋子挤着喝</text>
+      <text x="30" y="32" font-family="serif" font-size="11" fill="#7a3b14">喝完要夹紧夹子</text>
+    </g>
+
+    <!-- 注意3 -->
+    <g transform="translate(620, 60)">
+      <circle cx="0" cy="0" r="18" fill="#7ab8d8" opacity="0.8"/>
+      <text x="0" y="6" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="#fff">3</text>
+      <text x="-60" y="-5" font-family="serif" font-size="13" font-weight="bold" fill="#7a3b14">不能有碎屑</text>
+      <text x="-60" y="15" font-family="serif" font-size="11" fill="#7a3b14">碎屑飘进仪器会出故障</text>
+      <text x="-60" y="32" font-family="serif" font-size="11" fill="#7a3b14">所以不吃面包吃玉米饼</text>
+    </g>
+
+    <text x="400" y="140" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">这些有趣的规矩，都是科学家一次次实验才摸索出来的</text>
+  </g>
+
+  <defs>
+    <marker id="arr1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#c8843a"/>
+    </marker>
+  </defs>
+</svg>

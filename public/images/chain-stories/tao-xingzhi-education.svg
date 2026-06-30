@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="陶行知教育理念插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">陶行知的教育理念</text>
+  <text x="400" y="74" text-anchor="middle" font-family="serif" font-size="16" fill="#8d5a36">人民教育家，"教学做合一"</text>
+
+  <!-- 陶行知头像 -->
+  <g transform="translate(400,180)">
+    <circle r="55" fill="#f4c8a0" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 头发 -->
+    <path d="M-50 -15 Q-55 -50 -20 -55 Q0 -60 20 -55 Q55 -50 50 -15 Q45 -35 25 -38 Q0 -42 -25 -38 Q-45 -35 -50 -15 Z" fill="#3a2a1a"/>
+    <!-- 眼睛 -->
+    <circle cx="-18" cy="-5" r="3" fill="#3a2a1a"/>
+    <circle cx="18" cy="-5" r="3" fill="#3a2a1a"/>
+    <!-- 眼镜 -->
+    <circle cx="-18" cy="-5" r="12" fill="none" stroke="#8d5a36" stroke-width="1.5"/>
+    <circle cx="18" cy="-5" r="12" fill="none" stroke="#8d5a36" stroke-width="1.5"/>
+    <line x1="-6" y1="-5" x2="6" y2="-5" stroke="#8d5a36" stroke-width="1.5"/>
+    <!-- 嘴 -->
+    <path d="M-10 20 Q0 25 10 20" fill="none" stroke="#8d5a36" stroke-width="2"/>
+    <!-- 身体 -->
+    <path d="M-40 55 L-50 120 L50 120 L40 55 Z" fill="#4a6a2f"/>
+    <path d="M-8 55 L0 75 L8 55 Z" fill="#fef9ed"/>
+  </g>
+  <text x="400" y="320" text-anchor="middle" font-family="serif" font-size="18" fill="#7a3b14" font-weight="bold">陶行知（1891-1946）</text>
+
+  <!-- 三个理念 -->
+  <!-- 理念1 -->
+  <g transform="translate(160,400)">
+    <rect x="-90" y="0" width="180" height="80" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">生活即教育</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">教育不只在学校</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">生活中处处是学习</text>
+  </g>
+
+  <!-- 理念2 -->
+  <g transform="translate(400,400)">
+    <rect x="-90" y="0" width="180" height="80" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">教学做合一</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">在做事中学习</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">边做边想边学</text>
+  </g>
+
+  <!-- 理念3 -->
+  <g transform="translate(640,400)">
+    <rect x="-90" y="0" width="180" height="80" rx="10" fill="#fef0d8" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="28" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14" font-weight="bold">四颗糖故事</text>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">用尊重引导孩子</text>
+    <text x="0" y="68" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">不用惩罚教育</text>
+  </g>
+
+  <!-- 四颗糖 -->
+  <g transform="translate(640,360)">
+    <circle cx="-18" cy="0" r="6" fill="#e07856"/>
+    <circle cx="-6" cy="0" r="6" fill="#f4b942"/>
+    <circle cx="6" cy="0" r="6" fill="#6a8d3f"/>
+    <circle cx="18" cy="0" r="6" fill="#7ab8d8"/>
+  </g>
+
+  <!-- 底部 -->
+  <rect x="100" y="510" width="600" height="70" rx="10" fill="#fef0d8" opacity="0.6"/>
+  <text x="400" y="538" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">陶行知到农村办学，让孩子上午上课、下午劳动</text>
+  <text x="400" y="562" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a" font-weight="bold">"千教万教人求真，千学万学学做真人"</text>
+</svg>

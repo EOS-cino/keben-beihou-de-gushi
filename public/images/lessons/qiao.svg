@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="洪水中老支书指挥村民过木桥、最后牺牲的感人场景插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="44" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">桥</text>
+  <line x1="385" y1="58" x2="415" y2="58" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 暴雨天空 -->
+  <rect x="0" y="72" width="800" height="180" fill="#4a4a5a" opacity="0.15"/>
+  <!-- 雨线 -->
+  <line x1="100" y1="80" x2="90" y2="120" stroke="#7ab8d8" stroke-width="1" opacity="0.4"/>
+  <line x1="200" y1="75" x2="190" y2="115" stroke="#7ab8d8" stroke-width="1" opacity="0.4"/>
+  <line x1="350" y1="80" x2="340" y2="120" stroke="#7ab8d8" stroke-width="1" opacity="0.4"/>
+  <line x1="500" y1="75" x2="490" y2="115" stroke="#7ab8d8" stroke-width="1" opacity="0.4"/>
+  <line x1="650" y1="80" x2="640" y2="120" stroke="#7ab8d8" stroke-width="1" opacity="0.4"/>
+  <line x1="150" y1="100" x2="140" y2="140" stroke="#7ab8d8" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="95" x2="390" y2="135" stroke="#7ab8d8" stroke-width="1" opacity="0.3"/>
+  <line x1="600" y1="100" x2="590" y2="140" stroke="#7ab8d8" stroke-width="1" opacity="0.3"/>
+
+  <!-- 山洪（咆哮的洪水） -->
+  <path d="M0 250 Q100 240 200 250 Q300 245 400 250 Q500 240 600 250 Q700 245 800 250 L800 420 L0 420 Z" fill="#8d5a36" opacity="0.4"/>
+  <path d="M0 260 Q100 255 200 260 Q300 255 400 260 Q500 255 600 260 Q700 255 800 260" fill="none" stroke="#c8843a" stroke-width="2" opacity="0.5"/>
+  <!-- 浪花 -->
+  <path d="M100 270 Q110 260 120 270 Q130 260 140 270" fill="none" stroke="#fff6df" stroke-width="1.5" opacity="0.5"/>
+  <path d="M400 265 Q410 255 420 265 Q430 255 440 265" fill="none" stroke="#fff6df" stroke-width="1.5" opacity="0.5"/>
+  <path d="M600 275 Q610 265 620 275 Q630 265 640 275" fill="none" stroke="#fff6df" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- 木桥 -->
+  <rect x="250" y="320" width="300" height="10" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+  <!-- 桥桩 -->
+  <rect x="270" y="330" width="8" height="60" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+  <rect x="520" y="330" width="8" height="60" fill="#8d5a36" stroke="#7a3b14" stroke-width="1"/>
+  <!-- 桥面木板 -->
+  <line x1="280" y1="320" x2="280" y2="330" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="320" y1="320" x2="320" y2="330" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="360" y1="320" x2="360" y2="330" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="400" y1="320" x2="400" y2="330" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="440" y1="320" x2="440" y2="330" stroke="#7a3b14" stroke-width="1"/>
+  <line x1="480" y1="320" x2="480" y2="330" stroke="#7a3b14" stroke-width="1"/>
+
+  <!-- 老支书（像山一样站在桥头） -->
+  <g transform="translate(250, 270)">
+    <!-- 身体（挺直） -->
+    <ellipse cx="0" cy="20" rx="16" ry="25" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-12" r="13" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 头发（花白） -->
+    <path d="M-10 -18 Q-12 -25 0 -26 Q12 -25 10 -18" fill="#e0e0e0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 眼睛（严厉坚定） -->
+    <circle cx="-4" cy="-12" r="1.5" fill="#7a3b14"/>
+    <circle cx="4" cy="-12" r="1.5" fill="#7a3b14"/>
+    <!-- 嘴（大喊） -->
+    <ellipse cx="0" cy="-5" rx="3" ry="2.5" fill="#7a3b14"/>
+    <!-- 手臂（指挥） -->
+    <path d="M-12 5 Q-25 0 -30 -10" fill="none" stroke="#4a6a2f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M12 5 Q25 0 30 -10" fill="none" stroke="#4a6a2f" stroke-width="6" stroke-linecap="round"/>
+    <!-- 雨水在脸上 -->
+    <line x1="-8" y1="-8" x2="-10" y2="0" stroke="#7ab8d8" stroke-width="0.8" opacity="0.5"/>
+    <line x1="8" y1="-8" x2="6" y2="0" stroke="#7ab8d8" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- 对话：党员排后面 -->
+  <path d="M225 255 Q200 240 180 220 Q160 210 150 200" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <rect x="60" y="175" width="160" height="40" rx="6" fill="#fff6df" stroke="#c8843a" stroke-width="1.5"/>
+  <text x="140" y="193" text-anchor="middle" font-family="serif" font-size="12" fill="#7a3b14">"党员排在后边！"</text>
+  <text x="140" y="209" text-anchor="middle" font-family="serif" font-size="11" fill="#c8843a">"老人孩子先走！"</text>
+
+  <!-- 过桥的村民（排队） -->
+  <g transform="translate(330, 300)">
+    <ellipse cx="0" cy="10" rx="10" ry="13" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-5" r="8" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 背着孩子 -->
+    <ellipse cx="0" cy="-15" rx="7" ry="8" fill="#e07856" stroke="#7a3b14" stroke-width="1" opacity="0.8"/>
+    <circle cx="0" cy="-22" r="5" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <g transform="translate(380, 300)">
+    <ellipse cx="0" cy="10" rx="10" ry="13" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-5" r="8" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <g transform="translate(430, 300)">
+    <ellipse cx="0" cy="10" rx="10" ry="13" fill="#6a8d3f" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-5" r="8" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 等待过桥的村民群 -->
+  <g transform="translate(580, 310)">
+    <ellipse cx="0" cy="10" rx="9" ry="12" fill="#4a6a2f" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-3" r="7" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <g transform="translate(620, 315)">
+    <ellipse cx="0" cy="10" rx="9" ry="12" fill="#c8843a" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-3" r="7" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+  <g transform="translate(660, 310)">
+    <ellipse cx="0" cy="10" rx="9" ry="12" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="0" cy="-3" r="7" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 儿子（被揪出来） -->
+  <g transform="translate(540, 310)">
+    <ellipse cx="0" cy="10" rx="10" ry="13" fill="#8d5a36" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="-5" r="8" fill="#e8c4a0" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="-3" cy="-6" r="1" fill="#7a3b14"/>
+    <circle cx="3" cy="-6" r="1" fill="#7a3b14"/>
+  </g>
+
+  <!-- 标注：像一座山 -->
+  <line x1="250" y1="250" x2="200" y2="130" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="130" y="108" width="120" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="190" y="126" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">他像一座山</text>
+
+  <!-- 标注：窄木桥 -->
+  <line x1="400" y1="330" x2="450" y2="370" stroke="#7a3b14" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="400" y="375" width="100" height="26" fill="#fff6df" stroke="#c8843a" rx="4"/>
+  <text x="450" y="393" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">窄窄木桥</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="470" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">老支书用自己和儿子的生命</text>
+  <text x="400" y="495" text-anchor="middle" font-family="serif" font-size="15" font-weight="bold" fill="#7a3b14">架起了一座生命之桥</text>
+  <text x="400" y="530" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">党员排在后边——大义灭亲，舍己为人</text>
+  <text x="400" y="560" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">短句·紧张·悲壮——小小说的力量</text>
+</svg>

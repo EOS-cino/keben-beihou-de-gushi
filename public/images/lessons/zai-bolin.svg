@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="一战时柏林火车车厢里老兵与老妇人的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="48" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">在柏林 · 沉默的车厢</text>
+  <line x1="280" y1="62" x2="520" y2="62" stroke="#8d5a36" stroke-width="2"/>
+
+  <!-- 车窗背景（灰暗的战争天空） -->
+  <rect x="60" y="100" width="680" height="280" fill="#c8d0d8" opacity="0.5"/>
+  <!-- 窗外景色（荒凉） -->
+  <g opacity="0.4">
+    <rect x="60" y="280" width="680" height="100" fill="#8d8a7a"/>
+    <!-- 废墟剪影 -->
+    <path d="M100 280 L100 240 L130 240 L130 220 L160 220 L160 250 L190 250 L190 280 Z" fill="#6a6a5a"/>
+    <path d="M300 280 L300 230 L340 230 L340 250 L370 250 L370 220 L400 220 L400 280 Z" fill="#6a6a5a"/>
+    <path d="M550 280 L550 245 L580 245 L580 225 L610 225 L610 255 L640 255 L640 280 Z" fill="#6a6a5a"/>
+  </g>
+
+  <!-- 车窗框 -->
+  <rect x="60" y="100" width="680" height="280" fill="none" stroke="#5a3a1a" stroke-width="4" rx="4"/>
+  <line x1="400" y1="100" x2="400" y2="380" stroke="#5a3a1a" stroke-width="3"/>
+
+  <!-- 车厢地板 -->
+  <rect x="0" y="380" width="800" height="220" fill="#8d5a36"/>
+  <rect x="0" y="380" width="800" height="10" fill="#5a3a1a"/>
+
+  <!-- 座椅 -->
+  <rect x="80" y="380" width="200" height="80" fill="#6a4a2a"/>
+  <rect x="80" y="370" width="200" height="20" fill="#8d5a36"/>
+  <rect x="520" y="380" width="200" height="80" fill="#6a4a2a"/>
+  <rect x="520" y="370" width="200" height="20" fill="#8d5a36"/>
+
+  <!-- 老妇人（左侧） -->
+  <g>
+    <!-- 身体 -->
+    <path d="M150 380 L155 280 L195 280 L200 380 Z" fill="#4a4a4a"/>
+    <!-- 围巾 -->
+    <ellipse cx="177" cy="285" rx="22" ry="8" fill="#5a3a3a"/>
+    <!-- 头 -->
+    <circle cx="177" cy="260" r="20" fill="#e8d8c8"/>
+    <!-- 白发 -->
+    <path d="M158 255 Q177 238 196 255 L196 262 L158 262 Z" fill="#e8e0d8"/>
+    <!-- 眼神空洞 -->
+    <circle cx="170" cy="260" r="2" fill="#8a8a8a"/>
+    <circle cx="184" cy="260" r="2" fill="#8a8a8a"/>
+    <!-- 嘴（微动，数数） -->
+    <ellipse cx="177" cy="270" rx="4" ry="2" fill="#7a3b14"/>
+    <!-- 手（抱包袱） -->
+    <ellipse cx="177" cy="320" rx="25" ry="18" fill="#5a5a4a"/>
+    <path d="M155 310 Q177 300 199 310 L199 325 L155 325 Z" fill="#4a4a3a"/>
+  </g>
+  <!-- 数数文字 -->
+  <text x="120" y="230" font-family="serif" font-size="20" fill="#8d5a36" opacity="0.7">"一、二、三……"</text>
+
+  <!-- 老兵（老妇人旁边） -->
+  <g>
+    <!-- 身体（军装） -->
+    <path d="M260 380 L265 285 L305 285 L310 380 Z" fill="#4a6a2f"/>
+    <!-- 军装纽扣 -->
+    <circle cx="287" cy="310" r="2" fill="#c8a83a"/>
+    <circle cx="287" cy="325" r="2" fill="#c8a83a"/>
+    <circle cx="287" cy="340" r="2" fill="#c8a83a"/>
+    <!-- 伤疤 -->
+    <path d="M275 295 L280 305" stroke="#c84a3a" stroke-width="1.5" opacity="0.6"/>
+    <!-- 头 -->
+    <circle cx="287" cy="265" r="18" fill="#e8d8c8"/>
+    <!-- 军帽 -->
+    <path d="M270 260 Q287 245 304 260 L304 265 L270 265 Z" fill="#3a5a1f"/>
+    <rect x="280" y="252" width="14" height="6" fill="#3a5a1f"/>
+    <!-- 表情（平静疲惫） -->
+    <circle cx="281" cy="265" r="1.5" fill="#2a2a2a"/>
+    <circle cx="293" cy="265" r="1.5" fill="#2a2a2a"/>
+    <line x1="280" y1="273" x2="294" y2="273" stroke="#7a3b14" stroke-width="1.2"/>
+    <!-- 手（放膝上） -->
+    <ellipse cx="287" cy="370" rx="12" ry="6" fill="#e8d8c8"/>
+  </g>
+
+  <!-- 姑娘们（右侧，低头沉默） -->
+  <g>
+    <!-- 姑娘1 -->
+    <path d="M560 380 L565 300 L595 300 L600 380 Z" fill="#c84a3a"/>
+    <circle cx="580" cy="280" r="16" fill="#f0d0a8"/>
+    <path d="M565 275 Q580 260 595 275 L595 282 L565 282 Z" fill="#8d5a36"/>
+    <!-- 低头 -->
+    <circle cx="575" cy="285" r="1.5" fill="#2a2a2a"/>
+    <circle cx="585" cy="285" r="1.5" fill="#2a2a2a"/>
+    <path d="M575 292 Q580 294 585 292" fill="none" stroke="#7a3b14" stroke-width="1"/>
+    <!-- 姑娘2 -->
+    <path d="M630 380 L635 300 L665 300 L670 380 Z" fill="#7ab8d8"/>
+    <circle cx="650" cy="280" r="16" fill="#f0d0a8"/>
+    <path d="M635 275 Q650 260 665 275 L665 282 L635 282 Z" fill="#5a3a1a"/>
+    <circle cx="645" cy="285" r="1.5" fill="#2a2a2a"/>
+    <circle cx="655" cy="285" r="1.5" fill="#2a2a2a"/>
+    <path d="M645 292 Q650 294 655 292" fill="none" stroke="#7a3b14" stroke-width="1"/>
+  </g>
+
+  <!-- 沉默符号 -->
+  <text x="450" y="350" text-anchor="middle" font-family="serif" font-size="22" fill="#8d5a36" opacity="0.5">……</text>
+
+  <!-- 标注 -->
+  <rect x="130" y="200" width="100" height="22" fill="#fff6df" stroke="#8d5a36" rx="4"/>
+  <text x="180" y="215" text-anchor="middle" font-family="serif" font-size="12" fill="#8d5a36">老妇人（数数）</text>
+
+  <rect x="245" y="225" width="80" height="22" fill="#fff6df" stroke="#4a6a2f" rx="4"/>
+  <text x="285" y="240" text-anchor="middle" font-family="serif" font-size="12" fill="#4a6a2f">老兵</text>
+
+  <rect x="560" y="245" width="120" height="22" fill="#fff6df" stroke="#c84a3a" rx="4"/>
+  <text x="620" y="260" text-anchor="middle" font-family="serif" font-size="12" fill="#c84a3a">姑娘们（沉默）</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="15" fill="#7a3b14">"三个儿子都阵亡了"——一句话，整个车厢沉默了</text>
+</svg>

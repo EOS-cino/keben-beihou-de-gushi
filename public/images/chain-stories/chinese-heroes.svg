@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="中国历史英雄人物长卷插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="42" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">连珠小故事：中国历史上的英雄人物</text>
+  <line x1="160" y1="55" x2="640" y2="55" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 卷轴边框 -->
+  <rect x="40" y="80" width="720" height="440" fill="none" stroke="#c8843a" stroke-width="2" rx="6"/>
+  <!-- 卷轴轴 -->
+  <rect x="30" y="70" width="740" height="14" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2" rx="4"/>
+  <rect x="30" y="516" width="740" height="14" fill="#8d5a36" stroke="#5a3a1a" stroke-width="2" rx="4"/>
+
+  <!-- 时间线 -->
+  <line x1="80" y1="300" x2="720" y2="300" stroke="#c8843a" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="720,300 708,293 708,307" fill="#c8843a"/>
+
+  <!-- 岳飞（南宋） -->
+  <g transform="translate(150, 200)">
+    <circle cx="0" cy="0" r="8" fill="#c84a3a"/>
+    <!-- 人物 -->
+    <path d="M-15 30 L-12 80 L12 80 L15 30 Z" fill="#4a6a2f" stroke="#3a5a1f" stroke-width="1.5"/>
+    <circle cx="0" cy="15" r="12" fill="#f0d0a8"/>
+    <path d="M-12 15 Q-12 3 0 3 Q12 3 12 15" fill="#5a3a1a"/>
+    <!-- 盔缨 -->
+    <path d="M-10 3 L0 -8 L10 3" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <circle cx="-3" cy="15" r="1.5" fill="#2a2a2a"/>
+    <circle cx="3" cy="15" r="1.5" fill="#2a2a2a"/>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">岳飞</text>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">南宋·精忠报国</text>
+  </g>
+
+  <!-- 戚继光（明朝） -->
+  <g transform="translate(330, 200)">
+    <circle cx="0" cy="0" r="8" fill="#c8843a"/>
+    <path d="M-15 30 L-12 80 L12 80 L15 30 Z" fill="#8d5a36" stroke="#5a3a1a" stroke-width="1.5"/>
+    <circle cx="0" cy="15" r="12" fill="#f0d0a8"/>
+    <path d="M-12 15 Q-12 3 0 3 Q12 3 12 15" fill="#3a2a1a"/>
+    <rect x="-10" y="3" width="20" height="4" fill="#c84a3a"/>
+    <circle cx="-3" cy="15" r="1.5" fill="#2a2a2a"/>
+    <circle cx="3" cy="15" r="1.5" fill="#2a2a2a"/>
+    <!-- 剑 -->
+    <line x1="15" y1="50" x2="30" y2="20" stroke="#a8d0e8" stroke-width="3"/>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">戚继光</text>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">明朝·抗倭</text>
+  </g>
+
+  <!-- 钱学森（现代） -->
+  <g transform="translate(510, 200)">
+    <circle cx="0" cy="0" r="8" fill="#6a8d3f"/>
+    <path d="M-15 30 L-12 80 L12 80 L15 30 Z" fill="#fef9ed" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="15" r="12" fill="#f0d0a8"/>
+    <path d="M-12 15 Q-12 3 0 3 Q12 3 12 15" fill="#2a2a2a"/>
+    <circle cx="-3" cy="15" r="4" fill="none" stroke="#5a3a1a" stroke-width="1"/>
+    <circle cx="3" cy="15" r="4" fill="none" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 火箭 -->
+    <path d="M18 60 L22 35 L26 60 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">钱学森</text>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">现代·航天</text>
+  </g>
+
+  <!-- 张桂梅（当代） -->
+  <g transform="translate(660, 200)">
+    <circle cx="0" cy="0" r="8" fill="#e07856"/>
+    <path d="M-15 30 L-12 80 L12 80 L15 30 Z" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <circle cx="0" cy="15" r="12" fill="#f0d0a8"/>
+    <path d="M-12 15 Q-12 3 0 3 Q12 3 12 15" fill="#5a3a1a"/>
+    <circle cx="-3" cy="15" r="1.5" fill="#2a2a2a"/>
+    <circle cx="3" cy="15" r="1.5" fill="#2a2a2a"/>
+    <!-- 书本 -->
+    <rect x="10" y="45" width="14" height="10" fill="#a8d0e8" stroke="#7a3b14" stroke-width="1"/>
+    <text x="0" y="105" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14">张桂梅</text>
+    <text x="0" y="120" text-anchor="middle" font-family="serif" font-size="10" fill="#8d5a36">当代·教育</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="60" y="545" width="680" height="40" fill="#fff6df" stroke="#c8843a" stroke-width="1" rx="6" opacity="0.85"/>
+  <text x="400" y="570" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从岳飞到张桂梅——英雄的模样在变，挺身而出的精神从未改变。</text>
+</svg>

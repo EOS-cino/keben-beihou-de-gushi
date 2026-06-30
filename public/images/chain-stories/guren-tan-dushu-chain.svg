@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="古人怎样读书插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <!-- 标题 -->
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">古人怎样读书</text>
+  <line x1="320" y1="60" x2="480" y2="60" stroke="#c8843a" stroke-width="2"/>
+
+  <!-- 时间轴 -->
+  <line x1="60" y1="330" x2="740" y2="330" stroke="#c8843a" stroke-width="3"/>
+  <circle cx="140" cy="330" r="8" fill="#e8a838" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="340" cy="330" r="8" fill="#e07856" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="540" cy="330" r="8" fill="#4a90b8" stroke="#7a3b14" stroke-width="2"/>
+  <circle cx="680" cy="330" r="8" fill="#2d6a4f" stroke="#7a3b14" stroke-width="2"/>
+
+  <!-- 节点1：竹简时代 -->
+  <g>
+    <rect x="50" y="110" width="180" height="190" fill="#fff6df" stroke="#e8a838" stroke-width="2.5" rx="8"/>
+    <text x="140" y="135" text-anchor="middle" font-family="serif" font-size="14" fill="#c8843a" font-weight="bold">竹简时代</text>
+    <!-- 竹简 -->
+    <g transform="translate(100 155)">
+      <rect x="0" y="0" width="8" height="80" fill="#e8a838" stroke="#7a3b14" stroke-width="1" rx="1"/>
+      <rect x="10" y="0" width="8" height="80" fill="#e8a838" stroke="#7a3b14" stroke-width="1" rx="1"/>
+      <rect x="20" y="0" width="8" height="80" fill="#e8a838" stroke="#7a3b14" stroke-width="1" rx="1"/>
+      <rect x="30" y="0" width="8" height="80" fill="#e8a838" stroke="#7a3b14" stroke-width="1" rx="1"/>
+      <rect x="40" y="0" width="8" height="80" fill="#e8a838" stroke="#7a3b14" stroke-width="1" rx="1"/>
+      <rect x="50" y="0" width="8" height="80" fill="#e8a838" stroke="#7a3b14" stroke-width="1" rx="1"/>
+      <!-- 串绳 -->
+      <line x1="0" y1="15" x2="58" y2="15" stroke="#8d5a36" stroke-width="2"/>
+      <line x1="0" y1="65" x2="58" y2="65" stroke="#8d5a36" stroke-width="2"/>
+      <!-- 文字 -->
+      <text x="29" y="40" text-anchor="middle" font-family="serif" font-size="10" fill="#5a3a1a">学</text>
+    </g>
+    <text x="140" y="265" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">又重又贵</text>
+    <text x="140" y="280" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"学富五车"</text>
+  </g>
+
+  <!-- 节点2：造纸术+活字印刷 -->
+  <g>
+    <rect x="250" y="110" width="180" height="190" fill="#fff6df" stroke="#e07856" stroke-width="2.5" rx="8"/>
+    <text x="340" y="135" text-anchor="middle" font-family="serif" font-size="14" fill="#e07856" font-weight="bold">纸张普及</text>
+    <!-- 线装书 -->
+    <g transform="translate(300 155)">
+      <rect x="0" y="0" width="80" height="60" fill="#fff6df" stroke="#7a3b14" stroke-width="2" rx="2"/>
+      <line x1="10" y1="0" x2="10" y2="60" stroke="#7a3b14" stroke-width="1" stroke-dasharray="2,2"/>
+      <line x1="20" y1="15" x2="70" y2="15" stroke="#5a3a1a" stroke-width="1"/>
+      <line x1="20" y1="25" x2="70" y2="25" stroke="#5a3a1a" stroke-width="1"/>
+      <line x1="20" y1="35" x2="70" y2="35" stroke="#5a3a1a" stroke-width="1"/>
+      <line x1="20" y1="45" x2="70" y2="45" stroke="#5a3a1a" stroke-width="1"/>
+    </g>
+    <text x="340" y="245" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">蔡伦造纸</text>
+    <text x="340" y="265" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">毕昇活字印刷</text>
+    <text x="340" y="285" text-anchor="middle" font-family="serif" font-size="11" fill="#e07856">书变轻变便宜</text>
+  </g>
+
+  <!-- 节点3：诵读法 -->
+  <g>
+    <rect x="450" y="110" width="180" height="190" fill="#fff6df" stroke="#4a90b8" stroke-width="2.5" rx="8"/>
+    <text x="540" y="135" text-anchor="middle" font-family="serif" font-size="14" fill="#4a90b8" font-weight="bold">诵读之法</text>
+    <!-- 摇头读书的小人 -->
+    <g transform="translate(540 175)">
+      <rect x="-15" y="20" width="30" height="35" rx="4" fill="#2d6a4f" stroke="#7a3b14" stroke-width="1.5"/>
+      <circle cx="0" cy="10" r="14" fill="#e8c9a0" stroke="#7a3b14" stroke-width="1.5"/>
+      <path d="M-12 7 q12 -8 24 0" fill="#3a2a1a"/>
+      <!-- 闭眼吟诵 -->
+      <path d="M-6 10 q3 2 5 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+      <path d="M2 10 q3 2 5 0" stroke="#7a3b14" stroke-width="1" fill="none"/>
+      <!-- 嘴 -->
+      <ellipse cx="0" cy="16" rx="3" ry="2" fill="#7a3b14"/>
+      <!-- 摇头弧线 -->
+      <path d="M-20 5 q20 -8 40 0" stroke="#e07856" stroke-width="1.5" fill="none" stroke-dasharray="3,2"/>
+      <!-- 声波 -->
+      <text x="22" y="15" font-family="serif" font-size="14" fill="#4a90b8">之乎</text>
+      <text x="-38" y="15" font-family="serif" font-size="14" fill="#4a90b8">者也</text>
+    </g>
+    <text x="540" y="265" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">大声读出声</text>
+    <text x="540" y="280" text-anchor="middle" font-family="serif" font-size="11" fill="#4a90b8">心到·眼到·口到</text>
+  </g>
+
+  <!-- 节点4：抄书法 -->
+  <g>
+    <rect x="590" y="110" width="180" height="190" fill="#fff6df" stroke="#2d6a4f" stroke-width="2.5" rx="8"/>
+    <text x="680" y="135" text-anchor="middle" font-family="serif" font-size="14" fill="#2d6a4f" font-weight="bold">抄书之法</text>
+    <!-- 毛笔和纸 -->
+    <rect x="630" y="165" width="80" height="55" fill="#fff6df" stroke="#7a3b14" stroke-width="1.5" rx="2"/>
+    <line x1="640" y1="178" x2="700" y2="178" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="640" y1="188" x2="700" y2="188" stroke="#5a3a1a" stroke-width="1"/>
+    <line x1="640" y1="198" x2="695" y2="198" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- 毛笔 -->
+    <line x1="660" y1="170" x2="675" y2="155" stroke="#5a3a1a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M675 155 L680 148 L682 152 Z" fill="#3a2a1a"/>
+    <!-- 墨迹 -->
+    <circle cx="660" cy="175" r="2" fill="#3a2a1a"/>
+    <text x="680" y="265" text-anchor="middle" font-family="serif" font-size="11" fill="#7a3b14">"七录斋"张溥</text>
+    <text x="680" y="280" text-anchor="middle" font-family="serif" font-size="11" fill="#2d6a4f">抄七遍才记住</text>
+  </g>
+
+  <!-- 底部总结 -->
+  <rect x="100" y="380" width="600" height="170" fill="#f5ecd8" stroke="#c8843a" stroke-width="2.5" rx="10"/>
+  <text x="400" y="415" text-anchor="middle" font-family="serif" font-size="20" fill="#7a3b14" font-weight="bold">古人读书的态度</text>
+  <text x="400" y="450" text-anchor="middle" font-family="serif" font-size="15" fill="#2d6a4f">不耻下问——不懂就问，不装懂</text>
+  <text x="400" y="478" text-anchor="middle" font-family="serif" font-size="15" fill="#e07856">知之为知之——诚实是学习的基础</text>
+  <text x="400" y="506" text-anchor="middle" font-family="serif" font-size="15" fill="#4a90b8">心到最急——读书要全身心投入</text>
+  <text x="400" y="535" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">读书不是为了考试，而是为了明白道理、做一个更好的人</text>
+
+  <!-- 底部说明 -->
+  <text x="400" y="580" text-anchor="middle" font-family="serif" font-size="14" fill="#7a3b14">从竹简到纸张，从诵读到抄写——方法在变，态度不变</text>
+</svg>

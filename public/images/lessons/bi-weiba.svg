@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="猴子、兔子、松鼠、公鸡、鸭子、孔雀比尾巴的插画">
+  <rect width="800" height="600" fill="#fef9ed"/>
+  <text x="400" y="46" text-anchor="middle" font-family="serif" font-size="30" font-weight="bold" fill="#7a3b14">比尾巴</text>
+
+  <!-- 地面 -->
+  <rect x="0" y="440" width="800" height="160" fill="#c8843a" opacity="0.25"/>
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#8d5a36" stroke-width="2"/>
+
+  <!-- 猴子（尾巴长） -->
+  <g transform="translate(120,360)">
+    <!-- 树枝 -->
+    <line x1="-30" y1="-40" x2="60" y2="-50" stroke="#7a3b14" stroke-width="5" stroke-linecap="round"/>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="28" ry="32" fill="#8d5a36"/>
+    <ellipse cx="0" cy="5" rx="20" ry="22" fill="#c8a070"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-40" r="22" fill="#8d5a36"/>
+    <circle cx="0" cy="-36" r="16" fill="#c8a070"/>
+    <!-- 脸 -->
+    <circle cx="-7" cy="-40" r="3" fill="#1a1a1a"/>
+    <circle cx="7" cy="-40" r="3" fill="#1a1a1a"/>
+    <path d="M-6 -30 Q0 -26 6 -30" fill="none" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 耳朵 -->
+    <circle cx="-20" cy="-45" r="7" fill="#8d5a36"/>
+    <circle cx="20" cy="-45" r="7" fill="#8d5a36"/>
+    <!-- 长尾巴 -->
+    <path d="M20 10 Q60 30 80 0 Q90 -20 70 -30 Q60 -10 50 10" fill="none" stroke="#8d5a36" stroke-width="7" stroke-linecap="round"/>
+    <text x="0" y="70" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">猴子·长</text>
+  </g>
+
+  <!-- 兔子（尾巴短） -->
+  <g transform="translate(290,400)">
+    <ellipse cx="0" cy="0" rx="26" ry="24" fill="#e8e0d0"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-30" r="20" fill="#e8e0d0"/>
+    <!-- 长耳朵 -->
+    <ellipse cx="-8" cy="-55" rx="6" ry="18" fill="#e8e0d0"/>
+    <ellipse cx="8" cy="-55" rx="6" ry="18" fill="#e8e0d0"/>
+    <ellipse cx="-8" cy="-55" rx="3" ry="12" fill="#e07856"/>
+    <ellipse cx="8" cy="-55" rx="3" ry="12" fill="#e07856"/>
+    <!-- 眼睛 -->
+    <circle cx="-7" cy="-32" r="2.5" fill="#c84a3a"/>
+    <circle cx="7" cy="-32" r="2.5" fill="#c84a3a"/>
+    <!-- 鼻子 -->
+    <ellipse cx="0" cy="-24" rx="2.5" ry="2" fill="#e07856"/>
+    <!-- 短尾巴 -->
+    <circle cx="22" cy="0" r="9" fill="#fef9ed" stroke="#c8843a" stroke-width="1.5"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">兔子·短</text>
+  </g>
+
+  <!-- 松鼠（尾巴像伞） -->
+  <g transform="translate(440,390)">
+    <ellipse cx="0" cy="0" rx="24" ry="26" fill="#c8843a"/>
+    <!-- 头 -->
+    <circle cx="0" cy="-32" r="18" fill="#c8843a"/>
+    <!-- 耳朵 -->
+    <ellipse cx="-10" cy="-48" rx="5" ry="10" fill="#c8843a"/>
+    <ellipse cx="10" cy="-48" rx="5" ry="10" fill="#c8843a"/>
+    <circle cx="-7" cy="-34" r="2.5" fill="#1a1a1a"/>
+    <circle cx="7" cy="-34" r="2.5" fill="#1a1a1a"/>
+    <!-- 大蓬松尾巴（像伞） -->
+    <path d="M15 -5 Q55 -40 50 -80 Q30 -95 10 -70 Q25 -50 15 -5 Z" fill="#e0a050"/>
+    <path d="M20 -10 Q48 -35 45 -70 Q30 -80 15 -60" fill="none" stroke="#c8843a" stroke-width="2"/>
+    <text x="0" y="50" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">松鼠·像伞</text>
+  </g>
+
+  <!-- 公鸡（尾巴弯） -->
+  <g transform="translate(590,400)">
+    <ellipse cx="0" cy="0" rx="24" ry="22" fill="#e07856"/>
+    <!-- 头 -->
+    <circle cx="-12" cy="-22" r="14" fill="#e07856"/>
+    <!-- 鸡冠 -->
+    <path d="M-18 -34 Q-15 -42 -10 -36 Q-6 -44 -2 -36 Q2 -42 4 -32 Z" fill="#c84a3a"/>
+    <!-- 嘴 -->
+    <path d="M-26 -20 L-32 -18 L-26 -16 Z" fill="#c8843a"/>
+    <!-- 眼睛 -->
+    <circle cx="-14" cy="-24" r="2.5" fill="#1a1a1a"/>
+    <!-- 弯弯尾羽 -->
+    <path d="M18 -5 Q50 -20 60 -50 Q55 -30 45 -10" fill="#c84a3a" stroke="#7a3b14" stroke-width="1.5"/>
+    <path d="M20 0 Q55 0 65 -30 Q58 -10 48 5" fill="#e07856" stroke="#7a3b14" stroke-width="1.5"/>
+    <!-- 腿 -->
+    <line x1="-5" y1="22" x2="-5" y2="40" stroke="#c8843a" stroke-width="3"/>
+    <line x1="8" y1="22" x2="8" y2="40" stroke="#c8843a" stroke-width="3"/>
+    <text x="0" y="60" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">公鸡·弯</text>
+  </g>
+
+  <!-- 鸭子（尾巴扁） -->
+  <g transform="translate(710,410)">
+    <ellipse cx="0" cy="0" rx="26" ry="20" fill="#fef9ed" stroke="#c8843a" stroke-width="2"/>
+    <!-- 头 -->
+    <circle cx="-18" cy="-15" r="14" fill="#fef9ed" stroke="#c8843a" stroke-width="2"/>
+    <!-- 嘴 -->
+    <ellipse cx="-32" cy="-12" rx="9" ry="5" fill="#c8843a"/>
+    <circle cx="-20" cy="-18" r="2.5" fill="#1a1a1a"/>
+    <!-- 扁尾巴 -->
+    <path d="M22 0 L40 -4 L40 4 Z" fill="#c8843a"/>
+    <text x="0" y="45" text-anchor="middle" font-family="serif" font-size="13" fill="#7a3b14" font-weight="bold">鸭子·扁</text>
+  </g>
+
+  <!-- 孔雀（尾巴最好看）顶部展开 -->
+  <g transform="translate(400,200)">
+    <text x="0" y="-95" text-anchor="middle" font-family="serif" font-size="14" fill="#c84a3a" font-weight="bold">孔雀·最好看</text>
+    <!-- 尾屏 -->
+    <g>
+      <ellipse cx="-120" cy="20" rx="14" ry="32" fill="#6a8d3f" transform="rotate(-60 -120 20)"/>
+      <ellipse cx="-90" cy="0" rx="14" ry="32" fill="#4a6a2f" transform="rotate(-45 -90 0)"/>
+      <ellipse cx="-60" cy="-15" rx="14" ry="32" fill="#6a8d3f" transform="rotate(-25 -60 -15)"/>
+      <ellipse cx="-30" cy="-22" rx="14" ry="32" fill="#4a6a2f" transform="rotate(-10 -30 -22)"/>
+      <ellipse cx="0" cy="-25" rx="14" ry="32" fill="#6a8d3f"/>
+      <ellipse cx="30" cy="-22" rx="14" ry="32" fill="#4a6a2f" transform="rotate(10 30 -22)"/>
+      <ellipse cx="60" cy="-15" rx="14" ry="32" fill="#6a8d3f" transform="rotate(25 60 -15)"/>
+      <ellipse cx="90" cy="0" rx="14" ry="32" fill="#4a6a2f" transform="rotate(45 90 0)"/>
+      <ellipse cx="120" cy="20" rx="14" ry="32" fill="#6a8d3f" transform="rotate(60 120 20)"/>
+    </g>
+    <!-- 尾屏上的眼斑 -->
+    <g>
+      <circle cx="-95" cy="0" r="6" fill="#7ab8d8"/><circle cx="-95" cy="0" r="3" fill="#c84a3a"/>
+      <circle cx="-55" cy="-18" r="6" fill="#7ab8d8"/><circle cx="-55" cy="-18" r="3" fill="#c84a3a"/>
+      <circle cx="0" cy="-28" r="6" fill="#7ab8d8"/><circle cx="0" cy="-28" r="3" fill="#c84a3a"/>
+      <circle cx="55" cy="-18" r="6" fill="#7ab8d8"/><circle cx="55" cy="-18" r="3" fill="#c84a3a"/>
+      <circle cx="95" cy="0" r="6" fill="#7ab8d8"/><circle cx="95" cy="0" r="3" fill="#c84a3a"/>
+    </g>
+    <!-- 孔雀身体 -->
+    <ellipse cx="0" cy="30" rx="20" ry="24" fill="#4a6a2f"/>
+    <circle cx="0" cy="10" r="12" fill="#4a6a2f"/>
+    <circle cx="-4" cy="8" r="2" fill="#fef9ed"/>
+    <circle cx="4" cy="8" r="2" fill="#fef9ed"/>
+    <!-- 头冠 -->
+    <line x1="0" y1="-2" x2="0" y2="-8" stroke="#4a6a2f" stroke-width="2"/>
+    <circle cx="0" cy="-10" r="3" fill="#6a8d3f"/>
+  </g>
+
+  <text x="400" y="575" text-anchor="middle" font-family="serif" font-size="16" fill="#7a3b14">谁的尾巴长？谁的尾巴短？谁的尾巴最好看？</text>
+</svg>
