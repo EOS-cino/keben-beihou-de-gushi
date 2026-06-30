@@ -625,7 +625,7 @@ const articleJsonLd = {
           if (skipTags.includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
           if (parent.closest("ruby")) return NodeFilter.FILTER_REJECT;
           // Only process text with Chinese characters
-          if (/[\u4e00-\u9fff]/.test(node.textContent)) return NodeFilter.FILTER_ACCEPT;
+          if (/[\u4e00-\u9fff]/.test(node.textContent || "")) return NodeFilter.FILTER_ACCEPT;
           return NodeFilter.FILTER_REJECT;
         },
       });
@@ -1621,7 +1621,7 @@ const articleJsonLd = {
     const tfData = (function() {
       const statements: { text: string; correct: boolean; explanation: string }[] = [];
       // Generate from takeaways (all true)
-      const takeawayItems = JSON.parse(quizSection.dataset.questions || "[]") as string[];
+      const takeawayItems = JSON.parse(quizSection?.dataset.questions || "[]") as string[];
       // Generate from glossary (true statements)
       for (const g of glossaryData.slice(0, 3)) {
         statements.push({
@@ -1896,10 +1896,11 @@ const articleJsonLd = {
     const notesList = document.getElementById("notesList");
     const articleBodyEl2 = document.querySelector<HTMLElement>(".article-body");
 
-    function getNotes(): { slug: string; selectedText: string; note: string; timestamp: number }[] {
+    type NoteItem = { slug: string; selectedText: string; note: string; timestamp: number };
+    function getNotes(): NoteItem[] {
       try { return JSON.parse(localStorage.getItem(NOTES_KEY) || "[]"); } catch { return []; }
     }
-    function saveNotes(notes: typeof getNotes) {
+    function saveNotes(notes: NoteItem[]) {
       localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
     }
 

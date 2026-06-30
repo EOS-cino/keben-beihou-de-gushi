@@ -305,7 +305,7 @@ const withBase = (path: string) => `${base}${path.replace(/^\//, "")}`;
 
     // Check grade badge
     if (done === total && total > 0) {
-      const badgeId = `grade-${["one", "two", "three", "four", "five", "six"][gradeOrder.indexOf(grade)]}`;
+      const badgeId = `grade-${["one", "two", "three", "four", "five", "six"][["一年级", "二年级", "三年级", "四年级", "五年级", "六年级"].indexOf(grade)]}`;
       const badge = document.querySelector(`[data-badge="${badgeId}"]`);
       if (badge) {
         badge.classList.remove("locked");

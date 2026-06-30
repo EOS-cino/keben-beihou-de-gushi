@@ -390,7 +390,7 @@ const totalLessons = lessons.length;
           if (visible) visibleCount += 1;
 
           // Highlight keyword in card title
-          const titleEl = card.querySelector("h3 a") || card.querySelector("h3");
+          const titleEl = (card.querySelector("h3 a") || card.querySelector("h3")) as HTMLElement | null;
           if (titleEl) {
             const originalText = titleEl.dataset.original || titleEl.textContent || "";
             if (!titleEl.dataset.original) titleEl.dataset.original = originalText;
